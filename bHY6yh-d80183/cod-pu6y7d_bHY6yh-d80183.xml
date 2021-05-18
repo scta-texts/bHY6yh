@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 12</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 12</title>
+               <date when="2021-05-18">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d80183"><!-- p4l3-r12 -->
+            <head xml:id="bHY6yh-d80183-Hd1e108">Rubrica 12</head>
+            <head xml:id="bHY6yh-d80183-Hd1e111" type="question-title">De preciositate et vilitate</head>
+            <p xml:id="bHY6yh-d80183-d1e114">
+               <lb ed="#V" n="59"/>
+      ¶ De preciositate et vilitate. Rubrica. 12
+    </p>
+            <p xml:id="bHY6yh-d80183-d1e119">
+               <lb ed="#V" n="60"/>Sneca in epstolus ad lucili. li.
+      <lb ed="#V" n="61"/>8. e. 2. et pe. <quote xml:id="bHY6yh-d80183-Qd1e125">Uile vi
+        <lb ed="#V" n="62"/> detur quicquid patet. </quote>
+            </p>
+            <p xml:id="bHY6yh-d80183-d1e131">
+               <lb ed="#V" n="63"/>
+               <quote xml:id="bHY6yh-d80183-Qd1e135">¶ Uegetius de re mili. li. 3. t. 26 et
+        <lb ed="#V" n="64"/>fi. Usitata vilescunt.
+        <lb ed="#V" n="65"/>Marcialis cocus vel vndique suscepto. c. 3.
+        <lb ed="#V" n="66"/>Uilia diuitibus notum est plerumque placere.
+        <lb ed="#V" n="67"/>Non quod sint vilia: sed quia rara line.
+        <lb ed="#V" n="68"/>Sic plerumque praemit praeciosa frequentior vsus. </quote>
+            </p>
+            <p xml:id="bHY6yh-d80183-d1e150">
+               <lb ed="#V" n="69"/>
+               <quote xml:id="bHY6yh-d80183-Qd1e154">¶ Prosper sub. 66 emp. Ultro oblatorum
+        <lb ed="#V" n="70"/>vilius est precium. </quote>
+            </p>
+            <p xml:id="bHY6yh-d80183-d1e160">
+               <lb ed="#V" n="71"/>
+               <quote xml:id="bHY6yh-d80183-Qd1e164">¶ Uersificator sabularnm esopi. f. 22.
+        <lb ed="#V" n="72"/>Omne boni precium nimio vilescit in vsu. </quote>
+            </p>
+            <p xml:id="bHY6yh-d80183-d1e170">
+               <lb ed="#V" n="73"/>
+               <quote xml:id="bHY6yh-d80183-Qd1e174">¶ Andreas ad gualterium de amore: li. i. Uili
+        <lb ed="#V" n="74"/>us res venalitati exposita compatur: quam si
+        <lb ed="#V" n="75"/>venditor ab emptore rogetur. </quote>
+            </p>
+            <p xml:id="bHY6yh-d80183-d1e182">
+               <lb ed="#V" n="76"/>
+               <quote xml:id="bHY6yh-d80183-Qd1e186">¶ heinricus samariensis. vel. i. peatur. i. Omne quod
+        <lb ed="#V" n="77"/>est crebrum nimio vilescit in vsu.
+        <lb ed="#V" n="78"/>Omne quod est rarum carius esse solet. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

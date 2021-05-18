@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 12</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 12</title>
+               <date when="2021-05-18">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d66758"><!-- p3l6-r12 -->
+            <head xml:id="bHY6yh-d66758-Hd1e108">Rubrica 12</head>
+            <head xml:id="bHY6yh-d66758-Hd1e111" type="question-title">De electis benedictionibus</head>
+            <p xml:id="bHY6yh-d66758-d1e114">
+               <lb ed="#V" n="40"/>
+      ¶ De electis benedictionibus.
+      <lb ed="#V" n="41"/>Rubrica. 12.
+    </p>
+            <p xml:id="bHY6yh-d66758-d1e121">
+               <lb ed="#V" n="42"/> genesi. c. 2. <quote xml:id="bHY6yh-d66758-Qd1e125">za
+        <lb ed="#V" n="43"/>ach benedi
+        <lb ed="#V" n="44"/>xit filio suo iacob: qui postea cog
+        <lb ed="#V" n="45" break="no"/>minatus est israel his verbis. Det <!--203.xml-->
+        <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="46"/>tibi deus de rore celi et de pinguedine terre
+        <lb ed="#V" n="47"/>abundantiam furmenti et vini et olet: et ser
+        <lb ed="#V" n="48" break="no"/>uiant tibi populi etc. Qui maledixerit tibi
+        <lb ed="#V" n="49"/>sit ille maledictus: et qui benedixerit tibi be
+        <lb ed="#V" n="50"/>nedictionibus repleatur. </quote>
+            </p>
+            <p xml:id="bHY6yh-d66758-d1e150"> /
+      <quote xml:id="bHY6yh-d66758-Qd1e152"> 28. c. Secunda be
+        <lb ed="#V" n="51"/>nedictio isaac ad iacob filium suum. Deus
+        <lb ed="#V" n="52"/>omnipotens benedicat tibi: et crescere te fa
+        <lb ed="#V" n="53" break="no"/>ciat atque multiplicet: vt sis in turbas popu
+        <lb ed="#V" n="54" break="no"/>lorum: et det tibi benedictiones abraam: et
+        <lb ed="#V" n="55"/>semini tuo post te. </quote>
+            </p>
+            <p xml:id="bHY6yh-d66758-d1e167">
+               <lb ed="#V" n="56"/>
+               <quote xml:id="bHY6yh-d66758-Qd1e171">¶ Quidius de phylomena. Tum valeas felix
+        <lb ed="#V" n="57"/>ceu longo tempore fenix.
+        <lb ed="#V" n="58"/>Te foueat tellus veluti pupille vitellus. </quote>
+            </p>
+            <p xml:id="bHY6yh-d66758-d1e179">
+               <lb ed="#V" n="59"/>
+               <quote xml:id="bHY6yh-d66758-Qd1e183">¶ Paulus apostolus epistola. 2 ad corin
+        <lb ed="#V" n="60" break="no"/>thios. c. 13. et finali: Gra domini nostri ie
+        <lb ed="#V" n="61" break="no"/>su christi et charitas dei: et communicatio scti
+        <lb ed="#V" n="62"/>spiritus sit cum omnibus vobis. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

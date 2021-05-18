@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4</title>
+               <date when="2021-05-18">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d59050"><!-- p3l4-r4 -->
+            <head xml:id="bHY6yh-d59050-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-d59050-Hd1e111" type="question-title">De promotione ingeniositatis et artificiositatis</head>
+            <p xml:id="bHY6yh-d59050-d1e114">
+               <lb ed="#V" n="1"/>
+      ¶ De promotione ingeniositatis
+      <lb ed="#V" n="2"/>et artificiositatis. Rubrica. 4
+    </p>
+            <p xml:id="bHY6yh-d59050-d1e121">
+               <lb ed="#V" n="3"/>Alustius in catilinario.
+      <lb ed="#V" n="4"/>
+               <quote xml:id="bHY6yh-d59050-Qd1e127">Ubi intende
+        <lb ed="#V" n="5"/>ris ingenium valet.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d59050-d1e133">
+               <lb ed="#V" n="6"/>
+               <quote xml:id="bHY6yh-d59050-Qd1e137">¶ Ouidius de arte amandi. li. 2.
+        <lb ed="#V" n="7"/>Ingenium mala sepe mouent. </quote>
+            </p>
+            <p xml:id="bHY6yh-d59050-d1e144"> /
+      <quote xml:id="bHY6yh-d59050-Qd1e146"> Idem me
+        <lb ed="#V" n="8" break="no"/>thamorph. li. 6. Grande doloris Ingenium
+        <lb ed="#V" n="9"/>est minserisque venit solertia rebus. </quote>
+            </p>
+            <p xml:id="bHY6yh-d59050-d1e154">
+               <lb ed="#V" n="10"/>
+               <quote xml:id="bHY6yh-d59050-Qd1e158">¶ Auctor vel qui dicitur pampylus. c. 30 Con
+        <lb ed="#V" n="11"/>cipit ingentes animos inanis egestas. Et fa
+        <lb ed="#V" n="12"/>cit hc hominem sepius artificem. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

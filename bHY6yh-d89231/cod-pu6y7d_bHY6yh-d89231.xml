@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 9</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 9</title>
+               <date when="2021-05-18">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d89231"><!-- p4l5-r9 -->
+            <head xml:id="bHY6yh-d89231-Hd1e108">Rubrica 9</head>
+            <head xml:id="bHY6yh-d89231-Hd1e111" type="question-title">De incestuoso et nephario coitu</head>
+            <p xml:id="bHY6yh-d89231-d1e114">
+               <lb ed="#V" n="54"/>
+      ¶ De incestuoso et nephario coi
+      <lb ed="#V" n="55" break="no"/>tu. Rubrica. 9.
+    </p>
+            <p xml:id="bHY6yh-d89231-d1e121">
+               <lb ed="#V" n="56"/>A leuitico ca. <quote xml:id="bHY6yh-d89231-Qd1e125">cu
+        <lb ed="#V" n="57"/>masculo
+        <lb ed="#V" n="58"/>non commisceberis coitu femineo:
+        <lb ed="#V" n="59"/>quea abhomiatio est. </quote>
+            </p>
+            <p xml:id="bHY6yh-d89231-d1e135"> /
+      <quote xml:id="bHY6yh-d89231-Qd1e137"> 20. c. Qui dor
+        <lb ed="#V" n="60"/>mierit cum masculo coitu femineo: vtrique ope
+        <lb ed="#V" n="61"/>rati sunt nephas morte: moriantur. Qui su
+        <lb ed="#V" n="62" break="no"/>pra vxorem filiam duxerit matrem eius: sce
+        <lb ed="#V" n="63"/>lus operatus est: viuus ardebit cum eis. Qui
+        <lb ed="#V" n="64"/>cum iumento et pecore coierit: morte moria
+        <lb ed="#V" n="65"/>tur: pecus quoque occidite. Mulier que suc
+        <lb ed="#V" n="66" break="no"/>cubuerit cuilibet iumento: simul interficie.
+        <lb ed="#V" n="67"/>tur cum eo. </quote>
+            </p>
+            <p xml:id="bHY6yh-d89231-d1e159">
+               <lb ed="#V" n="68"/>
+               <quote xml:id="bHY6yh-d89231-Qd1e163">¶ Moyses in deuteronomio. c. 27. Malet
+        <lb ed="#V" n="69"/>dictus qui dormierit cum vxore patris sui.
+        <lb ed="#V" n="70"/>Maledictus homo qui dormierit cum omni iu
+        <lb ed="#V" n="71"/>mento. Maledictus qui dormierit cum so
+        <lb ed="#V" n="72" break="no"/>rore sua. Maledictus qui dormierit cum
+        <lb ed="#V" n="73"/>socru sua. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

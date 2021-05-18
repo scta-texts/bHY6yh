@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 12</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 12</title>
+               <date when="2021-05-18">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d74797"><!-- p4l2-r12 -->
+            <head xml:id="bHY6yh-d74797-Hd1e108">Rubrica 12</head>
+            <head xml:id="bHY6yh-d74797-Hd1e111" type="question-title">De exemplis acceptate paupertatis illustrium virorum</head>
+            <p xml:id="bHY6yh-d74797-d1e114">
+               <lb ed="#V" n="39"/>
+      ¶ De exemptis acceptate pauperta
+      <lb ed="#V" n="40"/>tis illustrium virorum. Rubrica. 12.
+    </p>
+            <p xml:id="bHY6yh-d74797-d1e121">
+               <lb ed="#V" n="41"/>CRontinus ib. 2. i. 3 .
+      <lb ed="#V" n="42"/>
+               <quote xml:id="bHY6yh-d74797-Qd1e127">Aulius re
+        <lb ed="#V" n="43"/>gulus cum summis rebus profuisset
+        <lb ed="#V" n="44"/>adeo pauper fuit vt se coniugem li
+        <lb ed="#V" n="45"/>berosque toleraret agello qui collebatur per <!--225.xml-->
+        <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="46"/>vnum vilicum. Sneus scipio post tres pro
+        <lb ed="#V" n="47" break="no"/>spere gestas in hyspania in summa pauperta
+        <lb ed="#V" n="48" break="no"/>te decessit. Ne ea quidem relicta pecunia qua
+        <lb ed="#V" n="49"/>sufficeret in dotem feminarum: quas ob in
+        <lb ed="#V" n="50"/>opiam publice dotauit senatus. Curius cum
+        <lb ed="#V" n="51"/>victis ab eo sabinis ex senatusconsulto am
+        <lb ed="#V" n="52"/>pliaretur modus agri quem consummati mili
+        <lb ed="#V" n="53" break="no"/>tes accipiebant gregalium portione conten
+        <lb ed="#V" n="54" break="no"/>tus fuit: malum ciuem dicens cui non esset
+        <lb ed="#V" n="55"/>id quod ceteris satis. Laminius qui corin
+        <lb ed="#V" n="56" break="no"/>th. capata non Italiam solum sed etiam pro
+        <lb ed="#V" n="57" break="no"/>uinciam tabulis statuisque exornauit adeo ni
+        <lb ed="#V" n="58"/>hil extantis manibus in suum conuertit vt
+        <lb ed="#V" n="59"/>filiam eius inopem senatus ex publico dotauerit</quote> 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

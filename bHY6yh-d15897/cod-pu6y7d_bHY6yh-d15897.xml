@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 9</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 9</title>
+               <date when="2021-05-18">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d15897"><!-- p1l3-r9 -->
+            <head xml:id="bHY6yh-d15897-Hd1e108">Rubrica 9</head>
+            <head xml:id="bHY6yh-d15897-Hd1e111" type="question-title">De salute corporis</head>
+            <p xml:id="bHY6yh-d15897-d1e114">
+               <lb ed="#V" n="4"/>
+      ¶ De salute corporis conside
+      <lb ed="#V" n="5"/>ratione morali. Rubrica. 9
+      
+    </p>
+            <p xml:id="bHY6yh-d15897-d1e121">
+               <lb ed="#V" n="6"/>ARistotel ethincorum
+      <lb ed="#V" n="7"/>es ibho. i. c.
+      <lb ed="#V" n="8"/>4. <quote xml:id="bHY6yh-d15897-Qd1e129">Desiderabilissimum est sanum esse.
+        <lb ed="#V" n="9"/>l. </quote>
+            </p>
+            <p xml:id="bHY6yh-d15897-d1e135"> /
+      <quote xml:id="bHY6yh-d15897-Qd1e137"> Idem retho. lib. i. ca. 5. Corporis
+        <lb ed="#V" n="10"/>virtus est sanitas. </quote>
+            </p>
+            <p xml:id="bHY6yh-d15897-d1e144"> /
+      <quote xml:id="bHY6yh-d15897-Qd1e146"> Li. 2 c. 21 Uiro sanum
+        <lb ed="#V" n="11"/>esse optimum est: vt nobis videtur. </quote>
+            </p>
+            <p xml:id="bHY6yh-d15897-d1e152">
+               <lb ed="#V" n="12"/>
+               <quote xml:id="bHY6yh-d15897-Qd1e156">¶ Iesus filius sirach in eccl. c. 30. Non est
+        <lb ed="#V" n="13"/>census super censum salutis corporis. </quote>
+            </p>
+            <p xml:id="bHY6yh-d15897-d1e162">
+               <lb ed="#V" n="14"/>
+               <quote xml:id="bHY6yh-d15897-Qd1e166">¶ Tullius retho. artis vereris lib. 2. ca. 11.
+        <lb ed="#V" n="15"/>Incolumitas est salutis: tuta atque integra
+        <lb ed="#V" n="16"/>conseruatio. </quote>
+            </p>
+            <p xml:id="bHY6yh-d15897-d1e174">
+               <lb ed="#V" n="17"/>
+               <quote xml:id="bHY6yh-d15897-Qd1e178">¶ Iuuenalis lib. 4. satis i. Orandum est vt sit
+        <lb ed="#V" n="18"/>mens sana in corpore sano. </quote>
+            </p>
+            <p xml:id="bHY6yh-d15897-d1e184">
+               <lb ed="#V" n="19"/>
+               <quote xml:id="bHY6yh-d15897-Qd1e188">¶ Cato. c. 3. Corporis auxilium: medico com
+        <lb ed="#V" n="20"/>mitte fideli. Sit tibi precipue: quod primum
+        <lb ed="#V" n="21"/>est cura salutis. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

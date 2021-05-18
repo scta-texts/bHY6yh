@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5</title>
+               <date when="2021-05-18">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d65467"><!-- p3l6-r5 -->
+            <head xml:id="bHY6yh-d65467-Hd1e108">Rubrica 5</head>
+           <head xml:id="bHY6yh-d65467-Hd1e111" type="question-title">De partibus rethorice orationis: uidelicet de prohemio: prologo: 
+             prefatione: narratione: conclusione et epilogo</head>
+    
+    <p xml:id="bHY6yh-d65467-d1e114">
+               <lb ed="#V" n="44"/>
+      ¶ De partibus rethorice orationis
+      <lb ed="#V" n="45"/>scilicet de prohemino prologo: prefa¬ <!--199.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="46"/>ctione narratione conclusione
+      <lb ed="#V" n="47"/>et epilogo. Rubrica. 5.
+    </p>
+            <p xml:id="bHY6yh-d65467-d1e130">
+               <lb ed="#V" n="48"/>Aristotelis retho. li. 3. et fi. c.
+      <lb ed="#V" n="49"/>15 <quote xml:id="bHY6yh-d65467-Qd1e136">Necessarie par
+        <lb ed="#V" n="50" break="no"/>tes rethorice orationis sunt propositum:
+        <lb ed="#V" n="51"/>et persuasio: et epilogus </quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e144"> /
+      <quote xml:id="bHY6yh-d65467-Qd1e146"> 16. c. Pro
+        <lb ed="#V" n="52"/>hemium est principium orationis sicut in poesi pro
+        <lb ed="#V" n="53"/>logus et in fistulatione preludium: omnia enim
+        <lb ed="#V" n="54"/>hec principina sunt et velut breuiator ad sequens. </quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e157">
+               <lb ed="#V" n="55"/>
+               <quote xml:id="bHY6yh-d65467-Qd1e161">¶ Terentius in phormione. c. 17. Nihil est
+        <lb ed="#V" n="56"/>antulpho. Quin male narrando possit de
+        <lb ed="#V" n="57" break="no"/>prauarier. </quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e169">
+               <lb ed="#V" n="58"/>
+               <quote xml:id="bHY6yh-d65467-Qd1e173">¶ Tullius de oratore. li. 2. Narratio obscu
+        <lb ed="#V" n="59"/>ra totam obcecat narrationem. Si nota res
+        <lb ed="#V" n="60"/>est nec dubium quod gestum sit narrare non opor
+        <lb ed="#V" n="61" break="no"/>tet. Nec si aduersarius narrauit nisi refelle
+        <lb ed="#V" n="62" break="no"/>mus. Oportet vt edibus ac templis vestibu
+        <lb ed="#V" n="63" break="no"/>la et aditus sic causis principia proportione re
+        <lb ed="#V" n="64" break="no"/>rum proponere. Itaque in paruis atque in frequen
+        <lb ed="#V" n="65"/>tibus causis ab ipsa re est exordiri sepe commodi
+        <lb ed="#V" n="66"/>us. </quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e194"> /
+      <quote xml:id="bHY6yh-d65467-Qd1e196"> Idem retho. artis veteris. l. i. c. 14. et f.
+        <lb ed="#V" n="67"/>Conclusio est exitus et determinatio totius
+        <lb ed="#V" n="68"/>orationis. </quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e204">
+               <lb ed="#V" n="69"/>
+               <quote xml:id="bHY6yh-d65467-Qd1e208">¶ Lex dige. ti. de origine iuris. l. i. In foro causas
+        <lb ed="#V" n="70"/>dicentibus nephas: vt ita dixerim est nulla prae
+        <lb ed="#V" n="71" break="no"/>fatione facta iudici rem exponere. Prefatio
+        <lb ed="#V" n="72" break="no"/>nes et libentius nos ad lectionem proposite
+        <lb ed="#V" n="73"/>materie producunt et cum ibi venerimus huius
+        <lb ed="#V" n="74"/>euidentiorem prestant intellectum. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

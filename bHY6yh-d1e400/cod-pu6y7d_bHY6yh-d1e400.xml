@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 1</title>
+               <date when="2021-05-18">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="1-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d1e400"><!-- p1l1-r1 -->
+            <head xml:id="bHY6yh-d1e400-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d1e400-Hd1e111" type="question-title">De religione et superstitione</head>
+            <p xml:id="bHY6yh-d1e400-d1e114">
+               <pb ed="#V" n="1-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>PRime partis mo
+      <lb ed="#V" n="2" break="no"/>ralis compendii.
+      <lb ed="#V" n="3"/>Liber primus in
+      <lb ed="#V" n="4" break="no"/>cipit: tractans de
+      <lb ed="#V" n="5"/>religione et perti
+      <lb ed="#V" n="6" break="no"/>nentibus ad religio
+      <lb ed="#V" n="7"/>nem sub infrascri
+      <lb ed="#V" n="8"/>ptis quadraginta
+      <lb ed="#V" n="9"/>duobus titulis. 
+    </p>
+            <p xml:id="bHY6yh-d1e400-d1e140">
+               <lb ed="#V" n="10"/>¶ De religione et
+      <lb ed="#V" n="11"/>superstitione: Rubrica prima.
+    </p>
+            <p xml:id="bHY6yh-d1e400-d1e147">
+               <lb ed="#V" n="12"/>
+               <quote xml:id="bHY6yh-d1e400-Qd1e151">¶ Tullius de natura deorum libro i. Sanctitas est
+        <lb ed="#V" n="13"/>scientia colendorum deorum. </quote>
+            </p>
+            <p xml:id="bHY6yh-d1e400-d1e158"> ¶
+      <quote xml:id="bHY6yh-d1e400-Qd1e160"> Idem rethori
+        <lb ed="#V" n="14" break="no"/>corum artis vereris lib. 2. c. 9. Religio est virtus
+        <lb ed="#V" n="15"/>que superioris cuiusdam nature: quam diuinam
+        <lb ed="#V" n="16"/>notant curam: cerimoniamquem affert. </quote>
+            </p>
+            <p xml:id="bHY6yh-d1e400-d1e170">
+               <lb ed="#V" n="17"/>
+               <quote xml:id="bHY6yh-d1e400-Qd1e174">¶ Seneca declamationum lib. c. 8. Fortuna
+        <lb ed="#V" n="18"/>quos miseros facit: etiam superstitiosos facit </quote>
+            </p>
+            <p xml:id="bHY6yh-d1e400-d1e180">
+               <lb ed="#V" n="19"/>
+               <quote xml:id="bHY6yh-d1e400-Qd1e184">¶ Ualerius maximus: lib. 3 ti. de institutis
+        <lb ed="#V" n="20"/>antiquis: Maxilia ciuitas omnibus qui per ali
+        <lb ed="#V" n="21" break="no"/>quam religionis simulationem alimenta inertie
+        <lb ed="#V" n="22"/>querunt: clausas portas habet: mendacem et fu
+        <lb ed="#V" n="23"/>cosam superstitionem submouendam esse existimans </quote>
+            </p>
+            <p xml:id="bHY6yh-d1e400-d1e196">
+               <lb ed="#V" n="24"/>
+               <quote xml:id="bHY6yh-d1e400-Qd1e200">¶ Cecilius firmianus de beata vita: li. 3. Pec
+        <lb ed="#V" n="25"/>cati conscientia et metus pene religiosiorem facit. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

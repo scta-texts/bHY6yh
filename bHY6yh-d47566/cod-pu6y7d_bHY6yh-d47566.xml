@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 9</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 9</title>
+               <date when="2021-05-18">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="62-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d47566"><!-- p3l1-r9 -->
+            <head xml:id="bHY6yh-d47566-Hd1e108">Rubrica 9</head>
+            <head xml:id="bHY6yh-d47566-Hd1e111" type="question-title">De iudicio et prognosticatione futurorum</head>
+            <p xml:id="bHY6yh-d47566-d1e114">
+               <lb ed="#V" n="87"/>
+      ¶ De iudicio et pronosticatione
+      <lb ed="#V" n="88"/>futurorum. Rubrica. 9.
+    </p>
+            <p xml:id="bHY6yh-d47566-d1e121">
+               <lb ed="#V" n="89"/>SAlomon in prouerb. c. 20.
+      <lb ed="#V" n="90"/>
+               <quote xml:id="bHY6yh-d47566-Qd1e127">Penitus igno
+        <lb ed="#V" n="91" break="no"/>Tro viam viri in adolescentia sua.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d47566-d1e133">
+      <!--152.xml-->
+               <pb ed="#V" n="63-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>
+               <quote xml:id="bHY6yh-d47566-Qd1e143">¶ Sneca epistolarum ad lucillum lib. 5. e. 7. Ari
+        <lb ed="#V" n="2" break="no"/>ston aiebat velle se adolescentem tristem quam hi
+        <lb ed="#V" n="3"/>larem et amabilem turbe: vinum enim bonum fieri
+        <lb ed="#V" n="4"/>quod recens durum et asperum visum est </quote>
+            </p>
+            <p xml:id="bHY6yh-d47566-d1e154">
+               <lb ed="#V" n="5"/>
+               <quote xml:id="bHY6yh-d47566-Qd1e158">¶ Cassiodorus epistolarum. 12. et fi. e. 19 Neces
+        <lb ed="#V" n="6"/>se est vt res magna cum potentia praemittat. </quote>
+            </p>
+            <p xml:id="bHY6yh-d47566-d1e164">
+               <lb ed="#V" n="7"/>
+               <quote xml:id="bHY6yh-d47566-Qd1e168">¶ Uersificator fabularum esopi: fa. 59 fa. Pre
+        <lb ed="#V" n="8"/>teriti ratio scire futura facit. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 26</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 26</title>
+               <date when="2021-05-18">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="131-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e01615"><!-- p5l2-r26 -->
+            <head xml:id="bHY6yh-e01615-Hd1e108">Rubrica 26</head>
+           <head xml:id="bHY6yh-e01615-Hd1e111" type="question-title">De infidelitate suorum eminentium dissimulanda et caute corrigenda</head>
+    
+    <p xml:id="bHY6yh-e01615-d1e114">
+               <lb ed="#V" n="84"/>
+      ¶ De infidelitate suorum eminem
+      <lb ed="#V" n="85"/>tium dissimulanda et caute corri
+      <lb ed="#V" n="86" break="no"/>genda. Rubrica. 26
+    </p>
+            <p xml:id="bHY6yh-e01615-d1e123">
+      <!--301.xml-->
+               <pb ed="#V" n="131-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>CRontinus. Lbao. 3
+      <lb ed="#V" n="2"/>rti. 16. L.
+      <lb ed="#V" n="3"/>
+               <quote xml:id="bHY6yh-e01615-Qd1e138">Marcellus cognito consilio bartei
+        <lb ed="#V" n="4"/>1 nolani qui corrumpere ad defecti
+        <lb ed="#V" n="5" break="no"/>onem populares studebant et hannibali gra
+        <lb ed="#V" n="6" break="no"/>tificabant quod illius beneficio curatus intet
+        <lb ed="#V" n="7"/>canenses saucius: et ex captiuitate remissus
+        <lb ed="#V" n="8"/>ad suos erat qui interficere edes ne suppli
+        <lb ed="#V" n="9" break="no"/>cio. eius reliquos concitaret nolanos non
+        <lb ed="#V" n="10"/>audebat: accersitum ad se allocutus est dicens
+        <lb ed="#V" n="11"/>fortissimum eum militem quod ante ignorasset
+        <lb ed="#V" n="12"/>hortatusque est vt secum moraretur: et super
+        <lb ed="#V" n="13"/>verborum honorem equum quoque ei do
+        <lb ed="#V" n="14" break="no"/>nauit. Qua benignitate non illius tantum fidem:
+        <lb ed="#V" n="15"/>sed etiam popularium qui ex illo pendebant
+        <lb ed="#V" n="16"/>sibi obligauit. </quote>
+            </p>
+            <p xml:id="bHY6yh-e01615-d1e170"> /
+      <quote xml:id="bHY6yh-e01615-Qd1e172"> Li. 4. et fi. t. 7. et fi. O. Maxi
+        <lb ed="#V" n="17"/>mus tranfugere ad hostes volentem stan
+        <lb ed="#V" n="18" break="no"/>tem tabilium nobilem clare opere equitem
+        <lb ed="#V" n="19"/>vocari ad se iussit: eique se excusauit qui inui
+        <lb ed="#V" n="20"/>dia commilitonum virtutes illius ad ind tem
+        <lb ed="#V" n="21" break="no"/>pus ignorasset. Tum donato ei equo pecu
+        <lb ed="#V" n="22" break="no"/>niam insuper largitus obtinuit vt quem ex con
+        <lb ed="#V" n="23" break="no"/>scientia trepidum accersierat: letum admit
+        <lb ed="#V" n="24" break="no"/>teret: et ex dubio in reliquum non minus si
+        <lb ed="#V" n="25" break="no"/>delem quam fortem haberet equitem. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

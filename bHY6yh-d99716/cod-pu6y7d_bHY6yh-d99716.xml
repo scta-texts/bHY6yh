@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 14</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 14</title>
+               <date when="2021-05-18">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d99716"><!-- p5l2-r14 -->
+            <head xml:id="bHY6yh-d99716-Hd1e108">Rubrica 14</head>
+            <head xml:id="bHY6yh-d99716-Hd1e111" type="question-title">De experienda dubia fide suorum</head>
+            <p xml:id="bHY6yh-d99716-d1e114">
+               <lb ed="#V" n="11"/>
+      ¶ De experientia dubia fide suo
+      <lb ed="#V" n="12" break="no"/>rum. Rubrica. 14
+    </p>
+            <p xml:id="bHY6yh-d99716-d1e121">
+               <lb ed="#V" n="13"/>CRontinus. Li. 4. 2. .
+      <lb ed="#V" n="14"/> Thege
+      <lb ed="#V" n="15" break="no"/>nos atheniensis cum exercitum megaram
+      <lb ed="#V" n="16"/>lduceret petentibus ordines respondit
+      <lb ed="#V" n="17"/>ibi se daturum: deinde clam equites premisit
+      <lb ed="#V" n="18"/>eosque hostium specie in pratum in socios retor
+      <lb ed="#V" n="19" break="no"/>quere iussit. Quo facto cum tanquam ad hostium
+      <lb ed="#V" n="20"/>occursum prepararentur permisit: ita ordinari
+      <lb ed="#V" n="21"/>aciem vt quo quis voluisset loco consiste
+      <lb ed="#V" n="22" break="no"/>ret. Et cum inertissimus quisque retro se dedis
+      <lb ed="#V" n="23"/>set: strenui autem in fronte prosiliuissent vt quem
+      <lb ed="#V" n="24"/>cumque inuenerat stantem: ita ad ordines mili
+      <lb ed="#V" n="25" break="no"/>tes prouexit. 
+    </p>
+            <p xml:id="bHY6yh-d99716-d1e152"> /
+      <quote xml:id="bHY6yh-d99716-Qd1e154"> Ti. 7. Picrates dux athenien
+        <lb ed="#V" n="26" break="no"/>sium classem suam hostili habitu instruxit:
+        <lb ed="#V" n="27"/>et ad eos quos suspectos habebat inuectus
+        <lb ed="#V" n="28"/>cum effuso studio exciperetur deprehensa eorum
+        <lb ed="#V" n="29"/>perfidia oppidum diripuit. </quote>
+            </p>
+            <p xml:id="bHY6yh-d99716-d1e167">
+               <lb ed="#V" n="30"/>
+               <quote xml:id="bHY6yh-d99716-Qd1e171">¶ Uegetius de re mili. li. 3. ti. 26 et fi. Numquam
+        <lb ed="#V" n="31"/>miles in acie producendus est cuius antea
+        <lb ed="#V" n="32"/>experimenta non ceperis. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

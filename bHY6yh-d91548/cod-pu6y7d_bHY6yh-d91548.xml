@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 11</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 11</title>
+               <date when="2021-05-18">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d91548"><!-- p4l6-r11 -->
+            <head xml:id="bHY6yh-d91548-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-d91548-Hd1e111" type="question-title">De conseruatione aut separatione matrimonii</head>
+            <p xml:id="bHY6yh-d91548-d1e114"> 
+               <lb ed="#V" n="31"/>¶ De conseruatione aut separatione
+      <lb ed="#V" n="32"/>matrimonii. ¶ Rubrica. 11
+    </p>
+            <p xml:id="bHY6yh-d91548-d1e121">
+               <lb ed="#V" n="33"/>Attheus in euangelio
+      <lb ed="#V" n="34"/>c. 19. <quote xml:id="bHY6yh-d91548-Qd1e127">Quod de 
+        <lb ed="#V" n="35"/>/ us coniunxit homo non separet. </quote>
+            </p>
+            <p xml:id="bHY6yh-d91548-d1e133">
+               <lb ed="#V" n="36"/>
+               <quote xml:id="bHY6yh-d91548-Qd1e137">/ Idem no dixit Marcus. 10. c.
+        <lb ed="#V" n="37"/>Moyses ad duritiam cordis nti permisit vo
+        <lb ed="#V" n="38"/>bis dimittere vxores vestras. Quicumque dimi
+        <lb ed="#V" n="39"/>serit vxorem suam: excepta causa fornicationis et
+        <lb ed="#V" n="40"/>aliam duxerit mechabitur. Et qui dimissam du
+        <lb ed="#V" n="41"/>xerit mechatur. </quote>
+            </p>
+            <p xml:id="bHY6yh-d91548-d1e152"> /
+      <quote xml:id="bHY6yh-d91548-Qd1e154"> Idem luc. 16. c. </quote>
+            </p>
+            <p xml:id="bHY6yh-d91548-d1e158">
+               <lb ed="#V" n="42"/>
+               <quote xml:id="bHY6yh-d91548-Qd1e162">¶ Marcus in euangelio. c. 16. Quicumque di
+        <lb ed="#V" n="43" break="no"/>minserit vxorem suam et aliam duxerit: adulte
+        <lb ed="#V" n="44"/>rium committit super easa. Et si vxor dimiserit virum.
+        <lb ed="#V" n="45"/>suum et alii nupserit mechatur. <!--271.xml-->
+        <cb ed="#V" n="b"/>
+               </quote>
+            </p>
+            <p xml:id="bHY6yh-d91548-d1e176">
+               <lb ed="#V" n="46"/>
+               <quote xml:id="bHY6yh-d91548-Qd1e180">¶ Paulus apostolus: epistola. i. ad corinthi
+        <lb ed="#V" n="47"/>os. c. 7. Hi qui mierimonio iuncti sunt preci
+        <lb ed="#V" n="48" break="no"/>pio non ego: sed dominus vxorem a viro non di
+        <lb ed="#V" n="49" break="no"/>scedere. Quod si discesserit manere inupta:
+        <lb ed="#V" n="50"/>aut viro suo reconciliari. Et vir vxorem non
+        <lb ed="#V" n="51"/>dimittat. Alligatus es vxori: noli querere
+        <lb ed="#V" n="52"/>solutionem.
+      </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

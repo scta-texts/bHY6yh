@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 7</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 7</title>
+               <date when="2021-05-18">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d42729"><!-- p2l6-r7 -->
+            <head xml:id="bHY6yh-d42729-Hd1e108">Rubrica 7</head>
+            <head xml:id="bHY6yh-d42729-Hd1e111" type="question-title">De licentia facultate et regularitate</head>
+            <p xml:id="bHY6yh-d42729-d1e114">
+               <lb ed="#V" n="16"/>¶ De lnia facultate et regularitate. Rubr. 7.
+    </p>
+            <p xml:id="bHY6yh-d42729-d1e119">
+               <lb ed="#V" n="17"/>Frentius in heauton
+      <lb ed="#V" n="18" break="no"/> tumerume
+      <lb ed="#V" n="19" break="no"/>non c. 9. <quote xml:id="bHY6yh-d42729-Qd1e127">Deteriores omnes sumus lnia.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d42729-d1e131">
+               <lb ed="#V" n="20"/>
+               <quote xml:id="bHY6yh-d42729-Qd1e135">¶ Persius. 5. satis Apposita in tor
+        <lb ed="#V" n="21" break="no"/>tos extendit regula mores.
+        <lb ed="#V" n="22"/>Et premitur ratione animus vincique laborat. </quote>
+            </p>
+            <p xml:id="bHY6yh-d42729-d1e144">
+               <lb ed="#V" n="23"/>
+               <quote xml:id="bHY6yh-d42729-Qd1e148">¶ Seneca in epistolis ad lucillum lib. 2. e. 3. Ne
+        <lb ed="#V" n="24" break="no"/>mo est ex iprudentibus qui reliqui sibi deat. </quote>
+            </p>
+            <p xml:id="bHY6yh-d42729-d1e154">
+               <lb ed="#V" n="25"/>
+               <quote xml:id="bHY6yh-d42729-Qd1e158">¶ Gregorius in pastorali. c. 4. Plerumque qui in
+        <lb ed="#V" n="26"/>aduersitatis magisterio sub disciplina com
+        <lb ed="#V" n="27"/>primitur: si ad regiminis culmen eruperit in
+        <lb ed="#V" n="28"/>elationem vsu glorae permutatur.
+        <lb ed="#V" n="29"/>
+               </quote>
+            </p>
+            <p xml:id="bHY6yh-d42729-d1e170">
+               <lb ed="#V" n="30"/>
+               <quote xml:id="bHY6yh-d42729-Qd1e174">¶ Isidorus in sinonima soliloquiorum lib. 2.
+        <lb ed="#V" n="31"/>Sepe occasio peccandi voluntatem facit. </quote>
+            </p>
+            <p xml:id="bHY6yh-d42729-d1e180">
+               <lb ed="#V" n="32"/>
+               <quote xml:id="bHY6yh-d42729-Qd1e184">¶ Cassiodorus epistolarum li. 2. e. 13. Melius sper
+        <lb ed="#V" n="33"/>legum pondere pressa curatur audacia: et dum me
+        <lb ed="#V" n="34"/>tus talibus imponitur: peccandi licentia non prae
+        <lb ed="#V" n="35" break="no"/>betur. </quote>
+            </p>
+            <p xml:id="bHY6yh-d42729-d1e194"> /
+      <quote xml:id="bHY6yh-d42729-Qd1e196"> Li. 4. e. 35. Obrueret quippe inno
+        <lb ed="#V" n="36" break="no"/>centia si laxaretur audacia. </quote>
+            </p>
+            <p xml:id="bHY6yh-d42729-d1e202">
+               <lb ed="#V" n="37"/>
+               <quote xml:id="bHY6yh-d42729-Qd1e206">¶ Prouerb. vulg. Lo non e gatta: insorme ge
+        <lb ed="#V" n="38"/>balla. Quando gatta non e a cha: sorzme per
+        <lb ed="#V" n="39" break="no"/>uasar va. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

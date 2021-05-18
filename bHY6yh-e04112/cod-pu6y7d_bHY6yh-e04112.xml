@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 38</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 38</title>
+               <date when="2021-05-18">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e04112"><!-- p5l2-r38 -->
+            <head xml:id="bHY6yh-e04112-Hd1e108">Rubrica 38</head>
+            <head xml:id="bHY6yh-e04112-Hd1e111" type="question-title">De cautelis educendi exercitum de locis periculosis</head>
+            <p xml:id="bHY6yh-e04112-d1e114">
+               <lb ed="#V" n="13"/>De cautelis educendi exercitum de lo
+      <lb ed="#V" n="14" break="no"/>cis periculosis. Rubrica. 38
+    </p>
+            <p xml:id="bHY6yh-e04112-d1e121">
+               <lb ed="#V" n="15"/>CRontinus Li. c. i
+      <lb ed="#V" n="16"/> 
+               <quote xml:id="bHY6yh-e04112-Qd1e127">Mitri
+        <lb ed="#V" n="17" break="no"/>dates cireum valente pompeio fugan
+        <lb ed="#V" n="18"/>in proximam diem moliens: hui
+        <lb ed="#V" n="19"/>consilii obscurandi causa latius et vsque ad
+        <lb ed="#V" n="20"/>applicatas hosti valles pabulatus: colloquia
+        <lb ed="#V" n="21"/>quoque cum pluribus aduertende suspicatio
+        <lb ed="#V" n="22"/>nis causa in posterum constituit. Ignes autem
+        <lb ed="#V" n="23"/>frequentiores per tota castra fieri iussit. Se
+        <lb ed="#V" n="24"/>cunda deinde vigilia preter ipsa castra ho
+        <lb ed="#V" n="25" break="no"/>stium agmen eduxit. </quote>
+            </p>
+            <p xml:id="bHY6yh-e04112-d1e150"> /
+      <quote xml:id="bHY6yh-e04112-Qd1e152"> Li. 2 ti. 13. Triphon
+        <lb ed="#V" n="26"/>syrie rex victus per totum iter fugiens pecu
+        <lb ed="#V" n="27"/>niam sparsit. ideoque ei sectantes antiochi equi
+        <lb ed="#V" n="28"/>tes moratos effugit. </quote>
+            </p>
+            <p xml:id="bHY6yh-e04112-d1e163">
+               <lb ed="#V" n="29"/>
+               <quote xml:id="bHY6yh-e04112-Qd1e167">¶ Uegetius de re militari. el. 3. t. 22. Tui ne
+        <lb ed="#V" n="30"/>sciant te omnino recedere: quia declines inire
+        <lb ed="#V" n="31"/>conflictum: sed credant arte aliqua se ideo
+        <lb ed="#V" n="32"/>reuocari vt ad opportuniorem locum mu
+        <lb ed="#V" n="33" break="no"/>tentur: hostis vt facilius superetur: aut cer
+        <lb ed="#V" n="34" break="no"/>te insequentibus aduersariis secretiores col
+        <lb ed="#V" n="35"/>locentur insidie. Nam ad fugam parati sunt
+        <lb ed="#V" n="36"/>qui ducem suum sentiunt desperare. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

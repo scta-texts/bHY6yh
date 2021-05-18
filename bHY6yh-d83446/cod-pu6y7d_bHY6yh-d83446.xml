@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4</title>
+               <date when="2021-05-18">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d83446"><!-- p4l4-r4 -->
+            <head xml:id="bHY6yh-d83446-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-d83446-Hd1e111" type="question-title">De tedio</head>
+            <p xml:id="bHY6yh-d83446-d1e114">
+               <lb ed="#V" n="39"/>¶ De tedio. Rubrica. 4
+    </p>
+            <p xml:id="bHY6yh-d83446-d1e119">
+               <lb ed="#V" n="40"/> Uidius de ponto: li. 4. et
+      <lb ed="#V" n="41"/>fi. e. 10. <quote xml:id="bHY6yh-d83446-Qd1e125">Non bene
+        <lb ed="#V" n="42"/>L causatantes labor est audire puellas.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d83446-d1e131">
+               <lb ed="#V" n="43"/>
+               <quote xml:id="bHY6yh-d83446-Qd1e135">¶ Ambrosius de officiis: li. i. c. 2.
+        <lb ed="#V" n="44"/>Sermo tediosus iras excitat. </quote>
+            </p>
+            <p xml:id="bHY6yh-d83446-d1e142">
+               <lb ed="#V" n="45"/>
+               <quote xml:id="bHY6yh-d83446-Qd1e146">¶ Cassiodorus epistolarum: li. 6 e. 12 Im¬ <!--248.xml-->
+        <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="46"/>becillitas humana raro sustinere solet fasti
+        <lb ed="#V" n="47"/>dia </quote>
+            </p>
+            <p xml:id="bHY6yh-d83446-d1e158"> /
+      <quote xml:id="bHY6yh-d83446-Qd1e160"> Lib. 12. et fi. e. 22. Melius est debita
+        <lb ed="#V" n="48"/>frugibus soluere quam ementium fastidia sustinem. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
