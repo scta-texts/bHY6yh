@@ -47,9 +47,6 @@ jobs:
       - name: get tdf 
         run: wget -O schema/tdf.rng 'https://raw.githubusercontent.com/scta/tdf-schema/master/src/tdf-0.rng'
 
-      - name: test jing
-        run: java -jar jing.jar schema/critical.rng pg-b1q1/en_pg-b1q1.xml
-
       # Runs check
       - name: run validation checks
         run: |
