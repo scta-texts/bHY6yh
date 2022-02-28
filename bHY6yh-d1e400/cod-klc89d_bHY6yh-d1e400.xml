@@ -1,120 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Rubrica 1 [Klosterneuberg Transcription]</title>
-            <author ref="#per-c7y65a">Geremia da Montagnone</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Rubrica 1 [Klosterneuberg Transcription]</title>
-               <date when="2022-02-27">Februrary 27, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-               guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2022-02-27" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Ka" n="1-r"/>
-            <cb ed="#Ka" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="bHY6yh-d1e400"><!-- p1l1-r1 -->
-            <head xml:id="bHY6yh-d1e400-Hd1e108">Rubrica 1 [Klosterneuberg Transcription]</head>
-            <head xml:id="bHY6yh-d1e400-Hd1e111" type="question-title">De religione et superstitione</head>
-            <p xml:id="bHY6yh-d1e400-d1e114">
-               <lb ed="#P" n="1"/><unclear>Iuidit</unclear> istud opsu in quinque partes
-               <lb ed="#P" n="2"/>et quaelibet pars in suos libros et qui<lb ed="#P" break="no" n="3"/>libet 
-               liber in sua <sic>in sua</sic> capitula: et 
-               <lb ed="#P" n="4"/>Quodlibet capitulum in suas auctoritates sub in scr<lb ed="#P" break="no" n="5"/>iptione 
-               suorum <unclear>dutorum</unclear>
-            </p>
-            <p xml:id="bHY6yh-d1e400-d1e140">
-               <lb ed="#P" n="6"/>de religione et superstitione capitulum 
-               <lb ed="#P" n="7"/>primum
-            </p>
-            <p xml:id="bHY6yh-d1e400-d1e147">
-               <lb ed="#P" n="8"/><ref xml:id="bHY6yh-d1e400-Rd1e144">Tullius de natura deorum libro i.</ref> <quote xml:id="bHY6yh-d1e400-Qd1e151">Sanctitas est scientia 
-               co<lb ed="#P" break="no" n="9"/>lendorum deorum</quote>
-            </p>
-            <p xml:id="bHY6yh-d1e400-d1e158">
-               <lb ed="#P" n="10"/><ref xml:id="bHY6yh-d1e400-Rd1e157">Idem rethoricorum artis veteris lib. 2. c. 9.</ref> 
-                <lb ed="#P" n="11"/> <quote xml:id="bHY6yh-d1e400-Qd1e160">Religio est virtus que superioris cuiusdam nature
-                <lb ed="#P" n="12"/> quam diuinam notant curam: cerimoniamque affert.</quote>
-            </p>
-            <p xml:id="bHY6yh-d1e400-d1e170">
-              <lb ed="#P" n="13"/><ref xml:id="bHY6yh-d1e400-Rd1e172">Seneca declamationum lib. c. 8.</ref> <quote xml:id="bHY6yh-d1e400-Qd1e174">Fortuna
-             <lb ed="#P" n="14"/>quos miseros facit: etiam superstitiosos facit </quote>
-            </p>
-            <p xml:id="bHY6yh-d1e400-d1e172">
-               <!-- not in venice edition -->
-               <lb ed="#P" n="15"/><ref xml:id="bHY6yh-d1e400-Rd1e177">Valerius maximus libro primo capitulo primo</ref> <quote xml:id="bHY6yh-d1e400-Qd1e179">urbe enim</quote>
-               <lb ed="#P" n="16"/>a galbis capta cum flamen quirinalis virginesque 
-               <lb ed="#P" n="17"/>vestalem sacra onere partitio ferrent easque <unclear>imo<lb ed="#P" break="no" n="18"/>tem</unclear>
-               sublicium transgressas: et clivium qui ducit 
-               <lb ed="#P" n="19"/>ad iarniculum descendere incipientes lucius 
-               <lb ed="#P" n="20"/>nuanus plaustro coniugem / et liberos vehemens 
-               <lb ed="#P" n="21"/><sic>asperessisset</sic> proprior <unclear>pulbicae</unclear> religioni quam privat 
-               <lb ed="#P" n="22"/>suis / ut plaustro descenderent imparavit atque 
-               <lb ed="#P" n="23"/>ad id virgines / et sacra imposita obmisso 
-               <lb ed="#P" n="24"/>cepto itinere Ceretem opidum per vexit: ubi
-               <lb ed="#P" n="25"/>cum summa veneratione recepta adhoc usque 
-               <lb ed="#P" n="26"/>tempus hespitalem humanitatem testantur <unclear>p</unclear> enim 
-               <lb ed="#P" n="27"/>institutum est sacra cerimonias vocari quia 
-               <lb ed="#P" n="28"/>ceretani ea republicae <unclear>stat</unclear> facto perinde: <unclear>ae</unclear>
-               <lb ed="#P" n="29"/>Florente statu coluerunt
-            </p>
-            <p xml:id="bHY6yh-d1e400-d1e180">
-              <lb ed="#P" n="30"/><ref xml:id="bHY6yh-d1e400-Rd1e186">Idem libro ii ti de institutis <!--not sure of were to call the line break here so i'm making my best guess, it also seems that there is textual difference here--> antiquis:</ref> <quote xml:id="bHY6yh-d1e400-Qd1e184">Maxilia 
-                 <lb ed="#P" n="31"/>ciuitas omnibus qui per aliquam religionis simu<lb ed="#P" break="no" n="32"/>lationem 
-                 alimenta inertie querunt: portas cla<lb ed="#P" break="no" n="33"/>usas 
-                 habet: mendacem et fucosam superstitionem 
-                 <lb ed="#P" n="34"/>mouendam esse existimans</quote> 
-            </p> 
-            <p xml:id="bHY6yh-d1e400-d1e196">
-               <lb ed="#P" n="35"/><ref xml:id="bHY6yh-d1e400-Rd1e205"> Cecilius firmianus de beata vita: li. 3.</ref> 
-              <lb ed="#P" n="36"/><quote xml:id="bHY6yh-d1e400-Qd1e200">Peccati conscientia et metus pene religiosiorem
-              <lb ed="#P" n="37"/>facit.</quote>
-            </p>
-            <p xml:id="bHY6yh-d1e400-d1e258">
-               <!-- not in venice edition -->
-               <lb ed="#P" n="38"/><ref xml:id="bHY6yh-d1e400-Rd1e263">Virgilius libro primo georgicorum
-               <lb ed="#P" n="39"/>in primis</ref> <quote xml:id="bHY6yh-d1e400-Qd1e268">venerare deos</quote>
-            </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 1 [Klosterneuberg Transcription]</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 1 [Klosterneuberg Transcription]</title>
+          <date when="2022-02-27">Februrary 27, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-02-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Ka" n="6-r"/>
+        <cb ed="#Ka" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d1e400"><!-- p1l1-r1 -->
+        <head xml:id="bHY6yh-d1e400-Hd1e108">Rubrica 1 [Klosterneuberg Transcription]</head>
+        <head xml:id="bHY6yh-d1e400-Hd1e111" type="question-title">De religione et superstitione</head>
+        <p xml:id="bHY6yh-d1e400-d1e114">
+          <lb ed="#Ka"/>primae partis moralis conpendii 
+          <lb ed="#Ka"/>liber primus incipit tractatus de re<lb ed="#Ka"/>ligione 
+          et pertinentibus ad religionem 
+          <lb ed="#Ka"/>sub infra scriptis viginti quatuor 
+          <lb ed="#Ka"/>titulis etc
+        </p>
+        <p xml:id="bHY6yh-d1e400-d1e140">
+          <lb ed="#Ka"/>de religione et superstitione rubrica
+        </p>
+        <p xml:id="bHY6yh-d1e400-d1e147">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e400-Rd1e144">Tullius de natura deorum li i</ref> 
+          <lb ed="#Ka"/><quote xml:id="bHY6yh-d1e400-Qd1e151">sanctitas et scientia colendorum 
+          <lb ed="#Ka"/>deorum</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e400-d1e158">
+          <pc type="pilcrow"/> <ref xml:id="bHY6yh-d1e400-Rd1e157">Idem rethoricorum artis ve<lb ed="#Ka"/>teris 
+          li 5 c 9</ref> <quote xml:id="bHY6yh-d1e400-Qd1e160">Religio est virtus quae 
+          <lb ed="#Ka"/>superioris cuiusdam naturae quam diuinam vo<lb ed="#Ka"/>cant 
+          curam: cerimoniamque affert</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e400-d1e170">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e400-Rd1e172">Seneca declamationum li c 8</ref> <quote xml:id="bHY6yh-d1e400-Qd1e174"><sic>ffor<lb ed="#Ka"/>tuna</sic>
+          quos miseros facit etiam super<lb ed="#Ka"/>stitiosos 
+          eos facit</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e400-d1e172">
+          [omitted]
+        </p>
+        <p xml:id="bHY6yh-d1e400-d1e180">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e400-Rd1e186">valerius maximus li ii ti de institu<lb ed="#Ka"/>tis 
+            antiquis</ref> / <quote xml:id="bHY6yh-d1e400-Qd1e184">Massilia ciuitas 
+            <lb ed="#Ka"/>omnibus qui per aliquam religionis 
+            <lb ed="#Ka"/>simulationem alimenta inertie quaerunt  
+            <lb ed="#Ka"/>clausas portas habet mendacem et 
+            <lb ed="#Ka"/>fucosam superstitionem submouen<lb ed="#Ka"/>dam 
+            esse existimans</quote> 
+        </p> 
+        <p xml:id="bHY6yh-d1e400-d1e196">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e400-Rd1e205">Cecilius firmanus de beata vita 
+          <lb ed="#Ka"/><del rend="strikethrough">gnie</del> li x</ref> <quote xml:id="bHY6yh-d1e400-Qd1e200">peccati conscientia et me<lb ed="#Ka"/>tus 
+          pene religiosiorem facit</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e400-d1e258">
+          [omitted]
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
