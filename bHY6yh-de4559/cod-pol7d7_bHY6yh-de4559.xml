@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 17 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 17 [Krakow, lat 700 III Transcription]</title>
+               <date when="2021-05-18">May 30, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+             <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="K" n="13-v"/>
+            <cb ed="K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de4559"><!-- p1l1-r17 -->
+            <head xml:id="bHY6yh-de4559-Hd1e108">Rubrica 17</head>
+            <head xml:id="bHY6yh-de4559-Hd1e111" type="question-title">De voti religione</head>
+            <p xml:id="bHY6yh-de4559-d1e114">
+                De voti religione. Rubrica. 17
+    </p>
+            <p xml:id="bHY6yh-de4559-d1e119">  
+                <lb ed="#K"/> <ref xml:id="bHY6yh-de4559-Rd1e116">MOses in deutero ca 33</ref> <quote xml:id="bHY6yh-de4559-Qd1e123" source="http://scta.info/resource/deut23_21@1-23 http://scta.info/resource/deut23_22@1-6">Cum
+                <lb ed="#K"/>voto voueris domino deo tuo 
+                <lb ed="#K"/>non tardabis reddere que req<lb ed="#K" break="no"/>uiret 
+                illud dominus deus tuus 
+                <lb ed="#K"/>et si moratus fueris reputa<lb ed="#K" break="no"/>bit 
+                tibi in peccatum si nolueris 
+                  <pb ed="K" n="14-r"/>
+                  <cb ed="K" n="a"/>
+                <lb ed="#K" n="1"/>polliceri absque peccato eris</quote>
+            </p>
+            <p xml:id="bHY6yh-de4559-d1e144">
+                <lb ed="#K"/> <ref xml:id="bHY6yh-de4559-Rd1e143">Psalmista 49 psalmus</ref> <quote xml:id="bHY6yh-de4559-Qd1e148" source="http://scta.info/resource/ps49_14@6-9">Redde a<lb ed="#K" break="no"/>ltissimo 
+                vota tua</quote>
+            </p>
+            <p xml:id="bHY6yh-de4559-d1e158">
+                <ref xml:id="bHY6yh-de4559-Rd1e157">Idem 75 psalmus</ref> <quote xml:id="bHY6yh-de4559-Qd1e160" source="http://scta.info/resource/ps75_12@1-13">Uouete 
+                <lb ed="#K"/>et reddite domino deo vestro qui in 
+                <lb ed="#K"/>circuitum eius affertis munera</quote>
+            </p>
+            <p xml:id="bHY6yh-de4559-d1e166">
+                <lb ed="#K"/> <ref xml:id="bHY6yh-de4559-Rd1e169">Salomon in prouerb c 20</ref> <quote xml:id="bHY6yh-de4559-Qd1e170" source="http://scta.info/resource/prov20_25@1-9">Ruina est 
+                <lb ed="#K"/>homin deuouere sanctos et post vota 
+                <lb ed="#K"/>tractare</quote>
+            </p>
+            <p xml:id="bHY6yh-de4559-d1e176">
+              <ref xml:id="bHY6yh-de4559-Rd1e179">Idem in ecclesiaste c 5</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-de4559-Qd1e178" source="http://scta.info/resource/qoh5_3@1-18 http://scta.info/resource/qoh5_4@1-10">Si quid vouisti deo ne more<lb ed="#K" break="no"/>ris 
+              reddere displicet enim ei infide<lb ed="#K" break="no"/>lis 
+              et stulta promissio sed quodcunque 
+              <lb ed="#K"/>voueris redde multo melius est non 
+              <lb ed="#K"/>vouere quam post votum promissa non 
+              <lb ed="#K"/>reddere</quote>
+            </p>
+            <p xml:id="bHY6yh-de4559-d1e192">
+              <ref xml:id="bHY6yh-de4559-Rd1e200">soliloquiorum li 2 c 36 
+              <lb ed="#K"/>Isidorus </ref> <quote xml:id="bHY6yh-de4559-Qd1e196">In turpevotum muta decretum 
+              <lb ed="#K"/>quod incaute nouisti non facias 
+              <lb ed="#K"/>impia est promissio que scelere adimpletur</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
