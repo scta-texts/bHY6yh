@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 18 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 18 [Krakow, lat 700 III Transcription]</title>
+               <date when="2021-05-18">May 30, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb n="14-r"/>
+            <cb n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de4661">
+            <head xml:id="bHY6yh-de4661-Hd1e108">Rubrica 18</head>
+            <head xml:id="bHY6yh-de4661-Hd1e111" type="question-title">De iuramenti religione</head>
+            <p xml:id="bHY6yh-de4661-d1e114">
+                De iuramenti religione. Rubrica. 18
+            </p>
+            <p xml:id="bHY6yh-de4661-d1e119">
+               <lb ed="#K"/> <ref xml:id="bHY6yh-de4661-Rd1e116">In leuitico cap 19</ref> <quote xml:id="bHY6yh-de4661-Qd1e125" source="http://scta.info/resource/lev19_12@1-10">Non periura<lb ed="#K" break="no"/>bis 
+               in nomine meo nec pollues no<lb ed="#K" break="no"/>men 
+               domini dei tui</quote>
+            </p>
+            <p xml:id="bHY6yh-de4661-d1e133">
+             <ref xml:id="bHY6yh-de4661-Rd1e132">sirach in ecclesiastico cap 23
+             <lb ed="#K"/>Iesus filius</ref> <quote xml:id="bHY6yh-de4661-Qd1e137" source="http://scta.info/resource/sir23_9@1-10 http://scta.info/resource/sir23_12@1-5">Iurationi non 
+             <lb ed="#K"/>assuescat os tuum multi enim casus 
+             <lb ed="#K"/>in illa uir multum iurans implebitur 
+             <lb ed="#K"/>iniquitate</quote>
+            </p>
+            <p xml:id="bHY6yh-de4661-d1e148">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-de4661-Rd1e149">Mattheus in euange c 5</ref> <quote xml:id="bHY6yh-de4661-Qd1e152" source="http://scta.info/resource/mt5_34@5-14  http://scta.info/resource/mt5_35@1-16  http://scta.info/resource/mt5_36@1-14  http://scta.info/resource/mt5_37@1-16">Non iurare 
+              <lb ed="#K"/>omnino neque per caelum quia thronus dei est 
+              <lb ed="#K"/>neque per terram quia scabellum est pe<lb ed="#K" break="no"/>dum 
+              eius neque per hierosolymam quia 
+              <lb ed="#K"/>ciuitas est magni regis est necquo
+              <lb ed="#K"/>percapunt tuum inurabis quia non 
+              <lb ed="#K"/>potes vnum capillum album <!--check this later-->
+              <lb ed="#K"/>iugenes facere aut nigrum sit autem sermo vester 
+              <lb ed="#K"/>est non non quod autem his habundantius 
+              <lb ed="#K"/>est a malo est</quote>
+            </p>
+            <p xml:id="bHY6yh-de4661-d1e171">
+             <ref xml:id="bHY6yh-de4661-Rd1e174">c 5 et fi
+             <lb ed="#K"/>Iacobus in epistola vnica</ref> <quote xml:id="bHY6yh-de4661-Qd1e175" source="http://scta.info/resource/iac5_12@6-24">Nolite iurare neque 
+             <lb ed="#K"/>per caelum neque per terram neque
+             <lb ed="#K"/>aliud <sic>aliud</sic> inuramentum sit 
+             <lb ed="#K"/>aut sermo vester est est non non</quote>
+            </p>
+            <p xml:id="bHY6yh-de4661-d1e185"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-de4661-Rd1e190">Paulus apostolus epstola ad hebreos 
+              <lb ed="#K"/>6 c</ref> <quote xml:id="bHY6yh-de4661-Qd1e189" source="http://scta.info/resource/hebr6_16@1-15">Homines per maiorem sui 
+                  <cb n="b"/>
+              <lb ed="#K" n="1"/>iurant et omnis controuersie eorum fi<lb ed="#K" break="no"/>nis 
+              est iuramentum serua</quote> <!--check this-->
+            </p>
+            <p xml:id="bHY6yh-de4661-d1e199">
+                 <lb ed="#K"/> <ref xml:id="bHY6yh-de4661-Rd1e206">Cato c i iusiurandum serua</ref> 
+            </p>
+            <p xml:id="bHY6yh-de4661-d1e207"> 
+                <lb ed="#K"/> <ref xml:id="bHY6yh-de4661-Rd1e215">Isidorus solilo lib 2 c 35</ref> 
+                <lb ed="#K"/> <quote xml:id="bHY6yh-de4661-Qd1e211">Assiduitas iurandi periurii co <lb ed="#K" break="no"/>nsuetudinem 
+                facit usus iurandi ad 
+                <lb ed="#K"/>periurium ducit sit in ore tuo est
+                <lb ed="#K"/>sit in ore tuo non est veritas 
+                 <lb ed="#K"/>iuramen to non indiget</quote>
+            </p>
+            <p xml:id="bHY6yh-de4661-d1e223"> 
+              <quote xml:id="bHY6yh-de4661-Qd1e225">F<lb ed="#K" break="no"/>irma 
+              sit sacramenti tui fides</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
