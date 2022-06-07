@@ -2,18 +2,23 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Rubrica 27</title>
+            <title>Rubrica 27 [Krakow, lat 700 III Transcription]</title>
             <author ref="#per-c7y65a">Geremia da Montagnone</author>
             <respStmt>
                <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
                <resp>Transcription Editor</resp>
                <resp>TEI Encoder</resp>
             </respStmt>
+             <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="0.0.0-dev">
-               <title>Rubrica 27</title>
-               <date when="2021-05-18">May 18, 2021</date>
+               <title>Rubrica 27 [Krakow, lat 700 III Transcription]</title>
+               <date when="2021-05-18">June 6, 2022</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -25,7 +30,7 @@
          </publicationStmt>
          <sourceDesc>
             <listWit>
-               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -47,8 +52,8 @@
    <text xml:lang="la">
       <front>
          <div xml:id="starts-on">
-            <pb ed="#V" n="10-r"/>
-            <cb ed="#V" n="b"/>
+          <pb n="19-v"/>
+          <cb n="a"/>
          </div>
       </front>
       <body>
@@ -56,99 +61,95 @@
             <head xml:id="bHY6yh-de7543-Hd1e108">Rubrica 27</head>
             <head xml:id="bHY6yh-de7543-Hd1e111" type="question-title">De penitentia et congtritione peccatorum</head>
             <p xml:id="bHY6yh-de7543-d1e114">
-               <lb ed="#V" n="46"/>¶ De penitentia et contritio
-      <lb ed="#V" n="47"/>ne peccatorum. Rubrica. 27
-    </p>
+                De penitentia et contritione peccatorum. Rubrica. 27
+          </p>
             <p xml:id="bHY6yh-de7543-d1e121">
-               <lb ed="#V" n="48"/> <ref xml:id="bHY6yh-de7543-Rd1e118">PSalmista. 33 psalmus</ref> <quote xml:id="bHY6yh-de7543-Qd1e125">Iu <!-- "bexta" should be "juxta"-->
-        <lb ed="#V" n="49" break="no"/>xta est domi
-        <lb ed="#V" n="50" break="no"/>nus his qui tribulato sunt cor
-        <lb ed="#V" n="51" break="no"/>de et humiles spiritu saluabit. Mul<!-- what is the abbreviation for "Mul."?-->
-        <lb ed="#V" n="52" break="no"/>te tribulationes instorum: et de his omnibus
-        <lb ed="#V" n="53"/>liberabit eos.</quote>
+              <lb ed="#K"/> <ref xml:id="bHY6yh-de7543-Rd1e118">Psalmista 33 psalmus</ref> <quote xml:id="bHY6yh-de7543-Qd1e125">Iusta est dominus his 
+              <lb ed="#K"/>qui tribulato sunt corde et hu<lb ed="#K" break="no"/>miles 
+              spiritu saluabit Idem 
+              <lb ed="#K"/>multe tribulationes instorum 
+              <lb ed="#K"/>et de his omnibus liberabit 
+                  <cb n="b"/>
+              <lb ed="#K" n="1"/>eos dominus</quote>
             </p>
-            <p xml:id="bHY6yh-de7543-d1e139"> /
-               <ref xml:id="bHY6yh-de7543-Rd1e141">146 psalmus.</ref> <quote xml:id="bHY6yh-de7543-Qd1e141">Qui seminant in la
-        <lb ed="#V" n="54" break="no"/>chrymis in exultatione metent.</quote>
+            <p xml:id="bHY6yh-de7543-d1e139">
+               <ref xml:id="bHY6yh-de7543-Rd1e141">Idem 146 psalmus</ref> <quote xml:id="bHY6yh-de7543-Qd1e141">Qui 
+               <lb ed="#K"/>seminant in lachrymis in exul<lb ed="#K" break="no"/>tatione 
+               metent</quote>
             </p>
             <p xml:id="bHY6yh-de7543-d1e148">
-               <lb ed="#V" n="55"/>
-               ¶ <ref xml:id="bHY6yh-de7543-Rd1e154">Ezechiel propheta.</ref> <quote xml:id="bHY6yh-de7543-Qd1e152">Si impius egerit peni
-        <lb ed="#V" n="56" break="no"/>tentiam ab omnibus peccatis suis que ope
-        <lb ed="#V" n="57" break="no"/>ratus est et custodierit omnia precepta mea
-        <lb ed="#V" n="58"/>et fecerit iudicium et iustitiam: vita viuet et
-        <lb ed="#V" n="59"/>non morietur: omnium iniquitatum eius:
-        <lb ed="#V" n="60"/>quas: operatus est: non recordabor ait do
-        <lb ed="#V" n="61" break="no"/>minus. Conuertimini et agite penitentiam
-        <lb ed="#V" n="62"/>ab omnibus iniquitatibus vestris: et non
-        <lb ed="#V" n="63"/>erit vobis in ruinam iniquitas.</quote>
+                <ref xml:id="bHY6yh-de7543-Rd1e154">c 18 si impius
+                <lb ed="#K"/>Ezechiel propheta</ref> <quote xml:id="bHY6yh-de7543-Qd1e152">egerit penitentiam 
+                <lb ed="#K"/>ab omnibus peccatis suis que operatus 
+                <lb ed="#K"/>est et custodierit omnia precepta 
+                <lb ed="#K"/>mea et fecerit iudicium et iustitiam
+                <lb ed="#K"/>vita viuet et non morietur 
+                <lb ed="#K"/>omnium iniquitatum eius quas 
+                <lb ed="#K"/>operatus est non recordabor 
+                <lb ed="#K"/>ait dominus Idem conuertimini et 
+                <lb ed="#K"/>agite penitentiam ab omnibus 
+                <lb ed="#K"/>iniquitatibus vestris et non 
+                <lb ed="#K"/>erit vobis in ruinam iniquitas</quote>
             </p>
             <p xml:id="bHY6yh-de7543-d1e173">
-               <lb ed="#V" n="64"/>
-               ¶ <ref xml:id="bHY6yh-de7543-Rd1e181">Iesus filius sirach in ecclesiasti. ca. i.</ref> <quote xml:id="bHY6yh-de7543-Qd1e177">Altis
-        <lb ed="#V" n="65" break="no"/>simus odio habet peccatores: et misertus est
-        <lb ed="#V" n="66"/>penitentibus.</quote>
+               <lb ed="#K"/> <ref xml:id="bHY6yh-de7543-Rd1e181">Iesus filius sirach in ecclesiasti ca 22</ref> <quote xml:id="bHY6yh-de7543-Qd1e177">Al<lb ed="#K" break="no"/>tissimus 
+               odio habet peccatores et 
+               <lb ed="#K"/>misertus est penitentibus</quote>
             </p>
             <p xml:id="bHY6yh-de7543-d1e185">
-               <lb ed="#V" n="67"/>
-               ¶ <ref xml:id="bHY6yh-de7543-Rd1e195">Mattheus in euangelio. c. 3. et. 4.</ref> <quote xml:id="bHY6yh-de7543-Qd1e189">Peni
-        <lb ed="#V" n="68" break="no"/>tentiam agite: appropinquabit enim regnum
-        <lb ed="#V" n="69"/>celorum.</quote>
+              <lb ed="#K"/> <ref xml:id="bHY6yh-de7543-Rd1e195">Mattheus in euangelio 24 c</ref> <quote xml:id="bHY6yh-de7543-Qd1e189">Peni<lb ed="#K" break="no"/>tentiam 
+              agite appropinquabit 
+              <lb ed="#K"/>enim regnum celorum</quote>
             </p>
-            <p xml:id="bHY6yh-de7543-d1e197"> /
-               <ref xml:id="bHY6yh-de7543-Rd1e207">c. 5.</ref> <quote xml:id="bHY6yh-de7543-Qd1e199">Beati qui lugent quoniam
-        <lb ed="#V" n="70"/>ipsi consolabuntur.</quote>
+            <p xml:id="bHY6yh-de7543-d1e197">
+               <ref xml:id="bHY6yh-de7543-Rd1e207">c 5</ref> <quote xml:id="bHY6yh-de7543-Qd1e199">Beati 
+               <lb ed="#K"/>qui lugent quoniam ipsi consolabuntur</quote>
             </p>
             <p xml:id="bHY6yh-de7543-d1e205">
-               <lb ed="#V" n="71"/>
-               ¶ <ref xml:id="bHY6yh-de7543-Rd1e219">Lucas in euangelio: capitulo tertio.</ref> <quote xml:id="bHY6yh-de7543-Qd1e209">Fa
-        <lb ed="#V" n="72" break="no"/>cite dignos fructus penitentie.</quote>
+                <lb ed="#K"/> <ref xml:id="bHY6yh-de7543-Rd1e219">lucas in euangelio capitulo</ref> <quote xml:id="bHY6yh-de7543-Qd1e209">Facite 
+                <lb ed="#K"/>fructus dignos penitentie</quote>
             </p>
-            <p xml:id="bHY6yh-de7543-d1e215"> /
-      <quote xml:id="bHY6yh-de7543-Qd1e217"> Idem in
-        <lb ed="#V" n="73"/>actibus apostolorum capitulo tertio. Pe
-        <lb ed="#V" n="74" break="no"/>niteamini et conuertimini vt deleantur pec
-        <lb ed="#V" n="75" break="no"/>cata vestra.</quote>
+            <p xml:id="bHY6yh-de7543-d1e215">
+                <lb ed="#K"/> <ref>Idem in actibus apostolorum capitulo tertio</ref> <quote xml:id="bHY6yh-de7543-Qd1e217">Pe<lb ed="#K" break="no"/>niteamini 
+                et conuertimini ut deleantur 
+                <lb ed="#K"/>vestra peccata</quote>
             </p>
             <p xml:id="bHY6yh-de7543-d1e228">
-               <lb ed="#V" n="76"/>
-               <quote xml:id="bHY6yh-de7543-Qd1e232">¶ Paulus apostolus epistola. 2. ad corin
-        <lb ed="#V" n="77" break="no"/>thinos capitulo. 7. Que enim secundum deum tristitia
-        <lb ed="#V" n="78"/>est: penitentiam in salutem stabilem ope
-        <lb ed="#V" n="79" break="no"/>ratur. Seculi autem tristitia mortem ope
-        <lb ed="#V" n="80" break="no"/>ratur. </quote>
+              <ref>apostolus episotala corin
+              <lb ed="#K"/>Paulus</ref> <quote xml:id="bHY6yh-de7543-Qd1e232">que enim secundum deum 
+              <lb ed="#K"/>tristitia est penitentiam in salutem 
+              <lb ed="#K"/>stabilem operatur seculi autem 
+              <lb ed="#K"/>tristitia mortem operatur</quote>
             </p>
             <p xml:id="bHY6yh-de7543-d1e244">
-               <lb ed="#V" n="81"/>
-               ¶ <ref xml:id="bHY6yh-de7543-Rd1e260">Seneca tragediarum in agamenone capi
-               <lb ed="#V" n="82" break="no"/>tulo. 4.</ref> <quote xml:id="bHY6yh-de7543-Qd1e248">Quem penitet peccasse pene est in
-        <lb ed="#V" n="83" break="no"/>nocens.</quote>
+               <lb ed="#K"/> <ref xml:id="bHY6yh-de7543-Rd1e260">Seneca tragediarum in aga<lb ed="#K" break="no"/>menone 
+               capitulo 4</ref> <quote xml:id="bHY6yh-de7543-Qd1e248">Quem penitet 
+               <lb ed="#K"/>peccasse pene est innocens</quote>
             </p>
-            <p xml:id="bHY6yh-de7543-d1e256"> /
-      <quote xml:id="bHY6yh-de7543-Qd1e258"> Idem de naturalibus questio
-        <lb ed="#V" n="84" break="no"/>nibus libro secundo: Fidelissimus est qui
-        <lb ed="#V" n="85"/>ad honesta ex penitentia transit.</quote>
+            <p xml:id="bHY6yh-de7543-d1e256">
+                <lb ed="#K"/> <quote xml:id="bHY6yh-de7543-Qd1e258">Idem de naturalibus questionibus libro secundo fide<lb ed="#K" break="no"/>lissimus 
+                est qui ad hones<lb ed="#K" break="no"/>ta 
+                ex penitentia transit</quote>
             </p>
             <p xml:id="bHY6yh-de7543-d1e266">
-               <lb ed="#V" n="86"/>
-               ¶ <ref xml:id="bHY6yh-de7543-Rd1e285">Cecilius firmianus de beata vita libro. 3</ref> <quote xml:id="bHY6yh-de7543-Qd1e270">
-        <lb ed="#V" n="87"/>Multo firmior est fides quam reponit pe
-        <lb ed="#V" n="88" break="no"/>nitentia. <!--47.xml-->
-        <pb ed="#V" n="10-v"/>
-                  <cb ed="#V" n="a"/>
-               </quote>
+                <lb ed="#K"/> <ref xml:id="bHY6yh-de7543-Rd1e285">Cecilius firmianus de beata vita libro 3</ref> 
+                <lb ed="#K"/> <quote xml:id="bHY6yh-de7543-Qd1e270">Multo firmior est fides quam 
+                  <pb n="20-r"/>
+                  <cb n="a"/>
+                <lb ed="#K" n="1"/>reponit penitentia</quote>
             </p>
             <p xml:id="bHY6yh-de7543-d1e284">
-               <lb ed="#V" n="1"/>
-               ¶ <ref xml:id="bHY6yh-de7543-Rd1e305">Isidorus in sinonima soliloquiorum li. i. ca
-               <lb ed="#V" n="2" break="no"/>12.</ref> <quote xml:id="bHY6yh-de7543-Qd1e288">Facile penitentibus diuina clementia sub
-        <lb ed="#V" n="3" break="no"/>uenit. Per penitentiam indulgentia datur.
-        <lb ed="#V" n="4"/>Per penitentiam delicta omnia absterguntur.</quote>
+              <lb ed="#K"/> <ref xml:id="bHY6yh-de7543-Rd1e305">Isidorus in sinonima soliloquiorum 
+              <lb ed="#K"/>li i ca 12</ref> <quote xml:id="bHY6yh-de7543-Qd1e288">facile penitentibus 
+              <lb ed="#K"/>diuina clementia subuenit 
+              <lb ed="#K"/>per penitentiam indulgentia datur
+              <lb ed="#K"/>per penitentiam delicta omnia 
+              <lb ed="#K"/>absterguntur</quote>
             </p>
             <p xml:id="bHY6yh-de7543-d1e298">
-               <lb ed="#V" n="5"/>
-               / <ref xml:id="bHY6yh-de7543-Rd1e322">16. c. et fi.</ref> <quote xml:id="bHY6yh-de7543-Qd1e302">Inanis est penitentia quam culpa se
-        <lb ed="#V" n="6" break="no"/>quens coinquinat.</quote>
+               <ref xml:id="bHY6yh-de7543-Rd1e322">Idem 16 c et fi</ref> 
+               <lb ed="#K"/> <quote xml:id="bHY6yh-de7543-Qd1e302">In anis est penitentia quam culpa 
+               <lb ed="#K"/>sequens coinquinat</quote>
             </p>
          </div>
       </body>
