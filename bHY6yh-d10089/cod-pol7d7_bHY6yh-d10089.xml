@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 38 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 38 [Krakow, lat 700 III Transcription]</title>
+               <date when="2021-05-18">June 10, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="24-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d10089"><!-- p1l1-r38 -->
+            <head xml:id="bHY6yh-d10089-Hd1e108">Rubrica 38</head>
+            <head xml:id="bHY6yh-d10089-Hd1e111" type="question-title">De futuro fine mundi: et futura resurrectione mortuorum: et
+              futuro vniuersali iudicio dei secundum christianam religionem
+            </head>
+    
+          <p xml:id="bHY6yh-d10089-d1e114">
+                De futuro fine mundi: et futura resur
+        rectione mortuorum: et futuro vniuersali iu
+        dicio dei secundum christianam religionem. Rubrica 38
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e123">
+                <lb ed="#K" n="1"/> <ref>psalmista 101 psalmus</ref> <quote xml:id="bHY6yh-d10089-Qd1e127">Celi pibunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e133">
+               <lb ed="#K"/> <ref>Salomodo in prouer c 11</ref> <quote xml:id="bHY6yh-d10089-Qd1e137">Non 
+               <lb ed="#K"/>proderunt diuitie in die ul<lb ed="#K" break="no"/>tionis 
+               iustitia autem liberabit a 
+               <lb ed="#K"/>morte</quote>
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e146">
+                <ref>propheta c 4 dies ve
+                <lb ed="#K"/>Malachias</ref> <quote xml:id="bHY6yh-d10089-Qd1e150">niet suc census quisi 
+                <lb ed="#K"/>caminus et erunt superbi et 
+                <lb ed="#K"/>facientes omnes impietatem 
+                <lb ed="#K"/>stipula et inflammabit eos dies 
+                <lb ed="#K"/>veniens</quote>
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e158">
+                <ref>in euan c 12 omne
+                <lb ed="#K"/>Mattheus</ref> <quote xml:id="bHY6yh-d10089-Qd1e162">verbum ociosum quod
+                <lb ed="#K"/>locuti fuerint homines red<lb ed="#K" break="no"/>dent 
+                rationem de eo in die 
+                <lb ed="#K"/>iudicii ex verbis enim tuis 
+                <lb ed="#K"/>iustificaberis et ex verbis tuis 
+                <lb ed="#K"/>condennaberis et instia fi 
+                <lb ed="#K"/>vadem</quote>
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e172">
+               <ref>Idem c 13</ref> <quote xml:id="bHY6yh-d10089-Qd1e174">In 
+               <lb ed="#K"/>consummatione saeculi mittet filius hominis 
+               <lb ed="#K"/>angelos suos et colligent 
+               <lb ed="#K"/>de regno suo omnia scandala 
+               <lb ed="#K"/>et omnes qui faciunt iniquitatem 
+               <lb ed="#K"/>et mittent eos in caminum 
+               <lb ed="#K"/>ignis ibi erit 
+               <lb ed="#K"/>fletus et stridor dentium 
+               <lb ed="#K"/>tunc iusti fulgebunt vt sicut 
+               <lb ed="#K"/>sol in regno patris eorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e193">
+              <quote xml:id="bHY6yh-d10089-Qd1e195">Idem in consummatione seculi exibunt 
+              <lb ed="#K"/>angeli et separabunt malos 
+              <lb ed="#K"/>de medio iustorum et mit<lb ed="#K" break="no"/>tent 
+              eos in caminum ignis 
+              <lb ed="#K"/>ardentis</quote>
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e207">
+               <ref>Idem 22 c</ref> <quote xml:id="bHY6yh-d10089-Qd1e209">In 
+               <lb ed="#K"/>refrectione nec nubent 
+               <lb ed="#K"/>neque nubentur sed sunt sicut 
+               <lb ed="#K"/>angeli dei in caelo</quote>
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e215">
+               <ref>Idem c 24</ref> 
+                  <pb ed="#V" n="25-r"/>
+                  <cb ed="#V" n="a"/>
+               <lb ed="#K" n="1"/> <quote xml:id="bHY6yh-d10089-Qd1e217">accesserunt ad iesum 
+               <lb ed="#K"/>discipuli eius secreto dicentes dic nobis 
+               <lb ed="#K"/>signum aduentus tui et unquem 
+               <lb ed="#K"/>illum de die antur illa et hora
+               <lb ed="#K"/>nemo scit neque angeli cae<lb ed="#K"/>lorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e287">
+               <ref>Idem 25 c</ref> <quote xml:id="bHY6yh-d10089-Qd1e289">Cum venerit fi<lb ed="#K" break="no"/>lius 
+               hominis cum maiestate sua et omnes
+        angeli eius cum eo: tunc sedebit super sedem maiesta
+        tis sue: et congregabuntur ante eum omnes gentes: et se
+        parabit eos abinuicem: sicut pastor <sic>seggregat</sic> 
+        oues ab hedis: et statuet oues quidem a dextri su 
+        
+                  is: hedos autem a sinistris. Tunc dicet rex his qui
+        a dextris erunt eius: Uenite benedicti patris mei
+        percipite regnum vobis paratum a constionne mundi.
+        Esuriui enim et dedistis mihi manducare.
+        Sitiui et dedistis mihi bibere: hospes eram
+        et colligistis me: nudus et coopuistis me: in
+        firmus et visitastis me: in carcere eram et ve
+        nistis ad me. Tunc rindebunt ei iusti dicentes:
+        Domine quoniam te vidimus esurientem et pauimus: si
+        tientem et dedimus tibi potum: quoniam antur vidimus te ho
+        spitem et collegimus te: et nudum et cooperuimus te:
+        aut quoniam vidimus te infirmum: aut in carcere et ve
+        nimus ad te. Et respondens rex dicet illis: Amen
+        dico vobis quam diu fecistis vni ex minimis istis
+        meis fribus mihi fecistis. Tunc dicet et his qui a
+        sinistris eius erunt: Descedite a me maledicti in
+        ignem eternum: qui paratus est diabolo et ange
+        lis eius. Esuriui enim et non dedistis mihi man
+        ducare: sitiui et non dedistis mihi potum: ho
+        spes eram et non collegistis me: nudus et non co
+        operuistis me: infirmus et in carcere et non visi
+        tastis me. Tunc rindebunt et ipsi dicentes: Domine
+        quoniam vidimus te esurientem: aut sitientem: aut ho
+        spitem: aut nudum: aut infirmum vel in carcere et
+        non ministrauimus tibi. Tunc rindebit illis di
+        cens: Amen dico vobis quamdiu non fecistis vni
+        de minoribus his nec mihi fecistis. Et ibunt
+        hi in supplicium eternum: Iusti autem in vitam eternam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e370">
+               
+                <ref>Marcus in euange. c. 12.</ref> <quote xml:id="bHY6yh-d10089-Qd1e374">Cum a mortuis re
+        surrexerint: neque nubent: neque nubentur: sed si
+        cut angeli dei sunt in caelis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e382">
+               <ref>c. 13</ref> <quote xml:id="bHY6yh-d10089-Qd1e384">Caelum et
+        terra transibunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e390">
+      <quote xml:id="bHY6yh-d10089-Qd1e392">Idem dicit lucas in euan. c. 12.</quote>
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e396">
+               
+                <ref>Ioannes in euang. c. 5.</ref> <quote xml:id="bHY6yh-d10089-Qd1e400">Uenit hora in qua omnes
+        qui in monumentis sunt audient vocem filii hominis
+        et procedent qui bona fecerunt in resurrectionem
+        vite: qui vero male egerunt in resurtectionem iu
+        dicii.</quote>
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e412">
+               <ref>Idem in apocalypsi. c. 3.</ref> <quote xml:id="bHY6yh-d10089-Qd1e414">Ait deus: Si
+        non vigilaueritis: veniam tanquam fur: et nescies
+        qua hora veniam ad te.</quote>
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e423">
+               
+                <ref>Petrus apostolus epistola. 2. c. 3. et fi.</ref> <quote xml:id="bHY6yh-d10089-Qd1e427">Adueniet di
+        es domini sicut fur: in quo celi magno impetu
+        transient: elementa vero calore soluentur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e435">
+               
+                <ref>Paulus apostolus epistola. i. ad corinth. c. 15.</ref> <quote xml:id="bHY6yh-d10089-Qd1e439">Ac
+        cepi quoniam christus mortuus est pro peccatis nostris
+        scripturas: et quia sepultus est: et quia resurrexit tertia <!--54.xml-->
+        <cb ed="#V" n="b"/>
+                  die secundum scripturas. Si christus praedicatur quod resurre
+        xerit a mortuis: quo quadam dicunt in vobis quoniam
+        resurrectio mortuorum non est. Si autem resurrectio
+        mortuorum non est: neque christus resurrexit. Si autem
+        christus non resurrexit: inanis est ergo praedicatio nostra: in
+        anis est ergo et fides nostra: surget corpus spirituale. Ca
+        ro et sanguis regnum dei possidere non possunt. Omnes qui
+        dem resurgemus sed non omnes immutabimur in mo
+        mento in ictu oculi in nouissima tuba: canet enim
+        tuba: et mortui resurgent primi incorrupti: et
+        nos immutabimur: oportet enim corruptibile hoc
+        induere incorruptionem et mortale hoc induere in
+        mortalitatem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e479">
+               <ref>Idem epistola. 2. ad corinth. c. 5</ref>
+         <quote xml:id="bHY6yh-d10089-Qd1e481">Omnes vos manifestari oportet ante tribunal
+        christi: vt referat vnusquisque propria corporis prout ges
+        sit: siue bonum siue malum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e491">
+      <ref>Idem epistola. i. ad ti
+         moth. c. 4.</ref> <quote xml:id="bHY6yh-d10089-Qd1e493">In nouissimis temporibus discedent qui
+        dam a fide attendentes spiritibus erroris et do
+        ctrinis demoniorum: in hypocrisi loquentium men
+        dacium et cautherizatam habentium suam consciam prohi
+        bentium nubem: abstiere a cibis quos deus crea
+        uit ad percipiendum cum gratiarum actione.</quote>
+            </p>
+            <p xml:id="bHY6yh-d10089-d1e510">
+      <ref>Idem epistola. 2
+         ad timoth. c. 3. et pe.</ref> <quote xml:id="bHY6yh-d10089-Qd1e512">In nouissimis diebus in
+        stabunt tempora periculosa: et erunt homines seipsos a
+        mantes: cupidi: elati: superbi: blasphemin: paren
+        tibus non obedientes: ingrati: scelesti: sine affectione
+        sine pace: criminatores: non continentes: inmites: si
+        ne benignitate proditores: proterui: timidi: vo
+        luptatum amatores magis quam dei: habentes qui
+        dem speciem pietatis: virtutem autem eius abnegantes.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
