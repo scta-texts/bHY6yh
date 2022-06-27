@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Heather Smith</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5 [Vatican Arch. Cap. S. Pietro, H.48 Transcription]</title>
+               <date when="2022-06-13">June 13, 2022</date>
+            </edition>
+         </editionStmt>  
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A" n="cod-acbnn">Vatican, Biblioteca Apostolica Vaticana, Arch. Cap. S. Pietro, H.48</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-06-13" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#A" n="8-r"/>
+            <cb ed="#A" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de1103">
+            <head xml:id="bHY6yh-de1103-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-de1103-Hd1e111" type="question-title">De Retributiam Justitie</head>
+            <p xml:id="bHY6yh-de1103-d1e114">
+               <lb ed="#V" n="36"/>  De Retributiam Justitie Capitulum v.
+          </p>
+            <p xml:id="bHY6yh-de1103-d1e119">
+               <lb ed="#A"/> <ref xml:id="bHY6yh-de1103-Rd1e116">Ob historiarum. c. xxxiiii. </ref> <quote xml:id="bHY6yh-de1103-Qd1e121" source="http://scta.info/resource/iob34_11@1-10"> 
+               <lb ed="#A"/> Opus hominis 
+               <lb ed="#A"/> reddet ei dominus et iuxta vias singulorum
+               <cb ed="#A" n="b"/>    
+               <lb ed="#A"/> ei restituet. </quote>           
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e131">
+              <ref xml:id="bHY6yh-de1103-Rd1e132">In Genesi. c. iiii.</ref> <quote xml:id="bHY6yh-de1103-Qd1e135" source="http://scta.info/resource/gen4_7@1-5">Non ne bene egeris reci<lb ed="#A" break="no"/>pies.</quote>        
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e142">
+               <ref xml:id="bHY6yh-de1103-Rd1e145">Psalmista. lxi. </ref> <quote xml:id="bHY6yh-de1103-Qd1e146" source="http://scta.info/resource/ps61_13@11-12"> 
+               <lb ed="#A"/> dominus reddet unicuique uxta 
+               <lb ed="#A"/>opera sua. </quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e152"> 
+      <ref xml:id="bHY6yh-de1103-Rd1e157"> Idem xlviii. </ref> <quote xml:id="bHY6yh-de1103-Qd1e154"> dominus iustus concidet
+               <lb ed="#A"/>ceruices peccatorum. </quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e160">
+               <lb ed="#A"/> <ref xml:id="bHY6yh-de1103-Rd1e171">Salomon in prouerbiorum. c. xvi. </ref> <lb ed="#A"/> <quote xml:id="bHY6yh-de1103-Qd1e164" source="http://scta.info/resource/prov16_7@1-11">  
+               <lb ed="#A"/>Cum placuerint
+               <lb ed="#A"/>domino vie hominis inimicos quosque eius <unclear>conuer</unclear> tet
+               <lb ed="#A"/>ad pacem. </quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e176"> 
+      <ref xml:id="bHY6yh-de1103-Rd1e189"> Idem in ecclesiaste. c. viiiio </ref> <quote xml:id="bHY6yh-de1103-Qd1e178" source="http://scta.info/resource/qoh9_18@8-14"> Qui in
+               <lb ed="#A"/>uno peccauerit multa bona perdet. </quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e184">
+               <lb ed="#A"/><ref xml:id="bHY6yh-de1103-Rd1e201"> Regum <unclear>proverbo?</unclear> .c. xxvi.</ref> <quote xml:id="bHY6yh-de1103-Qd1e188" source="http://scta.info/resource/Isam26_23@3-9"> Deus retribuet vnicuique
+               <lb ed="#A"/>secundum iustitiam et fidem suam. </quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e194">
+               <lb ed="#A"/><ref xml:id="bHY6yh-de1103-Qd1e198">Jeremias in l. prophetarum. c. xxxii.</ref>Oculi domini
+               <lb ed="#A"/><quote xml:id="bHY6yh-de1103-Qd1e207" source="http://scta.info/resource/ier32_19@7-25">apti sunt super omnes vias filiorum adam ut
+               <lb ed="#A"/> reddat unicuique secundum vias suas et secundum fruc
+               <lb ed="#A"/>tus adinuentionis eius.</quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e215">
+               <lb ed="#A"/><ref xml:id="bHY6yh-de1103-Rd1e235"> Iesus filius sirach in ecclesiastico. c. i. </ref> <quote xml:id="bHY6yh-de1103-Qd1e219"> deus prebet
+               <lb ed="#A"/>sapientiam diligentibus se. </quote> 
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e225"> 
+      <ref xml:id="bHY6yh-de1103-Rd1e247"> Idem. c. xviii. </ref> <quote xml:id="bHY6yh-de1103-Qd1e227" source="http://scta.info/resource/sir18_22@13-17">
+               <lb ed="#A"/>Merces domini manet in eternum. </quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e233">
+               <lb ed="#A"/><ref xml:id="bHY6yh-de1103-Rd1e261"> Matheus in euangelio. c. xvi.</ref>  <quote xml:id="bHY6yh-de1103-Qd1e237" source="http://scta.info/resource/mt16_27@1-19">filius hominis ventu
+               <lb ed="#A"/>rus est in gloria prasturis sui cum angelis et tunc
+        <lb ed="#V" n="60"/>reddet unicuique secundum opera eius. </quote> 
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e251">
+               <lb ed="#A"/><ref xml:id="bHY6yh-de1103-Rd1e277">  Marchus in euangelio. c. iiii. </ref> <quote xml:id="bHY6yh-de1103-Qd1e255" source="http://scta.info/resource/mc4_24@7-13">In qua men
+               <lb ed="#A"/>sura mensi fueritis metietur et vobis. </quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e262">
+               <lb ed="#A"/><ref xml:id="bHY6yh-de1103-Rd1e289"> Ioannes in <unclear>apostolissi.?</unclear>c. 2o. </ref> <quote xml:id="bHY6yh-de1103-Qd1e266" source="http://scta.info/resource/ap2_23@19-24">Ait dominus dabo unicui
+               <lb ed="#A"/>cuique vestrum secundum opera vestra. </quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e272"> 
+       <ref xml:id="bHY6yh-de1103-Rd1e299"> Idem xxii et fi.</ref> <quote xml:id="bHY6yh-de1103-Qd1e274" source="http://scta.info/resource/ap22_12@2-13">
+               <lb ed="#A"/>Ait dominus venio cito / et merces mea est redde
+               <lb ed="#A"/>re metus / reddere vnicuique secundum opera sua. </quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e282">
+               <lb ed="#A"/><ref xml:id="bHY6yh-de1103-Rd1e314">Paulus ad corinth. c. iii.</ref> <quote xml:id="bHY6yh-de1103-Qd1e286" source="http://scta.info/resource/Icor3_8@9-16">Unusquisque 
+               <lb ed="#A"/>propriam mercedem accipiet secundum suum laborem. 
+        <lb ed="#V" n="69"/>rem. </quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e294"> 
+      <ref xml:id="bHY6yh-de1103-Rd1e328"> Idem xiii.</ref> <quote xml:id="bHY6yh-de1103-Qd1e296">Siquis ignorat ignorabitur.</quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e300"> 
+      <ref xml:id="bHY6yh-de1103-Rd1e338"> Idem ad ad ephesies. c. vi. et fine. </ref> <quote xml:id="bHY6yh-de1103-Qd1e302" source="http://scta.info/resource/eph6_8@3-10"> Unusquisque 
+               <lb ed="#A"/>quod bonum fecerit hoc recipiet ad domino</quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e310">
+               <lb ed="#A"/><ref xml:id="bHY6yh-de1103-Rd1e353">  Cassiodorus epistolarum: l. proverbo. c. xvi.</ref>  <quote xml:id="bHY6yh-de1103-Qd1e314"> Remu
+               <lb ed="#A"/>nerator est omnium bonorum deus. </quote> 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
