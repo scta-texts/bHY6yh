@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 2 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 2 [Krakow, lat 700 III Transcription]</title>
+               <date when="2021-05-18">July 9, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="34-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d14180"><!-- p1l3-r2 -->
+            <head xml:id="bHY6yh-d14180-Hd1e108">Rubrica 2</head>
+            <head xml:id="bHY6yh-d14180-Hd1e111" type="question-title">De moralitate</head>
+            <p xml:id="bHY6yh-d14180-d1e114"> 
+              De moralitate Rubrica 2
+            </p>
+            <p xml:id="bHY6yh-d14180-d1e119">
+              <lb ed="#K" n="19"/> <ref>Aristoteles rethor lib 2 c 16</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d14180-Qd1e127">Iuuenes non sunt maligni moris 
+              <lb ed="#K"/>propierea sed facilis moris quod non 
+              <lb ed="#K"/>dum viderunt multas nequitias</quote>
+            </p>
+            <p xml:id="bHY6yh-d14180-d1e135">   
+              <lb ed="#K"/> <ref>Seneca de ira li 3</ref> <quote xml:id="bHY6yh-d14180-Qd1e139">Sumuntur a 
+              <lb ed="#K"/>conuersantibus mores</quote>
+            </p>
+            <p xml:id="bHY6yh-d14180-d1e146">
+              <ref>Idem de 
+              <lb ed="#K"/>moribus</ref> <quote xml:id="bHY6yh-d14180-Qd1e148">Educatio et disciplina 
+              <lb ed="#K"/>mores faciunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d14180-d1e154">
+             <ref>Lex diges ti de condi insti li filius</ref> 
+             <lb ed="#K"/> <quote xml:id="bHY6yh-d14180-Qd1e158">que contra bonos sunt nec nos
+             <lb ed="#K"/>facem posse credendum est</quote>
+            </p>
+            <p xml:id="bHY6yh-d14180-d1e164">
+             <lb ed="#K"/> <ref>Ualerius max li 6 ti</ref> <quote xml:id="bHY6yh-d14180-Qd1e168">de mu<lb ed="#K" break="no"/>tatione 
+             morum Lucius filla vs<lb ed="#K" break="no"/>que 
+             ad questure sue comitia vitam 
+             <lb ed="#K"/>libidine vino ludicre artis 
+             <lb ed="#K"/>amore inquinatam perduxit 
+                <cb ed="#K" n="b"/>
+             <lb ed="#K"/>qua propter 6 marium consulem 
+             <lb ed="#K"/>moleste tulisse traditur quod si<lb ed="#K" break="no"/>bi 
+             asperrimum in affrica bellum 
+             <lb ed="#K"/>gerenti tam delicatus questor 
+             <lb ed="#K"/>sorte obuenisset eiusdem virtus 
+             <lb ed="#K"/>quisi preruptis et disiectis ne<lb ed="#K" break="no"/>quitie 
+             qua obscidebatur claus<lb ed="#K" break="no"/>tris 
+             cathenas iugurte 
+             <lb ed="#K"/>iniecit manibus mitridatem 
+             <lb ed="#K"/>compescuit sociales belli luc<lb ed="#K" break="no"/>tus 
+             repressit et haec ne dominationem 
+             <lb ed="#K"/>fregit</quote>
+            </p>
+            <p xml:id="bHY6yh-d14180-d1e193">
+              <quote xml:id="bHY6yh-d14180-Qd1e195">Tenustodis ado<lb ed="#K" break="no"/>lescentiam 
+              piget attingere 
+              <lb ed="#K"/>siue patrem aspiciam abdicationis 
+              <lb ed="#K"/>iniungentem notam siue matrem 
+              <lb ed="#K"/>suspendio finire vitam propter
+              <lb ed="#K"/>filii turpitudinem coactam 
+              <lb ed="#K"/>cum omnium postea graii sanguinis 
+              <lb ed="#K"/>virorum extiterit mediumque 
+              <lb ed="#K"/>europe et asie vel spet vel des<lb ed="#K" break="no"/>perationis 
+              pignus fuerit hic enim eum 
+              <lb ed="#K"/>salutis sue patronum habuit 
+              <lb ed="#K"/>illa vadem victorie assumpsit</quote>
+            </p>
+            <p xml:id="bHY6yh-d14180-d1e225"> 
+             <lb ed="#K"/> <ref>Cassiodorus epistolarum libro xi ca 2</ref>
+             <lb ed="#K"/> <quote xml:id="bHY6yh-d14180-Qd1e229">Raro omnium bonum est do<lb ed="#K" break="no"/>minum 
+             triumphare demoribus</quote>
+            </p>
+            <p xml:id="bHY6yh-d14180-d1e237">  
+              <lb ed="#K"/> <ref>Isidorus soliloquiorum li 2 c 41</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d14180-Qd1e241">Assiduitas mores facit</quote>
+            </p>
+            <p xml:id="bHY6yh-d14180-d1e248">
+                <lb ed="#K"/> <ref>Bernardus li de contemptu mun<lb ed="#K" break="no"/>di</ref> 
+                <quote xml:id="bHY6yh-d14180-Qd1e252">Collige thesaurum qui 
+                <lb ed="#K"/>gemmas vincit et aurum 
+                <lb ed="#K"/>Quere bonos mores thesauros interiores</quote>
+            </p>
+            <p xml:id="bHY6yh-d14180-d1e260">
+                  <pb ed="#K" n="34-v"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/> <ref>Ricardus iudex venusinus 
+              <lb ed="#K"/>li de pertractatione nuptur c 3</ref> 
+              <quote xml:id="bHY6yh-d14180-Qd1e264">Usus et mores seris formantur 
+              <lb ed="#K"/>ab annis</quote>
+            </p>
+            <p xml:id="bHY6yh-d14180-d1e272">
+              <lb ed="#K"/> <ref>Montenarius in luna cleri c 59</ref> <quote xml:id="bHY6yh-d14180-Qd1e276">Qualis 
+              <lb ed="#K"/>conuictus talis formatio morum</quote>
+            </p>
+            <p xml:id="bHY6yh-d14180-d1e282">
+             <lb ed="#K"/> <ref>Prouerb</ref> <quote xml:id="bHY6yh-d14180-Qd1e286">metricum extraordinem 
+             <lb ed="#K"/>libera vagam Cum fueris rome ro<lb ed="#K" break="no"/>mano 
+             viuito more Cum sueris 
+             alibi viuito sicut ibi</quote>
+            </p>
+            <p>
+              <lb ed="#K"/> 
+              <lb ed="#K"/> 
+              <lb ed="#K"/>
+              <!--new text will review and add later-->
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
