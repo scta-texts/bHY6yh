@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 13 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 13 [Krakow, lat 700 III Transcription]</title>
+               <date when="2021-05-18">July 13, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="39-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d16692"><!-- p1l3-r13 -->
+            <head xml:id="bHY6yh-d16692-Hd1e108">Rubrica 13</head>
+            <head xml:id="bHY6yh-d16692-Hd1e111" type="question-title">De consuetudine</head>
+            <p xml:id="bHY6yh-d16692-d1e114">
+                <lb ed="#K" n="23"/>De consuetudine Rubrica. 13
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e119">
+              <lb ed="#K"/> <ref>Aristoteles ethicorum li 2 c i</ref> <quote xml:id="bHY6yh-d16692-Qd1e127">Nul<lb ed="#K" break="no"/>lum 
+              natura existentium aliter assuescit</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e142">
+              <lb ed="#K"/> <ref>Idem Lib 10 et fi ca 8 et fi</ref> <quote xml:id="bHY6yh-d16692-Qd1e144">non 
+              <lb ed="#K"/>possibile vel non facile ex 
+              <lb ed="#K"/>antiquo consuetudinibus <!--double check-->
+              <lb ed="#K"/>comprehensa sermonem transformare</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e133">
+              <lb ed="#K"/> <ref>Idem Li 7 c xi</ref> <quote xml:id="bHY6yh-d16692-Qd1e135">Consuetudo 
+              <lb ed="#K"/>nature assimilatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e154">
+              <ref>Idem de memoria 
+              <lb ed="#K"/>et reminiscentia</ref> <quote xml:id="bHY6yh-d16692-Qd1e156">antiquum 
+              <lb ed="#K"/>in natura iam tamquam consuetudo est 
+              <lb ed="#K"/>consuetudo est altera natura</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e164">
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/> <ref>Idem rethor li i c 20</ref> <quote xml:id="bHY6yh-d16692-Qd1e166">Similis 
+              <lb ed="#K"/>est consuetudo nature Prope enim quod sepe ei quod semper
+        est. est autem natura eius quod semper: consuetu
+        do autem eius quod sepe. Quod consuetum est
+        delectabile est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e180">
+      <ref>c. 21.</ref> <quote xml:id="bHY6yh-d16692-Qd1e182">Omnes consueta ob
+        seruant.</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e188">
+      <ref>Li. 2. c. 12.</ref> <quote xml:id="bHY6yh-d16692-Qd1e190">Quod antiquum est
+        prope videtur ei quod secundum naturam est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e196">
+      <ref>Idem
+        polliticorum libro 7. c. 12. et fi.</ref> <quote xml:id="bHY6yh-d16692-Qd1e198">Expedit et ad frigo
+        ra consuescere ex paruis pueris: hoc enim
+        et ad sanitatem et ad bellicas actiones maxi
+        me proficit. Omnia quecumque possibile assue
+        scere mox inchoantibus melius assuescere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e213">
+               
+               / <ref>Idem probleumatum par. 19</ref> <quote xml:id="bHY6yh-d16692-Qd1e217">Consuetum
+        delectabile est magis inconsueto</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e223">
+       <ref>28 pte</ref>
+         <quote xml:id="bHY6yh-d16692-Qd1e225">Magnum quiddam est consuetudo singulis
+        natura enim vtique fit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e233">
+      <ref>Idem methaphi.
+        li. 2. c. 3</ref> <quote xml:id="bHY6yh-d16692-Qd1e235">Consuetum notius est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e241">
+               
+                <ref>Tullius tusculanarum questionum. li. i.</ref> <quote xml:id="bHY6yh-d16692-Qd1e245">Qui in
+        compedibus corporis semper fuerunt: etiam cum
+        soluti sunt: tardi ingrediuntur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e253">
+      <ref>Lib. 2. Con
+        suetudo laborum:</ref> <quote xml:id="bHY6yh-d16692-Qd1e255">propensionem dolorum effi
+        cit faciliorem. Ferre laborem: contemnere
+        vulnus consuetudo docet. Consuetudinis
+        magna vis est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e267">
+               
+                <ref>Ouidius de arte amandi: lib. 2.</ref> <quote xml:id="bHY6yh-d16692-Qd1e271">Fac tibi
+        consuescat: nil assuetudine maius.</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e278">
+               
+                <ref>Iuuenalis li. 3 satis i.</ref> <quote xml:id="bHY6yh-d16692-Qd1e282">Consuetudo mali te
+        net insanabile.</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e288">
+               
+                <ref>Marcialis cocus li. vndique suscepto. c. 3</ref>
+         <quote xml:id="bHY6yh-d16692-Qd1e292">Mens assueta malo firmius heret ei.</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e298">
+       <ref>c. 4.</ref>
+         <quote xml:id="bHY6yh-d16692-Qd1e300">Mollibus assuetus loricam ferre recusat.
+        Ceruici tenere ferrea cassis obest. Sepius
+        vncta manus capulo non accipit ensem.
+        Lota et fota cutis frigore et imbre dolet.<!--71.xml-->
+        <cb ed="#V" n="b"/>
+               </quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e317">
+               
+                <ref>Isidorus soliloquiorum li. i. c. 9.</ref> <quote xml:id="bHY6yh-d16692-Qd1e321">Difficile est
+        prauam consuetudinem vincere. Prauus vsus
+        vix aboletur. Assidua consuetudo in naturam
+        conuertitur. Ad peccatum consuetudo restrin
+        git.</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e333">
+      <ref>16. c. et fi.</ref> <quote xml:id="bHY6yh-d16692-Qd1e335">Uulnus interatum tardius sana
+        tur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e341">
+      <ref>li. 2 c. 41. Usus difficile vincitur.</ref> <quote xml:id="bHY6yh-d16692-Qd1e343">Con
+        suetudinis vincula vix soluuntur. Assidui
+        tas mores facit. Iugis vsus in naturam se
+        vertit. Omnia vsui cedunt: vsui omnia parent.
+        Quod cum difficultate ceperis: per vsum cum fa
+        cilitate perficies.</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e358">
+               
+                <ref>Mattheus vindocinensis in poetria parte
+        i. c. 6</ref> <quote xml:id="bHY6yh-d16692-Qd1e362">Consuetudo sapit naturam: testa sapo
+        ris Quem noua concepit: immemor esse negat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e370">
+               
+               / <ref>c. 12.</ref> <quote xml:id="bHY6yh-d16692-Qd1e374">Est graue consueto vitiis desuescerc.
+        vergit Noxius ad solite noxietatis iter.
+        Pullulat in speciem nature concalor vsus.
+        Et quasi nature filius esse potest.</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e384">
+               
+                <ref>Iacobus benuentanus. c. 46.</ref> <quote xml:id="bHY6yh-d16692-Qd1e388">Non est res
+        habilis morem depellere corde. Est radix
+        cuius inueterata diu. Hec connexa diu mos
+        et natura videntur Defacili dirimi: nec re
+        or ista valent.</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e400">
+      <ref>c. 48.</ref> <quote xml:id="bHY6yh-d16692-Qd1e402">Res est dura nimis
+        vsum depellere longum. Radix euelli non va
+        let alta bene.</quote>
+            </p>
+            <p xml:id="bHY6yh-d16692-d1e410">
+               
+                <ref>Montenarius in luna cleri. c. 82.</ref> <quote xml:id="bHY6yh-d16692-Qd1e414">Auget
+        non minuit mala consuetudo reatum.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
