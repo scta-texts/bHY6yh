@@ -2,18 +2,23 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Rubrica 6</title>
+            <title>Rubrica 6 [Krakow, lat 700 III Transcription]</title>
             <author ref="#per-c7y65a">Geremia da Montagnone</author>
             <respStmt>
                <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
                <resp>Transcription Editor</resp>
                <resp>TEI Encoder</resp>
             </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="0.0.0-dev">
-               <title>Rubrica 6</title>
-               <date when="2021-05-18">May 18, 2021</date>
+               <title>Rubrica 6 [Krakow, lat 700 III Transcription]</title>
+               <date when="2021-05-18">July 21, 2022</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -25,7 +30,7 @@
          </publicationStmt>
          <sourceDesc>
             <listWit>
-               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+              <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -47,8 +52,8 @@
    <text xml:lang="la">
       <front>
          <div xml:id="starts-on">
-            <pb ed="#V" n="27-v"/>
-            <cb ed="#V" n="a"/>
+            <pb ed="#K" n="47-v"/>
+            <cb ed="#K" n="b"/>
          </div>
       </front>
       <body>
@@ -56,53 +61,58 @@
             <head xml:id="bHY6yh-d20869-Hd1e108">Rubrica 6</head>
             <head xml:id="bHY6yh-d20869-Hd1e111" type="question-title">De licita defensione</head>
             <p xml:id="bHY6yh-d20869-d1e114">
-               <lb ed="#V" n="41"/>
-      ¶ De licita defensione. Rubrica. 6.
-    </p>
+              <lb ed="#K"/>Delici<lb ed="#K" n="33" break="no"/>ta 
+              defensione Rubrica 6
+            </p>
             <p xml:id="bHY6yh-d20869-d1e119">
-               <lb ed="#V" n="42"/> <ref>LEx digest. tit. de iusti. et iu. li. 3.</ref>
-      <lb ed="#V" n="43"/>
-               <quote xml:id="bHY6yh-d20869-Qd1e125">Hoc iure euenit: vt quod quis
-        <lb ed="#V" n="44"/>que ob tutelam sui corporis fecerit iu
-        <lb ed="#V" n="45" break="no"/>re secisse existimetur.</quote>
+              <lb ed="#K"/> <ref>LEx digest tit de iusti et iu 
+                  <pb ed="#K" n="48-r"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>li 3</ref> <quote xml:id="bHY6yh-d20869-Qd1e125">Hoc iure euenit vt quod quis que 
+              <lb ed="#K"/>ob tutelam sui corporis fecerit iure 
+              <lb ed="#K"/>secisse existimetur</quote>
             </p>
-            <p xml:id="bHY6yh-d20869-d1e133"> <ref>/ Li. ad le. acqui. <!--81.xml-->
-        <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="46"/>l. 3.</ref> <quote xml:id="bHY6yh-d20869-Qd1e135">Aduersus periculum naturalis ratio permit
-        <lb ed="#V" n="47" break="no"/>tit se defendere.</quote>
+            <p xml:id="bHY6yh-d20869-d1e133"> 
+              <ref>Li ad le acquil <!--double check-->
+              <lb ed="#K"/>3</ref> <quote xml:id="bHY6yh-d20869-Qd1e135">aduersus periculum naturalis ratio per<lb ed="#K" break="no"/>mittit 
+              se defendere</quote>
             </p>
-            <p xml:id="bHY6yh-d20869-d1e148"> <ref>/ Ti. de bonis eorum qui ante
-        <lb ed="#V" n="48"/>sententiam. li. i.</ref> <quote xml:id="bHY6yh-d20869-Qd1e150">Ignoscendum est his qui sanguinem
-        <lb ed="#V" n="49"/>suum qualitercumque redemptum voluerut.</quote>
+            <p xml:id="bHY6yh-d20869-d1e148"> 
+                <ref>Ti de bonis 
+                <lb ed="#K"/>eorum qui ante sententiam li i</ref> <quote xml:id="bHY6yh-d20869-Qd1e150">Ignoscen<lb ed="#K" break="no"/>dum 
+                est his qui sanguinem suum 
+                <lb ed="#K"/>qualitercumque redemptum voluerut</quote>
             </p>
             <p xml:id="bHY6yh-d20869-d1e158">
-               <lb ed="#V" n="50"/>
-               <ref>¶ Lex codi. ti. quoniam liceat sine iudice vindica
-        <lb ed="#V" n="51" break="no"/>re. li. i.</ref> <quote xml:id="bHY6yh-d20869-Qd1e162">Melius est in tempus occurrere quam post
-        <lb ed="#V" n="52"/>exitum vindicare.</quote>
+               <ref>Lex codi ti quoniam liceat sine iudice 
+               <lb ed="#K"/>vindicare li i</ref> <quote xml:id="bHY6yh-d20869-Qd1e162">Melius est in tempus 
+               <lb ed="#K"/>occurrere quam post exitum vindicare</quote>
             </p>
-            <p xml:id="bHY6yh-d20869-d1e170"> <ref>/ Ti. in qui. cau. in integrum
-        <lb ed="#V" n="53"/>res. non est ne l. fi.</ref> <quote xml:id="bHY6yh-d20869-Qd1e172">Melius est intacta iura ser
-        <lb ed="#V" n="54"/>uare quam post causam vulneratam remedium
-        <lb ed="#V" n="55"/>querere.</quote>
+            <p xml:id="bHY6yh-d20869-d1e170"> 
+              <ref>Ti 
+              <lb ed="#K"/>in qui cau in integrumres non 
+              <lb ed="#K"/>est ne l fi</ref> <quote xml:id="bHY6yh-d20869-Qd1e172">Melius est in<lb ed="#K" break="no"/>tacta 
+              iura seruare quam post causam 
+              <lb ed="#K"/>vulneratam remedium querere</quote>
             </p>
-            <p xml:id="bHY6yh-d20869-d1e182"> <ref>/ Ti. ad le. cor. de sic. l.</ref> <quote xml:id="bHY6yh-d20869-Qd1e184">siquis per
-        <lb ed="#V" n="56" break="no"/>cussorem: Defensor proprie salutis: videtur
-        <lb ed="#V" n="57"/>nullo peccasse.</quote>
+            <p xml:id="bHY6yh-d20869-d1e182"> 
+              <lb ed="#K"/> <ref>Ti ad le cor de sic l</ref> <quote xml:id="bHY6yh-d20869-Qd1e184">siquis per<lb ed="#K" break="no"/>cussorem 
+              Defensor proprie salutis
+              <lb ed="#K"/>videtur nullo peccasse</quote>
             </p>
             <p xml:id="bHY6yh-d20869-d1e192">
-               <lb ed="#V" n="58"/>
-                <ref>¶ Uetecius de re mili. li. 3. ti. 3.</ref> <quote xml:id="bHY6yh-d20869-Qd1e196">Diuitiarum se
-        <lb ed="#V" n="59"/>cura non est possessio: vbi armorum defensione
-        <lb ed="#V" n="60"/>seruitur.</quote>
+                <lb ed="#K"/> <ref>Uetecius de re mili li 3 ti 3</ref> 
+                <lb ed="#K"/> <quote xml:id="bHY6yh-d20869-Qd1e196">Diuitiarum secura non est possessio 
+                <lb ed="#K"/>vbi armorum defensione seruitur</quote>
             </p>
-            <p xml:id="bHY6yh-d20869-d1e204"> <ref>/ Libro. 4. ti. 8.</ref> <quote xml:id="bHY6yh-d20869-Qd1e206">Oppugnantium ma
-        <lb ed="#V" n="61" break="no"/>chinis per alias machina consueuit.</quote>
+            <p xml:id="bHY6yh-d20869-d1e204"> 
+              <lb ed="#K"/> <ref>Libro 4 ti 8</ref> <quote xml:id="bHY6yh-d20869-Qd1e206">Oppugnantium ma<lb ed="#K" break="no"/>chinis 
+              per alias machina consueuit</quote>
             </p>
             <p xml:id="bHY6yh-d20869-d1e213">
-               <lb ed="#V" n="62"/>
-                <ref>¶ Cassiodorus epistolarum li. 9. e. 25.</ref> <quote xml:id="bHY6yh-d20869-Qd1e217">Ille defen
-        <lb ed="#V" n="63" break="no"/>sor proprie dicendus est qui tuetur innoxie.</quote>
+              <lb ed="#K"/> <ref>Cassiodorus epistolarum li 9 e 
+              <lb ed="#K"/>25</ref> <quote xml:id="bHY6yh-d20869-Qd1e217">Ille defensor proprie dicendus 
+              <lb ed="#K"/>est qui tuetur innoxie</quote>
             </p>
          </div>
       </body>
