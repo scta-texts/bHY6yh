@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 11 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 11 [Krakow, lat 700 III Transcription]</title>
+               <date when="2021-05-18">July 13, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="38-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d16181"><!-- p1l3-r11 -->
+            <head xml:id="bHY6yh-d16181-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-d16181-Hd1e111" type="question-title">De possibilitate et impossibilitate</head>
+            <p xml:id="bHY6yh-d16181-d1e114">
+              <lb ed="#K" n="23"/>De possibilitate et impossibilitate Rubrica xi
+            </p>
+            <p xml:id="bHY6yh-d16181-d1e121">
+              <lb ed="#K"/> <ref>Aristoteles ethicorum li 10 et fi c 5</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d16181-Qd1e129">Omnia habentia corpora non possunt 
+              <lb ed="#K"/>continne operari</quote>
+            </p>
+            <p xml:id="bHY6yh-d16181-d1e135">
+              <ref>Idem rethororum <!--check later-->
+              <lb ed="#K"/>c 8</ref> <quote xml:id="bHY6yh-d16181-Qd1e137">Speculari possumus continue ma<lb ed="#K" break="no"/>gis 
+              quam operari</quote>
+            </p>
+            <p xml:id="bHY6yh-d16181-d1e146">
+                <ref>Idem retho li 2 
+                <lb ed="#K"/>ca 19</ref> <quote xml:id="bHY6yh-d16181-Qd1e148">Omnes cum potentes velint 
+                <lb ed="#K"/>agunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d16181-d1e154">
+                <ref>Idem politicorum libro 5 c 
+                <lb ed="#K"/>7</ref> <quote xml:id="bHY6yh-d16181-Qd1e156">Que volunt potentes agunt 
+                <lb ed="#K"/>omnes</quote>
+            </p>
+            <p xml:id="bHY6yh-d16181-d1e162">
+              <lb ed="#K"/> <ref>Oratius in poetria</ref> <quote xml:id="bHY6yh-d16181-Qd1e166">Nescit vox missa reuerti</quote>
+            </p>
+            <p xml:id="bHY6yh-d16181-d1e172">
+              <lb ed="#K"/> <ref>Tullius philippicorum li 6</ref> 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d16181-Qd1e176">Nolite velle quod fieri non potest</quote>
+            </p>
+            <p xml:id="bHY6yh-d16181-d1e182">
+                <lb ed="#K"/> <ref>Libro 10</ref> <quote xml:id="bHY6yh-d16181-Qd1e184">duas res magnas 
+                <lb ed="#K"/>presertim non modo agere vno tempore 
+                <lb ed="#K"/>sed ne cogitando quidem expli<lb ed="#K" break="no"/>care 
+                quisquam potest</quote>
+            </p>
+            <p xml:id="bHY6yh-d16181-d1e194">
+              <lb ed="#K"/> <ref>Lex diges tit de condi insti li 
+              <lb ed="#K"/>filius</ref> <quote xml:id="bHY6yh-d16181-Qd1e198">Que facta ledunt pie<lb ed="#K" break="no"/>tatem
+              existimationem vere cundiam 
+              <lb ed="#K"/>nostram et vt generaliter dixerim 
+              <lb ed="#K"/>que contra bonos mores sunt 
+              <lb ed="#K"/>nec facere nos posse credendum est</quote>
+            </p>
+            <p xml:id="bHY6yh-d16181-d1e211">
+              <lb ed="#K"/> <ref>Boetius de consolatione li 4 ca 3</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d16181-Qd1e215">Duo sunt quibus humanorum ac<lb ed="#K" break="no"/>tuum 
+              constat effectus voluntas 
+              <lb ed="#K"/>scilicet et potestas quorum si alterum 
+              <lb ed="#K"/>desit nihil est quod explicari 
+              <lb ed="#K"/>queat</quote>
+            </p>
+            <p xml:id="bHY6yh-d16181-d1e232">
+              <lb ed="#K"/> <ref>Isidorus in sinonima soliloquiorum lib 2</ref> <quote xml:id="bHY6yh-d16181-Qd1e236">Nihil potest caro 
+              <lb ed="#K"/>facere nisi quod voluerit animus</quote>
+            </p>
+            <p xml:id="bHY6yh-d16181-d1e244">
+               <quote xml:id="bHY6yh-d16181-Qd1e248"> <ref>Auctor libro qui dicitur pamphilus c 28</ref>mitte quod 
+               <lb ed="#K"/>esse nequit quere quod po<lb ed="#K" break="no"/>test</quote> <!--check this later-->
+            </p>
+            <p xml:id="bHY6yh-d16181-d1e254">
+              <lb ed="#K"/> <ref>Auctor lib qui dicitur facetus c 16 et fi</ref> <quote xml:id="bHY6yh-d16181-Qd1e258">non 
+              <lb ed="#K"/>cupiat quisquam quod nunquam possit 
+              <lb ed="#K"/>habere Quod fortuna dedit suf<lb ed="#K" break="no"/>ficienter 
+              amet</quote>
+            </p>
+            <p xml:id="bHY6yh-d16181-d1e266">
+                <ref>Prouerbium vulgar</ref> <quote xml:id="bHY6yh-d16181-Qd1e270">Chi vol morire el repo 
+                <lb ed="#K"/>alcire</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

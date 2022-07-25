@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4 [Krakow, lat 700 III Transcription]</title>
+               <date when="2021-05-18">July 9, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="34-v"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d14568"><!-- p1l3-r4 -->
+            <head xml:id="bHY6yh-d14568-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-d14568-Hd1e111" type="question-title">De naturalitate animi circa se et alium</head>
+            <p xml:id="bHY6yh-d14568-d1e114">
+                De naturalita<lb ed="#K" n="27" break="no"/>te 
+                animi circa se et alium Rubrica 4
+            </p>
+            <p xml:id="bHY6yh-d14568-d1e121">
+               <lb ed="#K"/> <ref>CRonica de nugis philosophorum c 2 
+               <lb ed="#K"/>scilicet de thalete</ref> <quote xml:id="bHY6yh-d14568-Qd1e129">Tales qui primus 
+               <lb ed="#K"/>sapiens nominatus est secundum quem 
+               <lb ed="#K"/>septem sapientes vocati sunt 
+               <lb ed="#K"/>Interrogatus quid difficile ait 
+               <lb ed="#K"/>seipsum noscere</quote>
+            </p>
+            <p xml:id="bHY6yh-d14568-d1e139"> 
+             <lb ed="#K"/> <ref>Aristoteles ethicorum lib 5 ca 8</ref> <quote xml:id="bHY6yh-d14568-Qd1e143">Seipsum nullus 
+             <lb ed="#K"/>eligit noscere</quote>
+            </p>
+            <p xml:id="bHY6yh-d14568-d1e150">
+              <ref>Libro 9 c 4</ref> 
+                <pb ed="#K" n="35-r"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/> <quote xml:id="bHY6yh-d14568-Qd1e152">Unus quisque sibiipsi vult bona</quote>
+            </p>
+            <p xml:id="bHY6yh-d14568-d1e158">
+              <lb ed="#K"/> <ref>Idem c 7</ref> <quote xml:id="bHY6yh-d14568-Qd1e160">Omnis proprium opus diligit magis 
+              <lb ed="#K"/>quam diligatur ab opere animato 
+              <lb ed="#K"/>facto</quote>
+            </p>
+            <p xml:id="bHY6yh-d14568-d1e168">
+              <ref>Idem c 9</ref> <quote xml:id="bHY6yh-d14568-Qd1e170">Speculari magis
+              <lb ed="#K"/>possimus proximos quam nosmetipsos 
+              <lb ed="#K"/>et illo rum actiones quam proprias</quote>
+            </p>
+            <p xml:id="bHY6yh-d14568-d1e178">
+              <ref>Idem 
+              <lb ed="#K"/>magnorum moralium lib 2 c 86</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d14568-Qd1e180">Difficillimum est noscere seipsum 
+              <lb ed="#K"/>ipsi quidem nosipsos ex nobis 
+              <lb ed="#K"/>ipsis non speculari possumus</quote>
+            </p>
+            <p xml:id="bHY6yh-d14568-d1e190">
+              <ref>Idem
+              <lb ed="#K"/>rethoricorum libro 3 et fi c 14</ref> <quote xml:id="bHY6yh-d14568-Qd1e192">Conspi<lb ed="#K" break="no"/>cabile 
+              magis est quod proprium est 
+              <lb ed="#K"/>negocium eo quod alienum</quote>
+            </p>
+            <p xml:id="bHY6yh-d14568-d1e202">
+             <lb ed="#K"/> <ref>Terentius in andria ca 10</ref> <quote xml:id="bHY6yh-d14568-Qd1e206">Uerum 
+             <lb ed="#K"/>illud verbum est vulgo quod 
+             <lb ed="#K"/>dici solet omnes sibi malle 
+             <lb ed="#K"/>melius esse quam alteri</quote> 
+            </p>
+            <p> 
+             <ref>Idem in 
+             <lb ed="#K"/>heauton tumerumenon ca 9</ref> <quote>Ita co<lb ed="#K" break="no"/>mparatam 
+             esse hominum naturam aliena 
+             <lb ed="#K"/>vt melius videant et iudicent 
+             <lb ed="#K"/>quam sua an eo fit quia in re nostra 
+             <lb ed="#K"/>aut gaudio sumus prepediti nimio 
+             <lb ed="#K"/>aut egritudine</quote>
+            </p>
+            <p xml:id="bHY6yh-d14568-d1e232">
+             <lb ed="#K"/> <ref>Tullius de fine bonorum et malorum 
+             <lb ed="#K"/>lib 5 et fi</ref> <quote xml:id="bHY6yh-d14568-Qd1e236">Omne animal seipsum diligit</quote>
+            </p>
+            <p xml:id="bHY6yh-d14568-d1e242">
+              <lb ed="#K"/> <ref>Idem tusculanarum questionum li i</ref> <quote xml:id="bHY6yh-d14568-Qd1e244">non valet tantum 
+              <lb ed="#K"/>animus vt seipsum videat at vt 
+              <lb ed="#K"/>oculus sic animus se non videns 
+              <lb ed="#K"/>alia cernit</quote>
+            </p>
+            <p xml:id="bHY6yh-d14568-d1e254">
+              <ref>Idem libro 3</ref> <quote xml:id="bHY6yh-d14568-Qd1e256">Proprium stultitie 
+              <lb ed="#K"/>est aliorum vitia cernere obliuisci 
+              <lb ed="#K"/>suorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d14568-d1e264">
+              <lb ed="#K"/> <ref>Ouidius in puncto lib 4 et fi epistola i</ref> <quote xml:id="bHY6yh-d14568-Qd1e268">Quod fecit quisque tuetur 
+              <lb ed="#K"/>opus</quote>
+            </p>
+            <p xml:id="bHY6yh-d14568-d1e274">
+                 <cb ed="#K" n="b"/>
+              <lb ed="#K"/> <ref>Seneca epistolarum ad lucillum li 13 
+              <lb ed="#K"/>pla sexta</ref> <quote xml:id="bHY6yh-d14568-Qd1e278">nemo nisi cum alteri 
+              <lb ed="#K"/>sibi prodest sibi proficit</quote>
+          </p>
+          <p>
+            <ref>Idem Libro 14 c i</ref> 
+            <lb ed="#K"/> <quote>Nemo eorum qui in republica ver<lb ed="#K" break="no"/>santur 
+            quos vincat sed a quibus 
+            <lb ed="#K"/>vincatur aspicit et illis non tam 
+            <lb ed="#K"/>iocundum est multos post se videre 
+            <lb ed="#K"/>quam graue est aliquem ante se habere</quote>
+          </p>
+          <p xml:id="bHY6yh-d14568-d1e295">
+            <lb ed="#K"/> <ref>Idem de ira lib 2</ref> <quote xml:id="bHY6yh-d14568-Qd1e297">Aliena vitia 
+            <lb ed="#K"/>ante oculos habemus a tergo nostra</quote>
+          </p>
+          <p xml:id="bHY6yh-d14568-d1e304">
+             <lb ed="#K"/> <ref>Marcialis cocus li vndique suscepto c 5</ref> <quote xml:id="bHY6yh-d14568-Qd1e308">Ad fratris cul<lb ed="#K" break="no"/>pam 
+             aquile tu lumina portas 
+             <lb ed="#K"/>ad tua cum scelera nulla vel orba 
+             <lb ed="#K"/>feras</quote> <!--double check this later-->
+        </p>
+        <p xml:id="bHY6yh-d14568-d1e316">
+            <lb ed="#K"/> <ref>Bernardus li de improbatione vitiorum c i</ref> <quote xml:id="bHY6yh-d14568-Qd1e320">Quamplures a<lb ed="#K" break="no"/>liena 
+            notant sua crimina numquam</quote>
+          </p>
+         </div>
+      </body>
+   </text>
+</TEI>

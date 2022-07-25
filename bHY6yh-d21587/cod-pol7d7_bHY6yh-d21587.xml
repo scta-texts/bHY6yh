@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 9 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 9 [Krakow, lat 700 III Transcription]</title>
+               <date>July 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="49-r"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d21587"><!-- p2l1-r9 -->
+            <head xml:id="bHY6yh-d21587-Hd1e108">Rubrica 9</head>
+            <head xml:id="bHY6yh-d21587-Hd1e111" type="question-title">De errore facti et erronea existimatione</head>
+            <p xml:id="bHY6yh-d21587-d1e114">
+               <lb ed="#K" n="32"/>De errore et facti et erronea 
+               <lb ed="#K"/>estimatione Rubrica 9
+            </p>
+            <p xml:id="bHY6yh-d21587-d1e121">
+              <lb ed="#K"/> <ref>Moises in deuteronomio c 27</ref> 
+                    <pb ed="#K" n="49-v"/>
+                    <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/> <quote xml:id="bHY6yh-d21587-Qd1e127">Maledictus qui errare facit 
+              <lb ed="#K"/>cecum in itinere</quote> 
+            </p>
+            <p xml:id="bHY6yh-d21587-d1e133"> 
+              <lb ed="#K"/> <ref>Quintilianus declam 9 decla</ref> <quote xml:id="bHY6yh-d21587-Qd1e137">Tenues 
+              <lb ed="#K"/>rerum imagines solent cogita<lb ed="#K" break="no"/>tionibus 
+              accipere corpus cum 
+              <lb ed="#K"/>vane absenti animo cogitatio<lb ed="#K" break="no"/>nes 
+              finguntur</quote>
+            </p>
+            <p xml:id="bHY6yh-d21587-d1e148">
+              <lb ed="#K"/> <ref>Lex diges ti de iurisdic om iud l si 
+              <lb ed="#K"/>per errorem</ref> <quote xml:id="bHY6yh-d21587-Qd1e152">Non consentiunt qui 
+              <lb ed="#K"/>errant quid enim tam contrarium 
+              <lb ed="#K"/>est consensui quam error qui imperi<lb ed="#K" break="no"/>tiam 
+              detigit</quote>
+            </p>
+            <p xml:id="bHY6yh-d21587-d1e162"> 
+              <ref>Ti de iuris et facti 
+              <lb ed="#K"/>ignora l 2</ref> <quote xml:id="bHY6yh-d21587-Qd1e164">Facti interpretatio plerum<lb ed="#K" break="no"/>que 
+              etiam prudentissimos fallit</quote>
+            </p>
+            <p xml:id="bHY6yh-d21587-d1e172"> 
+              <ref>Tit de suppellectili legata l <!--double check-->
+              <lb ed="#K"/>labeo § fi</ref> <quote xml:id="bHY6yh-d21587-Qd1e174">Nemo existiman<lb ed="#K" break="no"/>dus 
+              est id dixisse quod mente 
+              <lb ed="#K"/>non agitauit</quote>
+            </p>
+            <p xml:id="bHY6yh-d21587-d1e182"> 
+              <ref>Titu adle iuls 
+              <lb ed="#K"/>maie l famosi § i</ref>  <quote xml:id="bHY6yh-d21587-Qd1e184">Lubri<lb ed="#K" break="no"/>cum 
+              lingue facile ad penam tra<lb ed="#K" break="no"/>hendum 
+              non est</quote>
+            </p>
+            <p xml:id="bHY6yh-d21587-d1e192"> 
+              <ref>Ti de reg iu li 
+              <lb ed="#K"/>infrascripta</ref> <quote xml:id="bHY6yh-d21587-Qd1e194">Non videtur qui errat 
+              <lb ed="#K"/>consentire</quote>
+            </p>
+            <p xml:id="bHY6yh-d21587-d1e200">
+              <lb ed="#K"/> <ref>Ualerius maxi li 9 c 9</ref> <quote xml:id="bHY6yh-d21587-Qd1e204">Error non sua
+              <lb ed="#K"/>spiritote sed variis incitatus imaginibus 
+              <lb ed="#K"/>culpe se implicat</quote>
+            </p>
+            <p xml:id="bHY6yh-d21587-d1e213">
+              <lb ed="#K"/> <ref>Auctor de formula honeste vite c 4</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d21587-Qd1e217">Errori facile veniam dato</quote>
+            </p>
+            <p xml:id="bHY6yh-d21587-d1e223">
+              <lb ed="#K"/> <ref>Andreas ad gualterium de a<lb ed="#K" break="no"/>more 
+              li i</ref> <quote xml:id="bHY6yh-d21587-Qd1e227">Fas est ab errato 
+              <lb ed="#K"/>discedere et ab eo quodquisque minus 
+              <lb ed="#K"/>recte persenserit resipiscere</quote>
+            </p>
+            <p xml:id="bHY6yh-d21587-d1e235">
+              <lb ed="#K"/> <ref>Prouerb metri extraor <!--double check this--> 
+              <lb ed="#K"/>vag</ref> <quote xml:id="bHY6yh-d21587-Qd1e239">Ubi paruarerum 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>forsan nec torques habetur</quote>
+            </p>
+            <p xml:id="bHY6yh-d21587-d1e245">
+              <lb ed="#K"/> <ref>Prouerb vulgar</ref> <quote xml:id="bHY6yh-d21587-Qd1e249">Tal se 
+              <lb ed="#K"/>cre segnare che se dea del 
+              <lb ed="#K"/>deo enloio El passu non 
+              <lb ed="#K"/>crede alo non vult <!--check this later-->
+              <lb ed="#K"/>facre factore quid nomen paratur</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
