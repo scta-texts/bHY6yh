@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 15 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 15 [Krakow, lat 700 III Transcription]</title>
+               <date when="2021-05-18">July 14, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="40-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d17152"><!-- p1l3-r15 -->
+            <head xml:id="bHY6yh-d17152-Hd1e108">Rubrica 15</head>
+            <head xml:id="bHY6yh-d17152-Hd1e111" type="question-title">De raris naturaliter</head>
+            <p xml:id="bHY6yh-d17152-d1e114">
+                <lb ed="#K" n="11"/>De raris naturaliter Rubrica 15
+            </p>
+            <p xml:id="bHY6yh-d17152-d1e119">
+                <lb ed="#K"/> <ref>ARistoteles polyticorum libro 3 c 5</ref> <quote xml:id="bHY6yh-d17152-Qd1e127">O<lb ed="#K" break="no"/>pulenti 
+                quidem pauci egeni autem 
+                <lb ed="#K"/>multi vbique</quote>
+            </p>
+            <p xml:id="bHY6yh-d17152-d1e133">
+                <lb ed="#K"/> <ref>Tullius de fine bonorum et malorum lib 2</ref> <quote xml:id="bHY6yh-d17152-Qd1e137">In omni 
+                <lb ed="#K"/>arte vel studio vel quauis 
+                <lb ed="#K"/>scientia vel in ipsa virtute optimum 
+                <lb ed="#K"/>quidque rarissimum est</quote>
+            </p>
+            <p xml:id="bHY6yh-d17152-d1e146"> 
+              <ref>Idem retho 
+              <lb ed="#K"/>artis veteris li 2 c 5</ref> <quote xml:id="bHY6yh-d17152-Qd1e148">Que rara 
+              <lb ed="#K"/>et ardua sunt ea experimendo 
+              <lb ed="#K"/>pulchra et iocunda hominibus 
+              <lb ed="#K"/>videntur</quote>
+            </p>
+            <p xml:id="bHY6yh-d17152-d1e158"> 
+                <ref>Idem de amacitia</ref> 
+                <lb ed="#K"/> <quote xml:id="bHY6yh-d17152-Qd1e160">Uere amicicie difficile reperiun<lb ed="#K" break="no"/>tur 
+                in his qui honoribus re<lb ed="#K" break="no"/>ipublice 
+                versantur</quote>
+            </p>
+            <p xml:id="bHY6yh-d17152-d1e168">
+                <ref>Iuuenalis li 5 et fi satis i</ref> <quote xml:id="bHY6yh-d17152-Qd1e172">Rari quip<lb ed="#K" break="no"/>pe 
+                boni numero sunt vix totidem 
+                <lb ed="#K"/>quot tebarum porte vel diuitis 
+                <lb ed="#K"/>ostia tulli</quote>
+            </p>
+            <p xml:id="bHY6yh-d17152-d1e180">
+                <lb ed="#K"/> <ref>Lex autem t de consulibus</ref> <quote xml:id="bHY6yh-d17152-Qd1e184">§ itaque causa in his 
+                <lb ed="#K"/>que raro fiunt miraculum est</quote>
+            </p>
+            <p xml:id="bHY6yh-d17152-d1e190">
+                <lb ed="#K"/> <ref>Icobus beneuentanus c 34</ref> 
+                <lb ed="#K"/> <quote xml:id="bHY6yh-d17152-Qd1e194">Sed modo perfectus rarus amicus 
+                <lb ed="#K"/>adest</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
