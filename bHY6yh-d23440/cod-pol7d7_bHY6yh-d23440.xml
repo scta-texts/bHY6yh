@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 1 [Krakow, lat 700 III Transcription]</title>
+               <date when="2022-08-05">August 05, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="53-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d23440"><!-- p2l2-r1 -->
+            <head xml:id="bHY6yh-d23440-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d23440-Hd1e111" type="question-title">De veritate et falsitate et mendacio</head>
+            <p xml:id="bHY6yh-d23440-d1e114">
+              <lb ed="#K" n="34"/>Secundus liber secunde parti trac<lb ed="#K" break="no"/>tat <!--double check this later-->
+              de veritate et salsitate 
+              <lb ed="#K"/>et connexis vtrique vel alterutri sub his 
+              <lb ed="#K"/>titulis sequentibus
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e127">
+              De veritate et fal<lb ed="#K" break="no"/>sitate 
+                <cb ed="#K" n="b"/>
+              et mendacio Rubrica i
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e134"> 
+              <lb ed="#K"/> <ref>In exodo c 23</ref> <quote xml:id="bHY6yh-d23440-Qd1e138">Non suscipies vo<lb ed="#K" break="no"/>cem 
+              mendacii Mendacium fugies</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e145">
+              <lb ed="#K"/> <ref>In leuitico ca 19</ref> <quote xml:id="bHY6yh-d23440-Qd1e149">Non mentiemini 
+              <lb ed="#K"/>nec decipiet vnusquisque pro<lb ed="#K" break="no"/>ximum 
+              suum</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e155">
+                <ref>Psalmista 11 psalmus</ref> <quote xml:id="bHY6yh-d23440-Qd1e159">Diminute sunt veritates a filiis ho<lb ed="#K" break="no"/>minum</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e165">
+              <lb ed="#K"/> <ref>84 psalmus</ref> <quote xml:id="bHY6yh-d23440-Qd1e167">Misercordia et veritas 
+              <lb ed="#K"/>obuiauerunt sibi Ueritas de terra 
+              <lb ed="#K"/>orta est et iustitia de celo prospexit</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e175">
+              <lb ed="#K"/> <ref>116 psalmus</ref> <quote xml:id="bHY6yh-d23440-Qd1e179">Deus custodit verita<lb ed="#K" break="no"/>tem 
+              in saeculum</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e183">
+              <lb ed="#K"/> <ref>Salomon in prouerb c 13</ref> <quote xml:id="bHY6yh-d23440-Qd1e187">Uerbum mendax iustus 
+              <lb ed="#K"/>detestabitur Impius autem considit 
+              <lb ed="#K"/>et confundetur</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e195">
+              <ref>16 c</ref> <quote xml:id="bHY6yh-d23440-Qd1e197">qui recta 
+              <lb ed="#K"/>loquitur dirigetur</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e204">
+              <ref>17 c</ref> <quote xml:id="bHY6yh-d23440-Qd1e206">Fallax 
+              <lb ed="#K"/>obtemper at labiis mendacibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e212">
+              <lb ed="#K"/> <ref>Aristoteles topicorum lib 4 c 7</ref> <quote xml:id="bHY6yh-d23440-Qd1e216">Per se 
+              <lb ed="#K"/>mendacium prauum et fugiendum est 
+              <lb ed="#K"/>verum autem et bonum est laudabile</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e224">
+              <ref>Idem ethicorum li i c 2</ref> <quote xml:id="bHY6yh-d23440-Qd1e226">Uidebi<lb ed="#K" break="no"/>tur 
+              vtique melius esse forsi<lb ed="#K" break="no"/>tan 
+              et oportere pro salute veritatis 
+              <lb ed="#K"/>et familiaria destruere aliterque 
+              <lb ed="#K"/>et philosophos existentes ambobus enim 
+              <lb ed="#K"/>existentibus amicis sanctum est prae<lb ed="#K" break="no"/>honorare 
+              veritatem</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e240">
+              <ref>Li 4 c 8</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d23440-Qd1e242">per se mendacium prauum et fugien<lb ed="#K" break="no"/>dum 
+              est verum autem bonum et 
+              <lb ed="#K"/>laudabile est</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e252">
+              <lb ed="#K"/> <ref>Cronica de nugis philosophurum c 28 scilicet de 
+              <lb ed="#K"/>aristotele</ref> <quote xml:id="bHY6yh-d23440-Qd1e260">Aristoteles interrogatus quid 
+              <lb ed="#K"/>fenoris acquirant menda<lb ed="#K" break="no"/>ces 
+              inquit ut quotiens vera 
+              <lb ed="#K"/>loquuntur non credantur eis</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e270">
+              <lb ed="#K"/> <ref>Iesus filius sirach in eccl c 4</ref> 
+                  <pb ed="#K" n="53-v"/>
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K" n="1"/> <quote xml:id="bHY6yh-d23440-Qd1e274">Non contradicas verbo veritatis vllo 
+              <lb ed="#K"/>modo</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e281">
+              <ref>20 c</ref> <quote xml:id="bHY6yh-d23440-Qd1e283">Potior fur est quam 
+              <lb ed="#K"/>assiduitas viri mendacis pro<lb ed="#K" break="no"/>ditionem 
+              autem ambo hereditabunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e291">
+              <lb ed="#K"/> <ref>23 c</ref> <quote xml:id="bHY6yh-d23440-Qd1e293">Uir multum iurans re<lb ed="#K" break="no"/>plebitur 
+              iniquitate</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e299">
+              <ref>25 c</ref> <quote xml:id="bHY6yh-d23440-Qd1e301">T<lb ed="#K" break="no"/>res 
+              species odiuit anima mea 
+              <lb ed="#K"/>Pauperem superbum diuitem men<lb ed="#K" break="no"/>dacem 
+              et senem fatuum et insensatum</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e311">
+              <lb ed="#K"/> <ref>Philon in li sapiente c i</ref> <quote xml:id="bHY6yh-d23440-Qd1e315">Os euius qua mentitur occidit 
+              <lb ed="#K"/>animam</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e321">
+              <lb ed="#K"/> <ref>Terentius in andria c 3</ref> <quote xml:id="bHY6yh-d23440-Qd1e325">Hoc tempore obsequium amicos 
+              <lb ed="#K"/>veritas odium parit</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e331">
+              <lb ed="#K"/> <ref>Tullius retho artis veteris li 2 c 9</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d23440-Qd1e335">Ueritas est virtus per quam immutata 
+              <lb ed="#K"/>ea quie sunt aut fuerit aut 
+              <lb ed="#K"/>futura sunt dicuntur</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e344">
+              <lb ed="#K"/> <ref>Quintilianus declamationum 2 declam</ref> <quote xml:id="bHY6yh-d23440-Qd1e348">Uiro forti 
+              <lb ed="#K"/>praesertim et innocenti nihil facere conuenit quod negandum sit</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e356">
+              <ref>de<lb ed="#K" break="no"/>clam 
+              10</ref> <quote xml:id="bHY6yh-d23440-Qd1e358">Magis oderis 
+              <lb ed="#K"/>mendacium cum simile vero est</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e364">
+              <ref>declam 16</ref> <quote xml:id="bHY6yh-d23440-Qd1e366">Nuncio vobis nihil 
+              <lb ed="#K"/>a morientibus fugi nihil 
+              <lb ed="#K"/>vita laborante simplicius</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e374">
+              <lb ed="#K"/> <ref>Iacobus apostolus epistola vnica c 3</ref> <quote xml:id="bHY6yh-d23440-Qd1e378">No<lb ed="#K" break="no"/>lite 
+              gloriari et mendaces es<lb ed="#K" break="no"/>se 
+              aduersus veritatem non est enim 
+              <lb ed="#K"/>ista sapientia desursum descendens 
+              <lb ed="#K"/>sed terrena animalis et diabolica</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e388">
+              <lb ed="#K"/> <ref>Paulus apostolus epistola ad roma c 3 <!--double check this-->
+              <lb ed="#K"/>et pe</ref> <quote xml:id="bHY6yh-d23440-Qd1e392">est antem deus verax omnis 
+              <lb ed="#K"/>homo autem mendax</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e398">
+              <ref>Idem epistola
+              <lb ed="#K"/>ad colossen c 3 et pe</ref> <quote xml:id="bHY6yh-d23440-Qd1e400">Nolite men<lb ed="#K" break="no"/>tiri 
+              inuicem</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e407">
+                  <cb ed="#K" n="b"/>
+              <ref>Seneca tragediarum in edipo ca 10</ref> <quote xml:id="bHY6yh-d23440-Qd1e411">Quid 
+              <lb ed="#K"/>verba queris veritas odit moras</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e417">
+              <ref>Idem epistolarum ad lucil<lb ed="#K" break="no"/>lum 
+              li 5 e 11 et fi</ref> <quote xml:id="bHY6yh-d23440-Qd1e419">Que veritati operam 
+              <lb ed="#K"/>dat orationem incomposita debet esse 
+              <lb ed="#K"/>et simplex</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e429">
+              <ref>Li 6 e 6</ref> <quote xml:id="bHY6yh-d23440-Qd1e431">Apta decent 
+              <lb ed="#K"/>et simplicia veritatem</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e437">
+              omitted
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e443">
+              <lb ed="#K"/> <ref>Li 13 e 4</ref> <quote xml:id="bHY6yh-d23440-Qd1e447">Ueritas in omnem 
+              <lb ed="#K"/>partem sui eadem est mendacium 
+              <lb ed="#K"/>qui decipiunt nihil habent 
+              <lb ed="#K"/>solidi tenue est mendacium 
+              <lb ed="#K"/>plucet si diligenter inspexeris</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e455">
+              <lb ed="#K"/> <ref>Idem declam li i in prohemio</ref> <quote xml:id="bHY6yh-d23440-Qd1e459">Semper 
+              <lb ed="#K"/>circa veritatem est similitudo</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e466">
+              <lb ed="#K"/><ref>Lex codi ti si vt 
+              <lb ed="#K"/>se ab hereditate abstineant l i</ref> <quote xml:id="bHY6yh-d23440-Qd1e460">Fides veri<lb ed="#K" break="no"/>tati 
+              verborum adminicula non 
+              <lb ed="#K"/>desiderat</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e482">
+              <lb ed="#K"/> <ref>Lex auc ti de fide instru in prin</ref> <quote xml:id="bHY6yh-d23440-Qd1e484">Nihil aliud est falsi<lb ed="#K" break="no"/>tas 
+              quam immutatio veritatis</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e492">
+              <lb ed="#K"/> <ref>Marcialis cocus li vndique suscepto 
+              <lb ed="#K"/>c 3</ref> <quote xml:id="bHY6yh-d23440-Qd1e496">Rumor falsidicus surgit 
+              <lb ed="#K"/>et ecce cadit</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e502">
+              <lb ed="#K"/> <ref>Auctor lib de formula honeste vite ca 2</ref> <quote xml:id="bHY6yh-d23440-Qd1e506">Non recedas 
+              <lb ed="#K"/>a vero</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e512">
+              <ref>c 5</ref> <quote xml:id="bHY6yh-d23440-Qd1e514">Nihil tibi intersit an <!--review this later-->
+              <lb ed="#K"/>affirmes an inures de reli<lb ed="#K" break="no"/>gione 
+              ac fide agi scias vbicumque 
+              <lb ed="#K"/>de veritate tractatur si ali quando 
+              <lb ed="#K"/>coarteris vti mendacio 
+              <lb ed="#K"/>vtere non ad falsi sed ad ve<lb ed="#K" break="no"/>ri 
+              custodiam si contigerit
+              <lb ed="#K"/>fidelitatem mendacio redimi 
+              <lb ed="#K"/>non mentieris sed potius ex<lb ed="#K" break="no"/>cusabis</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e531">
+                <pb ed="#K" n="54-r"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/> <ref>Cecilius de beata vita li 2</ref> <quote xml:id="bHY6yh-d23440-Qd1e535">Ueri<lb ed="#K" break="no"/>tas 
+              a vulgi solet var<lb ed="#K" break="no"/>iis 
+              sermonibus dissipata corrumpi</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e542">
+              <lb ed="#K"/> <ref>Augustinus in epig prospe emp 65</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d23440-Qd1e546">Difficilia et laboriosa sunt sig<lb ed="#K" break="no"/>menta 
+              mendacii quae autem vult verum dicere non laborat</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e554">
+              <ref>Macrobius saturnaliorum li 2 c 18</ref> <quote xml:id="bHY6yh-d23440-Qd1e558">ex<lb ed="#K" break="no"/>autior 
+              liberii Nimium altercan<lb ed="#K" break="no"/>do 
+              veritas amittitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e564">  
+              <lb ed="#K"/> <ref>Fulgentius li 3 et fi Fab 21 et fi</ref> <quote xml:id="bHY6yh-d23440-Qd1e568">Lucida veritas omnium 
+              <lb ed="#K"/>malorum morum falsitate circumda<lb ed="#K" break="no"/>ta 
+              pollui aliqua commixtione non 
+              <lb ed="#K"/>nouit</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e576">  
+              <lb ed="#K"/> <ref>Cassiodorus epistolarum li 3 e 3</ref> <quote xml:id="bHY6yh-d23440-Qd1e580">Pessima consuetudo est des<lb ed="#K" break="no"/>picere 
+              veritatem</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e586">
+              <ref>Li 4 e 3</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d23440-Qd1e588">Theodorus rex gotorum cui<lb ed="#K" break="no"/>dam
+              illustri viro dixit non 
+              <lb ed="#K"/>te terruit contentionibus inflammata 
+              <lb ed="#K"/>regalis auctoritas subiugas<lb ed="#K" break="no"/>ti 
+              qui <!--double check--> au daciam veritati</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e600">
+              <lb ed="#K"/> <ref>Li 9 e 24</ref> 
+              <lb ed="#K"/> <!--add this text later-->
+              <lb ed="#K"/> <ref>Gregorius 36</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d23440-Qd1e602">Quelibet malitia for<lb ed="#K" break="no"/>midat 
+              contra manifesta bona 
+              <lb ed="#K"/>aliquid profiteri dum generali<lb ed="#K" break="no"/>bus 
+              odiis veretur exponi</quote>
+            </p>
+             <p xml:id="bHY6yh-d23440-d1e613">
+              <lb ed="#K"/> <ref>Idem de amincitia e 24</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d23440-Qd1e615">Plerumque molesta est veritas</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e621">
+              <lb ed="#K"/> <ref>Gregorius in pastorali c 36</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d23440-Qd1e625">Impuri dum deprehendi me<lb ed="#K" break="no"/>tuunt 
+              semper improbas defensiones 
+              <lb ed="#K"/>querunt semper pauidis sus<lb ed="#K" break="no"/>pitionibus 
+              agitantur nihil 
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K"/>autem est ad defendendum 
+              <lb ed="#K"/>purita te tutius nihil ad 
+              <lb ed="#K"/>dicendum veritate facilius</quote> 
+            </p>   
+            <p xml:id="bHY6yh-d23440-d1e637">
+              <lb ed="#K"/> <ref>Isidorus in sinonima soliloquiorum 
+              <lb ed="#K"/>li 2 c 34</ref> <quote xml:id="bHY6yh-d23440-Qd1e641">Omne mendacium 
+              <lb ed="#K"/>peccatum est Neminem mentiendo 
+              <lb ed="#K"/>fallas Non aliud loqueris 
+              <lb ed="#K"/>et aliud animo teneas non aliud 
+              <lb ed="#K"/>dicas et aliud facias</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e651">
+                <ref>pamphilus c 3</ref> <quote xml:id="bHY6yh-d23440-Qd1e655">Crede quod interdum 
+                <lb ed="#K"/>multis mendacia prosunt Et quandoque 
+                <lb ed="#K"/>nocet omnia vera loqui
+               </quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e669">
+              <lb ed="#K"/> <ref>facetus c 2</ref> <quote xml:id="bHY6yh-d23440-Qd1e673">Esto veri dicus 
+              <lb ed="#K"/>falsum quandoque loquaris Nam semper 
+              <lb ed="#K"/>verum dicere credo nephas</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e681">
+              <lb ed="#K"/> <ref>Bernardus li de improbatione 
+              <lb ed="#K"/>vitiorum c i</ref> <quote xml:id="bHY6yh-d23440-Qd1e685">Nil docto men<lb ed="#K" break="no"/>dace 
+              potest truculentius esse</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e692">
+              <lb ed="#K"/> <ref>Ricardus iudex venusinus 
+              <lb ed="#K"/>li de pertractatione nup c 37</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d23440-Qd1e696">Est labor in labiis menda<lb ed="#K" break="no"/>cia 
+              composituris vera lo<lb ed="#K" break="no"/>cuturis 
+              non labor vllus inest</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e706">
+              <lb ed="#K"/> <ref>Montenarius in luna cleri c 100</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d23440-Qd1e710">Multa fidem paucis adimunt men<lb ed="#K" break="no"/>dacia 
+              veris</quote>
+            </p>
+            <p xml:id="bHY6yh-d23440-d1e716">
+              <ref>Prouerb vulg</ref> <quote xml:id="bHY6yh-d23440-Qd1e720">Essa zonze pium 
+              <lb ed="#K"/>tosto el boxrao calzoto <!--double check-->
+              <lb ed="#K"/>Lomo veio el forestero podirbuxia e po dir 
+              <lb ed="#K"/>vero Longa via longa boxia</quote>
+            </p>
+    
+         </div>
+      </body>
+   </text>
+</TEI>
