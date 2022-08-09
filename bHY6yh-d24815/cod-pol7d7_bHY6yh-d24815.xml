@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+             <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4 [Krakow, lat 700 III Transcription]</title>
+               <date when="2022-08-08">August 08, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="56-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d24815"><!-- p2l2-r4 -->
+            <head xml:id="bHY6yh-d24815-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-d24815-Hd1e111" type="question-title">De adulatione: blandimento et assentione</head>
+            <p xml:id="bHY6yh-d24815-d1e114">
+                De adulatione 
+                <lb ed="#K" n="26"/>blandimento et assentione Rubrica 4
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e121">
+               <lb ed="#K"/> <ref>Salomon in prouerb c i</ref> <quote xml:id="bHY6yh-d24815-Qd1e127">Si te lac<lb ed="#K" break="no"/>tauerint 
+               peccatores ne quies<lb ed="#K" break="no"/>cas 
+               eis</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e133">
+              <ref>c 27</ref> <quote xml:id="bHY6yh-d24815-Qd1e135">Meliora sunt 
+              <lb ed="#K"/>vulnera diligentis quam 
+              <lb ed="#K"/>fraudientis oscula</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e144">    
+              <lb ed="#K"/> <ref>Isocrates in exhortation</ref> <quote xml:id="bHY6yh-d24815-Qd1e148">Odi blandientes tanquam 
+              <lb ed="#K"/>decipientes nam vtrique com<lb ed="#K" break="no"/>missarii 
+              facti iniuriantur 
+              <lb ed="#K"/>commissis</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e156">
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/> <ref>Aristoteles retho li i c 20</ref> <quote xml:id="bHY6yh-d24815-Qd1e160">Adulationem
+        recipere et adulatorem delectabile est: apparens
+        enim admirator est. Apparens amicus adu
+        lator est. / Li. 2 c. 9. Laudare presentem: adu
+        lationis est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e172">
+      <ref>Idem ethincorum libro 4. c. 4.</ref> <quote xml:id="bHY6yh-d24815-Qd1e174">Omnes
+        blanditores obsequiosi seruiles et humiles
+        sunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e182">
+      <ref>Li. 8. c. 5.</ref> <quote xml:id="bHY6yh-d24815-Qd1e184">Amatores adulationis mul
+        ti sunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e190">
+      <ref>Idem magnorum moralium li. i. c. 51</ref>
+        <quote xml:id="bHY6yh-d24815-Qd1e192">Adulator est plus decentibus et existentibus
+        adiiciens.</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e200">
+               
+                <ref>Terentius. i. comedi scilicet in andria. ca. 3.</ref> <quote xml:id="bHY6yh-d24815-Qd1e204">Hoc
+        tempore obsequium amicos veritas odium parit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e211">
+               
+                <ref>Tullius retho. artis noue li. 5. c. 6.</ref> <quote xml:id="bHY6yh-d24815-Qd1e215">Habet
+        assentatio iocunda principia: eadem exitus
+        amarissimos affert.</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e223">
+               
+                <ref>Ouidius sine titulo seu amorum libro i. c. 8.</ref> <quote xml:id="bHY6yh-d24815-Qd1e227">Im
+        pia sub dulci melle venena latent.</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e233">
+               
+                <ref>Seneca epistolarum ad lucillum li. 6. e. 3.</ref> <quote xml:id="bHY6yh-d24815-Qd1e237">Adula
+        tio que similis est amicitie non imitatur tium<!--91.xml-->
+        <cb ed="#V" n="b"/>
+                  illam: sed vincit et preterit: aptis ac propitiis
+        auribus recipitur: ac in precordia ima descen
+        dit: eoipso gratiosa quo ledit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e254">
+      <ref>Idem in pro
+        uerb.</ref> <quote xml:id="bHY6yh-d24815-Qd1e256">Habet suum venenum blanda oratio.</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e262">
+               
+                <ref>Auctor li. de formula honeste vite. ca. 4.</ref>
+        <quote xml:id="bHY6yh-d24815-Qd1e266">Adulatores deuita. Difficillimum continentie
+        opus est assentationes adulantium repellere
+        quorum sermones animum quadam voluptate re
+        soluunt. Nullius per assentatione amici
+        tiam merearis: nec hanc promerendi a te adi
+        tum aliis pandas. Non acerba sed blanda
+        verba timebis. Cunctis esto benignus: ne
+        mini blandus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e287">
+               
+                <ref>Cato. c. 2.</ref> <quote xml:id="bHY6yh-d24815-Qd1e291">Noli homines blandos: nimium
+        sermone probare. Fistula dulce canit vo
+        lucrem: dum decipit auceps.</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e300">
+      <ref>c. 8.</ref> <quote xml:id="bHY6yh-d24815-Qd1e302">Sermo
+        nes blandos blesosque vitare memento.
+        Simplicitas veri fama est: fraus ficta loquendi</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e310">
+               
+                <ref>Cassiodorus epistolarum li. 12. et fi. e. 10.</ref> <quote xml:id="bHY6yh-d24815-Qd1e314">Graui
+        us percutit: qui blandiendo crassatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e320">
+      <ref>Idem
+        de anima. c. 16. et antepenul.</ref> <quote xml:id="bHY6yh-d24815-Qd1e322">hostis dulcis ami
+        cus amarus est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e330">
+               
+                <ref>Uersificator fabularum esopi. 64. fab. et fi.</ref>
+        <quote xml:id="bHY6yh-d24815-Qd1e334">Blanditie plusquam dira venena nocent.</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e340">
+               
+                <ref>Montenarius in luna cleri. c. 128. et pe.</ref>
+        <quote xml:id="bHY6yh-d24815-Qd1e344">Sugit adulator lac pectoris ad vber.</quote>
+            </p>
+            <p xml:id="bHY6yh-d24815-d1e350">
+               
+                <ref>Prouerb. vulgar:</ref> <quote xml:id="bHY6yh-d24815-Qd1e354">Losenge de enemigo e
+        como passare a panigo.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
