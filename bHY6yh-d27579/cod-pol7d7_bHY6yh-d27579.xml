@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 1 [Krakow, lat 700 III Transcription]</title>
+               <date when="2022-08-13">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="61-v"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d27579"><!-- p2l3-r1 -->
+            <head xml:id="bHY6yh-d27579-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d27579-Hd1e111" type="question-title">De amore et dilectione</head>
+            <p xml:id="bHY6yh-d27579-d1e114">
+              <lb ed="#K" n="14"/>Tertius liber secunde partis tractat 
+              <lb ed="#K"/>de dilectione et amicitia sub 
+              <lb ed="#K"/>his titulis
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e127">
+              De amo<lb ed="#K" break="no"/>re 
+              et dilectione Rubrica i
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e134">
+              <lb ed="#K"/> <ref>Salomon in cantico canticorum circa 
+              <lb ed="#K"/>fi</ref> <quote xml:id="bHY6yh-d27579-Qd1e138">Fortis est vt mors dilectio 
+              <lb ed="#K"/>dura sicut inferus mulatio 
+              <lb ed="#K"/>Aque multe non poterunt ex<lb ed="#K" break="no"/>tinguere 
+              charitatem nec flumina ob<lb ed="#K" break="no"/>ruent 
+              illam Si dederit homo omnem 
+              <lb ed="#K"/>substantiam domus sue prodilectine <!--review this later-->
+              <lb ed="#K"/>quasi nihil despiciet eum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e156">
+              <lb ed="#K"/> <ref>Aristoteles ethicorum libro 4 c i</ref> <quote xml:id="bHY6yh-d27579-Qd1e160">Omnes 
+              <lb ed="#K"/>diligunt magis sua opera vt 
+              <lb ed="#K"/>parentes et poete</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e166">
+              <ref>Li 10 et fi c 5</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d27579-Qd1e168">Unusquisque circa hec et in his 
+              <lb ed="#K"/>operatur que maxime diligit</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e176">
+      <ref>Idem iconomi
+        rorum lib. i.</ref> <quote xml:id="bHY6yh-d27579-Qd1e178">Dissimilitudines morum nequiqui: amabi
+        les.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e186">
+      <ref>Idem magnorum moralium li. 2. c. 79</ref> <quote xml:id="bHY6yh-d27579-Qd1e188">Mul
+        tis multotiens aut auidere aut abaudire ali
+        quid de aliquo bono beniuoli simus. <ref>Idem
+        retho. li. i. c. 10.</ref> Diligere delectabile est. Dili
+        gi: delectabile est. / <ref>Li. 2 c. 6.</ref> Nullus que
+        timet amat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e202">
+      <ref>21. c.</ref> <quote xml:id="bHY6yh-d27579-Qd1e204">Non oportet amare tam
+        que oditurum: sed magis odire tanquam amaturum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e210">
+               
+                <ref>Iesus filius sirach in eccl. c. 3.</ref> <quote xml:id="bHY6yh-d27579-Qd1e214">Omne animal di
+        ligit similem: sic et omnis homo proximum sibi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e221">
+      <ref>33. c.</ref> <quote xml:id="bHY6yh-d27579-Qd1e223">Si
+        est tibi seruus fidelis: sit tibi quasi anima tua.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e229">
+               
+                <ref>Terentius in hecyra. c. 9.</ref> <quote xml:id="bHY6yh-d27579-Qd1e233">Qui amat cui odio
+        ipse est: bis facere stulte dico: laborem inanem
+        ipsius capit: et illi molestiam affert.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e241">
+               
+                <ref>Tullius de officiis: li. 2. c. 7.</ref> <quote xml:id="bHY6yh-d27579-Qd1e245">Omnium re
+        rum nec aptius est quicquam ad opes tuendas
+        ac tenendas qua diligi: nec alienius quam timeri</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e253">
+               
+               <ref>11. cap.</ref> <quote xml:id="bHY6yh-d27579-Qd1e257">Uehemeter multitudinis amor
+        commouetur ipsa fama et opinione libera
+        litatis beniuolentie iustitie fidei omnium
+        que earum virtutum que pertinent ad man
+        suetudinem morum ac felicitatem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e269">
+               
+               <quote xml:id="bHY6yh-d27579-Qd1e273">/ Idem de amicitia: Nihil est virtute ama
+        bilius. Nihil quod magis alliceat ad dili
+        gendum. Quippe cum virtute et probitate:
+        etiam eos quos nunquam vidimus quod
+        dammodo diligamus. Confirmatur a
+        mor ex beneficio accepio et studio per
+        specto: et consuetudine adiuncia.<!--99.xml-->
+        <pb ed="#V" n="36-v"/>
+                  <cb ed="#V" n="a"/>
+               </quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e296">
+               
+               <ref>Idem de fine bonorum et malorum li. 5.
+        et fi.</ref> <quote xml:id="bHY6yh-d27579-Qd1e300">Omne animal seipsum diligit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e307"> 
+      <ref>Idem de le
+        gibus li. i.</ref> <quote xml:id="bHY6yh-d27579-Qd1e309">Natura propensi sumus ad diligen
+        dos homines quod fundamentum iuris est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e317">
+      <ref>Idem
+        de natura deorum li. i.</ref> <quote xml:id="bHY6yh-d27579-Qd1e319">Causarum ipsum ver
+        bum est amoris.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e327">
+               
+                <ref>Ouidius de arte amandi li. 2.</ref> <quote xml:id="bHY6yh-d27579-Qd1e331">Sit procul
+        omne nephas: vt amaris amabilis esto.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e337">
+      <quote xml:id="bHY6yh-d27579-Qd1e339">Erue
+        fastus. Curam mansuri quisquis amoris habes
+        Dulcibus est verbis: mollis eliciendus amor
+        Uane scitque absens: et nouus intrat amor.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e349">
+               
+                <ref>Mattheus in euangel. c. 6.</ref> <quote xml:id="bHY6yh-d27579-Qd1e353">Ubi thesaurus
+        tuus: ibi et cor tuum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e359">
+               
+                <ref>Ioannes in euange. c. 15.</ref> <quote xml:id="bHY6yh-d27579-Qd1e363">Maiorem hac dile
+        ctionem nemo habet: vt animam suam quis ponat
+        pro amicis suis. / <ref>Idem apostolus in euange. in epistola
+        i. c. 3.</ref>Non diligamus verba neque lingua:
+        sed opere et veritate.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e376">
+      <ref>4. c.</ref> <quote xml:id="bHY6yh-d27579-Qd1e378">Timor non est in
+        charitate: sed perfecta charitas foris mittit
+        timorem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e386">
+               
+                <ref>Seneca epistolarum ad lucillum li. 2. e. i.</ref> <quote xml:id="bHY6yh-d27579-Qd1e390">Si
+        vis amari: ama.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e396">
+       <ref>Li. 4. c. 8. et fi.</ref> <quote xml:id="bHY6yh-d27579-Qd1e398">Conciliari
+        non nisi turpi ratione amor turpium potest.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e404">
+               
+               / <ref>Lib. 6. e. 5.</ref> <quote xml:id="bHY6yh-d27579-Qd1e408">Qui colitur et amatur. Non po
+        test amor cum timore misceri.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e414">
+      <ref>Idem de
+        clam. li. 8 causa. 6. et fi.</ref> <quote xml:id="bHY6yh-d27579-Qd1e416">Magnus est amor qui
+        ex misericordia venit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e424">
+               
+                <ref>Iuuenalis li. i. satis 3.</ref> <quote xml:id="bHY6yh-d27579-Qd1e428">Quis nunc diligitur nisi
+        conscius et cui feruens. Estuat occultis ani
+        mus semperque tacendis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e437">
+               
+                <ref>Lex diges. ti. de donationibus inter virum
+        et vxo. li. 3. in prin.</ref> <quote xml:id="bHY6yh-d27579-Qd1e441">Amor honestus solis ani
+        mis existimatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e449">
+               
+                <ref>Martialis cocus li. vndique suscepto. c. 2.</ref>
+        <quote xml:id="bHY6yh-d27579-Qd1e453">Miraris quod nullus amet te ceciliane.
+        Non quod amas nullum: dilige carus eris.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e461">
+               
+               <ref>c. 4.</ref> <quote xml:id="bHY6yh-d27579-Qd1e465">Nulli carus erat erodinus et sibi nullus.
+        Conuentus morum faculam succendit amoris.
+        Moribus at variis gratia distrahitur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e473">
+      <ref>Cap. 5</ref>
+        <quote xml:id="bHY6yh-d27579-Qd1e475">Inuitus nemo: nemo coactus amat.
+        Blandiciis non imperio vis crescit amoris.
+        Dilige nos omnes: vt ameris. ab omnibus vnus.
+        Querit amor pariles: dissimiles odium.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e487">
+               
+               <ref>c. 6.</ref> <quote xml:id="bHY6yh-d27579-Qd1e491">Nescit amor vehemens: ad queque peri
+        cula rumpi.<!--99.xml-->
+        <cb ed="#V" n="b"/>
+               </quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e501">
+               
+                <ref>Augustinus in epig. pros. emp. 2.</ref> <quote xml:id="bHY6yh-d27579-Qd1e505">Sic dili
+        gendi sunt homines: vt eorum non diligantur
+        errores.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e514">
+               
+                <ref>Boetius de consolatione li. 4. c. 8.</ref> <quote xml:id="bHY6yh-d27579-Qd1e518">Omni
+        iure bonos: et miser esse malis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e524">
+       <ref>Idem in
+        musica li. i. c. i.</ref> <quote xml:id="bHY6yh-d27579-Qd1e526">Amica est similitudo: odiosa dis
+        similitudo atque contria. Amorem dilectionemque similitu
+        do conciliat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e536">
+       <ref>Libro. 2 c. 16. et fi.</ref> <quote xml:id="bHY6yh-d27579-Qd1e538">O felix
+        hominum genus: Si vestros animos amor
+        Quo celum regitur regat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e546">
+               
+                <ref>Cassiodorus de amicitia. c. i</ref> <quote xml:id="bHY6yh-d27579-Qd1e550">Uix inuenitur
+        dilectio: que non sit questuaria et venalis.
+        <ref>c. 3.</ref>Amor est quedam vis appetitiua rerum:
+        quas desiderio eligimus et amplectimur ad
+        fruendum. Dilectio exacto animi iudicio vires ca
+        pit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e564">
+      <ref>c. 26 et fi.</ref> <quote xml:id="bHY6yh-d27579-Qd1e566">Dilectionis est consulere et
+        amico beneficia exhibere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e572">
+               
+                <ref>Uersificator fabularum esopi. 28 fa.</ref> <quote xml:id="bHY6yh-d27579-Qd1e576">Nul
+        lus amor durat: nisi fructus seruet amorem.
+        Quilibet est tanti: munera quanta facit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e585">
+               
+                <ref>Auctor li. qui dicitur pamphilus. c. 3.</ref> <quote xml:id="bHY6yh-d27579-Qd1e589">Exci
+        tat et nutrit facundia dulcis amor.</quote>
+            </p>
+            <p xml:id="bHY6yh-d27579-d1e595">
+       <ref>c. 13</ref>
+        <quote xml:id="bHY6yh-d27579-Qd1e597">Usu crescit amor omnis: decrescit et vsu.
+        Omnis et impastus: attenuatur amor.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
