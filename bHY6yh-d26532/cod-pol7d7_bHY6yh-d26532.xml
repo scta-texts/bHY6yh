@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10 [Krakow, lat 700 III Transcription]</title>
+               <date when="2022-08-11">August 11, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="59-v"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d26532"><!-- p2l2-r10 -->
+            <head xml:id="bHY6yh-d26532-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-d26532-Hd1e111" type="question-title">De confidentia: credulitate et credulis atque incredulis</head>
+            <p xml:id="bHY6yh-d26532-d1e114">
+              De confidentia credulitate 
+              <lb ed="#K" n="5"/>credulis atque incredulis Rubrica 10
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e121">
+              <lb ed="#K"/> <ref>Isocrates in exortationibus c 
+              <lb ed="#K"/>2</ref> <quote xml:id="bHY6yh-d26532-Qd1e129">Expedire putes non esse 
+              <lb ed="#K"/>credendum temerariis prout cre<lb ed="#K" break="no"/>dendum 
+              probis</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e135">
+              <lb ed="#K"/> <ref>Aristoteles rethoricorum lib i c 2</ref> <quote xml:id="bHY6yh-d26532-Qd1e139">Modestis credimus magis 
+              <lb ed="#K"/>et scelerius</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e146">
+              <ref>Lib 2 c 16</ref> <quote xml:id="bHY6yh-d26532-Qd1e148">Iuue<lb ed="#K" break="no"/>nes 
+              sunt faciles creditiui propterea 
+              <lb ed="#K"/>quod nondum in multis decepti sunt 
+              <lb ed="#K"/>Iuuenes facile seducibiles 
+              <lb ed="#K"/>sunt sperant enim facile Senes 
+              <lb ed="#K"/>increduli sunt propter experientiam</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e160">
+              <lb ed="#K"/> <ref>Iesus filius sirach in eccl c 12</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d26532-Qd1e164">Non credas inimico tuo in eternum</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e170">
+              <lb ed="#K"/> <ref>c 19</ref> <quote xml:id="bHY6yh-d26532-Qd1e172">Qui credit cito leuis 
+              <lb ed="#K"/>est corde et minorabitur Non 
+              <lb ed="#K"/>omni verbo credas</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e186">
+              <lb ed="#K"/> <ref>Tullius retho artis vereris li i c 12</ref> <quote xml:id="bHY6yh-d26532-Qd1e190">Sum<lb ed="#K" break="no"/>ma 
+              amentia est in eorum fidem 
+              <lb ed="#K"/>spem habere quorum perfidia decep<lb ed="#K" break="no"/>tus 
+              sis multotiens</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e198">
+              <ref>Lib 2 c 9</ref> <quote xml:id="bHY6yh-d26532-Qd1e200">Fi<lb ed="#K" break="no"/>dentia 
+              est per quam magnis et ho<lb ed="#K" break="no"/>nestis 
+              rebus multum ipse animus 
+              <lb ed="#K"/>in se fiducia certa cum spe collo<lb ed="#K" break="no"/>cauit</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e210">
+              <lb ed="#K"/> <ref>Quidius epistolarum epi 16</ref> <quote xml:id="bHY6yh-d26532-Qd1e214">Credulitas damno so<lb ed="#K" break="no"/>let 
+              esse puellis</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e221">
+              <ref>Idem de arte 
+              <lb ed="#K"/>amandi li 3 et fi</ref> <quote xml:id="bHY6yh-d26532-Qd1e223">Nec ciro credi<lb ed="#K" break="no"/>deris 
+              quantum cito credere ledat 
+              <lb ed="#K"/>Exemplum nobis non leue pro<lb ed="#K" break="no"/>crus 
+              erit</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e233">
+              <ref>Idem de tristibus li 4 
+              <lb ed="#K"/>e 3</ref> <quote xml:id="bHY6yh-d26532-Qd1e235">Crede quod est et vis ac 
+                <pb ed="#K" n="60-r"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>desine tuta vereri deque fide certa 
+              <lb ed="#K"/>sit tibi certa fides</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e243">
+              <lb ed="#K"/> <ref>Seneca declam li 5 c i</ref> <quote xml:id="bHY6yh-d26532-Qd1e247">Nemo facile credit quo 
+              <lb ed="#K"/>credito sit dolendum</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e253">
+              <ref>Idem in prouerb</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d26532-Qd1e255">Utrumque vitium est et omnibus cre<lb ed="#K" break="no"/>dere 
+              et nulli</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e261">
+              <lb ed="#K"/> <ref>Ioannes apostolus et euange in epistola vnica c 4</ref> <quote xml:id="bHY6yh-d26532-Qd1e265">Nolite credere omni 
+              <lb ed="#K"/>spiritui sed probate spiritus si ex 
+              <lb ed="#K"/>deo sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e273">
+              <lb ed="#K"/> <ref>Marcialis cocus li vndique suscepto c 5</ref> <quote xml:id="bHY6yh-d26532-Qd1e277">Omnibus 
+              <lb ed="#K"/>et nulli te credere vitium est</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e284">
+              <lb ed="#K"/> <ref>Uegetius de re mili li 3 ti 3</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d26532-Qd1e288">Frequentius conuentionum pacisque si<lb ed="#K" break="no"/>mulatio 
+              credulis nocuere quam arma</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e296">
+              <lb ed="#K"/> <ref>Auctor lib de for honeste vite ca 4</ref> <quote xml:id="bHY6yh-d26532-Qd1e300">Rumoribus cri<lb ed="#K" break="no"/>minum 
+              et suspitionibus minimesis 
+              <lb ed="#K"/>credulus sed potius malignis 
+              <lb ed="#K"/>qui per speciem simplicitatis ad no<lb ed="#K" break="no"/>cendum 
+              aliquibus subrepunt 
+              <lb ed="#K"/>oppositi simus</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e312">
+              <lb ed="#K"/> <ref>Ambrosius de officiis li i c 31</ref> <quote xml:id="bHY6yh-d26532-Qd1e316">Unusquis que 
+              <lb ed="#K"/>bene volentis se magis quam 
+              <lb ed="#K"/>sapientis credit consilio</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e324">
+              <ref>Libro 2 
+              <lb ed="#K"/>c 8</ref> <quote xml:id="bHY6yh-d26532-Qd1e326">Promptius nos iusto viro 
+              <lb ed="#K"/>quam prudenti committimus</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e332">
+              <lb ed="#K"/> <ref>Fulgentius li 3 et fi fabula 15</ref> <quote xml:id="bHY6yh-d26532-Qd1e336">Credu<lb ed="#K" break="no"/>litas 
+              semper deceptionum mater est</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e342">
+              <lb ed="#K"/> <ref>Cato c i</ref> <quote xml:id="bHY6yh-d26532-Qd1e346">Nil temere credideris</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e351">
+              <lb ed="#K"/> <ref>Ca 3</ref> <quote xml:id="bHY6yh-d26532-Qd1e353">Noli tu quedam referenti cre<lb ed="#K" break="no"/>dere 
+              semper Exigua est tribuenda fi<lb ed="#K" break="no"/>des 
+              quia multi multa loquuntur</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e363">
+              <lb ed="#K"/> <ref>Cassiodorus epistolarum li 3 e 
+              <lb ed="#K"/>4</ref> <quote xml:id="bHY6yh-d26532-Qd1e367">Illi credere debetis quem vestris 
+              <lb ed="#K"/>vtilitatibus arridem cognosci<lb ed="#K" break="no"/>tis</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e375">
+              <ref>Uersificator fabularum 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>esopi fab 9</ref> <quote xml:id="bHY6yh-d26532-Qd1e379">Non satis est
+              <lb ed="#K"/>tutum mellitis credere verbis Ex 
+              <lb ed="#K"/>hoc melle solet pestis amara 
+              <lb ed="#K"/>sequi</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e391">
+                <ref>Fabula 25</ref> <quote xml:id="bHY6yh-d26532-Qd1e395">Tempore non 
+                <lb ed="#K"/>omni non omnibus omnia credas 
+                <lb ed="#K"/>Qui misere credit creditur esse 
+                <lb ed="#K"/>miser</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e401">
+              <ref>Fabula 31</ref> <quote xml:id="bHY6yh-d26532-Qd1e405">Qui me lesit <!--double check-->
+              <lb ed="#K"/>idem ledet si ledere posset Ex<lb ed="#K" break="no"/>pedit 
+              insido non interare fidem 
+              <lb ed="#K"/>Que dedit infidus mella venena 
+              <lb ed="#K"/>puto</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e413">
+              <lb ed="#K"/> <ref>Baldo fabula 11</ref> <quote xml:id="bHY6yh-d26532-Qd1e417">Nec confidatis secreta nec his detegatis <!--double check-->
+              <lb ed="#K"/>Cum quibus egistis pugne dis<lb ed="#K" break="no"/>crimina 
+              tristis</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e426"> 
+              <ref>Fabula 26</ref> <quote xml:id="bHY6yh-d26532-Qd1e428">Nulla 
+              <lb ed="#K"/>fidis hosti tibi sit prorsus et 
+              <lb ed="#K"/>hostilis tibi sit suasio vilis</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e436">     
+              <ref>Mattheus vindocinensis in poet<lb ed="#K" break="no"/>ria 
+              parte i c 20</ref> <quote xml:id="bHY6yh-d26532-Qd1e440">Credulitas 
+              <lb ed="#K"/>sestina nocet</quote>
+            </p>
+            <p xml:id="bHY6yh-d26532-d1e446">
+              <ref>Prouerb vulgar</ref> <quote xml:id="bHY6yh-d26532-Qd1e450">Et passiu non cre al 
+              <lb ed="#K"/>zuno tuto crere noe sauere</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
