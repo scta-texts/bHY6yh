@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 3 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 3 [Krakow, lat 700 III Transcription]</title>
+               <date when="2022-08-16">August 16, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="63-r"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d28342"><!-- p2l3-r3 -->
+            <head xml:id="bHY6yh-d28342-Hd1e108">Rubrica 3</head>
+            <head xml:id="bHY6yh-d28342-Hd1e111" type="question-title">De prediectione suiiipsius</head>
+            <p xml:id="bHY6yh-d28342-d1e114"> 
+              De predi<lb ed="#K" n="21" break="no"/>lectione 
+              suiipsius Rubrica 3
+            </p>
+            <p xml:id="bHY6yh-d28342-d1e119">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28342-Rd1e115">Salomon in prouerb c 5</ref> <quote xml:id="bHY6yh-d28342-Qd1e125">Non des alienis 
+              <lb ed="#K"/>honorem tuum</quote> 
+            </p>
+            <p xml:id="bHY6yh-d28342-d1e131">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28342-Rd1e129">Isaias propheta c 135.</ref> <quote xml:id="bHY6yh-d28342-Qd1e135">Cum videris nudum operi eum 
+              <lb ed="#K"/>et carnem tuam ne despexeris</quote>
+            </p>
+            <p xml:id="bHY6yh-d28342-d1e144">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28342-Rd1e144">Iesus filius sirach in eccl ca 
+              <lb ed="#K"/>33</ref> <quote xml:id="bHY6yh-d28342-Qd1e148">Filio et mulieri fratri et amico 
+              <lb ed="#K"/>non des potestatem super te in 
+              <lb ed="#K"/>vita tua non dederis aliis <!--double check-->
+              <lb ed="#K"/>possessiones tuas non 
+              <lb ed="#K"/>forte peniteat te et depreceris 
+              <lb ed="#K"/>pro illis Dum adhuc superes et aspi<lb ed="#K" break="no"/>ras 
+              non mutabit te omnis caro 
+              <lb ed="#K"/>melius est enim vt filii tui te ro<lb ed="#K" break="no"/>gent 
+              quam te respicere in manus filio<lb ed="#K" break="no"/>rum 
+              tuorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d28342-d1e167">
+               
+                <ref xml:id="bHY6yh-d28342-Rd1e169">Seneca de beneficiis li. 2.</ref> <quote xml:id="bHY6yh-d28342-Qd1e171">Dabo egenti: sed
+        vt ipse non egeam.
+        Succurram perituro: sed vt ipse non peream</quote>
+            </p>
+            <p xml:id="bHY6yh-d28342-d1e179">
+               
+                <ref xml:id="bHY6yh-d28342-Rd1e183">Lex diges. ti. de iustitia et iure. l. iii.</ref> <quote xml:id="bHY6yh-d28342-Qd1e183">Hoc iu
+        re euenit: vt quod quisque ob tutelam sui corpo
+        ris fecerit iure fecisse existimetur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28342-d1e191">
+               
+                <ref xml:id="bHY6yh-d28342-Rd1e197">Marcialis cocus: li. vndique suscepto. c. 3.</ref>
+        <quote xml:id="bHY6yh-d28342-Qd1e195">Ne noceas tibi sic aliis prodesse memento.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28342-d1e201">
+               
+                <ref xml:id="bHY6yh-d28342-Rd1e208">Cato. c. 2.</ref> <quote xml:id="bHY6yh-d28342-Qd1e205">Dilige sic alios: vt sis tibi carus
+        amicus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28342-d1e211">
+               
+                <ref xml:id="bHY6yh-d28342-Rd1e220">Cassiodorus epistolarum li. i. e. 14.</ref> <quote xml:id="bHY6yh-d28342-Qd1e215">Tunc de
+        xteris cogitandum est: dum se ratio proprie neces
+        sitatis expleuerit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28342-d1e224">
+               
+                <ref xml:id="bHY6yh-d28342-Rd1e235">Uersificator fabularum esopi: fa. 64. et fi.</ref>
+        <quote xml:id="bHY6yh-d28342-Qd1e228">Cuius semper eges: rem nulli tradere debes.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28342-d1e234">
+               
+                <ref xml:id="bHY6yh-d28342-Rd1e246">Iacobus beneuentanus. c. 32.</ref> <quote xml:id="bHY6yh-d28342-Qd1e238">Cur onus alte
+        rius: humeris imponere velles.
+        Nature tuis: vitaque nocitura vides.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28342-d1e246">
+               
+               <ref xml:id="bHY6yh-d28342-Rd1e260">Capitulo. 55.</ref>
+        <quote xml:id="bHY6yh-d28342-Qd1e250">Dum retinem potes dominatum non dabis vlli.
+        Te viuente: tuum nulli prebebis honorem.
+        Sed tibi conserua carus: vt esse queas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28342-d1e260">
+               
+                <ref xml:id="bHY6yh-d28342-Rd1e275">Ricardus iudex venusinus lib. de pertra
+        ctatione nup. c. 28</ref>
+        <quote xml:id="bHY6yh-d28342-Qd1e264">Plus alios quam se quis nisi stultus amat.<!--101.xml-->
+        <pb ed="#V" n="37-v"/>
+                  <cb ed="#V" n="a"/>
+               </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
