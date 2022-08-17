@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4 [Krakow, lat 700 III Transcription]</title>
+               <date when="2022-08-16">August 16, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="63-v"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d28515"><!-- p2l3-r4 -->
+            <head xml:id="bHY6yh-d28515-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-d28515-Hd1e111" type="question-title">De parentibus et liberis</head>
+            <p xml:id="bHY6yh-d28515-d1e114">
+              <lb ed="#K" n="26"/>De parentibus et liberis Rubrica 4
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e119">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28515-Rd1e115">exodo c 20</ref> <quote xml:id="bHY6yh-d28515-Qd1e123">Honora patrem 
+              <lb ed="#K"/>tuum et matrem tuam vt sis longe<lb ed="#K" break="no"/>uus 
+              super terram quam dominus deus 
+              <lb ed="#K"/>tuus dabit tibi</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e135">
+              <ref xml:id="bHY6yh-d28515-Rd1e131">21 c</ref> <quote xml:id="bHY6yh-d28515-Qd1e137">Qui 
+              <lb ed="#K"/>percusserit patrem suum aut matrem <!--double check-->
+              <lb ed="#K"/>morte moriatur Qui ma<lb ed="#K" break="no"/>ledixerit 
+              patri suo aut matri 
+              <lb ed="#K"/>morte moriatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e146">   
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28515-Rd1e146">leuitico c 19</ref> <quote xml:id="bHY6yh-d28515-Qd1e150">Unusquisque patrem et
+              <lb ed="#K"/>matrem suam timeat</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e156">
+              <ref xml:id="bHY6yh-d28515-Rd1e156">Idem c 20</ref> 
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d28515-Qd1e158">Qui maledixerit patri suo et 
+              <lb ed="#K"/>matri morte moriatur Qui 
+              <lb ed="#K"/>patri matrique maledixerit 
+              <lb ed="#K"/>sanguis eius fit super cum</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e168">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28515-Rd1e172">Moyses in deuteronomio 27 c</ref> <quote xml:id="bHY6yh-d28515-Qd1e172">Ma<lb ed="#K" break="no"/>ledictus 
+              qui non honorat 
+              <lb ed="#K"/>patrem suum et matrem</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e178">
+                <lb ed="#K"/> <ref xml:id="bHY6yh-d28515-Rd1e184">Salomon in prouerb c 6</ref> <quote xml:id="bHY6yh-d28515-Qd1e182">Conserua precepta 
+                <lb ed="#K"/>patris tui et ne dimittas le<lb ed="#K" break="no"/>gem 
+                matris tue liga ea in cor<lb ed="#K" break="no"/>de 
+                tuo iugiter</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e190">
+              <ref xml:id="bHY6yh-d28515-Rd1e196">c 13</ref> <quote xml:id="bHY6yh-d28515-Qd1e192">Qui parcit 
+              <lb ed="#K"/>virge odit filium Qui autem di<lb ed="#K" break="no"/>ligit 
+              illum instanter erudit</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e200">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28515-Rd1e208">c 15</ref> <quote xml:id="bHY6yh-d28515-Qd1e202">Filius sapiens letisi<lb ed="#K" break="no"/>cat 
+              patrem et stultus homo 
+              <lb ed="#K"/>despicit matrem suam</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e211">
+              <ref xml:id="bHY6yh-d28515-Rd1e221">c 17</ref> <quote xml:id="bHY6yh-d28515-Qd1e213">Ira 
+              <lb ed="#K"/>parris filius stultus et dolor
+              <lb ed="#K"/>matris que genuit eum</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e219">
+              <ref xml:id="bHY6yh-d28515-Rd1e231">20 c</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d28515-Qd1e221">Qui maledicit patri suo et 
+              <lb ed="#K"/>matri extinguetur lumen eius 
+              <lb ed="#K"/>in mediis tenebris</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e229">
+              <ref xml:id="bHY6yh-d28515-Rd1e243">c 19</ref> <quote xml:id="bHY6yh-d28515-Qd1e231">Uir<lb ed="#K" break="no"/>ga 
+              at que correctio tribuit sapi<lb ed="#K" break="no"/>entiam 
+              puer autem qui dimit<lb ed="#K" break="no"/>titur 
+              voluntati sue confundet m<lb ed="#K" break="no"/>atrem 
+              suam Erudi filium tuum 
+              <lb ed="#K"/>et refrigerabit te et dabit 
+              <lb ed="#K"/>delitias anime tue</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e243">
+              <ref xml:id="bHY6yh-d28515-Rd1e259">30 c</ref> <quote xml:id="bHY6yh-d28515-Qd1e245">Oculum 
+              <lb ed="#K"/>qui sub sannat patrem et despicit 
+              <lb ed="#K"/>partum matris sue effodiant eum 
+              <lb ed="#K"/>corui de torrentibus et 
+              <lb ed="#K"/>comedant illum filii aquile</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e255">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28515-Rd1e275">Tobie histo c 4</ref> <quote xml:id="bHY6yh-d28515-Qd1e259">Honorem 
+              <lb ed="#K"/>habebis matri tue omnibus diebus vite eius</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e265">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28515-Rd1e287">Socrates in exhortationibus c 2</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d28515-Qd1e269">Parentes cole</quote> <!--check later-->
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e276">
+                  <pb ed="#K" n="64-r"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/> <ref xml:id="bHY6yh-d28515-Rd1e300">Cronica de nugis philosophorum c 3</ref> <quote xml:id="bHY6yh-d28515-Qd1e280">scilicet 
+              <lb ed="#K"/>desolone<!--move to ref tag?--> Solon qui fuit vnus 
+              <lb ed="#K"/>de septem sapiententibus ait parentes 
+              <lb ed="#K"/>reuerere</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e288">
+              <ref xml:id="bHY6yh-d28515-Rd1e314">31 c</ref> <quote xml:id="bHY6yh-d28515-Qd1e290">et si scilicet de pione <!--move to ref?-->
+              <lb ed="#K"/>Pio sic fatus est Grauis patri s<lb ed="#K" break="no"/>arcina
+               est virgo propter penuriam 
+               <lb ed="#K"/>excedens tempus iuuenilis eta<lb ed="#K" break="no"/>tis 
+               Talis fias parentibus quiles 
+               <lb ed="#K"/>quidem orares erga te fieri 
+               <lb ed="#K"/>natos tuos</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e302">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28515-Rd1e334">Aristoteles ethicorum libro 8 c 7</ref> <quote xml:id="bHY6yh-d28515-Qd1e306">Parentes diligunt filios 
+              <lb ed="#K"/>vt sui ipsorum aliquid existentes
+              <lb ed="#K"/>parentes filios diligunt vt se<lb ed="#K" break="no"/>ipsos</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e318">
+              <ref xml:id="bHY6yh-d28515-Rd1e350">Li 9 c 7</ref> <quote xml:id="bHY6yh-d28515-Qd1e320">Omnis proprium opus 
+              <lb ed="#K"/>diligit magis quam diligatur 
+              <lb ed="#K"/>ab opere animato facto</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e328">
+              <ref xml:id="bHY6yh-d28515-Rd1e363">Idem mag<lb ed="#K" break="no"/>norum
+              moralium li 2 c 78</ref> <quote xml:id="bHY6yh-d28515-Qd1e330">Omnes 
+              <lb ed="#K"/>ad quod ipsi fecerint ad hoc quodda<lb ed="#K" break="no"/>mmodo 
+              et beniuoli sunt Pater igitur be<lb ed="#K" break="no"/>niuolus 
+              est quoddammodo ad 
+              <lb ed="#K"/>filium ipsius existentem factorem 
+              <lb ed="#K"/>memor et speductus propter quod 
+              <lb ed="#K"/>magis pater filium amat quam fi<lb ed="#K" break="no"/>lius 
+              patrem</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e347">
+              <ref xml:id="bHY6yh-d28515-Rd1e386">Iesus filius sirach in eccl c 3</ref> <quote xml:id="bHY6yh-d28515-Qd1e351">Qui ho<lb ed="#K" break="no"/>norat 
+              patrem suum vita viuet 
+              <lb ed="#K"/>in filiis Qui honarat prarentes <!--double check this-->
+              <lb ed="#K"/>suum vita viuet loniore Qui 
+              <lb ed="#K"/>timet dominum honorat paren<lb ed="#K" break="no"/>tes 
+              et quasi dominus seruiet his 
+              <lb ed="#K"/>qui se genuerunt in opere et ser<lb ed="#K" break="no"/>mone 
+              et omni patientia ho<lb ed="#K" break="no"/>nora 
+              patrem tuum vt superue<lb ed="#K" break="no"/>niat 
+              tibi benedictio a deo et benedictio 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>illius in nouissimo maneat 
+              <lb ed="#K"/>Benedictio patri firmat domos 
+              <lb ed="#K"/>filiorum Maledictio autem matris 
+              <lb ed="#K"/>eradicat fundamenta gloria ho<lb ed="#K" break="no"/>minis
+              ex honore patris sui: et de<lb ed="#K" break="no"/>decus 
+              filii pater sine honore 
+              <lb ed="#K"/>fili suscipe senectam patris tui 
+              <lb ed="#K"/>et non contristes eum in vita illius
+              <lb ed="#K"/>et si defecerit sensu veniam da et 
+              <lb ed="#K"/>ne spernas eum intua virtute Quam 
+              <lb ed="#K"/>male fame est qui reliquerit 
+              <lb ed="#K"/>patrem et est maledictus a deo 
+              <lb ed="#K"/>qui exasperat matrem</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e388">
+              <ref xml:id="bHY6yh-d28515-Rd1e427">c 7</ref> <quote xml:id="bHY6yh-d28515-Qd1e390">Filii
+              <lb ed="#K"/> sunt tibi erudi 
+              <lb ed="#K"/>illos et curua illos a pueritia illorum
+              <lb ed="#K"/>Filie sunt tibi serua corpus illarum 
+              <lb ed="#K"/>et non ostendas hilarem faciem 
+              <lb ed="#K"/>tuam ad illas Trade filiam et 
+              <lb ed="#K"/>grande opus feceris et homini sen<lb ed="#K" break="no"/>sato 
+              da illam Honora patrem 
+              <lb ed="#K"/>tuum et gemitus matris tue<lb ed="#K" break="no"/>ne 
+              obliuiscaris</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e407">
+              <ref xml:id="bHY6yh-d28515-Rd1e448">c 16</ref> <quote xml:id="bHY6yh-d28515-Qd1e409">Ne io<lb ed="#K" break="no"/>cunderis 
+              in filiis impiis Si mul<lb ed="#K" break="no"/>tiplicentur 
+              filii non oblecteris 
+              <lb ed="#K"/>super ipsos si non est timor dei 
+              <lb ed="#K"/>cum illis</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e417">   
+               <ref xml:id="bHY6yh-d28515-Rd1e462">c 26</ref> <quote xml:id="bHY6yh-d28515-Qd1e421">In filia se non 
+               <lb ed="#K"/>auertente se firma custodiam 
+               <lb ed="#K"/>ne inuenta occasione vtatur se</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e427">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28515-Rd1e472">Idem 30 c</ref> <quote xml:id="bHY6yh-d28515-Qd1e429">Qui diligit filium 
+              <lb ed="#K"/>suum assiduet illi flagella <!--review later-->
+              <lb ed="#K"/>30 c qui docet filium su<lb ed="#K" break="no"/>um 
+              laudabitur in illo Mortuus 
+              <lb ed="#K"/>est pater qui docuit filium et quasi 
+              <lb ed="#K"/>non est mortuus similem enim 
+              <lb ed="#K"/>reliquet sibi post mortem 
+                  <pb ed="#K" n="64-v"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>Equus indomitus euadit du<lb ed="#K" break="no"/>rus 
+              et filius remissus euadit 
+              <lb ed="#K"/>praeceps Non des filio potestatem in 
+              <lb ed="#K"/>inuuentute</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e448"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28515-Rd1e498">Terentius in heutontumerumenon c 4</ref> <quote xml:id="bHY6yh-d28515-Qd1e452">Quem 
+              <lb ed="#K"/>feret si parentem non feret 
+              <lb ed="#K"/>suum</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e458">
+              <ref xml:id="bHY6yh-d28515-Rd1e507">c 21</ref> <quote xml:id="bHY6yh-d28515-Qd1e460">Matres omnes filios in 
+              <lb ed="#K"/>peccato adiutrices auxilio in pater<lb ed="#K" break="no"/>na 
+              iniuria solent esse</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e475">
+              <ref xml:id="bHY6yh-d28515-Rd1e525">Idem 
+              <lb ed="#K"/>in adelphis c 3</ref> <quote xml:id="bHY6yh-d28515-Qd1e477">Qui mentiri 
+              <lb ed="#K"/>aut fallere insuerit patrem aut au<lb ed="#K" break="no"/>debit 
+              tanto magis audebit ceteros 
+              <lb ed="#K"/>Pudore et liberalitate liberos 
+              <lb ed="#K"/>retinere sacius esse credo 
+              <lb ed="#K"/>quam metu Hoc patrium potius con<lb ed="#K" break="no"/>suefacere 
+              sua sponte recte 
+              <lb ed="#K"/>facere quam alieno metu</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e494">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28515-Rd1e551">Paulus apostolus epistola ad roma c 8</ref> <quote xml:id="bHY6yh-d28515-Qd1e498">Si 
+              <lb ed="#K"/>filii et heredes</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e504">
+              <quote xml:id="bHY6yh-d28515-Qd1e506">Idem dicit ad galathas c 4 <!--review this-->
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28515-Rd1e563">Idem in epstola ad ephesios ca 5 et pe</ref>Filii 
+              <lb ed="#K"/>obedite parentibus vestris in domino 
+              <lb ed="#K"/>uos patres nolite ad iracundiam 
+              <lb ed="#K"/>prouocare filios vestros sed educa<lb ed="#K" break="no"/>te 
+              illos in correctione et disciplina 
+              <lb ed="#K"/>domini</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e518">
+              <ref xml:id="bHY6yh-d28515-Rd1e580">Idem epstola ad collossen c 
+              <lb ed="#K"/>3 et pe</ref> <quote xml:id="bHY6yh-d28515-Qd1e522">Filii obedite parentibus 
+              <lb ed="#K"/>vestris per omnia hoc enim pla
+        citum est domino Patres nolite ad iracundiam pro
+        uocare filios vestros: vt non pusillo animo fiant.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e532">
+               
+                <ref xml:id="bHY6yh-d28515-Rd1e596">Seneca tragediarum in hercule furente. c. 11
+        et fi</ref> <quote xml:id="bHY6yh-d28515-Qd1e536">Perfer imperium patris.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e542">
+               
+                <ref xml:id="bHY6yh-d28515-Rd1e609">Lex diges. titn. de curatorefuriosi etcaetera. l. fu
+        riose.</ref> <quote xml:id="bHY6yh-d28515-Qd1e546">Pietas parentibus et si inequalis est eo
+        rum potestas equa debebitur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e555">
+      <ref xml:id="bHY6yh-d28515-Rd1e623">Ti. de obsequis
+        a liberis et liber. etcaetera. l. antepe.</ref> <quote xml:id="bHY6yh-d28515-Qd1e557">Liberto et filio
+        semper honesta et sancta persona patris ac patro
+        ni videri debet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e567">
+      <ref xml:id="bHY6yh-d28515-Rd1e638">Lex codi. ti. de curatore
+        fu. l. fi.</ref> <quote xml:id="bHY6yh-d28515-Qd1e569">Quis talis effectus extraueus inuueni
+        atur vt vincat paternum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e577">
+               
+                <ref xml:id="bHY6yh-d28515-Rd1e653">Marcialis cocus li. vndique suscep. ca. 3</ref>
+        <quote xml:id="bHY6yh-d28515-Qd1e581">Dilige si bonus est iusta pietate parentem.
+        Si malus est: toleres. filius esto bonus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e589">
+               
+                <ref xml:id="bHY6yh-d28515-Rd1e666">Cato. c. i.</ref> <quote xml:id="bHY6yh-d28515-Qd1e593">Parentes ama. Parentes patien
+        ter vince.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e599"> 
+      <ref xml:id="bHY6yh-d28515-Rd1e676">Capitulo.</ref> <quote xml:id="bHY6yh-d28515-Qd1e601">et
+        Cum tibi sint nati nec opes: tunc artibus illos
+        Instrue: quo possint inopem defendere vitam</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e609">
+               
+              / <ref xml:id="bHY6yh-d28515-Rd1e690">Capitulo. 5. et fi.</ref>
+        <quote xml:id="bHY6yh-d28515-Qd1e613">Fer patris imperium: cum verbis exit in iram.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e620">
+               
+                <ref xml:id="bHY6yh-d28515-Rd1e702">Boetius de consolatione li. 3. c. 13.</ref> <quote xml:id="bHY6yh-d28515-Qd1e624">Euripi
+        dis <!--dont know what word this is--> sententiam probo: qui carentem liberis infor
+        tunio dixit esse felicem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e632">
+               
+                <ref xml:id="bHY6yh-d28515-Rd1e718">Cassiodorus epistolarum in prohemio:</ref> <quote xml:id="bHY6yh-d28515-Qd1e636">Contigit
+        dissimilem filium plerumque generari.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e642">
+      <ref xml:id="bHY6yh-d28515-Rd1e728">Li. i. e. 17</ref>
+        <quote xml:id="bHY6yh-d28515-Qd1e644">Quibus fuerit exosa societas parentum: ciuium
+        non meretur habere consortium: ne puri corporis iocun
+        da serenitas nebulosis maculis polluatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e654">
+               
+                <ref xml:id="bHY6yh-d28515-Rd1e743">Uersificator fabularum esopi. fab. 30.</ref> <quote xml:id="bHY6yh-d28515-Qd1e658">In<!--102.xml-->
+        <cb ed="#V" n="b"/>
+                  sita notorum cordi doctrina parentum.
+        Cum pariat fructum: spreta nocere solet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e670">
+               
+                <ref xml:id="bHY6yh-d28515-Rd1e761">Auctor li. qui dicitur pamphilus. c. 19.</ref> <quote xml:id="bHY6yh-d28515-Qd1e674">Sepe
+        solet similis filius esse pater.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28515-d1e680">
+               
+                <ref xml:id="bHY6yh-d28515-Rd1e773">Iacobus beneuentanus. c. 40.</ref> <quote xml:id="bHY6yh-d28515-Qd1e684">Nate tuis
+        natis: non demonstrabis amorem.
+        Que gestat intus dissimulato foris.
+        Est pater in culpa: si filius est vitiosus.
+        Si vitio careat: laus erit inde patri.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
