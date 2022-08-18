@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5 [Krakow, lat 700 III Transcription]</title>
+               <date when="2022-08-17">August 17, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="65-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d29106"><!-- p2l3-r5 -->
+            <head xml:id="bHY6yh-d29106-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-d29106-Hd1e111" type="question-title">De cognatis</head>
+            <p xml:id="bHY6yh-d29106-d1e114"> 
+              De cognatis Rubrica 5
+            </p>
+            <p xml:id="bHY6yh-d29106-d1e119">
+              <lb ed="#K" n="8"/>Psalmista 153 Ecce quam bonum 
+              <lb ed="#K"/>et quam iocundum habitare frens in vnum 
+            </p>
+            <p xml:id="bHY6yh-d29106-d1e128">  
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d29106-Rd1e125">Salomon in prouerb ca 14</ref> <quote xml:id="bHY6yh-d29106-Qd1e132">Qui despicit propinquum suum peccat</quote>
+            </p>
+            <p xml:id="bHY6yh-d29106-d1e139">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d29106-Rd1e140">Aristoteles rethori li 2 c 6</ref> <quote xml:id="bHY6yh-d29106-Qd1e143">Species 
+              <lb ed="#K"/>amicicie est solidatas et do<lb ed="#K" break="no"/>mesticitas 
+              et cognatio</quote>
+            </p>
+            <p xml:id="bHY6yh-d29106-d1e149">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d29106-Rd1e152">Ualerius maxi li 2 ti de insti<lb ed="#K" break="no"/>tut 
+              antiquis</ref> <quote xml:id="bHY6yh-d29106-Qd1e153">Conuiuium sel<lb ed="#K" break="no"/>enne 
+              maiores instituerunt 
+              <lb ed="#K"/>idque caristiam appellauerunt 
+              <lb ed="#K"/>cui praeter cognatos et assines 
+              <lb ed="#K"/>neno interponebatur vt siqui<lb ed="#K" break="no"/>iter 
+              necessarias personas quirela 
+              <lb ed="#K"/>esset orta apud sacra mense 
+              <lb ed="#K"/>et inter hilaritatem animorum a fau<lb ed="#K" break="no"/>toribus 
+              concordie tolleretur</quote>
+            </p>
+            <p xml:id="bHY6yh-d29106-d1e167">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d29106-Rd1e172">Cato c i</ref> <quote xml:id="bHY6yh-d29106-Qd1e171">Cognatos cole.</quote>
+            </p>
+            <p xml:id="bHY6yh-d29106-d1e175">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d29106-Rd1e182">Cassiodorus epistolarum li 12 et fi e 5</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d29106-Qd1e179">Gratifi cante natura illis am<lb ed="#K" break="no"/>plius 
+              debemus qui nobis aliqua proxim<lb ed="#K" break="no"/>itate 
+              iunguntur</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
