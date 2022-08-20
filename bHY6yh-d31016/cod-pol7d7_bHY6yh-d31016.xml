@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 9 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 9 [Krakow, lat 700 III Transcription]</title>
+               <date when="2022-08-20">August 20, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="69-v"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d31016"><!-- p2l3-r9 -->
+            <head xml:id="bHY6yh-d31016-Hd1e108">Rubrica 9</head>
+            <head xml:id="bHY6yh-d31016-Hd1e111">De amicis leuibus verbalibus fictis et non veris</head>
+            <p xml:id="bHY6yh-d31016-d1e114">
+                De amicis leu<lb ed="#K" n="26" break="no"/>ibus 
+                verbalibus fictis et non 
+                <lb ed="#K"/>veris Rubrica novem
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e118">
+               <lb ed="#K"/> <ref xml:id="bHY6yh-d31016-Rd1e117">Salomon in prouerbiis c 14</ref> <quote xml:id="bHY6yh-d31016-Qd1e124">Etiam 
+               <lb ed="#K"/>proximo suo pauper odiosus erit 
+               <lb ed="#K"/>amici vero diuitum multi</quote> 
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e132">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31016-Rd1e134">Aristoteles ethicorum libro 8 c 6</ref> <quote xml:id="bHY6yh-d31016-Qd1e136">In tyrannide nihil 
+              <lb ed="#K"/>vel parum amicitie est</quote>
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e142">
+              <ref xml:id="bHY6yh-d31016-Rd1e145">Lib 9 c 
+              <lb ed="#K"/>13 et fi</ref> <quote xml:id="bHY6yh-d31016-Qd1e144">Fit prauorum amicitia mala
+              <lb ed="#K"/>communicant enim prauis insta<lb ed="#K" break="no"/>biles 
+              entes et mali autem fi<lb ed="#K" break="no"/>unt 
+              assimulati adinuicem</quote> <!--double check-->
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e155">
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31016-Rd1e160">Idem de magnorum moralium 
+              <lb ed="#K"/>li 2 c 62</ref> <quote xml:id="bHY6yh-d31016-Qd1e157">Secundum conferens am<lb ed="#K" break="no"/>icitia 
+              non firma est sed cum conferente 
+              <lb ed="#K"/>mutatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e167">
+              <ref xml:id="bHY6yh-d31016-Rd1e175">Idem rethoricorum li i 
+              <lb ed="#K"/>c 20</ref> <quote xml:id="bHY6yh-d31016-Qd1e169">Apparens amicus adula<lb ed="#K" break="no"/>tor 
+              est</quote>
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e175">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31016-Rd1e190">Tullius de amicitia</ref> <quote xml:id="bHY6yh-d31016-Qd1e179">Utilitates quidem etiam ab his 
+              <lb ed="#K"/>percipiuntur sepe qui simulatione 
+              <lb ed="#K"/>amicitie coluntur et obseruantur 
+              <lb ed="#K"/>temporis causa In vita tyrannorum 
+              <lb ed="#K"/>nulla fides nulla charitas 
+              <lb ed="#K"/>nulla stabilitas beniuolentie 
+              <lb ed="#K"/>potest esse fiducia Omnia semper sus<lb ed="#K" break="no"/>pecta 
+              atque sollicita nullus 
+              <lb ed="#K"/>locus amicitie Quis enim 
+              <lb ed="#K"/>eum aut diligit quem metu<lb ed="#K" break="no"/>it 
+              aut eum a quo se metui 
+              <lb ed="#K"/>putetur coluntur tamen simulatione amici<lb ed="#K" break="no"/>cie 
+              dum taxat ad tempus</quote>
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e209">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31016-Rd1e227">Ouidius de ponto li 2 epistola 3</ref> <quote xml:id="bHY6yh-d31016-Qd1e213">Turpe 
+              <lb ed="#K"/>quidem dictu sed si modo vera fate<lb ed="#K" break="no"/>mur
+              <lb ed="#K"/>Uulgus amicicias vtilitate 
+              <lb ed="#K"/>probat Illud amicicie quondam 
+              <lb ed="#K"/>venerabile nomem prostat et in<lb ed="#K" break="no"/>questum 
+              pro meretrice sedet</quote>
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e225">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31016-Rd1e245">Quintilianus declamationum i declam</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d31016-Qd1e229">Cum propter pecuniam ames id<lb ed="#K" break="no"/>em 
+              amoris et spei finis est</quote>
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e237">
+              <ref xml:id="bHY6yh-d31016-Rd1e257">Idem 
+              <lb ed="#K"/>15 declam</ref> <quote xml:id="bHY6yh-d31016-Qd1e239">Nescis an diligat 
+              <lb ed="#K"/>cuius non habet experimenta nisi so<lb ed="#K" break="no"/>la 
+              felicitas</quote>
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e246">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31016-Rd1e269">Seneca epistolarum ad lucillum li 3 e 5</ref> <quote xml:id="bHY6yh-d31016-Qd1e250">Errat
+              <lb ed="#K"/>qui amicum in atrio quirit in con<lb ed="#K" break="no"/>uiuio 
+              probat</quote>
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e256">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31016-Rd1e281">Auctor lib de for honeste vite ca 4</ref> <quote xml:id="bHY6yh-d31016-Qd1e260">Nullius per assentati<lb ed="#K" break="no"/>onem 
+              amiciciam merearis nec 
+              <lb ed="#K"/>hanc promerendi a te aditum aliis 
+                  <pb ed="#K" n="70-r"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>pandas</quote>
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e268">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31016-Rd1e295">Cato ca 2</ref> <quote xml:id="bHY6yh-d31016-Qd1e272">Qui simulat verbis nec corde est fidus amicus
+              <lb ed="#K"/>Tum quoque fac simile sic ars deluditur 
+              <lb ed="#K"/>arte</quote>
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e280">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31016-Rd1e309">Cassiodorus de amicitia c i</ref> <quote xml:id="bHY6yh-d31016-Qd1e284">Uix inuenitur dilectio 
+              <lb ed="#K"/>quae non sit questuaria et 
+              <lb ed="#K"/>venalis</quote>
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e290">
+              <ref xml:id="bHY6yh-d31016-Rd1e319">c 16</ref> <quote xml:id="bHY6yh-d31016-Qd1e292">Qui simulatorie 
+              <lb ed="#K"/>amat in prosperis amat amicus 
+              <lb ed="#K"/>aduersarius in aduersis</quote>
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e300">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31016-Rd1e335">Auctor li qui dicitur facetus c 6</ref> <quote xml:id="bHY6yh-d31016-Qd1e304">Sed tantum in 
+              <lb ed="#K"/>mundo modo non est fidus ami<lb ed="#K" break="no"/>cus 
+              Fraude est etenim calli<lb ed="#K" break="no"/>dus 
+              omnis homo Sed qui non 
+              <lb ed="#K"/>potuit socium sibi querere sid<lb ed="#K" break="no"/>um 
+              Diligat hic alios sicut 
+              <lb ed="#K"/>amatus erit</quote>
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e317">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31016-Rd1e353">Gualterius de castellione li 9 et pe</ref>
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e325">
+              <quote xml:id="bHY6yh-d31016-Qd1e329">Testatur eorum finis amicicias 
+              <lb ed="#K"/>regum non esse perhennes</quote>
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e335">
+              <ref xml:id="bHY6yh-d31016-Rd1e370">Heinricus samariensis lib i parte i</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d31016-Qd1e339">Delicias veris sequitur sed tempora 
+              <lb ed="#K"/>bruine Deserit ablato re<lb ed="#K" break="no"/>mige 
+              falsus amor</quote>
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e347">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31016-Rd1e384">Bertrandus iconomica c 12</ref> <quote xml:id="bHY6yh-d31016-Qd1e351">De 
+              <lb ed="#K"/>verbis magna est copia amicorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e357">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31016-Rd1e395">Iacobus beneuentanus c 34</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d31016-Qd1e361">Tempore felici multi dicuntur amici 
+              <lb ed="#K"/>tollere qui cupiunt et dare nul<lb ed="#K" break="no"/>la 
+              volunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d31016-d1e369">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31016-Rd1e410">Prouerb vulgar servu alu</ref> <quote xml:id="bHY6yh-d31016-Qd1e373">amico to c<lb ed="#K" break="no"/>olue
+              
+              <lb ed="#K"/>
+              <lb ed="#K"/> </quote> <!--new text review add when editing -->
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
