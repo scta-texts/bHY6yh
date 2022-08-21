@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 14 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 14 [Krakow, lat 700 III Transcription]</title>
+               <date when="2022-08-20">August 20, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="71-v"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d31897"><!-- p2l3-r14 -->
+            <head xml:id="bHY6yh-d31897-Hd1e108">Rubrica 14</head>
+            <head xml:id="bHY6yh-d31897-Hd1e111" type="question-title">De amicorum constantia et inconstantia</head>
+            <p xml:id="bHY6yh-d31897-d1e114">
+              De 
+              <lb ed="#K" n="3"/>amicorum constantia et inconstantia Rubrica 14
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e119">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31897-Rd1e115">Salomon in prouer c 18</ref> <quote xml:id="bHY6yh-d31897-Qd1e125">Occasiones 
+              <lb ed="#K"/>qua erit qui vult recedere ab 
+              <lb ed="#K"/>amico</quote> 
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e131">
+              <ref xml:id="bHY6yh-d31897-Rd1e129">c 19</ref> <quote xml:id="bHY6yh-d31897-Qd1e135">Diuitie addunt 
+              <lb ed="#K"/>amicos pistolimos a paupere autem 
+              <lb ed="#K"/>et hi quos habuerit sepantur</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e142">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31897-Rd1e142">Socrates in exhortur c i</ref> <quote xml:id="bHY6yh-d31897-Qd1e146">De<lb ed="#K" break="no"/>cet
+              natos sicut substantie sic 
+              <lb ed="#K"/>etiam paterne dilectionis esse heredes</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e154">
+              <ref xml:id="bHY6yh-d31897-Rd1e154">c 2</ref> <quote xml:id="bHY6yh-d31897-Qd1e156">Lente quidem fiat amicus
+              <lb ed="#K"/>factus tentes perseuerare</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e162">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31897-Rd1e166">Cronica de nugis philosopho c 8</ref> <quote xml:id="bHY6yh-d31897-Qd1e166">scilicet 
+              <lb ed="#K"/>de periandro Periander corin<lb ed="#K" break="no"/>thius 
+              vnus de vii sapientibus ait a<lb ed="#K" break="no"/>micis 
+              et felicibus et infelicibus idem sis</quote> <!--double check-->
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e174">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31897-Rd1e184">Aristoteles ethincorum libro 8 c 4</ref> <quote xml:id="bHY6yh-d31897-Qd1e178">Proptur vtile existentes amici 
+              <lb ed="#K"/>cum conferente dissoluuntur sola
+              <lb ed="#K"/>bonorum amicitia intransmu<lb ed="#K" break="no"/>tabilis 
+              est Loca non dissoluunt 
+              <lb ed="#K"/>amicitiam simpliciter sed opeationem</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e188">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31897-Rd1e198">c 5</ref> <quote xml:id="bHY6yh-d31897-Qd1e190">Mali firmum quid non habent neque 
+              <lb ed="#K"/>enim sibiipsis permanent similes 
+              <lb ed="#K"/>existentes in modicum enim tempus fiunt
+              <lb ed="#K"/>amici gaudentes adinuicem 
+              <lb ed="#K"/>malitia</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e204">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31897-Rd1e217">Iesus filius sirach in eccl c 6</ref> <quote xml:id="bHY6yh-d31897-Qd1e208">Amicus si permanserit 
+              <lb ed="#K"/>fixus erit quasi coequalis et in 
+              <lb ed="#K"/>domesticis tuis fiducialitur aget</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e217">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31897-Rd1e230">c 22</ref> <quote xml:id="bHY6yh-d31897-Qd1e219">Ad amicum etsi produxeris 
+              <lb ed="#K"/>gladium ne desperes est enim regres<lb ed="#K" break="no"/>sus 
+              ad amicum Fidem posside cum 
+              <lb ed="#K"/>amico in paupertate illius ubi
+                  <pb ed="#K" n="72-r"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>et in bonis illius leteris in tempore 
+              <lb ed="#K"/>tribulationis illius permane illi 
+              <lb ed="#K"/>fidelis non in hereditate illius 
+              <lb ed="#K"/>coheres sis</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e233">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31897-Rd1e250">Tullius de officiis li i c 22</ref> <quote xml:id="bHY6yh-d31897-Qd1e237">Beniuolentiam non a<lb ed="#K" break="no"/>dolescentulorum 
+              more ardo<lb ed="#K" break="no"/>re 
+              quodam amoris sed stabilitate potius et constantia iudica
+        mus</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e247">
+      <ref xml:id="bHY6yh-d31897-Rd1e264">Idem rethor. artis noue li. 5. 10. c.</ref>
+        <quote xml:id="bHY6yh-d31897-Qd1e249">Qui fortunis alicuius induncti amicitiam eius
+        secuti sunt: hi simili ac fortuna delapsa est de
+        uoluant omnes.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e259">
+      <ref xml:id="bHY6yh-d31897-Rd1e277">Li. 7. et fi. ca. 10.</ref> <quote xml:id="bHY6yh-d31897-Qd1e261">Falsi amiqui
+        sereno vite tempore praesto sunt: simili atque hyenni for
+        tune viderunt deuolant omnes. Idem de fine bo
+        norum et malorum li. 2. Si vtilitas amicitiam consti
+        tuet tollet eandem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e273">
+      <ref xml:id="bHY6yh-d31897-Rd1e293">Idem de amicitia:</ref> <quote xml:id="bHY6yh-d31897-Qd1e275">Invi
+        ta tyrannorum nulla fides: nulla charitas: nul
+        la stabilitas beniuolentie potest esse fiducia: omnia
+        semper suspecta atque sollicita: nullus locus a
+        micitie. Quis enim eum aut diligit quem metuat
+        aut eum a quo se metui putat. Coluntur tantum si
+        mulatione amicitie dumtaxat ad tempus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e292">
+               
+                <ref xml:id="bHY6yh-d31897-Rd1e316">Ouidius de tristibus lib. i. e. 8.</ref> <quote xml:id="bHY6yh-d31897-Qd1e296">Donec eris
+        felix: multos numerabis amicos.
+        Tempora si fuerint nubila: solus eris.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e305">
+               
+               / <ref xml:id="bHY6yh-d31897-Rd1e331">Epistola. 4</ref>
+        <quote xml:id="bHY6yh-d31897-Qd1e309">Scilicet vt fulmini: spectatur in ignibus aurum.
+        Tempore si duro est inspicienda fides.
+        Dum viuat et vultum: ridet fortuna secundo.
+        Inde libatas: cuncta sequuntur opes.
+        At simul intonuit fugiunt: nec noscitur vsquam
+        Agminibus comitum: qui modo cinctus erat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e326">
+               
+               / <ref xml:id="bHY6yh-d31897-Rd1e352">Idem de ponto li. 2. e. 3.</ref>
+        <quote xml:id="bHY6yh-d31897-Qd1e330">Diligitur nemo: nisi cui fortuna secuda est.
+        Que simul intonuit: proxima queque fugat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e338">
+               
+               / <ref xml:id="bHY6yh-d31897-Rd1e365">Epistola. 6.</ref>
+        <quote xml:id="bHY6yh-d31897-Qd1e342">Turpe erit in miseris: veteri tibi rebus amico
+        Auxilium nulla parte tulisse tuum.
+        Turpe sequi casum: et fortune credere amicum.
+        Et nisi sit felix esse negare suum.<!--111.xml-->
+        <pb ed="#V" n="42-v"/>
+                  <cb ed="#V" n="a"/>
+               </quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e361">
+               
+                <ref xml:id="bHY6yh-d31897-Rd1e389">Quintilianus declam. li. i. declam. i.</ref> <quote xml:id="bHY6yh-d31897-Qd1e365">Cum
+        propter pecuniam ames: idem amoris et spes
+        tutus est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e373">
+               
+                <ref xml:id="bHY6yh-d31897-Rd1e403">Seneca epistolarum ad lucillum li. 2. e. i.</ref> <quote xml:id="bHY6yh-d31897-Qd1e377">Qui
+        vtilitatis causa assumptus est: tam diu place
+        bit quamdiu vtilis fuerit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e385">
+      <ref xml:id="bHY6yh-d31897-Rd1e415">Libro. 6. e. 7. et fi.</ref>
+        <quote xml:id="bHY6yh-d31897-Qd1e387">Est quidem suppinus ac negligens qui in ami
+        ci memoriam ab aliqua regione amouetur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e396">
+               
+                <ref xml:id="bHY6yh-d31897-Rd1e429">Lucanus lib. 8.</ref> <quote xml:id="bHY6yh-d31897-Qd1e400">Dat penas laudata fides
+        cum sustinet inquit: Quos fortuna premit.
+        Aduersis non deesse decet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e408">
+               
+                <ref xml:id="bHY6yh-d31897-Rd1e443">Ualerius max. li. 3 ti. de constantia:</ref> <quote xml:id="bHY6yh-d31897-Qd1e412">Centu
+        rio quidam diui augusti: cum antoniano bello
+        sepenumero excellentes pugnas edidisset im
+        prouisis hostium insidiis circumuentus: et ad an
+        tonium alexandriam perductus: interrogatusque
+        quisnam de eo statui deberet: iugulari me in
+        quit iube: quia non salutis beneficio neque mor
+        tis supplicio adduci possum vt aut cesaris
+        miles desinam: aut tuus esse incipiam. Ceterum
+        quo constantius vitam contempsit eo facilius
+        impetrauit: antonius enim virtuti eius inco
+        lumitatem tribuit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e439">
+               
+                <ref xml:id="bHY6yh-d31897-Rd1e476">Marcialis cocus li. vndique suscepto. c. 6</ref>
+        <quote xml:id="bHY6yh-d31897-Qd1e443">Nescit amor vehemens: ad queque pericula
+        rumpi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e451">
+               
+                <ref xml:id="bHY6yh-d31897-Rd1e489">Boetius de consolatione li. 2. c. 15.</ref> <quote xml:id="bHY6yh-d31897-Qd1e455">Ami
+        corum tibi fidelium mentes aspera horribilisque
+        fortuna detexit: hoc tibi certos sodalium vul
+        tus ambiguosque secreuit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e465">
+      <ref xml:id="bHY6yh-d31897-Rd1e503">Lib. 9. c. 9.</ref> <quote xml:id="bHY6yh-d31897-Qd1e467">Quem
+        felicitas amicum fecit: infortunium faciet ini
+        micum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e475">
+               
+                <ref xml:id="bHY6yh-d31897-Rd1e517">Cassiodorus epistolarum li. 10. e. 2.</ref> <quote xml:id="bHY6yh-d31897-Qd1e479">Amicitia
+        tantum est certior quantum vetustior: quia facile
+        mutari non potest: quod per longa tempora custoditur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e488">
+               
+                <ref xml:id="bHY6yh-d31897-Rd1e532">Uersificator fabularum esopi. 28 fa.</ref> <quote xml:id="bHY6yh-d31897-Qd1e492">Nullus
+        amor durat: nisi fructus seruet amorem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e498">
+               
+               / <ref xml:id="bHY6yh-d31897-Rd1e544">Fabula. 62.</ref> <quote xml:id="bHY6yh-d31897-Qd1e502">Nam refugit viso: turbine fal
+        sus amor. Dum fortuna tonat: fugitiuos
+        terret amicos. Quis amet et quis non: sola pro
+        cella docet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e512">
+               
+                <ref xml:id="bHY6yh-d31897-Rd1e560">Auctor li. qui dicitur facetus. c. 6</ref> <quote xml:id="bHY6yh-d31897-Qd1e516">Qui fuerit fe
+        lix: multis venerandus amatur.
+        Sed miser effectus solus ad ima cadit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e524">
+               
+                <ref xml:id="bHY6yh-d31897-Rd1e574">Andreas ad gualterium de amore li. 3.</ref> <quote xml:id="bHY6yh-d31897-Qd1e528">Ue <!--111.xml-->
+        <cb ed="#V" n="b"/>
+                  rus amicus in amici aduersitatibus fideli
+        or inuenitur: et efficitur in omni turbatione constantior.
+      </quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e540">
+               
+                <ref xml:id="bHY6yh-d31897-Rd1e592">Heinricus samari. li. i. parte. i.</ref> <quote xml:id="bHY6yh-d31897-Qd1e544">Cum zephirus
+        flabat: multis comitabar amicis.
+        Nunc omnes aquilo: turbine flante fugat.
+        Omnis in aduersis rebus amicus abest.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e554">
+      <ref xml:id="bHY6yh-d31897-Rd1e606">Li 2 in
+        fi.</ref> <quote xml:id="bHY6yh-d31897-Qd1e556">Nulla remota via: solidum partitur amorem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31897-d1e563">
+               
+                <ref xml:id="bHY6yh-d31897-Rd1e620">Iacobus beneuentanus. c. 34</ref>
+        <quote xml:id="bHY6yh-d31897-Qd1e567">Mutari nescit: inueteratus amor.
+      </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
