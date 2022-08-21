@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 11 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 11 [Krakow, lat 700 III Transcription]</title>
+               <date when="2022-08-20">August 20, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#K" n="70-v"/>
+           <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d31480"><!-- p2l3-r11 -->
+            <head xml:id="bHY6yh-d31480-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-d31480-Hd1e111" type="question-title">De acquirendis amicis</head>
+            <p xml:id="bHY6yh-d31480-d1e114">
+              <pb ed="#K" n="70-v"/>
+              <cb ed="#K" n="a"/>      
+              De acqurendis amicis Rubrica 11
+            </p>
+            <p xml:id="bHY6yh-d31480-d1e119">
+              <lb ed="#K" n="17"/> <ref xml:id="bHY6yh-d31480-Rd1e119">Socrates in exhortationibus c 2</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d31480-Qd1e127">Neminem amicum concilies priusquam perttenes quo 
+              <lb ed="#K"/>pacto se gesserit 
+              <lb ed="#K"/>erga priscos amicos cre<lb ed="#K" break="no"/>das 
+              enim etiam erga te huiusmodi 
+              <lb ed="#K"/>futurum cuiusmodi erga illos 
+              <lb ed="#K"/>fuit</quote>
+            </p>
+            <p xml:id="bHY6yh-d31480-d1e137">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31480-Rd1e140">Seneca epistolarum ad lucillum li i e 3</ref> <quote xml:id="bHY6yh-d31480-Qd1e141">Omnia cum amico 
+              <lb ed="#K"/>delibera sed de ipso prius</quote>
+            </p>
+            <p xml:id="bHY6yh-d31480-d1e148">
+              <ref xml:id="bHY6yh-d31480-Rd1e151">Idem 
+              <lb ed="#K"/>de remediis fortuitorum e 20</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d31480-Qd1e150">Ibi amicum queras vbi inue<lb ed="#K" break="no"/>nias 
+              quere inter liberales ar<lb ed="#K" break="no"/>tes 
+              interrecta et honesta officia 
+              <lb ed="#K"/>quere in laboribus ad men<lb ed="#K" break="no"/>sam 
+              ista res non queritur quere 
+              <lb ed="#K"/>aliquem frugi</quote>
+            </p>
+            <p xml:id="bHY6yh-d31480-d1e162">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31480-Rd1e170">Lucanus li 8</ref> <quote xml:id="bHY6yh-d31480-Qd1e166">Cole felices miseros fuge Ad<lb ed="#K" break="no"/>uersis 
+              non deesse decet sed le<lb ed="#K" break="no"/>ta 
+              secutos Nulla fides vn<lb ed="#K" break="no"/>quam 
+                  <cb ed="#K" n="b"/>
+              miseros eligit amicos</quote>
+            </p>
+            <p xml:id="bHY6yh-d31480-d1e174">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31480-Rd1e184">Marcialis cocus li vndique suscepto 
+              <lb ed="#K"/>c 3</ref> <quote xml:id="bHY6yh-d31480-Qd1e178">Sepe diuque suo quem dig<lb ed="#K" break="no"/>num
+              censet amore Pertractat 
+              <lb ed="#K"/>sapiens sic amat ex habitu Ante<lb ed="#K" break="no"/>quaem 
+              ames erisippe proba sed ama<lb ed="#K" break="no"/>re 
+              probatum Cura totoque illum 
+              <lb ed="#K"/>pectore suscipias</quote>
+            </p>
+            <p xml:id="bHY6yh-d31480-d1e190">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31480-Rd1e201">Cato c 5 et fi</ref> <quote xml:id="bHY6yh-d31480-Qd1e194">Cum tibi vel socium vel fidum 
+              <lb ed="#K"/>queris amicum non tibi for<lb ed="#K" break="no"/>tuna 
+              est hominis sed vita petenda</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
