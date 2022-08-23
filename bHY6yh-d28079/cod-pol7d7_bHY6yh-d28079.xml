@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 2 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 2 [Krakow, lat 700 III Transcription]</title>
+               <date when="2022-08-05">August 15, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="62-v"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d28079"><!-- p2l3-r2 -->
+            <head xml:id="bHY6yh-d28079-Hd1e108">Rubrica 2</head>
+            <head xml:id="bHY6yh-d28079-Hd1e111" type="question-title">De pietate</head>
+            <p xml:id="bHY6yh-d28079-d1e114">   
+              De pietate Rubrica 2
+            </p>
+            <p xml:id="bHY6yh-d28079-d1e119">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28079-Rd1e116">Tullius retho artis veteris 
+              <lb ed="#K"/>li 2 c 9</ref> <quote xml:id="bHY6yh-d28079-Qd1e123">Pietas est per quam sanguine 
+              <lb ed="#K"/>coniunctis patrieque beniuolis offi<lb ed="#K" break="no"/>cium 
+              et diligens tribuitur cultus</quote>
+            </p>
+            <p xml:id="bHY6yh-d28079-d1e135">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28079-Rd1e135">Quintilianus declam 5 declam</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d28079-Qd1e139">Habet pietas impetum suum nec vllum 
+              <lb ed="#K"/>dominum nouit affectus</quote>
+            </p>
+            <p xml:id="bHY6yh-d28079-d1e148">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28079-Rd1e150">Paulus in epistola ad timotheum c 4</ref> <quote xml:id="bHY6yh-d28079-Qd1e152">Pietas
+              <lb ed="#K"/>ad omnia vtilis est promissionem habens <!--double check-->
+              <lb ed="#K"/>vite quae nunc est et future</quote>
+            </p>
+            <p xml:id="bHY6yh-d28079-d1e160">
+              <ref xml:id="bHY6yh-d28079-Rd1e162">c 5</ref> <quote xml:id="bHY6yh-d28079-Qd1e162">Si<lb ed="#K" break="no"/>quis 
+              suorum et maxime domesticor<lb ed="#K" break="no"/>um 
+              curam non habet fidem negauit 
+              <lb ed="#K"/>et est infideli deterior</quote>
+            </p>
+            <p xml:id="bHY6yh-d28079-d1e170"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28079-Rd1e176">Seneca tragediarum inthieste c 7</ref> <quote xml:id="bHY6yh-d28079-Qd1e174">Nulla
+              <lb ed="#K"/>vis maior pietate vera est</quote>
+            </p>
+            <p xml:id="bHY6yh-d28079-d1e180">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28079-Rd1e188">Lucanus li 8</ref> <quote xml:id="bHY6yh-d28079-Qd1e184">Exeat aula Qui 
+              <lb ed="#K"/>vult esse pius</quote>
+            </p>
+            <p xml:id="bHY6yh-d28079-d1e188">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28079-Rd1e198">Frontinus li i ti 7</ref> <quote xml:id="bHY6yh-d28079-Qd1e192">Alexander maced per deser<lb ed="#K" break="no"/>ta 
+              affrice itinera grauissima siti cum 
+              <lb ed="#K"/>exercitum affectus oblatam sibi a 
+              <lb ed="#K"/>milite in galea aquam spectan<lb ed="#K" break="no"/>tibus 
+              vniuersis effudit vtiliter exemplo temperantie quasi communicare voluisset.</quote>
+            </p>
+            <p xml:id="bHY6yh-d28079-d1e211">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28079-Rd1e223">Lex diges ti de curatore furioso et aliis etcaetera l 
+              <lb ed="#K"/>furiose</ref> <quote xml:id="bHY6yh-d28079-Qd1e215">Pietas parentibus etsi 
+              <lb ed="#K"/>inequalis est eorum potestas equa debe<lb ed="#K" break="no"/>bitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d28079-d1e224">
+              <ref xml:id="bHY6yh-d28079-Rd1e239">Ualerius maxi li 5 ti de humanitate aut clementia</ref> <quote xml:id="bHY6yh-d28079-Qd1e228">Quintus me<lb ed="#K" break="no"/>tellus 
+              celtibericum in hyspania 
+              <lb ed="#K"/>gerens bellum cum vrbe celto bricam <!--double check-->
+                  <pb ed="#K" n="63-r"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>obsideret et iam admota ma<lb ed="#K" break="no"/>china 
+              partem muri que sola conuel<lb ed="#K" break="no"/>li 
+              poterat difiecturus videretur 
+              <lb ed="#K"/>humanitatem propinque victorie prae<lb ed="#K" break="no"/>tulit 
+              nam cum rethoienis filios 
+              <lb ed="#K"/>qui ad eum transierant centobricen<lb ed="#K" break="no"/>ses 
+              machine ictibus obiecissent ne 
+              <lb ed="#K"/>pueri in conspectu patris crudeli ge<lb ed="#K" break="no"/>nere 
+              mortis consumerentur quamquam 
+              <lb ed="#K"/>ipse rethoienes ne garet esse 
+              <lb ed="#K"/>impedimento quo minus etiam per 
+              <lb ed="#K"/>exitum sanguinis sui expugnationem 
+              <lb ed="#K"/>perageret ab obsidone discessit 
+              <lb ed="#K"/>Quo quidemtam clementi facto et si 
+              <lb ed="#K"/>non vnius ciuitati menia omnium 
+              <lb ed="#K"/>tantum celtiberarum vrbium animos ce<lb ed="#K" break="no"/>pit 
+              effecitque vt ad redigendas 
+              <lb ed="#K"/>eas in ditionem populi romani non 
+              <lb ed="#K"/>multis sibi obsidionibus opus
+              <lb ed="#K"/>esset <ref xml:id="bHY6yh-d28079-Rd1e280">Ti de pietate</ref> Nulla acer<lb ed="#K" break="no"/>bitate 
+              fortune nullis sordibus 
+              <lb ed="#K"/>precium care pietatis vilescit 
+              <lb ed="#K"/>quanto etiam eo certius quo mise<lb ed="#K"/>rius 
+              experimentum habet Quo non 
+              <lb ed="#K"/>penetrat aut quid non exco<lb ed="#K" break="no"/>gitat 
+              pietas rerum natura pietatis 
+              <lb ed="#K"/>est magistra</quote>
+            </p>
+            <p xml:id="bHY6yh-d28079-d1e279">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28079-Rd1e299">Ambrosius de officis li i c 31</ref> <quote xml:id="bHY6yh-d28079-Qd1e283">Beniuolentia communis 
+              <lb ed="#K"/>quedam parens omnium est que 
+              <lb ed="#K"/>amicitia connectit et copulat 
+              <lb ed="#K"/>in consiliis fidelis in prosperis leta 
+              <lb ed="#K"/>in tristibus mesta Unusquisque 
+              <lb ed="#K"/>beniuolentis se magis quam sa<lb ed="#K" break="no"/>pientis 
+              credit consilio</quote>
+            </p>
+            <p xml:id="bHY6yh-d28079-d1e297">
+              <ref xml:id="bHY6yh-d28079-Rd1e317">32 c</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d28079-Qd1e299">Beniuolentia etiam morum 
+              <lb ed="#K"/>similitudinem facit Inter dispares 
+              <lb ed="#K"/>mores et studia compugnant<lb ed="#K" break="no"/>ia 
+                  <cb ed="#K" n="b"/>
+              beniuolentia esse non potest</quote>
+            </p>
+            <p xml:id="bHY6yh-d28079-d1e309">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28079-Rd1e331">Li 2 c 7</ref> <quote xml:id="bHY6yh-d28079-Qd1e311">Nihil tam vtile quam 
+              <lb ed="#K"/>diligi Id agamus vt omni seduli<lb ed="#K" break="no"/>tate 
+              commendemus existimationem 
+              <lb ed="#K"/>opinionemque nostram Ac primum pla<lb ed="#K" break="no"/>ciditate 
+              mentis et animi benigni<lb ed="#K" break="no"/>tate 
+              influamus in affectum hominum 
+              <lb ed="#K"/>popularis enim et grata est omnibus 
+              <lb ed="#K"/>bonitas nihilque est quod tam facile 
+              <lb ed="#K"/>humanis sensibus illabatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d28079-d1e328">
+              <ref xml:id="bHY6yh-d28079-Rd1e352">c 30 
+              <lb ed="#K"/>et fi</ref> <quote xml:id="bHY6yh-d28079-Qd1e330">Nihil charitate dulcius nihil 
+              <lb ed="#K"/>pace gratius</quote>
+            </p>
+            <p xml:id="bHY6yh-d28079-d1e336">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28079-Rd1e363">Cassiodorus epistolarum li 12 et si epistola 3</ref> <quote xml:id="bHY6yh-d28079-Qd1e340">Pietas 
+              siquidem principum totum custodit 
+              <lb ed="#K"/>imperium et dum illis vicissitudo di<lb ed="#K" break="no"/>gna 
+              redditur in columia rei<lb ed="#K" break="no"/>publice 
+              membra seruantur</quote>
+            </p>
+            <p xml:id="bHY6yh-d28079-d1e355">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d28079-Rd1e383">Gualterius de castellione li 4</ref> <quote xml:id="bHY6yh-d28079-Qd1e359">Que rara 
+              <lb ed="#K"/>tyrannis semper inest fregit pi<lb ed="#K" break="no"/>etas 
+              generosa rigorem</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

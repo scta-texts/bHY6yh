@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 13 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 13 [Krakow, lat 700 III Transcription]</title>
+               <date when="2022-08-20">August 20, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="71-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d31691"><!-- p2l3-r13 -->
+            <head xml:id="bHY6yh-d31691-Hd1e108">Rubrica 13</head>
+            <head xml:id="bHY6yh-d31691-Hd1e111" type="question-title">De amicorum confidentia</head>
+            <p xml:id="bHY6yh-d31691-d1e114">
+              De confiden<lb ed="#K" n="5" break="no"/>tia 
+              amicorum Rubrica 13
+            </p>
+            <p xml:id="bHY6yh-d31691-d1e119">
+               <lb ed="#K"/> <ref xml:id="bHY6yh-d31691-Rd1e115">Cronica de nugis philosophorum c 6 
+               <lb ed="#K"/>scilicet de biante</ref> <quote xml:id="bHY6yh-d31691-Qd1e127">Bias vnus de vii 
+               <lb ed="#K"/>sapeientibus dicebat diligen 
+               <lb ed="#K"/>oportem vt odio habituros nam 
+               <lb ed="#K"/>plerosque malos</quote> 
+            </p>
+            <p xml:id="bHY6yh-d31691-d1e135">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31691-Rd1e134">Tullius de amicitia</ref> <quote xml:id="bHY6yh-d31691-Qd1e139">Scipio negabat 
+              <lb ed="#K"/>vllam vocem inimicitiorem amici<lb ed="#K" break="no"/>tie 
+              posse reperiri quam eius 
+              <lb ed="#K"/>qui dixisset ita amare oportere 
+              <lb ed="#K"/>vt ali quoniam esset osurus nec vero se 
+              <lb ed="#K"/>adduci posse vt hoc quemadmo<lb ed="#K" break="no"/>dum 
+              putaretur abiante esse dictum cre<lb ed="#K" break="no"/>deret 
+              qui sapiens hitus esset 
+              <lb ed="#K"/>ex septem sapientibus omibus <!--review this-->
+              <lb ed="#K"/>aut ambitiosi aut omnia ad 
+              <lb ed="#K"/>suam potentiam reuocantis esse 
+              <lb ed="#K"/>sententiam quoniam enim modo quisquam 
+              <lb ed="#K"/>amicus esse poterit eius 
+              <lb ed="#K"/>cui se putabit inimicum esse 
+              <lb ed="#K"/>posse</quote>
+            </p>
+            <p xml:id="bHY6yh-d31691-d1e163">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31691-Rd1e164">Ualerius max li 3 ti de constantia</ref> <quote xml:id="bHY6yh-d31691-Qd1e167">Alexandri
+              <lb ed="#K"/>macedonum regis amicus 
+              <lb ed="#K"/>et comes philippus medi<lb ed="#K" break="no"/>cus 
+              cum suis manibus tem<lb ed="#K" break="no"/>peratam 
+              potionem alexandro 
+              <lb ed="#K"/>porrexisset a permenione 
+              <lb ed="#K"/>misse litterae superuenerut 
+              <lb ed="#K"/>admonentes vt rex insidi<lb ed="#K" break="no"/>as 
+              philippi medici perinde 
+              <lb ed="#K"/>ac pecunia corrupti a dario 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>caueret quis cum legisset fine 
+              <lb ed="#K"/>vlla cunctactione medicamen<lb ed="#K" break="no"/>tum 
+              angit ac eas tantum legendas 
+              <lb ed="#K"/>philippo tradidit pro quo tam 
+              <lb ed="#K"/>constanti erga amicum iudi<lb ed="#K" break="no"/>cio 
+              dignissimam a diis immor<lb ed="#K" break="no"/>talibus 
+              mercedem recepit 
+              <lb ed="#K"/>qui incolumitatis eius praesidium 
+              <lb ed="#K"/>falso interpellari iudicio volue<lb ed="#K" break="no"/>runt</quote>
+            </p>
+            <p xml:id="bHY6yh-d31691-d1e194">
+              <ref xml:id="bHY6yh-d31691-Rd1e195">Idem li 4 ti de moderatione</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d31691-Qd1e196">Plato cum a quodam audierat 
+              <lb ed="#K"/>xenocratem discipulum suum de 
+              <lb ed="#K"/>se multa impie locutum sine vl<lb ed="#K" break="no"/>la 
+              cunctactione criminationem res<lb ed="#K" break="no"/>puit 
+              instabat certo vultum iu<lb ed="#K" break="no"/>dex 
+              causam quarens cur sibi si<lb ed="#K" break="no"/>dos 
+              non adhiberetur adiecit non 
+              <lb ed="#K"/>esse credibile vt quem tanto tem<lb ed="#K" break="no"/>pore 
+              amaret ab eo inuicem 
+              <lb ed="#K"/>non diligeretur postremo eum ad 
+              <lb ed="#K"/>iusiurandum inimicitias seren<lb ed="#K" break="no"/>tis 
+              malignitas confugisset 
+              <lb ed="#K"/>ne de perurio eius disputa<lb ed="#K" break="no"/>ret 
+              affirmauit numquam xeno 
+              <lb ed="#K"/>cratem illa dicturum fuisse nisi 
+              <lb ed="#K"/>ea dici expedire sibi iudi<lb ed="#K" break="no"/>casset</quote>
+            </p>
+            <p xml:id="bHY6yh-d31691-d1e223">
+              <ref xml:id="bHY6yh-d31691-Rd1e227">Idem ti de amore 
+              <lb ed="#K"/>et dilectione</ref> <quote xml:id="bHY6yh-d31691-Qd1e225">Damodo et pithias 
+              <lb ed="#K"/>pitagorice prudentie sacris 
+              <lb ed="#K"/>iniciati tam fidelem intur se a<lb ed="#K" break="no"/>micitiam 
+              vinxerunt vt cum 
+              <lb ed="#K"/>alterum ex his dionysius syra<lb ed="#K" break="no"/>cusanus 
+              interficere vellet atque 
+              <lb ed="#K"/>his temptus ab eo quo priusquam
+              <lb ed="#K"/>periret domum profectus res suas 
+                  <pb ed="#K" n="71-v"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>ordinaret impetrasset altur va<lb ed="#K" break="no"/>dem 
+              se pro reditu eius tyranno 
+              <lb ed="#K"/>dare non dubitauit Igitur omnes 
+              <lb ed="#K"/>et in primis dionysius noue atque 
+              <lb ed="#K"/>ancipitis rei exitum speculab<lb ed="#K" break="no"/>antur 
+              appropinquinte deinde fini<lb ed="#K" break="no"/>ta 
+              die nec illo redeunte vnus<lb ed="#K" break="no"/>quisque 
+              stultitie tam temerar<lb ed="#K" break="no"/>ium 
+              sponsorem dannabat At 
+              <lb ed="#K"/>his nihil se de amici con<lb ed="#K" break="no"/>stantia 
+              metuere praedicabat 
+              <lb ed="#K"/>Eodem autem momento et hora 
+              <lb ed="#K"/>a dionysio constituta qui eam accep<lb ed="#K" break="no"/>erat 
+              superuenit admiratus 
+              <lb ed="#K"/>amborum animum tyrannus sup<lb ed="#K" break="no"/>plicium 
+              fidei remisit Insuper<lb ed="#K" break="no"/>que
+              eos rogauit vt se in soci<lb ed="#K" break="no"/>etatem 
+              amicitie tertium sodalitii 
+              <lb ed="#K"/>gradum vltima culturum beniuolenti<lb ed="#K" break="no"/>am 
+              reciperent Bias ita aieb<lb ed="#K" break="no"/>at 
+              oportere homines in vsu ami<lb ed="#K" break="no"/>citie 
+              versari vt meminissent 
+              <lb ed="#K"/>eam ad grauissimas inimici<lb ed="#K" break="no"/>tias 
+              posse conuerti Quod quidem 
+              <lb ed="#K"/>praeceptum prima specie nimis f<lb ed="#K" break="no"/>ortasse 
+              callidum videatur In<lb ed="#K" break="no"/>imicumque
+              simplicitati qua praeci<lb ed="#K" break="no"/>pue 
+              amicitia gaudet sed 
+              <lb ed="#K"/>si animi altior cogitatio di<lb ed="#K" break="no"/>missa 
+              fuerit per quam vtile re<lb ed="#K" break="no"/>perietur</quote>
+            </p>
+            <p xml:id="bHY6yh-d31691-d1e287">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31691-Rd1e294">Macrobius saturnaliorum li 2 c 18</ref> <quote xml:id="bHY6yh-d31691-Qd1e291">ex auctoritatibus 
+              <lb ed="#K"/>publii Ita amicum habeas 
+              <lb ed="#K"/>vt posse fieri hunc inimicum 
+              <lb ed="#K"/>putes</quote>
+            </p>
+            <p xml:id="bHY6yh-d31691-d1e299">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31691-Rd1e308">Auctor libri qui dicitur facetus c 6</ref> <quote xml:id="bHY6yh-d31691-Qd1e303">sed tamen in mundo modo non est fidus 
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>amicus fraude est etenim 
+              <lb ed="#K"/>allidus omnis homo</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
