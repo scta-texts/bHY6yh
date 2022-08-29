@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4 [Klosterneuberg Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name ref="#graydonlee">Graydon Lee</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4 [Klosterneuberg Transcription]</title>
+               <date when="2022-08-26">August 26, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+               guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Kc" n="7-r"/>
+            <cb ed="#Kc" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d1e792"><!-- p1l1-r4 -->
+            <head xml:id="bHY6yh-d1e792-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-d1e792-Hd1e111" type="question-title">De munere diuino</head>
+            <p xml:id="bHY6yh-d1e792-d1e114">
+              <lb ed="#Ka"/>de munere diuino rubrica 4
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e119">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e792-Rd1e116">PSalmista psalmus 36</ref> <quote xml:id="bHY6yh-d1e792-Qd1e121">apud deum
+              <lb ed="#Ka"/>gressus hominis dirigentur</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e131"> 
+            / <ref xml:id="bHY6yh-d1e792-Rd1e128">83
+              <lb ed="#Ka"/>psalmus</ref> <quote xml:id="bHY6yh-d1e792-Qd1e133">gloriam et honorem dabit dominus</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e142">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e792-Rd1e142">117 psalmus</ref> <quote xml:id="bHY6yh-d1e792-Qd1e144">lapidem quem reprobauerunt
+              <lb ed="#Ka"/>edificantes hic factus est in <sic>capud</sic>
+              <lb ed="#Ka"/>anguli a domino factum est istud hoc
+              <lb ed="#Ka"/>est mirabile in oculis nostris hec est dies
+              <lb ed="#Ka"/>quam fecit dominus exultemus et letemur
+              <lb ed="#Ka"/>in ea</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e156">
+              <ref xml:id="bHY6yh-d1e792-Rd1e160">147 psalmus</ref> <quote xml:id="bHY6yh-d1e792-Qd1e160">nisi dominus custodierit ciui
+              <lb ed="#Ka" break="no"/>tatem frustra vigilat qui custo
+              <lb ed="#Ka" break="no"/>dit eam</quote>
+            </p>
+            <p><!--add xml tag--><!--line not in venice edition-->
+            / <ref><!--add xml tag-->156 psalmus</ref> <quote><!--add xml tag-->dominus dabit escam
+              <lb ed="#Ka"/><unclear>comuerse</unclear><!--conuerse?--> <unclear>earm</unclear></quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e168"> 
+            / <ref xml:id="bHY6yh-d1e792-Rd1e172">166 psalmus</ref> <quote xml:id="bHY6yh-d1e792-Qd1e170">dominus dat
+              <lb ed="#Ka"/>escam esurientibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e176">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e792-Rd1e185">Salomon in <sic>prouerbis</sic> c 3</ref> <quote xml:id="bHY6yh-d1e792-Qd1e180">habe
+              <lb ed="#Ka"/>fiduciam in domino ex toto corde et
+              <lb ed="#Ka"/>imitaris prudentie tue in omnibus
+              <lb ed="#Ka"/>viis tuis cogita illum et ipse diriget
+              <lb ed="#Ka"/>gressus tuos</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e190">
+            / <ref xml:id="bHY6yh-d1e792-Rd1e199">16 c</ref> <quote xml:id="bHY6yh-d1e792-Qd1e192">Cor hominis dis
+              <lb ed="#Ka" break="no"/>ponet viam suam et domini est dirigere
+              <lb ed="#Ka"/>gressus uiri autem quis hominum in
+              <lb ed="#Ka" break="no"/>telligere potest viam suam</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e200"> 
+              <quote xml:id="bHY6yh-d1e792-Qd1e202">omitted</quote> <!--"A domino diriguntur gressus viri: quis autem hominum intellige re potest viam suam" in quote above-->
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e211">
+            / <ref xml:id="bHY6yh-d1e792-Rd1e222">21 c</ref> <quote xml:id="bHY6yh-d1e792-Qd1e213">Cor re
+              <lb ed="#Ka" break="no"/>gis in manu domini quocumque voluerit
+              <lb ed="#Ka"/>inclinabit illud</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e219">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e792-Rd1e234">Paralipomenon li 2 c 25</ref> <quote xml:id="bHY6yh-d1e792-Qd1e223">dei est 
+              <lb ed="#Ka"/>adiuuare et in fugam vertere</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e229">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e792-Rd1e246">Iohannes in euangelio c 6</ref> <quote xml:id="bHY6yh-d1e792-Qd1e233">ait iesus
+              <lb ed="#Ka"/>nemo potest venire ad me nisi pater
+              <lb ed="#Ka"/>qui misit me traxerit eum</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e241">
+              <ref xml:id="bHY6yh-d1e792-Rd1e258">14 c</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d1e792-Qd1e243">nemo venit ad patrem nisi per me</quote>
+            </p>
+              <cb ed="Kc" n="b"/>
+            <p xml:id="bHY6yh-d1e792-d1e249">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e792-Rd1e270">Lucas in actibus apostolorum c 8</ref> <quote xml:id="bHY6yh-d1e792-Qd1e253">Cum
+              <lb ed="#Ka"/>vidisset <sic>symon</sic> magus quia per
+              <lb ed="#Ka"/>impositionem manus apostolorum daretur
+              <lb ed="#Ka"/>spiritus sanctus obtulit eis pecuniam dicens
+              <lb ed="#Ka"/>date mihi hanc potestatem vt cuicumque
+              <lb ed="#Ka"/>in posuero manus accipiat spirtum sanctum
+              <lb ed="#Ka"/>petrus autem dixit ad eum pecunia tua
+              <lb ed="#Ka"/>sit tecum inperditionem quoniam donum dei ex
+              <lb ed="#Ka" break="no"/>istimasti pecunia possideri</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e278">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e792-Rd1e301">Iacobus apostolus <unclear>1 ca</unclear> c 1</ref> <quote xml:id="bHY6yh-d1e792-Qd1e282">Omne datum
+              <lb ed="#Ka"/>optimum et omne donum perfectum desur
+              <lb ed="#Ka" break="no"/>sum est descendens a patre luminum</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e291">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e792-Rd1e314">3 c</ref> <quote xml:id="bHY6yh-d1e792-Qd1e293">Que desursum est sapientia primum
+              <lb ed="#Ka"/>quidem pudica est deinde pacifica
+              <lb ed="#Ka"/>modesta suadibilis bonis consenti
+              <lb ed="#Ka" break="no"/>ens plena misericordia et fructibus bonis
+              <lb ed="#Ka"/>iudicans sine simulatione</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e305">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e792-Rd1e334">Paulus apostolus epistola 1 ad corinthe
+              <lb ed="#Ka" break="no"/>os c 15</ref> <quote xml:id="bHY6yh-d1e792-Qd1e309">Gratia dei sum id quod sum</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e315">
+              <ref xml:id="bHY6yh-d1e792-Rd1e345">Idem
+              <lb ed="#Ka"/>epistola ad ephesios c 1</ref> <quote xml:id="bHY6yh-d1e792-Qd1e317">Gratia estis
+              <lb ed="#Ka"/>saluati per fidem et hoc non ex vo
+              <lb ed="#Ka" break="no"/>bis domum dei est non ex operibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e327">
+              <ref xml:id="bHY6yh-d1e792-Rd1e360">Idem 
+              <lb ed="#Ka"/>epistola <sic>5</sic> ad corinthios</ref> <quote xml:id="bHY6yh-d1e792-Qd1e329">omnis sufficientia
+              <lb ed="#Ka"/>nostra ex deo est</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e337"> 
+            / <ref xml:id="bHY6yh-d1e792-Rd1e373">Idem epistola ad <sic>ebreos</sic>
+              <lb ed="#Ka"/>c 4</ref> <quote xml:id="bHY6yh-d1e792-Qd1e339">ad eamus cum fiducia ad tro
+              <lb ed="#Ka" break="no"/>num gratie et misericordiam conse
+              <lb ed="#Ka" break="no"/>quamur et gratiam in ueniamus in
+              <lb ed="#Ka"/>auxilio opportuno</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e349">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e792-Rd1e391">Augustinus in epigramatibus prosperi
+              <lb ed="#Ka"/>ep 27</ref> <quote xml:id="bHY6yh-d1e792-Qd1e353">nemo est tam eruditus ne
+              <lb ed="#Ka" break="no"/>mo tam doctus qui superna illustra
+              <lb ed="#Ka" break="no"/>tione non egeat</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e362">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e792-Rd1e407">Cassiodorus<!--crossed out letters "do" to fix error--> epistolarum libro 9 c
+              <lb ed="#Ka"/>24</ref> <quote xml:id="bHY6yh-d1e792-Qd1e366">deo auctore omnia prosperantur</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e372">
+              <ref xml:id="bHY6yh-d1e792-Rd1e417">25
+              <lb ed="#Ka"/>c et fi</ref> <quote xml:id="bHY6yh-d1e792-Qd1e374">ad omnia redditur humilis quem
+              <lb ed="#Ka"/>imbuit doctrina celestis</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e382">
+              <ref>libro x c 1</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d1e792-Qd1e384">deus conseuit casus asperos in
+              <lb ed="#Ka"/>prospera commutare</quote> 
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e390"> 
+            / <ref xml:id="bHY6yh-d1e792-Rd1e437">31 c</ref> <quote xml:id="bHY6yh-d1e792-Qd1e392">omnis pro<!---->
+              <lb ed="#Ka"/>ventus ad deitatis<!--'is' crossed out--> est <unclear>munera referendus</unclear><!--ending of "munera_" unclear; next word unclear-->
+              <lb ed="#Ka"/>nec aliquid constat esse bonum nisi quod ab ipso dignoscitur esse collatum</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e792-d1e402">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e792-Rd1e454">Gualterius de castellione libro 2</ref> <quote xml:id="bHY6yh-d1e792-Qd1e406">parcite
+              <lb ed="#Ka"/>victores ignati viuere summo victori
+              <lb ed="#Ka"/>iuxes sceptrum diadema triumphos
+              <lb ed="#Ka"/>diuitias dare qui potuit auferre
+              <lb ed="#Ka"/>valebit</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

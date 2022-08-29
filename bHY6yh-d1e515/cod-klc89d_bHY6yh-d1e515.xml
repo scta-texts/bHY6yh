@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 3 [Klosterneuberg Transcription]</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#graydonlee">Graydon Lee</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 3 [Klosterneuberg Transcription]</title>
+          <date when="2022-08-15">August 15, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Ka" n="6-v"/>
+        <cb ed="#Ka" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d1e515"><!-- p1l1-r3 -->
+        <head xml:id="bHY6yh-d1e515-Hd1e108">Rubrica 3</head>
+        <head xml:id="bHY6yh-d1e515-Hd1e111" type="question-title">De qualitate Dei</head>
+        <p xml:id="bHY6yh-d1e515-d1e114">
+          <lb ed="#Ka"/>de qualitate dei rubrica 3
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e119">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e515-Rd1e122">IN exodo c 30</ref> <quote xml:id="bHY6yh-d1e515-Qd1e121" source="http://scta.info/resource/ex20_5@6-12">Ego sum dominus deus 
+          <lb ed="#Ka"/>fortis et <sic>celotes</sic></quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-xxx473">
+          omitted
+        </p>
+        <p xml:id="bHY6yh-d1e515-xxx549">
+         omitted
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e131">
+          <ref xml:id="bHY6yh-d1e515-Rd1e128">Psalmista
+          <lb ed="#Ka"/>psalmus 7.</ref> <quote xml:id="bHY6yh-d1e515-Qd1e133">dominus iudex iustus fortis et
+          <lb ed="#Ka"/>patiens</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e142">
+          <ref xml:id="bHY6yh-d1e515-Rd1e142">psalmus 17.</ref> <quote xml:id="bHY6yh-d1e515-Qd1e144" source="http://scta.info/resource/ps17_31@10-15">protector est dominus omnium
+          <lb ed="#Ka"/>sperantium in se</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e150">
+        / <ref xml:id="bHY6yh-d1e515-Rd1e152">psalmus 24</ref> <quote xml:id="bHY6yh-d1e515-Qd1e152">Firmamen
+          <lb ed="#Ka" break="no"/>tum est dominus omnibus timentium eum</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e158">
+          <lb ed="#Ka"/>/ <ref xml:id="bHY6yh-d1e515-Rd1e162">psalmus 33</ref> <quote xml:id="bHY6yh-d1e515-Qd1e160">Gustate et videte quoniam suauis 
+          <lb ed="#Ka"/>est dominus</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e166">
+        / <ref xml:id="bHY6yh-d1e515-Rd1e171">psalmus 49</ref> <quote xml:id="bHY6yh-d1e515-Qd1e168">deus est iudex</quote>
+            <!--changed from 89 (Venice) to 49-->
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e174">
+        / <ref xml:id="bHY6yh-d1e515-Rd1e184" target="http://scta.info/resource/ps74_8@2-4">Idem
+          <lb ed="#Ka"/>psalmus 74</ref>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e180">
+          <ref xml:id="bHY6yh-d1e515-Rd1e190">psalmus 85</ref> <quote xml:id="bHY6yh-d1e515-Qd1e182">tu deus suauis et
+          <lb ed="#Ka"/>mitis et multe misericordiae es omnibus in
+          <lb ed="#Ka"/>uocantibus te</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e191">
+        / <ref xml:id="bHY6yh-d1e515-Rd1e202">psalmus 91</ref> <quote xml:id="bHY6yh-d1e515-Qd1e193">Rectus dominus
+          <lb ed="#Ka"/>deus noster et non est iniquitas in eo</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e201">
+        / <ref xml:id="bHY6yh-d1e515-Rd1e214">psalmus 117</ref> <quote xml:id="bHY6yh-d1e515-Qd1e203">Confitemini domino quoniam bonus
+          <lb ed="#Ka"/>quoniam in seculum misericordia eius</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e209">
+        / <ref xml:id="bHY6yh-d1e515-Rd1e224">psalmus 135</ref> <quote xml:id="bHY6yh-d1e515-Qd1e211">Iustus
+          <lb ed="#Ka"/>es domine et rectum iudicium tuum</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e217">
+          <ref xml:id="bHY6yh-d1e515-Rd1e234">psalmus 165</ref> <quote xml:id="bHY6yh-d1e515-Qd1e219">Fidelis dominus in omnibus operi
+          <lb ed="#Ka" break="no"/>bus suis Iustus dominus in omnibus verbis
+          <lb ed="#Ka"/>suis et sanctus in omnibus suis</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e227">
+           omitted
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e237"> 
+        / <ref xml:id="bHY6yh-d1e515-Rd1e256">psalmus 66</ref> <quote xml:id="bHY6yh-d1e515-Qd1e239" source="http://scta.info/resource/ps145_7@1-5">Deus custodit veritatem in secu
+          <lb ed="#Ka" break="no"/>um deus diligit iustos</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e246">
+           omitted
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e252">
+          <ref xml:id="bHY6yh-d1e515-Rd1e278">Phylon vel philemon li sapientie c 15</ref>
+          <lb ed="#Ka"/><quote xml:id="bHY6yh-d1e515-Qd1e256">Tu deus noster suauis <unclear>qs</unclear><!--first letter unclear--> et verus
+          <lb ed="#Ka"/>es patiens cum misericordia disponens omnia</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e264">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e515-Rd1e292">Ioannes in euangelio c 1</ref> <quote xml:id="bHY6yh-d1e515-Qd1e268">deum nemo
+          <lb ed="#Ka"/>vidit vnquam.</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e274">
+        / <ref xml:id="bHY6yh-d1e515-Rd1e302">10 c</ref> <quote xml:id="bHY6yh-d1e515-Qd1e276" source="http://scta.info/resource/io10_11@1-4 http://scta.info/resource/io10_14@1-4">ait iesus ego
+          <lb ed="#Ka"/>sum pastor bonus</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e280">
+          <ref xml:id="bHY6yh-d1e515-Rd1e312">c 11</ref> <quote xml:id="bHY6yh-d1e515-Qd1e284" source="http://scta.info/resource/io11_25@1-8">dixit
+          <lb ed="#Ka"/>iesus ego sum resurrectio et vita.</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e290">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e515-Rd1e322">c 14</ref> <quote xml:id="bHY6yh-d1e515-Qd1e292" source="http://scta.info/resource/io14_6@1-10">dixit iesus ego sum via veritas
+          <lb ed="#Ka"/>vita</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e299">
+          <ref xml:id="bHY6yh-d1e515-Rd1e333">Idem epistola 1 c 4.</ref> <quote xml:id="bHY6yh-d1e515-Qd1e301">deus caritas est</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e305">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e515-Rd1e343">Paulus apostolus: epistola ad roma
+          <lb ed="#Ka" break="no"/>nos c 3</ref> <quote xml:id="bHY6yh-d1e515-Qd1e309">Est autem deus verax omnis
+          <lb ed="#Ka"/>homo mendax</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-xxx151">
+          omitted
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e317">
+        / <ref xml:id="bHY6yh-d1e515-Rd1e356">c 13</ref> <quote xml:id="bHY6yh-d1e515-Qd1e319">Que a deo
+          <lb ed="#Ka"/>sunt ordinata sunt</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e325">
+        / <ref xml:id="bHY6yh-d1e515-Rd1e329">Idem epistola 
+          <lb ed="#Ka"/>ad <sic>corintheos</sic> c 10</ref> <quote xml:id="bHY6yh-d1e515-Qd1e327" source="http://scta.info/resource/Icor1_9@1-2">fidelis deus est</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e337">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e515-Rd1e345"><name xml:id="bHY6yh-d1e515-Nd1e347" ref="#Boethius">Boetius</name> de consolatione libro 4 c 9</ref> <quote xml:id="bHY6yh-d1e515-Qd1e349" source="http://scta.info/resource/hy7y6y-d1e75-d1e576@170-185">Quam
+          <lb ed="#Ka" break="no"/>uis causam tante dispositionis igno
+          <lb ed="#Ka" break="no"/>res: quoniam cum bonis mundum rector
+          <lb ed="#Ka"/>temptat <sic>recta</sic> <unclear>sn</unclear><!--sine? sententia?--> cuncta ne dubites</quote> 
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e358">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d1e515-Rd1e402">11 c</ref> <quote xml:id="bHY6yh-d1e515-Qd1e362">Et si nobis fatalem ordinem 
+          <lb ed="#Ka"/>minime considerare valentibus confusa
+          <lb ed="#Ka"/>omnia turbata que videantur nihilominus
+          <lb ed="#Ka"/>tamen suus modus ad bonum dirigens
+          <lb ed="#Ka"/>cuncta disponit</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e374">
+        / <quote xml:id="bHY6yh-d1e515-Qd1e376">Naturarum omni proditor
+          <lb ed="#Ka"/>deus idem ad bonum dirigens cuncta disponit et caetera</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

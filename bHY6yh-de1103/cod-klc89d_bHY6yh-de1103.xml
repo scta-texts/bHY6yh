@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name ref="#graydonlee">Graydon Lee</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5</title>
+               <date when="2022-08-27">August 27, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="7-v"/>
+            <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de1103"><!-- p1l1-r5 -->
+            <head xml:id="bHY6yh-de1103-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-de1103-Hd1e111" type="question-title">De retributione Dei</head>
+            <p xml:id="bHY6yh-de1103-d1e114">
+              <lb ed="#Ka"/>de retributione dei rubrica 5
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e119">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de1103-Rd1e116">Iob historia 34 c</ref> <quote xml:id="bHY6yh-de1103-Qd1e121" source="http://scta.info/resource/iob34_11@1-10"><!--enim is not included in the text-->opus hominis
+              <lb ed="#Ka"/>reddet ei deus et iuxta vias
+              <lb ed="#Ka"/>singulorum restituet</quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e131">
+              <ref xml:id="bHY6yh-de1103-Rd1e132">In genesi c
+              <lb ed="#Ka"/>4</ref> <quote xml:id="bHY6yh-de1103-Qd1e135" source="http://scta.info/resource/gen4_7@1-5">nonne si bene egeris recipies</quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e142">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de1103-Rd1e145">Psalmista 61 psalmus</ref> <quote xml:id="bHY6yh-de1103-Qd1e146" source="http://scta.info/resource/ps61_13@11-12"> <!--it is possible this correct there are some errors-->dominus reddet vni
+              <lb ed="#Ka" break="no"/>cuique iuxta opera sua</quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e152"> 
+              omitted
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e160">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de1103-Rd1e171">Salomon in prouerbiis c 16</ref> <quote xml:id="bHY6yh-de1103-Qd1e164" source="http://scta.info/resource/prov16_7@1-11">Cum
+              <lb ed="#Ka"/>placuerint <!--the word eius is not included in the text-->domino <sic>vie</sic> hominis inimicos
+              <lb ed="#Ka"/>quoque suos conuertet ad pacem</quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e176">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de1103-Rd1e189">Idem
+              <lb ed="#Ka"/>in <unclear>ecclesiastice</unclear> c 9</ref> <quote xml:id="bHY6yh-de1103-Qd1e178" source="http://scta.info/resource/qoh9_18@8-14">Qui in vno peccauerit
+              <lb ed="#Ka"/>multa bona perdet</quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e184">
+              <ref xml:id="bHY6yh-de1103-Rd1e201">Regum libro 1 c
+              <lb ed="#Ka"/>26</ref> <quote xml:id="bHY6yh-de1103-Qd1e188" source="http://scta.info/resource/Isam26_23@3-9"><!--not an exact match spelling doesn't quite line up-->deus retribuet vnicuique secundum
+              <lb ed="#Ka"/>iustitiam suam et fidem</quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e194">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de1103-Qd1e198"><sic>Ieremias</sic> propheta in libro prophetiarum c
+              <lb ed="#Ka"/>32</ref> <quote xml:id="bHY6yh-de1103-Qd1e207" source="http://scta.info/resource/ier32_19@7-25"><!--not an exact match-->oculi dei aperti sunt super omnes
+              <lb ed="#Ka"/>vias filiorum adam ut reddat vni
+              <lb ed="#Ka" break="no"/>cuique secundum vias suas et secundum fructum
+              <lb ed="#Ka"/>adinuentionum eius et caetera</quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e215">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de1103-Rd1e235"><sic>Ihesus</sic> filius sirach in ecclesiastico c
+              <lb ed="#Ka"/>1</ref> <quote xml:id="bHY6yh-de1103-Qd1e219">deus praebet sapientiam diligentibus
+              <lb ed="#Ka"/>se</quote> <!--could not find a matching verse-->
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e225"> 
+              <lb ed="#Ka"/>/ <ref xml:id="bHY6yh-de1103-Rd1e247">18 c</ref> <quote xml:id="bHY6yh-de1103-Qd1e227" source="http://scta.info/resource/sir18_22@13-17"><!--not quite matching the last word is aeternum-->Merces dei manet in <sic>eter</sic>
+              <lb ed="#Ka" break="no"/>num</quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e233">
+              <ref xml:id="bHY6yh-de1103-Rd1e261">mattheus in euangelio 16 c</ref> <quote xml:id="bHY6yh-de1103-Qd1e237" source="http://scta.info/resource/mt16_27@1-19">filius
+              <lb ed="#Ka"/>hominis venturus est in gloria patris
+              <lb ed="#Ka"/>sui cum angelis suis et tunc red
+              <lb ed="#Ka" break="no"/>det vnicuique secundum opera eius<!--add '...' after 'eius'?--></quote> <!--again slightly variety-->
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e251">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de1103-Rd1e277">Marcus in euangelio c 4</ref> <quote xml:id="bHY6yh-de1103-Qd1e255" source="http://scta.info/resource/mc4_24@7-13">In qua men
+              <lb ed="#Ka" break="no"/>sura <!--text includes crossed out 'iusti'-->mensi fueritis remetietur vobis</quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e262">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de1103-Rd1e289">Ioannes in apocolipsi c 2</ref><!--'et' crossed out--> <quote xml:id="bHY6yh-de1103-Qd1e266" source="http://scta.info/resource/ap2_23@19-24">ait deus
+              <lb ed="#Ka"/>dabo vnicuique vestrum secundum opera vestra</quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e272"> 
+              <lb ed="#Ka"/>/ <ref xml:id="bHY6yh-de1103-Rd1e299">22 c et <sic>si</sic></ref> <quote xml:id="bHY6yh-de1103-Qd1e274" source="http://scta.info/resource/ap22_12@2-13">ait deus venio cito et
+                <cb ed="#Ka" n="b"/>   
+              <lb ed="#Ka"/>merces mea mecum est reddere vni
+              <lb ed="#Ka" break="no"/>cuique secundum opera sua</quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e282">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de1103-Rd1e314">Paulus apostolus epistola ad corinthe
+              <lb ed="#Ka" break="no"/>os c 3</ref> <quote xml:id="bHY6yh-de1103-Qd1e286" source="http://scta.info/resource/Icor3_8@9-16">vnusquisque propriam mercedem
+              <lb ed="#Ka"/>accipiet secundum suum laborem</quote><!--source is not quite the same but it is very similar-->
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e294"> 
+            / <ref xml:id="bHY6yh-de1103-Rd1e328">13 c</ref> <quote xml:id="bHY6yh-de1103-Qd1e296"><!--could not find a verse-->si
+              <lb ed="#Ka" break="no"/>quis ignorat ignorabitur</quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e300">
+              <ref xml:id="bHY6yh-de1103-Rd1e338">Idem <unclear>eo</unclear>
+              <lb ed="#Ka"/>ad ephesios c 6 et fi</ref> <quote xml:id="bHY6yh-de1103-Qd1e302" source="http://scta.info/resource/eph6_8@3-10">vnusquisque
+              <lb ed="#Ka"/>quodcumque bonum fecerit hoc percipiet
+              <lb ed="#Ka"/>a domino</quote>
+            </p>
+            <p xml:id="bHY6yh-de1103-d1e310">
+              <ref xml:id="bHY6yh-de1103-Rd1e353">Cassiodorns epistolarum libro 10 c 16</ref> <quote xml:id="bHY6yh-de1103-Qd1e314">Remunerator est bonorum
+              <lb ed="#Ka"/>omnium deus</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
