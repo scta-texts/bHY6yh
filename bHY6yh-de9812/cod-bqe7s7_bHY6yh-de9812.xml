@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Rubrica 9 [Krakow, lat 700 III Transcription]</title>
+            <title>Rubrica 36</title>
             <author ref="#per-c7y65a">Geremia da Montagnone</author>
             <respStmt>
                <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
@@ -10,15 +10,15 @@
                <resp>TEI Encoder</resp>
             </respStmt>
             <respStmt>
-               <name>Katrina Vander Ahe</name>
+               <name>Erin Kurian</name>
                <resp>Transcription Editor</resp>
                <resp>TEI Encoder</resp>
             </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="0.0.0-dev">
-               <title>Rubrica 9 [Krakow, lat 700 III Transcription]</title>
-               <date when="2022-08-11">August 11, 2021</date>
+               <title>Rubrica 36</title>
+               <date when="2022-08-25">August 25, 2022</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -30,7 +30,7 @@
          </publicationStmt>
          <sourceDesc>
             <listWit>
-               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+               <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -43,7 +43,7 @@
       </encodingDesc>
       <revisionDesc status="draft">
          <listChange>
-            <change when="2021-05-18" status="draft" n="0.0.0">
+            <change when="2022-08-25" status="draft" n="0.0.0">
                <p>Created file for the first time.</p>
             </change>
          </listChange>
@@ -52,24 +52,40 @@
    <text xml:lang="la">
       <front>
          <div xml:id="starts-on">
-            <pb ed="#K" n="59-v"/>
-            <cb ed="#K" n="a"/>
+            <pb ed="#P" n="18-r"/>
+            <cb ed="#P" n="a"/>
          </div>
       </front>
       <body>
-         <div xml:id="bHY6yh-d26503"><!-- p2l2-r9 -->
-            <head xml:id="bHY6yh-d26503-Hd1e108">Rubrica 9</head>
-            <head xml:id="bHY6yh-d26503-Hd1e111" type="question-title">De obliquis actionibus</head>
-            <p xml:id="bHY6yh-d26503-d1e114">
-              De obliquis 
-              <lb ed="#K" n="36"/>actionibus Rubrica 9
+         <div xml:id="bHY6yh-de9812"><!-- p1l1-r36 -->
+            <head xml:id="bHY6yh-de9812-Hd1e108">Rubrica 36</head>
+            <head xml:id="bHY6yh-de9812-Hd1e111" type="question-title">De commissione auctoris et officii ad christo data petro apostolo
+              et ceteris discipulis christi
+            </head>
+         <p xml:id="bHY6yh-de9812-d1e114">
+            <lb ed="#P"/>De comissione auctoritatis / et 
+            <lb ed="#P"/>officii a iesu cristo data pe
+            <lb ed="#P" break="no"/>tro et ceteris eius discipulis ei
+            <lb ed="#P"/>capitulum xxxvi
+         </p>
+            <p xml:id="bHY6yh-de9812-d1e125">
+               <lb ed="#P"/><ref>Matteus in euangelo ca. xxvi.</ref> <quote xml:id="bHY6yh-de9812-Qd1e131">tu es petrus 
+               <lb ed="#P"/>et super hanc petram edificabo ecclesiam meam.</quote>
             </p>
-            <p xml:id="bHY6yh-d26503-d1e119">
-                <cb ed="#K" n="b"/>
-              <lb ed="#K"/> ¶<ref>Ioannes in euangelio capitulo 10</ref> <quote xml:id="bHY6yh-d26503-Qd1e125">Qui non
-              <lb ed="#K"/>intrat per ostium in ouile ouium 
-              <lb ed="#K"/>sed ascendet aliunde ille fur est 
-              <lb ed="#K"/>et latro</quote> 
+            <p xml:id="bHY6yh-de9812-d1e148">
+               <lb ed="#P"/><ref>Idem xxviii.</ref> <quote xml:id="bHY6yh-de9812-Qd1e150">ait iesus discipulis suis que: Amen dico vo
+               <lb ed="#P"/>cumque ligaueritis super terram et cetera</quote>
+            </p>
+            <p xml:id="bHY6yh-de9812-d1e163">
+               <lb ed="#P"/><ref>Iohnnes xx</ref> <quote xml:id="bHY6yh-de9812-Qd1e167">dixit iesus discipulis suis
+               <lb ed="#P"/>post resurrexionem suam pax vobis. Sic
+               <cb ed="#P" n="b"/>
+               <lb ed="#P"/>misit me pater et ego et cetera. usquem ibi quorum
+               <lb ed="#P"/>retinueritis retenta sunt et cetera</quote>
+            </p>
+            <p xml:id="bHY6yh-de9812-d1e181">
+               <lb ed="#P"/><ref>Idem. xi. et fi.</ref> <quote xml:id="bHY6yh-de9812-Qd1e183">dixit iusus petro pasce
+               <lb ed="#P"/><sic>ues</sic> meas / et cetera</quote>
             </p>
          </div>
       </body>
