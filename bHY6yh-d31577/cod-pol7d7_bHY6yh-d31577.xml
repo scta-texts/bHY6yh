@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 12 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 12</title>
+               <date when="2022-08-20">August 20, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="70-v"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d31577"><!-- p2l3-r12 -->
+            <head xml:id="bHY6yh-d31577-Hd1e108">Rubrica 12</head>
+            <head xml:id="bHY6yh-d31577-Hd1e111" type="question-title">De conseruandis et retinendis amicis</head>
+            <p xml:id="bHY6yh-d31577-d1e114">
+              <lb ed="#K" n="11"/>De conseruandis et 
+              <lb ed="#K"/>retinendis amicis Rubrica xii
+            </p>
+            <p xml:id="bHY6yh-d31577-d1e119">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31577-Rd1e115">Salomon in prouerb c 7</ref> <quote xml:id="bHY6yh-d31577-Qd1e125">Amicum 
+              <lb ed="#K"/>tuum et patris tui ne dimiseris</quote> 
+            </p>
+            <p xml:id="bHY6yh-d31577-d1e131">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31577-Rd1e129">Socrates in exhortationibus 
+              <lb ed="#K"/>c i</ref> <quote xml:id="bHY6yh-d31577-Qd1e135">Decet natos sicut substantie 
+              <lb ed="#K"/>sic etiam pater ne dilectionis esse 
+              <lb ed="#K"/>heredes</quote>
+            </p>
+            <p xml:id="bHY6yh-d31577-d1e144">
+                <quote xml:id="bHY6yh-d31577-Qd1e148"> </quote>
+            </p>
+            <p xml:id="bHY6yh-d31577-d1e152"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31577-Rd1e149">Aristoteles rethoricorum libro i c 11</ref> <quote xml:id="bHY6yh-d31577-Qd1e154">Se parari ab amicis et 
+              <lb ed="#K"/>consuetis miserabile confusio 
+              <lb ed="#K"/>debilitas orbatio</quote>
+            </p>
+            <p xml:id="bHY6yh-d31577-d1e162">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31577-Rd1e165">Iesus filius sirach in eccl ca 9</ref> <quote xml:id="bHY6yh-d31577-Qd1e166">Ne derelin<lb ed="#K" break="no"/>quas 
+              amicum antiquum no<lb ed="#K" break="no"/>uus 
+              enim non erit similis</quote>
+            </p>
+            <p xml:id="bHY6yh-d31577-d1e174"> 
+              <ref xml:id="bHY6yh-d31577-Rd1e177">c 22</ref> 
+              <quote xml:id="bHY6yh-d31577-Qd1e176">Qui conuiciatur amico dissoluit 
+              <lb ed="#K"/>amicitiam</quote>
+            </p>  
+            <p> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31577-Rd1e185">Seneca epistolarum ad lucillum lib 7 c 5</ref> <quote>Ami<lb ed="#K" break="no"/>cus 
+              animo possidendus est</quote>
+            </p>
+            <p xml:id="bHY6yh-d31577-d1e186">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d31577-Rd1e195">Martialis cocus li vndique suscepto 
+              <lb ed="#K"/>c 2</ref> <quote xml:id="bHY6yh-d31577-Qd1e190">Prudenti probe consilio re<lb ed="#K" break="no"/>tinendus 
+              amicus quem sero 
+              <lb ed="#K"/>acquiris sed cito perdis eum 
+              <lb ed="#K"/>frangis amicitiam dum tarde 
+              <lb ed="#K"/>ledis amicum Insidians socio frangis amicitiam</quote>
+            </p>
+            <p xml:id="bHY6yh-d31577-d1e207">
+                  <pb ed="#K" n="71-r"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/> <ref xml:id="bHY6yh-d31577-Rd1e216">Auctor li qui dicitur facetus c 7</ref> <quote xml:id="bHY6yh-d31577-Qd1e211">Que<lb ed="#K" break="no"/>ritur 
+              euentu socius tamen arte te<lb ed="#K" break="no"/>netur
+              Res leuis est querere sed 
+              <lb ed="#K"/>retinere labor</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
