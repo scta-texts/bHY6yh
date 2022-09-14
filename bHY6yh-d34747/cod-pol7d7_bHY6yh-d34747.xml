@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 11 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 11 [Krakow, lat 700 III Transcription]</title>
+               <date when="2022-09-14">September 14, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="77-r"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d34747"><!-- p2l4-r11 -->
+            <head xml:id="bHY6yh-d34747-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-d34747-Hd1e111" type="question-title">De tranquillitate populi</head>
+            <p xml:id="bHY6yh-d34747-d1e114">
+              De tr<lb ed="#K" n="34" break="no"/>anquillitate 
+              populorum Rubrica xi
+            </p>
+            <p xml:id="bHY6yh-d34747-d1e119">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d34747-Rd1e116">Cassiodorus eri li i e 
+              <lb ed="#K"/>i</ref> <quote xml:id="bHY6yh-d34747-Qd1e125">Omni quippe regno desidera<lb ed="#K" break="no"/>bilis 
+              debet esse tranquillitas 
+                  <pb ed="#K" n="77-v"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>in qua et populi proficiunt et vtilitas 
+              <lb ed="#K"/>gentium custoditur Hec est enim bo<lb ed="#K" break="no"/>narum 
+              artium mater hec mortalium 
+              <lb ed="#K"/>genus reparabili successione 
+              <lb ed="#K"/>multiplicans facultates pro<lb ed="#K" break="no"/>tendit 
+              mores extollit Et tan<lb ed="#K" break="no"/>tarum 
+              rerum ignarus agnoscitur 
+              <lb ed="#K"/>qui eam minime quesisse sentitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d34747-d1e146">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d34747-Rd1e144">4. e.</ref> <quote xml:id="bHY6yh-d34747-Qd1e148">Cogi debet vt sit quietus 
+              <lb ed="#K"/>qui suo vicio renuit esse pac<lb ed="#K" break="no"/>ificus</quote>
+            </p>
+            <p xml:id="bHY6yh-d34747-d1e157">
+              <ref xml:id="bHY6yh-d34747-Rd1e157">22 e</ref> <quote xml:id="bHY6yh-d34747-Qd1e159">Decet regalis a<lb ed="#K" break="no"/>picis 
+              curam generalitatis custodire 
+              <lb ed="#K"/>concordiam Ad laudem regnantis 
+              <lb ed="#K"/>trahitur si ab omnibus pax ame<lb ed="#K" break="no"/>tur</quote>
+            </p>
+            <p xml:id="bHY6yh-d34747-d1e167">
+              <ref xml:id="bHY6yh-d34747-Rd1e171">Libro 2 e 29</ref> <quote xml:id="bHY6yh-d34747-Qd1e171">Regnantis 
+              <lb ed="#K"/>est gloria subiectorum ociosa tranquillitas</quote>
+            </p>
+            <p xml:id="bHY6yh-d34747-d1e177">
+            <ref xml:id="bHY6yh-d34747-Rd1e181">Lib. 3. e. 38</ref>
+        <quote xml:id="bHY6yh-d34747-Qd1e179">Principis opinionem longe lateque disseminat
+        subiectorum custodita securitas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d34747-d1e187">
+            <ref xml:id="bHY6yh-d34747-Rd1e192">Li. 5. e. 39</ref>
+        <quote xml:id="bHY6yh-d34747-Qd1e189">Quies suauissima populi et dispositio tran
+        quilla regionum preconium probatur esse regnan
+        tium.</quote>
+            </p>
+            <p xml:id="bHY6yh-d34747-d1e199">
+            <ref xml:id="bHY6yh-d34747-Rd1e205">Lib. 11. e. 9.</ref> <quote xml:id="bHY6yh-d34747-Qd1e201">Furoris genus est in se
+        culo pacato turbulento studere proposito. <!--118.xml-->
+               </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
