@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 7</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name ref="graydonlee">Graydon Lee</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 7</title>
+               <date when="2022-09-13">September 13, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="8v"/>
+            <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de1874"><!-- p1l1-r7 -->
+            <head xml:id="bHY6yh-de1874-Hd1e108">Rubrica 7</head>
+            <head xml:id="bHY6yh-de1874-Hd1e111" type="question-title">De misericordia et clementia</head>
+            <p xml:id="bHY6yh-de1874-d1e114">
+              <lb ed="#Ka"/><sic>De </sic><unclear>iusticia </unclear><sic>et iudicio dei rubrica 6</sic><!--should be 'rubrica 7'-->
+            </p>
+            <p xml:id="bHY6yh-de1874-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de1874-Rd1e118">PSalmista psalmus xxxii</ref> <quote xml:id="bHY6yh-de1874-Qd1e120" source="http://scta.info/resource/ps32_5@5-9">misericordia
+              <lb ed="#Ka"/>domini plena est terra</quote> 
+            </p>
+            <p xml:id="bHY6yh-de1874-d1e130">
+            / <ref xml:id="bHY6yh-de1874-Rd1e130">Idem
+              <lb ed="#Ka"/>136 psalmus</ref> <quote xml:id="bHY6yh-de1874-Qd1e132" source="http://scta.info/resource/sir34_19@1-5">oculi domini super timentes
+              <lb ed="#Ka"/>eum et in eis qui sperant super misericordia
+              <lb ed="#Ka"/>eius</quote>
+            </p>
+            <p xml:id="bHY6yh-de1874-d1e141">
+            / <ref xml:id="bHY6yh-de1874-Rd1e145">83 psalmus</ref> <quote xml:id="bHY6yh-de1874-Qd1e143" source="http://scta.info/resource/ps83_12@2-6">misericordiam et veri
+              <lb ed="#Ka" break="no"/>tatem diligit deus</quote>
+            </p>
+            <p xml:id="bHY6yh-de1874-d1e149"> 
+            / <ref xml:id="bHY6yh-de1874-Rd1e155">84 psalmus</ref> <quote xml:id="bHY6yh-de1874-Qd1e151" source="http://scta.info/resource/ps84_11@1-10">Miseri
+              <lb ed="#Ka" break="no"/>cordia <sic>obuiarunt</sic> sibi iustitia et
+              <lb ed="#Ka"/>pax osculate sunt</quote> <!--'et veritas' excluded-->
+            </p>
+            <p xml:id="bHY6yh-de1874-d1e159"> 
+            / <ref xml:id="bHY6yh-de1874-Rd1e169">102 psalmus</ref> <quote xml:id="bHY6yh-de1874-Qd1e161">Misericordia
+              <lb ed="#Ka"/>domini ab eterno et vsque in eternum super
+              <lb ed="#Ka"/>timentes</quote> <!--could not find an exact match-->
+            </p>
+            <p xml:id="bHY6yh-de1874-d1e167">
+              <ref xml:id="bHY6yh-de1874-Rd1e183">117. psalmus</ref> <quote xml:id="bHY6yh-de1874-Qd1e171">confitemini domino
+              <lb ed="#Ka"/>quoniam bonus quoniam in seculum misericordia eius</quote> <!--could not find a matching verse-->
+            </p> 
+            <p xml:id="bHY6yh-de1874-d1e177"> 
+              <lb ed="#Ka"/>/ <ref xml:id="bHY6yh-de1874-Rd1e195"><sic>163</sic> psalmus</ref> <quote xml:id="bHY6yh-de1874-Qd1e179" source="http://scta.info/resource/ps146_11@1-14">beneplacitum est domino super
+            <cb ed="#Ka" n="b"/> 
+              <lb ed="#Ka"/>eum et in eis qui sperant super
+              <lb ed="#Ka"/>misericordia eius</quote>
+            </p> 
+            <p xml:id="bHY6yh-de1874-d1e187">
+              <ref xml:id="bHY6yh-de1874-Rd1e209">paralipomenon li i c
+              <lb ed="#Ka"/>22</ref> <quote xml:id="bHY6yh-de1874-Qd1e191" source="http://scta.info/resource/Ichr21_11@1-13 http://scta.info/resource/Ichr21_12@1-44">Cum venisset gad angelus ad dauid: dixit ei: Hec dic do
+        minus: Elige quod volueris: aut tribus annis
+        pestilentiam: aut tribus mensibus fugere ho
+        stes tuos: et gladium eorum non posse euadere:
+        autm tribus diebus gladiu domini et mortem ver
+        sari in terra: et angelu domini interficere in vni
+        uersis sinibus isrili. Nuc igitur vide quid re
+        spondeam ei qui me misit. </quote> <!--word order differs slightly-->
+            </p>
+            <p xml:id="bHY6yh-de1874-d1e213"> /
+      <quote xml:id="bHY6yh-de1874-Qd1e215" source="http://scta.info/resource/Ichr21_13@1-29 http://scta.info/resource/Ichr21_14@1-6"> Et dixit <name ref="#David">dauid</name> ad
+        <name>gad</name>: Ex omni parte me angustie premunt. Sed
+        melius mihi est vt incidam in manns domini: quia
+        multe: sunt miserationes eius: quam in manus
+        hominum. Misit egrso dominus pestilentiam in israel </quote>
+            </p>
+            <p xml:id="bHY6yh-de1874-d1e227">
+               
+               ¶ <ref xml:id="bHY6yh-de1874-Rd1e253">hieremias propheta in li. lamenta. c. 3.</ref> <quote xml:id="bHY6yh-de1874-Qd1e231" source="http://scta.info/resource/lam3_32@3-10">Si
+        abiecerit dominus et miserebitur secundum multitudinem <!--the word dominus is not included in the biblical text and some spelling differences-->
+        miserationum suarum.</quote> 
+            </p>
+            <p xml:id="bHY6yh-de1874-d1e239">
+               
+               ¶ <ref xml:id="bHY6yh-de1874-Rd1e267">Iesus filius sirach in ecclesiastico. c. 5.</ref> <quote xml:id="bHY6yh-de1874-Qd1e243" source="http://scta.info/resource/sir5_5@8-12 http://scta.info/resource/sir5_6@1-11">Non
+        adijcias peccatum super peccatum: et ne dicas mi
+        seratio dei magna est: multitudini peccatorum <!-- neque vs non in the bible vs the text-->
+        meorum miserebitur</quote>
+            </p>
+            <p xml:id="bHY6yh-de1874-d1e253"> /
+       <ref xml:id="bHY6yh-de1874-Rd1e281">17.</ref> <quote xml:id="bHY6yh-de1874-Qd1e255">Om magna mina domini
+        et propitiatio illius conuertentibus ad se. </quote>  <!--can not find a corresponding verse-->
+            </p>
+            <p xml:id="bHY6yh-de1874-d1e261"> /
+       <ref xml:id="bHY6yh-de1874-Rd1e291">18.
+        c.</ref> <quote xml:id="bHY6yh-de1874-Qd1e263" source="http://scta.info/resource/sir18_4@8-12">Quis adijciet enarrare misericordiam dei. </quote> <!--eius vs dei used-->
+            </p>
+            <p xml:id="bHY6yh-de1874-d1e269">
+               
+               ¶ <ref xml:id="bHY6yh-de1874-Rd1e304">Pilon vel philemon li. sapientie. c. 15.</ref> <quote xml:id="bHY6yh-de1874-Qd1e273" source="http://scta.info/resource/sap15_1@1-13">Tu
+        deus noster suauis et verus es: patiens cum
+        minsericordia disponens omnia. </quote> <!--some textful differences in terms of words included or not-->
+            </p>
+            <p xml:id="bHY6yh-de1874-d1e282">
+               
+               ¶ <ref xml:id="bHY6yh-de1874-Rd1e319">Mattheus in euang. c. 5.</ref> <quote xml:id="bHY6yh-de1874-Qd1e286" source="http://scta.info/resource/mt5_7@1-6">Beati misericor <!--28.xml-->
+        <cb ed="#V" n="b"/>
+                  des: quoniam ipsi miseri cordiam consequentur. </quote> <!--some textful differences but quite similar-->
+            </p> 
+         </div>
+      </body>
+   </text>
+</TEI>
