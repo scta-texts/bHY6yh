@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 3</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 3</title>
+               <date when="2021-05-18">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="43-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d33292"><!-- p2l4-r3 -->
+            <head xml:id="bHY6yh-d33292-Hd1e108">Rubrica 3</head>
+            <head xml:id="bHY6yh-d33292-Hd1e111" type="question-title">De detractione</head>
+            <p xml:id="bHY6yh-d33292-d1e114">
+               <lb ed="#V" n="89"/>
+      ¶ De detractione. Rubrica. 3
+    </p>
+            <p xml:id="bHY6yh-d33292-d1e119">
+      <!--114.xml-->
+               <pb ed="#V" n="44-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/><ref xml:id="bHY6yh-d33292-Rd1e121">Psalmista 100. psalmus.</ref> <quote xml:id="bHY6yh-d33292-Qd1e129">De
+        <lb ed="#V" n="2"/>trahente se
+        <lb ed="#V" n="3" break="no"/>creto proximo suo hunc persequebar.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d33292-d1e137">
+               <lb ed="#V" n="4"/>
+             ¶ <ref xml:id="bHY6yh-d33292-Rd1e135">Salomon in prouer. c. 5.</ref> <quote xml:id="bHY6yh-d33292-Qd1e141">Remo
+        <lb ed="#V" n="5" break="no"/>ue a te os prauum: et detrahentia labia sint pro
+        <lb ed="#V" n="6" break="no"/>cul a te.</quote>
+            </p>
+            <p xml:id="bHY6yh-d33292-d1e150"> /
+            <ref xml:id="bHY6yh-d33292-Rd1e148">24. c.</ref> <quote xml:id="bHY6yh-d33292-Qd1e152">Ahominatio est hominum detra
+        <lb ed="#V" n="7" break="no"/>ctor. Cum detractoribus ne commiscearis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d33292-d1e158">
+               <lb ed="#V" n="8"/>/
+               <ref xml:id="bHY6yh-d33292-Rd1e160">25. c.</ref> <quote xml:id="bHY6yh-d33292-Qd1e162">Uentus aquilo dissipat pluuias: et
+        <lb ed="#V" n="9"/>facies tristis linguam detrahentem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d33292-d1e168"> /
+            <ref xml:id="bHY6yh-d33292-Rd1e170">Idem
+        <lb ed="#V" n="10"/>in eccl. c. 10.</ref> <quote xml:id="bHY6yh-d33292-Qd1e170">Si mordeat serpens in silentio ni
+        <lb ed="#V" n="11" break="no"/>hil eo minus habet qui occulte detrahit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d33292-d1e178">
+               <lb ed="#V" n="12"/>
+             ¶ <ref xml:id="bHY6yh-d33292-Rd1e185">Iacobus apostolus epistola vnica. c. 4.</ref> <quote xml:id="bHY6yh-d33292-Qd1e182">Nolite de
+        <lb ed="#V" n="13" break="no"/>trahere alterutrum.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
