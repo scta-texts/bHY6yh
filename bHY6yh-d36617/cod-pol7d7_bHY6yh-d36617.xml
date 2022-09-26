@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 3 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+             <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 3 [Krakow, lat 700 III Transcription]</title>
+               <date when="2022-09-25">September 25, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="81-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d36617"><!-- p2l5-r3 -->
+            <head xml:id="bHY6yh-d36617-Hd1e108">Rubrica 3</head>
+            <head xml:id="bHY6yh-d36617-Hd1e111" type="question-title">De liberalite et munificentia</head>
+            <p xml:id="bHY6yh-d36617-d1e114">
+              De libera<lb ed="#K" n="31" break="no"/>litate 
+              et munificentia Rubrica 3
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e119">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d36617-Rd1e115">ISaias propheta c i</ref> <quote xml:id="bHY6yh-d36617-Qd1e123">Omne diligunt 
+              <lb ed="#K"/>munera sequuntur retributiones</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e131">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d36617-Rd1e129">Aristoteles ethicorum libro 4 c i</ref> <quote xml:id="bHY6yh-d36617-Qd1e135">Non 
+              <lb ed="#K"/>in multitudine datorum est quod 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>liberale est sed indantis habitu 
+              <lb ed="#K"/>Ditari non facile est liberalem 
+              <lb ed="#K"/>neque accepturum existentem neque 
+              <lb ed="#K"/>custoditiuum</quote> 
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e146">
+              <ref xml:id="bHY6yh-d36617-Rd1e146">2. c.</ref> <quote xml:id="bHY6yh-d36617-Qd1e150">Uelociter dere<lb ed="#K" break="no"/>linquit 
+              substantia dantes idiotas qui 
+              <lb ed="#K"/>et videtur prodigi esse</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e156">
+               <ref xml:id="bHY6yh-d36617-Rd1e156">Li. 9. c. 3.</ref>
+               <lb ed="#K"/> <quote xml:id="bHY6yh-d36617-Qd1e158">Amicis magna quam extraneis ex<lb ed="#K" break="no"/>istimamus
+              oportere largiri</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e166">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d36617-Rd1e167">Idem magnorum moralium li. i.
+              <lb ed="#K"/>c. 42.</ref> <quote xml:id="bHY6yh-d36617-Qd1e168">Liberalis est laudabilis</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e174">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d36617-Rd1e178">Idem rethoricorum. li. i. c. 13.</ref> <quote xml:id="bHY6yh-d36617-Qd1e176">Liberali<lb ed="#K" break="no"/>tas 
+              est virtus circa pecunias benefactiua Illi<lb ed="#K" break="no"/>beralitas 
+              autem contrarium</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e184">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d36617-Rd1e193">Li. 2 c. 16.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d36617-Qd1e188">Senes illiberales sunt 
+              <lb ed="#K"/>vnum enim aliquid necessariorum est 
+              <lb ed="#K"/>substantia simul autem propter experientiam 
+              <lb ed="#K"/>sciunt ei quod difficile est 
+              <lb ed="#K"/>possedisse et facile abiicere</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e198">
+               <ref xml:id="bHY6yh-d36617-Rd1e207">Idem 
+               <lb ed="#K"/>polliticorum li. 2. c. 2.</ref> <quote xml:id="bHY6yh-d36617-Qd1e200">Largiri et 
+               <lb ed="#K"/>auxiliari amic aut existensis 
+               <lb ed="#K"/>aut alteris delectabilissimum est</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e209">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d36617-Rd1e223">Idem in priorum analeticorum li. 2. c. 70.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d36617-Qd1e211">Ambitiosi liberales sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e217">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d36617-Rd1e236">Iesus filius sirach in eccl c 4.</ref> <quote xml:id="bHY6yh-d36617-Qd1e221">Non sit por<lb ed="#K" break="no"/>recta 
+              manus tua ad accipien<lb ed="#K" break="no"/>dum 
+              ad dandum vero collecta</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e229">
+               <ref xml:id="bHY6yh-d36617-Rd1e248">c 12</ref> 
+               <lb ed="#K"/> <quote xml:id="bHY6yh-d36617-Qd1e231">Bene fac humili et non dederis impio</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e237">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d36617-Rd1e258">18 c</ref> <quote xml:id="bHY6yh-d36617-Qd1e239">Ante mortem bene fac ami<lb ed="#K" break="no"/>co
+              tuo</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e245">
+               <ref xml:id="bHY6yh-d36617-Rd1e268">c. 18.</ref> <quote xml:id="bHY6yh-d36617-Qd1e247">Omni dato ne des tristitia verbi
+        mali.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e253">
+               <ref xml:id="bHY6yh-d36617-Rd1e278">35. c.</ref> <quote xml:id="bHY6yh-d36617-Qd1e255">In omni dato hylarem fac vultum
+        tuum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e262">
+               <ref xml:id="bHY6yh-d36617-Rd1e289">41. c.</ref> <!--ref with no quote-->
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e268">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e298">Terentius in phor. c. 3.</ref> <quote xml:id="bHY6yh-d36617-Qd1e272">Quam iniquia comparatum est:
+        hi qui minus habent: vt semper aliquid addant diuitibus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e278">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e310">Oratius in epistolis li. i. c. 7.</ref> <quote xml:id="bHY6yh-d36617-Qd1e282">Prodigus et stultus
+        donat qui spernit et odit.
+        Hec seges ingratos tulit: et feret omnibus annis.
+        Uir bonus et sapiens: dignis ait esse parandum.
+        Nec tantum ignorat quid distent era lupinis</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e301">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e335">Ouidius sine titulo seu amorum libro. i. c. 8.</ref> <quote xml:id="bHY6yh-d36617-Qd1e305">Cre
+        de mihi res est ingeniosa dare.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e311">
+               <ref xml:id="bHY6yh-d36617-Rd1e345">Idem de
+        arte amandi li. i. et fi.</ref> <quote xml:id="bHY6yh-d36617-Qd1e313">Munera det diues.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e326">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e358">Mattheus in euangel. c. 25.</ref> <quote xml:id="bHY6yh-d36617-Qd1e330">Habenti da
+        bitur et abundabit: ei autem qui non habet et quod
+        habet auferetur ab eo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e338">
+               <ref xml:id="bHY6yh-d36617-Rd1e371">Idem dicit lucas in
+        enangelio. c. 19.</ref> <!--ref with no quote?-->
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e346">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e383">Lucas in euangel. c. 6.</ref> <quote xml:id="bHY6yh-d36617-Qd1e350">Date et dabitur vobis</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e354">
+               
+               <ref xml:id="bHY6yh-d36617-Rd1e393">8. c.</ref> <quote xml:id="bHY6yh-d36617-Qd1e358">Qui habet dabitur illi: et quicumque non ha
+        bet: etiam quod putat se habere auferetur ab eo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e364">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e405">Paulus apostolus in. 2 epistola ad corinth. ca. 9.</ref>
+        <quote xml:id="bHY6yh-d36617-Qd1e368">Hylarem datorem diligit deus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e374">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e416">Seneca de beneficiis li. i.</ref> <quote xml:id="bHY6yh-d36617-Qd1e378">Dignus est deci
+        pi: qui de recipiendo cogitauit dum daret.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e385">
+               
+               <ref xml:id="bHY6yh-d36617-Rd1e428">Libro. 2.</ref> <quote xml:id="bHY6yh-d36617-Qd1e389">Dabo egenti: sed vt ipse non egeam
+        succurram perituro: sed vt ipse non peream.
+        Respiciende sunt cuique facultates sue vires
+        que: ne aut plus prestemus quam possumus aut
+        minus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e401">
+               <ref xml:id="bHY6yh-d36617-Rd1e445">Li. 4.</ref> <quote xml:id="bHY6yh-d36617-Qd1e403">Reiiciendi muneris signum
+        est protinus inuicem aliud mittere et munere
+        munus expugnare.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e411">
+            <ref xml:id="bHY6yh-d36617-Rd1e457">Idem de clementia:</ref>
+        <quote xml:id="bHY6yh-d36617-Qd1e413">Non est magni animi: qui de alienis liberalis est
+        sed ille qui quod alteri donat sibi detrahit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e421">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e470">Ualerius maximus li. 5. ti. de gratia:</ref> <quote xml:id="bHY6yh-d36617-Qd1e425">Am
+        plissime et speciosissime diuitie sunt feliciter
+        errogatis beneficiis late posse censeri.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e433">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e484">Lex diges. ti. de offi. procon. li. solent. §. fi.</ref> <quote xml:id="bHY6yh-d36617-Qd1e437">Ual
+        de inhumanum est a nemine accipere. Sed pas
+        sim vilissimum est: et per omnia auarissimum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e445">
+               
+               <ref xml:id="bHY6yh-d36617-Rd1e498">Ti. de adimendis et tranffe. leg. l. rem legatam.</ref>
+        <quote xml:id="bHY6yh-d36617-Qd1e449">Nemo in necessitatibus liberalis existit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e456">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e509">Marcialis cocus epigramaton li. 4.</ref> <quote xml:id="bHY6yh-d36617-Qd1e460">Mu
+        nera quod senibus viduisque ingentia mittis:
+        Uis te munificum gargiliane vocem.
+        Sordidius nihil est te: nihil est te <sic>spurtius</sic> vno <!--should be "spurcius"-->
+        Qui potes insidias: dona vocare tua.
+        Sic auidis fallax: indulget piscibus hamus.
+        Callida sic stultas: decipit esca feras.
+        Quid sit largiri: vel quid donare docebo.
+        Si nescis: dona gargaliane mihi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e481">
+               <ref xml:id="bHY6yh-d36617-Rd1e539">Lib. 5.</ref>
+        <quote xml:id="bHY6yh-d36617-Qd1e483">Que mihi praestiteris: memini semperque tenebo.
+        Cur igitur taceo: postume tu loquaris.
+        Incipio quotiens alicui tua dona referre.
+        Protinus exclamat: dixerat ipse mihi.
+        Non belle quedam faciunt duo: sufficit vnus. <!--123.xml-->
+        <cb ed="#V" n="b"/>
+                  Huic operi: si vis vt loquar ipse tace.
+        Crede mihi quamuis ingentia postume dones.
+        Auctoris pereunt: garulitate sui.
+        Dantur opes nullis nunc nisi diuitibus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e510">
+               <ref xml:id="bHY6yh-d36617-Rd1e569">Li. 11</ref>
+        <quote xml:id="bHY6yh-d36617-Qd1e512">Nil mihi das viuus: dicis post fata daturum
+        Si non es stultus: scis maro quid cupiam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e520">
+               
+               <ref xml:id="bHY6yh-d36617-Rd1e582">Idem li. vndique suscep. c. 3.</ref>
+        <quote xml:id="bHY6yh-d36617-Qd1e524">Magna quid dare: sed promittem parua decorum est.
+        Te facere contra gloria nulla tibi.
+        Attolluntur hylares vilissima munera vultus.
+        Uultus sub tristes: maxima deiiciunt
+        Si donas tristis: et dona et praemia perdis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e538">
+               
+               <ref xml:id="bHY6yh-d36617-Rd1e601">Capitulo. 4</ref>
+        <quote xml:id="bHY6yh-d36617-Qd1e542">Qui iustis scisque viris: tigiline ministrat.
+        Sumit vbi donat: spargit et accumulat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e550">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e614">Auctor libri de formula honeste vite. c. 2.</ref>
+        <quote xml:id="bHY6yh-d36617-Qd1e554">Cum desideratione promitte: plenius quam pro
+        miseris presta.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e563">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e627">Cato. c. 2.</ref> <quote xml:id="bHY6yh-d36617-Qd1e567">Exiguum munus: cum dat tibi pau
+        per amicus. Accipito placide: et plene lauda
+        re memento.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e575">
+               <ref xml:id="bHY6yh-d36617-Rd1e640">Capitulo. 3.</ref>
+        <quote xml:id="bHY6yh-d36617-Qd1e577">Dandum etenim est aliquid cum tempus po
+        stulat aut res.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e585">
+               <ref xml:id="bHY6yh-d36617-Rd1e651">Capitulo. 4</ref>
+        <quote xml:id="bHY6yh-d36617-Qd1e587">Cum tibi diuitie superant in fine senecte:
+        Munificus facito viuas: non parcus amicis.</quote> <!--first 'u' in munificus flipped-->
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e595">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e666">Cassiodorus epistolarum li. i. e. 13.</ref> <quote xml:id="bHY6yh-d36617-Qd1e599">Non de
+        cet esse difficile beneficium quod non patitur
+        sui largitate detrimentum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e607">
+               <ref xml:id="bHY6yh-d36617-Rd1e678">15. e.</ref> <quote xml:id="bHY6yh-d36617-Qd1e609">Regnan
+        tis facultas tunc sit ditior cum remittit: et acqui
+        rit nobiles thesauros fame neglecta vilita
+        te pecunie.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e619">
+               <ref xml:id="bHY6yh-d36617-Rd1e692">27. e.</ref> <quote xml:id="bHY6yh-d36617-Qd1e621">Datur plerumque quod maiori
+        vtilitate recipitur: et frequentius homo lucra sua
+        complectitur cum necessaria pro temporis qualitate lar
+        gitur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e632">
+               <ref xml:id="bHY6yh-d36617-Rd1e706">33. c.</ref> <quote xml:id="bHY6yh-d36617-Qd1e634">Tunc dextris cogitandum est
+        dum se ratio proprie necessitatis expleuerit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e640">
+                
+               <ref xml:id="bHY6yh-d36617-Rd1e719">Li. 2 e. 3</ref> <quote xml:id="bHY6yh-d36617-Qd1e644">Commendantur priora posteriori
+        bus donis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e650">
+               <ref xml:id="bHY6yh-d36617-Rd1e729">Li. 3. e. 29.</ref> <quote xml:id="bHY6yh-d36617-Qd1e652">Hec sunt regia do
+        na quod semina sparsa in segetem coalescunt: in
+        vnum coacta depereunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e660">
+               <ref xml:id="bHY6yh-d36617-Rd1e741">Idem de amicitia
+        c. 22.</ref> <quote xml:id="bHY6yh-d36617-Qd1e662">Hylari vultu serena facie et sermone
+        iocundo condire studeas munificentiam tuam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e670">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e756">Isidorus soliloquiorum lib. 2. c. 54 et antepe.</ref>
+        <quote xml:id="bHY6yh-d36617-Qd1e674">Quicquid largiris cum hylaritate largire.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e680">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e767">Uersificator fabularum esopi: fa. 28 fabule.</ref>
+        <quote xml:id="bHY6yh-d36617-Qd1e684">Nullus amor durat: nisi fructus seruet amorem. <!--124.xml-->
+        <pb ed="#V" n="49-r"/>
+                  <cb ed="#V" n="a"/>
+                  Cuilibet est tanti: munera quanta facit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e699">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e786">Fabula. 64. et fi.</ref> <quote xml:id="bHY6yh-d36617-Qd1e703">Cuius semper eges rem
+        nulli tradere debes.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e709">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e799">Gualterius de castellione lib. i.</ref> <quote xml:id="bHY6yh-d36617-Qd1e713">Unge animos
+        donis: aurique appone liquorem.
+        Hec egre menti poterit medicina mederi.
+        Sic inopi diues: largusque medetur auaro.
+        At si forte animo: res non respondeat alto:
+        Copia si desit: vel si minuatur aceruus:
+        Non minuatur amor: nec defit copia mentis.
+        Allice pollicitis: promissaque tempore solue.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e732">
+               
+                <ref xml:id="bHY6yh-d36617-Rd1e824">Mattheus vindocinensis scilicet de historia to
+        bie. c. 13</ref> <quote xml:id="bHY6yh-d36617-Qd1e736">Uerus amicus
+        Dantis in affectu: non datione patet.
+        Da cito: da gratis gratum: ne gratia fiat
+        Uenalis grato: munere gratus eris.
+        Sic des pro modulo census: ne prodigia dandi
+        Uirtus in vitium collaterale ruat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e753">
+               <ref xml:id="bHY6yh-d36617-Rd1e845">Cap. 3</ref>
+        <quote xml:id="bHY6yh-d36617-Qd1e755">Parcus semine: pauca metes.
+        Est dare letitie vox: verbum nobile: verbum
+        Mellifluum dantis gloria: dantis honor.</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e765">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e860">Heinricus samariensis lib. 2.</ref>
+        <quote xml:id="bHY6yh-d36617-Qd1e769">Qui decus oblatum: rugosa fronte venenat.
+        Plus mihi diabolo displicet ille dator.
+        Dona serenus homo carumque seruat amicum.
+        Atque datum facie: duplicat ille suum.
+        Quod donare velis: dones sine spe redeundi
+        Ne quod aperta dedit: retrahat vnica manus</quote>
+            </p>
+            <p xml:id="bHY6yh-d36617-d1e786">
+               
+              <ref xml:id="bHY6yh-d36617-Rd1e881">Prouer. vulgar:</ref> <quote xml:id="bHY6yh-d36617-Qd1e790">A caual dona: non guar
+        dar en dente.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
