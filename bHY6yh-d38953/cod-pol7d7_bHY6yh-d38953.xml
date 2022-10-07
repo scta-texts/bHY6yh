@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+             <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10 [Krakow, lat 700 III Transcription]</title>
+               <date when="2022-10-06">October 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="85-v"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d38953"><!-- p2l5-r10 -->
+            <head xml:id="bHY6yh-d38953-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-d38953-Hd1e111" type="question-title">De mercede premio et retributione</head>
+            <p xml:id="bHY6yh-d38953-d1e114">
+                De mercede pra<lb ed="#K" n="1" break="no"/>emio 
+                  <pb ed="#K" n="86-r"/>
+                  <cb ed="#K" n="a"/>
+                et retributione. Rubrica. 10 
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e121">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d38953-Rd1e118">IN leuitico c. 19.</ref> <quote xml:id="bHY6yh-d38953-Qd1e125">Non morabitur opus 
+              <lb ed="#K"/>mercennarii tui apud te vsque mane.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e135">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d38953-Rd1e134">Moyses in <sic>deteronomio.</sic> c. 24.</ref> <quote xml:id="bHY6yh-d38953-Qd1e139">Non ne<lb ed="#K" break="no"/>gabis 
+              mercedem indigentis: et pau<lb ed="#K" break="no"/>peris 
+              fratris tui: vel aduene qui tecum 
+              <lb ed="#K"/>moratur: sed eadem die reddes ei 
+              <lb ed="#K"/>precium laboris sui ante solis occasum 
+              <lb ed="#K"/>quia pauper est: et ex eo susten<lb ed="#K" break="no"/>tat 
+              animam suam: ne clamet contra <!--doube check-->
+              <lb ed="#K"/>te ad dominum: et reputetur tibi in peccatum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e149">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d38953-Rd1e160">Slomon in prouerb. ca. 17.</ref> <quote xml:id="bHY6yh-d38953-d1e151">Qui reddit 
+              <lb ed="#K"/>mala pro bonis non recedet 
+              <lb ed="#K"/>malum de domo eius.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e161">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d38953-Rd1e172">Thobie. ca. 4.</ref> <quote xml:id="bHY6yh-d38953-Qd1e165">Quicumque aliquid tibi operatus 
+              <lb ed="#K"/>fuerit: statim ei mercedem resti<lb ed="#K" break="no"/>tue: 
+              et mercennarii merces apud 
+              <lb ed="#K"/>te omnino non remaneat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e175">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d38953-Rd1e188">Aristoteles iconomicorum libro i.</ref> <quote xml:id="bHY6yh-d38953-Qd1e179">Sine 
+              <lb ed="#K"/>merce de impossibile est dominari</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e191">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d38953-Rd1e206">Iesus filius sirach in eccl. c. 4.</ref> <quote xml:id="bHY6yh-d38953-Qd1e195">Non 
+              <lb ed="#K"/>sit porrecta manus tua ad acc<lb ed="#K" break="no"/>ipiendum: 
+              et ad reddendum collecta.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e203">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d38953-Rd1e220">Tullius de offi. li. i. ca. 29</ref> <quote xml:id="bHY6yh-d38953-Qd1e207">Uix 
+              <lb ed="#K"/>inuenitur quae laboribus suscep<lb ed="#K" break="no"/>tis 
+              periculisque aditis: non quasi 
+              <lb ed="#K"/>mercedem rerum gestarum desideret
+              <lb ed="#K"/>gloriam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e217">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d38953-Rd1e236">Mattheus in euangelio. c. 10.</ref> <quote xml:id="bHY6yh-d38953-Qd1e221">Dignus 
+              <lb ed="#K"/>est operarius cibo suo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e227">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d38953-Rd1e249">Mattheus in euangel. c. 10.</ref> <quote xml:id="bHY6yh-d38953-Qd1e231">Dignus 
+              <lb ed="#K"/>est operarius mercede sua.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e238">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d38953-Rd1e261">Ioannes apostolus et euange. in epistola. 2. c. vnico</ref>
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d38953-Qd1e242">Uidete vosmetipsos: ne per<lb ed="#K" break="no"/>datis 
+              que comparati estis: sed mer<lb ed="#K" break="no"/>cedem 
+              plenam accipiatis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e250">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d38953-Rd1e274">Paulus apostolus: epistola ad romanos. ca. 4.</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d38953-Qd1e254">Merces non imputatur secundum gra<lb ed="#K" break="no"/>tiam: 
+              sed secundum debirum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e262">
+               <ref xml:id="bHY6yh-d38953-Rd1e285">Idem epistola 
+               <lb ed="#K"/>ad corinthios. ca. 9.</ref>
+        <quote xml:id="bHY6yh-d38953-Qd1e264">Quis militat suis stipendiis vnquam. Qui in
+        sacrario operantur: que de sacra sunt edunt: et
+        qui altari seruiunt: cum altari participant.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e274">
+               
+              <ref xml:id="bHY6yh-d38953-Rd1e300">Quintilianus declam. declam. 5.</ref> <quote xml:id="bHY6yh-d38953-Qd1e278">Ei labo
+        ri oportet incumbere vbi promittatur effectus:
+        stulta cura est que spem non habet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e286">
+               
+              <ref xml:id="bHY6yh-d38953-Rd1e314">Uegecius de re militari lib. 3 ca. 26 et fi.</ref>
+        <quote xml:id="bHY6yh-d38953-Qd1e290">Milites in expeditione spes et premia faci
+        unt meliores.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e298">
+               
+              <ref xml:id="bHY6yh-d38953-Rd1e328">Iuuenalis lib. 4. satura i.</ref> <quote xml:id="bHY6yh-d38953-Qd1e302">Quis enim virtutem
+        amplectitur ipsam: praemia si tollas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e309">
+               
+              <ref xml:id="bHY6yh-d38953-Rd1e340">Lex codi. ti. de statuis et imaginibus. l. vt
+        virtutum:</ref> <quote xml:id="bHY6yh-d38953-Qd1e313">Uirtutum premia tribui merenti
+        bus conuenit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e321">
+               
+              <ref xml:id="bHY6yh-d38953-Rd1e355">Marcialis cocus epigramaton libro. i.</ref>
+        <quote xml:id="bHY6yh-d38953-Qd1e325">In steriles campos nolunt iuga ferre iuuenci.
+        Pingue solum laxat: sed inuuat ipse labor.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e333">
+               
+              <ref xml:id="bHY6yh-d38953-Rd1e368">Boetius de consolatione li. 4. c. i.</ref> <quote xml:id="bHY6yh-d38953-Qd1e337">Impe
+        rante florenteque nequitia virtus non solum prae
+        miis caret: verum etiam sceleratorum pedibus sub
+        iecta calcatur: et in locum facinorum supplicia
+        luit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e349">
+               <ref xml:id="bHY6yh-d38953-Rd1e384">5. c.</ref> <quote xml:id="bHY6yh-d38953-Qd1e351">Perspicuum est nunquam bonis prae
+        mia: nunquam sua sceleribus deesse supplicia.
+        Probos mores sua premia non relinquunt.
+        Sicut probis probitas ipsa fit premium: ita
+        improbis nequitia ipsa est supplicium.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e363">
+               <ref xml:id="bHY6yh-d38953-Rd1e400">7. c.</ref>
+        <quote xml:id="bHY6yh-d38953-Qd1e365">Si melioribus animum conformaueris: ni
+        hil opus est iudice premium deferente: tu <!--129.xml-->
+        <cb ed="#V" n="b"/>
+                  ipse te excellentibus addidisti.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e379">
+               <ref xml:id="bHY6yh-d38953-Rd1e418">Libro 5.
+        c. 6.</ref> <quote xml:id="bHY6yh-d38953-Qd1e381">Equissimum iudicabitur improbos pu
+        niri: vel remunerari probos.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e390">
+               <ref xml:id="bHY6yh-d38953-Rd1e431">Idem de di
+        sciplina scholarium libro. 2.</ref> <quote xml:id="bHY6yh-d38953-Qd1e392">Licet a multis
+        destituatur laboris restitutio: tamen ab ali
+        quo promouebitur fauoris adeptio. </quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e402">
+               
+              <ref xml:id="bHY6yh-d38953-Rd1e448">Cato. ca. 3.</ref> <quote xml:id="bHY6yh-d38953-Qd1e406">Cum labor est in damno: morta
+        lis crescit egestas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e412">
+               
+              <ref xml:id="bHY6yh-d38953-Rd1e460">Cassiodorus epistolarum lib. i. epistola. 41</ref>
+        <quote xml:id="bHY6yh-d38953-Qd1e416">Remuneratio meritorum iustum dominan
+        tis prodit imperium: apud quem perire ne
+        scit quod quempiam laborasse contigerit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e426">
+               
+               <ref xml:id="bHY6yh-d38953-Rd1e475">Libro. 2 epistola. i.</ref> <quote xml:id="bHY6yh-d38953-Qd1e430">Non deficit rei studium:
+        que premium largius habet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e436">
+               <ref xml:id="bHY6yh-d38953-Rd1e485">15 epistola</ref>
+        <quote xml:id="bHY6yh-d38953-Qd1e438">Nutriunt premiorum exempla virtutes:
+        nec quisquam est qui non ad morum summa
+        nitatur ascendere: quando irremuneratum non
+        relinquitur quod conscientia teste laudatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e450">
+               
+               <ref xml:id="bHY6yh-d38953-Rd1e503">21. epistola.</ref> <quote xml:id="bHY6yh-d38953-Qd1e454">Graue nimis est vt fructu la
+        boris sui fraudetur industria: et cui debet pro
+        sedulitate conferri premium: dispendium pa
+        tiatur iniustum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e465">
+               <ref xml:id="bHY6yh-d38953-Rd1e517">28 epistola.</ref> <quote xml:id="bHY6yh-d38953-Qd1e467">Tribuenda
+        est iustis laboribus compensatio premio
+        rum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e475">
+               <ref xml:id="bHY6yh-d38953-Rd1e529">33 epistola:</ref> <quote xml:id="bHY6yh-d38953-Qd1e477">Equum est vt vnicui
+        que proficiat labor suus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e483">
+               <ref xml:id="bHY6yh-d38953-Rd1e539">Libro. 3 episto
+        la. 19</ref> <quote xml:id="bHY6yh-d38953-Qd1e485">Fructuosus esse debet publicus la
+        bor.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e493">
+               <ref xml:id="bHY6yh-d38953-Rd1e552">Lib. 4. epistola. 3.</ref> <quote xml:id="bHY6yh-d38953-Qd1e495">Theodoricus rex
+        gottorum cuidam illustri viro hoc ait: Ten
+        de itaque adhuc bonis artibus tuos ad poti
+        ra succensus: sciens gratiam nostram in il
+        lo semper augeri: qui se dignum adepto cul
+        mini desiderat inueniri.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e509">
+               <ref xml:id="bHY6yh-d38953-Rd1e570">4. epistola.</ref> <quote xml:id="bHY6yh-d38953-Qd1e511">Lau
+        re est benemeritis digna prestare.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e517">
+               <ref xml:id="bHY6yh-d38953-Rd1e581">13 e.</ref>
+        <quote xml:id="bHY6yh-d38953-Qd1e519">Emolumenta deesse laborantibus non opor
+        tet: vt et bone spei aditus aperiatur: et de su
+        dantium querela iusta compensatione clau
+        datur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e532">
+               <ref xml:id="bHY6yh-d38953-Rd1e596">25 epistola:</ref> <quote xml:id="bHY6yh-d38953-Qd1e534">In ipsis conatibus
+        egra languescunt que meritorum presumpti
+        onibus non iuuantur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e542">
+               <ref xml:id="bHY6yh-d38953-Rd1e608">27 epistola.</ref> <quote xml:id="bHY6yh-d38953-Qd1e544">Ma
+        lorum omnium probatur extremum inde de
+        trimenta suscipe vnde credebantur auxilia
+        prouenire.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e554">
+               <ref xml:id="bHY6yh-d38953-Rd1e622">Libro. 5. epistola. 19</ref> <quote xml:id="bHY6yh-d38953-Qd1e556">Maio
+        ra sibi facit credi quisquis efficaciter iniun
+        cta peregit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e564">
+               <ref xml:id="bHY6yh-d38953-Rd1e634">Libro. 7 epistola. 5.</ref> <quote xml:id="bHY6yh-d38953-Qd1e566">Manus
+        larga artium nutrit ingeniam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e572">
+               <ref xml:id="bHY6yh-d38953-Rd1e644">Libro. 9. e. <!--130.xml-->
+        <pb ed="#V" n="52-r"/>
+                  <cb ed="#V" n="a"/>
+                  13</ref> <quote xml:id="bHY6yh-d38953-Qd1e574">Ille dignus est premia consequi qui pa
+        rere cognoscitur equitati.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e588">
+               <ref xml:id="bHY6yh-d38953-Rd1e664">21 epistola:</ref>
+        <quote xml:id="bHY6yh-d38953-Qd1e590">Manifestum est premium artes nutrire.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e597">
+               
+               <ref xml:id="bHY6yh-d38953-Rd1e675">22 epistola:</ref> <quote xml:id="bHY6yh-d38953-Qd1e601">Indiscreti hominum mores
+        confusique vagarentur: si aut culpa formidi
+        nem: aut virtus premia non haberet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e609">
+               <ref xml:id="bHY6yh-d38953-Rd1e687">Li.
+        11. epistola. 19</ref> <quote xml:id="bHY6yh-d38953-Qd1e611">Tironibus conceditur spes
+        laboris dum vicissitudo fuerit reddita vete
+        ranis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e621">
+               <ref xml:id="bHY6yh-d38953-Rd1e702">26 epistola:</ref> <quote xml:id="bHY6yh-d38953-Qd1e623">Sicut equum est de
+        sidiosis laborantium premia denegare: Ita
+        conuenit excubantibus remunerationis opta
+        ta concedere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e633">
+       <ref xml:id="bHY6yh-d38953-Rd1e716">30. epistola:</ref> <quote xml:id="bHY6yh-d38953-Qd1e635">Equitati vide
+        tur accommodum: si efficaci actione laudatis
+        digna moribus vicissitudo prestetur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e643">
+               <ref xml:id="bHY6yh-d38953-Rd1e728">31.
+        epistola:</ref> <quote xml:id="bHY6yh-d38953-Qd1e645">Dignum est vt sequatur vota fide
+        lium fructus laborum: et superior gradus ex
+        cipiat: quos gestarum rerum integritas ef
+        fecta commendat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e657">
+               <ref xml:id="bHY6yh-d38953-Rd1e746">Idem de charitate et di
+        lectione dei. c. 48.</ref> <quote xml:id="bHY6yh-d38953-Qd1e659">Dignum siquidem est et
+        consonum rationi: vt vicem rependamus aman
+        ti: obsequenti officium gratias largienti.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e670">
+               
+              <ref xml:id="bHY6yh-d38953-Rd1e763">Auctor li. qui dicitur pamphilus. c. 43</ref> <quote xml:id="bHY6yh-d38953-Qd1e674">Cum
+        mercede labor gratior esse solet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e680">
+               
+              <ref xml:id="bHY6yh-d38953-Rd1e775">Auctor rudium dogmatis li. i.</ref> <quote xml:id="bHY6yh-d38953-Qd1e684">Optat pre
+        mia quisque labor.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e690">
+               
+              <ref xml:id="bHY6yh-d38953-Rd1e787">Andreas ad gualterium de amore libro. i.</ref>
+        <quote xml:id="bHY6yh-d38953-Qd1e694">Maioribus censetur meritis dignus: qui
+        bona spontanee peregit quam qui ea coactus
+        exercuerit. Coacta nemini sunt grata obse
+        quia: et nullis digna praemiis iudicantur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e706">
+               
+              <ref xml:id="bHY6yh-d38953-Rd1e804">Auctor lib. de moribus medicorum. c. 10.</ref>
+        <quote xml:id="bHY6yh-d38953-Qd1e710">Premia quisque labor optat habere sua.
+        Si labor ipse perit: perit in arte voluntas.
+        Amisso studio fit piger omnis homo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e720">
+               
+               <ref xml:id="bHY6yh-d38953-Rd1e819">Capitulo. 12.</ref>
+        <quote xml:id="bHY6yh-d38953-Qd1e724">Omnibus est turpe: sed turpius est generosis
+        Non compensare seruitium merito.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e732">
+               
+               <ref xml:id="bHY6yh-d38953-Rd1e833">Capitulo. 27. et fi.</ref>
+        <quote xml:id="bHY6yh-d38953-Qd1e736">Si numi desunt: perit omnis sollicitudo.
+        Sollicitum numus quemlibet ipse facit.
+        Sollicitat pigros: studiosos reddit inertes</quote>
+            </p>
+            <p xml:id="bHY6yh-d38953-d1e747">
+               
+              <ref xml:id="bHY6yh-d38953-Rd1e848">Gaufridus de hyronia curie papalis:</ref>
+        <quote xml:id="bHY6yh-d38953-Qd1e751">Excitat in predam: cogitque sitire cruorem
+        A sue deprehensa portio iacta canes. <!--130.xml-->
+      </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
