@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 2 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 2 [Krakow, lat 700 III Transcription]</title>
+               <date when="2022-10-10">October 10, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="89-r"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d40407"><!-- p2l6-r2 -->
+            <head xml:id="bHY6yh-d40407-Hd1e108">Rubrica 2</head>
+            <head xml:id="bHY6yh-d40407-Hd1e111" type="question-title">De populo</head>
+            <p xml:id="bHY6yh-d40407-d1e114">
+              De populo. Rubrica. 2.
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e119">
+              <lb ed="#K" n="24"/> <ref xml:id="bHY6yh-d40407-Rd1e115">ISocrates in exhortationibus.
+              <lb ed="#K"/>c. i</ref> <quote xml:id="bHY6yh-d40407-Qd1e127">Conuersantem in democratia 
+              <lb ed="#K"/>oportet demulcere populum.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e133">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d40407-Rd1e132">Aristoteles rethori. li. 3. et fi. c. 14.</ref> <quote xml:id="bHY6yh-d40407-Qd1e137">Quanto fu<lb ed="#K" break="no"/>erit 
+              maior populus: tanto 
+              <lb ed="#K"/>remotior intellectus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e152">
+              <ref xml:id="bHY6yh-d40407-Rd1e151">Idem 
+              <lb ed="#K"/>polliticorum libro 6. c. 3.</ref> <quote xml:id="bHY6yh-d40407-Qd1e154">Optimus 
+              <lb ed="#K"/>populus est qui terre cultiuus est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e160">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d40407-Rd1e165">Tullius retho. artis 
+              <lb ed="#K"/>noue li. 7. et fi. circa fi. c. 17.</ref> <quote xml:id="bHY6yh-d40407-Qd1e164">No<lb ed="#K" break="no"/>li 
+              saturnine nimium populi frequ<lb ed="#K" n="1" break="no"/>entia 
+                <pb ed="#K" n="89-v"/>
+                <cb ed="#K" n="a"/>
+              tutus esse: multi iacent graci.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e172">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d40407-Rd1e178">Idem philippicorum li. 2.</ref> <quote xml:id="bHY6yh-d40407-Qd1e174">Charita<lb ed="#K" break="no"/>te 
+              et beniuolentia ciuium 
+              <lb ed="#K"/>sceptrum oportet esse: non armis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e182">
+              <ref xml:id="bHY6yh-d40407-Rd1e191">Idem 
+              <lb ed="#K"/>tu sculanarum questionum li. 2.</ref> <quote xml:id="bHY6yh-d40407-Qd1e184">Philsophia
+              <lb ed="#K"/>paucis est contenta iudicibus: multitudinem consulto ipsa fugi<lb ed="#K" break="no"/>ens: 
+              eique ipsi et suspecta et inui<lb ed="#K" break="no"/>sa est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e194">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d40407-Rd1e208">Quintilianus declamationu. 10 declam.</ref> <quote xml:id="bHY6yh-d40407-Qd1e198">Non habet vlla 
+              <lb ed="#K"/>turba prudentiam singulorum
+              <lb ed="#K"/>siue quod publicos minus ca<lb ed="#K" break="no"/>pimus 
+              affectus: siue negli<lb ed="#K" break="no"/>gentior 
+              est qui se non putat 
+              <lb ed="#K"/>soluere debere rationem: et multa fi<lb ed="#K" break="no"/>ducia 
+              facimus omnium Nihil est 
+              <lb ed="#K"/>crudelius morte hominum quos 
+              <lb ed="#K"/>populus occidit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e215">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d40407-Rd1e229">Seneca tragediarum in octauia. c. 4.</ref> <quote xml:id="bHY6yh-d40407-Qd1e219">Uis magna 
+              <lb ed="#K"/>populi est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e226"> 
+              <ref xml:id="bHY6yh-d40407-Rd1e239">Capitulo. 19. et fi.</ref> <quote xml:id="bHY6yh-d40407-Qd1e228">O funestus 
+              <lb ed="#K"/>multis populi 
+              <lb ed="#K"/>Uirusque fauor: qui 
+              <lb ed="#K"/>cum flatu Uela secundo ratis 
+              <lb ed="#K"/>impleuit: Uexitque procullang<lb ed="#K" break="no"/>uidos. 
+              idem Deserit alto seuo<lb ed="#K" break="no"/>que 
+              mari.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e238">
+              <ref xml:id="bHY6yh-d40407-Rd1e258">Idem epistolarum ad lu<lb ed="#K" break="no"/>cillum 
+              li. 4. e. 8. et fi.</ref> <quote xml:id="bHY6yh-d40407-Qd1e240">Nunquam 
+              <lb ed="#K"/>volui populo placere: nam que ego 
+              <lb ed="#K"/>scio non probat populus: que pro<lb ed="#K" break="no"/>bat 
+              populus ego nescio. Quis cui pla<lb ed="#K" break="no"/>cet 
+              virtus placere potest populo 
+              <lb ed="#K"/>Malis artibus fauor popularis 
+              <lb ed="#K"/>queritur Malis tibi placere quam 
+              <lb ed="#K"/>populo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e258">
+              <ref xml:id="bHY6yh-d40407-Rd1e279">Libro. 8. e. 2. et pe.</ref> <quote xml:id="bHY6yh-d40407-Qd1e260">Hos mo<lb ed="#K" break="no"/>res 
+              habet populus: hos imperitis<lb ed="#K" break="no"/>simus 
+                  <cb ed="#K" n="b"/>
+              quisque in secreta irrumpere 
+              <lb ed="#K"/>cupit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e270">
+              <ref xml:id="bHY6yh-d40407-Rd1e291">Idem in prouerbiis.</ref> <quote xml:id="bHY6yh-d40407-Qd1e272">Frons n<lb ed="#K" break="no"/>ostra 
+              populo conuenit. Melio<lb ed="#K" break="no"/>rem 
+              vitam sequemur quam vul<lb ed="#K" break="no"/>gus 
+              non contrariam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e280">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d40407-Rd1e304">Lucanus li. 3.</ref> <quote xml:id="bHY6yh-d40407-Qd1e284">Nescit plebs ieiunia ti<lb ed="#K" break="no"/>men
+              Damna mouent po<lb ed="#K" break="no"/>pulos 
+              si quos sua iura tuen<lb ed="#K" break="no"/>tur 
+              Non sibi sed domino grauis est 
+              <lb ed="#K"/>que seruit egestas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e294">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d40407-Rd1e318">Ualerius maximus libro. 5. ti. de ingratis.</ref> <quote xml:id="bHY6yh-d40407-Qd1e298">Li<lb ed="#K" break="no"/>gurgo 
+              neque vite summe sin<lb ed="#K" break="no"/>critas 
+              neque constantissimus 
+              <lb ed="#K"/>erga parriam amor neque 
+              <lb ed="#K"/>leges salutariter excogitate 
+              <lb ed="#K"/>auxilio esse potuerunt quo 
+              <lb ed="#K"/>minus infestos ciues ex<lb ed="#K" break="no"/>periretur
+              Sepe enim lapidi<lb ed="#K" break="no"/>bus 
+              petitus publico furore. pri<lb ed="#K" break="no"/>uatus
+              etiam oculo: ad vltimum 
+              <lb ed="#K"/>ipsa patria lace demonum 
+              <lb ed="#K"/>pulsus est. Quid alie facient 
+              <lb ed="#K"/>vrbes vbi etiam illa que constan<lb ed="#K" break="no"/>tie 
+              et moderationis et grauitatis 
+              <lb ed="#K"/>eximiam sibi laudem vendicauit 
+              <lb ed="#K"/>tam ingrata aduersus tam bene<lb ed="#K" break="no"/>meritum 
+              extitit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e320">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d40407-Rd1e353">Lex codi. ti. de penis. l. decurionum filii:</ref> <quote xml:id="bHY6yh-d40407-Qd1e324">U<lb ed="#K" break="no"/>ane 
+              voces populi non sunt audi<lb ed="#K" break="no"/>ende.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e330">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d40407-Rd1e365">Marcialis cocus li. vndique suscepto. c. 2.</ref> <quote xml:id="bHY6yh-d40407-Qd1e334">Predicat herma<lb ed="#K" break="no"/>goras: 
+              non omnibus esse placendum
+              <lb ed="#K"/>Elige de multis: regule cui 
+              <lb ed="#K"/>placeas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e343">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d40407-Rd1e378">Cecilius firmianus de beata vita lib. 2.</ref> <quote xml:id="bHY6yh-d40407-Qd1e347">Ueritas a vul<lb ed="#K" n="1" break="no"/>go 
+                <pb ed="#K" n="90-r"/>
+                <cb ed="#K" n="a"/>
+              solet variis sermonibus dissipa<lb ed="#K" break="no"/>ta 
+              corrumpi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e355">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d40407-Rd1e391">Claudianus lib. i.</ref> <quote xml:id="bHY6yh-d40407-Qd1e359">Mobile mutatur semper
+        cum principe vulgus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e365">
+               
+              <ref xml:id="bHY6yh-d40407-Rd1e403">Cato. c. 3.</ref> <quote xml:id="bHY6yh-d40407-Qd1e369">Iudicium populi: numque contempseri vnus
+        Ne nulli placeas: dum vis contemnere multos.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e375">
+               
+              <ref xml:id="bHY6yh-d40407-Rd1e415"><sic>Beotius</sic> de consolatione lib. 3. 11. c.</ref> <quote xml:id="bHY6yh-d40407-Qd1e379">Pistoles
+        magnum sepe nomen falsis vulgi opinionibus
+        abstulerunt. Sapiens bonum suum non populari
+        minore: sed conscientiae veritate metitur. Popularis
+        gloria nec. iudicio prouenit: nec vnquam firma
+        perdurat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e393">
+               
+              <ref xml:id="bHY6yh-d40407-Rd1e438">Heinricus samariensis li. i. parte. 2.</ref> <quote xml:id="bHY6yh-d40407-Qd1e397">Mi
+        grat in exilium virtus: vitiumque triumphat.
+        Regnat in populis. grande tribunal habet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e405">
+               
+              <ref xml:id="bHY6yh-d40407-Rd1e452">Cassiodortis epistolarum in prohemiis:</ref> <quote xml:id="bHY6yh-d40407-Qd1e409">Alimoniam
+        supra omnis populi plus requirunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e416">
+               <ref xml:id="bHY6yh-d40407-Rd1e462">Lib. 6. e.
+        18.</ref> <quote xml:id="bHY6yh-d40407-Qd1e418">Nescit plebs tacere. Plebs interdum: et
+        haec loquitur quod a nemine perpetratur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d40407-d1e426">
+               
+              <ref xml:id="bHY6yh-d40407-Rd1e477">Prouerb. vulgar.</ref> <quote xml:id="bHY6yh-d40407-Qd1e430">Quel che pouolo ende
+        uina: de raro chel no sea.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
