@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 11</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#graydonlee">Graydon Lee</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 11</title>
+               <date when="2022-09-23">September 23, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="10-v"/>
+            <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de2985"><!-- p1l1-r11 -->
+            <head xml:id="bHY6yh-de2985-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-de2985-Hd1e111" type="question-title">De verbo dei et exauditione eius</head>
+            <p xml:id="bHY6yh-de2985-d1e114">
+              <lb ed="#Ka"/>de <sic>uerbo</sic> dei et <sic>exaudicione</sic> eius rubrica. 11. 
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de2985-Rd1e118">IN leuitico capitulo 26 et penultimo</ref> <quote xml:id="bHY6yh-de2985-Qd1e125" source="http://scta.info/resource/lev26_3@1-17 http://scta.info/resource/lev26_4@1-9 http://scta.info/resource/lev26_5@1-21 http://scta.info/resource/lev26_6@1-20 http://scta.info/resource/lev26_7@1-7">Si inpre
+              <lb ed="#Ka" break="no"/>ceptis meis ambulaueritis et
+              <lb ed="#Ka"/><sic>et</sic> mandata mea custodieritis et se
+              <lb ed="#Ka" break="no"/>ceritis dabo vobis pluuias tempo
+              <lb ed="#Ka" break="no"/>ribus suis et terra gingnet germen
+              <lb ed="#Ka"/>suum et pomis arbores replebuntur
+              <lb ed="#Ka"/>apprehendet messium truttura vinde
+              <lb ed="#Ka" break="no"/>miam et vindemia occupabit semen
+              <lb ed="#Ka" break="no"/>te et comedetis panem vestrum in sa
+              <lb ed="#Ka" break="no"/>turitate et absque pauore habitabi
+              <lb ed="#Ka" break="no"/>tis interra vestra dabo pacem in finibus
+              <lb ed="#Ka"/>vestris dormietis et non erit qui ex
+              <lb ed="#Ka" break="no"/>terreat auferam malas bestias et gla
+              <lb ed="#Ka" break="no"/>dius non transibit terminos vestros per
+              <lb ed="#Ka" break="no"/>sequimini inimicos vestros et corruent
+              <lb ed="#Ka"/>coram vobis</quote>
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e163">
+              <ref xml:id="bHY6yh-de2985-Rd1e161">Moyses in deuteronomio capitulo
+              <lb ed="#Ka"/>5</ref> <quote xml:id="bHY6yh-de2985-Qd1e167" source="http://scta.info/resource/deut5_32@10-17 http://scta.info/resource/deut5_33@1-22">non declines neque ad de<add place="above-line">x</add>teram neque
+              <lb ed="#Ka"/>ad sinistram sed per vitam quam pre
+              <lb ed="#Ka" break="no"/>cepit <sic>nobis</sic> dominus deus ambulabitis
+              <lb ed="#Ka"/>ut viuatis et bene sit <sic>nobis</sic> et <sic>proce</sic>
+              <lb ed="#Ka" break="no"/>lentur dies interra possessionis vestre</quote>
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e180"> 
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de2985-Rd1e178">8 capitulo</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de2985-Qd1e182" source="http://scta.info/resource/deut8_3@19-33">non in solo pane viuit homo sed
+              <lb ed="#Ka"/>exomni verbo quod egreditur exore dei</quote> <pc type="virgula">/</pc>
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e190">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de2985-Rd1e192">Psalmista .102. psalmus</ref> <quote xml:id="bHY6yh-de2985-Qd1e194" source="http://scta.info/resource/ps102_17@14-18 http://scta.info/resource/ps102_18@1-13">Iusticia domini in fi
+              <lb ed="#Ka" break="no"/>lios filiorum hiis qui seruant testamen
+              <lb ed="#Ka" break="no"/>tum eius et memores sunt manda
+              <lb ed="#Ka" break="no"/>torum ipsius ad faciendum ea</quote>
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e204"> 
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de2985-Rd1e206">125 psalmus</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de2985-Qd1e206" source="http://scta.info/resource/ps118_60@1-10">locucio ad deum paratus sum et non
+              <lb ed="#Ka"/>sum turbatus ut custodiam manda
+              <lb ed="#Ka" break="no"/>ta tua</quote>
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e212">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de2985-Rd1e218">138 psalmus</ref> <quote xml:id="bHY6yh-de2985-Qd1e216" source="http://scta.info/resource/ps118_165@1-10">pax multa diligen
+              <lb ed="#Ka" break="no"/>tibus legem tuam et non est illis scan
+              <lb ed="#Ka" break="no"/>dalum</quote>
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e222">
+              <ref xml:id="bHY6yh-de2985-Rd1e230">Salomon in prouerbiis capitulo 30
+              <lb ed="#Ka"/>et si</ref> <quote xml:id="bHY6yh-de2985-Qd1e226" source="http://scta.info/resource/prov30_5@1-4">omnis dei sermo ignitus</quote>
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e232">
+              <ref xml:id="bHY6yh-de2985-Rd1e240">Idem
+              <lb ed="#Ka"/>in ecclesiastice capitulo 8</ref> <quote xml:id="bHY6yh-de2985-Qd1e234" source="http://scta.info/resource/qoh8_4@2-5">Sermo dei potestate ple
+              <lb ed="#Ka" break="no"/>nus est</quote> <!--not an exact match-->
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e241">
+              <ref xml:id="bHY6yh-de2985-Rd1e253">Marcus in <sic>ewangelio</sic> capitulo 13</ref> <quote xml:id="bHY6yh-de2985-Qd1e245" source="http://scta.info/resource/mc13_31@1-9">Ce
+              <lb ed="#Ka" break="no"/>lum et terra transibunt verba autem mea
+            <cb ed="#Ka" n="b"/>   
+              <lb ed="#Ka"/>non transibunt ait iesus <del rend="strikethrough" hand="#N1">intrauit</del></quote>
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e251">
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de2985-Qd1e255">Idem dicit lucas in <sic>ewangelio</sic> capitulo 12</quote>
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e259">
+              <ref xml:id="bHY6yh-de2985-Rd1e273">Lucas in <sic>ewangelio</sic> capitulo 10</ref> <quote xml:id="bHY6yh-de2985-Qd1e263" source="http://scta.info/resource/lc10_38@11-21 http://scta.info/resource/lc10_39@1-15 http://scta.info/resource/lc10_40@1-28 http://scta.info/resource/lc10_41@1-13 http://scta.info/resource/lc10_42@1-13"><sic>Ihesus</sic> intrauit
+              <lb ed="#Ka"/>inquodam chastellum et mulier quedam
+              <lb ed="#Ka"/>martha nomine excepit illum in do
+              <lb ed="#Ka" break="no"/>mum suam et huic erat soror nomine
+              <lb ed="#Ka"/>maria Maria <!--word repeats in text but not bible verse--> que etiam secus pedes
+              <lb ed="#Ka"/>domini audiebat verbum illius mar
+              <lb ed="#Ka" break="no"/>tha autem satagebat circa frequens mi
+              <lb ed="#Ka" break="no"/>nisterium que stetit et ait domine non
+              <lb ed="#Ka"/>est tibi cure quod soror mea dereliquit
+              <lb ed="#Ka"/>me solam ministrare dic ergo illi
+              <lb ed="#Ka"/>ut me adiuuet et respondens
+              <lb ed="#Ka"/>dixit illi dominus martha martha
+              <lb ed="#Ka"/>sollicita es et turbaris ergo plurima
+              <lb ed="#Ka"/>porro vnum est necessarium <pc type="virgula">/</pc> maria optimam
+              <lb ed="#Ka"/>partem elegit que non aufferetur ab
+              <lb ed="#Ka"/>ea</quote>
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e290">
+            ¶ <ref xml:id="bHY6yh-de2985-Rd1e304">capitulo 11</ref> <quote xml:id="bHY6yh-de2985-Qd1e292" source="http://scta.info/resource/lc11_28@5-11">beati qui audiunt verbum
+              <lb ed="#Ka"/>dei et custodiunt illud <pc type="virgula">/</pc> ait <sic>ihesus</sic>
+              <lb ed="#Ka"/>nobis lefisla<del rend="strikethrough" hand="#N1">b</del>toribus ne quia
+              <lb ed="#Ka"/><sic>honeratis</sic> homines <sic>honeribus</sic> que <!--abbreviation mark over honeribus but word seems to be fully expanded in text-->
+              <lb ed="#Ka"/>portari non possunt et ipsi non
+              <lb ed="#Ka"/>digito uestro non tangatis sarcinas</quote>
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e298">
+              <!--quote combined with one above <quote xml:id="bHY6yh-de2985-Qd1e302" source="http://scta.info/resource/lc11_46@5-24"></quote>-->
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e310">
+              <ref xml:id="bHY6yh-de2985-Rd1e328"><sic>Iohannes</sic> in <sic>ewangelio</sic> capitulo 8</ref> <quote xml:id="bHY6yh-de2985-Qd1e314" source="http://scta.info/resource/io8_47@1-7">Qui est
+              <lb ed="#Ka"/>exdeo verba dei audit ait ihesus</quote>
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e321">
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de2985-Qd1e323" source="http://scta.info/resource/io8_51@5-14">Si quis sermonem meum seruauit mor
+              <lb ed="#Ka" break="no"/>tem non gustabit in eternum</quote>
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e329">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de2985-Rd1e349">capitulo 10</ref> <quote xml:id="bHY6yh-de2985-Qd1e333" source="http://scta.info/resource/io10_38@5-11">ait <sic>ihesus</sic> Si <sic>michi</sic> non vultis
+              <lb ed="#Ka"/>credere operibus credite</quote>
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e339">
+              <ref xml:id="bHY6yh-de2985-Rd1e361">Paulus apostolus epistola ad romanos
+              <lb ed="#Ka"/>capitulo 1</ref> <quote xml:id="bHY6yh-de2985-Qd1e343" source="http://scta.info/resource/rom2_13@1-12">non auditores legis iusti sunt
+              <lb ed="#Ka"/>apud deum sed factores legis iusti
+              <lb ed="#Ka" break="no"/>ficabunt</quote>
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e355">
+            ¶ <ref xml:id="bHY6yh-de2985-Rd1e377">Idem epistola ad <sic>thymoneum</sic>
+              <lb ed="#Ka"/>capitulo 1.</ref> <quote xml:id="bHY6yh-de2985-Qd1e357" source="http://scta.info/resource/Itim1_5@1-15">finis praecepti est <sic>caritas</sic> de cor
+              <lb ed="#Ka" break="no"/>de puro conscientia bona et fide non
+              <lb ed="#Ka"/>ficta</quote>
+            </p>
+            <p xml:id="bHY6yh-de2985-d1e367">
+            ¶ <ref xml:id="bHY6yh-de2985-Rd1e392">Idem epistola ad <sic>ebreos</sic> capitulo 4</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de2985-Qd1e369" source="http://scta.info/resource/hebr4_12@1-12">vnus est sermo dei et efficax et
+              <lb ed="#Ka"/>penetrabilior omni gladio ancipiti</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

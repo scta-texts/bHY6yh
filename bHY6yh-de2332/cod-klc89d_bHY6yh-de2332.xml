@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 9</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#graydonlee">Graydon Lee</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 9</title>
+               <date when="2022-09-21">September 21, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="9-r"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de2332"><!-- p1l1-r9 -->
+            <head xml:id="bHY6yh-de2332-Hd1e108">Rubrica 9</head>
+            <head xml:id="bHY6yh-de2332-Hd1e111" type="question-title">De mundana flagellatione et tentatione dei ad suos dilectos</head>
+            <p xml:id="bHY6yh-de2332-d1e114">
+              <lb ed="#Ka"/>de mundana
+              <lb ed="#Ka"/><sic>flagellacione</sic> et <sic>temptacione</sic> dilectorum
+              <lb ed="#Ka"/>dei rubrica. 9.
+            </p>
+            <p xml:id="bHY6yh-de2332-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de2332-Rd1e118">IOb hystoria capitulo 5</ref> <quote xml:id="bHY6yh-de2332-Qd1e125" source="http://scta.info/resource/iob5_11@2-9 ">deus ponit
+              <lb ed="#Ka"/>humiles in sublime et me
+              <lb ed="#Ka" break="no"/>rentes erigit hospitate ¶ beatus<!--add new paragraph or keep separate?-->
+              <lb ed="#Ka"/>homo qui corripitur a deo increpacionem
+              <lb ed="#Ka"/>ergo domini non reprobes quia ipse <sic>uul</sic>
+              <lb ed="#Ka" break="no"/>nerat et medetur percutit et manus
+              <lb ed="#Ka"/>eius sanabunt</quote>
+            </p>
+            <p xml:id="bHY6yh-de2332-d1e139">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de2332-Rd1e138">Salomon in prouerbiis capitulo 3</ref> <quote xml:id="bHY6yh-de2332-Qd1e143" source="http://scta.info/resource/prov3_11@1-12 http://scta.info/resource/prov3_12@1-12">discipli
+              <lb ed="#Ka" break="no"/>nam domini ne <sic>abicias</sic> nec deficias
+              <lb ed="#Ka"/>cum ab eo <sic>corripieris</sic> quecumque diligit<!--slight textual differences with words included in the bible that aren't in the text-->
+              <lb ed="#Ka"/>deus corripit et quasi pater in filio con
+              <lb ed="#Ka" break="no"/>placet sibi</quote>
+            </p>
+            <p xml:id="bHY6yh-de2332-d1e154">
+              <ref xml:id="bHY6yh-de2332-Rd1e155">Thobie hystoria</ref> <quote xml:id="bHY6yh-de2332-Qd1e158" source="http://scta.info/resource/tob3_21@1-16">hec
+            <pb ed="#Ka" n="9-v"/>
+            <cb ed="#Ka" n="a"/>  
+              <lb ed="#Ka"/>procerto habet omnis homo qui colit
+              <lb ed="#Ka"/>deum non occurrunt mala sed <sic>intemptacione</sic>
+              <lb ed="#Ka"/>deus illum conseruat et liberat amabilis</quote><!--major differences in text compared to bible verse-->
+            </p>
+            <p xml:id="bHY6yh-de2332-d1e166">
+              <!--<ref xml:id="bHY6yh-de2332-Rd1e169"></ref> <quote xml:id="bHY6yh-de2332-Qd1e170" source="http://scta.info/resource/sir33_1@1-15"></quote>--><!--ref and quote omitted, skips to next one-->
+            </p>
+            <p xml:id="bHY6yh-de2332-d1e178">
+              <lb ed="#Ka"/>¶ <ref xml:id="bHY6yh-de2332-Rd1e181">capitulo 17</ref> <quote xml:id="bHY6yh-de2332-Qd1e180">homines iustos probat tempta
+              <lb ed="#Ka" break="no"/><sic>cio</sic> tribulacionis</quote>
+            </p>
+            <p xml:id="bHY6yh-de2332-d1e186"> 
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de2332-Rd1e191">capitulo 31</ref> <quote xml:id="bHY6yh-de2332-Qd1e188" source="http://scta.info/resource/sir31_2@6-10">infirmitas
+              <lb ed="#Ka"/>grauis substantiam facit animam</quote>
+            </p>
+            <p xml:id="bHY6yh-de2332-d1e194">
+              <ref xml:id="bHY6yh-de2332-Rd1e204"><sic>Matheus</sic><!--name underlined--> in <sic>ewangelio</sic> capitulo 5</ref> <quote xml:id="bHY6yh-de2332-Qd1e198" source="http://scta.info/resource/mt5_10@1-11">beati qui
+              <lb ed="#Ka"/><sic>persecucione</sic> paciuntur propter <sic>iusticiam</sic> quoniam
+              <lb ed="#Ka"/>ipsorum est regnum celorum</quote>
+            </p> 
+            <p xml:id="bHY6yh-de2332-d1e204">
+              <ref xml:id="bHY6yh-de2332-Rd1e216">Iacobus apostolus
+              <lb ed="#Ka"/>epistola 67. capitulo 1.</ref> <quote xml:id="bHY6yh-de2332-Qd1e208" source="http://scta.info/resource/iac1_12@1-17">beatus qui suffert
+              <lb ed="#Ka"/><sic>temptacionem</sic> quam cum probatus fuerit
+              <lb ed="#Ka"/>accipiet coronam vite quam promisit
+              <lb ed="#Ka"/>deus diligentibus se</quote> <!--differences between text and bible but the verse seems to corroborate it but I am not completely postitve-->
+            </p>  
+            <p xml:id="bHY6yh-de2332-d1e217">
+              omitted<!--<quote xml:id="bHY6yh-de2332-Qd1e221" source="http://scta.info/resource/ap3_19@1-6">¶ Ioannes in apocalipsi. c. 3. Ego quos amo
+        arguo et castigo. </quote>-->
+            </p>
+            <p xml:id="bHY6yh-de2332-d1e227">
+              <ref xml:id="bHY6yh-de2332-Rd1e241">Paulus apostolus
+              <lb ed="#Ka"/>epistola ad romanos capitulo 5</ref> <quote xml:id="bHY6yh-de2332-Qd1e231" source="http://scta.info/resource/rom5_3@11-13 http://scta.info/resource/rom5_4@1-4"><sic>tribulacio</sic>
+              <lb ed="#Ka"/>patientiam operatur <sic>patiencia</sic> autem
+              <lb ed="#Ka"/><sic>probacionem</sic></quote>
+            </p>
+            <p xml:id="bHY6yh-de2332-d1e239"> 
+            ¶ <ref xml:id="bHY6yh-de2332-Rd1e253">8 capitulo</ref> <quote xml:id="bHY6yh-de2332-Qd1e241" source="http://scta.info/resource/rom8_18@1-12">Existimacio quod non
+              <lb ed="#Ka"/>fuit condigne passiones huius seculi
+              <lb ed="#Ka"/>ad futuram gloriam</quote>
+            </p>
+            <p xml:id="bHY6yh-de2332-d1e247">
+              <ref xml:id="bHY6yh-de2332-Rd1e267">Idem epistola
+              <lb ed="#Ka"/>1 ad corinthios capitulo 10</ref> <quote xml:id="bHY6yh-de2332-Qd1e251" source="http://scta.info/resource/Icor10_13@7-27">fidelis deus est
+              <lb ed="#Ka"/>qui non <sic>pacietur</sic> nos temptari supera id
+              <lb ed="#Ka"/>quod potestus sed faciet cum <sic>temptacione</sic>
+              <lb ed="#Ka"/><sic>eciam</sic> prouentum ut possitis sustinere</quote>
+            </p>
+            <p xml:id="bHY6yh-de2332-d1e265"> 
+              <ref xml:id="bHY6yh-de2332-Rd1e284">Idem epistola 2 ad corinthios capitulo 12</ref> <quote xml:id="bHY6yh-de2332-Qd1e267">virtus
+              <lb ed="#Ka"/>infirmitate perficitur</quote><!--IIcor12_9-->
+            </p>
+            <p xml:id="bHY6yh-de2332-d1e275">
+              <ref xml:id="bHY6yh-de2332-Rd1e297">Idem epistola ad 
+              <lb ed="#Ka"/><sic>ebreos</sic> capitulo 12</ref> <quote xml:id="bHY6yh-de2332-Qd1e277" source="http://scta.info/resource/hebr12_6@4-11">Quem diligit deus casti
+              <lb ed="#Ka" break="no"/>gat flagellat autem omnem filium quem
+              <lb ed="#Ka"/>recipit</quote>
+            </p>
+            <p xml:id="bHY6yh-de2332-d1e286">
+              <ref xml:id="bHY6yh-de2332-Rd1e313">Gregorius in <sic>pastolarli</sic> capitulo
+              <lb ed="#Ka"/>5</ref> <quote xml:id="bHY6yh-de2332-Qd1e290">de spe eterne hereditatis gaudium
+              <lb ed="#Ka"/>sumant quos aduersitas vite temporalis
+              <lb ed="#Ka"/>humiliat quia nisi saluandos <sic>iniperpe</sic>
+              <lb ed="#Ka" break="no"/>tuum cerneret erudiendos subdisci
+              <lb ed="#Ka" break="no"/>pline regimine diuina dispensacio
+              <lb ed="#Ka"/>non frenaret</quote>
+            </p>
+            <p xml:id="bHY6yh-de2332-d1e302">
+              <ref xml:id="bHY6yh-de2332-Rd1e331">Isidorus soliloquiorum
+              <lb ed="#Ka"/>libro. 1. capitulo 4</ref> <quote xml:id="bHY6yh-de2332-Qd1e306">Semper deus hic vulnerat
+              <lb ed="#Ka"/>quos ad salutem perpetuam praeparat et caetera</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
