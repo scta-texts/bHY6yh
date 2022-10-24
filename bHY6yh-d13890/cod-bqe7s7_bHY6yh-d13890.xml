@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 1</title>
+               <date when="2022-10-01">October 1, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-10-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="26-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d13890"><!-- p1l3-r1 -->
+            <head xml:id="bHY6yh-d13890-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d13890-Hd1e111" type="question-title">De naturalitate consideratione morali</head>
+            <p xml:id="bHY6yh-d13890-d1e114">
+               <lb ed="#P"/>liber tertius prime partis. Is
+               <lb ed="#P" break="no"/>te liber tertius prime partis
+               <lb ed="#P"/>tractat de naturalibus / et de per
+               <lb ed="#P"/>tinentibus ad eas partes sub
+               <lb ed="#P"/>his titulis videlicet primo de naturalitate 
+               <lb ed="#P"/>et consideratione mortalium 
+               <lb ed="#P"/>capitulum primum:
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e130">
+               OMITTED
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e137">
+               <lb ed="#P"/><ref>Iob hystor ca. xxviii.</ref> <quote xml:id="bHY6yh-d13890-Qd1e141">habet argentum ve
+               <lb ed="#P" break="no"/>narum suarum principia et auro locus est 
+               <cb ed="#P" n="b"/>
+               <lb ed="#P"/>in quo conflatur ferrum de terra tollitur 
+               <lb ed="#P"/>et lapis solutus calore in hes vertitur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e154">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d13890-Rd1e158">In genesi. ca. viii.</ref> <quote xml:id="bHY6yh-d13890-Qd1e161">Sensus et cogitatio 
+               <lb ed="#P"/>humani cordis in malum prona sunt 
+               <lb ed="#P"/>ab adolescentia sua.</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e169">
+               <lb ed="#P"/><ref>Aristoteles ethicorum libro. vi. ca. ix. et 
+               <lb ed="#P"/>fi.</ref> <quote xml:id="bHY6yh-d13890-Qd1e173">omnibus videtur singulis morum existere 
+               <lb ed="#P"/>naturalitates</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e179">
+               <lb ed="#P"/><ref>Idem magnorum moralium libro. ii. ca. xxv.</ref> <quote xml:id="bHY6yh-d13890-Qd1e183">difficilius 
+               <lb ed="#P"/>sanabilia sunt naturalia factis 
+               <lb ed="#P"/>ex consuetudine /</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e191"><!--Combined with above-->
+               <lb ed="#P"/><quote xml:id="bHY6yh-d13890-Qd1e193">consuetudo alia consue
+               <lb ed="#P" break="no"/>tudine repercutitur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e199">
+               <lb ed="#P"/><ref>Oratius in poetria libro. primo. ca. iiii.</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d13890-Qd1e203"><unclear>Illim</unclear> superbus ambules pecunia
+               <lb ed="#P"/>fortuna non mutat genus</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e209">
+               <lb ed="#P"/><ref>Idem epistolarum libro. primo. xii.</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d13890-Qd1e213">Naturam mutare pecunia nescit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e220">
+               <lb ed="#P"/><ref>Ibidem epistola.</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d13890-Qd1e222">Celum non animum mutant / qui trasinare currunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e228">
+               <lb ed="#P"/><ref>Tullius de divinatione libro. ii. et fi:</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d13890-Qd1e232">Quis non videt fortes / et mores / et 
+               <lb ed="#P"/>plerosque status ac motus effingere a paren
+               <lb ed="#P" break="no"/>tibus liberos / quod non contingeret si hoc
+               <lb ed="#P"/>Ius / et nam gignentium efficeret sed temper
+               <lb ed="#P" break="no"/>antia lune celique moderatio.</quote>
+               <lb ed="#P"/><ref>Seneca de Ira libro. ii.</ref> <quote>Naturam mutare diffi
+               <lb ed="#P" break="no"/>cillimum est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e249">
+               <lb ed="#P"/><ref>Idem epistolarum ad lucillum libro. ii. epistola. .</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d13890-Qd1e251">Nulla sapientia naturalia corporis aut 
+               <lb ed="#P"/>vicia deponuntur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e259"> <!--Combined with aboe-->
+               <lb ed="#P"/><quote xml:id="bHY6yh-d13890-Qd1e261">quicquid infixum / et in
+               <lb ed="#P" break="no"/>genitum est leuiter arte non vincitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e267">
+               <lb ed="#P"/><quote xml:id="bHY6yh-d13890-Qd1e269">Quecumque attribuit condicio nascendi 
+               <lb ed="#P"/>et corporis temperantia tum multum se diuque 
+               <lb ed="#P"/>annis se composuerit herebunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e277">
+               <pb ed="#P" n="26-v"/>
+               <lb ed="#P"/><ref>Valerius maximus libro. v. ti. de pie
+               <lb ed="#P" break="no"/>tate.</ref> <quote xml:id="bHY6yh-d13890-Qd1e281">doctrina proficit ut politiora non 
+               <lb ed="#P"/>ut meliora fiant ingenia: quoniam quidem 
+               <lb ed="#P"/>solida virtus nascitur magis quam fir
+               <lb ed="#P" break="no"/>matur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e292">
+               <lb ed="#P"/><ref>Maximianus</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d13890-Qd1e296">Quod natura negat reddere nemo potest.</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e302">
+               <lb ed="#P"/><ref>Cassiodorus epistolarum libro quarto epistola
+               <lb ed="#P"/>xxviii.</ref> <quote xml:id="bHY6yh-d13890-Qd1e306">Repignante natura / que libet cedit 
+               <lb ed="#P"/>industria.</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e316">
+               <lb ed="#P"/><ref>Ibidem libro. vi. epistola. xi.</ref> <quote xml:id="bHY6yh-d13890-Qd1e318">malescunt 
+               <lb ed="#P"/>sparsa femina nisi / et terre qualitas 
+               <lb ed="#P"/>fuerit operata.</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e326">
+               <lb ed="#P"/><ref>Versificator fabularum exopi. xvii. fabula</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d13890-Qd1e330">Quod natura negat nemo faciliter audet
+               <lb ed="#P"/>Displicet imprudens / vnde placere studet</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e338">
+               OMITTED
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e348">
+               <lb ed="#P"/><ref>heinricus samariensis. libro. primo. parte. ii.</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d13890-Qd1e352">Seminat in spinis nature Iura retra
+               <lb ed="#P" break="no"/>ctans. Garrula diuelli rana pallude nequit</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e361">
+               <lb ed="#P"/><ref>Iacobus beneventanus. ca. xxv.</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d13890-Qd1e365">Ad se cuncta trahit natura dat atque secundum 
+               <lb ed="#P"/>Morem cuique genus imperiosa suum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e373">
+               <lb ed="#P"/><ref>Idem. a. xxvi.</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d13890-Qd1e375">Innatum vicium nemo tollere potem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d13890-d1e381">
+               <lb ed="#P"/><ref>Prouerbium vulgare</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d13890-Qd1e385">De coa daseno si non sipuo fare libom setaco
+               <lb ed="#P"/>louo muta lapella non clueco
+               <lb ed="#P"/>li oue cervo nasce dolce erba pasce
+               <lb ed="#P"/>la rana non si puo trarre fuori del pan
+               <lb ed="#P" break="no"/>tano</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
