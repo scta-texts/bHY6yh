@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 18 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 18 [Krakow, lat 700 III Transcription]</title>
+               <date when="2022-11-04">November 4, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+                <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="100-r"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d45220"><!-- p2l6-r18 -->
+            <head xml:id="bHY6yh-d45220-Hd1e108">Rubrica 18</head>
+            <head xml:id="bHY6yh-d45220-Hd1e111" type="question-title">De iudiciali misericordia: venia et impunitate</head>
+            <p xml:id="bHY6yh-d45220-d1e114">
+                De iu<lb ed="#K" n="44" break="no"/>diciali 
+                misericordia: venia: et im<lb ed="#K" break="no"/>punitate. 
+                Rubrica. 18
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e121">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d45220-Rd1e118">SAlustius in iugurtino:</ref> <quote xml:id="bHY6yh-d45220-Qd1e127">Ig<lb ed="#K" break="no"/>noscendo
+              malis bonos per<lb ed="#K" break="no"/>ditum 
+              itur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e133">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d45220-Rd1e132">Tullius rethor artis vereris li. i c. 12.</ref> <quote xml:id="bHY6yh-d45220-Qd1e137">His 
+              <lb ed="#K"/>qui imprudentes leserut ignosci 
+              <lb ed="#K"/>conuenit</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e144">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d45220-Rd1e146">Ouidius de ponto lib. i. e. 2.</ref> <quote xml:id="bHY6yh-d45220-Qd1e148">Multa nietu cohi<lb ed="#K" break="no"/>bet 
+              qui pena pauca cohercet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e154">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d45220-Rd1e158">Iacobus apostolus epistola vnica</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d45220-Qd1e158">Iudicium sine misericordia illi qui non 
+              <lb ed="#K"/>facit misericordiam: super exaltat au<lb ed="#K" break="no"/>tem 
+              misericordia iudicio.</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e166">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d45220-Rd1e172">Seneca de clementia:</ref> <quote xml:id="bHY6yh-d45220-Qd1e170">Uenia est pene merite re<lb ed="#K" break="no"/>missio.</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e176">
+              <ref xml:id="bHY6yh-d45220-Rd1e182">Idem de mor<lb ed="#K" break="no"/>ibus:</ref> 
+              <quote xml:id="bHY6yh-d45220-Qd1e178">Bonis nocet qui malis parcit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e184">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d45220-Rd1e194">Lex diges. ti. ad le. iulis magi<lb ed="#K" break="no"/>sunt. 
+              <lb ed="#K"/>l. famofi. §. i.</ref> <quote xml:id="bHY6yh-d45220-Qd1e188">Lubricum 
+              <lb ed="#K"/>lingue ad penam facile trahendum 
+              <lb ed="#K"/>non est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e196">
+              <ref xml:id="bHY6yh-d45220-Rd1e205">Titu. de penis. l. absentem.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d45220-Qd1e198">Sacius est impunitum reliqui 
+              <lb ed="#K"/>facinus nocentis quam innocen<lb ed="#K" break="no"/>tem 
+              damnare.</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e207">
+              <ref xml:id="bHY6yh-d45220-Rd1e218">Ti. de bonis 
+              <lb ed="#K"/>eorum qui ante sententiam etcaetera. 
+              <lb ed="#K"/>l. i.</ref> <quote xml:id="bHY6yh-d45220-Qd1e209">Ignoscendum est his qui 
+              <lb ed="#K"/>sanguinem suum qualitercumque 
+              <lb ed="#K"/>redemptum voluerunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e217">
+                <pb ed="#K" n="100-v"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/> <ref xml:id="bHY6yh-d45220-Rd1e233">Auctor libri de for. honeste vite. c. 3.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d45220-Qd1e221">Errori facile veniam dato.</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e233">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d45220-Rd1e251">Cassiodorus epistolarum li. 2. e. 9.</ref> <quote xml:id="bHY6yh-d45220-Qd1e237">Be<lb ed="#K" break="no"/>nigni 
+              principis est ad clementie 
+              <lb ed="#K"/>commodum transilire terminos equitatis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e245">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d45220-Rd1e263">Lib. 3 e. 47.</ref> <quote xml:id="bHY6yh-d45220-Qd1e247">Nisi culparum occasiones 
+              <lb ed="#K"/>emergerent locum pietas non haberet. 
+              <lb ed="#K"/>Casibus asperis prestandum est sub 
+              <lb ed="#K"/>iustitie laude moderamine: 
+              <lb ed="#K"/>vt nec vindictam finamus su<lb ed="#K" break="no"/>perare 
+              peccata: nec culpam insul<lb ed="#K" break="no"/>tare 
+              patiamur legibus impunitam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e261">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d45220-Rd1e281">Libro. 4. e. 29.</ref> <quote xml:id="bHY6yh-d45220-Qd1e263">Non habet venie lo<lb ed="#K" break="no"/>cum 
+              qui deliquit ad monitus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e271">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d45220-Rd1e294">Li. 11. et pe e. 41. et fi.</ref> <quote xml:id="bHY6yh-d45220-Qd1e273">Ocium tibi 
+              <lb ed="#K"/>clemens actus inducit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e280">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d45220-Rd1e307">Gregorius in pastorali. cap. 18.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d45220-Qd1e284">Disciplina vel misericordia multum destituitur 
+              <lb ed="#K"/>si vna fine altera teneatur: sed 
+              <lb ed="#K"/>erga subditos suos in esse rec<lb ed="#K" break="no"/>toribus 
+              debet: et iuste consulens misericordia et pie seuiens 
+              <lb ed="#K"/>disciplina. Misericordia est le<lb ed="#K" break="no"/>nitas 
+              cum seueritate: faciendo 
+              <lb ed="#K"/>quddam ex vtroque temperamentum: 
+              <lb ed="#K"/>vt neque multa asperitate exul<lb ed="#K" break="no"/>cerentur 
+              subditi: neque nimia 
+              <lb ed="#K"/>benignitate soluantur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e305">
+               <ref xml:id="bHY6yh-d45220-Rd1e332">22. c.</ref> <quote xml:id="bHY6yh-d45220-Qd1e307">Cum 
+               <lb ed="#K"/>non malitia sed sola ignorantia 
+               <lb ed="#K"/>vel infirmitate delin quitur: pro<lb ed="#K" break="no"/>fecto 
+               necesse est vt magno mo<lb ed="#K" break="no"/>dera 
+               mine ipsa delicti correctio 
+               <lb ed="#K"/>temperetur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e317">
+              <ref xml:id="bHY6yh-d45220-Rd1e350">41. c</ref> <quote xml:id="bHY6yh-d45220-Qd1e319">Nonunquam man<lb ed="#K" break="no"/>sueti 
+              cum praesunt vicinum et quasi 
+              <lb ed="#K"/>iuxta positum torporem defidi<lb ed="#K" break="no"/>e 
+              patiuntur: et plerumque nimia 
+              <lb ed="#K"/>resolutione lenitatis vltraquam necesse 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>est vigorem districtionis emo<lb ed="#K" break="no"/>liunt.</quote>   
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e333">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d45220-Rd1e369">Isidorus in sinonima soliloquiorum. li. 2. c. 49.</ref> <quote xml:id="bHY6yh-d45220-Qd1e337">Impia iustiti<lb ed="#K" break="no"/>a 
+              est humane fragilitati non 
+              <lb ed="#K"/>ignoscere. Non ames damnare: 
+              <lb ed="#K"/>sed emendare potius et corrigere 
+              <lb ed="#K"/>Tene rigorem in discussone ius<lb ed="#K" break="no"/>titie: 
+              misericordiam in diffinitione sententiae.</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e349">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d45220-Rd1e384">50. c</ref> <quote xml:id="bHY6yh-d45220-Qd1e351">In ambiguis dei 
+              <lb ed="#K"/>iudicio reserua sententiam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e357">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d45220-Rd1e395">Mattheus vindocinensis in poetria: par<lb ed="#K" break="no"/>te 
+              2. et fi. c. 13. et pe.</ref> <quote xml:id="bHY6yh-d45220-Qd1e361">Transgressionis 
+              <lb ed="#K"/>impunitas magistra est transgres<lb ed="#K" break="no"/>sionis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d45220-d1e370">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d45220-Rd1e411">Montenarius in luna cleri. c. 72.</ref> <quote xml:id="bHY6yh-d45220-Qd1e374">Omnis frequen<lb ed="#K" break="no"/>tari: 
+              facit impunitio crimen Ac<lb ed="#K" break="no"/>cendit 
+              culpam: facilis dimissi<lb ed="#K" break="no"/>o 
+              pene.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

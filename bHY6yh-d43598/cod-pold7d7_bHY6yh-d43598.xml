@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 9 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Vander Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 9 [Krakow, lat 700 III Transcription]</title>
+               <date when="2022-10-24">October 24, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="96-v"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d43598"><!-- p2l6-r9 -->
+            <head xml:id="bHY6yh-d43598-Hd1e108">Rubrica 9</head>
+            <head xml:id="bHY6yh-d43598-Hd1e111" type="question-title">De placiditate et ferocitate regis et iudicis</head>
+            <p xml:id="bHY6yh-d43598-d1e114">
+              De 
+              <lb ed="#K" n="16"/>placiditate et ferocitate 
+              <lb ed="#K"/>regis et iudicis. Rubrica. 9.
+            </p>
+            <p xml:id="bHY6yh-d43598-d1e121">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d43598-Rd1e117">Seneca de clementia:</ref> <quote xml:id="bHy6yh-d43598-Qd1e123">M<lb ed="#K" break="no"/>agni 
+              animi proprium est placidum 
+              <lb ed="#K"/>esse et tranquillum quietumque.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d43598-d1e130">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d43598-Rd1e131">Lex diges. ti. de offi. praesi 
+              <lb ed="#K"/>l. obseruandum:</ref> <quote xml:id="bHY6yh-d43598-Qd1e134">Obseruandum est ius red<lb ed="#K" break="no"/>denti: 
+              vt in adeundo: quod 
+              <lb ed="#K"/>facile se praebeat: sed conter<lb ed="#K" break="no"/>uisse 
+              non patiatur. Iudex 
+              <lb ed="#K"/>in cognoscendo neque excan<lb ed="#K" break="no"/>descere 
+              debet aduersus eos 
+              <lb ed="#K"/>quos malos putat neque 
+              <lb ed="#K"/>praecibus calamitosorum il<lb ed="#K" break="no"/>lachrimari 
+              oportet id enim non 
+              <lb ed="#K"/>est recti et constantis iudicis 
+              <lb ed="#K"/>cuius animi motum vultus de<lb ed="#K" break="no"/>tegit</quote>
+                <cb ed="#K" n="b"/>
+            </p>
+            <p xml:id="bHY6yh-d43598-d1e154">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d43598-Rd1e158">Auctor libri de formula honeste vite. c. 8.</ref> <quote xml:id="bHY6yh-d43598-Qd1e158">Seuerior 
+              <lb ed="#K"/>esto iudicio quam sermone: vita 
+              <lb ed="#K"/>quam vultu.</quote>
+            </p>
+            <p xml:id="bHY6yh-d43598-d1e170">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d43598-Rd1e175">Claudianus li. i.</ref> <quote xml:id="bHY6yh-d43598-Qd1e174">Peragit tranquilla potestas
+              <lb ed="#K"/>Quod violenta nequit: man<lb ed="#K" break="no"/>dataque 
+              fortius vrget Im<lb ed="#K" break="no"/>periosa 
+              quies.</quote>
+            </p>
+            <p xml:id="bHY6yh-d43598-d1e182">
+              <ref xml:id="bHY6yh-d43598-Rd1e187">Libro. 8.</ref> <quote xml:id="bHY6yh-d43598-Qd1e184">Publicus 
+              <lb ed="#K"/>hinc ardescit: amor cum 
+              <lb ed="#K"/>moribus equis. Inclinat po<lb ed="#K" break="no"/>pulo 
+              regale modestia cul<lb ed="#K" break="no"/>men</quote>
+            </p>
+            <p xml:id="bHY6yh-d43598-d1e192">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d43598-Rd1e200">Cassiodorus epistolarum li. 6. e. 24. et pe.</ref> <quote xml:id="bHY6yh-d43598-Qd1e196">Utrum
+              <lb ed="#K"/>que laudabile est: vt bonus populus 
+              <lb ed="#K"/>iudicem benignum 
+              <lb ed="#K"/>faciat: et mansuetus iudex: 
+              <lb ed="#K"/>grauissimum populum equabili ratione 
+              <lb ed="#K"/>componat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d43598-d1e206">
+              <ref xml:id="bHY6yh-d43598-Rd1e214">Li. 10 e. 7.</ref> <quote xml:id="bHY6yh-d43598-Qd1e208">Iudicia<lb ed="#K" break="no"/>ria 
+              virtus est: lingue bonis abuna<lb ed="#K" break="no"/>re: 
+              et mentis temperantia custo<lb ed="#K" break="no"/>dire.</quote>
+            </p>
+            <p xml:id="bHY6yh-d43598-d1e216">
+              <ref xml:id="bHY6yh-d43598-Rd1e229">Gregorius in pastorali. ca. 18.</ref> <quote xml:id="bHY6yh-d43598-Qd1e220">Sit rector bene 
+              <lb ed="#K"/>agentibus per humilitatem soc<lb ed="#K" break="no"/>ius 
+              contra delinquentium vitia 
+              <lb ed="#K"/>per zelum iustitie erectus Su<lb ed="#K" break="no"/>mmus 
+              locus bene regitur: 
+              <lb ed="#K"/>cum is qui praest vitiis. potius 
+              <lb ed="#K"/>quam fratribus dominatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d43598-d1e233">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d43598-Rd1e248">Gualterius de castellione lib. i.</ref> <quote xml:id="bHY6yh-d43598-Qd1e237">Ciui<lb ed="#K" break="no"/>liter 
+              argue sontes.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
