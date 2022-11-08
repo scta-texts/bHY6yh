@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 8</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#graydonlee">Graydon Lee</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 8</title>
+               <date when="2022-09-16">September 16, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="8-v"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de2065"><!-- p1l1-r8 -->
+            <head xml:id="bHY6yh-de2065-Hd1e108">Rubrica 8</head>
+            <head xml:id="bHY6yh-de2065-Hd1e111" type="question-title">De iustitia et iudicio Dei</head>
+            <p xml:id="bHY6yh-de2065-d1e114">
+              <lb ed="#Ka"/>de caritate seu <sic>dileccione</sic> et odiosi
+              <lb ed="#Ka" break="no"/>tate dei ad hominem rubrica 8
+            </p>
+            <p xml:id="bHY6yh-de2065-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de2065-Rd1e118">IOb historia capitulo. 15.</ref> <quote xml:id="bHY6yh-de2065-Qd1e125" source="http://scta.info/resource/iob11_6@15-23">Multo
+              <lb ed="#Ka"/>minora exigeres a deo quam
+            <pb ed="#Ka" n="9-r"/>
+            <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>meretur iniquitas tua</quote>
+            </p>
+            <p xml:id="bHY6yh-de2065-d1e133">
+              <ref xml:id="bHY6yh-de2065-Rd1e132">Psalmis
+              <lb ed="#Ka" break="no"/>ta psalmus 5</ref> <quote xml:id="bHY6yh-de2065-Qd1e137" source="http://scta.info/resource/ps5_7@1-5">Odisti omnes qui operantur
+              <lb ed="#Ka"/>iniquitatem</quote>
+            </p>
+            <p xml:id="bHY6yh-de2065-d1e144">
+              <quote xml:id="bHY6yh-de2065-Qd1e146" source="http://scta.info/resource/ps5_7@11-16">Virum sanguineum et dolo
+              <lb ed="#Ka" break="no"/>sum ab <sic>hominabitur</sic> <del rend="strikethrough" hand="N1">tibi</del> deus</quote><!--dominus in the bible verse but deus in the text; abominabitur changed to ab hominabitur-->
+            </p>
+            <p xml:id="bHY6yh-de2065-d1e152">
+              <ref xml:id="bHY6yh-de2065-Rd1e151">33 pslamus</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de2065-Qd1e154" source="http://scta.info/resource/Ipetr3_12@2-11">Oculi domini super iustos et aures eius
+              <lb ed="#Ka"/>in praeces eorum</quote>
+            </p>
+            <p xml:id="bHY6yh-de2065-d1e162"> 
+            ¶ <ref xml:id="bHY6yh-de2065-Rd1e164">83 psalmus</ref> <quote xml:id="bHY6yh-de2065-Qd1e164" source="http://scta.info/resource/ps83_12@2-6">Misericordiam et
+              <lb ed="#Ka"/>veritatem diligit deus</quote>
+            </p>
+            <p xml:id="bHY6yh-de2065-d1e170"> 
+              <pc type="virgula">/</pc> <ref xml:id="bHY6yh-de2065-Rd1e174">166</ref> <quote xml:id="bHY6yh-de2065-Qd1e172">deus
+              <lb ed="#Ka"/>diligit iustos</quote>
+            </p> <!--could not find a matching verse-->
+            <p xml:id="bHY6yh-de2065-d1e176">
+              <ref xml:id="bHY6yh-de2065-Rd1e184">Salomon in prouerbiis
+              <lb ed="#Ka"/>capitulo 8</ref> <quote xml:id="bHY6yh-de2065-Qd1e180" source="http://scta.info/resource/prov6_16@1-10 http://scta.info/resource/prov6_17@1-8 http://scta.info/resource/prov6_18@1-10 http://scta.info/resource/prov6_19@1-11">Sex sunt que odit deus et
+              <lb ed="#Ka"/>septimum detestatur <sic>animam</sic> eius
+              <lb ed="#Ka"/>Oculos sublimes linguam menda
+              <lb ed="#Ka" break="no"/>cem manum effundentis <unclear>notiuum</unclear>
+              <lb ed="#Ka"/>sanguinem <!--add new paragraph?-->¶ Cor <subst><del rend="strikethrough" hand="#N1">malignans</del><add place="margin-left" hand="#N2">machinans</add></subst> cogita
+              <lb ed="#Ka" break="no"/>ciones pessimas pedes veloces ad 
+              <lb ed="#Ka"/>currendum in malum proferentem
+              <lb ed="#Ka"/>mendacia testem fallacem et eum
+              <lb ed="#Ka"/>qui seminat <add place="margin-left" hand="#N2">inter fratres</add> discordias</quote> <!--dominus in bible but deus in text; anima in bible but animam in text; innoxium in bible but notiuum (unclear) in text-->
+            </p>
+            <p xml:id="bHY6yh-de2065-d1e197">
+            ¶ <ref xml:id="bHY6yh-de2065-Rd1e207">15 capitulo</ref> <quote xml:id="bHY6yh-de2065-Qd1e201" source="http://scta.info/resource/prov15_9@6-11">qui
+              <lb ed="#Ka"/>sequitur <sic>iusticiam</sic> a domino diligitur
+              <lb ed="#Ka"/><pc type="virgula">//</pc> ab <sic>hominacio</sic> domini <sic>cogitaciones</sic> male</quote> <pc type="virgula">//</pc>
+            </p> <!--ab eo in bible vs a domino in text; a domino placed before diligitur in text but after in bible-->
+            <p xml:id="bHY6yh-de2065-d1e206">               
+               <!--quote merged with previous one<quote xml:id="bHY6yh-de2065-Qd1e210" source="http://scta.info/resource/prov15_26@1-4">Aboiatio domini cogitationes male.</quote>-->
+            </p><!--keep or delete paragraph tags?-->
+            <p xml:id="bHY6yh-de2065-d1e214">
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de2065-Qd1e216" source="http://scta.info/resource/prov15_29@1-9">longe est dominus ab impiis et orationes
+              <lb ed="#Ka"/>iustorum exaudiet</quote>
+            </p>
+            <p xml:id="bHY6yh-de2065-d1e224">
+            ¶ <ref xml:id="bHY6yh-de2065-Rd1e234"><sic>15</sic> capitulo</ref> <quote xml:id="bHY6yh-de2065-Qd1e226" source="http://scta.info/resource/prov17_15@1-12">Qui iusti
+              <lb ed="#Ka" break="no"/>ficat impium et qui <sic>condempnat</sic>
+              <lb ed="#Ka"/>iustum ab hominabilis est vterque apud deum</quote> <!--wrong chapter number; dominum in bible but deum in text-->
+            </p> 
+            <p xml:id="bHY6yh-de2065-d1e232">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de2065-Rd1e246">Ezechiel<!--name underlined--> propheta capitulo 18</ref> <quote xml:id="bHY6yh-de2065-Qd1e236" source="http://scta.info/resource/ez18_23@1-18">numquid volun
+              <lb ed="#Ka" break="no"/>tatis me est mors impii dicit dominus
+              <lb ed="#Ka"/>deus et non ut conuertatur <sic>auiis</sic> suis
+              <lb ed="#Ka"/>et viuat</quote> <!--Ezechiel 18 verse 23-->
+            </p>
+            <p xml:id="bHY6yh-de2065-d1e244"> 
+              <pc type="virgula">/</pc> <ref xml:id="bHY6yh-de2065-Rd1e258"><!--punctuation before unclear-->33 capitulo</ref> <pc type="virgula">/</pc> <quote xml:id="bHY6yh-de2065-Qd1e246" source="http://scta.info/resource/ez33_11@9-20">nolo mortem <sic>peccatoris</sic>
+              <lb ed="#Ka"/>sed ut conuertatur ipsius anima et uiuat</quote>
+            </p>
+            <p xml:id="bHY6yh-de2065-d1e254">
+              <ref xml:id="bHY6yh-de2065-Rd1e272">Regum libro <sic>5</sic> capitulo 14</ref> <quote xml:id="bHY6yh-de2065-Qd1e258" source="http://scta.info/resource/IIsam14_14@12-25">non vult deus perire
+              <lb ed="#Ka"/>animam sed retractat cogitans ne
+              <lb ed="#Ka"/>penitus pereat qui abiectus est</quote> <!--use of non vs nec; deus after perire in bible but not in text-->
+            </p>
+            <p xml:id="bHY6yh-de2065-d1e267">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de2065-Rd1e287">Tullius in oratione pro 5</ref> <quote xml:id="bHY6yh-de2065-Qd1e271">ligario homines
+              <lb ed="#Ka"/>ad deos nulla re propius accedunt
+              <lb ed="#Ka"/>quam salutem hominibus dando</quote>
+            </p>
+            <p xml:id="bHY6yh-de2065-d1e279">
+              <ref xml:id="bHY6yh-de2065-Rd1e301"><sic>Iohannes</sic> in apocalipsi capitulo 3</ref> <quote xml:id="bHY6yh-de2065-Qd1e283" source="http://scta.info/resource/ap3_20@2-24">ait
+              <lb ed="#Ka"/>deus sto ad hostium et pulso siquis
+            <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>audierit vocem meam et <sic>apparuerit</sic>
+              <lb ed="#Ka"/>ianuam introibo ad illam et <sic>tenebo</sic>
+              <lb ed="#Ka"/>cum illo <del rend="strikethrough">ad</del> et ille mecum</quote> <!--starts with ait deus in text vs ecce in bible verse; multiple spelling differences; illo et ipse in bible but illo ad et ille in text-->
+            </p> 
+            <p xml:id="bHY6yh-de2065-d1e293">
+              <ref xml:id="bHY6yh-de2065-Rd1e315">Idem in <sic>ewangelio</sic>
+              <lb ed="#Ka"/>capitulo iii</ref> <quote xml:id="bHY6yh-de2065-Qd1e295" source="http://scta.info/resource/io3_16@1-22 http://scta.info/resource/io3_17@1-17">Sic dilexit deus mundum ut fi
+              <lb ed="#Ka" break="no"/>lium suum vnigenitum <sic>tradet</sic> ut omnis
+              <lb ed="#Ka"/>qui credit in eum non pereat sed ha
+              <lb ed="#Ka" break="no"/>beat vitam eternam non enim misit deus
+              <lb ed="#Ka"/>filium suum in mundum ut iudicet
+              <lb ed="#Ka"/>mundum sed vt saluetur mundus per
+              <lb ed="#Ka"/>ipsum</quote>
+            </p>
+            <p xml:id="bHY6yh-de2065-d1e309"> 
+            ¶ <ref xml:id="bHY6yh-de2065-Rd1e333">15 capitulo.</ref> <quote xml:id="bHY6yh-de2065-Qd1e311" source="http://scta.info/resource/io15_10@1-8">ait ihesus Si praecepta
+              <lb ed="#Ka"/>mea seruaueritis manebitis in dilectione
+              <lb ed="#Ka"/>mea</quote>
+            </p>
+            <p xml:id="bHY6yh-de2065-d1e325">
+              <ref xml:id="bHY6yh-de2065-Rd1e353">Petrus apostolus epistola <add place="above-line" hand="#N1">2</add> capitulo 3 et <unclear>fi</unclear></ref><!--strikethrough?-->
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de2065-Qd1e329" source="http://scta.info/resource/IIpetr3_9@3-17">dominus <unclear>pacientis</unclear> agit propter nos no<!--end of patientis mark in dark ink, scribal correction?-->
+              <lb ed="#Ka" break="no"/>lens aliquem perire sed omnes ad peni<!--words included in the bible verse that aren't included in the text-->
+              <lb ed="#Ka" break="no"/><sic>tenciam</sic> reuerti<!--unclear marking--></quote>
+            </p>
+            <p xml:id="bHY6yh-de2065-d1e337">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de2065-Rd1e367">Paulus apostolus epistola ad romanos
+              <lb ed="#Ka"/>capitulo fi</ref> <quote xml:id="bHY6yh-de2065-Qd1e341" source="http://scta.info/resource/rom8_14@1-9"><sic>Cuiusque</sic> spiritu dei hii sunt filii dei</quote> <!--quicumque in verse but cuiusque in text; aguntur ommitted; filii and sunt swapped in text-->
+            </p>  
+            <p xml:id="bHY6yh-de2065-d1e348">
+              <ref xml:id="bHY6yh-de2065-Rd1e380">Cassiodorus epistolarum libro 8 capitulo 26</ref> <quote xml:id="bHY6yh-de2065-Qd1e352">Quos
+              <lb ed="#Ka"/>superna protegunt felices <unclear>aduersae</unclear><!--last letter unclear-->
+              <lb ed="#Ka"/>are non possunt</quote>
+            </p>
+            <p xml:id="bHY6yh-de2065-d1e358">
+              <pc type="virgula">/</pc> <ref xml:id="bHY6yh-de2065-Rd1e392">prouerbium vulgare</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de2065-Qd1e362"><sic>Achi</sic> dio nol ben<!--words seperated by lines inbetween--> dor mando ienen
+              <lb ed="#Ka"/>achi dio nol male elge tole lo
+              <lb ed="#Ka"/>seuo achi dio nol male lepegore
+              <lb ed="#Ka"/>gedande dente et caetera</quote><!--could not find a corresponding verse-->
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
