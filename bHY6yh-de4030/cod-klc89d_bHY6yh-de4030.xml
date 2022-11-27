@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 15</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#graydonlee">Graydon Lee</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 15</title>
+               <date when="2022-11-09">November 9, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="12-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de4030"><!-- p1l1-r15 -->
+            <head xml:id="bHY6yh-de4030-Hd1e108">Rubrica 15</head>
+            <head xml:id="bHY6yh-de4030-Hd1e111" type="question-title">De oratione religiosa</head>
+            <p xml:id="bHY6yh-de4030-d1e114">
+              <lb ed="#Ka"/>de <sic>oracione</sic> religiosa rubrica <pc type="punctus-medius">·</pc>15<pc type="punctus-medius">·</pc>
+            </p>
+            <p><!--quote from Psalmista 17 included, not in Venice edition-->
+              <lb ed="#Ka"/><ref>PSalmista 17 psalmus</ref> <quote source="http://scta.info/resource/ps17_31@10-15">protector
+              <lb ed="#Ka"/>est deus omnium <sic>sperancium</sic> in
+              <lb ed="#Ka"/>se</quote><!--deus added in text, not in bible verse-->
+            </p>
+            <p> <!--quote from Psalmista 31 added, attributed to 13 in text, not in Venice-->
+              <pc type="virgula">//</pc> <ref><sic>13</sic> psalmus</ref> <quote source="http://scta.info/resource/ps31_10@4-9">Sperantem in domino misericordia
+              <lb ed="#Ka"/>circumdabit</quote>
+            <p><!--new ref added but no quote-->
+            ¶ <ref>32 capitulo</ref><!--ref without quote-->
+            </p>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e119">
+              <ref xml:id="bHY6yh-de4030-Rd1e116">Psalmista 33
+              <lb ed="#Ka"/>psalmus</ref> <quote xml:id="bHY6yh-de4030-Qd1e123" source="http://scta.info/resource/ps33_16@1-10 http://scta.info/resource/ps33_18@1-13">Oculi domini super iustos et aures 
+              <lb ed="#Ka"/>eius in praeces eorum Clamauerunt iusti
+              <lb ed="#Ka"/>et dominus exaudiuit eos et ex omnibus
+              <lb ed="#Ka"/><sic>tribulacionibus</sic> eorum liberauit eos
+              
+         iusti et dominus exaudiuit eos:
+        et ex omnibus tribulationibus eorum liberauit eos</quote> 
+            </p>
+            <p xml:id="bHY6yh-de4030-xxx19p">
+              omitted
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e135">
+              <lb ed="#Ka"/><pc type="virugla">//</pc> <ref xml:id="bHY6yh-de4030-Rd1e136">36 psalmus</ref> <quote xml:id="bHY6yh-de4030-Qd1e139" source="http://scta.info/resource/ps36_7@1-6">Subditus esto domino et ora
+              <lb ed="#Ka"/>eum</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e144">
+            ¶ <ref xml:id="bHY6yh-de4030-Rd1e145">49 psalmus</ref> <quote xml:id="bHY6yh-de4030-Qd1e146" source="http://scta.info/resource/ps49_14@1-4"><sic>ymmola</sic> sacrificium deo
+              <lb ed="#Ka"/>laudis</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e152">
+            ¶ <ref xml:id="bHY6yh-de4030-Rd1e156">50 psalmus</ref> </ref> <quote xml:id="bHY6yh-de4030-Qd1e154" source="http://scta.info/resource/ps50_3@1-15 http://scta.info/resource/ps50_4@1-12 http://scta.info/resource/ps50_12@1-13 http://scta.info/resource/ps50_13@1-14 http://scta.info/resource/ps50_14@1-10">Miserere mei deus
+              <lb ed="#Ka"/>secundum magnam misericordiam tuam et secundum multi
+              <lb ed="#Ka" break="no"/>tudinem <sic>miseracionum</sic> tuarum dele
+              <lb ed="#Ka"/>iniquitatem meam amplius laua
+              <lb ed="#Ka"/>me ab iniquitate mea et apeccato
+              <lb ed="#Ka"/>meo munda me et caetera <pc type="virgula">/</pc> Averte facie
+              <lb ed="#Ka"/>tuam apeccatis meis et omnes iniqui
+              <lb ed="#Ka" break="no"/>tates meas dele Cor mundum
+              <lb ed="#Ka"/>crea in me deus et spiritum rectum
+              <lb ed="#Ka"/>in noua in visceribus meis et
+              <lb ed="#Ka"/>omnis <!--et omnis not included in Vencie edition or Bible verse--><del rend="strikethrough">ini</del> Ne proicias me a facie tua
+              <lb ed="#Ka"/>et spiritum sanctum <!--tuum omitted-->ne auferas a
+              <lb ed="#Ka"/>me <sic>Rede michi leticiam</sic> salutaris tui
+              <lb ed="#Ka"/>et spiritu principali confirma me <!--quptes merged-->Domine
+              <lb ed="#Ka"/>labia mea apies et os meum <sic>anunc</sic>
+              <lb ed="#Ka"/>ciabit <del rend="strikethrough"><sic>ligwa</sic></del> Laudem tuam</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e179">
+              omitted <!--added to previous paragraph <quote xml:id="bHY6yh-de4030-Qd1e181" source="http://scta.info/resource/ps50_17@1-10"> Dauid. Domine labia aperies: et os meum annunciabit laudem tuam.</quote>-->
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e187">
+              <pc type="virgula">//</pc><ref xml:id="bHY6yh-de4030-Rd1e196">69 pslamus</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de4030-Qd1e189" source="http://scta.info/resource/ps69_2@1-10">deus in adiutorium meum intende
+              <lb ed="#Ka"/>domine adiuuandum me festina</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e197">
+            ¶ <ref xml:id="bHY6yh-de4030-Rd1e208">70
+              <lb ed="#Ka"/>pslamus</ref> <quote xml:id="bHY6yh-de4030-Qd1e199" source="http://scta.info/resource/ps70_12@1-11">deus ne elongeris a me deus meus
+              <lb ed="#Ka"/>in auxilium meum respice</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e205">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de4030-Rd1e218">84 psalmus</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de4030-Qd1e207" source="http://scta.info/resource/ps84_8@1-10">Ostende nobis domine misericordiam tuam et
+              <lb ed="#Ka"/>salutare tuum da nobis</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e216"> 
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de4030-Rd1e231">85</ref> <quote xml:id="bHY6yh-de4030-Qd1e218" source="http://scta.info/resource/ps85_5@2-12">Tu
+              <lb ed="#Ka"/>deus suauis et mitis multe misericordiae
+              <lb ed="#Ka"/>es omnibus inuocantibus te</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e224">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de4030-Rd1e241"><sic>102</sic></ref> <quote xml:id="bHY6yh-de4030-Qd1e226" source="http://scta.info/resource/ps101_18@1-8">dominus
+              <lb ed="#Ka"/>respexit in oronem humilium et non
+              <lb ed="#Ka"/>spreuit praecem eorum</quote> 
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e234">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de4030-Rd1e254">104 psalmus</ref> <quote xml:id="bHY6yh-de4030-Qd1e236" source="http://scta.info/resource/Ichr16_8@1-5">Confi
+            <cb ed="#Ka" n="b"/>  
+              <lb ed="#Ka" break="no"/>temini domino et inuocate nomen eius</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e242">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de4030-Rd1e264">146 psalmus</ref> <quote xml:id="bHY6yh-de4030-Qd1e244" source="http://scta.info/resource/ps125_5@1-7">Qui seminat in lacrimis
+              <lb ed="#Ka"/>in exultatione metent</quote> <!--could not find a matching verse-->
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e250">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de4030-Rd1e274">158 psalmus</ref> <quote xml:id="bHY6yh-de4030-Qd1e252" source="http://scta.info/resource/ps137_8@12-15">opera
+              <lb ed="#Ka"/>manuum tuarum ne despicias</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e258">
+              <pc type="virugla">//</pc> <ref xml:id="bHY6yh-de4030-Rd1e285">161
+              <lb ed="#Ka"/>psalmus</ref> <quote xml:id="bHY6yh-de4030-Qd1e260" source="http://scta.info/resource/ps140_3@1-10">pone domine custodiam ori meo et
+              <lb ed="#Ka"/>hostium <sic>circunstancie</sic> labiis meis</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e269"> <!--ref for 163 psalmus quotes ps144 rather than ps142 like Venice edition-->
+              <lb ed="#Ka"/><pc type="virgula">//</pc> <ref xml:id="bHY6yh-de4030-Rd1e299">163 psalmus</ref> <quote xml:id="bHY6yh-de4030-Qd1e283" source="http://scta.info/resource/ps144_18@1-11 http://scta.info/resource/ps144_19@1-12">prope est dominus omnibus inuo
+              <lb ed="#Ka" break="no"/>cantibus eum in veritate Volunta
+              <lb ed="#Ka" break="no"/>tem <sic>timencium</sic> se faciet et depreca
+              <lb ed="#Ka" break="no"/><sic>cionem</sic> eorum exaudiet ut saluos
+              <lb ed="#Ka"/>faciat eos</quote><!--omitted <quote xml:id="bHY6yh-de4030-Qd1e271" source="http://scta.info/resource/ps142_2@2-16">Non intres in iudicium cum seruo tuo: quia non iusificabitur in conspectum tuo omnis viuens.</quote>-->
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e279">
+               omitted <!--ref not included, quote attributed to previous ref<ref xml:id="bHY6yh-de4030-Rd1e314">165 psalmus.</ref>-->
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e293">
+              <ref xml:id="bHY6yh-de4030-Rd1e330">Salomon in prouerbiis
+              <lb ed="#Ka"/>capitulo 15</ref> <quote xml:id="bHY6yh-de4030-Qd1e297" source="http://scta.info/resource/prov15_29@1-9">longe est dominus abimpiis et
+              <lb ed="#Ka"/>orationes iustorum exaudiet</quote><!--33.xml-->            
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e307">
+              <ref xml:id="bHY6yh-de4030-Rd1e346"><sic>Thobie</sic> <sic>hiistoria</sic> capitulo 4</ref> <quote xml:id="bHY6yh-de4030-Qd1e311" source="http://scta.info/resource/tob4_20@1-19">omni tempore benedic
+              <lb ed="#Ka"/>deum et peto ab eo ut vias tuas
+              <lb ed="#Ka"/>dirigat et omnia consilia tua in ipso
+              <lb ed="#Ka"/><sic>permanebint</sic></quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e319">
+            ¶ <ref xml:id="bHY6yh-de4030-Rd1e358">12 capitulo</ref> <quote xml:id="bHY6yh-de4030-Qd1e321" source="http://scta.info/resource/tob12_8@1-12">bona est oratio ieiu
+              <lb ed="#Ka" break="no"/>n<add place="above-line">i</add>o et elemosina magis quam thesau
+              <lb ed="#Ka" break="no"/>rus auri condere et caetera</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e329">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de4030-Rd1e372"><sic>Ihesus</sic> filius <sic>syrach</sic> in ecclesiastico 3 capitulo</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de4030-Qd1e333" source="http://scta.info/resource/sir3_4@1-15">Qui diligit deum exorabit propeccatis
+              <lb ed="#Ka"/>et continebit se ab illis in roatione
+              <lb ed="#Ka"/>dierum exaudiet</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e342">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de4030-Rd1e385">18 capitulo</ref>
+              <quote xml:id="bHY6yh-de4030-Qd1e344" source="http://scta.info/resource/sir18_23@1-13">ante orationem
+              <lb ed="#Ka"/>praepara animam tuam et noli esse <del rend="strikethrough">sicut</del> quasi
+              <lb ed="#Ka"/>homo qui temptat deum</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e352">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de4030-Rd1e399"><sic>Matheus</sic> in <sic>ewangelio</sic> capitulo 6</ref> <quote xml:id="bHY6yh-de4030-Qd1e356" source="http://scta.info/resource/mt6_5@2-21  http://scta.info/resource/mt6_6@5-26  http://scta.info/resource/mt6_7@1-14  http://scta.info/resource/mt6_9@1-13  http://scta.info/resource/mt6_10@1-12  http://scta.info/resource/mt6_11@1-6  http://scta.info/resource/mt6_12@1-11">Cum oratis
+              <lb ed="#Ka"/>non eritis sicut <sic>yppocrite</sic> qui amant
+              <lb ed="#Ka"/>in synogogis et angulis platea
+              <lb ed="#Ka" break="no"/>rum stantes orare ut videantur ab
+              <lb ed="#Ka"/>hominibus Intra cubiculum tuum et clau
+              <lb ed="#Ka" break="no"/>so <sic>hostio</sic> tuo ora patrem tuum in ab
+              <lb ed="#Ka" break="no"/>scondito reddet tibi Orantes nolite
+              <lb ed="#Ka"/>multum loqui Sic orabitis pater noster
+              <lb ed="#Ka"/>qui es in celis sanctificetur nomen
+              <lb ed="#Ka"/>tuum adveniat regnum tuum fiat
+              <lb ed="#Ka"/>voluntas tua sicut in celo et in
+              <lb ed="#Ka"/>terra panem nostrum <sic>cottidianum</sic><!--cottidianum not included in Bible verse or Venice 1505-->
+            <pb ed="#Ka" n="12-v"/>
+            <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>da nobis hodie et dimitte nobis
+              <lb ed="#Ka"/>debita nostra sicut et nos dimittimus
+              <lb ed="#Ka"/>debitoribus nostris et ne nos indu
+              <lb ed="#Ka" break="no"/>cas in <sic>temptacionem</sic> sed libera nos a
+              <lb ed="#Ka"/>malo <unclear>dmen</unclear></quote><!--some signficant differences between the verses and text at various points-->
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e386">
+            ¶ <ref xml:id="bHY6yh-de4030-Rd1e433">7 capitulo</ref> <quote xml:id="bHY6yh-de4030-Qd1e388" source="http://scta.info/resource/lc11_9@5-15">petite et dabitur
+              <lb ed="#Ka"/>vobis querite et in uenietis pulsate
+              <lb ed="#Ka"/>et aperietur vobis</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e396">
+            ¶ <ref xml:id="bHY6yh-de4030-Rd1e445">26 capitulo</ref> <quote xml:id="bHY6yh-de4030-Qd1e398" source="http://scta.info/resource/mt26_41@1-15">Vigilate
+            <lb ed="#Ka"/>et orate ut non intretis in <sic>temptacionem</sic>
+            <lb ed="#Ka"/>spiritus quidem promptus est caro autem
+            <lb ed="#Ka"/>infirma</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e406">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de4030-Rd1e459">Marcus in <sic>ewangelio</sic> <pc type="punctus-medius">·</pc>11<pc type="punctus-medius">·</pc> capitulo<pc type="punctus-medius">·</pc></ref> <quote xml:id="bHY6yh-de4030-Qd1e410" source="http://scta.info/resource/mc11_24@4-13 http://scta.info/resource/mc11_25@1-23">Omnia quecumque
+              <lb ed="#Ka"/>orantes petitis credite: quia acci
+              <lb ed="#Ka" break="no"/>pietis et venit vobis Cum stabis
+              <lb ed="#Ka"/>adorandum dimitte siquid habes ad
+              <lb ed="#Ka" break="no"/>versus aliquem ut pater noster qui <del rend="strikethrough">es</del> in
+              <lb ed="#Ka"/>celis est dimittat vobis peccata uestra</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e422">
+              <lb ed="#Ka"/>¶ <ref xml:id="bHY6yh-de4030-Rd1e477">Lucas in <sic>ewangelio</sic> 11<pc type="punctus-medius">·</pc> capitulo</ref> <quote xml:id="bHY6yh-de4030-Qd1e426" source="http://scta.info/resource/lc11_2@4-13 http://scta.info/resource/lc11_3@1-6 http://scta.info/resource/lc11_4@1-18">Cum orati
+              <lb ed="#Ka"/>dicite pater noster qui es in celis sanc
+              <lb ed="#Ka" break="no"/>tificetur nomen tuum adueniat reg
+              <lb ed="#Ka" break="no"/>num tuum ficat voluntas tua sicut
+              <lb ed="#Ka"/>in celo et interra panem nostrum cotti
+              <lb ed="#Ka" break="no"/>dianum da nobis hodie et dimitte
+              <lb ed="#Ka"/>nobis debita nostra sicut et nos dimit
+              <lb ed="#Ka" break="no"/>timus debitoribus nostris et ne nos
+              <lb ed="#Ka"/>inducas in <sic>temptacionem</sic> sed libera nos
+              <lb ed="#Ka"/>a malo <unclear>dmen</unclear></quote><!--'sed libera nos a malo' from mt6_13@7-11, not included in Venice 1505 or verse from lc11_4-->
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e441">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de4030-Rd1e496">22 capitulo</ref> <quote xml:id="bHY6yh-de4030-Qd1e443" source="http://scta.info/resource/lc22_40@8-12">orate ne intre
+              <lb ed="#Ka" break="no"/>tis intemtationem</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e449">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de4030-Rd1e508"><sic>Iohannes</sic> in <sic>ewangelio</sic> capitulo 9</ref> <quote xml:id="bHY6yh-de4030-Qd1e453" source="http://scta.info/resource/io9_31@4-19">peccatores deus
+              <lb ed="#Ka"/>non audit sed siquis dei cultas
+              <lb ed="#Ka"/>est et eius voluntatem facit hunc exaudit</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e461"><!--quote from iac5_16 put ahead of Icor14_14 in Klosterneuberg ed-->
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de4030-Rd1e554">Iacobus apostolus epistola capitulo 5 et finalis</ref> <quote xml:id="bHY6yh-de4030-Qd1e493" source="http://scta.info/resource/iac5_16@7-17">ora
+              <lb ed="#Ka" break="no"/>te <sic>preinuicem</sic> et saluemini multum
+              <lb ed="#Ka"/>valet <sic>depraecacio</sic> <pc type="virgula">//</pc> <add place="above-line">iusti</add> assidua</quote>
+           
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e473"> 
+        
+              <ref xml:id="bHY6yh-de4030-Rd1e522">Paulus apostolus epistola 1 <pc type="punctus-medius">·</pc> ad corintheos capitulo 14</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de4030-Qd1e465" source="http://scta.info/resource/Icor14_14@2-13">Si orem <sic>ligwa</sic> spiritus meus non orat
+              <lb ed="#Ka"/>mens mea sine fructu est</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e489">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de4030-Rd1e534">Idem
+              <lb ed="#Ka"/>epistola ad colosenses capitulo 3 et penultimo</ref> <quote xml:id="bHY6yh-de4030-Qd1e475" source="http://scta.info/resource/col3_17@2-11">Quem<!--34.xml-->
+              <lb ed="#Ka"/>quodcumque facitis verbo <unclear>uel</unclear> opere omne
+              <lb ed="#Ka"/>in nomine domini <sic>ihesus</sic> christi facite <pc type="virgula">/</pc></quote><!--does not completely match the whole verse-->
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e499"><!--quote from Cato put before quote from Boethius in Klosterneuberg ed-->
+              <ref xml:id="bHY6yh-de4030-Rd1e581">Cato <pc type="punctus-medius">·</pc> capitulo <pc type="punctus-medius">·</pc> 1</ref> <quote xml:id="bHY6yh-de4030-Qd1e516">deum supplica et caetera</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e512">
+              <ref xml:id="bHY6yh-de4030-Rd1e566">Boe
+              <lb ed="#Ka" break="no"/>cius de <del rend="strikethrough">disciplina</del> <sic>consolacione</sic> libro 5 et si</ref> <quote xml:id="bHY6yh-de4030-Qd1e503"><sic>ideo</sic> praeces posite tum recte
+              <lb ed="#Ka"/>sunt in efficaces esse non possunt</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e520">
+              <ref xml:id="bHY6yh-de4030-Rd1e591">Augustinus in <sic>epigmatibus</sic> prosper 89 epigramma</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de4030-Qd1e524">Fidelitur supplicans deo pronecsessi
+              <lb ed="#Ka" break="no"/>tatibus huius vite et misericorditur
+              <lb ed="#Ka"/>non auditur quid omni vtile infirmo
+              <lb ed="#Ka"/>sit magis nouit medicus quod egrotus
+              <lb ed="#Ka"/>Si autem id postulat quod deus praecipit
+              <lb ed="#Ka"/>fieri et omnia quod poscit</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e538">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de4030-Rd1e609">91 epigramma</ref> <quote xml:id="bHY6yh-de4030-Qd1e540">Deus cum aliquid male poscitur dan
+              <lb ed="#Ka" break="no"/>do irascitur et non dando miseretur</quote>
+            </p>
+            <p xml:id="bHY6yh-de4030-d1e546">               
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de4030-Rd1e621"><sic>Isydorus</sic> soliloquiorum libro 2 capitulo 6</ref> <quote xml:id="bHY6yh-de4030-Qd1e550">In
+              <lb ed="#Ka"/>mundus spiritus orationis <sic>instancia</sic> vin
+              <lb ed="#Ka" break="no"/>citur demonia oratione deiciuntur <pc type="virgula">//</pc>
+              <lb ed="#Ka"/></sic>Oracione</sic> demonia superantur</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
