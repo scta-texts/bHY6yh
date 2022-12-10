@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 13</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+             <respStmt>
+               <name ref="#graydonlee">Graydon Lee</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 13</title>
+               <date when="2022-09-25">September 25, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="11-r"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de3608"><!-- p1l1-r13 -->
+            <head xml:id="bHY6yh-de3608-Hd1e108">Rubrica 13</head>
+            <head xml:id="bHY6yh-de3608-Hd1e111" type="question-title">De querendo et adeundo Deum</head>
+            <p xml:id="bHY6yh-de3608-d1e114">
+              <lb ed="#Ka"/>de querendo et adeundo deum rubrica 13
+            </p>
+            <p xml:id="bHY6yh-de3608-d1e119">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de3608-Rd1e116">PSalmista 9 psalmus</ref> <quote xml:id="bHY6yh-de3608-Qd1e123" source="http://scta.info/resource/ps9_11@10-14">non dereliquis
+              <lb ed="#Ka" break="no"/>ti querentes deum non mi
+              <lb ed="#Ka" break="no"/>nentur omni bono</quote>
+            </p>
+            <p xml:id="bHY6yh-de3608-d1e131">
+              omitted <!--line combined with one above in text <ref xml:id="bHY6yh-de3608-Rd1e128">33. psalmus.</ref> <quote xml:id="bHY6yh-de3608-Qd1e133" source="http://scta.info/resource/ps33_11@5-11">Inquirentes deum--><!--autem dominum--><!--non minuentur omni bono.</quote>-->
+            </p>
+            <p xml:id="bHY6yh-de3608-d1e140">
+            ¶ <ref xml:id="bHY6yh-de3608-Rd1e139">36 psalmus</ref> <quote xml:id="bHY6yh-de3608-Qd1e142" source="http://scta.info/resource/ps36_4@1-9">delectare
+              <lb ed="#Ka"/>in domino et dabit tibi peticiones
+              <lb ed="#Ka"/>cordis tui</quote>
+            </p>
+            <p xml:id="bHY6yh-de3608-d1e150"> 
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de3608-Rd1e151">86 pslamus</ref> <quote xml:id="bHY6yh-de3608-Qd1e152" source="http://scta.info/resource/ps68_33@5-10">querite deum
+            <pb ed="#Ka" n="11-v"/>
+            <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>et confirmabimini</quote>
+            </p>
+            <p xml:id="bHY6yh-de3608-d1e158">
+              omitted <!-- combined with previous line <ref xml:id="bHY6yh-de3608-Rd1e161">104. psalmus.</ref> <quote xml:id="bHY6yh-de3608-Qd1e160" source="http://scta.info/resource/ps104_4@1-4">Querite dominum et confirmabimi </quote>-->
+            </p>
+            <p xml:id="bHY6yh-de3608-d1e164">
+              <ref xml:id="bHY6yh-de3608-Rd1e171">Paralipo
+              <lb ed="#Ka" break="no"/>menon libro i capitulo 28</ref> <quote xml:id="bHY6yh-de3608-Qd1e168" source="http://scta.info/resource/Ichr28_9@28-39">Si quesieris
+              <lb ed="#Ka"/>deum in venies si autem dereliqueris
+              <lb ed="#Ka"/>eum derelinquet uos</quote><!--proijciet te in eternum removed; quote from following ref used-->
+            </p>
+            <p xml:id="bHY6yh-de3608-d1e176">
+              omitted <!--quote moved to previous ref <ref xml:id="bHY6yh-de3608-Rd1e183">Libro. 2 c. 15.</ref> <quote xml:id="bHY6yh-de3608-Qd1e178" source="http://scta.info/resource/IIchr15_2@23-31">Si quasieriti deum inue
+        nietis: si autem dereliquiritis eum: derelinquit vos.</quote>-->
+            </p>
+            <p xml:id="bHY6yh-de3608-d1e184">
+              <ref xml:id="bHY6yh-de3608-Rd1e195">Ieremias
+              <lb ed="#Ka"/>propheta in libro prophetiarum capitulo 29</ref> <quote xml:id="bHY6yh-de3608-Qd1e188" source="http://scta.info/resource/ier29_13@5-11 http://scta.info/resource/ier29_14@1-6">Cum
+              <lb ed="#Ka"/><unclear>quesieritis</unclear> me in toto corde vestro
+              <lb ed="#Ka"/>in ueniar a vobis ait dominus</quote><!--quesieritis or quesieris-->
+            </p>
+            <p xml:id="bHY6yh-de3608-d1e197">
+              <ref xml:id="bHY6yh-de3608-Rd1e210">Ihesus
+              <lb ed="#Ka"/>filius <sic>syrach</sic> in ecclesiastico</ref> <quote xml:id="bHY6yh-de3608-Qd1e201" source="http://scta.info/resource/sir2_13@5-16">deus
+              <lb ed="#Ka"/>protector et omnibus ex quirenti
+              <lb ed="#Ka"/>se in veritate</quote> <!--not an exact match but it is close-->
+            </p>
+            <p xml:id="bHY6yh-de3608-d1e207">
+              <ref xml:id="bHY6yh-de3608-Rd1e222">Philon libro sapiente
+              <lb ed="#Ka"/>capitulo 1:</ref> <quote xml:id="bHY6yh-de3608-Qd1e211" source="http://scta.info/resource/sap1_1@6-16 http://scta.info/resource/sap1_2@1-16">Sentite <sic>te</sic> domino in bonitate cor
+              <lb ed="#Ka" break="no"/>dis querite illum quoniam in veniatur ab
+              <lb ed="#Ka"/>hiis qui non temptant illum apparet
+              <lb ed="#Ka"/>autem illis qui fidem habent in illum</quote>  <!--"et in simplicitate" omitted from text-->
+            </p>
+            <p xml:id="bHY6yh-de3608-d1e221">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de3608-Rd1e238">Matheus in <sic>ewangelio</sic> capitulo 7</ref> <quote xml:id="bHY6yh-de3608-Qd1e225" source="http://scta.info/resource/mt7_7@5-11">et in ue
+              <lb ed="#Ka" break="no"/>nietis pulsate et <sic>apperietur</sic> vobis</quote><!--Querite omitted-->
+            </p>
+            <p xml:id="bHY6yh-de3608-d1e231">
+              <quote xml:id="bHY6yh-de3608-Qd1e233"></quote> <ref>Idem dicit lucas in <sic>ewangelio</sic> capitulo <sic>5</sic></ref><!--referencing same quote in Mattheus 7 and Lucas 11-->
+            </p>
+            <p xml:id="bHY6yh-de3608-d1e239">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de3608-Rd1e260"><sic>Iohannes</sic> in <sic>ewangelio</sic> capitulo 6</ref> <quote xml:id="bHY6yh-de3608-Qd1e243" source="http://scta.info/resource/io6_37@10-17">ait <sic>ihesus</sic>
+              <lb ed="#Ka"/>eum qui venit ad me non <sic>eciam</sic>
+              <lb ed="#Ka"/>foras</quote><!--32.xml-->
+            </p>
+            <p xml:id="bHY6yh-de3608-d1e253">
+              <ref xml:id="bHY6yh-de3608-Rd1e276">Iacobus apostolus in epistola prima
+              <lb ed="#Ka"/>capitulo 4</ref> <quote xml:id="bHY6yh-de3608-Qd1e257"><sic>apropinquate</sic> deo et <sic>apropinqua</sic>
+              <lb ed="#Ka" break="no"/><sic>bitur</sic> vobis</quote> <!--could not find a matching verse-->
+            </p>
+            <p xml:id="bHY6yh-de3608-d1e264">
+              <ref xml:id="bHY6yh-de3608-Rd1e289">Paulus apostolus epistola
+              <lb ed="#Ka"/><sic>adebreos</sic> capitulo iiii</ref> <quote xml:id="bHY6yh-de3608-Qd1e268" source="http://scta.info/resource/hebr4_16@1-16">adeamus cum fidu
+              <lb ed="#Ka" break="no"/>cia ad <sic>tronum</sic> <sic>gratie</sic> et misericordiam
+              <lb ed="#Ka"/>consequitur ei <sic>graciam</sic> in veniamus
+              <lb ed="#Ka"/>in auxilio <sic>oportuno</sic></quote>
+            </p>
+            <p xml:id="bHY6yh-de3608-d1e276">
+              <ref xml:id="bHY6yh-de3608-Rd1e303"><sic>Boecius</sic> de <sic>consolacione</sic> libro 3 capitulo 17</ref> <quote xml:id="bHY6yh-de3608-Qd1e280">ut placem
+              <lb ed="#Ka"/>placet in minimis quoque rebus <unclear>demn</unclear><!--diuinum in Venice and Boethius-->
+              <lb ed="#Ka"/>debet auxilium implorari in uocan
+              <lb ed="#Ka" break="no"/>dum censeo rerum omnium patrem quo
+              <lb ed="#Ka"/>praetermiss<del rend="strikethrough">am</del><add place="above-line">o</add> nullum rite fundatur
+              <lb ed="#Ka"/>exordium</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

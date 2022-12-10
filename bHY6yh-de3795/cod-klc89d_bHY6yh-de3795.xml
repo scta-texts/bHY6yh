@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 14</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#graydonlee">Graydon Lee</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 14</title>
+               <date when="2022-11-05">November 5, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="11-v"/>
+            <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de3795"><!-- p1l1-r14 -->
+            <head xml:id="bHY6yh-de3795-Hd1e108">Rubrica 14</head>
+            <head xml:id="bHY6yh-de3795-Hd1e111" type="question-title">De spe atque desperatione hominis ad deum.</head>
+            <p xml:id="bHY6yh-de3795-d1e114">
+              <lb ed="#Ka"/>de spe atque <sic>desperacione</sic>
+              <lb ed="#Ka"/>hominis ad deum rubrica <pc type="punctus-medius">·</pc>14<pc type="punctus-medius">·</pc>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de3795-Rd1e118">PSalmista 17 psalmus</ref> <quote xml:id="bHY6yh-de3795-Qd1e125" source="http://scta.info/resource/ps17_31@10-15">protector
+              <lb ed="#Ka"/>est deus omnium <sic>sperancium</sic>
+              <lb ed="#Ka"/>in se</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e133">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de3795-Rd1e130"><sic>13</sic> psalmus</ref> <quote xml:id="bHY6yh-de3795-Qd1e135" source="http://scta.info/resource/ps31_10@4-9">Separentem in domino
+              <lb ed="#Ka"/>misericordia circumdabit</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e144">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de3795-Rd1e143">32 psalmus</ref> <quote xml:id="bHY6yh-de3795-Qd1e146" source="http://scta.info/resource/ps32_18@2-14">oculi domini
+            <cb ed="#Ka" n="b"/>  
+              <lb ed="#Ka"/>in eis qui sperant super misericordia eius</quote> <!--not an an exact match but quite close-->
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e152">
+              <lb ed="#Ka"/><pc type="virgula">//</pc> <ref xml:id="bHY6yh-de3795-Rd1e153">33 psalmus</ref> <quote xml:id="bHY6yh-de3795-Qd1e154" source="http://scta.info/resource/ps33_9@8-13">beatus vir qui sperat in
+              <lb ed="#Ka"/>domino</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e160">
+              <lb ed="#Ka"/>¶ <ref xml:id="bHY6yh-de3795-Rd1e163">36 psalmus</ref> <quote xml:id="bHY6yh-de3795-Qd1e162" source="http://scta.info/resource/ps36_3@1-6">Spera in domino et fac
+              <lb ed="#Ka"/>bonitatem</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e168">
+              <quote xml:id="bHY6yh-de3795-Qd1e170" source="http://scta.info/resource/ps36_5@1-8">Reuela domino viam tuam
+              <lb ed="#Ka"/>et spera in eo</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e176">
+              <quote xml:id="bHY6yh-de3795-Qd1e178">dominus saluabit iustos <!--issue of reference and quotes again-->
+              <lb ed="#Ka"/>qui sperant in eo</quote> <!--Close but not exact match to ps36_40; speraverunt changed to sperant-->
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e184">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de3795-Rd1e191">39 psalmus</ref> <quote xml:id="bHY6yh-de3795-Qd1e186" source="http://scta.info/resource/ps39_5@1-16">beatus
+              <lb ed="#Ka"/>vir cuius est nomen domini spes eius et
+              <lb ed="#Ka"/>non respexit in vanitates et in
+              <lb ed="#Ka" break="no"/>sanias falsas</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e195">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de3795-Rd1e204">83 psalmus</ref> <quote xml:id="bHY6yh-de3795-Qd1e197" source="http://scta.info/resource/ps83_13@11-16">beatus homo
+              <lb ed="#Ka"/>qui sperat in domino</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e203">
+              <ref xml:id="bHY6yh-de3795-Rd1e214">117 psalmus</ref> <quote xml:id="bHY6yh-de3795-Qd1e205" source="http://scta.info/resource/ps117_8@1-9 http://scta.info/resource/ps117_9@1-9">bonum
+              <lb ed="#Ka"/>est confidere in domino quam confidere
+              <lb ed="#Ka"/>in principibus</quote><!--'Bonum est sperare in domino quam sperare' omitted; 'in princibus' replaced 'in homine' in previous line-->
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e215">
+              <lb ed="#Ka"/>¶ <ref xml:id="bHY6yh-de3795-Rd1e228">167 psalmus</ref> <quote xml:id="bHY6yh-de3795-Qd1e217" source="http://scta.info/resource/ps146_11">beneplacitum
+              <lb ed="#Ka"/>est domino in eis qui sperant super misericordia eius</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e223">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de3795-Rd1e240">Salomon in prouerbiis <pc type="virgula">/</pc> capitulo 3</ref> <quote xml:id="bHY6yh-de3795-Qd1e227" source="http://scta.info/resource/prov3_5@1-13 http://scta.info/resource/prov3_6@1-11">habe
+              <lb ed="#Ka"/>fiduciam in domino ex toto corde tuo
+              <lb ed="#Ka"/>et ne <sic>innicaris</sic> <sic>prudencie</sic> tue et
+              <lb ed="#Ka"/>in omnibus viis tuis cogita illum et
+              <lb ed="#Ka"/>ipse diriget gressus tuos</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e237">
+              <lb ed="#Ka"/><pc type="virgula">//</pc> <ref xml:id="bHY6yh-de3795-Rd1e254">16 capitulo</ref> <quote xml:id="bHY6yh-de3795-Qd1e239" source="http://scta.info/resource/prov16_20@7-12"><sic>Qi</sic><!--qui in venice edition-->
+              <lb ed="#Ka"/>in domino sperat beatus est</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e245">
+              <ref xml:id="bHY6yh-de3795-Rd1e264">28 capitulo</ref> <quote xml:id="bHY6yh-de3795-Qd1e247" source="http://scta.info/resource/prov28_25@8-12"><sic>Qi</sic>
+              <lb ed="#Ka"/>sperat in domino saluabitur</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e254">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de3795-Rd1e275">29 capitulo</ref><pc type="punctus-medius">·</pc>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de3795-Qd1e256" source="http://scta.info/resource/prov29_25@6-10">Qui sperat in domino subleuetur</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e262">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de3795-Rd1e285">30 capitulo</ref> <quote xml:id="bHY6yh-de3795-Qd1e264" source="http://scta.info/resource/lam3_25@3-6">Clipeus est dominus sperantibus
+              <lb ed="#Ka"/>in se</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e268">
+              <ref xml:id="bHY6yh-de3795-Rd1e295">Regum libro 5 capitulo 22</ref> <quote xml:id="bHY6yh-de3795-Qd1e272" source="http://scta.info/resource/IIsam22_31@9-14">Scutum est dominus
+              <lb ed="#Ka"/>omnibus sperantibus in se</quote> <!--libro changed from 2 to 5; dominus is not included in the bible verse; omnium and sperantium changed to omnibus and sperantibus-->
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e278">
+              <ref xml:id="bHY6yh-de3795-Rd1e307">Ieremi
+              <lb ed="#Ka" break="no"/>as propheta in libro lamentationes capitulo iii</ref> <pc type="virgula">//</pc> <quote xml:id="bHY6yh-de3795-Qd1e282" source="http://scta.info/resource/lam3_25@2-7">Bonum
+              <lb ed="#Ka"/>est dominus sperantibus in eum bonum
+              <lb ed="#Ka"/>est praestolari cum silencia salutare domini</quote><!--domini added from line below--> <pc type="virgula">//</pc>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e288"> 
+              omitted <!--line combined with previous <quote xml:id="bHY6yh-de3795-Qd1e290" source="http://scta.info/resource/lam3_26@2-8">/ Bonum est praestolari cum filentio salutare domini.</quote>-->
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e296">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de3795-Rd1e329">Gregorius in pastorali 
+              <lb ed="#Ka"/>capitulo 51</ref> <!--ref quote issues-->
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e305"> 
+              <lb ed="#Ka"/>¶ <quote xml:id="bHY6yh-de3795-Qd1e307">de spe eterne hereditas gaudium
+              <lb ed="#Ka"/>sumat quos aduersitas vite temporalis
+              <lb ed="#Ka"/>humiliat quia nisi saluandos
+              <lb ed="#Ka"/><sic>inperpetuum</sic> cerneret erudiendos
+              <lb ed="#Ka"/>sub discipline regimine diuina dispen
+              <lb ed="#Ka" break="no"/><sic>sacio</sic> non frenaret</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e326">
+              <ref xml:id="bHY6yh-de3795-Rd1e360"><sic>Isydorus</sic> soli
+              <lb ed="#Ka" break="no"/>loquiorum libro 1 capitulo 12</ref> <quote xml:id="bHY6yh-de3795-Qd1e330">Qui veniam
+              <lb ed="#Ka"/><sic>depeccato</sic> desperat plus se de <sic>speracione</sic>
+              <lb ed="#Ka"/>quam de commisso crimine <sic>dampnat</sic>
+            <pb ed="#Ka" n="12-r"/>
+            <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>de <sic>speracio</sic> autem peccatum</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
