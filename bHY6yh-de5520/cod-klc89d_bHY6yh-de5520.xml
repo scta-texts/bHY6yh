@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 20</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name ref="#graydonlee">Graydon Lee</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 20</title>
+               <date when="2022-11-19">November 19, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="14-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de5520"><!-- p1l1-r20 -->
+            <head xml:id="bHY6yh-de5520-Hd1e108">Rubrica 20</head>
+            <head xml:id="bHY6yh-de5520-Hd1e111" type="question-title">De elemosyna</head>
+            <p xml:id="bHY6yh-de5520-d1e114">
+              <lb ed="#Ka"/>de elemosina rubrica 20
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e119">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de5520-Rd1e116">PSalmista pslamus 40</ref> <quote xml:id="bHY6yh-de5520-Qd1e123">beatus
+              <lb ed="#Ka"/>qui intelligit super egenum
+              <lb ed="#Ka"/>et pauperem in die mala liberabit
+              <lb ed="#Ka"/>eum dominus</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e133">
+              <ref xml:id="bHY6yh-de5520-Rd1e132">Salomon <sic>inprouerbiis</sic>
+              <lb ed="#Ka"/>capitulo 14</ref> <quote xml:id="bHY6yh-de5520-Qd1e137">Qui miseretur pauperis beatus
+              <lb ed="#Ka"/>erit</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e144">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de5520-Rd1e143">17 capitulo</ref> <quote xml:id="bHY6yh-de5520-Qd1e146">Qui despicit pauperem
+            <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>exprobrat factori eius</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e152">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de5520-Rd1e153">19 capitulo</ref> <quote xml:id="bHY6yh-de5520-Qd1e154">fene
+              <lb ed="#Ka" break="no"/>neratur domino qui miseretur pauperis
+              <lb ed="#Ka"/>et ipse clamabit et non exaudietur</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e168">
+              omitted <!--quote merged with previous ref <ref xml:id="bHY6yh-de5520-Rd1e171">31.</ref> <quote xml:id="bHY6yh-de5520-Qd1e170">Qui obturat aurem suam ad clamorem pauperis: et ipse clamabit et non exaudietur.</quote>-->
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e178">
+              <lb ed="#Ka"/><pc type="virgula">//</pc> <ref xml:id="bHY6yh-de5520-Rd1e183">28 capitulo</ref> <quote xml:id="bHY6yh-de5520-Qd1e180">Qui dat pauperi non indi
+              <lb ed="#Ka" break="no"/>geb<subst><del rend="strikethrough">a</del><add place="above-line">i</add></subst>t qui despicit de precantem susti
+              <lb ed="#Ka" break="no"/>nebit penuriam</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e188"> 
+              <ref xml:id="bHY6yh-de5520-Rd1e195">Idem in <sic>ecclesiasce</sic> capitulo
+              <lb ed="#Ka"/>7.</ref> <quote xml:id="bHY6yh-de5520-Qd1e190">bonum est te sustine <del rend="strikethrough">dominum</del> iustum
+              <lb ed="#Ka"/>sed ab illo ne subtrahas manum
+              <lb ed="#Ka"/>tuam</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e198">
+              <ref xml:id="bHY6yh-de5520-Rd1e209"><sic>Thobie</sic> historia capitulo 4</ref> <quote xml:id="bHY6yh-de5520-Qd1e202">ex sub
+              <lb ed="#Ka" break="no"/><sic>stancia</sic> tua fac elomosinam et
+              <lb ed="#Ka"/>noli auertere faciem tuam ab ullo
+              <lb ed="#Ka"/>paupere ita enim fiet ut nec a te a
+              <lb ed="#Ka"/>uertetur faciem domini</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e213">
+            ¶ <quote xml:id="bHY6yh-de5520-Qd1e215">quodomodo potueritis
+              <lb ed="#Ka"/>estote misericordes si multum tibi
+              <lb ed="#Ka"/>fuerit <sic>habundanter</sic> tribue si <sic>exignum</sic>
+              <lb ed="#Ka"/>fuerit tibi eciam exignum liveretur in per
+              <lb ed="#Ka" break="no"/><sic>tinencia</sic> stude premium enim tibi bonum
+              <lb ed="#Ka"/>thesaurizas in die neccitatis</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e227"><!--quote no reference-->
+              <pc type="virgula">//</pc> <quote xml:id="bHY6yh-de5520-Qd1e229">Elemo
+              <lb ed="#Ka" break="no"/>sina ab omni peccato et amorte liberat
+              <lb ed="#Ka"/>et non <sic>pacietur</sic> animam ire intenebras</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e235"><!--quotes merged-->
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de5520-Qd1e239">fiducia magna erit coram summo deo
+              <lb ed="#Ka"/>elemosinam omnibus facientibus eam</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e245"><!--quotes merged-->
+              <quote xml:id="bHY6yh-de5520-Qd1e247">pa
+              <lb ed="#Ka" break="no"/>nem tuum cum esurientibus et egenis
+              <lb ed="#Ka"/><unclear>commede</unclear> et de vestimentis tuis <unclear>nudes</unclear><!--macron above 'comede'?, e or o after 'nud'?-->
+              <lb ed="#Ka"/>tege</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e255">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de5520-Rd1e272">12 capitulo</ref> <quote xml:id="bHY6yh-de5520-Qd1e257">Elemosina a morte
+              <lb ed="#Ka"/>liberat et ipse est que purgat peccata
+              <lb ed="#Ka"/>et facit inuenire vitam eternam</quote>    
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e265">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de5520-Rd1e286"><sic>Isayas</sic> propheta capitulo 58<!--scribal correction, 5 written over 2--></ref> <quote xml:id="bHY6yh-de5520-Qd1e269">frange esurienti
+              <lb ed="#Ka"/>panem tuum et egenos vagosque
+              <lb ed="#Ka"/>induc in domum tuam Cum vi
+              <lb ed="#Ka" break="no"/>deris nudum cooperis eum et carnem
+              <lb ed="#Ka"/>tuam ne despexeris</quote><!--use of 'cooperis' vs 'operis' in Venice and Bible-->
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e280">
+              <ref xml:id="bHY6yh-de5520-Rd1e303"><sic>Ihesus</sic> filius
+              <lb ed="#Ka"/><sic>syrach</sic> in ecclesiastico capitulo 2</ref> <quote xml:id="bHY6yh-de5520-Qd1e284">Elemo
+              <lb ed="#Ka" break="no"/>sina resistit peccatis</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e290">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de5520-Rd1e313">capitulo 4</ref> <quote xml:id="bHY6yh-de5520-Qd1e292">Elemo
+              <lb ed="#Ka" break="no"/>sinam pauperis ne defraudes et
+              <lb ed="#Ka"/>oculos tuos ne transferas a paupere</quote><!--use of 'transferas' vs 'transuertas' in Venice and Bible-->
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e300">
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de5520-Qd1e302">Cor in opis ne afflixeris et non
+              <lb ed="#Ka"/>protrahas datum angustianti anime</quote>
+            </p>
+            <pb ed="#Ka" n="15-r"/>
+            <cb ed="#Ka" n="a"/>
+            <p xml:id="bHY6yh-de5520-d1e308">
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de5520-Qd1e312">Rogationi cum tribulatione ne <sic>abicias</sic>
+              <lb ed="#Ka"/>et ne auertas faciem tuam <sic>abegno</sic></quote><!--use of 'Rogationi cum tribulatione' vs 'Rogationem contribulati' in Venice and Bible-->
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e318">
+              <lb ed="#Ka"/><pc type="virgula">//</pc> <ref xml:id="bHY6yh-de5520-Rd1e343">c <sic>i4</sic></ref> <quote xml:id="bHY6yh-de5520-Qd1e320">Elemosinam pauperis secundum vires
+              <lb ed="#Ka"/>tuam porrigens da pauperibus</quote> <pc type="virgula">//</pc><!--addition 'Elemosinam pauperis' not in Venice or Bible-->
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e326">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de5520-Rd1e353">17 capitulo</ref> <quote xml:id="bHY6yh-de5520-Qd1e328">Elemosinam <sic>veri</sic> quasi saccu
+              <lb ed="#Ka" break="no"/>lum cum ipso</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e335">
+              <ref xml:id="bHY6yh-de5520-Rd1e366"><sic>Matheus</sic> in <sic>ewangelio</sic>
+              <lb ed="#Ka"/>c 5</ref> <quote xml:id="bHY6yh-de5520-Qd1e339">Cum facis elemosinam ne tu
+              <lb ed="#Ka" break="no"/>ba canere ante sicut <sic>yppocrite</sic> faci
+              <lb ed="#Ka" break="no"/>unt in synagogis eorum</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e347">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de5520-Rd1e378">capitulo 15</ref> <quote xml:id="bHY6yh-de5520-Qd1e349">non
+              <lb ed="#Ka"/>est bonum sumere panem filiorum et dare
+              <lb ed="#Ka"/>canibus</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e355">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-de5520-Rd1e390">c 19</ref> <quote xml:id="bHY6yh-de5520-Qd1e359">ait iesus Si vis
+              <lb ed="#Ka"/>perfectus esse vade et vende omnia
+              <lb ed="#Ka"/>que habes et da pauperibus et
+              <lb ed="#Ka"/>habebis thesaurum in celo et veni
+              <lb ed="#Ka"/>et sequere me</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e367">               
+            ¶ <ref xml:id="bHY6yh-de5520-Rd1e404">Lucas in <sic>ewangelio</sic> capitulo
+            <lb ed="#Ka"/>3</ref> <quote xml:id="bHY6yh-de5520-Qd1e371">Qui habet duas tunicas det non
+            <lb ed="#Ka"/>habenti et qui habet escas similiter fa
+            <lb ed="#Ka" break="no"/>ciat</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e383">
+              <ref xml:id="bHY6yh-de5520-Rd1e420">capitulo 10</ref> <quote xml:id="bHY6yh-de5520-Qd1e385">ait <sic>ihesus</sic> discipulis suis
+              <lb ed="#Ka"/>in quaecumque ciuitatem intraueritis et
+              <lb ed="#Ka"/>susceperint vos manducate que
+              <lb ed="#Ka"/>apponuntur vobis
+              <lb ed="#Ka"/>In quaecumque ciuitate intraueritis et
+              <lb ed="#Ka"/>non receperint vos <unclear>exenitos</unclear> in
+              <lb ed="#Ka"/>plateis eis dicite <sic>eciam</sic> puluerem qui
+              <lb ed="#Ka"/>adhesit nostra extergimus in uos cum
+              <lb ed="#Ka"/>hoc scitote quia <sic>apropinquabit</sic> regnum
+              <lb ed="#Ka"/>dei</quote>
+            </p>  
+            <p xml:id="bHY6yh-de5520-d1e404">
+            ¶ <ref xml:id="bHY6yh-de5520-Rd1e445">capitulo 16</ref> <pc type="virgula">//</pc> <quote xml:id="bHY6yh-de5520-Qd1e408">homo quidam erat diues
+              <lb ed="#Ka"/>et induebatur purpurea et bisso et
+              <lb ed="#Ka"/>epulebatur cottidie splendide et
+              <lb ed="#Ka"/>erat quidem mendicus nomine lazarus
+              <lb ed="#Ka"/>qui iacebat ad ianuam eius ulce
+              <lb ed="#Ka" break="no"/>ribus plenus cupiens saturari de
+              <lb ed="#Ka"/>micis que cadebant de mensa diuitis
+              <lb ed="#Ka"/>et nemo illi dabat sed et canes
+              <lb ed="#Ka"/>veniebant et lingebant <del rend="strikethrough">et</del> vlcera
+              <lb ed="#Ka"/>eius</quote>
+            </p>
+            <p><!--quotes separated by pilcrow, no ref for second-->  
+            ¶ <quote>factum est autem ut morietur
+              <lb ed="#Ka"/>mendicus et portabatur abangelis
+            <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>insinu abrahe Mortuus est autem
+              <lb ed="#Ka"/>autem diues et sepultus est in
+              <lb ed="#Ka" break="no"/>ferno</quote>
+            </p>  
+            <p>
+            ¶ <quote>Eleuans autem oculos sues
+              <lb ed="#Ka"/>cum esset intormentis vidit abraham
+              <lb ed="#Ka"/>alonge et lazarum in sinu eius et
+              <lb ed="#Ka"/>ipse exclamans dixit pater abraham
+              <lb ed="#Ka"/>miserere mei et mitte lazarum ut
+              <lb ed="#Ka"/>in tingat extremum digiti sui in
+              <lb ed="#Ka"/>aquam ut refrigeret <sic>liguam</sic> <del rend="strikethrough">suam</del>
+              <lb ed="#Ka"/>meam quia crucior in hac flamma et dixit
+              <lb ed="#Ka"/>illi <sic>abrahram</sic> fili recordare quia
+              <lb ed="#Ka"/>recepisci bona in vita tua et laza
+              <lb ed="#Ka" break="no"/>rus similiter mala <pc type="virgula">/</pc> nunc autem hic con
+              <lb ed="#Ka" break="no"/>solatur tu vero cruciaris et in hiis
+              <lb ed="#Ka"/>omnibus inter nos et vos chaos
+              <lb ed="#Ka"/>magnum firmamentum est ut hii qui
+              <lb ed="#Ka"/>nolunt hic transire ad nos non
+              <lb ed="#Ka"/>possunt neque inde neque huc transmeare</quote>
+            </p>
+            <p>
+              <lb ed="#Ka"/>¶ <quote> et ait rogo te pater ut mittas
+              <lb ed="#Ka"/>eum in domum patris mei habeo
+              <lb ed="#Ka"/>enim quinque fratres ut testetur illis ne et ipsi veniatur in locum hunc tormen
+              <lb ed="#Ka" break="no"/>torum et ait illi abraham habet Moy
+              <lb ed="#Ka" break="no"/>sem et prophetas audiant illos ad
+              <lb ed="#Ka"/>ille dixit non pater abraham secundum si
+              <lb ed="#Ka" break="no"/>quis exmortuis ierit ad eos
+              <lb ed="#Ka"/><sic>penitenciam</sic> agent ait autem illi Si
+              <lb ed="#Ka"/>moysem et prophetas non <unclear>audiuint</unclear> neque
+              <lb ed="#Ka"/>siquis exmortuis resurrexerit cre
+              <lb ed="#Ka" break="no"/>dent ei</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e478">                      
+              <ref xml:id="bHY6yh-de5520-Rd1e521">Iohannes apostolus epistola 1 <pc type="punctus-medius">·</pc> capitulo
+              <lb ed="#Ka"/>3</ref> <quote xml:id="bHY6yh-de5520-Qd1e482">Qui habuerit substantiam mundi et
+              <lb ed="#Ka"/>viderit fratrem suum necessitem habere et
+              <lb ed="#Ka"/>clausitviscera sua ab eo quomodo
+              <lb ed="#Ka"/>caritas dei manem in eo</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e492">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de5520-Rd1e537">Paulus apostolus epistola <sic>et</sic> ad corinthios
+              <lb ed="#Ka"/>capitulo 9</ref> <quote xml:id="bHY6yh-de5520-Qd1e504"><sic>hylarem</sic> dacionem diligit deus</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e500">
+              omitted <!--quote from previous ref-->    
+            </p>
+            <pb ed="#Ka" n="15-v"/>
+            <cb ed="#Ka" n="a"/>
+            <p xml:id="bHY6yh-de5520-d1e514">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de5520-Rd1e560">Seneca de beneficiis libro 2</ref> <quote xml:id="bHY6yh-de5520-Qd1e518">dabo egen
+              <lb ed="#Ka" break="no"/>ti sed ut ipse non egena succurram
+              <lb ed="#Ka"/>perituro sed ut ipse non per eam et caetera</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e526">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de5520-Rd1e574">Cecilius firmans de beata vita libro 4</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de5520-Qd1e530">beneficia nulla est vbicumque necessitas
+              <lb ed="#Ka"/>non est perit ergo quidquid gratiae <unclear>tam</unclear><!--should be 'causam' but written as 'tam' with macron above-->
+              <lb ed="#Ka"/>non indigentibus tribuitur</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e538">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-de5520-Rd1e588">Cassiodorus epistolarum libro 12 epistola 13</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-de5520-Qd1e542">Qui potest esurentibus subvenire si
+              <lb ed="#Ka"/>non pascit <sic>extingit</sic></quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e551">
+              <ref xml:id="bHY6yh-de5520-Rd1e601">27 epistola et 
+              <lb ed="#Ka"/>penultis</ref> <quote xml:id="bHY6yh-de5520-Qd1e553">Egentibus iustum est non
+              <lb ed="#Ka"/>diuitibus subueniri fundit <sic>pocius</sic>
+              <lb ed="#Ka"/>qui mittit inplenum</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e561">
+              <ref xml:id="bHY6yh-de5520-Rd1e615"><sic>Isydorus</sic> soli
+              <lb ed="#Ka" break="no"/>loquiorum libro 2 capitulo 54 et antepenultis</ref> <quote xml:id="bHY6yh-de5520-Qd1e565">Quod
+              <lb ed="#Ka"/>bono effectu <sic>de spen satur</sic> hoc accipit
+              <lb ed="#Ka"/>deus qui autem cum tedio dat mer
+              <lb ed="#Ka" break="no"/>cedem perdit</quote>
+            </p>
+            <p xml:id="bHY6yh-de5520-d1e573">
+              <pc type="virgula">/</pc> <quote xml:id="bHY6yh-de5520-Qd1e577">non <sic>aufferas</sic> vni vnde
+              <lb ed="#Ka"/>alii tribuas ne te misericordem
+              <lb ed="#Ka"/>ostendas alieno spolio et caetera</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
