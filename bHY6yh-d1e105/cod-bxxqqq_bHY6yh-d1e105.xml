@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 2</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 2</title>
+          <date when="2021-05-18">May 18, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="4-v"/>
+        <cb ed="#B" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d1e105"><!-- p1l1-r2 -->
+        <head xml:id="bHY6yh-d1e105-Hd1e108">Rubrica 2</head>
+        <head xml:id="bHY6yh-d1e105-Hd1e111" type="question-title">De magnificentia et potentia dei</head>
+        <p xml:id="bHY6yh-d1e105-d1e114">
+          Rubrica Secunda
+          <lb ed="#B"/>de magnificentia et potentia dei
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e121">
+          <cb ed="#B" n="b"/>
+          <lb ed="#B"/><ref xml:id="bHY6yh-d1e105-Rd1e124"><name xml:id="bHY6yh-d1e105-Nd1e125">Iob</name> hystoria capitulo 9</ref> <quote xml:id="bHY6yh-d1e105-Qd1e123">dei ire resiste<lb ed="#B" break="no"/>re nemo potest</quote>  
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e131">
+          ¶ <ref xml:id="bHY6yh-d1e105-Rd1e137">capitulo 26</ref> 
+          <lb ed="#B"/><quote xml:id="bHY6yh-d1e105-Qd1e135">deus ligat aquas in nubibus 
+          <lb ed="#B"/>suis ut non erumpant pariter deorssum</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e142"> 
+          <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d1e105-Rd1e149">Et capitulo 32</ref> <quote xml:id="bHY6yh-d1e105-Qd1e144">Inspiratio omnipotentis 
+          <lb ed="#B"/>dat intelligentiam</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e150">
+          ¶ <ref xml:id="bHY6yh-d1e105-Rd1e161"><name xml:id="bHY6yh-d1e105-Nd1e164">Iob</name> domino dixit 
+          <lb ed="#B"/>42 capitulo et fine</ref> <quote xml:id="bHY6yh-d1e105-Qd1e154">Scio quia omnia potes 
+          <lb ed="#B"/>et nulla te latet cogitatio</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e160">
+           <lb ed="#B"/><ref xml:id="bHY6yh-d1e105-Rd1e164">Psalmista 3o psalmo</ref> <quote xml:id="bHY6yh-d1e105-Qd1e164">domini est <!-- just to line above --> salus</quote> et ceteris
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e168"> 
+           <lb ed="#B"/><ref xml:id="bHY6yh-d1e105-Rd1e173">Idem <seg type="correction">3<subst><del>1</del><add>2</add></subst></seg> psalmo</ref> <quote xml:id="bHY6yh-d1e105-Qd1e170">verbo domini celi firmati 
+           <lb ed="#B"/>sunt et spiritu oris eius omnis virtus 
+           <lb ed="#B"/>eorum</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e178"> 
+          <del rend="expunctuation">¶ E 35 psalmo deus nouit abscon<lb ed="#B" break="no"/>dita 
+          cordis</del> ¶ <ref xml:id="bHY6yh-d1e105-Rd1e196"><unclear>E</unclear> 35 psalmo</ref> <quote xml:id="bHY6yh-d1e105-Qd1e180">Iudicia dei 
+          <lb ed="#B"/>abissus multa</quote> 
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e186"> 
+          <lb ed="#B"/> <ref xml:id="bHY6yh-d1e105-Rd1e193">43 psalmo</ref> <quote xml:id="bHY6yh-d1e105-Qd1e188">deus nouit 
+          <lb ed="#B"/>abscondita</quote> 
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e195"> 
+          ¶ <ref xml:id="bHY6yh-d1e105-Rd1e204">89 psalmo</ref> <quote xml:id="bHY6yh-d1e105-Qd1e197">mille anni ante 
+          <lb ed="#B"/>oculos dei tanquam dies externa 
+          <lb ed="#B"/>que preteriit</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e205"> 
+          ¶ <ref xml:id="bHY6yh-d1e105-Rd1e216">90 psalmo Locutio <add place="above-line">ad</add> <name xml:id="bHY6yh-d1e105-Nd1e219" ref="#David">da<lb ed="#B" break="no"/>uid</name></ref> 
+          <quote xml:id="bHY6yh-d1e105-Qd1e207">angelis suis mandauit de 
+          <lb ed="#B"/>te ut custodiant te in omnibus 
+          <lb ed="#B"/>viis tuis In manibus portabunt 
+          <lb ed="#B"/>te. ne forte offendas ad lapidem pedem tuum 
+          <lb ed="#B"/>Super aspidem et basiliscum ambulabis 
+          <lb ed="#B"/>et conculcabis leonem et draconem</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e226"> 
+          ¶ <ref xml:id="bHY6yh-d1e105-Rd1e242">92 psalmo</ref> <quote xml:id="bHY6yh-d1e105-Qd1e228">fir<lb ed="#B" break="no"/>mauit
+          dominus orbe terre qui non commouebitur</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e234"> 
+          <lb ed="#B"/> ¶ <ref xml:id="bHY6yh-d1e105-Rd1e253">93</ref> <quote xml:id="bHY6yh-d1e105-Qd1e236">dominus scit cogitationes hominum</quote> 
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e242"> 
+          <lb ed="#B"/> ¶ <ref xml:id="bHY6yh-d1e105-Rd1e263">100</ref> <quote xml:id="bHY6yh-d1e105-Qd1e244">In initio tu domine terram fundas<lb ed="#B" break="no"/>ti 
+          et opera manuum tuarum sunt celi 
+          <lb ed="#B"/>Ipsi peribunt tu autem permanes et 
+          <lb ed="#B"/>omnes. sicud vestimentum veteras<lb ed="#B" break="no"/>cent 
+          / Et sicud opertorium mutabis<lb ed="#B" break="no"/>cos 
+          et mutabuntur tu autem idem 
+          <lb ed="#B"/>ipse es et anni tui non deficient</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e261"> 
+          <lb ed="#B"/> ¶ <ref xml:id="bHY6yh-d1e105-Rd1e283">psalmo 115</ref> <quote xml:id="bHY6yh-d1e105-Qd1e263">dominus michi adiutor et</quote> 
+          <!-- homeoteluton here-->
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e270"> 
+          <quote xml:id="bHY6yh-d1e105-Qd1e272">ego 
+          <lb ed="#B"/>despiciam inimicos meos</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e278"> 
+          <quote xml:id="bHY6yh-d1e105-Qd1e280">Bonum 
+          <lb ed="#B"/>est confidere in domino quam confidere 
+          <lb ed="#B"/>in homine</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e286">
+          <quote xml:id="bHY6yh-d1e105-Qd1e290">Bonum est sperare in domino 
+          <lb ed="#B"/>quam sperare in principibus</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e296"> 
+          ¶ <ref xml:id="bHY6yh-d1e105-Rd1e321">psalmo 166</ref> <quote xml:id="bHY6yh-d1e105-Qd1e298">dominus 
+          <lb ed="#B"/>soluit compeditos dominus illuminat cecos 
+          <lb ed="#B"/>dominus erigit elisos</quote> etc
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e304">
+        <ref xml:id="bHY6yh-d1e105-Rd1e334">psalmo 165</ref> 
+        <lb ed="#B"/><quote xml:id="bHY6yh-d1e105-Qd1e308">dominus operit celum nubibus et parat 
+        <lb ed="#B"/>terre pluuiam</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e314">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d1e105-Rd1e347"><name xml:id="bHY6yh-d1e105-Nd1e348" ref="#Solomon">Salomon</name> in prouerbiis <!-- bumps to line above--> 21 capitulo</ref> <quote xml:id="bHY6yh-d1e105-Qd1e318">Cor regis in <!-- returns to main line -->manu domini quocumque 
+          <lb ed="#B"/>voluerit Inclinabit illud</quote> 
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e327"> 
+          // <ref xml:id="bHY6yh-d1e105-Rd1e363">3o 
+          <lb ed="#B"/>capitulo et fine</ref> <quote xml:id="bHY6yh-d1e105-Qd1e329">omnis sermo dei ignitus</quote> 
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e335"> 
+          // <ref xml:id="bHY6yh-d1e105-Rd1e387">Idem 
+          <lb ed="#B"/>in ecclesiastico capitulo 8</ref> <quote xml:id="bHY6yh-d1e105-Qd1e337">Sermo dei potesta<lb ed="#B" break="no"/>te 
+          plenus est</quote> 
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e343"> 
+          ¶ <ref xml:id="bHY6yh-d1e105-Rd1e382"><name xml:id="bHY6yh-d1e105-Nd1e383" ref="#Solomon">ait salomon</name></ref> <quote xml:id="bHY6yh-d1e105-Qd1e345">Intellexi 
+          <lb ed="#B"/>quod omnium operum dei nullam possit homo 
+          <pb ed="#B" n="5-r"/>
+          <cb ed="#B" n="a"/>
+          <lb ed="#B"/>inuenire rationem eorum que sunt sub 
+          <lb ed="#B"/>sole et quanto plus laborauerit ad querendum tanto minus inveniet</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e357">
+          <ref xml:id="bHY6yh-d1e105-Rd1e401">Regum libro in capitulo 2</ref> <quote xml:id="bHY6yh-d1e105-Qd1e361">dominus mortificat 
+          <lb ed="#B"/>dominus pauperem facit et <sic>dicat</sic> humi<lb ed="#B" break="no"/>liat 
+          et sublimat. Suscitat de pul<lb ed="#B" break="no"/>uere 
+          egenum et de stercore eleuat 
+          <lb ed="#B"/>pauperem ut sedeat cum principibus 
+          <lb ed="#B"/>et solium glorie teneat</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e373"> 
+          ¶ <ref xml:id="bHY6yh-d1e105-Rd1e418">libro 3 capitulo 28</ref> 
+          <lb ed="#B"/><quote xml:id="bHY6yh-d1e105-Qd1e375">noscit solus deus corda filiorum homi<lb ed="#B" break="no"/>num</quote> 
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e381">
+           <lb ed="#B"/><ref xml:id="bHY6yh-d1e105-Rd1e431">Para<!--bumps to line above-->lippomenon libro 1 capitulo 28 et <!-- bumps to main line --> penultima</ref> <quote xml:id="bHY6yh-d1e105-Qd1e385">omnia corda scrutatur 
+           <lb ed="#B"/>dominus et vniuersas mentium cogitationes 
+           <lb ed="#B"/>intelligit</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e394">
+           <lb ed="#B"/><ref xml:id="bHY6yh-d1e105-Rd1e447">Ezechiel <!-- bumps to line above-->propheta capitulo 6o</ref> <quote xml:id="bHY6yh-d1e105-Qd1e398">non est <!-- bumps to main line -->demonum dominatio sed dei 
+           <lb ed="#B"/>iudicium</quote> 
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e404">
+           <lb ed="#B"/><ref xml:id="bHY6yh-d1e105-Rd1e460">Iesus filius <!-- bumps to line above --> syrach in ecclesiastico <!-- bumps to main line -->capitulo 1</ref> <quote xml:id="bHY6yh-d1e105-Qd1e408">unus est altissi<lb ed="#B" break="no"/>mus 
+           creator omnipotens rex 
+           <lb ed="#B"/>potens et metuendus nimis sedens 
+           <lb ed="#B"/>super thronum sapientie et dominans deus</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e418"> 
+          <lb ed="#B"/><ref xml:id="bHY6yh-d1e105-Rd1e490">19 capitulo</ref> <quote xml:id="bHY6yh-d1e105-Qd1e420">In manu domini potestas hominis</quote> 
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e426">
+          <ref xml:id="bHY6yh-d1e105-Rd1e484">Mattheus in euangelio capitulo 19</ref> <quote xml:id="bHY6yh-d1e105-Qd1e430">apud de<lb ed="#B" break="no"/>um 
+          omnia possibilia sunt</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e436"> 
+          // <ref xml:id="bHY6yh-d1e105-Rd1e438">Idem 
+          <lb ed="#B"/>dicit marcus capitulo 10</ref>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e448">
+          // <ref xml:id="bHY6yh-d1e105-Rd1e452">Idem dicit lu<lb ed="#B" break="no"/>cas 
+          18 capitulo</ref> 
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e457">
+          [omitted]
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e469">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d1e105-Rd1e535"><name xml:id="bHY6yh-d1e105-Nd1e536" ref="#John">Iohannes</name> <!-- bumps to line above --> in euuangelio capitulo 1</ref> <quote xml:id="bHY6yh-d1e105-Qd1e473">omnia per deum <!-- bumps to main line --> facta sunt et sine ipso factum 
+          <lb ed="#B"/>est nihil.</quote> 
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e479">
+          // <ref xml:id="bHY6yh-d1e105-Rd1e548">Idem in apocalipsi capitulo II</ref> ait 
+          <lb ed="#B"/>deus <quote xml:id="bHY6yh-d1e105-Qd1e481">Ego sum scrutans corda et 
+          <lb ed="#B"/>renes</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e489">
+           // <ref xml:id="bHY6yh-d1e105-Rd1e561">Idem in epistola 1 capitulo 3</ref> <quote xml:id="bHY6yh-d1e105-Qd1e491">maior 
+           <lb ed="#B"/>est deus corde nostro et nouit omnia</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e497">
+           <lb ed="#B"/><ref xml:id="bHY6yh-d1e105-Rd1e574"><name xml:id="bHY6yh-d1e105-Nd1e575" ref="#Paul">Paulus apostolus</name> ad ebreos 4</ref> <quote xml:id="bHY6yh-d1e105-Qd1e501">Omnia
+            <lb ed="#B"/>nuda et aperta sunt oculis dei</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e105-d1e507">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d1e105-Rd1e587">Prouerbium vulgare</ref> <quote xml:id="bHY6yh-d1e105-Qd1e509">En poco <del rend="expunctuation">de</del> 
+          <lb ed="#B"/>de ora dio lauora</quote> 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

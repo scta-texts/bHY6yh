@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 1</title>
+               <date when="2023-05-16">May 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+               guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+           <change when="2023-05-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="4-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d1e400"><!-- p1l1-r1 -->
+            <head xml:id="bHY6yh-d1e400-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d1e400-Hd1e111" type="question-title">De religione et superstitione</head>
+            <p xml:id="bHY6yh-d1e400-d1e114">
+              <lb ed="#B"/>PRime partis 
+              <lb ed="#B"/>moralis con<lb ed="#B"/>pendii 
+              liber 
+              <lb ed="#B"/>primus Incipit 
+              <lb ed="#B"/>tractans de 
+              <lb ed="#B"/>Religione et 
+              <lb ed="#B"/>pertinentibus 
+              <lb ed="#B"/>ad Religionem 
+              <lb ed="#B"/>sub infrascriptis tytulis 
+              <lb ed="#B"/>quadraginta duobus 
+            </p>
+            <p xml:id="bHY6yh-d1e400-d1e140">
+              <lb ed="#B"/>De Religione et superstitione Rubrica
+            </p>
+            <p xml:id="bHY6yh-d1e400-d1e147">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d1e400-Rd1e144">Tulius de natura deorum libro 1.</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d1e400-Qd1e151">sanctitas est scientia colendorum 
+              <lb ed="#B"/>deorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e400-d1e158">
+              <pc type="virgula">//</pc> <ref xml:id="bHY6yh-d1e400-Rd1e157">Item Rethoricorum artis 
+              <lb ed="#B"/>veteris libro 2 capitulo 9</ref> <quote xml:id="bHY6yh-d1e400-Qd1e160">Religio est 
+              <lb ed="#B"/>virtus que superioris cuiusdam 
+              <lb ed="#B"/>nature quam diuinam <sic>vocant</sic> curam 
+              <lb ed="#B"/>cerimoniamque affert.</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e400-d1e170">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d1e400-Rd1e172">Seneca declama<!-- lifted to above line-->tionum libro 8 <unclear>capitulum</unclear></ref> <quote xml:id="bHY6yh-d1e400-Qd1e174">for<lb ed="#B"/>tuna 
+              quos miseros facit etiam superstitiosos facit</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e400-d1e172"> [omitted] </p>
+           <p xml:id="bHY6yh-d1e400-d1e180"><ref xml:id="bHY6yh-d1e400-Rd1e186">Ualerius maximus libro 2 <!--lited to above line --> ti de Insti<!--drops back to line-->tutis an<lb ed="#B"/>tiquis</ref> 
+             <quote xml:id="bHY6yh-d1e400-Qd1e184">Marsillia ciuitas omnibus 
+             <lb ed="#B"/>qui per aliquam religionis simulationem 
+             <lb ed="#B"/>alimenta inertie querunt clausas 
+             <lb ed="#B"/>portas habet mendacem et fucosam 
+             <lb ed="#B"/>superstitionem esse existimans</quote>
+           </p>
+            <p xml:id="bHY6yh-d1e400-d1e196">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d1e400-Rd1e205">Cecilius firmanus de beata <!-- lifted--> vita <!-- back to main line --> libro 3</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d1e400-Qd1e200">peccati conscientia et metus pene re<lb ed="#B"/>ligiosiorem 
+              facit</quote>
+            </p>
+            <p xml:id="bHY6yh-d1e400-d1e258"> 
+              [omitted]
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
