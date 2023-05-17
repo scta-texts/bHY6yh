@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 28</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#graydonlee">Graydon Lee</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 28</title>
+               <date when="2023-05-05">May 5, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="19-r"/>
+            <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de7746"><!-- p1l1-r28 -->
+            <head xml:id="bHY6yh-de7746-Hd1e108">Rubrica 28</head>
+            <head xml:id="bHY6yh-de7746-Hd1e111" type="question-title">De paradiso salute praemio et gloria animarum bonorum hominum</head>
+            <p xml:id="bHY6yh-de7746-d1e114">
+               <lb ed="#Ka"/>de paradiso salute praemio et gloria
+               <lb ed="#Ka"/>animarum bonorum hominum rubrica 28
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e121">
+               <lb ed="#Ka"/> <ref xml:id="bHY6yh-de7746-Rd1e118">PSalmista 7 psalmus</ref> / <quote xml:id="bHY6yh-de7746-Qd1e125">Dominus
+               <lb ed="#Ka"/>saluos facit rectos corde</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e133">
+               <lb ed="#Ka"/> / <ref xml:id="bHY6yh-de7746-Rd1e132">9 psalmus.</ref> <quote xml:id="bHY6yh-de7746-Qd1e135"><sic>pacientia</sic> non <!--"/ 9" partially obscured by superscript "P" in "PSalmista"-->
+                  <cb ed="#Ka" n="b"/>
+               <lb ed="#Ka"/>peribit infine</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e142">
+             ¶ <ref xml:id="bHY6yh-de7746-Rd1e143">14 psalmus</ref> <quote xml:id="bHY6yh-de7746-Qd1e144">domine qui
+               <lb ed="#Ka"/>habitabit in tabernaculo tuo aut
+               <lb ed="#Ka"/>quis requiescet in monte sancto <add place="right-margin">tuo</add> <!--"tuo" added in different hand/ink, in margin but reads continuously-->
+               <lb ed="#Ka"/>Qui ingreditur sine macula
+               <lb ed="#Ka"/>et operatur iusticiam qui loquitur
+               <lb ed="#Ka"/>veritatem in corde suo qui non
+               <lb ed="#Ka"/>egit dolum in <sic>ligvva</sic> sua nec fe
+               <lb ed="#Ka" break="no"/>cit proximo suo malum et obpro
+               <lb ed="#Ka" break="no"/>brium non accepit aduersus prox
+               <lb ed="#Ka" break="no"/>imos suos ad <sic>nichilum</sic> deductus
+               <lb ed="#Ka"/>est in conspectu eius malignus
+               <lb ed="#Ka"/>timentes autem dominum glorificat Qui
+               <lb ed="#Ka"/>iurat proximo suo et non deci
+               <lb ed="#Ka" break="no"/>pit pecuniam suam non dedit
+               <lb ed="#Ka"/>adusuram et munara super nocen
+               <lb ed="#Ka" break="no"/>tes non <unclear>accipiet</unclear> qui facit hec non <!--letter after "p" unclear-->
+               <lb ed="#Ka"/>commouebitur in eternum</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e174">
+               <ref xml:id="bHY6yh-de7746-Rd1e177">33 psalmus</ref> <quote xml:id="bHY6yh-de7746-Qd1e176">Quis <!--misattributed to ps33, verse from ps23_3-5-->
+               <lb ed="#Ka"/>ascendit in monte<del rend="strikethrough">m</del> sancto eius 
+               <lb ed="#Ka"/>in nocens manibus et mundo corde
+               <lb ed="#Ka"/>qui non accepit in vano animam
+               <lb ed="#Ka"/>suam nec iurauit in dolo proximo
+               <lb ed="#Ka"/>suo hic accipiet <sic>benediccionem</sic> a domino <!--"benediccionem/-tionem" in Ka and verse ps23_5, but not in Venice-->
+               <lb ed="#Ka"/>et misericordiam <unclear>/</unclear> a deo salutari suo</quote> <!--virgula after "misericordiam"? potentially erased/smudged-->
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e190"> 
+             / <ref xml:id="bHY6yh-de7746-Rd1e195">36
+               <lb ed="#Ka"/>psalmus</ref> <quote xml:id="bHY6yh-de7746-Qd1e192">salus iustorum a domino et pro
+               <lb ed="#Ka" break="no"/>tector eorum in tempore <sic>tribulacionis</sic> et
+               <lb ed="#Ka"/>adiuabit eos dominus et liberabit eos
+               <lb ed="#Ka"/>et eruet eos apeccatoribus et salua
+               <lb ed="#Ka" break="no"/>bit eos qui sperauerunt in eo</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e204">
+             / <ref xml:id="bHY6yh-de7746-Rd1e211">111
+               <lb ed="#Ka"/>psalmus</ref> <quote xml:id="bHY6yh-de7746-Qd1e206">in memoria eterna erit iustus</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e212">
+               <lb ed="#Ka"/> / <ref xml:id="bHY6yh-de7746-Rd1e221">17 psalmus <!--psalm number incorrect-->et ante penultis</ref> <quote xml:id="bHY6yh-de7746-Qd1e214">dominus exultabit
+               <lb ed="#Ka"/>mansuetos in salutem exultabunt
+               <lb ed="#Ka"/>sancti in gloria</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e222">
+               <ref xml:id="bHY6yh-de7746-Rd1e238">Salomon in <sic>prouerbiis</sic>
+               <lb ed="#Ka"/>capitulo 28</ref> <quote xml:id="bHY6yh-de7746-Qd1e226">qui ambulat simpliciter
+               <lb ed="#Ka"/>saluus erit</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e233">
+               <ref xml:id="bHY6yh-de7746-Rd1e249">capitulo <unclear>si</unclear></ref> <!--is "si" an abbreviation for "finale"?--> <quote xml:id="bHY6yh-de7746-Qd1e235">spiritus redit ad
+                  <pb ed="#Ka" n="19-v"/>
+                  <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/>deum qui dedit illum</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e241">
+               <ref xml:id="bHY6yh-de7746-Rd1e261"><sic>Thobie</sic>
+               <lb ed="#Ka"/>hystoria capitulo 3</ref> <quote xml:id="bHY6yh-de7746-Qd1e245">hoc procerto habet omnis
+               <lb ed="#Ka"/>homo qui colit deum quia vita
+               <lb ed="#Ka"/>eius si <sic>inprobacione</sic> fuerit coronabitur</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e253">
+             ¶ <ref xml:id="bHY6yh-de7746-Rd1e273">capitulo 4</ref> <quote xml:id="bHY6yh-de7746-Qd1e255">Multa bona habebimus si timu
+               <lb ed="#Ka" break="no"/>erimus deum et recesserimus ab omni
+               <lb ed="#Ka"/>peccato et fecerimus bene</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e263">
+               <ref xml:id="bHY6yh-de7746-Rd1e287"><sic>Isayas</sic> pro
+               <lb ed="#Ka" break="no"/>pheta capitulo 33</ref> <quote xml:id="bHY6yh-de7746-Qd1e267"><sic>diuicie</sic> salutis sapientia
+               <lb ed="#Ka"/>et scientia</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e277">
+               <ref xml:id="bHY6yh-de7746-Rd1e303">plato in fedrone</ref> <quote xml:id="bHY6yh-de7746-Qd1e281">est in re
+               <lb ed="#Ka"/>vera defunctorum</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e285">
+               <ref xml:id="bHY6yh-de7746-Rd1e313"><sic>Ihesus</sic> filius
+               <lb ed="#Ka"/>syrach in ecclesiastico capitulo <del rend="strikethrough">et</del> 2</ref> <quote xml:id="bHY6yh-de7746-Qd1e289">In
+               <lb ed="#Ka"/>igne probatur aurum et argentum
+               <lb ed="#Ka"/>homines vero receptibiles in cami
+               <lb ed="#Ka" break="no"/>no <sic>humiliacionis</sic></quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e298">
+             ¶ <ref xml:id="bHY6yh-de7746-Rd1e326">3 capitulo</ref> <quote xml:id="bHY6yh-de7746-Qd1e300">quanto magnus
+               <lb ed="#Ka"/>es humilia te in omnibus et coram
+               <lb ed="#Ka"/>deo in venies <sic>graciam</sic></quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e308">
+               <ref xml:id="bHY6yh-de7746-Rd1e340"><sic>Tulius</sic>
+               <lb ed="#Ka"/>tusculanarum questionum libro 1.</ref> <quote xml:id="bHY6yh-de7746-Qd1e312">socrates
+               <lb ed="#Ka"/><sic>disceruit</sic> duas esse vias dupli
+               <lb ed="#Ka" break="no"/>ces cursus animarum corpore exce
+               <lb ed="#Ka" break="no"/><sic>dencium</sic> ¶ Nam quise humanis <sic>viciis</sic> <!--pilcrow before "Nam" new paragraph?-->
+               <lb ed="#Ka"/>contaminassent et se totos libidini
+               <lb ed="#Ka" break="no"/>bus dedissent quibus cecati velud
+               <lb ed="#Ka"/>domesticiis <sic>viciis</sic> atque <sic>flagiciis</sic>
+               <lb ed="#Ka"/>se inquassent uel publica <unclear>uio</unclear> <!--likely "uiolanda" but unclear on "u" vs. "n"-->
+               <lb ed="#Ka" break="no"/><unclear>landa</unclear> fraudes in experiailes con
+               <lb ed="#Ka" break="no"/>cepissent <pc type="virgula">/</pc> hiis demum quoddam esse
+               <lb ed="#Ka"/>iter seclusum aconcilio deorum qui
+               <lb ed="#Ka"/>autem se integros castos que serua
+               <lb ed="#Ka" break="no"/>ssent quibusque fuissent minima corporis
+               <lb ed="#Ka"/>contagio se seque ab hiis ad illos aqui
+               <lb ed="#Ka" break="no"/>bus essent profecti reditum facilie
+               <lb ed="#Ka"/>pater</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e344">
+             ¶ <ref xml:id="bHY6yh-de7746-Rd1e378"><sic>phylon</sic> <sic>sevv</sic> <sic>phylemon</sic> libro
+               <lb ed="#Ka"/>sapientie capitulo 2</ref> <quote xml:id="bHY6yh-de7746-Qd1e348">dixerunt aput se non recte
+               <lb ed="#Ka"/>cogitantes et cum tedio est tempus vite
+                  <cb ed="#Ka" n="b"/>
+               <lb ed="#Ka"/>nostre et non est refrigerium infine
+               <lb ed="#Ka"/>hominis et non est qui agnitus
+               <lb ed="#Ka"/>sit reuersus abinfernis Quia ex
+               <lb ed="#Ka"/><sic>nichilo</sic> nati sumus et post hoc erimus
+               <lb ed="#Ka"/>tamquam si non fuerimus</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e362">
+             / <ref xml:id="bHY6yh-de7746-Rd1e398">3 capitulo</ref> <quote xml:id="bHY6yh-de7746-Qd1e366">iustorum
+               <lb ed="#Ka"/>anime in manu dei sunt et non tanget
+               <lb ed="#Ka"/>illos tormentum <del rend="strikethrough">malicie</del> mortis</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e372">
+               <lb ed="#Ka"/>¶ <ref xml:id="bHY6yh-de7746-Rd1e408">5 capitulo</ref> <quote xml:id="bHY6yh-de7746-Qd1e374">iusti in perpetuum viuent et apud
+               <lb ed="#Ka"/>dominum est merces eorum</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e380">
+               <lb ed="#Ka"/> <ref xml:id="bHY6yh-de7746-Rd1e420">6 capitulo</ref> <quote xml:id="bHY6yh-de7746-Qd1e384">Concu
+               <lb ed="#Ka" break="no"/>piscentia sapientie deducet ad <unclear>regm</unclear> <!--abbreviation for "regnum"? no abbrv. mark-->
+               <lb ed="#Ka"/>perpetuum</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e391">
+               <ref xml:id="bHY6yh-de7746-Rd1e433"><sic>Matheus</sic> in <sic>evvangelio</sic> capitulo 5</ref> <quote xml:id="bHY6yh-de7746-Qd1e395">beati
+               <lb ed="#Ka"/>pauperes spiritu quoniam ipsorum est regnum
+               <lb ed="#Ka"/>celorum <pc type="virgula"/>/</pc> beati qui <sic>persecucione</sic> <sic>pacuitur</sic>
+               <lb ed="#Ka"/>propter <sic>iusticiam</sic> qouniam ipsorum est regnum
+               <lb ed="#Ka"/>celorum</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-xxx395">
+             / <ref xml:id="bHY6yh-de7746-Rxxx95">capitulo 7</ref> <quote xml:id="bHY6yh-de7746-Qd1e414">Quam angusta porta et
+               <lb ed="#Ka"/>arta via est quedicit ad vitam
+               <lb ed="#Ka"/>et pauci in veniunt eam</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e412">
+             / <ref xml:id="bHY6yh-de7746-Rd1e454">10 capitulo</ref>
+               <lb ed="#Ka"/> <quote xml:id="bHY6yh-de7746-Qxxx95">Qui perseuerauerit vsque ad finem
+               <lb ed="#Ka"/>hic saluus erit</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e420">
+             ¶ <ref xml:id="bHY6yh-de7746-Rd1e464">11 capitulo</ref> <quote xml:id="bHY6yh-de7746-Qd1e422">ait <sic>ihesus</sic>
+               <lb ed="#Ka"/>non surrerit inter natos mulierum
+               <lb ed="#Ka"/>maior <sic>iohanne</sic> <sic>vvaptista</sic> qui autem
+               <lb ed="#Ka"/>minor est in regno celorum maior
+               <lb ed="#Ka"/>est illo</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e432">
+               <ref>Idem dicit lucas in <sic>evvangelio</sic> <!--add ref tags-->
+               <lb ed="#Ka"/>capitulo 7</ref> <quote xml:id="bHY6yh-de7746-Qd1e434"></quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e440">
+             / <ref xml:id="bHY6yh-de7746-Rd1e487">13 capitulo</ref> <quote xml:id="bHY6yh-de7746-Qd1e442">Iusti fulgebunt sicut
+               <lb ed="#Ka"/>sol in regno patris eorum</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e448">
+             / <ref xml:id="bHY6yh-de7746-Rd1e497">19 capitulo</ref>
+               <lb ed="#Ka"/> <quote xml:id="bHY6yh-de7746-Qd1e450">paruulorum est regnum celorum <pc type="virgula">/</pc> ait
+               <lb ed="#Ka"/><sic>ihesus</sic> discipulis suis Amen dico
+               <lb ed="#Ka"/>vobis quia diues difficile intra
+               <lb ed="#Ka" break="no"/>bit in regnum celorum et iterum dico
+               <lb ed="#Ka"/>vobis est camelum perforamen acus
+               <lb ed="#Ka"/>transire quam diuitem intrare in regnum
+               <lb ed="#Ka"/>celorum ¶ <sic>Audistis</sic> autem hiis discipu <!--pilcorw between "celorum" and "Audistis"; also "Auditis" in Venice and Verse mt19_25-->
+               <lb ed="#Ka" break="no"/>li mirabantur dicentes quis poterit
+               <lb ed="#Ka"/>saluus esse aspiciens alonge autem
+               <lb ed="#Ka"/><sic>ihesus</sic> ait illis aput homines hoc
+                  <pb ed="#Ka" n="20-r"/>
+                  <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/><sic>imposibile</sic> est aput deum autem omnia
+               <lb ed="#Ka"/>possibilia sunt</quote> <!--minor textual differences-->
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e481"> <!--add ref tags-->
+               <ref>Idem dict lucas capitulo 18</ref> <quote xml:id="bHY6yh-de7746-Qd1e483"></quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e487">
+               <lb ed="#Ka"/> <ref xml:id="bHY6yh-de7746-Rd1e540">Marcus in <sic>evvangelio</sic> capitulo 10</ref> <quote xml:id="bHY6yh-de7746-Qd1e491">paruulorum
+               <lb ed="#Ka"/>est regnum dei Quisquis non rece
+               <lb ed="#Ka" break="no"/>perit regnum dei velud paruulus
+               <lb ed="#Ka"/>non intrabit in illud <pc type="virgula">/</pc> Quam difficile
+               <lb ed="#Ka"/>est confidentes inpecuniis in regnum
+               <lb ed="#Ka"/>dei intrare.</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-xxx385">  
+               <ref xml:id="bHY6yh-de7746-Rxxx38">11 capitulo</ref> <quote xml:id="bHY6yh-de7746-Qxxx38">Cum amortuis
+               <lb ed="#Ka"/>resurrexerint neque nubent neque
+               <lb ed="#Ka"/>nubentur sed sicut angeli dei sunt
+               <lb ed="#Ka"/>incelis</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e508">
+             ¶ <ref xml:id="bHY6yh-de7746-Rd1e563">Lucas in <sic>evvangelio</sic> capitulo 18</ref> <quote xml:id="bHY6yh-de7746-Qd1e512">qui
+               <lb ed="#Ka" break="no"/>cumque non acceperit regnum dei sicut
+               <lb ed="#Ka"/>puer non intrabit in illud</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e518">
+               <ref xml:id="bHY6yh-de7746-Rd1e575">Idem
+               <lb ed="#Ka"/>in actibus apostolorum capitulo 4</ref> <quote xml:id="bHY6yh-de7746-Qd1e522">per multas
+               <lb ed="#Ka"/><sic>tribulaciones</sic> oportet nos intrare in regnum dei</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e528">
+               <lb ed="#Ka"/> <ref xml:id="bHY6yh-de7746-Rd1e587"><sic>Iohannes</sic> apostolus in <sic>apocalipsi</sic> capitulo 2</ref>
+               <lb ed="#Ka"/> <quote xml:id="bHY6yh-de7746-Qd1e532">Esto fidelis usque admortem et da
+               <lb ed="#Ka" break="no"/>bo tibi coronam uite <pc type="virgula">/</pc> ait dominus</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e538">
+               <ref>14 <!--add ref tags-->
+               <lb ed="#Ka"/>capitulo</ref> <quote xml:id="bHY6yh-de7746-Qd1e542">beati mortui qui in domino moriuntur
+               <lb ed="#Ka"/>amodo enim iam dicit spiritus ut re
+               <lb ed="#Ka" break="no"/>quiescant alaboribus suis opera enim
+               <lb ed="#Ka"/>illos secuntur illos</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e551">
+             / <ref xml:id="bHY6yh-de7746-Rd1e612">Paulus apostolus
+               <lb ed="#Ka"/>epistola adromanos capitulo 14</ref> <quote xml:id="bHY6yh-de7746-Qd1e555">non est in
+               <lb ed="#Ka"/>regno dei esta et potus sed iusti
+               <lb ed="#Ka" break="no"/>ciam et pax et gaudium in spiritu sancto</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e563">
+               <ref xml:id="bHY6yh-de7746-Rd1e624">Idem epistola 1 ad corintheos capitulo 2</ref> <quote xml:id="bHY6yh-de7746-Qd1e565">oculis
+               <lb ed="#Ka"/>non vident nec aures <unclear>audiunt</unclear> <!--unclear abbreviation, "i" or "n"? "audiuit" in Venice and Verse Icor2_9-->
+               <lb ed="#Ka"/>nec in cor hominis ascendit que praepera
+               <lb ed="#Ka" break="no"/>rauit deus hiis qui diligunt illum</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e575"> 
+               <lb ed="#Ka"/> / <ref xml:id="bHY6yh-de7746-Rd1e639">15 capitulo</ref> <quote xml:id="bHY6yh-de7746-Qd1e577">viuificatur nisi prius moriatur
+               <lb ed="#Ka"/>Seminatur corpos animale surget corpus
+               <lb ed="#Ka"/>spirituale <pc type="virgula">/</pc> Caro et <sic>sangvvis</sic> regnum
+               <lb ed="#Ka"/>dei possidere non possunt</quote>
+            <p xml:id="bHY6yh-de7746-d1e587">
+               <ref xml:id="bHY6yh-de7746-Rd1e653">Idem
+               <lb ed="#Ka"/>epistola ad galatas capitulo 6 et <unclear>si</unclear></ref> <quote xml:id="bHY6yh-de7746-Qd1e589">bonum
+               <lb ed="#Ka"/>facientes non deficiamus tempore enim suo
+                  <cb ed="#Ka" n="b"/>
+               <lb ed="#Ka"/>vitemus non deficientes</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e597">
+               <ref xml:id="bHY6yh-de7746-Rd1e668">Seneca
+               <lb ed="#Ka"/>tragediarum in hercule ceceo capitulo 26
+               <lb ed="#Ka"/>et <unclear>si</unclear></ref> <pc type="virgula">/</pc> <quote xml:id="bHY6yh-de7746-Qd1e601">nunquam stigas <sic>ferrum</sic> ad vm <!--"fertur" in Venice and Seneca-->
+               <lb ed="#Ka" break="no"/>bras inclita virtus in vite fortis
+               <lb ed="#Ka"/>nec letheos seua <sic>perampnes</sic> nos
+               <lb ed="#Ka"/><sic>faca</sic> trahent Sed tum summas ex
+               <lb ed="#Ka" break="no"/>igit horas consumpta dies iter ad
+               <lb ed="#Ka"/>superos gloria pandet</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e615">
+             ¶ <ref xml:id="bHY6yh-de7746-Rd1e691">Auctor libelli 
+               <lb ed="#Ka"/>de forma honeste vite capitulo 7 et <unclear>si</unclear></ref>
+               <lb ed="#Ka"/> <quote xml:id="bHY6yh-de7746-Qd1e619">quod est
+               <lb ed="#Ka"/>epilogus in regno dei non est
+               <lb ed="#Ka"/>distinctio quis esset in seculo laicus
+               <lb ed="#Ka"/>aut clericus diues aut pauper iunior
+               <lb ed="#Ka"/>aut senior seruus aut dominus sed vnus
+               <lb ed="#Ka" break="no"/>quisque secundum meritum boni operus perpe
+               <lb ed="#Ka" break="no"/>tua coronabitur gloria</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e637">
+             / <ref xml:id="bHY6yh-de7746-Rd1e715">Augustinus in epi
+               <lb ed="#Ka" break="no"/>gmatibus prosperi epistola 78</ref> <quote xml:id="bHY6yh-de7746-Qd1e641">Qui dolum
+               <lb ed="#Ka"/>seruiunt ea bona acquirunt que perire
+               <lb ed="#Ka"/>non possunt</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e647">
+               <ref xml:id="bHY6yh-de7746-Rd1e727"><sic>Boecius</sic> de <sic>consolacione</sic> libro
+               <lb ed="#Ka"/>4. capitulo 5.</ref> <quote xml:id="bHY6yh-de7746-Qd1e651">Est primium bonorum quod nullus
+               <lb ed="#Ka"/>de trahat dies nullius minuat pu
+               <lb ed="#Ka" break="no"/>tans nullius fustet inprobitas
+               <lb ed="#Ka"/>Que cum ita sint <unclear>demalorum</unclear> quoque <!--"de" and "malorum" combined?-->
+               <lb ed="#Ka"/>inseperabili pena dubitare sapiens
+               <lb ed="#Ka"/>nequeat nam cum bonum <unclear>malumque</unclear> id <!--"malum" and "que" combined?-->
+               <lb ed="#Ka"/>pena in omni primo videamus accedere
+               <lb ed="#Ka"/>eadem necesse est in mali pena con
+               <lb ed="#Ka" break="no"/>traria parte respondeant</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e670">
+               <ref xml:id="bHY6yh-de7746-Rd1e752">Cassio
+               <lb ed="#Ka" break="no"/>dorus epistolarum libro 2. capitulo 40</ref> <quote xml:id="bHY6yh-de7746-Qd1e674">in celesti
+               <lb ed="#Ka"/>beatudine veracitur sine fine
+               <lb ed="#Ka"/>gaudium est et sine aliquo tedio
+               <lb ed="#Ka"/>manes semper eternitas et in spectio
+               <lb ed="#Ka"/>sola diuinitatis efficit ut <sic>beacius</sic>
+               <lb ed="#Ka"/>esse <sic>michil</sic> possit hec veraciter per
+               <lb ed="#Ka" break="no"/><sic>ennitatem</sic> praestant hec iocunditates
+                  <pb ed="#Ka" n="20-v"/>
+                  <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/>acumulat</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e688">
+             / <ref xml:id="bHY6yh-de7746-Rd1e770">Idem cassiodorus de anima capitulo 14</ref>
+               <lb ed="#Ka"/> <quote xml:id="bHY6yh-de7746-Qd1e690">Cum fuerimus hac luce impio crea
+               <lb ed="#Ka" break="no"/>taris exuti simul corporis <sic>appeticiones</sic> et in
+               <lb ed="#Ka"/>becillitates amittius non enim ulterius
+               <lb ed="#Ka"/>labore franguntur non cibo reficiuntur
+               <lb ed="#Ka"/>non ieiuniis diuturnitate quassamur
+               <lb ed="#Ka"/>sed in ainime nostre natura iugitur per
+               <lb ed="#Ka"/>seuerantur <sic>nichil</sic> boni malique fa
+               <lb ed="#Ka" break="no"/>ciemus sed vsque ad diem iudicii
+               <lb ed="#Ka"/>ait depraeteritorum actuum prauitate
+               <lb ed="#Ka"/>meremus aut de <sic>operacionis</sic> nostre pro
+               <lb ed="#Ka" break="no"/>hibite letamur tunc autem accipiemus
+               <lb ed="#Ka"/>factorum omnium plenissimum fructum quoniam
+               <lb ed="#Ka"/>voce domini aut repudiati fuerimus
+               <lb ed="#Ka"/>aut ad regnum <sic>prehennitatis</sic> ad <!--use of "prehennitat-" vs. "prennitat-" as used in above quote-->
+               <lb ed="#Ka" break="no"/>missi <pc type="virgula">/</pc> Distans beatitudo bonos con
+               <lb ed="#Ka" break="no"/>timet et impios dispar pena constringit</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e722">
+               <lb ed="#Ka"/> <ref xml:id="bHY6yh-de7746-Rd1e809"><sic>Bernhardus</sic> libro de <sic>improbacione</sic> <unclear>viccorum</unclear>
+               <lb ed="#Ka"/>capitulo 9. et <unclear>si</unclear></ref> ¶ <quote xml:id="bHY6yh-de7746-Qd1e726">Id solum timet post
+               <lb ed="#Ka"/>mortis facta beabit Quod <unclear>tene</unclear> <!--unclear, "temet" in Venice-->
+               <lb ed="#Ka"/>quod iuste quod recte feceris ipse</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e734">
+               <lb ed="#Ka"/> <ref xml:id="bHY6yh-de7746-Rd1e823">Mattheus Vindocinensis de <sic>hiistorie</sic>
+               <lb ed="#Ka"/><sic>thobie</sic> capitulo 16</ref> <quote xml:id="bHY6yh-de7746-Qd1e738">Est hec vita breuis
+               <lb ed="#Ka"/>tenebrosa <sic>sopistica</sic> vita Est ven
+               <lb ed="#Ka" break="no"/>tura manens lucida vera dies</quote>
+            </p>
+            <p xml:id="bHY6yh-de7746-d1e747">
+               <pc type="virgula">/</pc>
+               <lb ed="#Ka"/> <ref xml:id="bHY6yh-de7746-Rd1e836">capitulo 66. et ante penultimo</ref> <quote xml:id="bHY6yh-de7746-Qd1e749">Iustus obit nec
+               <lb ed="#Ka"/>obit sed abit ab hospite migrans
+               <lb ed="#Ka"/>Carne petit patriam <sic>deliciasque</sic> patris</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 27</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#graydonlee">Graydon Lee</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 27</title>
+               <date when="2023-05-04">May 4, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="18-v"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de7543"><!-- p1l1-r27 -->
+            <head xml:id="bHY6yh-de7543-Hd1e108">Rubrica 27</head>
+            <head xml:id="bHY6yh-de7543-Hd1e111" type="question-title">De penitentia et congtritione peccatorum</head>
+            <p xml:id="bHY6yh-de7543-d1e114">
+                <lb ed="#Ka"/>de <sic>contricione</sic> et <sic>penitencia</sic> peccatorum
+                <lb ed="#Ka"/>rubrica 27
+            </p>
+            <p xml:id="bHY6yh-de7543-d1e121">
+                <lb ed="#Ka"/> <ref xml:id="bHY6yh-de7543-Rd1e118">PSalmista 33 psalmus</ref> <quote xml:id="bHY6yh-de7543-Qd1e125">Iuxta est
+                <lb ed="#Ka"/>dominus <sic>hiis</sic> qui tribulato sunt
+                <lb ed="#Ka"/>corde et humiles spiritu saluabit <!--"c" in "corde" cut off by superscript "P" in "PSalmista"-->
+                <lb ed="#Ka"/>Multe <sic>tribulaciones iustorum et de
+                <lb ed="#Ka"/><sic>hiis</sic> omnibus liberabit eos</quote>
+            </p>
+            <p xml:id="bHY6yh-de7543-d1e139">
+                <ref xml:id="bHY6yh-de7543-Rd1e141"><sic>i46</sic>
+                <lb ed="#Ka"/>psalmus</ref> <quote xml:id="bHY6yh-de7543-Qd1e141">qui seminant <sic>inlacrimis</sic> in
+                <lb ed="#Ka"/><sic>exultacione</sic> metent</quote>
+            </p>
+            <p xml:id="bHY6yh-de7543-d1e148">
+                <lb ed="#Ka"/> <ref xml:id="bHY6yh-de7543-Rd1e154">Ezechiel propheta</ref> 
+                <lb ed="#Ka"/> <quote xml:id="bHY6yh-de7543-Qd1e152">Si impius egerit peniten
+                <lb ed="#Ka" break="no"/>ciam abomnibus peccatis suis que
+                <lb ed="#Ka"/>operatus est<pc type="virgula">/</pc> et custodierit omnia
+                <lb ed="#Ka"/>praecepta et fecerit iudicium et
+                <lb ed="#Ka"/><sic>iusticiam</sic> uita uiuet et non
+                <lb ed="#Ka"/>minus. Conuertimini et agite penitentiam
+                <lb ed="#Ka"/>morietur omnium iniquitatum eius
+                <lb ed="#Ka"/>quas operatus est non recordabor
+                <lb ed="#Ka"/>ait dominus Conuertimini et agite
+                <lb ed="#Ka"/>penitentiam abomnibus iniquitatibus
+                <lb ed="#Ka"/>nostris et non erit nobis in iuriam <!--"iuram" in text vs. "ruinam" in Venice and verse ez18_30-->
+                <lb ed="#Ka"/><unclear>iniquitat</unclear></quote> <!--unclear abbreviaiton, "iniquitatis"?-->
+            </p>
+            <p xml:id="bHY6yh-de7543-d1e173">
+                <lb ed="#Ka"/> <ref xml:id="bHY6yh-de7543-Rd1e181"><sic>Ihesus</sic> filius <sic>sy</sic>
+                    <pb ed="#Ka" n="19-r"/>
+                    <cb ed="#Ka" n="a"/>
+                <lb ed="#Ka" break="no"/>rach in ecclesiastico capitulo 12</ref> <quote xml:id="bHY6yh-de7543-Qd1e177">Altissimus
+                <lb ed="#Ka"/>odio habet peccatores et misertus
+                <lb ed="#Ka"/>est penitentibus et caetera</quote>
+            </p>
+            <p xml:id="bHY6yh-de7543-d1e185">
+                <ref xml:id="bHY6yh-de7543-Rd1e195"><sic>Matheus</sic>
+                <lb ed="#Ka"/>in <sic>evvangelio</sic> capitulo iii et iiii</ref> <quote xml:id="bHY6yh-de7543-Qd1e189">penitentiam agi
+                <lb ed="#Ka" break="no"/>te appropinquabit enim regnum celo
+                <lb ed="#Ka" break="no"/>rum</quote>
+            </p>
+            <p xml:id="bHY6yh-de7543-d1e197">
+              ¶ <ref xml:id="bHY6yh-de7543-Rd1e207">capitulo 5</ref> <quote xml:id="bHY6yh-de7543-Qd1e199">beati qui lugent quoniam
+                <lb ed="#Ka"/>ipse consolabuntur</quote>
+            </p>
+            <p xml:id="bHY6yh-de7543-d1e205">
+              ¶ <ref xml:id="bHY6yh-de7543-Rd1e219">Lucas in <sic>evvangelio</sic>
+                <lb ed="#Ka"/>capitulo 3</ref> <quote xml:id="bHY6yh-de7543-Qd1e209">facite dignos fructus penitentie</quote>
+            </p>
+            <p xml:id="bHY6yh-de7543-d1e215">
+                <lb ed="#Ka"/> <ref>Idem in actibus apostolorum capitulo 3</ref> <quote xml:id="bHY6yh-de7543-Qd1e217">pe <!--add ref tags-->
+                <lb ed="#Ka" break="no"/>nitemini et conuertimini ut deleantur
+                <lb ed="#Ka"/>peccata vestra</quote>
+            </p>
+            <p xml:id="bHY6yh-de7543-d1e228">
+                <ref>Paulus apostolus epistola <!--add ref tags-->
+                <lb ed="#Ka"/>3 ad corintheos capitulo 7</ref> <quote xml:id="bHY6yh-de7543-Qd1e232">que enim secundum deum
+                <lb ed="#Ka"/><sic>tristicia</sic> est penitentiam salutem stabi
+                <lb ed="#Ka" break="no"/>lem operatur seculi autem <sic>tristicia</sic>
+                <lb ed="#Ka"/>mortem operatur</quote>
+            </p>
+            <p xml:id="bHY6yh-de7543-d1e244">
+                <ref xml:id="bHY6yh-de7543-Rd1e260">Seneca tra
+                <lb ed="#Ka" break="no"/>gediarum <sic>inagamone</sic> capitulo 4</ref> <quote xml:id="bHY6yh-de7543-Qd1e248">que
+                <lb ed="#Ka"/>penitet peccasse pene est innocens</quote>
+            </p>
+            <p xml:id="bHY6yh-de7543-d1e256"> 
+              / <ref>Idem de naturalibus questionibus libro 2</ref>
+                <lb ed="#Ka"/> <quote xml:id="bHY6yh-de7543-Qd1e258">fidelissimus est qui ad honesta ex
+                <lb ed="#Ka"/>penitentia transit</quote>
+            </p>
+            <p xml:id="bHY6yh-de7543-d1e266">
+                <ref xml:id="bHY6yh-de7543-Rd1e285">Cecilius <sic>firmanus</sic>
+                <lb ed="#Ka"/>de beata vita libro 3</ref> <quote xml:id="bHY6yh-de7543-Qd1e270">multo <sic>firmor</sic> est
+                <lb ed="#Ka"/>fides quam reponit <sic>penitencia</sic></quote>
+            </p>
+            <p xml:id="bHY6yh-de7543-d1e284">
+                <lb ed="#Ka"/> <ref xml:id="bHY6yh-de7543-Rd1e305"><sic>Ysydorus</sic> in synonima soliloquiorum
+                <lb ed="#Ka"/>libro 1 capitulo 12</ref> <quote xml:id="bHY6yh-de7543-Qd1e288">facile penitentibus cle
+                <lb ed="#Ka" break="no"/><sic>mencia</sic> diuina subuenit ¶ Per <!--pilcrow in text, add new <p> tags?-->
+                <lb ed="#Ka"/><sic>penitenciam</sic> <sic>indulgencia</sic> deleantur
+                <lb ed="#Ka"/><pc type="virgula">/</pc>per penitentiam delicta omnia abstra
+                <lb ed="#Ka"/>hantur</quote>
+            </p>
+            <p xml:id="bHY6yh-de7543-d1e298">
+              ¶ <ref xml:id="bHY6yh-de7543-Rd1e322">16 capitulo 2</ref> <quote xml:id="bHY6yh-de7543-Qd1e302"><unclear>Si</unclear> in anis est
+                <lb ed="#Ka"/>penitentia quam culpa sequens coinquinat</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 36</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#graydonlee">Graydon Lee</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 36</title>
+               <date when="2023-05-15">May 15, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="23-r"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de9812"><!-- p1l1-r36 -->
+            <head xml:id="bHY6yh-de9812-Hd1e108">Rubrica 36</head>
+            <head xml:id="bHY6yh-de9812-Hd1e111" type="question-title">De commissione auctoris et officii ad christo data petro apostolo
+              et ceteris discipulis christi
+            </head>
+            <p xml:id="bHY6yh-de9812-d1e114">
+               <lb ed="#Ka"/>de <sic>conmissione</sic> auctoritatis et officiis
+               <lb ed="#Ka"/>a <sic>ihesus</sic> dato petro et ceteris eius
+               <lb ed="#Ka"/>discipulis rubrica 36
+            </p>
+            <p xml:id="bHY6yh-de9812-d1e125">
+               <lb ed="#Ka"/> <ref><sic>MAtheus</sic> in <sic>evvangelio</sic> capitulo 16</ref> <quote xml:id="bHY6yh-de9812-Qd1e131">ait
+               <lb ed="#Ka"/><sic>ihesus</sic> petro Tu es petrus
+               <lb ed="#Ka"/>et super hanc petram
+               <lb ed="#Ka"/>edificabo ecciam meam et porte
+               <lb ed="#Ka"/>inferni non patebunt adversus
+               <lb ed="#Ka"/>eam et dabo tibi claues regni ce
+               <lb ed="#Ka" break="no"/>lorum et quod cumque ligaueris super terram
+                  <pb ed="#Ka" n="23-v"/>
+                  <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/>erit ligatum et in celis et quod cumque
+               <lb ed="#Ka"/>solueris super terram erit solum et in
+               <lb ed="#Ka"/>celis</quote>
+            </p>
+            <p xml:id="bHY6yh-de9812-d1e148">
+             ¶ <ref>capitulo 18</ref> <quote xml:id="bHY6yh-de9812-Qd1e150">Ait <sic>ihesus</sic> discipulis
+               <lb ed="#Ka"/>suis amen dico vobis quod cumque alli
+               <lb ed="#Ka" break="no"/>gaueritis super terram erit ligata et
+               <lb ed="#Ka"/>in celo et quemcumque solueritis super
+               <lb ed="#Ka"/>terram erunt soluta et interra</quote> <pc type="virgula">/</pc>
+            </p>
+            <p xml:id="bHY6yh-de9812-d1e163">
+               <lb ed="#Ka"/> <ref><sic>Iohannes</sic> in <sic>evvangelio</sic> capitulo 20</ref> <quote xml:id="bHY6yh-de9812-Qd1e167">dixit
+               <lb ed="#Ka"/><sic>ihesus</sic> discipulis suis post suam resur
+               <lb ed="#Ka" break="no"/><sic>reccionem</sic> pax vobis sicut misit me
+               <lb ed="#Ka"/>pater et ego mitto vos. hec cum
+               <lb ed="#Ka"/>dixisset insufflauit et dixit eis
+               <lb ed="#Ka"/>accipite spiritum sanctum quorum remi
+               <lb ed="#Ka" break="no"/>sseritis peccata remittentur eis et quorum
+               <lb ed="#Ka"/>teneritis retenta sunt</quote> <!--"teneritis" in text vs. "retinueritis" in verse io20_23 vs. "rentiueritis" in Venice-->
+            </p>
+            <p xml:id="bHY6yh-de9812-d1e181">
+             ¶ <ref>21 capitulo et <unclear>si</unclear></ref>
+               <lb ed="#Ka"/> <quote xml:id="bHY6yh-de9812-Qd1e183">ait <sic>ihesus</sic> post <sic>resurreccionem</sic> suam ait
+               <lb ed="#Ka"/>petro apostolo pasce agnos meos
+               <lb ed="#Ka"/><pc type="virgula">/</pc>Idem dixit eidem pasce oues meas</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
