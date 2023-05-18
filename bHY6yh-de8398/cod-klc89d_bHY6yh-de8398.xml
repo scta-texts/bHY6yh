@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 29</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#graydonlee">Graydon Lee</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 29</title>
+               <date when="2023-05-09">May 9, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="20-v"/>
+            <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de8398"><!-- p1l1-r29 -->
+            <head xml:id="bHY6yh-de8398-Hd1e108">Rubrica 29</head>
+            <head xml:id="bHY6yh-de8398-Hd1e111" type="question-title">De diabolo.</head>
+            <p xml:id="bHY6yh-de8398-d1e114">
+               <lb ed="#Ka"/>De <sic>dyabolo</sic> rubrica 29
+            </p>
+            <p xml:id="bHY6yh-de8398-d1e119">
+               <lb ed="#Ka"/> <ref>PLato in <sic>thimeo</sic></ref><!--add ref tags--> / <quote xml:id="bHY6yh-de8398-Qd1e123">Invisibi
+               <lb ed="#Ka" break="no"/>lium diuinarum potestatum que
+               <lb ed="#Ka"/>demones nuncupantur praestare <unclear>positionem</unclear> <!--unclear abbreviation,"rationem" in Venice and Krakow, appears to be "positionem" in text-->
+               <lb ed="#Ka"/>maius eest opus quam ferre valeat
+               <lb ed="#Ka"/>at homis ingenium</quote> 
+            </p>
+            <p xml:id="bHY6yh-de8398-d1e129">
+               omitted <!--<quote xml:id="bHY6yh-de8398-Qd1e133"></quote>-->
+            </p>
+            <p xml:id="bHY6yh-de8398-d1e142">
+               <ref><sic>Ihesus</sic> filius
+               <lb ed="#Ka"/><sic>syrach</sic> in ecclesiastico capitulo 21</ref>  <quote xml:id="bHY6yh-de8398-Qd1e152">dum
+                  <cb ed="#Ka" n="b"/>
+               <lb ed="#Ka"/>maledicit <unclear>impius</unclear> <sic>dyabolum</sic> male
+               <lb ed="#Ka" break="no"/>dicit ipse animam suam</quote>
+            </p>
+            <p xml:id="bHY6yh-de8398-d1e158">
+             / <ref><sic>Iohannes</sic>
+               <lb ed="#Ka"/>in <sic>evvangelio</sic> capitulo 8</ref> <quote xml:id="bHY6yh-de8398-Qd1e162"><sic>dyabolus</sic> mendax
+               <lb ed="#Ka"/>est <del rend="strikethrough"><unclear>p</unclear></del> et pater eius</quote> <!--unclear, deleted letter most likely "p"-->
+            </p>
+            <p xml:id="bHY6yh-de8398-d1e168">
+               <ref>Idem <sic>iohannes</sic> epistola
+               <lb ed="#Ka"/>1 capitulo 3</ref> / <quote xml:id="bHY6yh-de8398-Qd1e172">Qui facit peccatum exdyabo
+               <lb ed="#Ka" break="no"/>lo est in hoc aperuit filius dei ut
+               <lb ed="#Ka"/>dissoluat opera <sic>dyaboli</sic></quote>
+            </p>
+            <p xml:id="bHY6yh-de8398-d1e180">
+             / <ref>Idem in
+               <lb ed="#Ka"/><sic>apocalipsi</sic> capitulo 12</ref> <quote xml:id="bHY6yh-de8398-Qd1e182">Serpens antiquus
+               <lb ed="#Ka"/>qui vocabatur <sic>dyabolus</sic> et <sic>satha</sic>
+               <lb ed="#Ka" break="no"/>nas qui sucedit in vniuersum
+               <lb ed="#Ka"/>mundum proiectus est de celo in
+               <lb ed="#Ka"/>terram et angeli eius cum eo missi
+               <lb ed="#Ka"/>sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-de8398-d1e192">
+               <ref>petrus apostolus <unclear>41</unclear> capitulo 3</ref><!--unclear what "41" correlates with, verse from petr5_8-->  <quote xml:id="bHY6yh-de8398-Qd1e196">Sobrii
+               <lb ed="#Ka"/>estote et vigilate quia aduersarius
+               <lb ed="#Ka"/>vester <sic>dyabolus</sic> tamquam deuorat</quote>
+            </p>
+            <p xml:id="bHY6yh-de8398-d1e204">
+               <ref>Iacobus apostolus unica epistola capitulo 1</ref> <quote xml:id="bHY6yh-de8398-Qd1e208">Tu
+               <lb ed="#Ka"/>credis quod vnus est deus bene facis
+               <lb ed="#Ka"/>et demones credunt et <unclear>contmesunt</unclear></quote> <!--unclear, "contremiscunt" in Venice and "contremescunt" in verse iac2_19-->
+            </p>
+            <p xml:id="bHY6yh-de8398-d1e217">
+               <lb ed="#Ka"/> ¶ <ref>capitulo 3</ref> <quote xml:id="bHY6yh-de8398-Qd1e219">nolite gloriari et mendaces esse
+               <lb ed="#Ka"/>aduersus veritatem non est enim ista
+               <lb ed="#Ka"/>sapientia desursum descendens sed <sic>cer</sic>
+               <lb ed="#Ka" break="no"/>rena animalis <sic>dyabolica</sic></quote>
+            </p>
+            <p xml:id="bHY6yh-de8398-d1e229">
+             / <ref>capitulo 4</ref> <quote xml:id="bHY6yh-de8398-Qd1e231">re
+               <lb ed="#Ka" break="no"/>sistite <sic>dyabolo</sic> et fugiet a uobis</quote>
+            </p>
+            <p xml:id="bHY6yh-de8398-d1e237">
+               <lb ed="#Ka"/> <ref>Paulus apostolus epistola adephesios
+               <lb ed="#Ka"/>capitulo 6. et <unclear>si</unclear></ref> / <quote xml:id="bHY6yh-de8398-Qd1e241">Induite nos arma
+               <lb ed="#Ka" break="no"/>tura dei et possitis adversus
+               <lb ed="#Ka"/>insidias <sic>dyabola</sic> et caetera <pc type="virgula">/</pc> Accipite ar
+               <lb ed="#Ka"/>matura dei et possitis resistere
+               <lb ed="#Ka"/>in die malo et in omnibus per
+               <lb ed="#Ka" break="no"/>fecte stare <pc type="virgula">/</pc> State ergo <sic>subcincti</sic> <!--"succincti" in Venice and verse eph6_14-->
+               <lb ed="#Ka"/>lumbos <sic>nostros</sic> in veritate et induti <!--"vestros" in Venice and verse-->
+               <lb ed="#Ka"/>lorica <sic>iusticie</sic> et calciati pedes
+               <lb ed="#Ka"/>in <sic>praeparacione</sic> <sic>evvangelii</sic> pacis in omnibus
+               <lb ed="#Ka"/>sumens scutum fidei in quo possitis
+                  <pb ed="#Ka" n="21-r"/>
+                  <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/>omnia tela nequissimi ignea ex
+               <lb ed="#Ka" break="no"/><sic>tingrvvere</sic> et galeam salutis as
+               <lb ed="#Ka" break="no"/>sumere gladium spiritus que est verbum dei</quote>
+            </p>
+            <p xml:id="bHY6yh-de8398-d1e266">
+             ¶ <ref>Idem epistola 1 ad <sic>thymotheum</sic></ref> <quote xml:id="bHY6yh-de8398-Qd1e268">Qui
+               <lb ed="#Ka"/>volunt diuites fieri incidunt in
+               <lb ed="#Ka"/><sic>temptacionem</sic> et laqueum <sic>dyaboli</sic> et
+               <lb ed="#Ka"/>desideria multa et in vtilia et
+               <lb ed="#Ka"/>nociua que mergunt homines in
+               <lb ed="#Ka"/>interitum et <sic>perdicionem</sic></quote>
+            </p>
+            <p xml:id="bHY6yh-de8398-d1e278">
+               <pc type="punctus-medius">•</pc> <ref><sic>Isydorus</sic>
+               <lb ed="#Ka"/>in <sic>synonima</sic> soliloquiorum libro 1</ref> <quote xml:id="bHY6yh-de8398-Qd1e282">Spiritus
+               <lb ed="#Ka"/>qui ad peccandum succedit <sic>pecantem</sic>
+               <lb ed="#Ka"/>sepe subito rapit</quote>
+            </p>
+            <p xml:id="bHY6yh-de8398-d1e290">
+             ¶ <ref>libro 2 capitulo 6</ref> <quote xml:id="bHY6yh-de8398-Qd1e292">Im
+               <lb ed="#Ka" break="no"/>mundus spiritus orationis <sic>instancia</sic>
+               <lb ed="#Ka"/>vincitur ¶ Demonia oratione <sic>deiciuntur</sic>
+               <lb ed="#Ka"/>uel vincuntur oratione demonia superantur</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

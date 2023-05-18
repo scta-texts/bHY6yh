@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 23</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name ref="#graydonlee">Graydon Lee</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 23</title>
+               <date when="2023-05-01">May 1, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="16-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de6286"><!-- p1l1-r23 -->
+            <head xml:id="bHY6yh-de6286-Hd1e108">Rubrica 23</head>
+            <head xml:id="bHY6yh-de6286-Hd1e111" type="question-title">De puritate animi et cogitatione atque voluntate peccati</head>
+            <p xml:id="bHY6yh-de6286-d1e114">
+              <lb ed="#Ka"/>de puritate animi et
+              <lb ed="#Ka"/><sic>cognicione</sic> atque voluntate peccati rubrica 23
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e121">
+              <lb ed="#Ka"/> <ref xml:id="bHY6yh-de6286-Rd1e118">SAlomon in prouerbiis capitulo 4</ref>
+              <lb ed="#Ka"/> <quote xml:id="bHY6yh-de6286-Qd1e127">Omni sua cor tuum
+              <lb ed="#Ka"/>quia ab ipso vita procedit</quote>
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e133">
+            / <ref xml:id="bHY6yh-de6286-Rd1e132">capitulo 15.</ref>
+              <lb ed="#Ka"/> <quote xml:id="bHY6yh-de6286-Qd1e137">ab <sic>hominacio</sic> domini <sic>cogitaciones</sic> male.</quote>
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e144">
+              <lb ed="#Ka"/>/ <ref xml:id="bHY6yh-de6286-Rd1e143">capitulo 20</ref> <quote xml:id="bHY6yh-de6286-Qd1e146">quis potest dicere mundum est cor
+              <lb ed="#Ka"/>meum purus sum a peccato et caetera</quote>
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e152">
+              <lb ed="#Ka"/> <ref xml:id="bHY6yh-de6286-Rd1e155"><sic>Phylon</sic> <unclear>sevv</unclear> <sic>silemon</sic> libro sapiente capitulo 1.</ref>
+              <lb ed="#Ka"/> <quote xml:id="bHY6yh-de6286-Qd1e156">peruerse <sic>cogitaciones</sic> seperant a deo</quote>
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e162">
+              <lb ed="#Ka"/> <ref xml:id="bHY6yh-de6286-Rd1e167"><sic>Macheus</sic> in <sic>evvangelio</sic> capitulo 5.</ref> <quote xml:id="bHY6yh-de6286-Qd1e166">omnis qui
+              <lb ed="#Ka"/>viderit mulierem adconcupiscendam
+              <lb ed="#Ka"/>iam mechatus est eam in corde <unclear>suo</unclear></quote><!--unclear if strikethrough in "suo"-->
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e172">
+              <lb ed="#Ka"/> <quote xml:id="bHY6yh-de6286-Qd1e176">Si oculus tuus dexter scandaliza
+              <lb ed="#Ka" break="no"/>uerit te expedit enim tibi ut pereat <!--"erue eum et proiice abs" omitted-->
+              <lb ed="#Ka"/>vnus membrorum quam totum corpis tuum
+                <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>mittatur in <sic>iehennam</sic> ignis</quote>
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e193">
+              / <ref xml:id="bHY6yh-de6286-Rd1e198">20 capitulo</ref>
+                <lb ed="#Ka"/> <quote xml:id="bHY6yh-de6286-Qd1e195">Estote prudentes sicut serpentes
+                <lb ed="#Ka"/>et simplices sicut columbe et caetera</quote>
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e201">
+              <ref xml:id="bHY6yh-de6286-Rd1e210"><sic>Matheus</sic> in <sic>evvangelio</sic> capitulo 7.</ref> / <quote xml:id="bHY6yh-de6286-Qd1e205">abintus
+              <lb ed="#Ka"/>de corde hominum <sic>cofitaciones</sic> male pro
+              <lb ed="#Ka" break="no"/>cedunt adulteria <sic>fornicaciones</sic> homi
+              <lb ed="#Ka" break="no"/>cida furta <sic>auaricia</sic> invidia oculus
+              <lb ed="#Ka"/>malus <sic>plasphemia</sic> superbia stulti
+              <lb ed="#Ka" break="no"/><sic>cia</sic></quote>
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e218">
+            / <ref xml:id="bHY6yh-de6286-Rd1e229">10 capitulo</ref>  <quote xml:id="bHY6yh-de6286-Qd1e222">paruulorum est regnum dei
+              <lb ed="#Ka"/>Quisquis non receperit regnum dei
+              <lb ed="#Ka"/><sic>velud</sic> paruulus non intrabit in illud</quote>
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e230">
+              <lb ed="#Ka"/> <ref xml:id="bHY6yh-de6286-Rd1e243">Lucas in <sic>evvangelio</sic> capitulo 6</ref> <quote xml:id="bHY6yh-de6286-Qd1e234">Bonus homo
+              <lb ed="#Ka"/>de bono thesauro cordis sui profert
+              <lb ed="#Ka"/>bonum <subst><del rend="strikethrough">homo</del> <add place="margin-left"><del rend="strikethrough">bonus</del></add></subst> malus homo de ma<!--"bonus" added in margin then corrected with strikethrough, Lucas 6:45-->
+              <lb ed="#Ka" break="no"/>lo thesauro profert malum et caetera</quote>
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e242">
+              <lb ed="#Ka"/> <ref xml:id="bHY6yh-de6286-Rd1e257">Iacobus apostolus epistola <unclear>5 prima</unclear> capitulo 1</ref> <quote xml:id="bHY6yh-de6286-Qd1e246">Unus <!--unclear, both "5" and "prima" listed after "epistola"-->
+              <lb ed="#Ka" break="no"/>quisque temptatur a <sic>concupiscencia</sic>
+              <lb ed="#Ka"/>sua abstractus est ille illectus de
+              <lb ed="#Ka" break="no"/>inde concupiscentia cum ceperit <sic>perit</sic> peccatum</quote> <!--"perit" in text, "parit" in verse and Venice-->
+            </p>
+            <p> <!--add tags, quote seperated-->
+              <lb ed="#Ka"/>¶ <quote>peccatum vero cum consumatum suerit ge
+              <lb ed="#Ka" break="no"/>nerat mortem et caetera</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
