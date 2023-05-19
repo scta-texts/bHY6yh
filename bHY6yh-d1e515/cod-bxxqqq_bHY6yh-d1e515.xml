@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 3</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 3</title>
+          <date when="2023-05-19">May 19, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-05-19" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="5-r"/>
+        <cb ed="#B" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d1e515"><!-- p1l1-r3 -->
+        <head xml:id="bHY6yh-d1e515-Hd1e108">Rubrica 3</head>
+        <head xml:id="bHY6yh-d1e515-Hd1e111" type="question-title">De qualitate Dei</head>
+        <p xml:id="bHY6yh-d1e515-d1e114">
+          <lb ed="#B"/>De qualitate dei Rubrica 3
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e119">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d1e515-Rd1e122">In exodo capitulo 30</ref> <quote xml:id="bHY6yh-d1e515-Qd1e121">Ego sum dominus 
+          <lb ed="#B"/>deus fortis et zelotes.</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-xxx473">
+          [omitted]
+        </p>
+        <p xml:id="bHY6yh-d1e515-xxx549">
+         [omitted]
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e131">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d1e515-Rd1e128">salmista psalmo 7</ref> <quote xml:id="bHY6yh-d1e515-Qd1e133">dominus iudex <!--line bumps up--> iustus fortis 
+          <lb ed="#B"/>et paciens</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e142"> /
+           <ref xml:id="bHY6yh-d1e515-Rd1e142"> psalmus. 17. </ref> <quote xml:id="bHY6yh-d1e515-Qd1e144"> Protector est deus
+            omnium sperantium in se. </quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e150"> /
+          <ref xml:id="bHY6yh-d1e515-Rd1e152">psalmus. 24</ref> <quote xml:id="bHY6yh-d1e515-Qd1e152">
+               Fundamentum est dominus omnibus timentium eum. </quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e158"> /
+          <ref xml:id="bHY6yh-d1e515-Rd1e162">psalmus. 33.</ref> 
+            <quote xml:id="bHY6yh-d1e515-Qd1e160">Gustate et videte quoniam suauis est dominus.</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e166"> /
+          <ref xml:id="bHY6yh-d1e515-Rd1e171">psalmus
+            89.</ref> <quote xml:id="bHY6yh-d1e515-Qd1e168">Deus iudex est.</quote>
+            <!--can't find this in 89; is found in 49; text definitely says 89-->
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e174"> /
+          <ref xml:id="bHY6yh-d1e515-Rd1e184" target="http://scta.info/resource/ps74_8@2-4">Id est psalmus 74.</ref>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e180"> /
+          <ref xml:id="bHY6yh-d1e515-Rd1e190">psalmus. 85</ref>
+            <quote xml:id="bHY6yh-d1e515-Qd1e182">Tum deus suauis et mitis et multe 
+               misericordie es omnibus inuocantibus te. </quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e191"> /
+          <ref xml:id="bHY6yh-d1e515-Rd1e202">psalmus. 91.</ref> <quote xml:id="bHY6yh-d1e515-Qd1e193">
+               Rectus dominus deus noster: et non est iniquitas in
+            eo. </quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e201"> /
+          <ref xml:id="bHY6yh-d1e515-Rd1e214">psalmus. 117</ref> <quote xml:id="bHY6yh-d1e515-Qd1e203">Confitemini domino quoniam bonus
+            quoniam in saeculum mina eius </quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e209"> /
+           <ref xml:id="bHY6yh-d1e515-Rd1e224">psalmus. 135.</ref> <quote xml:id="bHY6yh-d1e515-Qd1e211"> Iustus es
+            domine: et rectum iudicium tuum. </quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e217"> /
+          <ref xml:id="bHY6yh-d1e515-Rd1e234">psalmus. 165</ref> <quote xml:id="bHY6yh-d1e515-Qd1e219">Fidelis
+            dominus in omnibus verbis suis: et sanctus in omnibus 
+               operibus suis. </quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e227"> /
+          <quote xml:id="bHY6yh-d1e515-Qd1e229">Iustus dominus in omnibus
+            viis suis: et sanctus in omnibus operibus
+            suis. </quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e237"> /
+          <ref xml:id="bHY6yh-d1e515-Rd1e256">psalmus. <sic>166.</sic> </ref> <quote xml:id="bHY6yh-d1e515-Qd1e239">Deus custodit veritatem in
+            seculum. </quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e246"> /
+          <quote xml:id="bHY6yh-d1e515-Qd1e248"> Dominus diligit iustos. </quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e252">
+          
+           <ref xml:id="bHY6yh-d1e515-Rd1e278">Phylon vel filemon. li. sapientie. c. 15.</ref> <quote xml:id="bHY6yh-d1e515-Qd1e256">Tu
+            deus noster suauis et verus es: patiens et cum
+            misericordia disponens omnia. </quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e264">
+          
+           <ref xml:id="bHY6yh-d1e515-Rd1e292">Ioannes in euangelio. c. 1.</ref> <quote xml:id="bHY6yh-d1e515-Qd1e268">Deum nemo vidit
+            vnquam. </quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e274"> /
+          <ref xml:id="bHY6yh-d1e515-Rd1e302">10. c.</ref> ait iesus: <quote xml:id="bHY6yh-d1e515-Qd1e276"> Ego sum pastor bonus </quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e280">
+          
+           <ref xml:id="bHY6yh-d1e515-Rd1e312"> c. 11.</ref> <quote xml:id="bHY6yh-d1e515-Qd1e284">Dixit iesus: Ego sum resurrectio et
+            vita. </quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e290"> /
+          <ref xml:id="bHY6yh-d1e515-Rd1e322">.c. 14</ref> <quote xml:id="bHY6yh-d1e515-Qd1e292"> dixit iesus: Ego sum via veritas et
+            vita. </quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e299"> /
+          <ref xml:id="bHY6yh-d1e515-Rd1e333">Idem in epistola. i. c. 4.</ref> <quote xml:id="bHY6yh-d1e515-Qd1e301">Deus <sic>charitas</sic> est </quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e305">
+          
+           <ref xml:id="bHY6yh-d1e515-Rd1e343">Paulus apostolus: epistola ad romanos
+            c. 3.</ref> <quote xml:id="bHY6yh-d1e515-Qd1e309">Est autem deus vera x: omnis autem homo
+            mendax. </quote>
+        </p>
+         <p xml:id="bHY6yh-d1e515-xxx151">
+          omitted
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e317"> /
+          <ref xml:id="bHY6yh-d1e515-Rd1e356">c. 13.</ref> <quote xml:id="bHY6yh-d1e515-Qd1e319">Que a deo sunt ordinata
+            sunt. </quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e325"> /
+           <ref xml:id="bHY6yh-d1e515-Rd1e329">Idem epistola. 1 ad corinthios. c. 
+           <!--25.xml-->
+          <cb ed="#V" n="b"/>
+             10</ref> <quote xml:id="bHY6yh-d1e515-Qd1e327">Fidelis deus est.</quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e337">
+          <ref xml:id="bHY6yh-d1e515-Rd1e345"> <name xml:id="bHY6yh-d1e515-Nd1e347" ref="#Boethius">Boetius</name> de consolatione: libro. 4. ca. 9. </ref>
+          / <quote xml:id="bHY6yh-d1e515-Qd1e349">Quamuis causam tante dispositionis 
+               ignores: quoniam tamen bonus mundum 
+               rector temperat recte fieri cuncta ne dubites</quote> 
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e358">
+          
+          / <ref xml:id="bHY6yh-d1e515-Rd1e402">11 ca.</ref> <quote xml:id="bHY6yh-d1e515-Qd1e362">Et si nobis fatalem ordinem 
+               minime considerare valentibus confusa omnia
+            conturbataque videantur: nihilominus tamen
+            suus modus ad bonum dirigens cuncta 
+               disponit. </quote>
+        </p>
+        <p xml:id="bHY6yh-d1e515-d1e374"> /
+          <quote xml:id="bHY6yh-d1e515-Qd1e376"> Naturarum omnium proditor deus
+            idem ad bonum dirigens cuncta disponit. </quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
