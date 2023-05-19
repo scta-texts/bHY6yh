@@ -1,14 +1,17 @@
 {
-	"image": "mcr.microsoft.com/devcontainers/universal:2",
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"raffazizzi.sxml",
-				"ms-vsliveshare.vsliveshare"
-			],
-			"settings": {
-				"editor.tabSize": 2
-			}
-		}
-	}
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "raffazizzi.sxml",
+        "ms-vsliveshare.vsliveshare"
+      ],
+      "settings": {
+        "editor.tabSize": 2,
+        "editor.renderWhitespace": "all",
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
+      }
+    }
+  }
 }
