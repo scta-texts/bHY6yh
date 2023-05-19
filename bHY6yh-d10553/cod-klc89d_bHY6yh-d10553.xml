@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 42</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#graydonlee">Graydon Lee</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 42</title>
+               <date when="2023-05-17">May 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="25-r"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d10553"><!-- p1l1-r42 -->
+            <head xml:id="bHY6yh-d10553-Hd1e108">Rubrica 42</head>
+            <head xml:id="bHY6yh-d10553-Hd1e111" type="question-title">de falsis opinionibus contrariis christiane religioni cognoscendis
+              et damnandis in libris vsualibus christianorum: primo circa essentiam dei
+            </head>
+            <p xml:id="bHY6yh-d10553-d1e114">
+               <lb ed="#Ka"/>de falsis opinionibus contrinis christiane
+               <lb ed="#Ka"/>religionis cognoscendis et <sic>damp
+               <lb ed="#Ka" break="no"/>nandis</sic> in libris vsualibus christianorum
+               <lb ed="#Ka"/>primo circa errorem dei rubrica 42 <!--"errorem" in Ka "essentiam" in Venice-->
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e123">
+               <lb ed="#Ka"/> <ref><unclear>TVlius</unclear><!--Stylized "T" or "G"?--> de nautura deorum libro i.</ref>
+               <lb ed="#Ka"/> <quote xml:id="bHY6yh-d10553-Qd1e127">Quidam dixerunt de hominis
+               <lb ed="#Ka"/>in mortalibus oppinionem fictam
+               <lb ed="#Ka"/>esse ab ominbus sapientibus rei
+               <lb ed="#Ka"/>publice causa ut quos ratio non posset
+               <lb ed="#Ka"/>eos ad effectum religio duceret<pc type="virgula">/</pc></quote><!--"effectum" in text vs. "officium" in Venice and Cicero-->
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e139">
+               <lb ed="#Ka"/> <ref>Idem in noctuiarum in catilinam<!--"noctuiarum" in text vs. "inuectiuarum" in Venice-->
+               <lb ed="#Ka"/>libro 4. et <unclear>si</unclear></ref> <quote xml:id="bHY6yh-d10553-Qd1e141">ut aliqua multa for <!--"multa" in text vs. "in vita" in Vencie and Cicero -->
+               <lb ed="#Ka" break="no"/>mido improbis esset posita apud
+               <lb ed="#Ka"/>inferos antiqui supplicia impii
+               <lb ed="#Ka"/>constituta esse noluerunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e152"> 
+               <ref>Statius
+               <lb ed="#Ka"/><sic>thebaydos</sic> libro 2.</ref> <quote xml:id="bHY6yh-d10553-Qd1e154">primus in orbe
+               <lb ed="#Ka"/>deos timor fecit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e160">
+               <lb ed="#Ka"/> <ref>Secundo circa fatum <!-- seems like a kind of independent header -->
+               <lb ed="#Ka"/><unclear>TVlius</unclear> de diuinitate libro 1. circa
+               <lb ed="#Ka"/><unclear>fi</unclear></ref><!--"si" or "fi"?-->  <quote xml:id="bHY6yh-d10553-Qd1e164">fato omnia fiunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e184">
+               <ref>Ouidius
+                  <pb ed="#Ka" n="25-v"/>
+                  <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/>de tristibus libro 3. capitulo 7.</ref> <quote xml:id="bHY6yh-d10553-Qd1e194">Ratio fatum
+               <lb ed="#Ka"/>vincere nulla valet</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e192">
+               Omitted <!--quote from Ovid moved to previous paragraph-->
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e200">
+               <ref>Seneca trage
+               <lb ed="#Ka" break="no"/>diarum in octauia capitulo 19 et <unclear>si</unclear></ref> <quote xml:id="bHY6yh-d10553-Qd1e204">Regitur
+               <lb ed="#Ka"/><sic>facis</sic> mortale genus</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e211">
+               <ref>Idem de natura
+               <lb ed="#Ka" break="no"/>libus libro 3.</ref> <quote xml:id="bHY6yh-d10553-Qd1e213">Ordine <sic>faci</sic> rerum eterna
+               <lb ed="#Ka"/>series rotat</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e221">
+               <ref>Idem <sic>deprouidencia</sic></ref>
+               <lb ed="#Ka"/> <quote xml:id="bHY6yh-d10553-Qd1e223">scio omnia <sic>cerca</sic> et ineternum decurrere
+               <lb ed="#Ka"/>quo fata vos ducunt et quacumque <!--"quacumque" in text vs. "quantum cumque/quantum cuique" in Venice and Seneca-->
+               <lb ed="#Ka"/>temporis restat prima uestencium ho
+               <lb ed="#Ka" break="no"/>ra <unclear>disponit</unclear></quote><!--"uestencium" in text vs. "nascentium" in Venice and Seneca; "disponit" or "dispouit"-->
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e233">
+               <ref>Idem de <sic>consolacione</sic>
+               <lb ed="#Ka"/>ad paulinum</ref> <quote xml:id="bHY6yh-d10553-Qd1e235">mutare fata non
+               <lb ed="#Ka"/>possimus stant dura et inexorabi
+               <lb ed="#Ka" break="no"/>lia</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e243">
+               <ref>Lucas libro v.</ref> <quote xml:id="bHY6yh-d10553-Qd1e247">nunquam <sic>sit</sic> cura
+               <lb ed="#Ka"/>deorum se primet ut nostre mortis
+               <lb ed="#Ka"/>nostreque saluti <sic>faca</sic> vacent</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e253">
+               <ref>libro 6</ref>
+               <lb ed="#Ka"/> <quote xml:id="bHY6yh-d10553-Qd1e257">praeceps agit omnia fatum nec me
+               <lb ed="#Ka" break="no"/>dii dirimunt morbi vitam que ne
+               <lb ed="#Ka" break="no"/>cemque sed cum morte venit lang
+               <lb ed="#Ka" break="no"/><sic>vvor</sic></quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e265">
+               <ref>Quintilianus de clamacionum
+               <lb ed="#Ka"/>7. de clamatis</ref> <quote xml:id="bHY6yh-d10553-Qd1e269">fato viuimus lan
+               <lb ed="#Ka" break="no"/>guemus conualestimus morimur
+               <lb ed="#Ka"/>Medicina quid praestas nisi ut iuxta
+               <lb ed="#Ka"/>te non desperet</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e280">
+               <ref>Iuuenalis libro
+               <lb ed="#Ka"/>3 satis 1.</ref> <quote xml:id="bHY6yh-d10553-Qd1e284"><sic>discat</sic> enim que deside
+               <lb ed="#Ka" break="no"/>ria te excipiant modo primus incipi
+               <lb ed="#Ka" break="no"/>entem edere <sic>nagicus</sic> et ad huc
+               <lb ed="#Ka"/>ad matre rubentem <del rend="strikethrough">vendicius</del> ven
+               <lb ed="#Ka" break="no"/>cidius quid enim quid tulius an
+               <lb ed="#Ka"/>aliud quam sidus et oculti mi
+               <lb ed="#Ka" break="no"/>randa <sic>potencia</sic> fati <pc type="virgula">/</pc> Seruis
+               <lb ed="#Ka"/>regna dabunt captiuis fata
+               <lb ed="#Ka"/>triumphos</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e298">
+             / <ref>3 <sic>fatis</sic> et <unclear>si</unclear></ref> <quote xml:id="bHY6yh-d10553-Qd1e302"><sic>faca</sic> re
+               <lb ed="#Ka" break="no"/>gunt homines</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e306">
+               <ref>Gualterius de ca
+               <lb ed="#Ka" break="no"/>stellione libro 3.</ref> <quote xml:id="bHY6yh-d10553-Qd1e310">fatorum stat in eui
+                  <cb ed="#Ka" n="b"/>
+               <lb ed="#Ka" break="no"/>tabilis ordo Euentus homini se
+               <lb ed="#Ka" break="no"/>ries in mobilis artat</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e318">
+               <lb ed="#Ka"/> <ref>Tercio circa fortunam</ref> <!--appears to be third header <quote xml:id="bHY6yh-d10553-Qd1e322"></quote>-->
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e326">
+               <lb ed="#Ka"/> <ref>TVlius de <sic>diuinacione</sic> libro 2.
+               <lb ed="#Ka"/>et <unclear>si</unclear></ref> / <quote xml:id="bHY6yh-d10553-Qd1e330"><sic>Michi</sic> nec in deum
+               <lb ed="#Ka"/>quid cadere noster ut sciat quid casu <!--"noster" in text vs. "videtur" in Venice and Cicero-->
+               <lb ed="#Ka"/>fortuito futurum sit</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e340">
+               <ref>Idem in oratione
+               <lb ed="#Ka"/>pro marcho marcello</ref> ¶ <quote xml:id="bHY6yh-d10553-Qd1e342">Rex hic hu<!--"rex" in text vs. "rerum" in Venice and Cicero-->
+               <lb ed="#Ka" break="no"/>manorum domina est fortuna</quote>
+            </p>
+            <p><!--add tags-->
+               <ref>Quarto circa mundum</ref>
+            </p>
+            <p>
+               <ref>SAlomon in ecclesiastico capitulo 1.</ref>
+               <lb ed="#Ka"/><quote>terra in eternum stat</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e357">
+               <ref>Aristo
+               <lb ed="#Ka" break="no"/>teles de generatione et <sic>corrupcione</sic>
+               <lb ed="#Ka"/>libro 2 et <unclear>si</unclear></ref> / <quote xml:id="bHY6yh-d10553-Qd1e361">semper continuo erit
+               <lb ed="#Ka"/><sic>generacio</sic> et <sic>corrupcio</sic> et nunquam defi
+               <lb ed="#Ka" break="no"/>ciet</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e369">
+             / <ref>Idem de plantis libro 2 ante
+               <lb ed="#Ka"/>medium</ref> / <quote xml:id="bHY6yh-d10553-Qd1e373">mundus totalis est perpe
+               <lb ed="#Ka" break="no"/>tuus sempiternus nec cessabit
+               <lb ed="#Ka"/>nunquam generare animalia et plantas
+               <lb ed="#Ka"/>et omnes eius species</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e385">
+               <ref>plinius de
+               <lb ed="#Ka"/>naturali <sic>hiistoria</sic> libro 2. capitulo 1.</ref> <quote xml:id="bHY6yh-d10553-Qd1e389">Mundum
+               <lb ed="#Ka"/>numen esse credi par est eternum in
+               <lb ed="#Ka"/>mensum neque genitum neque interiturum</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e406"> /
+               <lb ed="#Ka"/> <ref>Quinto circa animam humanam</ref> 
+            </p>
+            <p><!--add tags-->
+               <lb ed="#Ka"/> <ref>SAlomon in ecclesiastice capitulo 3</ref>
+               <lb ed="#Ka"/> <quote xml:id="bHY6yh-d10553-Qd1e408">vnus interitus est hominis et
+               <lb ed="#Ka"/>iumeentorum et equa vtriusque con
+               <lb ed="#Ka" break="no"/><sic>dicio</sic> quis nouit si spiritus <sic>siliorum</sic>
+               <lb ed="#Ka"/>adam ascendit sursum et spiritus
+               <lb ed="#Ka"/>iumentorum descendit deorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e416">
+               <lb ed="#Ka"/> ¶ <ref>capitulo 9.</ref> <quote xml:id="bHY6yh-d10553-Qd1e420">Mortui <sic>nichil</sic> nouerint am
+               <lb ed="#Ka" break="no"/>plius nec habebunt vltra mer
+               <lb ed="#Ka" break="no"/>cedem nec opus nec ratio nec
+               <lb ed="#Ka"/>scientia nec sapientia erunt apud infe
+               <lb ed="#Ka" break="no"/>ros quo tu properas</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e428">
+               <ref>Aristoteles
+                  <pb ed="#Ka" n="26-r"/>
+                  <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/><sic>ethiicorum</sic> libro 3. capitulo 7.</ref> <quote xml:id="bHY6yh-d10553-Qd1e432"><sic>nichil</sic> ad huc
+               <lb ed="#Ka"/>mortuus noster neque bonum neque
+               <lb ed="#Ka"/>malum esse</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e439">
+               <ref>Virgilius in <del rend="strikethrough">ba</del> buco
+               <lb ed="#Ka" break="no"/>lica egloga 10</ref> / <quote xml:id="bHY6yh-d10553-Qd1e443">omnia fert etas
+               <lb ed="#Ka"/>adam quoque</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e449">
+               <ref>Ouidius <sic>methamor</sic>
+               <lb ed="#Ka"/>libro 15. et <sic>si.</sic></ref> <quote xml:id="bHY6yh-d10553-Qd1e453">morte current anime
+               <lb ed="#Ka"/>semper que priore relicta sed nouis
+               <lb ed="#Ka"/>domibus viuunt habitant que recep
+               <lb ed="#Ka" break="no"/>te ¶ Omnia mutantur <sic>nichil</sic> in <unclear>terit</unclear> erat <!--"trn" abbreviation with macron in text, "interit" in Venice and Ovid-->
+               <lb ed="#Ka"/>et illinc ¶ huc venit et illuc
+               <lb ed="#Ka"/>quoslibet occupat artus ¶ Spiritus
+               <lb ed="#Ka"/>eque foris humana in corpa transit
+               <lb ed="#Ka"/><pc type="virgula">/</pc>In<del rend="strikethrough">fe</del> que feras noster et tempore deperdit
+               <lb ed="#Ka"/>illo <pc type="virgula">/</pc> <sic>ucque</sic> nouis facilis signatur
+               <lb ed="#Ka"/>certa figuris nec manet ut fue
+               <lb ed="#Ka" break="no"/>rat nec forans seruat easdem
+               <lb ed="#Ka"/>Sed cum eadem est animam sic semper
+               <lb ed="#Ka"/>eandem esse sed in uarias docebo
+               <lb ed="#Ka"/>mitigare figuras</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e478">
+               <ref>Seneca tra
+               <lb ed="#Ka" break="no"/>gediarum intro adde capitulo 5.</ref> <quote xml:id="bHY6yh-d10553-Qd1e482">Queris
+               <lb ed="#Ka"/>quo iaceas post obitum loco quo
+               <lb ed="#Ka"/>non nata iacent</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e490">
+             / <ref>Idem deconso
+               <lb ed="#Ka" break="no"/><sic>lacione</sic> ad <sic>morciam</sic></ref> <quote xml:id="bHY6yh-d10553-Qd1e492">Cogita nullum
+               <lb ed="#Ka"/>mortuum malis affici illa que
+               <lb ed="#Ka"/>novis inferos faciunt terribiles
+               <lb ed="#Ka"/>fabula est</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e500">
+               <ref>plinius de naturali hysto
+               <lb ed="#Ka" break="no"/>ria libro 7. capitulo 59.</ref> <quote xml:id="bHY6yh-d10553-Qd1e504">omnibus assuprema
+               <lb ed="#Ka"/>die eadem sunt que ante primam
+               <lb ed="#Ka"/>nec magis a morte ullus sen
+               <lb ed="#Ka" break="no"/>sus aut corpi aut anime quam ante naturalem</quote>
+            </p>
+            <p xml:id="bHY6yh-d10553-d1e514">
+               <lb ed="#Ka"/> <ref>Sexto circa <sic>resurreccionem</sic> mortuorum
+               <lb ed="#Ka"/><sic>ARistotiles</sic> <sic>degeneracione</sic> et cor
+               <lb ed="#Ka" break="no"/>rupcione libro 2 et <unclear>si</unclear></ref> <quote xml:id="bHY6yh-d10553-Qd1e518">homines
+               <lb ed="#Ka"/>non reitterantur inseipsis et rur
+                  <cb ed="#Ka" n="b"/>
+               <lb ed="#Ka" break="no"/>sus generantur <sic>hisdem</sic> numero Corrup
+               <lb ed="#Ka" break="no"/>tibile necesse est sepe reitterari numero autem non</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
