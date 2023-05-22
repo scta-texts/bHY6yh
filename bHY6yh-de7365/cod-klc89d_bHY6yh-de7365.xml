@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 26</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#graydonlee">Graydon Lee</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 26</title>
+               <date when="2023-05-04">May 4, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="18-r"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de7365"><!-- p1l1-r26 -->
+            <head xml:id="bHY6yh-de7365-Hd1e108">Rubrica 26</head>
+            <head xml:id="bHY6yh-de7365-Hd1e111" type="question-title">De peccatorum conuersione ad religionem.</head>
+            <p xml:id="bHY6yh-de7365-d1e114">
+                <lb ed="#Ka"/>de peccatorum conuersione ad religionem
+                <lb ed="#Ka"/>rubrica 26
+            </p>
+            <p xml:id="bHY6yh-de7365-d1e125">
+                <lb ed="#Ka"/> <ref xml:id="bHY6yh-de7365-Rd1e122">Iob hystoria capitulo 22</ref> <quote xml:id="bHY6yh-de7365-Qd1e129">Si reuer
+                <lb ed="#Ka" break="no"/>sus ad omnipotentem edifica<!--"fueris" omitted, in Venice and verse iob22_23-->
+                <lb ed="#Ka" break="no"/>beris et longe facies iniquitatem
+                <lb ed="#Ka"/>a<del rend="strikethrough">te</del> tabernaculo tuo</quote>
+            </p>
+            <p xml:id="bHY6yh-de7365-d1e139">
+               <lb ed="#Ka"/> <ref xml:id="bHY6yh-de7365-Rd1e138"><sic>Thobie</sic> hy
+                <lb ed="#Ka" break="no"/>storia capitulo 13 et <unclear>si</unclear></ref> <quote xml:id="bHY6yh-de7365-Qd1e143">Conuertimini pec
+                <lb ed="#Ka" break="no"/>catores et facite <sic>iusticiam</sic> coram
+                    <pb ed="#Ka" n="18-v"/>
+                    <cb ed="#Ka" n="a"/>
+                <lb ed="#Ka"/>deo credentes quod faciat uobiscum <!--"uobiscum" moved ahead of "misericordiam suam"-->
+                <lb ed="#Ka"/>misericordiam suam</quote>
+            </p>
+           <p xml:id="bHY6yh-de7365-d1e206"> <!--quote from Bible verse is55_7 moved ahead-->
+             <lb ed="#Ka"/> <ref xml:id="bHY6yh-de7365-Rd1e215"><sic>Ysayas</sic> propheta capitulo 55</ref>
+             <lb ed="#Ka"/> <quote xml:id="bHY6yh-de7365-Qd1e210">relinquit impius viam suam et <!--"derelinquit" in Venice and verse is55_7-->
+                <lb ed="#Ka"/>vir iniquus <sic>cogitaciones</sic> suas et
+                <lb ed="#Ka"/>reuertatur ad deum et miserebitur <!--use of "deum" in text vs. "dominus" in Venice and "dominum" in verse is55_7-->
+                <lb ed="#Ka"/>eius quoniam multus est ad <sic>dignoscendum</sic></quote> <!--use of "dignoscendum" in text vs. "ignoscendum" in Venice and verse is55_7-->
+            </p>
+           <p xml:id="bHY6yh-de7365-d1e220"> <!--quote from Ezechiel moved ahead-->
+             <lb ed="#Ka"/> <ref xml:id="bHY6yh-de7365-Rd1e231">Ezechiel propheta capitulo 18</ref> <quote xml:id="bHY6yh-de7365-Qd1e224">nunquam volun
+                <lb ed="#Ka" break="no"/>tas mee est mors impii dicit
+                <lb ed="#Ka"/>dominus deus: et non <del rend="strikethrough">est</del> ut conuertatur a
+                <lb ed="#Ka" break="no"/>viis suis et viuat Cum auerterit
+                <lb ed="#Ka"/>se impius abiniquitate sua quam
+                <lb ed="#Ka"/><sic>peratus</sic> est et fecerit iudicium et <!--"peratus" in text vs. "operatus" in Venice and verse ez18_27-->
+                <lb ed="#Ka"/><sic>iusticiam</sic> ipse animam suam viuifica
+                <lb ed="#Ka" break="no"/>bit</quote>    
+            </p>          
+           <p xml:id="bHY6yh-de7365-d1e239">
+             / <ref xml:id="bHY6yh-de7365-Rd1e250">capitulo 33</ref> <quote xml:id="bHY6yh-de7365-Qd1e241">dicit dominus deus nolo
+                <lb ed="#Ka"/>mortem impii sed ut reuertatur
+                <lb ed="#Ka"/>impius a via sua <sic>ut</sic> viuat</quote> <!--"ut" in text vs. "et" in Venice and verse ez33_11-->
+            </p>
+           <p xml:id="bHY6yh-de7365-xxx489">
+             <quote xml:id="bHY6yh-de7365-Qxxx48">Im
+                <lb ed="#Ka" break="no"/>pietas impii non nocebit ei
+                <lb ed="#Ka"/>in quacumque die conuersus fuerit
+                <lb ed="#Ka"/>ab impietate sua</quote>
+            </p>
+           <p xml:id="bHY6yh-de7365-d1e152">
+             <ref xml:id="bHY6yh-de7365-Rd1e153"><sic>Malachyas</sic>
+               <lb ed="#Ka"/>propheta capitulo 3</ref> <quote xml:id="bHY6yh-de7365-Qd1e156">Reuertimini adme et re
+                <lb ed="#Ka" break="no"/>uertatur ad uos dicit dominus Con
+                <lb ed="#Ka" break="no"/>uertimini et <unclear>videritis</unclear> quid sit inter
+                <lb ed="#Ka"/>iustum et impium et inter seruien
+                <lb ed="#Ka"/>tem domino et non seruientem ei</quote>
+            </p>
+           <p xml:id="bHY6yh-de7365-d1e166">
+             <lb ed="#Ka"/> <ref xml:id="bHY6yh-de7365-Rd1e169">Ihesus filius <sic>syrach</sic> in ecclesiastico
+               <lb ed="#Ka"/>capitulo 5</ref> <quote xml:id="bHY6yh-de7365-Qd1e170">non tardes conuerti ad dominum
+                <lb ed="#Ka"/>et ne differas de die in diem
+                <lb ed="#Ka"/>subito enim venit ita illius et 
+                <lb ed="#Ka"/>in tempore vindicte disperdet te</quote>
+            </p>
+           <p xml:id="bHY6yh-de7365-d1e180">
+             / <ref xml:id="bHY6yh-de7365-Rd1e183">17 capitulo</ref>
+             <lb ed="#Ka"/> <quote xml:id="bHY6yh-de7365-Qd1e182">Conuertere ad dominum et relinque peccata
+                <lb ed="#Ka"/>tua ¶ Quam magna misercordia dei
+                <lb ed="#Ka"/>et <sic>propiciacio</sic> conuertentibus ad se</quote>
+            </p>
+           <p xml:id="bHY6yh-de7365-d1e190">
+             <lb ed="#Ka"/> <ref xml:id="bHY6yh-de7365-Rd1e197">Augustinus in <sic>epigmatibus</sic> prosperi
+               <lb ed="#Ka"/>epistola 7<unclear>o</unclear></ref> <quote xml:id="bHY6yh-de7365-Qd1e194">Remedia conuersionis ad
+                <lb ed="#Ka"/>dominum nullis <sic>cunctacionibus</sic> differenda
+                    <cb ed="#Ka" n="b"/>
+                <lb ed="#Ka"/>sunt ne tempus <sic>correccionis</sic> pereat
+                <lb ed="#Ka"/>tarditate qui enim penitenti in
+                <lb ed="#Ka" break="no"/>dulgentiam promisit dissimu
+                <lb ed="#Ka"/>lanti diem crastinum non spo
+                <lb ed="#Ka" break="no"/>spondit</quote>
+            </p>
+           <p xml:id="bHY6yh-de7365-d1e251">
+             <ref xml:id="bHY6yh-de7365-Rd1e266"><sic>Boecius</sic> in de <sic>consolacione</sic>
+               <lb ed="#Ka"/>libro 5 et <unclear>si</unclear></ref> <quote xml:id="bHY6yh-de7365-Qd1e255">aduersamini uicia co
+                <lb ed="#Ka" break="no"/>lite virtutes ad irans spes animum <!--"irans" in text vs. "rectas" in Venice and Boethius-->
+                <lb ed="#Ka"/>subleuate humiles praeces in ex
+                <lb ed="#Ka" n="41" break="no"/>celsa porrigite magna nobis
+                <lb ed="#Ka"/>est si dissimulare non <sic>uultis</sic> necessi
+                <lb ed="#Ka" break="no"/>tas incondita probitatis cum anim
+                <lb ed="#Ka"/>oculos agitis iudicie cuncta cer
+                <lb ed="#Ka"/>nentis</quote>
+            </p>
+           <p xml:id="bHY6yh-de7365-d1e269"> 
+                <ref xml:id="bHY6yh-de7365-Rd1e286"><sic>Isydorus</sic> soliloquiorum
+                <lb ed="#Ka"/>libro 1 capitulo 9</ref> <quote xml:id="bHY6yh-de7365-Qd1e273"><sic>a nimiis</sic> sceleribus a<!--"a nimiis" in text vs. "animus" in Venice-->
+                <lb ed="#Ka" break="no"/>strictus <sic>duelli</sic> ab eis uix potest</quote> <!--"duelli" in text vs. "diuelli" in Venice-->
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

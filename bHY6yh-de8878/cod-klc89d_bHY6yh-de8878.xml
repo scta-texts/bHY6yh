@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 31</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#graydonlee">Graydon Lee</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 31</title>
+               <date when="2023-05-11">May 11, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="21-v"/>
+            <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de8878"><!-- p1l1-r31 -->
+            <head xml:id="bHY6yh-de8878-Hd1e108">Rubrica 31</head>
+            <head xml:id="bHY6yh-de8878-Hd1e111" type="question-title">De inferno et penis animarum peccatorum</head>
+            <p xml:id="bHY6yh-de8878-d1e114">
+               <lb ed="#Ka"/>de inferno et pe
+               <lb ed="#Ka" break="no"/>nis animarum peccatorum rubrica 31
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e121">
+               <lb ed="#Ka"/> <ref>PSalmista 31 psalmus</ref> <quote xml:id="bHY6yh-de8878-Qd1e125">multa fla
+               <lb ed="#Ka" break="no"/>gella peccatoris</quote>
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e133"> 
+             / <ref>33 psalmus</ref> <!--add ref tags-->
+               <lb ed="#Ka"/> <quote xml:id="bHY6yh-de8878-Qd1e135">mors pecatorum pessima</quote>
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e142">
+               Omitted <!--<ref>15 psalmus </ref><quote xml:id="bHY6yh-de8878-Qd1e144"> Dominus omnes peccatores disperdet.</quote>-->
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e150"> 
+             / <ref>15 psalmus</ref> <!--Psalm number incorrect, ps145_9-->
+               <lb ed="#Ka"/> <quote xml:id="bHY6yh-de8878-Qd1e152">dominus viam peccatorum disperdet</quote>
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e158">
+               <lb ed="#Ka"/> <ref>Salomon in prouerbiis capitulo 23</ref> <quote xml:id="bHY6yh-de8878-Qd1e162">no
+               <lb ed="#Ka" break="no"/>li subtrahere a puero disciplinam
+               <lb ed="#Ka"/>Si enim percusseris cum virga
+               <lb ed="#Ka"/>morietur tum virga percutis eum et
+               <lb ed="#Ka"/>anima eius de <sic>infero</sic> liberabis et caetera</quote>
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e172">
+               <lb ed="#Ka"/> <ref>Ezechiel propheta capitulo 18</ref> <quote xml:id="bHY6yh-de8878-Qd1e176" source="http://scta.info/resource/ez18_26">Cum auerte
+               <lb ed="#Ka" break="no"/>rit iustus a iusticia sua et fe
+               <lb ed="#Ka" break="no"/>cerit iniquitatem et morietur in
+               <lb ed="#Ka"/>eis in iusticia sua quam operatus
+               <lb ed="#Ka"/>est morietur</quote>
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e186">
+             ¶ <ref>capitulo 33</ref> <quote xml:id="bHY6yh-de8878-Qd1e188"><sic>iusticia</sic> iusti
+               <lb ed="#Ka"/>non liberabit eum inquacumque die
+               <lb ed="#Ka"/><del rend="strikethrough">inuocauerit</del> peccauerit</quote>
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e194">
+               <ref>Paralipo
+               <lb ed="#Ka" break="no"/>meon libro 2 capitulo 28 et penultis</ref>
+               <lb ed="#Ka"/> <quote xml:id="bHY6yh-de8878-Qd1e198">Si derelinqueris deum <sic>proiciet</sic> te
+               <lb ed="#Ka"/>in eternum</quote>
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e205">
+               <ref>plato infedrone</ref> <quote xml:id="bHY6yh-de8878-Qd1e209">Et in<!--"in re" in text? "ire" in Venice-->
+               <lb ed="#Ka"/>re vera defunctorum animas extare et
+               <lb ed="#Ka"/>bonis melius esse malis autem
+               <lb ed="#Ka"/>deterius</quote>
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e217">
+               <ref>Ihesus filius <sic>syrach</sic> capitulo 3</ref>
+               <lb ed="#Ka"/> / <quote xml:id="bHY6yh-de8878-Qd1e221">Cor <unclear>dominum</unclear> male in nouissimo</quote> <!--unclear abbreviation, maybe "dominum" or "domini", "durum" in Venice and verse sir3_27-->
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e227">
+               <lb ed="#Ka"/> / <ref>14 capitulo</ref> <quote xml:id="bHY6yh-de8878-Qd1e229">non est apud inferos in
+               <lb ed="#Ka" break="no"/>venire cibum</quote>
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e235">
+               <ref><sic>Tulius</sic> <sic>tustulanarum</sic>
+               <lb ed="#Ka"/>questionum libro 1</ref> <quote xml:id="bHY6yh-de8878-Qd1e239">Socrates deseruit et caetera
+                  <cb ed="#Ka" n="b"/>
+               <lb ed="#Ka"/>ut super <sic>ci</sic> 4 deparadiso</quote>
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e247">
+             / <ref>Idem <sic>Tulius</sic>
+               <lb ed="#Ka"/>in noctuiarum in cathelinam libro 4 et
+               <lb ed="#Ka"/><unclear>si</unclear></ref> <quote xml:id="bHY6yh-de8878-Qd1e249">ut aliqua in vita formido
+               <lb ed="#Ka"/>improbis esset posita inferos an
+               <lb ed="#Ka" break="no"/>tiqui supplicia <sic>in hiis</sic> constituta
+               <lb ed="#Ka"/>esse voluerunt <unclear>e <del rend="strikethrough">et</del> c. i.</unclear></quote>
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e259">
+               <ref><sic>Matheus</sic> in <sic>evvangelio</sic> capitulo 3</ref> <quote xml:id="bHY6yh-de8878-Qd1e263">omnis ar
+               <lb ed="#Ka" break="no"/>bor que non facit fructum bonum
+               <lb ed="#Ka"/>excidetur et in ignem mittetur <pc type="virgula">/</pc></quote>
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e272">
+               <lb ed="#Ka"/> <ref>Idem <unclear>e.</unclear> capitulo 7</ref><!--unclear, maybe epistola? add tags, moved to ref <quote xml:id="bHY6yh-de8878-Qd1e274">Idem dicit infra eo. c. 7. </quote>-->
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e280">
+               <ref>Idem dicit lucas in
+               <lb ed="#Ka"/><sic>evvangelio</sic> capitulo 3</ref><!--add tags, moved to ref <quote xml:id="bHY6yh-de8878-Qd1e282"></quote>-->
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e286">
+             / <ref>capitulo 7</ref> <quote xml:id="bHY6yh-de8878-Qd1e290">lata porta et
+               <lb ed="#Ka"/>spaciosa via que ducit ad
+               <lb ed="#Ka"/><sic>perdicionem</sic> et multi sunt qui intrant
+               <lb ed="#Ka"/>per eam</quote>
+            </p>
+            <p> <!--quote from mt7_14 not in Venice, add tags-->
+             ¶ <quote>quoniam angusta porta et
+               <lb ed="#Ka"/>arta vita que ducit ad vitam
+               <lb ed="#Ka"/>et pauci sunt que inueniant eam</quote>
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e304">
+               <ref>c. 16.</ref> <quote xml:id="bHY6yh-de8878-Qd1e308">Quid prodest homini si vni
+               <lb ed="#Ka" break="no"/>uersum mundum lucretur anima vero
+               <lb ed="#Ka"/>sua ddetermentum paciatur aut quam
+               <lb ed="#Ka"/>dabit homo <sic>commutacionem</sic> persua anima</quote> 
+            </p>
+            <p xml:id="bHY6yh-de8878-xxx362">
+             / <ref xml:id="bHY6yh-de8878-Rxxx62">Idem dicit marcus 8 capitulo</ref>
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e320">
+               <lb ed="#Ka"/> <ref>Paulus apostolus <sic>4</sic> prima ad corintheos
+               <lb ed="#Ka"/>capitulo 6</ref> <quote xml:id="bHY6yh-de8878-Qd1e324">Iniqui regnum dei non possi
+               <lb ed="#Ka" break="no"/>debunt</quote>
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e330">
+             / <ref>Idem <unclear>eod</unclear> adebreos c
+               <lb ed="#Ka"/>13 et <unclear>si</unclear></ref> <quote xml:id="bHY6yh-de8878-Qd1e334">fornicatores et adultos
+               <lb ed="#Ka"/>iudicabit deus</quote>
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e341">
+               <ref>Augustinus in epigma
+               <lb ed="#Ka" break="no"/>tibus prosperi epistola 50</ref> <quote xml:id="bHY6yh-de8878-Qd1e345">non curandum
+               <lb ed="#Ka"/>est multum necessario morituris quid
+               <lb ed="#Ka"/>accidat ut moriantur sed quo
+               <lb ed="#Ka"/><sic>rogantur</sic> ire moriendo</quote>
+            </p>
+            <p xml:id="bHY6yh-de8878-d1e355">
+               <lb ed="#Ka"/> <ref><sic>Boecius</sic> de <sic>consolacione</sic> libro 4. capitulo 7</ref>
+               <lb ed="#Ka"/> <quote xml:id="bHY6yh-de8878-Qd1e359">Magna quidem post defectum mor
+               <lb ed="#Ka" break="no"/>te corpus animarum supplicia relin
+               <lb ed="#Ka" break="no"/>quuitur quorum alia penali <sic>accione</sic>
+               <lb ed="#Ka"/>alia vero purgatoria clementia dei exercentur</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
