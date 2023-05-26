@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 3</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 3</title>
+          <date when="2023-05-22">May 22, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="R" n="cod-b3rug1">Bruges, Bibliothèque Publique, 494</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#R" n="1-r"/>
+        <cb ed="#R" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d19731"><!-- p2l1-r3 -->
+        <head xml:id="bHY6yh-d19731-Hd1e108">Rubrica 3</head>
+        <head xml:id="bHY6yh-d19731-Hd1e111" type="question-title">De conscientia benignitatis et malignitatis</head>
+        <p xml:id="bHY6yh-d19731-d1e114">
+          <lb ed="#R"/>π De conscientia benignitatis et 
+          <lb ed="#R"/>malignitatis  Rubrica
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e121">
+           <lb ed="#R"/><ref xml:id="bHY6yh-d19731-Rd1e118">Oratius epistolarum libro 1 epistola 1</ref> 
+           <cb ed="#R" n="b"/>
+           <lb ed="#R"/><quote xml:id="bHY6yh-d19731-Qd1e127">hic murus eneus extat nil con<lb ed="#R"/>scii 
+           sibi nulla palescere culpa</quote> 
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e134">
+          <lb ed="#R"/>π <ref xml:id="bHY6yh-d19731-Rd1e135">Tullius de senectute</ref> <quote xml:id="bHY6yh-d19731-Qd1e138">conscientia bene 
+          <lb ed="#R"/>acte vite multorumque bene<lb ed="#R"/>ficiorum 
+          recordatio iocundissima est</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e147">
+          <lb ed="#R"/>π <ref xml:id="bHY6yh-d19731-Rd1e148">Idem tuscalanarum questionum libro II</ref> 
+          <lb ed="#R"/><quote xml:id="bHY6yh-d19731-Qd1e149">nullum theatrum virtute et conscientia 
+          <lb ed="#R"/>maius est</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e157">
+          π <ref xml:id="bHY6yh-d19731-Rd1e163">Ouidius de fastis libro I</ref> 
+          <lb ed="#R"/><quote xml:id="bHY6yh-d19731-Qd1e161">Conscia mens vt cuique sua est sic 
+          <lb ed="#R"/>concipit intra pectore profero spem<lb ed="#R"/>que 
+          metumque suo</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e169">
+          π <ref xml:id="bHY6yh-d19731-Rd1e175">Ibidem libro IIII</ref> <quote xml:id="bHY6yh-d19731-Qd1e171">Conscia 
+          <lb ed="#R"/>mens recti fame mendacia
+          <lb ed="#R"/>Sed nos in vitium credula turba 
+          <lb ed="#R"/>sumus</quote>
+          <!-- need para break here -->
+          π <ref xml:id="bHY6yh-d19731-Rd1e186">Seneca in prouerbio</ref> <quote xml:id="bHY6yh-d19731-Qd1e188">plerique 
+          <lb ed="#R"/>famam conscientiam pauci verentur</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e183">
+          π <ref xml:id="bHY6yh-d19731-Rd1e198">pau<lb ed="#R"/>lus 
+          II ad corinthios 1</ref> <quote xml:id="bHY6yh-d19731-Qd1e187">Gloria nostra 
+          <lb ed="#R"/>hoc est testimonium conscientie nostre</quote>
+          <!-- need para break here -->
+          <lb ed="#R"/><ref xml:id="bHY6yh-d19731-Rd1e206">Statius thebandos libro II</ref> <quote xml:id="bHY6yh-d19731-Qd1e208">O semper 
+          <lb ed="#R"/><unclear>timendium</unclear> scelus</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e195">
+          π <ref xml:id="bHY6yh-d19731-Rd1e215">Iuuenalis libro II sa<lb ed="#R"/>tira 
+          1</ref> <quote xml:id="bHY6yh-d19731-Qd1e199">Cum frigida mens est cri<lb ed="#R"/>minibus 
+          tacita sudant praecordia cul<lb ed="#R"/>pa</quote>
+          <!-- need para break --> 
+          π <ref xml:id="bHY6yh-d19731-Rd1e224">Marcialis chocus libro vndique 
+          <lb ed="#R"/>suscepto capitulo VI </ref> <quote xml:id="bHY6yh-d19731-Qd1e229">Ibis <subst><del rend="strikethrough">ad</del> <add place="above-line">ab</add></subst> occulto tra<lb ed="#R"/>mites 
+          loca de via mundi peccatum 
+          <lb ed="#R"/>tecum est conscientia culpa comesque
+          <lb ed="#R"/>alterius censorque tui tu <del rend="strikethrough">s</del>censor et 
+          <lb ed="#R"/>esto</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e213">
+          π <ref xml:id="bHY6yh-d19731-Rd1e241">Ambrosius de officiis libro II capitulo 1</ref> 
+          <lb ed="#R"/><quote xml:id="bHY6yh-d19731-Qd1e217">vitam beatam efficiunt tranquillitas 
+          <lb ed="#R"/>conscientie et securitas innocentie</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e232">
+          <lb ed="#R"/>π <ref xml:id="bHY6yh-d19731-Rd1e262">Augustinus in epygramate prosperi e<lb ed="#R"/>pygramate 
+          LXXX</ref> <quote xml:id="bHY6yh-d19731-Qd1e236">bona conscientia 
+          <lb ed="#R"/>tranquillum facit hominis animum</quote>
+          <!-- need para break here -->
+          π <ref xml:id="bHY6yh-d19731-Rd1e271">macrobius de sompno <seg type="correction">s<subst><del rend="expunctuation">a</del><add place="in-line">c</add></subst>ipionis</seg> 
+          <lb ed="#R"/>libro II et fine</ref> <quote xml:id="bHY6yh-d19731-Qd1e276">virtutis fructum sapiens 
+          <lb ed="#R"/>in conscientia ponit minus perfctus in glo<lb ed="#R"/>ria</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e248">
+          <ref xml:id="bHY6yh-d19731-Rd1e286">Catho. capitulo II</ref> <quote xml:id="bHY6yh-d19731-Qd1e252">Conscius ipse sibi 
+          <lb ed="#R"/>de se putat omnia dici</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e258">
+          <ref xml:id="bHY6yh-d19731-Rd1e298">Cassiodo<lb ed="#R"/>rus 
+          epistolarum libro VII epistola XXXII</ref> <quote xml:id="bHY6yh-d19731-Qd1e262">to<lb ed="#R"/>tum 
+          vitiosum geritur vbi conscientie 
+          <lb ed="#R"/>puritas non habetur</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e270">
+          π <ref xml:id="bHY6yh-d19731-Rd1e310">Item libro 
+          <lb ed="#R"/>VIII epistola XVIII</ref> <quote xml:id="bHY6yh-d19731-Qd1e272">Sicut conscientia la<lb ed="#R"/>ta 
+          est que prouehitur meritis ita sub<lb ed="#R"/>reatu 
+          iacet qui se imparem cog<lb ed="#R"/>noscit 
+          muneribus consecutis</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e282">
+          π <ref xml:id="bHY6yh-d19731-Rd1e324">Idem 
+          <lb ed="#R"/>libro XI epistola VIII</ref> <quote xml:id="bHY6yh-d19731-Qd1e284">Quid acquiri putatur 
+          <lb ed="#R"/>vbi conscientia bona perditur</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e290">
+          π <ref xml:id="bHY6yh-d19731-Rd1e336">ysido<lb ed="#R"/>rus 
+          soliloquiorum libro II capiutlo III</ref> <quote xml:id="bHY6yh-d19731-Qd1e294">deus 
+          <lb ed="#R"/>conscientias iudicat</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e301"> 
+          <ref xml:id="bHY6yh-d19731-Rd1e347">Idem capitulo XXXVII</ref> 
+          <pb ed="#R" n="1-v"/>
+          <cb ed="#R" n="a"/>
+          <lb ed="#R"/><quote xml:id="bHY6yh-d19731-Qd1e303">Et si non te dampnat publica fama 
+          <lb ed="#R"/>condampnet propria conscientia</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e309">
+          π <ref xml:id="bHY6yh-d19731-Rd1e357">Idem 
+          <lb ed="#R"/>capitulo XXXVIII</ref> <quote xml:id="bHY6yh-d19731-Qd1e311">Conscientia rei semper 
+          <lb ed="#R"/><unclear>in</unclear> pena est mens male conscientie pro<lb ed="#R"/>priis 
+          agitatur stimulis</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e319">
+          <ref xml:id="bHY6yh-d19731-Rd1e371">prouerbium 
+          <lb ed="#R"/>vulgare</ref> <quote xml:id="bHY6yh-d19731-Qd1e323">la amore guasta la consci<lb ed="#R"/>entia</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
