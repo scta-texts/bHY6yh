@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 2</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#graydonlee">Graydon Lee</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 2</title>
+               <date when="2023-05-25">May 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="27-4"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d11545"><!-- p1l2-r2 -->
+            <head xml:id="bHY6yh-d11545-Hd1e108">Rubrica 2</head>
+            <head xml:id="bHY6yh-d11545-Hd1e111" type="question-title">De honesto et licito et inhonesto seu turpi</head>
+            <p xml:id="bHY6yh-d11545-d1e114">
+              <lb ed="#Ka"/>de honesto et licito et in honesto 
+              <lb ed="#Ka"/>sine turpi rubrica secunda
+            </p>
+            <p xml:id="bHY6yh-d11545-d1e121">
+              <lb ed="#Ka"/><ref>ARistotiles rethorycorum libro 1
+              <lb ed="#Ka"/>capitulo 13</ref> <quote xml:id="bHY6yh-d11545-Qd1e129">honestum est quodcumque
+              <lb ed="#Ka"/>propter se eligibile existens lauda<lb ed="#Ka"/>bile
+              est aut quodcumque bonum existens
+              <lb ed="#Ka"/>delectabile est quia bonum</quote>
+            </p>
+            <p xml:id="bHY6yh-d11545-d1e137">
+              <ref>Teren<lb ed="#Ka"/>tius
+              in euinco capitulo 23</ref> <quote xml:id="bHY6yh-d11545-Qd1e141">Quis homo
+              <lb ed="#Ka"/>promecho nunquam vidit in domo
+              <lb ed="#Ka"/>meretrica prephendi quemquam</quote> <ref>In an <unclear>con<lb ed="#Ka"/>mu</unclear><!--NOTE should refs be in seperate paragraphs?-->
+              capitulo 12</ref> <quote>non licet hominem sepe
+              <lb ed="#Ka"/>esse ita ut vult si res non sinit</quote>
+            </p>
+            <p xml:id="bHY6yh-d11545-d1e152">
+              <lb ed="#Ka"/><ref>Tulius de fine bonorum et malorum
+              <lb ed="#Ka"/>libro 2</ref> <quote xml:id="bHY6yh-d11545-Qd1e156"> honestum intelligimus quod tale
+              <lb ed="#Ka"/>est vt detracta omni vtilitate si<lb ed="#Ka"/>ne
+              vllis premiis fructibus ne ipsum
+              <lb ed="#Ka"/>possit iure laudari</quote>
+            </p>
+            <p xml:id="bHY6yh-d11545-d1e166">
+              <ref>Ouidius
+              <lb ed="#Ka"/>de arte amandi libro 3 et <sic>si</sic></ref> <quote xml:id="bHY6yh-d11545-Qd1e170">multa
+              <lb ed="#Ka"/>nos nescire docet</quote> // <ref>Idem metha<lb ed="#Ka"/>morfoseos
+              libro 1</ref> <quote><unclear>poccius</unclear> irrupit
+              <lb ed="#Ka"/>vene peioris in euum Quod nephas
+              <lb ed="#Ka"/>fugere pudor verumque fidesque In quorum
+              <lb ed="#Ka"/>subicere locum fraudesque dolique //
+              Insidieque et vis et amor scele<lb ed="#Ka"/>ratus
+              habendi viuitur ex rapto nisi
+              <lb ed="#Ka"/>hospes ab hospite tutus non socer
+              <lb ed="#Ka"/>a genero fratrum quoque <unclear>gemina</unclear> raro est <sic>In<lb ed="#Ka"/>miet</sic>
+              exitio vir coniugis ipsa.
+              <pb ed="#Ka" n="27-v"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>mariti lucida terribiles miscent
+              <lb ed="#Ka"/>a conita nouerce filius ante diem
+              <lb ed="#Ka"/>patrios inquirit in armos // vic<lb ed="#Ka"/>ta
+              iacet pietas et virgo cede
+              <lb ed="#Ka"/>madentes</quote>
+            </p>
+            <p xml:id="bHY6yh-d11545-d1e202">
+              // <ref>Idem de ponto libro 3 epistola 3</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d11545-Qd1e206">Curat quid expediat prius sit
+              <lb ed="#Ka"/>quam sit honestum et cum <sic>forti<lb ed="#Ka"/>nia</sic>
+              stat que cadit que fides nec
+              <lb ed="#Ka"/>facile inuenies multis in <sic>mi<lb ed="#Ka"/>bibus</sic>
+              vnum virtutem precii qui pu<lb ed="#Ka"/>tet
+              esse sui // Ipse <del rend="strikethrough">sui</del> decor recti
+              <lb ed="#Ka"/>facti si premia desunt ¶ Non mo<lb ed="#Ka"/>uet
+              et gratis penitet esse probum
+              <lb ed="#Ka"/>// nil nisi quid prodest <sic>eap</sic> est detra<lb ed="#Ka"/>he
+              menti // Spem fructus auidi
+              <lb ed="#Ka"/>nemo petendus erit At <sic>peditus</sic>
+              <lb ed="#Ka"/>iam quisque suos amat et sibi
+              <lb ed="#Ka"/>quid sit vtile solitis computat
+              <lb ed="#Ka"/>articulis Sponte sua probitas
+              <lb ed="#Ka"/>officiumque viuat</quote>
+            </p>
+            <p xml:id="bHY6yh-d11545-d1e233">
+              / <ref>Seneca trage<lb ed="#Ka"/>diarum
+              in octauia capitulo 10</ref> // <quote xml:id="bHY6yh-d11545-Qd1e237">id facere
+              <lb ed="#Ka"/>laus est quod decet non quod licet</quote>
+            </p>
+            <p xml:id="bHY6yh-d11545-d1e243">
+              <ref>Idem
+              <lb ed="#Ka"/>in epistolis ad lucillum libro 2 epistola 5</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d11545-Qd1e245">enim est vile cui corpus nimis
+              <lb ed="#Ka"/>carum est</quote>
+            </p>
+            <p xml:id="bHY6yh-d11545-d1e253">
+              <ref>Ualerius maximus
+              <lb ed="#Ka"/>libro 2 ti de institutis antiquis</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d11545-Qd1e257">Ariopagus vbi quid quisquis
+              <lb ed="#Ka"/>arecucysium agent aut quoniam questu
+              <lb ed="#Ka"/>sustentaretur diligentissime 
+              <lb ed="#Ka"/>in quirere solebat vt homines ho<lb ed="#Ka"/>nestatem
+              vite vite rationem memores
+              <lb ed="#Ka"/>reddituram esse sequerentur</quote>
+            </p>
+            <p xml:id="bHY6yh-d11545-d1e270">
+              <lb ed="#Ka"/>¶ <ref>Lex digestis ti de condi iusti libro
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>filius</ref> <quote xml:id="bHY6yh-d11545-Qd1e274">Que <unclear>sancta</unclear> ledunt in pie<lb ed="#Ka"/>tatem
+              extimationem verecundiam
+              <lb ed="#Ka"/>iram et vt generaliter dixerim
+              <lb ed="#Ka"/>que contra bonos mores sunt
+              <lb ed="#Ka"/>nec facere nos posse credendum
+              <lb ed="#Ka"/>est</quote> / <ref>ti de regulius iuris libro infra<lb ed="#Ka"/>scripta</ref>
+              <quote>non omne quod licet honestum est</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
