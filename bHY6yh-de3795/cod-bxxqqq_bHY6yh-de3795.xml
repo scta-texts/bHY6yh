@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 14</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Grant Schreiber</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 14</title>
+               <date when="2023-05-28">May 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-05-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="7-r"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de3795">
+            <head xml:id="bHY6yh-de3795-Hd1e108">Rubrica 14</head>
+            <head xml:id="bHY6yh-de3795-Hd1e111" type="question-title">De spe atque desperatione hominis ad deum.</head>
+            <p xml:id="bHY6yh-de3795-d1e114">
+            De 
+            <lb ed="#B"/>spe atque desperatione hominis ad <!--line jumps down--> deum rubrica 14
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e121">
+              <lb ed="#B"/><ref xml:id="bHY6yh-de3795-Rd1e118">Psalmista psalmus 17</ref> <quote xml:id="bHY6yh-de3795-Qd1e125">Protector 
+              <lb ed="#B"/>est deus omni sperantium in .</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e133">
+              ¶ <ref xml:id="bHY6yh-de3795-Rd1e130">psalmus 31</ref> <quote xml:id="bHY6yh-de3795-Qd1e135">sperantem autem in 
+              <lb ed="#B"/>domino misericordia circumdabit</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e144">
+              ¶ <ref xml:id="bHY6yh-de3795-Rd1e143">psalmus 32</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-de3795-Qd1e146">Oculi domini super instas et in eis qui 
+              <lb ed="#B"/>sperant super misericordia eius</quote> 
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e160">
+              <lb ed="#B"/>¶ <ref xml:id="bHY6yh-de3795-Rd1e163">psalmus 33</ref> <quote xml:id="bHY6yh-de3795-Qd1e162">Beatus vir qui sperat in
+              domino</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e152">
+              <ref xml:id="bHY6yh-de3795-Rd1e153"><subst><add place="margin-right">36 <unclear>Uxrainduom</unclear></add></subst></ref> <quote xml:id="bHY6yh-de3795-Qd1e154">et fac bonitatem feucla
+              <lb ed="#B"/>domino viam tuam et spera in eo</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e168">
+              omitted
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e176">
+              ¶ <quote xml:id="bHY6yh-de3795-Qd1e178">do<lb ed="#B" break="no"/>minus 
+              saluabit iustos qui spera<lb ed="#B" break="no"/>uerunt 
+              in eo</quote> 
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e184">
+              ¶ <ref xml:id="bHY6yh-de3795-Rd1e191">psalmus 39</ref> <quote xml:id="bHY6yh-de3795-Qd1e186">Beatus vir 
+              <lb ed="#B"/>cuius est nomen domini spes eius et non 
+              <lb ed="#B"/>respexit in vanitates et insanias 
+              <lb ed="#B"/>falsas</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e195">
+              ¶ <ref xml:id="bHY6yh-de3795-Rd1e204">psalmus 83</ref> <quote xml:id="bHY6yh-de3795-Qd1e197">Beatus homo qui 
+              <lb ed="#B"/>sperat in deo</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e203">
+              ¶ <ref xml:id="bHY6yh-de3795-Rd1e214">psalmus 53</ref> <quote xml:id="bHY6yh-de3795-Qd1e205">Bonum est 
+              <lb ed="#B"/>confidere in domino quam confidere in homine 
+              <lb ed="#B"/>Bonum est sperare in domino quam sperare 
+              <lb ed="#B"/>in principibus</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e215">
+              ¶ <ref xml:id="bHY6yh-de3795-Rd1e228">psalmus 167</ref> <quote xml:id="bHY6yh-de3795-Qd1e217">Benepla<lb ed="#B" break="no"/>citum 
+              est domino super misericorius eum et in eis 
+              <lb ed="#B"/>qui sperant super misericordia eius</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e223">
+            <pb ed="#B" n="7-v"/>
+            <cb ed="#B" n="a"/>
+              <lb ed="#B"/><ref xml:id="bHY6yh-de3795-Rd1e240">Salomon in prouerb capitulo 3</ref> <quote xml:id="bHY6yh-de3795-Qd1e227">habe fiduciam
+              <lb ed="#B"/>in domino ex toto corde tuo et ne inni<lb ed="#B" break="no"/>taris 
+              prudentie tue in omnibus viis 
+              <lb ed="#B"/>tuis cogita illum et ipse diriget 
+              <lb ed="#B"/>gressus tuos</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e237">
+              ¶ <ref xml:id="bHY6yh-de3795-Rd1e254">capitulo 16</ref> <quote xml:id="bHY6yh-de3795-Qd1e239">Qui sperat 
+              <lb ed="#B"/>in domino sanabitur</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e245">
+              omitted 
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e254">
+              ¶ <ref xml:id="bHY6yh-de3795-Rd1e275">29 capitulo</ref> <quote xml:id="bHY6yh-de3795-Qd1e256">Qui spe<lb ed="#B" break="no"/>rat
+              in domino subleuabitur</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e262">
+              ¶ <ref xml:id="bHY6yh-de3795-Rd1e285">30 capitulo</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-de3795-Qd1e264">Cupiens est dominus sperantibus in se</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e268">
+              <lb ed="#B"/><ref xml:id="bHY6yh-de3795-Rd1e295">Regum libro capitulo 22</ref> <quote xml:id="bHY6yh-de3795-Qd1e272">Scutum est dominus 
+              <lb ed="#B"/>omnibus sperantibus in se</quote> 
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e278">
+              <lb ed="#B"/><ref xml:id="bHY6yh-de3795-Rd1e307">Iheremias propheta in libro <!--line jumps up--> lamenta <!--line jumps down--> capitulo 3</ref> <quote xml:id="bHY6yh-de3795-Qd1e282">Bonus 
+              <lb ed="#B"/>est dominus sperantibus in eum</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e288"> 
+                 <quote xml:id="bHY6yh-de3795-Qd1e290">Bonum 
+                 <lb ed="#B"/>est praestolari cum filentio saluta<lb ed="#B" break="no"/>re 
+                 domini</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e296">
+              <lb ed="#B"/><ref xml:id="bHY6yh-de3795-Rd1e329">Gre<!--line jumps up-->gorius in pastorali capitulo 51</ref> <!--line jumps down--> <quote xml:id="bHY6yh-de3795-Qd1e307">de spe eterne hereditatis gau<lb ed="#B" break="no"/>dium 
+              sumant quos aduersitas vi<lb ed="#B" break="no"/>te 
+              temporalis humiliat quia nisi saluan<lb ed="#B" break="no"/>dos 
+              in perpetuum cement erudiendos 
+              <lb ed="#B"/>sub discipistolie regimie diuina dis<lb ed="#B" break="no"/>pensatio 
+              non frenaret.</quote>
+            </p>
+            <p xml:id="bHY6yh-de3795-d1e326">
+              <ref xml:id="bHY6yh-de3795-Rd1e360">Isidorus soliloquorum libro 1 <!--line jumps up--> capitulo 12</ref> <!--line jumps down--> <quote xml:id="bHY6yh-de3795-Qd1e330">Qui ve<lb ed="#B" break="no"/>niam 
+              depeccato desperat plus se 
+              <lb ed="#B"/>desperatione quam de commisso crimine 
+              <lb ed="#B"/><sic>dampernat</sic></quote>
+            </p>
+            <p>
+              <!--new paragraph-->¶ desperatio auget
+              <lb ed="#B"/>peccatum
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
