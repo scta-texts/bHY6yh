@@ -2,4 +2,3 @@
 
 # Repo for Compendium moralium notabilium by Geremia da Montagnone
 
-Blah blah
