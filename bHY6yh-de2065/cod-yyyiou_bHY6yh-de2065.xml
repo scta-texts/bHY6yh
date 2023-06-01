@@ -1,210 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Rubrica 8</title>
-            <author ref="#per-c7y65a">Geremia da Montagnone</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <name ref="alasdairwsliter">Alasdair W. Sliter</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Rubrica 8</title>
-               <date when="2023-05-31">May 31, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-05-31" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="3-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="bHY6yh-de2065"><!-- p1l1-r8 -->
-            <head xml:id="bHY6yh-de2065-Hd1e108">Rubrica 8</head>
-            <head xml:id="bHY6yh-de2065-Hd1e111" type="question-title">De iustitia et iudicio Dei</head>
-            <p xml:id="bHY6yh-de2065-d1e114">De charitate seu dilectione et odiositate dei ad hominem. Rubrica. 8.
-    </p>
-            <p xml:id="bHY6yh-de2065-d1e121">
-                <ref xml:id="bHY6yh-de2065-Rd1e118">IOb ystoria capitulo XVIo</ref> <quote xml:id="bHY6yh-de2065-Qd1e125">
-                <lb ed="#0"/>Multo minora ex
-                <lb ed="#0"/>igeris 
-                a deo qua meretur in
-                <lb ed="#0"/>iquitas
-                 tua. </quote>
-            </p>
-            <p xml:id="bHY6yh-de2065-d1e133">
-                <ref xml:id="bHY6yh-de2065-Rd1e132">¶Psamista pslamus V</ref> <quote xml:id="bHY6yh-de2065-Qd1e137">O
-                <lb ed="#0"/>disti 
-                omnes qui operantur iniquitatem
-                <lb ed="#0"/> perdes omnes quilequitur mendicans</quote>
-            </p>
-            <p xml:id="bHY6yh-de2065-d1e144"> 
-      <quote xml:id="bHY6yh-de2065-Qd1e146">Virum 
-               sanguinum et dolosum abominabitur dominus. </quote> 
-            </p>
-            <p xml:id="bHY6yh-de2065-d1e152"> 
-       <ref xml:id="bHY6yh-de2065-Rd1e151">¶Idem XXXIII</ref> <quote xml:id="bHY6yh-de2065-Qd1e154">Oculi 
-        <lb ed="#0"/>domini super iustos: et aures eius ad 
-        <lb ed="#0"/>praeces eorum. </quote>
-            </p>
-            <p xml:id="bHY6yh-de2065-d1e162"> 
-       <ref xml:id="bHY6yh-de2065-Rd1e164">¶Idem 83 </ref> <quote xml:id="bHY6yh-de2065-Qd1e164">misericordiam et uer
-       <lb ed="#0"/>tatem diligit deus </quote>
-            </p>
-            <p xml:id="bHY6yh-de2065-d1e170">
-       <ref xml:id="bHY6yh-de2065-Rd1e174">¶Idem capitulo LXVII</ref> <quote xml:id="bHY6yh-de2065-Qd1e172">
-        <lb ed="#0"/>dominus diligit iustos. </quote>
-            </p>
-            <p xml:id="bHY6yh-de2065-d1e176">
-                <ref xml:id="bHY6yh-de2065-Rd1e184">¶Salomon Io Co </ref> <quote xml:id="bHY6yh-de2065-Qd1e180">Sex
-                <lb ed="#0"/> sunt que odit deus et septimum detes
-                <lb ed="#0"/>tatur
-                 anima eius Oculos sublimes Linguam 
-                 <lb ed="#0"/>mendacem manum effundentem inno
-                 <lb ed="#0"/>xium
-                  sanguinem Cor machinans cogita
-                  <lb ed="#0"/>tiones
-                   peximas pedes ueloces ad cor
-                   <lb ed="#0"/>rendum 
-                   ad malum proferentem mendacia 
-                   <lb ed="#0"/>Testem fallacem et eum qui inter fratres 
-                   <pb ed="#0" n="4-r"/>
-                   <cb ed="#0" n="a"/>
-                   <lb ed="#0"/>semmat discordiam. </quote>
-            </p>
-            <p xml:id="bHY6yh-de2065-d1e197">
-               / <ref xml:id="bHY6yh-de2065-Rd1e207">¶Idem capitulo XV </ref> <quote xml:id="bHY6yh-de2065-Qd1e201">Qui 
-               <lb ed="#0"/>sequitur iustitiam diligitur a domino </quote>
-            </p> <!--not quite the same the difference is between the last words ab eo vs a domino-->
-            <p xml:id="bHY6yh-de2065-d1e206">
-               <quote xml:id="bHY6yh-de2065-Qd1e210"><lb ed="#0"/> Abhommatio domini cogitationes ma
-               <lb ed="#0"/>le
-               et puius subino et pulchiunes sinna
-               <lb ed="#0"/>bitur ab eo 
-                </quote>
-            </p> <!--some spelling differences-->
-            <p xml:id="bHY6yh-de2065-d1e214">
-      <quote xml:id="bHY6yh-de2065-Qd1e216">Longe est dominus ab im
-      <lb ed="#0"/>piis et orationes iustorum exaudiet.</quote>
-            </p>
-            <p xml:id="bHY6yh-de2065-d1e224">
-       <ref xml:id="bHY6yh-de2065-Rd1e234"><lb ed="#0"/>¶Idem capitulo XVII</ref> <quote xml:id="bHY6yh-de2065-Qd1e226"> qui iustificat impium 
-        <lb ed="#0"/>et qui condempnat iustum abomina
-        <lb ed="#0"/>bilis
-         est uterque apud dominum. </quote> <!--condemnat is used in the bible verse not dannat-->
-            </p> 
-            <p xml:id="bHY6yh-de2065-d1e232">
-               
-                <ref xml:id="bHY6yh-de2065-Rd1e246">¶Ezechiel
-                <lb ed="#0"/> propheta capitulo XXIIIIo</ref> <quote xml:id="bHY6yh-de2065-Qd1e236">Nuquid uoluntatis mee
-                <lb ed="#0"/> est mors impii dicit dominus et non ut conuer
-                <lb ed="#0"/>tatur
-                 a uiis suis et uiuat. </quote>
-            </p>
-            <p xml:id="bHY6yh-de2065-d1e244"> /
-      <ref xml:id="bHY6yh-de2065-Rd1e258">¶Idem 23 </ref> <quote xml:id="bHY6yh-de2065-Qd1e246">
-        <lb ed="#0"/>Nolo mortem im pii sed ut conuertatur
-        <lb ed="#0"/> impius a uia sua mala et uiuat. </quote>
-            </p>
-            <p xml:id="bHY6yh-de2065-d1e254">
-                <ref xml:id="bHY6yh-de2065-Rd1e272">¶Re
-                <lb ed="#0"/>gum 2 capitulo XIIII.</ref> <quote xml:id="bHY6yh-de2065-Qd1e258">Non uult deus perire 
-                <lb ed="#0"/>animam sed retrahit cogitationem ne penitus 
-                <lb ed="#0"/>pereat qui ablectus est </quote> <!--use of non vs nec-->
-            </p>
-            <p xml:id="bHY6yh-de2065-d1e267">
-                <ref xml:id="bHY6yh-de2065-Rd1e287">¶Tullius in o
-                <lb ed="#0"/>ratione 
-                pro quinto ligario</ref> <quote xml:id="bHY6yh-de2065-Qd1e271">homies ad de
-                <lb ed="#0"/>os nulla re propitius accedunt quam salu
-                <lb ed="#0"/>tem 
-                hominibus dando </quote>
-            </p>
-            <p xml:id="bHY6yh-de2065-d1e279">
-                <ref xml:id="bHY6yh-de2065-Rd1e301">¶Ioannes in apocalipsi capitulo 3
-                </ref> <quote xml:id="bHY6yh-de2065-Qd1e283">
-                <lb ed="#0"/>Ait dominus Sto ad ostium et pulso siquis au
-                <lb ed="#0"/>dierit uocem meam et aperuerit ianu
-                <lb ed="#0"/>am 
-                introibo ad illum et cenabo cum illo 
-                <lb ed="#0"/>et ille mecum. </quote>  
-            </p> 
-            <p xml:id="bHY6yh-de2065-d1e293"> /
-       <ref xml:id="bHY6yh-de2065-Rd1e315">¶Idem in euangelo capitulo III</ref> <quote xml:id="bHY6yh-de2065-Qd1e295">Sic 
-       <lb ed="#0"/>deus duxit mundum ut filium suum
-       <lb ed="#0"/> vnigenitum daret ut omnis qui credit
-       <lb ed="#0"/> in illum non pereat habeat sed uitam eternam
-       <lb ed="#0"/> non enim misit deus filium suum in mund
-       <lb ed="#0"/>um
-        ut iudicet mundum sed ut saluetur 
-        <lb ed="#0"/>mundus per ipsum </quote>
-            </p>
-            <p xml:id="bHY6yh-de2065-d1e309">
-       <ref xml:id="bHY6yh-de2065-Rd1e333">¶Idem XV </ref> <quote xml:id="bHY6yh-de2065-Qd1e311">ait deus 
-       <lb ed="#0"/>si praecepta mea seruaueritis manebitis in di
-       <lb ed="#0"/>lectione mea. </quote>
-            </p>
-            <p xml:id="bHY6yh-de2065-d1e325">
-                <ref xml:id="bHY6yh-de2065-Rd1e353">¶petrus apostolus in epistola II capitulo 
-                <lb ed="#0"/>III et fi </ref> <quote xml:id="bHY6yh-de2065-Qd1e329">deus patienter agit propter nos nolens 
-                <lb ed="#0"/>aliquem perire: <!--words included in the bible verse that aren't included in the text--> sed omnes ad penitentiam reuerti. </quote>
-            </p>
-            <p xml:id="bHY6yh-de2065-d1e337">
-                <ref xml:id="bHY6yh-de2065-Rd1e367">¶Paulus ad romanos capitulo VIII</ref> <quote xml:id="bHY6yh-de2065-Qd1e341">Qui cumque spiritu dei 
-                <lb ed="#0"/>agiuntur hi filii sunt dei. </quote> <!--slightly different word order between verse and text-->
-            </p>  
-            <p xml:id="bHY6yh-de2065-d1e348">
-                <ref xml:id="bHY6yh-de2065-Rd1e380">¶Cassiodorus 
-                <lb ed="#0"/>epistolarum libro VIII capitulo XXVI</ref> <quote xml:id="bHY6yh-de2065-Qd1e352">Quos superna 
-                <cb ed="#0" n="b"/>
-                <lb ed="#0"/>ptegunt felices aduersarios hre non pomient. </quote>
-            </p>
-            <p xml:id="bHY6yh-de2065-d1e358">
-               <!-- next verse is not present in text-->
-                <ref xml:id="bHY6yh-de2065-Rd1e392">Prouerb.vulgar.</ref> <quote xml:id="bHY6yh-de2065-Qd1e362">A chi dio vol bien: dor
-        mando ieuen. A chin dio vol male: elge tole el
-        seno. A chin dio vol male le piegore ge da <!--could not find a corresponding verse-->
-        de dente </quote>
-            </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 8</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="alasdairwsliter">Alasdair W. Sliter</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 8</title>
+          <date when="2023-05-31">May 31, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-05-31" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="3-v"/>
+        <cb ed="#C" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-de2065"><!-- p1l1-r8 -->
+        <head xml:id="bHY6yh-de2065-Hd1e108">Rubrica 8</head>
+        <head xml:id="bHY6yh-de2065-Hd1e111" type="question-title">De iustitia et iudicio Dei</head>
+        <p xml:id="bHY6yh-de2065-d1e114">
+          [omitted]
+        </p>
+        <p xml:id="bHY6yh-de2065-d1e121">
+          <ref xml:id="bHY6yh-de2065-Rd1e118">IOb ystoria capitulo XVIo</ref> 
+          <lb ed="#C"/><quote xml:id="bHY6yh-de2065-Qd1e125">multo minora ex
+          <lb ed="#C"/>igeris a deo qua meretur in<lb ed="#C" break="no"/>iquitas
+          tua</quote>
+        </p>
+        <p xml:id="bHY6yh-de2065-d1e133">
+          ¶ <ref xml:id="bHY6yh-de2065-Rd1e132">psalmista psalmo V</ref> <quote xml:id="bHY6yh-de2065-Qd1e137">O<lb ed="#C" break="no"/>disti 
+          omnes qui operantur iniquitatem
+          <lb ed="#C"/>perdes omnes qui loquitur mendacium</quote>
+        </p>
+        <!--seems probable that the paragraph above and below should be collapsed, this manuscript makes it look like this should be one entry-->
+        <p xml:id="bHY6yh-de2065-d1e144"> 
+          <lb ed="#C"/><quote xml:id="bHY6yh-de2065-Qd1e146">Virum sanguinum et dolosum abomi<lb ed="#C" break="no"/>nabitur 
+          dominus</quote> 
+        </p>
+        <p xml:id="bHY6yh-de2065-d1e152"> 
+          ¶ <ref xml:id="bHY6yh-de2065-Rd1e151">Idem XXXIII</ref> <quote xml:id="bHY6yh-de2065-Qd1e154">oculi
+          <lb ed="#C"/>domini super iustos et aures eius ad
+          <lb ed="#C"/>praeces eorum</quote>
+        </p>
+        <p xml:id="bHY6yh-de2065-d1e162"> 
+          ¶ <ref xml:id="bHY6yh-de2065-Rd1e164">Idem 84 </ref> <quote xml:id="bHY6yh-de2065-Qd1e164">misericordiam et uer<lb ed="#C" break="no"/>tatem 
+          diligit deus</quote>
+        </p>
+        <p xml:id="bHY6yh-de2065-d1e170">
+          ¶ <ref xml:id="bHY6yh-de2065-Rd1e174">Idem capitulo LXVII</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-de2065-Qd1e172">dominus diligit iustos</quote>
+        </p>
+        <p xml:id="bHY6yh-de2065-d1e176">
+          ¶ <ref xml:id="bHY6yh-de2065-Rd1e184">Salomon Io capitulo </ref> <quote xml:id="bHY6yh-de2065-Qd1e180">Sex
+          <lb ed="#C"/>sunt que odit deus et septimum detes<lb ed="#C" break="no"/>tatur
+          anima eius Oculos sublimes Linguam 
+          <lb ed="#C"/>mendacem manum effundentem inno<lb ed="#C" break="no"/>xium
+          sanguinem Cor machinans cogita<lb ed="#C" break="no"/>tiones
+          peximas pedes ueloces ad cur<lb ed="#C" break="no"/>rendum 
+          ad malum proferentem mendacia 
+          <lb ed="#C"/>Testem fallacem et eum qui inter fratres 
+          <pb ed="#C" n="4-r"/>
+          <cb ed="#C" n="a"/>
+          <lb ed="#C"/>semmat discordiam</quote>
+        </p>
+        <p xml:id="bHY6yh-de2065-d1e197">
+          ¶ <ref xml:id="bHY6yh-de2065-Rd1e207">Idem capitulo XV </ref> <quote xml:id="bHY6yh-de2065-Qd1e201">qui se<lb ed="#C" break="no"/>quitur
+          iustitiam diligitur a domino</quote>
+        </p>
+        <p xml:id="bHY6yh-de2065-d1e206">
+          <lb ed="#C"/><quote xml:id="bHY6yh-de2065-Qd1e210">Abhommatio domini cogitationes ma<lb ed="#C" break="no"/>le
+          et <unclear>puius sermo et pulchiunes</unclear> finna<lb ed="#C" break="no"/>bitur
+          ab eo</quote>
+        </p> <!--manuscipt makes it seem like this is the same entry-->
+        <p xml:id="bHY6yh-de2065-d1e214">
+          <quote xml:id="bHY6yh-de2065-Qd1e216">Longe est dominus ab in<lb ed="#C" break="no"/>piis
+          et orationes iustorum exaudiet</quote>
+        </p>
+        <p xml:id="bHY6yh-de2065-d1e224">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-de2065-Rd1e234">Idem capitulo XVII</ref> <quote xml:id="bHY6yh-de2065-Qd1e226">qui iustificat impium 
+          <lb ed="#C"/>et qui condempnat iustum abomina<lb ed="#C" break="no"/>bilis
+          est uterque apud dominum</quote>
+        </p> 
+        <p xml:id="bHY6yh-de2065-d1e232">
+          ¶ <ref xml:id="bHY6yh-de2065-Rd1e246">Ezechiel
+          <lb ed="#C"/>propheta capitulo XXIIIIo</ref> <quote xml:id="bHY6yh-de2065-Qd1e236">numquid uoluntatis mee
+          <lb ed="#C"/>est mors inpii dicit dominus et non ut conuer<lb ed="#C" break="no"/>tatur
+          a uiis suis et uiuat</quote>
+        </p>
+        <p xml:id="bHY6yh-de2065-d1e244">
+          ¶ <ref xml:id="bHY6yh-de2065-Rd1e258">Idem 23</ref> 
+          <lb ed="#C"/><quote xml:id="bHY6yh-de2065-Qd1e246">Nolo mortem impii sed ut conuertatur
+          <lb ed="#C"/>impius a uia sua mala et uiuat</quote>
+        </p>
+        <p xml:id="bHY6yh-de2065-d1e254">
+          ¶ <ref xml:id="bHY6yh-de2065-Rd1e272">Re<lb ed="#C"/>gum 2 capitulo XIIII</ref> <quote xml:id="bHY6yh-de2065-Qd1e258">Non uult deus perire 
+          <lb ed="#C"/>animam sed retrahit cogitationem ne penitus 
+          <lb ed="#C"/>pereat qui ablectus est</quote>
+        </p>
+        <p xml:id="bHY6yh-de2065-d1e267">
+          ¶ <ref xml:id="bHY6yh-de2065-Rd1e287">Tullius in o<lb ed="#C"/>ratione 
+          pro quinto ligario</ref> <quote xml:id="bHY6yh-de2065-Qd1e271">homies ad de<lb ed="#C"/>os
+          nulla re propitius accedunt quam salu<lb ed="#C"/>tem 
+          hominibus dando </quote>
+        </p>
+        <p xml:id="bHY6yh-de2065-d1e279">
+          ¶ <ref xml:id="bHY6yh-de2065-Rd1e301">Ioannes in apocalipsi capitulo 3
+          <lb ed="#C"/></ref> <quote xml:id="bHY6yh-de2065-Qd1e283">Ait dominus Sto ad ostium et pulso siquis au<lb ed="#C"/>dierit 
+          uocem meam et aperuerit ianu<lb ed="#C"/>am 
+          introibo ad illum et cenabo cum illo 
+          <lb ed="#C"/>et ille mecum</quote>  
+        </p> 
+        <p xml:id="bHY6yh-de2065-d1e293">
+          ¶ <ref xml:id="bHY6yh-de2065-Rd1e315">Idem in euangelo capitulo III</ref> <quote xml:id="bHY6yh-de2065-Qd1e295">Sic 
+          <lb ed="#C"/>deus duxit mundum ut filium suum
+          <lb ed="#C"/>vnigenitum daret ut omnis qui credit
+          <lb ed="#C"/>in illum non pereat habeat sed uitam eternam
+          <lb ed="#C"/>non enim misit deus filium suum in mund<lb ed="#C"/>um
+          ut iudicet mundum sed ut saluetur 
+          <lb ed="#C"/>mundus per ipsum </quote>
+        </p>
+        <p xml:id="bHY6yh-de2065-d1e309">
+          ¶ <ref xml:id="bHY6yh-de2065-Rd1e333">Idem XV </ref> <quote xml:id="bHY6yh-de2065-Qd1e311">ait deus
+          <lb ed="#C"/>si praecepta mea seruaueritis manebitis in di<lb ed="#C"/>lectione 
+          mea. </quote>
+        </p>
+        <p xml:id="bHY6yh-de2065-d1e325">
+           ¶ <ref xml:id="bHY6yh-de2065-Rd1e353">petrus apostolus in epistola II capitulo 
+           <lb ed="#C"/>III et fi</ref> <quote xml:id="bHY6yh-de2065-Qd1e329">deus patienter agit propter nos nolens 
+           <lb ed="#C"/>aliquem perire sed omnes ad penitentiam reuerti</quote>
+        </p>
+        <p xml:id="bHY6yh-de2065-d1e337">
+          ¶ <ref xml:id="bHY6yh-de2065-Rd1e367">Paulus ad romanos capitulo VIII</ref> <quote xml:id="bHY6yh-de2065-Qd1e341">qui cumque spiritu dei 
+          <lb ed="#C"/>agiuntur hi filii sunt dei</quote>
+        </p>  
+        <p xml:id="bHY6yh-de2065-d1e348">
+          ¶ <ref xml:id="bHY6yh-de2065-Rd1e380">Cassiodorus 
+          <lb ed="#C"/>epistolarum libro VIII capitulo XXVI</ref> <quote xml:id="bHY6yh-de2065-Qd1e352">Quos superna<cb ed="#C" n="b"/><lb ed="#C"/>ptegunt
+          felices aduersarios hre non pomient</quote>
+        </p>
+        <p xml:id="bHY6yh-de2065-d1e358">
+          <!-- next verse is not present in text-->
+          <ref xml:id="bHY6yh-de2065-Rd1e392">Prouerb.vulgar.</ref> <quote xml:id="bHY6yh-de2065-Qd1e362">A chi dio vol bien: dor
+          mando ieuen. A chin dio vol male: elge tole el
+          seno. A chin dio vol male le piegore ge da
+          de dente </quote>
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
