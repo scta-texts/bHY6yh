@@ -1,157 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Rubrica 3</title>
-            <author ref="#per-c7y65a">Geremia da Montagnone</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Rubrica 3</title>
-               <date when="2021-05-18">May 18, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-05-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="32-r"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 3</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 3</title>
+          <date when="2021-05-18">May 18, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="32-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d24602"><!-- p2l2-r3 -->
+        <head xml:id="bHY6yh-d24602-Hd1e108">Rubrica 3</head>
+        <head xml:id="bHY6yh-d24602-Hd1e111" type="question-title">De proditione exprobranda</head>
+        <p xml:id="bHY6yh-d24602-d1e114">
+          <lb ed="#V" n="41"/>
+          ¶ De proditione exprobranda. Rubrica. 4<!-- dbcheck if this really says four -->
+        </p>
+        <p xml:id="bHY6yh-d24602-d1e121">
+          <lb ed="#V" n="42"/><ref xml:id="bHY6yh-d24602-Rd1e117">SAlomon in prouerbiis
+            <lb ed="#V" n="43"/>ca. 3.</ref> <quote xml:id="bHY6yh-d24602-Qd1e127">Ne 
+              mo<lb ed="#V" n="44" break="no"/>liaris amico tuo malum: cum ille in
+              <lb ed="#V" n="45"/>te habeat fiduciam.<!--90.xml-->
+              <cb ed="#V" n="b"/>
+            </quote>
+        </p>
+        <p xml:id="bHY6yh-d24602-d1e139">
+          <lb ed="#V" n="46"/>
+          ¶ <ref xml:id="bHY6yh-d24602-Rd1e138">Iesus filius sirach in eccl. c. 25.</ref> <quote xml:id="bHY6yh-d24602-Qd1e143">Non des
+            <lb ed="#V" n="47"/>mulieri: nequam venam prodeundi.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24602-d1e150">
+          <lb ed="#V" n="48"/>
+          ¶ <ref xml:id="bHY6yh-d24602-Rd1e151">Ualerius maximus li. 6. ti. de iustitia.</ref> <quote xml:id="bHY6yh-d24602-Qd1e154">
+            Ti<lb ed="#V" n="49" break="no"/>mocrates abriensis fabricio consuli pollicitus
+            <lb ed="#V" n="50"/>est se pyrrhum veneno per filium suum qua 
+            potio<lb ed="#V" n="51" break="no"/>nibus eius preerat vacaturum. Ea res cum ad
+            <lb ed="#V" n="52"/>senatum esset delata: missis delegatis 
+            pir<lb ed="#V" n="53" break="no"/>rum monuit: vt aduersus huiusmodi 
+            gene<lb ed="#V" n="54" break="no"/>ris insidias cautius se gereret: memor vrbem
+            <lb ed="#V" n="55"/>a filio martis conditam: armis bella non 
+            vene<lb ed="#V" n="56" break="no"/>nis gerere debere. Timocratis autem nomen
+            <lb ed="#V" n="57"/>suppressit: vtroque modo equitatem amplexus:
+            <lb ed="#V" n="58"/>quia nec hostem malo exemplo tollere: 
+            ne<lb ed="#V" n="59" break="no"/>que eum quia bene mereri paratus fuerat 
+            prode<lb ed="#V" n="60" break="no"/>re voluit. Crassus carbonis nomen infesto
+            <lb ed="#V" n="61"/>animo vtpote inimicissimum sibi detulerat: sed
+            <lb ed="#V" n="62"/>tamen scrinium eius a seruo carbonis 
+            alla<lb ed="#V" n="63" break="no"/>tum ad se et plura continens quibus facile 
+            op<lb ed="#V" n="64" break="no"/>primi posset: vt erat signatum cum seruo 
+            ca<lb ed="#V" n="65" break="no"/>thenato ad eum remisit.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24602-d1e194"> /
+          <ref xml:id="bHY6yh-d24602-Rd1e195">Libro. 9. ti.</ref> <quote xml:id="bHY6yh-d24602-Qd1e196">de 
+            per<lb ed="#V" n="66" break="no"/>fidia: Filiam virginem spiriturii tarpeii: qui arci
+            <lb ed="#V" n="67"/>preerat: romulo regnante aquam sacris petitum
+            <lb ed="#V" n="68"/>extra menia egressam tacius vt armatos 
+            sa<lb ed="#V" n="69" break="no"/>binos in arcem secutum reciperet corrupit
+            <lb ed="#V" n="70"/>mercedis nomine pactam que in sinistris 
+            ma<lb ed="#V" n="71" break="no"/>nibus gerebant: erant autem his armille et 
+            anu<lb ed="#V" n="72" break="no"/>li magno ex pondere auri loco potitum agmen
+            <lb ed="#V" n="73"/>sabinorum puellam premium flagitantem armis 
+            ob<lb ed="#V" n="74" break="no"/>rutam necauit: perinde quasi permissum quod ea
+            <lb ed="#V" n="75"/>quoque leuis gestauerat soluit. Absit 
+            repre<lb ed="#V" n="76" break="no"/>hensio: quia impia proditio celeri pena 
+            vin<lb ed="#V" n="77" break="no"/>dicata est.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24602-d1e226">
+          <lb ed="#V" n="78"/>
+          ¶ <ref xml:id="bHY6yh-d24602-Rd1e231">Ambrosius de officiis li. 3. et fi. ca. 16. et fi.</ref>
+          <lb ed="#V" n="79"/><quote xml:id="bHY6yh-d24602-Qd1e230">Inimicus vitari potest: amicus non potest si 
+            insi<lb ed="#V" n="80" break="no"/>diari velit.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24602-d1e238">
+          <lb ed="#V" n="81"/>
+          ¶ <ref xml:id="bHY6yh-d24602-Rd1e244">Iacobus beneuentanus. c. 9.</ref> <quote xml:id="bHY6yh-d24602-Qd1e242">Hoc ego te
+            <lb ed="#V" n="82"/>moneo fugias vt proditionem. Turpius hoc
+            <lb ed="#V" n="83"/>omni crimine crimen adest:
+            <lb ed="#V" n="84"/>Proditor et nullus tibi coniungatur amore
+            <lb ed="#V" n="85"/>Spe sub amicicia: mors inimica datur.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24602-d1e254">
+          <lb ed="#V" n="86"/>
+          ¶ <ref xml:id="bHY6yh-d24602-Rd1e262">Auctor lib. qui incipit astrolabi:</ref> <quote xml:id="bHY6yh-d24602-Qd1e258">
+            Prodi<lb ed="#V" n="87" break="no"/>tor alterius: non tibi fidus erit.
+            <lb ed="#V" n="88"/>Obsequio superant: meretrix et proditor omnes.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24602-d1e266">
+          <lb ed="#V" n="89"/>
+          ¶ <ref xml:id="bHY6yh-d24602-Rd1e276">Frontinus lib. 4. tit. 4</ref> <quote xml:id="bHY6yh-d24602-Qd1e270">Canullo faliscos
+            <lb ed="#V" n="90"/>obsidenti: ludi magister liberos faliscorum<!--91.xml-->
+            <pb ed="#V" n="32-v"/>
             <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="bHY6yh-d24602"><!-- p2l2-r3 -->
-            <head xml:id="bHY6yh-d24602-Hd1e108">Rubrica 3</head>
-            <head xml:id="bHY6yh-d24602-Hd1e111" type="question-title">De proditione exprobranda</head>
-            <p xml:id="bHY6yh-d24602-d1e114">
-               <lb ed="#V" n="41"/>
-      ¶ De proditione exprobranda. Rubrica. 4<!-- dbcheck if this really says four -->
-    </p>
-            <p xml:id="bHY6yh-d24602-d1e121">
-               <lb ed="#V" n="42"/><ref>SAlomon in prouerbiis
-      <lb ed="#V" n="43"/>ca. 3.</ref> <quote xml:id="bHY6yh-d24602-Qd1e127">Ne 
-               mo<lb ed="#V" n="44" break="no"/>liaris amico tuo malum: cum ille in
-        <lb ed="#V" n="45"/>te habeat fiduciam.<!--90.xml-->
-        <cb ed="#V" n="b"/>
-               </quote>
-            </p>
-            <p xml:id="bHY6yh-d24602-d1e139">
-               <lb ed="#V" n="46"/>
-               ¶ <ref>Iesus filius sirach in eccl. c. 25.</ref> <quote xml:id="bHY6yh-d24602-Qd1e143">Non des
-        <lb ed="#V" n="47"/>mulieri: nequam venam prodeundi.</quote>
-            </p>
-            <p xml:id="bHY6yh-d24602-d1e150">
-               <lb ed="#V" n="48"/>
-               ¶ <ref>Ualerius maximus li. 6. ti. de iustitia.</ref> <quote xml:id="bHY6yh-d24602-Qd1e154">
-               Ti<lb ed="#V" n="49" break="no"/>mocrates abriensis fabricio consuli pollicitus
-        <lb ed="#V" n="50"/>est se pyrrhum veneno per filium suum qua 
-               potio<lb ed="#V" n="51" break="no"/>nibus eius preerat vacaturum. Ea res cum ad
-        <lb ed="#V" n="52"/>senatum esset delata: missis delegatis 
-               pir<lb ed="#V" n="53" break="no"/>rum monuit: vt aduersus huiusmodi 
-               gene<lb ed="#V" n="54" break="no"/>ris insidias cautius se gereret: memor vrbem
-        <lb ed="#V" n="55"/>a filio martis conditam: armis bella non 
-               vene<lb ed="#V" n="56" break="no"/>nis gerere debere. Timocratis autem nomen
-        <lb ed="#V" n="57"/>suppressit: vtroque modo equitatem amplexus:
-        <lb ed="#V" n="58"/>quia nec hostem malo exemplo tollere: 
-               ne<lb ed="#V" n="59" break="no"/>que eum quia bene mereri paratus fuerat 
-               prode<lb ed="#V" n="60" break="no"/>re voluit. Crassus carbonis nomen infesto
-        <lb ed="#V" n="61"/>animo vtpote inimicissimum sibi detulerat: sed
-        <lb ed="#V" n="62"/>tamen scrinium eius a seruo carbonis 
-               alla<lb ed="#V" n="63" break="no"/>tum ad se et plura continens quibus facile 
-               op<lb ed="#V" n="64" break="no"/>primi posset: vt erat signatum cum seruo 
-               ca<lb ed="#V" n="65" break="no"/>thenato ad eum remisit.</quote>
-            </p>
-            <p xml:id="bHY6yh-d24602-d1e194"> /
-      <ref>Libro. 9. ti.</ref> <quote xml:id="bHY6yh-d24602-Qd1e196">de 
-               per<lb ed="#V" n="66" break="no"/>fidia: Filiam virginem spiriturii tarpeii: qui arci
-        <lb ed="#V" n="67"/>preerat: romulo regnante aquam sacris petitum
-        <lb ed="#V" n="68"/>extra menia egressam tacius vt armatos 
-               sa<lb ed="#V" n="69" break="no"/>binos in arcem secutum reciperet corrupit
-        <lb ed="#V" n="70"/>mercedis nomine pactam que in sinistris 
-               ma<lb ed="#V" n="71" break="no"/>nibus gerebant: erant autem his armille et 
-               anu<lb ed="#V" n="72" break="no"/>li magno ex pondere auri loco potitum agmen
-        <lb ed="#V" n="73"/>sabinorum puellam premium flagitantem armis 
-               ob<lb ed="#V" n="74" break="no"/>rutam necauit: perinde quasi permissum quod ea
-        <lb ed="#V" n="75"/>quoque leuis gestauerat soluit. Absit 
-               repre<lb ed="#V" n="76" break="no"/>hensio: quia impia proditio celeri pena 
-               vin<lb ed="#V" n="77" break="no"/>dicata est.</quote>
-            </p>
-            <p xml:id="bHY6yh-d24602-d1e226">
-               <lb ed="#V" n="78"/>
-               ¶ <ref>Ambrosius de officiis li. 3. et fi. ca. 16. et fi.</ref>
-        <lb ed="#V" n="79"/><quote xml:id="bHY6yh-d24602-Qd1e230">Inimicus vitari potest: amicus non potest si 
-               insi<lb ed="#V" n="80" break="no"/>diari velit.</quote>
-            </p>
-            <p xml:id="bHY6yh-d24602-d1e238">
-               <lb ed="#V" n="81"/>
-               ¶ <ref>Iacobus beneuentanus. c. 9.</ref> <quote xml:id="bHY6yh-d24602-Qd1e242">Hoc ego te
-        <lb ed="#V" n="82"/>moneo fugias vt proditionem. Turpius hoc
-        <lb ed="#V" n="83"/>omni crimine crimen adest:
-        <lb ed="#V" n="84"/>Proditor et nullus tibi coniungatur amore
-        <lb ed="#V" n="85"/>Spe sub amicicia: mors inimica datur.</quote>
-            </p>
-            <p xml:id="bHY6yh-d24602-d1e254">
-               <lb ed="#V" n="86"/>
-               ¶ <ref>Auctor lib. qui incipit astrolabi:</ref> <quote xml:id="bHY6yh-d24602-Qd1e258">
-               Prodi<lb ed="#V" n="87" break="no"/>tor alterius: non tibi fidus erit.
-        <lb ed="#V" n="88"/>Obsequio superant: meretrix et proditor omnes.</quote>
-            </p>
-            <p xml:id="bHY6yh-d24602-d1e266">
-               <lb ed="#V" n="89"/>
-               ¶ <ref>Frontinus lib. 4. tit. 4</ref> <quote xml:id="bHY6yh-d24602-Qd1e270">Canullo faliscos
-        <lb ed="#V" n="90"/>obsidenti: ludi magister liberos faliscorum<!--91.xml-->
-        <pb ed="#V" n="32-v"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>tanquam ambulandi causa extra murum eductos
-        <lb ed="#V" n="2"/>tradidit dicens: repetendis obsidibus 
-               neces<lb ed="#V" n="3" break="no"/>sario ciuitatem imperata facturam. Canullus
-        <lb ed="#V" n="4"/>non solum spreuit perfidiam: sed etiam restrictis
-        <lb ed="#V" n="5"/>post terga manus magistrum virgis agendum
-        <lb ed="#V" n="6"/>ad parentes tradidit: puris adeptus 
-               benesi<lb ed="#V" n="7" break="no"/>ciis victoriam quam fraude non concupierat. Nam
-        <lb ed="#V" n="8"/>falisci ob hanc iustitiam sponte ei se dederunt.
-        <lb ed="#V" n="9"/>Ad fabricium ducem romanorum medicus pirri
-        <lb ed="#V" n="10"/>epirotarum regis puenit pollicitusque est 
-               datu<lb ed="#V" n="11" break="no"/>rum se venenum pirro si merces sibi in qua
-        <lb ed="#V" n="12"/>opere precium esset constitueretur: quo 
-               facino<lb ed="#V" n="13" break="no"/>re fabricius agere victoriam suam non 
-               arbitra<lb ed="#V" n="14" break="no"/>tus: regi medicum detexit: atque ea fide meruit
-        <lb ed="#V" n="15"/>vt ad petendam amicitiam romanorum 
-               compelle<lb ed="#V" n="16" break="no"/>ret pirrum.</quote>
-            </p>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="1"/>tanquam ambulandi causa extra murum eductos
+            <lb ed="#V" n="2"/>tradidit dicens: repetendis obsidibus 
+            neces<lb ed="#V" n="3" break="no"/>sario ciuitatem imperata facturam. Canullus
+            <lb ed="#V" n="4"/>non solum spreuit perfidiam: sed etiam restrictis
+            <lb ed="#V" n="5"/>post terga manus magistrum virgis agendum
+            <lb ed="#V" n="6"/>ad parentes tradidit: puris adeptus 
+            benesi<lb ed="#V" n="7" break="no"/>ciis victoriam quam fraude non concupierat. Nam
+            <lb ed="#V" n="8"/>falisci ob hanc iustitiam sponte ei se dederunt.
+            <lb ed="#V" n="9"/>Ad fabricium ducem romanorum medicus pirri
+            <lb ed="#V" n="10"/>epirotarum regis puenit pollicitusque est 
+            datu<lb ed="#V" n="11" break="no"/>rum se venenum pirro si merces sibi in qua
+            <lb ed="#V" n="12"/>opere precium esset constitueretur: quo 
+            facino<lb ed="#V" n="13" break="no"/>re fabricius agere victoriam suam non 
+            arbitra<lb ed="#V" n="14" break="no"/>tus: regi medicum detexit: atque ea fide meruit
+            <lb ed="#V" n="15"/>vt ad petendam amicitiam romanorum 
+            compelle<lb ed="#V" n="16" break="no"/>ret pirrum.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
