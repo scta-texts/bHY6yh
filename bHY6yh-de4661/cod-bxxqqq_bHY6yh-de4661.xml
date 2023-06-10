@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 18</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Grant Schreiber</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 18</title>
+               <date when="2023-06-01">June 1, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#B" n="8-r"/>
+           <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de4661">
+            <head xml:id="bHY6yh-de4661-Hd1e108">Rubrica 18</head>
+            <head xml:id="bHY6yh-de4661-Hd1e111" type="question-title">De iuramenti religione</head>
+            <p xml:id="bHY6yh-de4661-d1e114">
+              De iuramenti religione Rubrica 18
+            </p>
+            <p xml:id="bHY6yh-de4661-d1e119">
+              <lb ed="#B"/><ref xml:id="bHY6yh-de4661-Rd1e116">In leuitico capitulo 19</ref> <quote xml:id="bHY6yh-de4661-Qd1e125">non periurabis 
+              <lb ed="#B"/>in nomine meo nec pollues nomen 
+              <lb ed="#B"/>dei tui et cetera etc etc etc etc</quote>
+            </p>
+            <p xml:id="bHY6yh-de4661-d1e133">
+           <pb ed="#B" n="8-v"/>
+           <cb ed="#B" n="a"/>
+              <lb ed="#B"/><ref xml:id="bHY6yh-de4661-Rd1e132">Jesus filius sy in ecclesiastico capitulo 23</ref> <quote xml:id="bHY6yh-de4661-Qd1e137">Iuratio<lb ed="#B" break="no"/>ni 
+              non assuescat os tuum multi enim 
+              <lb ed="#B"/>casus in illa vir multum <unclear>iuians</unclear> in<lb ed="#B" break="no"/>plebitur 
+              iniquitate</quote>
+            </p>
+            <p xml:id="bHY6yh-de4661-d1e148">
+              <lb ed="#B"/><ref xml:id="bHY6yh-de4661-Rd1e149">Mattheus in ewangelo <!--line jumps up-->capitulo 5</ref> <quote xml:id="bHY6yh-de4661-Qd1e152">Non iura<!--line jumps down-->re omni neque 
+              <lb ed="#B"/>per celum quia thronus dei est ne<lb ed="#B" break="no"/>que 
+              per terram quia scabellum est pedum 
+              <lb ed="#B"/>eius neque per hierosolymam quia 
+              <lb ed="#B"/>ciuitas est magni regis necque
+              <lb ed="#B"/>percapud tuum iurabis quia non 
+              <lb ed="#B"/>potes vnum capillum album facere
+              <lb ed="#B"/>aut nigrum Sit autem sermo vester 
+              <lb ed="#B"/>est <sic>est</sic> non <sic>non</sic> quod autem hiis ha<lb ed="#B" break="no"/>bundantius 
+              est amalo est</quote>
+            </p>
+            <p xml:id="bHY6yh-de4661-d1e171">
+              <ref xml:id="bHY6yh-de4661-Rd1e174">Iacobus apostalus epistola 1ca <!--line jumps up-->capitulo V et fi</ref> <quote xml:id="bHY6yh-de4661-Qd1e175">No<!--line jumps down-->lite iu<lb ed="#B" break="no"/>rare 
+              nec per caelum neque per terram nec
+              <lb ed="#B"/>per aliud cumque iuramentum sit aut 
+              <lb ed="#B"/>sermo vester non <sic>non</sic> est <sic>est</sic>.</quote>
+            </p>
+            <p xml:id="bHY6yh-de4661-d1e185"> 
+              <lb ed="#B"/><ref xml:id="bHY6yh-de4661-Rd1e190">Paulus apostolus ad hebreos <!--line jumps up-->capitulo VI</ref> <quote xml:id="bHY6yh-de4661-Qd1e189"><!--line jumps down-->homines 
+              <lb ed="#B"/>per maiorem sui iurant et omnis con<lb ed="#B" break="no"/>trouersie 
+              eorum finis iuramentum</quote>
+            </p>
+            <p xml:id="bHY6yh-de4661-d1e199">
+              ¶ <ref xml:id="bHY6yh-de4661-Rd1e206">Ad confirmarem est / Actio capitulo 
+              <lb ed="#B"/>1 Iusiurandum.</ref> 
+            </p>
+            <p xml:id="bHY6yh-de4661-d1e207"> 
+                <lb ed="#B"/><ref xml:id="bHY6yh-de4661-Rd1e215">Isidorus soliloquiorum <!--line jumps up-->libro II capitulo 35</ref> <quote xml:id="bHY6yh-de4661-Qd1e211">neque <!--neque crossed out-->Assi<lb ed="#B" break="no"/>duitas 
+                iurandi periurii consuetudinem 
+                <lb ed="#B"/>facit ¶ vsus iurandi ad periurium 
+                <lb ed="#B"/>ducit ¶ Sit in ore tuo est Sit 
+                <lb ed="#B"/>in ore tuo non est ¶ veritas iura<lb ed="#B" break="no"/>mento 
+                non indiget</quote>
+            </p>
+            <p xml:id="bHY6yh-de4661-d1e223"> 
+              ¶ <quote xml:id="bHY6yh-de4661-Qd1e225">Firma sit 
+              <lb ed="#B"/>sacramenti tui fides etc</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
