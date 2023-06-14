@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 16</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#aliciakoepke">Alicia Koepke</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 16</title>
+               <date when="2023-06-14">June 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="15-v"/>
+            <cb ed="#O" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de4483"><!-- p1l1-r16 -->
+            <head xml:id="bHY6yh-de4483-Hd1e108">Rubrica 16</head>
+            <head xml:id="bHY6yh-de4483-Hd1e111" type="question-title">De ieiunii religione</head>
+            <p xml:id="bHY6yh-de4483-d1e114">
+               De ieiunii religione. <!--line bumps down--> Rubrica. 16
+            </p>
+            <p xml:id="bHY6yh-de4483-d1e119">
+               <lb ed="#O"/><ref xml:id="bHY6yh-de4483-Rd1e116">MAttheus in euan. capitulo 15</ref> ¶ <quote xml:id="bHY6yh-de4483-Qd1e125">non 
+               <lb ed="#O"/>quod intrat in os coinquinat 
+               <lb ed="#O"/>hominem: sed quod procedit exore hoc 
+               <lb ed="#O"/>coinquinat hominem.</quote>
+            </p>
+            <p xml:id="bHY6yh-de4483-d1e133">
+               <lb ed="#O"/><ref xml:id="bHY6yh-de4483-Rd1e132"> Paulus apostolus epistola ad romanos 
+               <lb ed="#O"/>capitulo 14</ref> ¶ <quote xml:id="bHY6yh-de4483-Qd1e137">Hiis qui manducat non 
+               <pb ed="#O" n="16-r"/>
+               <cb ed="#O" n="a"/>
+               <lb ed="#O"/>manducantem non spernat: et qui non
+               <lb ed="#O"/>manducat manducantem non iudicet. 
+               <lb ed="#O"/>¶ Et qui manducat domino manducet
+               <lb ed="#O"/>gratias enim agit deo. Et qui non man<lb ed="#O" break="no"/>ducat 
+               domino non manducat et gratias 
+               <lb ed="#O"/>agit deo.</quote>
+            </p>
+            <p xml:id="bHY6yh-de4483-d1e152">
+               ¶ <ref xml:id="bHY6yh-de4483-Rd1e151">Idem epistola i. ad corinth 
+               <lb ed="#O"/>capitulo 9.</ref> ¶ <quote xml:id="bHY6yh-de4483-Qd1e154">numquid non habemus potestatem 
+               <lb ed="#O"/>manducandi et bibendi:</quote>
+            </p>
+            <p xml:id="bHY6yh-de4483-d1e160">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-de4483-Rd1e163">Gregorius in pasto<!--line bumps up-->rali capitulo 44.</ref> ¶ <quote xml:id="bHY6yh-de4483-Qd1e164">Admonen<lb ed="#O" break="no"/>di 
+               sunt abstinentes ut nouerint 
+               <lb ed="#O"/>quia tunc placentem deo abstinentia 
+               <lb ed="#O"/>offerunt cum ea qui sibi de alimentis 
+               <lb ed="#O"/>subtrahunt indigentibus largiuntur. 
+               <lb ed="#O"/>¶ Non deo sed sibi quisque ieunat si 
+               <lb ed="#O"/>ea que sibi ad tempus subtrahit non 
+               <lb ed="#O"/>inopibus subtrahit sed ventri post<lb ed="#O" break="no"/>modum 
+               offerenda custodit.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
