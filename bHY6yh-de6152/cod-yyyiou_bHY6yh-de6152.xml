@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 22</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 22</title>
+               <date when="2023-06-15">June 15, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="9-r"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de6152"><!-- p1l1-r22 -->
+            <head xml:id="bHY6yh-de6152-Hd1e108">Rubrica 22</head>
+            <head xml:id="bHY6yh-de6152-Hd1e111" type="question-title">De vsurarum prohibitione religiosa et morali</head>
+            <p xml:id="bHY6yh-de6152-d1e114">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-de6152-d1e121">
+              <ref xml:id="bHY6yh-de6152-Rd1e118">MOy<lb ed="#C" break="no"/>ses 
+              in deuteronomi capitulo 23</ref> <quote xml:id="bHY6yh-de6152-Qd1e127">non fenera<lb ed="#C" break="no"/>beris 
+              fratri tuo ad usuram pecuniam nec fruges
+              <lb ed="#C"/>nec quamlibet aliam rem sed alieno</quote>
+            </p>
+            <!--manuscript makes the next paragraph a continuation-->
+            <p xml:id="bHY6yh-de6152-d1e142">
+              <quote xml:id="bHY6yh-de6152-Qd1e146"> fratri tuo
+              <lb ed="#C"/>absque vsura id quod indiget comodabis ut bene<lb ed="#C" break="no"/>dicat 
+              tibi dominus deus tuus in omni opere tuo.</quote>
+            </p>
+            <p xml:id="bHY6yh-de6152-d1e152">
+              ¶ <ref xml:id="bHY6yh-de6152-Rd1e145">Ecechiel capitulo 28.</ref>  <quote xml:id="bHY6yh-de6152-Qd1e156">Ad vsuram dantes et am<lb ed="#C" break="no"/>plius 
+              accipientes numquid unient</quote>
+            </p>
+            <p xml:id="bHY6yh-de6152-d1e162">
+              ¶ <ref xml:id="bHY6yh-de6152-Rd1e157">Socra<lb ed="#C" break="no"/>tes 
+              in exhortationibus capitulo II</ref> <quote xml:id="bHY6yh-de6152-Qd1e166">Abstinentiam exerce<lb ed="#C" break="no"/>as 
+              fenoris</quote>
+            </p>
+            <p xml:id="bHY6yh-de6152-d1e172"> 
+              ¶ <ref xml:id="bHY6yh-de6152-Rd1e169">Aristoteles libro IIIIo <sic>t</sic> II</ref> <quote xml:id="bHY6yh-de6152-Qd1e176">Vsurarii
+              <lb ed="#C"/>unde non oportet accipiunt et quam non oportet</quote>
+            </p>
+            <p xml:id="bHY6yh-de6152-d1e182">
+              ¶ <ref xml:id="bHY6yh-de6152-Rd1e181">Yesus filius sydrach in ecclesiastico capitulo VIII</ref> <quote xml:id="bHY6yh-de6152-Qd1e186">Noli fenerari
+              <lb ed="#C"/>cum fortiori te</quote>
+            </p>
+            <p xml:id="bHY6yh-de6152-d1e192">
+              ¶ <ref xml:id="bHY6yh-de6152-Rd1e191">Idem 29</ref> <quote xml:id="bHY6yh-de6152-Qd1e194">qui facit misericordiam
+              <lb ed="#C"/>feneratur proximo suo</quote>
+            </p>
+            <!--manuscript makes the next paragraph a continuation-->
+            <p xml:id="bHY6yh-de6152-d1e201">
+              <quote xml:id="bHY6yh-de6152-Qd1e203">in tempore necessitatis
+              <lb ed="#C"/>illius</quote>
+            </p>
+            <!--manuscript makes the next paragraph a continuation-->
+            <p xml:id="bHY6yh-de6152-d1e209">
+              <quote xml:id="bHY6yh-de6152-Qd1e211">multi enim causa nequitie non fe<lb ed="#C" break="no"/>nerati 
+              sunt sed fraudari gratis timuerunt</quote>
+            </p>
+            <p xml:id="bHY6yh-de6152-d1e217">
+              <ref xml:id="bHY6yh-de6152-Rd1e220">Lucas capitulo VI</ref> <quote xml:id="bHY6yh-de6152-Qd1e221">Si mutuum dederint dederitis hiis
+              <lb ed="#C"/>a quibus speratis recipere que uobis gratia</quote>
+            </p>
+            <!--manuscript makes the next paragrapg a continuation-->
+            <p xml:id="bHY6yh-de6152-d1e227">
+              <quote xml:id="bHY6yh-de6152-Qd1e231"> Mutuum date nihil inde sperantes et erit 
+              <lb ed="#C"/>merces vestra multa eritis filii altissimi quia
+              <lb ed="#C"/>ipse benignus est super ingratos et malos.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
