@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5</title>
+               <date when="2023-06-09">June 9, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="66-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d33588"><!-- p2l4-r5 -->
+            <head xml:id="bHY6yh-d33588-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-d33588-Hd1e111" type="question-title">De discordia</head>
+            <p xml:id="bHY6yh-d33588-d1e114">
+               <lb ed="#P"/>De discordia capitulum v
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e119">
+               <lb ed="#P"/><ref>Salomon in proverbium capitulo xx</ref> <quote xml:id="bHY6yh-d33588-Qd1e123">Qui prouocat iras 
+               <lb ed="#P"/>producit discordias.</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e131">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d33588-Rd1e128">Salustius in iugurtino</ref> <quote xml:id="bHY6yh-d33588-Qd1e135">Concordia parue 
+               <lb ed="#P"/>res crescunt / discordia maxime dilabuntur</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e142">
+               <ref xml:id="bHY6yh-d33588-Rd1e141">Tullius de amincitia</ref>/ <quote xml:id="bHY6yh-d33588-Qd1e146">Que domus tam 
+               stabilis / Que ciuitas tam firma / Que non 
+               odiis / et dissis funditius possit euerti.</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e154">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d33588-Rd1e155">Iacobus prima capitula iiii</ref> <quote xml:id="bHY6yh-d33588-Qd1e158">Non ne hinc ex concu<lb ed="#P" break="no"/>piscentiis 
+               vestris quem militant in membris 
+               <lb ed="#P"/>vestris.</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e166">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d33588-Rd1e169">Paulus ad galathas v capitulo</ref> <quote xml:id="bHY6yh-d33588-Qd1e170">Si inuicem mordetis 
+               <pb ed="#P" n="66-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P"/>et comeditis videte ne abinuicem con<lb ed="#P" break="no"/>sumamini.</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e178">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d33588-Rd1e183">Lex ff de arbi l item si unus § fi</ref> <quote xml:id="bHY6yh-d33588-Qd1e182">namlis
+               <lb ed="#P"/>facilitas hominum est ad dissentiendum</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e188"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d33588-Rd1e193">Ibidem ti deser urba predi l inrem communi</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d33588-Qd1e190">propter imensas contentiones plerumque res ad 
+               <lb ed="#P"/>diuisionem peruenit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e198">
+               <ref xml:id="bHY6yh-d33588-Rd1e206">Ibidem ti de l ii cum propter § dulcissi<lb ed="#P" break="no"/>mus.</ref> 
+               <quote xml:id="bHY6yh-d33588-Qd1e200">Communio solet excitare discordias.</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e209">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d33588-Rd1e222">Prudentius de sicomachia capitulo x</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d33588-Qd1e213">Nil dissociabile firmum est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e225">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d33588-Rd1e240">Prosper sub ultimo Epygramate</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d33588-Qd1e229">Undique bella fremunt omnis furor incitat armis
+               <lb ed="#P"/>Incumbunt reges Regibus innumeris
+               <lb ed="#P"/>Impia confuso seuit discordia mundo.
+               <lb ed="#P"/>Pax abiit terris.</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e241">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d33588-Rd1e258">Boetius de consolatione libro iiii capitulo xi</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d33588-Qd1e245">ut probis atque improbis nullum fedus est. 
+               <lb ed="#P"/>ita et ipsi inter se improbi nequeunt con<lb ed="#P" break="no"/>uenire.
+               Quid ni cum a semet ipsis discre<lb ed="#P" break="no"/>pantibus 
+               conscientia viciis improbi quique dissen<lb ed="#P" break="no"/>tiant.</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e257">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d33588-Rd1e276">Gregorius in pastorali capitulo xlviii</ref> <quote xml:id="bHY6yh-d33588-Qd1e261">Omnes
+               <lb ed="#P"/>qui per discordiam separantur a viriditate di<lb ed="#P" break="no"/>lectionis 
+               arescunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e269">
+               OMITTED 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
