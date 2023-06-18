@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 21</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 21</title>
+               <date when="2023-06-14">June 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="9-r"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de5998"><!-- p1l1-r21 -->
+            <head xml:id="bHY6yh-de5998-Hd1e108">Rubrica 21</head>
+            <head xml:id="bHY6yh-de5998-Hd1e111" type="question-title">De decimarum et primitiarum religione</head>
+            <p xml:id="bHY6yh-de5998-d1e114">
+               [omitted]
+            </p>
+            <p xml:id="bHY6yh-de5998-d1e121">
+              IN exodo 22<quote xml:id="bHY6yh-de5998-Qd1e125"> Decimas tuas et primitias
+              <lb ed="#C"/>non tardabis auferre</quote>
+            </p>
+            <p xml:id="bHY6yh-de5998-d1e133">
+              ¶ <ref xml:id="bHY6yh-de5998-Rd1e130">Idem 23 capitulo</ref> <quote xml:id="bHY6yh-de5998-Qd1e137">primi<lb ed="#C" break="no"/>tiis 
+              frugum terre tue in domum domini dei tui</quote>
+            </p>
+            <p xml:id="bHY6yh-de5998-d1e144">
+              ¶ <ref xml:id="bHY6yh-de5998-Rd1e141">Idem 25</ref> <quote xml:id="bHY6yh-de5998-Qd1e146">loquere filiis
+              <lb ed="#C"/>ut collat mihi primitias ab omni homine qui offert
+              <lb ed="#C"/>ultro accipietis eas</quote>
+            </p>
+            <p xml:id="bHY6yh-de5998-d1e154">
+              ¶ <quote xml:id="bHY6yh-de5998-Qd1e158">In leuitico capitulo poenaliter
+              <lb ed="#C"/>Omnes decime terre defrugibus suis de po<lb ed="#C" break="no"/>mis 
+              domini sunt et illi sanctificantur</quote>
+            </p>
+            <!--manuscript makes the next paragraph a continuation-->
+            <p xml:id="bHY6yh-de5998-d1e166">
+              <quote xml:id="bHY6yh-de5998-Qd1e168">bo<lb ed="#C" break="no"/>ues 
+              oues et capre que pastoris uirga tran<lb ed="#C" break="no"/>seunt 
+              quicquid uenerit decimum sanctificabitur deo</quote>
+            </p>
+            <p xml:id="bHY6yh-de5998-d1e176">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-de5998-Rd1e177">In libro numeri capitulo 18</ref> <quote xml:id="bHY6yh-de5998-Qd1e180">Locutus est dominus ad a<lb ed="#C" break="no"/>aron 
+              et caetera fili leui deduces decimas israelis in
+              <lb ed="#C"/>possessionem pro ministerio quo seruiunt mihi in taber<lb ed="#C" break="no"/>naculo 
+              federis</quote>
+            </p>
+            <!--manuscript makes the next paragraph a continuation-->
+            <p xml:id="bHY6yh-de5998-d1e190">
+              <quote xml:id="bHY6yh-de5998-Qd1e192">nihil aliud possidebunt leui
+              <lb ed="#C"/>fili decimarum oblatione contenti quas
+              <lb ed="#C"/>in vsus eorum et necessariis separaui</quote>
+            </p>
+            <p xml:id="bHY6yh-de5998-d1e200">
+              ¶ <ref xml:id="bHY6yh-de5998-Rd1e203">Moy<lb ed="#C" break="no"/>ses 
+              in deuteronomio capitulo 14.</ref> <quote xml:id="bHY6yh-de5998-Qd1e204">Decimam partem separa<lb ed="#C" break="no"/>bis 
+              de cunctis frugibus terre que nascuntur
+              <lb ed="#C"/>in terra per annos singulos et comedes in
+              <lb ed="#C"/>conspectu domini dei tui in loco quem elegerit
+              <lb ed="#C"/>ut nomen eius inuocetur et decimam frumentique
+              <lb ed="#C"/>uini et olei et primogenita de armentis de oui<lb ed="#C" break="no"/>bus 
+              tuis ut discas timere dominum deum tuum
+              <lb ed="#C"/>in omnitempore tuo</quote>
+            </p>
+            <p xml:id="bHY6yh-de5998-d1e224">
+              ¶ <ref xml:id="bHY6yh-de5998-Rd1e227">Idem XIX</ref> <quote xml:id="bHY6yh-de5998-Qd1e226">Non habe<lb ed="#C" break="no"/>bunt 
+              sacerdotes et leuite et omnes qui de eadem
+              <lb ed="#C"/>tribu sunt partem et hereditatem cum aliquo
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/>populo israel quia sacrificia diu et oblationes co<lb ed="#C" break="no"/>medent 
+              nihil aliud accipiant de possessione 
+              <lb ed="#C"/>patruum suorum dominus enim est hereditas
+              <lb ed="#C"/>eorum.</quote>
+            </p>
+            <p xml:id="bHY6yh-de5998-d1e245">
+              [omitted]
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
