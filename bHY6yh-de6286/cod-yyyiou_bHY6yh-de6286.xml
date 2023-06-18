@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 23</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 23</title>
+               <date when="2023-06-15">June 15, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="9-r"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-de6286"><!-- p1l1-r23 -->
+            <head xml:id="bHY6yh-de6286-Hd1e108">Rubrica 23</head>
+            <head xml:id="bHY6yh-de6286-Hd1e111" type="question-title">De puritate animi et cogitatione atque voluntate peccati</head>
+            <p xml:id="bHY6yh-de6286-d1e114">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e121">
+              <ref xml:id="bHY6yh-de6286-Rd1e118">SAlomon in prouerbes capitulo 4</ref> <quote xml:id="bHY6yh-de6286-Qd1e127">omni custodia sed
+              <lb ed="#C"/><!--manuscript uses the same 's' as Salomon-->ua cor tuum quia ex ipso uita procedit</quote>
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e133">
+              <ref xml:id="bHY6yh-de6286-Rd1e132">Idem capitulo XV</ref> <quote xml:id="bHY6yh-de6286-Qd1e137">Abominatio apud deus
+              <lb ed="#C"/>cogitationes male</quote>
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e144">
+              ¶ <ref xml:id="bHY6yh-de6286-Rd1e143">Idem 20</ref> <quote xml:id="bHY6yh-de6286-Qd1e146">quis potest
+              <lb ed="#C"/>dicere mundum est cor meum purum sine pec<lb ed="#C" break="no"/>cato</quote>
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e152">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e162">
+              ¶ <ref xml:id="bHY6yh-de6286-Rd1e167">Matheus V</ref> <quote xml:id="bHY6yh-de6286-Qd1e166">Omnis qui uiderit mu<lb ed="#C" break="no"/>lierem 
+              ad concupiscendum eam est iam me<lb ed="#C" break="no"/>chatus 
+              in corde suo</quote>
+            </p>
+            <!--manuscript makes the next paragraph a continuation-->
+            <p xml:id="bHY6yh-de6286-d1e172">
+              <quote xml:id="bHY6yh-de6286-Qd1e176"> Si oculus tuus dex<lb ed="#C" break="no"/>ter 
+              scandalicauerit te erue eum et proice abs
+              <lb ed="#C"/>te Expedit enim tibi ut pereat unum mem<pb ed="#C" n="9-v"/><cb ed="#C" n="a"/><lb ed="#C"/>brorum 
+              quam totum corpus mictatur in iehen<lb ed="#C" break="no"/>nam</quote>
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e193"> 
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e201">
+              ¶ <ref xml:id="bHY6yh-de6286-Rd1e210">Idem VII</ref> <quote xml:id="bHY6yh-de6286-Qd1e205">Abintus de corde hominum
+              <lb ed="#C"/>cogitationes male procedunt adulteria
+              <lb ed="#C"/>fornicationes homicidia surta auaritia
+              <lb ed="#C"/>nequitie dolus impudicitia inuidia oculus
+              <lb ed="#C"/>malus blasphemia stultitia superbia</quote>
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e218">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e230">
+              ¶ <ref xml:id="bHY6yh-de6286-Rd1e243">Lu<lb ed="#C" break="no"/>cas 
+              VI capitulo</ref> <quote xml:id="bHY6yh-de6286-Qd1e234">bonus homo de bono thesauro
+              <lb ed="#C"/>cordis sui profert bonum Malus homo de ma<lb ed="#C" break="no"/>lo 
+              thesauro cordis sui profert malum</quote>
+            </p>
+            <p xml:id="bHY6yh-de6286-d1e242">
+              ¶ <ref xml:id="bHY6yh-de6286-Rd1e257">Ia<lb ed="#C" break="no"/>cobus 
+              prima capitulo II</ref> <quote xml:id="bHY6yh-de6286-Qd1e246">Vnusquisque temptatur a con<lb ed="#C" break="no"/>cupiscentia 
+              sua abstractus et illectus dein<lb ed="#C" break="no"/>de 
+              cum conceperit parit pec<lb ed="#C" break="no"/>catum 
+              peccatum uero cum consummatum fuerit ge<lb ed="#C" break="no"/>nerat 
+              mortem.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
