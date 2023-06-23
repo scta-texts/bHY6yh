@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 35</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Alicia Koepke</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 35</title>
+          <date when="2023-06-23">June 23, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-06-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#O" n="28-r"/>
+        <cb ed="#O" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-de9728"><!-- p1l1-r35 -->
+        <head xml:id="bHY6yh-de9728-Hd1e108">Rubrica 35</head>
+        <head xml:id="bHY6yh-de9728-Hd1e111" type="question-title">De baptismo</head>
+        <p xml:id="bHY6yh-de9728-d1e114">
+           De 
+           <lb ed="#O"/>baptismo. Rubrica 35.
+        </p>
+        <p xml:id="bHY6yh-de9728-d1e119">
+           <lb ed="#O"/><ref xml:id="bHY6yh-de9728-Rd1e116">MAttheus in euangelio capitulo 28. 
+           <lb ed="#O"/>et fine</ref> ¶ <quote xml:id="bHY6yh-de9728-Qd1e127">Ait iesus discipulis suis 
+           post resurrectionem suam. Eun<lb ed="#O" break="no"/>tes 
+           docete omnes gentes baptisan<lb ed="#O" break="no"/>tes 
+           eos in nomine patris et filii et 
+           <lb ed="#O"/>spiritus sancti.</quote>
+        </p>
+        <p xml:id="bHY6yh-de9728-d1e137">
+           <lb ed="#O"/><ref xml:id="bHY6yh-de9728-Rd1e141">Marchus in euangelio capitulo 6. et fine</ref> <quote xml:id="bHY6yh-de9728-Qd1e145">
+           <lb ed="#O"/>qui crediderit et baptisatus fuerit 
+           <lb ed="#O"/>saluus erit.</quote>
+        </p>
+        <p xml:id="bHY6yh-de9728-d1e152">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-de9728-Rd1e154">Iohannes in e<!--line bumps up-->uangelio capitulo 3.</ref> ¶ <quote xml:id="bHY6yh-de9728-Qd1e156">Ait iesus <!--line bumps back down--> Nisi quis renatus fuerit 
+           <lb ed="#O"/>ex aqua et spiritu sancto non potest introi<lb ed="#O" break="no"/>re 
+           in regnum dei.</quote>
+        </p>
+        <p xml:id="bHY6yh-de9728-d1e164">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-de9728-Rd1e168">Paulus apostolus <!--line bumps up--> epistola ad galatas. <!--line bumps back--> capitulo 3.</ref> <quote xml:id="bHY6yh-de9728-Qd1e168">Quicumque in 
+           <lb ed="#O"/>christo baptisati estis christum induistis.</quote>
+        </p>
+        <p xml:id="bHY6yh-de9728-d1e174">
+           <ref xml:id="bHY6yh-de9728-Rd1e180">Lucas in libro actus apo<lb ed="#O" break="no"/>stolorum. 
+           capitulo 2.</ref> ¶ <quote xml:id="bHY6yh-de9728-Qd1e178">Petrus apostolus ait
+           <lb ed="#O"/>penitentiam agite et baptisentur unusquis que
+           <lb ed="#O"/>uestrum in nomine iesu christi in remissionem
+           <cb ed="#O" n="b"/>
+           <lb ed="#O"/>peccatorum uestrorum et accipietis donum 
+           <lb ed="#O"/>sancti spiritus.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
