@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 32</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Alicia Koepke</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+      </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 32</title>
+          <date when="2023-06-23">June 23, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+           <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-06-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#O" n="24-v"/>
+        <cb ed="#O" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-de9144"><!-- p1l1-r32 -->
+        <head xml:id="bHY6yh-de9144-Hd1e108">Rubrica 32</head>
+        <head xml:id="bHY6yh-de9144-Hd1e111" type="question-title">De christo et trinitate diuina</head>
+        <p xml:id="bHY6yh-de9144-d1e114">
+           <lb ed="#O"/>De christo et trinitate diuina. Rubrica. 32
+        </p>
+        <p xml:id="bHY6yh-de9144-d1e124">
+           <ref xml:id="bHY6yh-de9144-Rd1e120">PSalmista. 117 psalmus</ref> <quote xml:id="bHY6yh-de9144-Qd1e128">Lapidem 
+           <lb ed="#O"/>quem reprobauerunt edifican<lb ed="#O" break="no"/>tes
+           hic factus est in caput 
+           <lb ed="#O"/>anguli. A domino factum est istud hoc 
+           <lb ed="#O"/>mirabile in oculis nostris hec dies 
+           <lb ed="#O"/>quam fecit dominus exultemus et <sic>lete</sic> mea.</quote>
+        </p>
+        <p xml:id="bHY6yh-de9144-d1e145">
+           <lb ed="#O"/><ref xml:id="bHY6yh-de9144-Rd1e143">Iohannes in enangelio. capitulo 3.</ref> ¶ <quote xml:id="bHY6yh-de9144-Qd1e149">Spiritus ubi
+           <lb ed="#O"/>uult spirat et uocem eius audis
+           <lb ed="#O"/>sed non scis unde ueniat aut quo ua<lb ed="#O" break="no"/>dat.</quote>
+        </p>
+        <p xml:id="bHY6yh-de9144-d1e158">
+           <lb ed="#O"/> ¶ <ref xml:id="bHY6yh-de9144-Rd1e156">capitulo 5.</ref> <quote xml:id="bHY6yh-de9144-Qd1e160">pater non iudicat quen<lb ed="#O" break="no"/>quam.
+           Sed omne iudicium dedit filio ut 
+           <lb ed="#O"/>omnes honorificent filium sicut honori<lb ed="#O" break="no"/>ficant 
+           patrem ¶ Qui non honorificat 
+           <lb ed="#O"/>filium non honorificat patrem qui
+           <lb ed="#O"/>misit illum.</quote>
+        </p>
+        <p xml:id="bHY6yh-de9144-d1e174">
+           ¶ <ref xml:id="bHY6yh-de9144-Rd1e174">capitulo 6. Ait iesus:</ref> <quote xml:id="bHY6yh-de9144-Qd1e176">Hec est
+           <lb ed="#O"/>uoluntas patris mei qui misit me 
+           <lb ed="#O"/>ut omnis qui uidet filium et credit in 
+           <lb ed="#O"/>eum habeat uitam eternam et resuscita<lb ed="#O" break="no"/>bo 
+           eum in nouissimo die. ¶ Ait iesus
+           <pb ed="#O" n="25-r"/>
+           <cb ed="#O" n="a"/>
+           <!--last bit of transcription doesn't match, quotation ends as follows:-->
+           <lb ed="#O"/>dentis ibi erit fletus et stridor den<lb ed="#O" break="no"/>tium. 
+           </quote>
+        </p>
+        <p xml:id="bHY6yh-de9144-d1e193">
+           [omitted]
+        </p>
+        <!--transcription ends after omitted paragraph, but in manuscript rubric continues for just over 2 pages-->
+      </div>
+    </body>
+  </text>
+</TEI>
