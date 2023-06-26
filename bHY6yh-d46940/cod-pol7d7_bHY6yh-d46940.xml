@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 6 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Katrina Van Der Ahe</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 6 [Krakow, lat 700 III Transcription]</title>
+               <date when="2023-06-26">June 26, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="62-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d46940"><!-- p3l1-r6 -->
+            <head xml:id="bHY6yh-d46940-Hd1e108">Rubrica 6</head>
+           <head xml:id="bHY6yh-d46940-Hd1e111" type="question-title">De imaginatione: memoria: reminiscentia: et obliuione: consideratione morali</head>
+            <p xml:id="bHY6yh-d46940-d1e114">
+              De imagine memoria reminiscentia et obliuione morali 
+              consideratione. Rubrica. 6
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e123">
+              <ref xml:id="bHY6yh-d46940-Rd1e119">PLato in timeo circa princi.</ref>
+              <quote xml:id="bHY6yh-d46940-Qd1e129">Certum ilud expertus
+              sum tenatiorem fore eorum memoriam
+              que prima etate discuntur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e137">
+              <ref xml:id="bHY6yh-d46940-Rd1e135">Aristoteles de memoria et reminiscentia:</ref>
+              <quote xml:id="bHY6yh-d46940-Qd1e141">Meditationes memoriam saluant in 
+              reminiscendo: hoc autem nil est alterum quam 
+              speculari multotiens sicut imaginem et non sicut perse.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e154"> 
+              <quote xml:id="bHY6yh-d46940-Qd1e156">Memorari est non nunc reminiscentem <!--'n' flipped in "nunc"-->
+              sed ex principio scientem aut addiscentem 
+              aliquid. Sunt magis reminiscibiliora quecum
+              que ordinationem habent. Que multotiens
+              intelligimus velocius reminiscimur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e168"> 
+              <ref xml:id="bHY6yh-d46940-Rd1e167">Idem
+              de hystoriis animalium li. 8. c. i.</ref> <quote xml:id="bHY6yh-d46940-Qd1e170">Memoratior
+              est mulier viro.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e178"> 
+              <ref xml:id="bHY6yh-d46940-Rd1e180">Idem retho. lib. 2. c. 4</ref>
+              <quote xml:id="bHY6yh-d46940-Qd1e180">Propter incuriam obliuio fit. Incuria autem <!--150.xml-->
+              par impensio est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e192"> /
+              <ref xml:id="bHY6yh-d46940-Rd1e196">Libro. 3 c. 10.</ref> <quote xml:id="bHY6yh-d46940-Qd1e194">Metra
+              omnes memorantur magis quam que non 
+              ligata: numerum enim habent quo mensurantur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e202">
+              <ref xml:id="bHY6yh-d46940-Rd1e210">Salustius in iugurtino:</ref> <quote xml:id="bHY6yh-d46940-Qd1e206">Quintus maxim
+              publius scipio preterea ciuitatis romane 
+              praeclari viri soliti erant ita dicere: Cum 
+              maiorum imagines intuerentur: vehementissime
+              sibi animum ad virtutem accendi: scilicet non
+              terram illam nec <sic>siguram</sic> tantam vim in se 
+              habere: sed memoria rerum gestarum eam flammam
+              egregiis viris in pectore crescere: neque prius
+              sedari quam virtus eorum famam atque gloriam
+              adequauerit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e229">
+              <ref xml:id="bHY6yh-d46940-Rd1e241">Oratius in poetria:</ref> <quote xml:id="bHY6yh-d46940-Qd1e233">Omne superuacuum
+              pleno de pectore manat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e240">
+              <ref xml:id="bHY6yh-d46940-Rd1e254">Tullius retho. artis noue li. i. c. 2.</ref> <quote xml:id="bHY6yh-d46940-Qd1e244">
+              Memoria est firma animi rerum et verborum 
+              dispositionis perceptio.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e252"> 
+              <ref xml:id="bHY6yh-d46940-Rd1e266">Libro. 3. c. 4.</ref> <quote xml:id="bHY6yh-d46940-Qd1e254">
+              Nuperrime dictum facile memorie commendatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e260">
+              <ref xml:id="bHY6yh-d46940-Rd1e278">12. c.</ref> <quote xml:id="bHY6yh-d46940-Qd1e264">Si quas res in vita videmus 
+              paruas vsitatas quottidianas: eas meminisse non
+              solemus: propterea quod nulla nisi noua aut
+              admirabili recommouetur animus: aut siquid 
+              videmus aut audiuimus egregie turpe aut 
+              honestum inauditum magnum incredibile 
+              periculosum id diu <sic>memenisse</sic> consueuimus.
+              Usitate res facile memoria elabuntur. 
+              Insignes et noue diutius manent in animo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e285">
+              <ref xml:id="bHY6yh-d46940-Rd1e307">Idem de oratore libro. 2 ad finem:</ref> <quote xml:id="bHY6yh-d46940-Qd1e289">
+              Fingende sunt: nobis imagines quibus semper
+              vtamur rerum memoria.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e297"> /
+              <ref xml:id="bHY6yh-d46940-Rd1e319">Idem de 
+              natura deorum libro. 2.</ref> <quote xml:id="bHY6yh-d46940-Qd1e299">Nihil est difficilius
+              quam a consuetudine oculorum aciem mentis
+              adducere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e309">
+              <ref xml:id="bHY6yh-d46940-Rd1e336">Seneca tragediarum in troa: ca. 7.</ref> <quote xml:id="bHY6yh-d46940-Qd1e313">
+              Dediscit animus sero quod didicit diu.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e320"> /
+              <ref xml:id="bHY6yh-d46940-Rd1e347">Idem
+              de beneficiis libro septimo et finali:</ref> <quote xml:id="bHY6yh-d46940-Qd1e322">Solet
+              plus prodesse si pauca precepta sapientie
+              teneas: sed illa in promptu et in vsu sunt 
+              tibi sint: qua si multa didiceris: sed illa non 
+              habeas ad manum. Fragilis est 
+              memoria: et rerum turbe non sufficit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e339"> /
+               <ref xml:id="bHY6yh-d46940-Rd1e368">Idem
+        <lb ed="#V" n="86"/>declamatione seu ciuilium causarum libro. i. in
+        <lb ed="#V" n="87"/>prohemio:</ref> <quote xml:id="bHY6yh-d46940-Qd1e341">Sepe quod querenti non comparuerat
+        <lb ed="#V" n="88"/>aliud agenti presto. est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e351"> /
+               <ref xml:id="bHY6yh-d46940-Rd1e383">Idem in epistolis ad <!--151.xml-->
+        <pb ed="#V" n="62-v"/>
+                  <cb ed="#V" n="a"/>
+                  <lb ed="#V" n="1"/>lucillum li. 5. c. 4.</ref> <quote xml:id="bHY6yh-d46940-Qd1e353">Turpe est seni aut 
+               conspi<lb ed="#V" n="2" break="no"/>cienti senectutem ex commentario sapere. 
+               Ali<lb ed="#V" n="3" break="no"/>ud est meminisse: aliud scire meminisse est
+        <lb ed="#V" n="4"/>rem omissam memorie custodire. at contra
+        <lb ed="#V" n="5"/>scire est sua facere queque: nec ad exemplare
+        <lb ed="#V" n="6"/>pendere: et totiens respicere ad magistrum.
+        <lb ed="#V" n="7"/>Aliquid inter te intersit et librum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e378">
+               <lb ed="#V" n="8"/>
+             / <ref xml:id="bHY6yh-d46940-Rd1e415">Idem de moribus:</ref> <quote xml:id="bHY6yh-d46940-Qd1e382">Memoria 
+               benefici<lb ed="#V" n="9" break="no"/>orum fragilis est: iniuriarum vero tenax.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e388">
+               <lb ed="#V" n="10"/>
+              <ref xml:id="bHY6yh-d46940-Rd1e427">Macrobius saturnaliorum in prohem.</ref>
+        <lb ed="#V" n="11"/><quote xml:id="bHY6yh-d46940-Qd1e392">Distincta melius seruantur in animo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e398">
+               <lb ed="#V" n="12"/>
+              <ref xml:id="bHY6yh-d46940-Rd1e438">Cassiodorus epistolarum li. 5. e. 22.</ref> <quote xml:id="bHY6yh-d46940-Qd1e402">Magnum
+        <lb ed="#V" n="13"/>beneficium est obliuionis nescire defectum.
+        <lb ed="#V" n="14"/>Quedam similitudo nature celestium est tempore 
+               de<lb ed="#V" n="15" break="no"/>cursa semper habere praesentia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e413"> /
+               <ref xml:id="bHY6yh-d46940-Rd1e453">Li. 11. et pen. e. 39</ref>
+        <lb ed="#V" n="16"/><quote xml:id="bHY6yh-d46940-Qd1e415">Memoria nostra et si causas retinet verba commutat</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e421">
+               <lb ed="#V" n="17"/>
+              <ref xml:id="bHY6yh-d46940-Rd1e464">Hugo de sancto victore: in didascolo li. 3. c.
+        <lb ed="#V" n="18"/>10.</ref> <quote xml:id="bHY6yh-d46940-Qd1e425">Memoria hebes est: et breuitate 
+               gau<lb ed="#V" n="19" break="no"/>det: et si in multa diuiditur fit minor in 
+               singu<lb ed="#V" n="20" break="no"/>lis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e435"> /
+               <ref xml:id="bHY6yh-d46940-Rd1e479">Idem in compendio philosophie li. 2. in prohem.</ref>
+        <lb ed="#V" n="21"/><quote xml:id="bHY6yh-d46940-Qd1e437">In omni doctrina breue aliquid et certum 
+               debe<lb ed="#V" n="22" break="no"/>mus colligere: vt ipsum in alta sede mentis
+        <lb ed="#V" n="23"/>recondamus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e447">
+               <lb ed="#V" n="24"/>
+              <ref xml:id="bHY6yh-d46940-Rd1e494">Andreas ad gualterium de amore libro. i.</ref>
+        <lb ed="#V" n="25"/><quote xml:id="bHY6yh-d46940-Qd1e451">Sepius repetita veritas maiori soliditate
+        <lb ed="#V" n="26"/>firmatur: et attentiori memoria conseruatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d46940-d1e459">
+               <lb ed="#V" n="27"/>
+              <ref xml:id="bHY6yh-d46940-Rd1e507">Gaufridus in poetria. ca. 107</ref> <quote xml:id="bHY6yh-d46940-Qd1e463">Cellula quae
+        <lb ed="#V" n="28"/>meminit est cellula delitiarum. Delitiasque sitit
+        <lb ed="#V" n="29"/>non tedia: vis ne placere Illi: non oneres illam:
+        <lb ed="#V" n="30"/>vult illa benigne Tractari: non mole premi:
+        <lb ed="#V" n="31"/>qua lubrica res est. Et rerum turbe non sufficit
+        <lb ed="#V" n="32"/>Delectatio sola
+        <lb ed="#V" n="33"/>Uim memoratiuam validam facit.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
