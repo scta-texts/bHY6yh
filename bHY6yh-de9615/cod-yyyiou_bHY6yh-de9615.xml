@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 34</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 34</title>
+          <date when="2023-06-27">June 27, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="14-r"/>
+        <cb ed="#C" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-de9615"><!-- p1l1-r34 -->
+        <head xml:id="bHY6yh-de9615-Hd1e108">Rubrica 34</head>
+        <head xml:id="bHY6yh-de9615-Hd1e111" type="question-title">De corporis et sanguinis christi religione</head>
+        <p xml:id="bHY6yh-de9615-d1e114">
+           De sacramento
+           <lb ed="#C"/>eucaristie capitulum
+        </p>
+        <!--the next paragraph begins on the line before the end of the previous paragraph-->
+        <p xml:id="bHY6yh-de9615-d1e121">
+          <ref xml:id="bHY6yh-de9615-Rd1e118">MAttheus 26</ref> <quote xml:id="bHY6yh-de9615-Qd1e127">Ce<lb ed="#C" break="no"/>nantibus
+          illius accepit iesus panem
+          <lb ed="#C"/>etcetera Vsque ibi imissionem peccatorum</quote>
+        </p>
+        <p xml:id="bHY6yh-de9615-d1e148">
+          ¶ <ref xml:id="bHY6yh-de9615-Rd1e148">Lucas
+          <lb ed="#C"/>XXII</ref> <quote xml:id="bHY6yh-de9615-Qd1e152">Iesus in cena quam agebat cum dis<lb ed="#C" break="no"/>cipulis 
+          accepit panem etcetera Vsque ibi quip
+          <lb ed="#C"/>uobis effundetur</quote>
+        </p>
+        <p xml:id="bHY6yh-de9615-d1e170">
+          ¶ <ref xml:id="bHY6yh-de9615-Rd1e172">Ioannes VI capitulo.</ref> <quote xml:id="bHY6yh-de9615-Qd1e174">Ego sum panis
+          <lb ed="#C"/>uite etcetera vsque ibi et ego in illo etcetera</quote>
+        </p>
+        <p xml:id="bHY6yh-de9615-d1e206">
+          ¶ <ref xml:id="bHY6yh-de9615-Rd1e210">Pau<lb ed="#C" break="no"/>lus 
+          prima corinthios XI</ref> <quote xml:id="bHY6yh-de9615-Qd1e210">qui manducauerit et bibe<lb ed="#C" break="no"/>rit 
+          calicem diu indigne etcetera</quote>
+        </p>
+        <p>
+          ¶ prosper
+          <lb ed="#C"/>Magnus prosidium est sacio libaminen
+          <lb ed="#C"/>pasa Si cor participis permia nulla febbre
+          <lb ed="#C"/>mit
+        </p>
+        <p>
+          ¶ Angui epigrammate sacremen<lb ed="#C" break="no"/>tum 
+          suime pietatis in uiditium sibi
+          <lb ed="#C"/>sumit indignus non erit potest esse bo<lb ed="#C" break="no"/>num
+          male accipienti quid bonum Est
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
