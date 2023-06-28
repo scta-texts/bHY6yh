@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 7 [Krakow, lat 700 III Transcription]</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Katrina Van Der Ahe</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 7 [Krakow, lat 700 III Transcription]</title>
+          <date when="2023-06-28">June 28, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska MS lat. 700 III (CC.VIII.25)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#K" n="104-r"/>
+        <cb ed="#K" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d47315"><!-- p3l1-r7 -->
+        <head xml:id="bHY6yh-d47315-Hd1e108">Rubrica 7</head>
+        <head xml:id="bHY6yh-d47315-Hd1e111" type="question-title">De opinione</head>
+        <p xml:id="bHY6yh-d47315-d1e114">
+          <lb ed="#K"/>De opinione. Rubrica. 7.
+        </p>
+        <p xml:id="bHY6yh-d47315-d1e119">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d47315-Rd1e117">ARistoteles ethicorum li. 4. c. 4</ref>
+          <lb ed="#K"/> <quote xml:id="bHY6yh-d47315-Qd1e129">Necessarium est curare veritatem 
+          <lb ed="#K"/>magis quam opinionem.</quote>
+        </p>
+        <p xml:id="bHY6yh-d47315-d1e135"> 
+          <ref xml:id="bHY6yh-d47315-Rd1e132">Libro. 6. ca. 3.</ref>
+            <pb ed="#K" n="105-v"/>
+            <cb ed="#K" n="a"/>
+          <lb ed="#K"/> <quote xml:id="bHY6yh-d47315-Qd1e137">Opinio est circa contingens aliter se 
+          <lb ed="#K"/>habere.</quote>
+        </p>
+        <p xml:id="bHY6yh-d47315-d1e144">
+          <ref xml:id="bHY6yh-d47315-Rd1e144">Idem topicorum libro i.</ref> <quote xml:id="bHY6yh-d47315-Qd1e148">Positio est 
+          <lb ed="#K"/>opinio extranea alicuius notorum 
+          <lb ed="#K"/>secundum philosophiam.</quote>
+        </p>
+        <p xml:id="bHY6yh-d47315-d1e154"> 
+          <ref xml:id="bHY6yh-d47315-Rd1e154">Idem posteriorum 
+          <lb ed="#K"/>analeticorum libro i. c. 17. et fi.</ref> <quote xml:id="bHY6yh-d47315-Qd1e156">Opinio
+          <lb ed="#K"/>incertum quid est. Melius est 
+          <lb ed="#K"/>scire quam opinari</quote>
+        </p>
+        <p xml:id="bHY6yh-d47315-d1e164">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d47315-Rd1e169">Ouidius de arte amandi li. i.</ref> <quote xml:id="bHY6yh-d47315-Qd1e168">Iudicio forme: 
+          <lb ed="#K"/>noxque merumque nocent.</quote>
+        </p>
+        <p xml:id="bHY6yh-d47315-d1e178">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d47315-Rd1e184">Boetius de consolatione lib. i. c. 12. et pe.</ref> <quote xml:id="bHY6yh-d47315-Qd1e182">Eam men<lb ed="#K" break="no"/>tium 
+          constat esse naturam: vt 
+          <lb ed="#K"/>quotiens abiecerint. vera: falsis o<lb ed="#K" break="no"/>pinionibus 
+          induantur.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
