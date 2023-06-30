@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 8</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 8</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="76-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d38247"><!-- p2l5-r8 -->
+            <head xml:id="bHY6yh-d38247-Hd1e108">Rubrica 8</head>
+            <head xml:id="bHY6yh-d38247-Hd1e111" type="question-title">De credito et debito</head>
+            <p xml:id="bHY6yh-d38247-d1e114">
+               <lb ed="#P"/>De credito et debito capitulo viii
+            </p>
+            <p xml:id="bHY6yh-d38247-d1e119">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d38247-Rd1e115">Psalmista psalmus xxxvi</ref> <quote xml:id="bHY6yh-d38247-Qd1e123">Mutuabitur pecca<lb ed="#P" break="no"/>tor
+               / et non soluet.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d38247-d1e131">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d38247-Rd1e129">Salomon in prouerbium capitulo vi</ref> <quote xml:id="bHY6yh-d38247-Qd1e135">Si spoponde<lb ed="#P" break="no"/>ris 
+               amico tuo defixisti apud extraneum 
+               <lb ed="#P"/>animam tuam / illaqueatus ex verbis oris 
+               <lb ed="#P"/>tui / et captus propriis sermonibus tuis. 
+               <lb ed="#P"/>Fac ergo quod dico te ipsum liberi quia 
+               <lb ed="#P"/>incidisti in manus proximi tui / discur<lb ed="#P" break="no"/>re 
+               festina substine amicum tuum nec 
+               <lb ed="#P"/>dederis somnum oculis tuis / nec dormit<lb ed="#P" break="no"/>ent 
+               palpebre tue. Erue quasi damula 
+               <lb ed="#P"/>de manu / et quasi auis de insidiis 
+               <lb ed="#P"/>aucupis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38247-d1e159">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d38247-Rd1e157">Ibidem xxii capitulo</ref> <quote xml:id="bHY6yh-d38247-Qd1e161">Qi accipit mutuum
+               <lb ed="#P"/>seruus est fenerantis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38247-d1e167">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d38247-Rd1e169">Iesus filius sirach in ecclesiastico capitulo xxviiii</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d38247-Qd1e171">Fenerare tibi proximo in tempore necessi<lb ed="#P" break="no"/>tatis 
+               illius Redde proximo in tempore 
+               <lb ed="#P"/>suo. Multi vero causa nequitie non fenerati 
+               <lb ed="#P"/>sunt sed quia fraudari gratis timuerunt
+               <lb ed="#P"/>Vir bonus fidem facit proximo suo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38247-d1e183">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d38247-Rd1e187">Mattheus in euangelio xxii capitulo</ref> <quote xml:id="bHY6yh-d38247-Qd1e187">Reddite quae 
+               <lb ed="#P"/>sunt cesaris cesari / et que sunt dei deo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38247-d1e193"> 
+               OMITTED
+            </p>
+            <p xml:id="bHY6yh-d38247-d1e201"> 
+               OMITTED
+            </p>
+            <p xml:id="bHY6yh-d38247-d1e215">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d38247-Rd1e226">Paulus ad Romanos xiii</ref> <quote xml:id="bHY6yh-d38247-Qd1e219">Reddite omnibus 
+               <lb ed="#P"/>debita cui tribulum tributum / cui vecti<lb ed="#P" break="no"/>gal 
+               vectigal / cui honorem honorem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38247-d1e228">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d38247-Rd1e241"><sic>Senec</sic> epistolarum ad lucillum libro iii epistola v</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d38247-Qd1e232">leue hes alienum debitorem facit
+               <lb ed="#P"/>gratie inimicum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38247-d1e238">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d38247-Rd1e253">Idem in prouerbium</ref> <quote xml:id="bHY6yh-d38247-Qd1e242">hes alienum homini ingenuo
+               <lb ed="#P"/>acerba seruitus est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38247-d1e248">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d38247-Rd1e265">Lex ff de verborum sin sub signatum § 
+               <lb ed="#P"/>bona</ref> <quote xml:id="bHY6yh-d38247-Qd1e252">Bona intelliguntur cuiusque qua de<lb ed="#P" break="no"/>ducto 
+               here alieno supersunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38247-d1e260">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d38247-Rd1e280">Cato capitulo primo</ref> <quote xml:id="bHY6yh-d38247-Qd1e264">Mutuum da cui des videto</quote>
+            </p>
+            <p xml:id="bHY6yh-d38247-d1e268">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d38247-Rd1e290">Boetius de  scolastica disciplina libro ii</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d38247-Qd1e272">declamatione creditorum nichil ama<lb ed="#P" break="no"/>rius 
+               menti imprimitur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38247-d1e280">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d38247-Rd1e304">Cassiodorus epistolarum libro xii et fi: 
+               <lb ed="#P"/>epistola ii</ref> <quote xml:id="bHY6yh-d38247-Qd1e284">irrite suspenditur / quod nullis 
+               <lb ed="#P"/>protractionibus euitatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38247-d1e293">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d38247-Rd1e316">Ibidem x epistola</ref> <quote xml:id="bHY6yh-d38247-Qd1e295">Reatus quidam est esse sub<lb ed="#P" break="no"/>debito
+               nec liber potest veraciter dici 
+               <lb ed="#P"/>qui probatur obnoxius reperiri.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38247-d1e303">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d38247-Rd1e328">Ibidem xvi epistola</ref> <quote xml:id="bHY6yh-d38247-Qd1e305">debitum siquidem quod non 
+               <lb ed="#P"/>potest euitari prona debet mente semper 
+               <pb ed="#P" n="76-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P"/>offerri / ut fiat beneficium / quod sine com<lb ed="#P" break="no"/>pulsione 
+               constat illatum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38247-d1e315">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d38247-Rd1e344">Iacobus beneuentanus capitulo xxxv</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d38247-Qd1e319">Nolo prestes tua fili litigiosis.
+               <lb ed="#P"/>Aut illis etiam qui sibi semper egent.
+               <lb ed="#P"/>Credita vix et enim vel nunquam reddere 
+               <lb ed="#P"/>curant. Consueuere tamen reddere verba pia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d38247-d1e331">
+               OMITTED 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

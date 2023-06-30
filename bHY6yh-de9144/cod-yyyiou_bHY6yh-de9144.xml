@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 32</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 32</title>
+          <date when="2023-06-23">June 23, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-06-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="13-v"/>
+        <cb ed="#C" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-de9144"><!-- p1l1-r32 -->
+        <head xml:id="bHY6yh-de9144-Hd1e108">Rubrica 32</head>
+        <head xml:id="bHY6yh-de9144-Hd1e111" type="question-title">De christo et trinitate diuina</head>
+        <p xml:id="bHY6yh-de9144-d1e114">
+          De christo et trinitate.
+        </p>
+        <!--next paragraph begins on the line before the previous paragraph-->
+        <p xml:id="bHY6yh-de9144-d1e124">
+          <ref xml:id="bHY6yh-de9144-Rd1e120">PSalmista
+          <lb ed="#C"/>psalmo LXVIo</ref> <quote xml:id="bHY6yh-de9144-Qd1e128"> Lapidem quoquem repro<lb ed="#C" break="no"/>bauerunt 
+          edificantes hic factus est in capud
+          <lb ed="#C"/>anguli</quote>
+        </p>
+        <p xml:id="bHY6yh-de9144-d1e145">
+          ¶ <ref xml:id="bHY6yh-de9144-Rd1e143">Ioannes in euangelio capitulo IIIo</ref> <quote xml:id="bHY6yh-de9144-Qd1e149">Spiritus ubi uult
+          <lb ed="#C"/>spirat</quote>
+        </p>
+        <p xml:id="bHY6yh-de9144-d1e158">
+          ¶ <ref xml:id="bHY6yh-de9144-Rd1e156">Idem capitulo V</ref> <quote xml:id="bHY6yh-de9144-Qd1e160">pater non iudicat quenquam
+          <lb ed="#C"/>sed omne iudicium dedit filio ut omnes honori<lb ed="#C" break="no"/>ficent 
+          filium sicud honorificauit patrem
+          <lb ed="#C"/>qui misit cum</quote>
+        </p>
+        <p xml:id="bHY6yh-de9144-d1e174">
+          ¶ <ref xml:id="bHY6yh-de9144-Rd1e174">Idem VI Ait yesus</ref> <quote xml:id="bHY6yh-de9144-Qd1e176">Hec est
+          <lb ed="#C"/>uoluntas patris mei ut omnis qui uidet fi<lb ed="#C" break="no"/>lium 
+          et credit in eum habeat uitam eternam
+          <lb ed="#C"/>Ibidem ait yesus nemo potest uenire ad me nisi
+          <lb ed="#C"/>pater meus qui misit me traxerit illum
+          <lb ed="#C"/>Ibidem Spiritus est qui uiuificat</quote>
+        </p>
+        <p xml:id="bHY6yh-de9144-d1e193">
+          ¶ <ref xml:id="bHY6yh-de9144-Rd1e195">Idem 14
+          <lb ed="#C"/>dixit yesus</ref> <quote xml:id="bHY6yh-de9144-Qd1e195">nemo uenit ad patrem nisi per me
+          <lb ed="#C"/>¶ Ibidem ait yesus qui uidet me uidet et pa<lb ed="#C" break="no"/>trem 
+          meum Ait iesus qui diligit me diligetur
+          <lb ed="#C"/>a patre meo.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
