@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 2</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 2</title>
+          <date when="2023-06-29">June 29, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-06-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="16-r"/>
+        <cb ed="#C" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d11545"><!-- p1l2-r2 -->
+        <head xml:id="bHY6yh-d11545-Hd1e108">Rubrica 2</head>
+        <head xml:id="bHY6yh-d11545-Hd1e111" type="question-title">De honesto et licito et inhonesto seu turpi</head>
+        <p xml:id="bHY6yh-d11545-d1e114">
+          De honesto
+          <lb ed="#C"/>licito et inhones<lb ed="#C" break="no"/>to 
+          uel turpi
+        </p>
+        <!--next paragraph begins on the same line as the previous paragraph-->
+        <p xml:id="bHY6yh-d11545-d1e121">
+          <ref xml:id="bHY6yh-d11545-Rd1e118">ARistoteles 
+          <lb ed="#C"/>rethoricorum
+          <lb ed="#C"/>libro I capitulo IIII</ref> <quote xml:id="bHY6yh-d11545-Qd1e129">honestum
+          <lb ed="#C"/>est quodcumque propter se eligibile existens
+          <lb ed="#C"/>laudabile aut quodcumque bonum existens
+          <lb ed="#C"/>delectabile est quia bonum</quote>
+        </p>
+        <p xml:id="bHY6yh-d11545-d1e137">
+          ¶ <ref xml:id="bHY6yh-d11545-Rd1e141">Terentius
+          <lb ed="#C"/>in <sic>eumicho</sic> capitulo XIII.</ref> <quote xml:id="bHY6yh-d11545-Qd1e141">Quis homo
+          <lb ed="#C"/>pro uidit in domo meretricia
+          <lb ed="#C"/>non uidi quemquam</quote> <ref xml:id="bHY6yh-d11545-Rd1e150"><!--manuscript breaks this paragraph into two paragraphs-->¶ Idem in Eutonaime<pb ed="#C" n="16-v"/><cb ed="#C" n="a"/><lb ed="#C"/>rumenon
+          capitulo XXI</ref> <quote xml:id="bHY6yh-d11545-Qd1e155">non licet hominem sepe
+          <lb ed="#C"/>esse ut uult si res non sint</quote>
+        </p>
+        <p xml:id="bHY6yh-d11545-d1e152">
+          ¶ <ref xml:id="bHY6yh-d11545-Rd1e168">Tullius de fi<lb ed="#C" break="no"/>ne 
+          bonorum et malorum libro II</ref> <quote xml:id="bHY6yh-d11545-Qd1e156">honestum
+          <lb ed="#C"/>intelligimus quod tale est quo detracta omni utilitate
+          <lb ed="#C"/>sine ullis premiis fructibus ve ipsni possit ui<lb ed="#C" break="no"/>re 
+          laudari</quote>
+        </p>
+        <p xml:id="bHY6yh-d11545-d1e166">
+          ¶ <ref xml:id="bHY6yh-d11545-Rd1e184">Ouidius de arte amandi
+          <lb ed="#C"/>libro II et finale Versus</ref> <quote xml:id="bHY6yh-d11545-Qd1e170">Multos viros nescire decet
+          <lb ed="#C"/><!--manuscript breaks this paragraph into three paragraphs-->¶ Idem methamor libro ¶ Versus protinus
+          <lb ed="#C"/>irrupit venis quam peioris in euum Omne
+          <lb ed="#C"/>nephas fugere pudor uerumque fidesque
+          <lb ed="#C"/>In quorum subire locum fir uidesque dolique
+          <lb ed="#C"/>Insidieque et uis et amor sceleratus habendi
+          <lb ed="#C"/>viuitur ex rapto non hospes ab hospite
+          <lb ed="#C"/>tutus Non socer a genero fratrum quoque gratia rara est
+          <lb ed="#C"/>Imminet exitio uir coniugis ipsa mariti Luri<lb ed="#C" break="no"/>da 
+          terribiles miscent aconita nouerce
+          <lb ed="#C"/>Filius ante diem patrios inquirit in annos
+          <lb ed="#C"/>Victa iacet pietas et uirgo cede mades<lb ed="#C" break="no"/>cens </quote>
+        </p>
+        <p xml:id="bHY6yh-d11545-d1e202">
+          ¶ <ref xml:id="bHY6yh-d11545-Rd1e222">Idem deponto libro II Epistola III</ref>
+          <lb ed="#C"/>Vsque <quote xml:id="bHY6yh-d11545-Qd1e206">Cur quid expediat prius est quam quid
+          <lb ed="#C"/>sit honestum Et cum fortuna statque cadit fi<lb ed="#C" break="no"/>de 
+          nec facile inuenies multis in milibus
+          <lb ed="#C"/>unum Virtutem precii qui putet esse
+          <lb ed="#C"/>sui Ipse decor recti facti si premia desunt
+          <lb ed="#C"/>non mouet et gratis penitet esse probum
+          <lb ed="#C"/>Nil nisi quid prodest carum est detrahe menti
+          <lb ed="#C"/>Spem fructus auide nemo petendus est
+          <lb ed="#C"/>At redditus iam quisque suos amat et sibi
+          <lb ed="#C"/>quid sit Vtile solicitis computat articulis
+          <lb ed="#C"/>Sponte sua probitas officiumque uiuat</quote>
+        </p>
+        <p xml:id="bHY6yh-d11545-d1e233">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d11545-Rd1e255">Seneca tragediarum in optaua capitulo X Versus</ref> <quote xml:id="bHY6yh-d11545-Qd1e237">Id tacere
+          <lb ed="#C"/>laus est quod decet non quod licet</quote>
+        </p>
+        <p xml:id="bHY6yh-d11545-d1e243">
+          ¶ <ref xml:id="bHY6yh-d11545-Rd1e265">Idem in
+          <lb ed="#C"/>epistolis ad lucillum libro II capitulo V</ref> <quote xml:id="bHY6yh-d11545-Qd1e245">Honestum enim
+          <lb ed="#C"/>vile est cui corpus nimis carum est</quote>
+        </p>
+        <p xml:id="bHY6yh-d11545-d1e253">
+          <lb ed="#C"/><ref xml:id="bHY6yh-d11545-Rd1e280">Valerius maximus libro II titulo de institutis antiquis</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d11545-Qd1e257">Ariopagus ubi quid quisque atheniensium
+          <lb ed="#C"/>agent aut quoniam questum sustentaretur diligen<cb ed="#C" n="b"/><lb ed="#C"/>tissime 
+          inquirere solebat ut homines
+          <lb ed="#C"/>honestatem uite rationem memores
+          <lb ed="#C"/>reddituram esse sequerentur</quote>
+        </p>
+        <p xml:id="bHY6yh-d11545-d1e270">
+          ¶ <ref xml:id="bHY6yh-d11545-Rd1e299">Lex codex filius
+          <lb ed="#C"/>instituta libro filius</ref> <quote xml:id="bHY6yh-d11545-Qd1e274">Que facta ledunt pietatem
+          <lb ed="#C"/>extimationem uerecundiam iram et ut genera<lb ed="#C" break="no"/>liter 
+          dixerim que contra bonos mores sunt
+          <lb ed="#C"/>nec facere nos posse credendum est.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
