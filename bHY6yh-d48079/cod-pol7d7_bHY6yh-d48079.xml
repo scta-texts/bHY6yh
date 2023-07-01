@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 11 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Katrina Van Der Ahe</name>
+              <resp>Transcription Encoder</resp>
+              <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 11 [Krakow, lat 700 III Transcription]</title>
+               <date when="2023-07-01">July 01, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="63-v"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d48079"><!-- p3l1-r11 -->
+            <head xml:id="bHY6yh-d48079-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-d48079-Hd1e111" type="question-title">De coniectura morum per verba</head>
+            <p xml:id="bHY6yh-d48079-d1e114">
+              De coniectura morum perverba. Rubrica. 11.
+            </p>
+            <p xml:id="bHY6yh-d48079-d1e119">
+              <ref xml:id="bHY6yh-d48079-Rd1e115">SAlomon in prouerb. c. 12.</ref> <quote xml:id="bHY6yh-d48079-Qd1e123">
+              Doctrina noscitur vir.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48079-d1e129">
+              <ref xml:id="bHY6yh-d48079-Rd1e127">Cronica de nugis philosophorum. c. 2 scilicet de 
+              solone.</ref> <quote xml:id="bHY6yh-d48079-Qd1e133">Solon qui fuit vnus de. vii. 
+              sapientibus dicebat: verbum imaginem esse operum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48079-d1e142">
+              <ref xml:id="bHY6yh-d48079-Rd1e143">Aristoteles ethicorum lib. 4. c. 8.</ref> <quote xml:id="bHY6yh-d48079-Qd1e146">
+              Unusquisque qualis est: talia dicit et operatur: et sic viuit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48079-d1e152">
+              <ref xml:id="bHY6yh-d48079-Rd1e155">Iesus filius sirach in eccl. c. 27.</ref> <quote xml:id="bHY6yh-d48079-Qd1e156">Uerbum
+              ostendit excogitatum hominis. Ante sermones
+              non collaudes virum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48079-d1e164">
+              <ref xml:id="bHY6yh-d48079-Rd1e169">Seneca epistolarum ad lucillum li. 10. e. 8.</ref>
+              <quote xml:id="bHY6yh-d48079-Qd1e168">Iracundi hominis iracundia oratio est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48079-d1e174">
+              <ref xml:id="bHY6yh-d48079-Rd1e180">Cato. ca. 5. et fi.</ref>
+              <quote xml:id="bHY6yh-d48079-Qd1e178">Prospicito cuncta tacitus quod quisque loquatur
+              Sermo hominum mores celat: et indicat idem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48079-d1e186">
+              <ref xml:id="bHY6yh-d48079-Rd1e193">Cassiodorus epistolarum in prohem.</ref> <quote xml:id="bHY6yh-d48079-Qd1e190">Oratio 
+              dispar moribus vix potest inueniri.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48079-d1e196"> 
+              <ref xml:id="bHY6yh-d48079-Rd1e203">Lib. 5. e. 22.</ref>
+              <quote xml:id="bHY6yh-d48079-Qd1e198">Est quoddam speculum morum agentis oratio: nec
+              maius potest esse mentis testimonium quam 
+              qualitas inspecta verborum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48079-d1e209"> 
+              <ref xml:id="bHY6yh-d48079-Rd1e217">Li. 6. e. 9.</ref> <quote xml:id="bHY6yh-d48079-Qd1e211">Speculum
+              siquidem cordis hominum verba sunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48079-d1e217">
+              <ref xml:id="bHY6yh-d48079-Rd1e229">Isidorus in sinonima soliloquiorum li. 2. c.
+              31</ref> <quote xml:id="bHY6yh-d48079-Qd1e221">Sermo vanus: vane conscientie index est.
+              Mores hominis lingua pandit.
+              Qualis sermo ostenditur: talis animus comprobatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d48079-d1e231">
+              <ref xml:id="bHY6yh-d48079-Rd1e246">Bernardus li. de improbatione vitiorum. c. 5</ref>
+              <quote xml:id="bHY6yh-d48079-Qd1e235">Ex feda teste fetionus exit odor.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48079-d1e241">
+              <ref xml:id="bHY6yh-d48079-Rd1e257">Prouerb. vulg.</ref> <quote xml:id="bHY6yh-d48079-Qd1e245">Cotal parola cum tu me 
+              dico: tal cor me fai.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
