@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 1</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 1</title>
+          <date when="2023-06-29">June 29, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-06-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="15-v"/>
+        <cb ed="#C" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d10983"><!-- p1l2-r1 -->
+        <head xml:id="bHY6yh-d10983-Hd1e108">Rubrica 1</head>
+        <head xml:id="bHY6yh-d10983-Hd1e111" type="question-title">De bono et malo</head>
+        <p xml:id="bHY6yh-d10983-d1e114">
+          Incipit liber secundiis
+          <lb ed="#C"/>in quo unctat de vono
+          <lb ed="#C"/>et honesto uistutis et
+          <lb ed="#C"/>primo be bono et malo
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e132">
+          [omitted]
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e139">
+          <ref xml:id="bHY6yh-d10983-Rd1e136">IOb ystoriarum capitulo XVIII</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d10983-Qd1e143">Recedem a malo est intelligentia</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e150">
+          <ref xml:id="bHY6yh-d10983-Rd1e149">In genesi VIII</ref> <quote xml:id="bHY6yh-d10983-Qd1e154">Sensus est
+          <lb ed="#C"/>cogitatio humani corde in malum prona
+          <lb ed="#C"/>sunt ab adolescentia sua</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e162">
+          [omitted]
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e172">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e175">ysayas V capitulo</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d10983-Qd1e176">Ve qui dicitis bonum malum et malum
+          <lb ed="#C"/>bonum</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e182">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e187">Plato in menone</ref> <quote xml:id="bHY6yh-d10983-Qd1e186">Non uult
+          <lb ed="#C"/>mala quispiam nullus uult mala</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e192">
+          <lb ed="#C"/><ref xml:id="bHY6yh-d10983-Rd1e199">Aristotelis ethicorum libro I capitulo I in poena.</ref> <quote xml:id="bHY6yh-d10983-Qd1e196">Omnis ars et omnis
+          <lb ed="#C"/>doctrina Similiter autem et actus et electio
+          <lb ed="#C"/>bonum quoddam appetere uidentur ideo
+          <lb ed="#C"/>bene annunciauerunt bonum quod omnia appetunt
+          <!--manuscript breaks this paragraph into two paragraphs-->
+          ¶ Ibidem multis contingunt detrimenta
+          <cb ed="#C" n="b"/>
+          <lb ed="#C"/>ex bonis iam enim quidam perierunt propter
+          <lb ed="#C"/>diuitias. Alii vero propter fortitudinem.</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e213">
+          <lb ed="#C"/><ref xml:id="bHY6yh-d10983-Rd1e220">Idem capitulo II</ref> <quote xml:id="bHY6yh-d10983-Qd1e215">Omnis cognitio et electio bonum
+          <lb ed="#C"/>aliquod desiderat <!--manuscipt breaks this paragraph into two paragraphs-->¶ Ibidem bonum et feli<lb ed="#C" break="no"/>citatem 
+          non irronnabiliter uidentur ex his
+          que huius uite sunt ex istimare</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e226">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e235">Idem libro IIo
+          <lb ed="#C"/>capitulo V</ref> <quote xml:id="bHY6yh-d10983-Qd1e228">Malum infiniti est</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e234">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e245">Idem libro 4
+          <lb ed="#C"/>capitulo 4</ref> <quote xml:id="bHY6yh-d10983-Qd1e236">Malum seipsum destruit</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e240">
+          ¶<ref xml:id="bHY6yh-d10983-Rd1e255">Idem libro 7
+          <lb ed="#C"/>capitulo 15 et finale</ref> <quote xml:id="bHY6yh-d10983-Qd1e244">Malo bonum est contrarium</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e250">
+          <lb ed="#C"/><ref xml:id="bHY6yh-d10983-Rd1e265">Idem libro VIIII capitulo <!--XII crossed out--> 4</ref> <quote xml:id="bHY6yh-d10983-Qd1e252">Unusquisque sibiipsi
+          bona uult</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e258">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e275">Item libro X et finale capitulo II</ref> <quote xml:id="bHY6yh-d10983-Qd1e260">Et in pra<lb ed="#C" break="no"/>uis 
+          est aliquod uelic bonum</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e266">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e285">Idem magno<lb ed="#C" break="no"/>rum 
+          moralium libro I capitulo I</ref>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e275">
+          <quote xml:id="bHY6yh-d10983-Qd1e277">Nulla neque scien<lb ed="#C" break="no"/>tia 
+          neque potentia est causa mali In uno quo<lb ed="#C" break="no"/>que 
+          entium bonum autem optimum est quod propter
+          <lb ed="#C"/>sui naturam est appetibile aut alia partici<lb ed="#C" break="no"/>pantia 
+          bona sunt bonorum hoc quidem in<lb ed="#C" break="no"/>anima 
+          puta virtus pulchritudo Alia uero exter<lb ed="#C" break="no"/>nis 
+          diuitie principatus honor uel siquid
+          <lb ed="#C"/>aliud talium</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e296">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e319">Idem retoricorum libro I capitulo 8</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d10983-Qd1e298">bonum est quod cum sui gratia est eligibile
+          <lb ed="#C"/>et eius sin gratia aliud eligimus et quod omnia
+          <lb ed="#C"/>appetunt</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e306">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e333">Ibidem capitulo XI</ref> <quote xml:id="bHY6yh-d10983-Qd1e310">Bonum dicimus
+          <lb ed="#C"/>quod ipsum sui gratia et non alterius eligibile
+          <lb ed="#C"/>est et quod omnia appetunt<!--manuscript breaks this paragraph into two paragraphs-->¶Ibidem bonum
+          <lb ed="#C"/>autem est delectabile aut quod secundum est eligibile</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e324">
+          <lb ed="#C"/><ref xml:id="bHY6yh-d10983-Rd1e351">¶ Ibidem libro II capitulo XVI</ref> <quote xml:id="bHY6yh-d10983-Qd1e326">Plura eorum que fiunt 
+          <lb ed="#C"/>mala sunt</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e332">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e361">Idem politicorum libro primo capitulo I</ref> 
+          <lb ed="#C"/><quote xml:id="bHY6yh-d10983-Qd1e334">quis boni quod uidetur boni gratia omnia
+          <lb ed="#C"/>apperunt omnes</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e340">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e371">Ibidem 3</ref> <quote xml:id="bHY6yh-d10983-Qd1e342">Quod efficitur
+          <lb ed="#C"/>a melioribus melius opus est</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e349">
+          ¶ <quote xml:id="bHY6yh-d10983-Qd1e353">Idem topicorum
+          <lb ed="#C"/>Omnia appetunt bonum</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e357">
+          [omitted]
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e365">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e405">Tullius retori<lb ed="#C" break="no"/>corum 
+          artis noue libro II capitulo VI</ref>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e373">
+          <quote xml:id="bHY6yh-d10983-Qd1e375">Omnium ma<lb ed="#C" break="no"/>lorum 
+          stultitia est mater atque materies</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e381">
+          <lb ed="#C"/><ref xml:id="bHY6yh-d10983-Rd1e424">Idem tusculanarum quaestionum libro 3</ref> <quote xml:id="bHY6yh-d10983-Qd1e385">Insipien<lb ed="#C" break="no"/>tia 
+          nullum maius malum est</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e391">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e434">Ibidem
+          <lb ed="#C"/>libro 4</ref> <quote xml:id="bHY6yh-d10983-Qd1e393">Natura omnes ea que bona uidentur se<pb ed="#C" n="16-r"/><cb ed="#C" n="a"/><lb ed="#C"/>quuntur 
+          fugiuntque contraria</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e402">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e447">Idem de fine
+          <lb ed="#C"/>bonorum et malorum libro V et finale</ref>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e410">
+          <quote xml:id="bHY6yh-d10983-Qd1e412">Consiten<lb ed="#C" break="no"/>dum 
+          id esse summum bonum quod certe vni<lb ed="#C" break="no"/>uersum 
+          sua sponte ipsum expetit et propter
+          <lb ed="#C"/>se necesse est</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e420">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e469">Idem paradoxorum distinctione
+          <lb ed="#C"/>prima</ref>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e428">
+          <quote xml:id="bHY6yh-d10983-Qd1e430">quod rectum et honestum est et cum uirtute
+          <lb ed="#C"/>id solum oppinor bonum</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e436">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e487">Idem de legi<lb ed="#C" break="no"/>bus
+          libro I</ref> <quote xml:id="bHY6yh-d10983-Qd1e438">Quod laudabile bonum est in se ha<lb ed="#C" break="no"/>bere 
+          quod laudetur necesse est ipsum enim bonum
+          <lb ed="#C"/>non est opinionibus sed natura</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e448">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e504">Ouidius
+          <lb ed="#C"/>de arte amandi libro 4 et finale</ref> <quote xml:id="bHY6yh-d10983-Qd1e452">Vsque plura quia
+          <lb ed="#C"/>sunt semper deteriora bonis</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e459">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e515">Idem de tristibus
+          <lb ed="#C"/>libro IIo epistola vnica verso</ref> <quote xml:id="bHY6yh-d10983-Qd1e461">nil prodest quod nonleder
+          <lb ed="#C"/>possit idem</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e469">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e530">Seneca epistolarum ad lucillum
+          <lb ed="#C"/>libro VIII capitulo primo</ref> <quote xml:id="bHY6yh-d10983-Qd1e473">bonum esse diuinum est</quote>
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d10983-Rd1e537">Idem libro XV capitulo primo</ref> <quote xml:id="bHY6yh-d10983-Qd1e539">Sapientia perfectum
+          <lb ed="#C"/>bonum est mentis humane</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e481">
+          <ref xml:id="bHY6yh-d10983-Rd1e547">Idem libro XX
+          <lb ed="#C"/>et finale capitulo primo</ref> <quote xml:id="bHY6yh-d10983-Qd1e483">bonum est quod ad se impetum
+          <lb ed="#C"/>animi secundum naturam mouet</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e491">
+          ¶ <quote xml:id="bHY6yh-d10983-Qd1e493">Idem de con<lb ed="#C" break="no"/>solatione 
+          ad paulinum non sentire mala sua
+          <lb ed="#C"/>non est hominis et non femine et non uiri</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e501">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e572">Idem de naturalibus questionibus libro 5</ref> <quote xml:id="bHY6yh-d10983-Qd1e503">nullum
+          <lb ed="#C"/>malum sine effugio est</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e509">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e585">Cecilius fir<lb ed="#C" break="no"/>mianus 
+          de beata uita libro 3</ref> <quote xml:id="bHY6yh-d10983-Qd1e513">bonorum natura
+          <lb ed="#C"/>in arduo posita est malorum in precipi<lb ed="#C" break="no"/>tio </quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e522">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e597">libro 4</ref> <quote xml:id="bHY6yh-d10983-Qd1e524">Est pene supra humanum
+          <lb ed="#C"/>modum ne in cognitionem quidem anucterre quod
+          <lb ed="#C"/>fit factum malum uel improbum dictum</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e532">
+          <ref xml:id="bHY6yh-d10983-Rd1e611">Idem libro VII et finale</ref> <quote xml:id="bHY6yh-d10983-Qd1e536">Deus non excludit ma<lb ed="#C" break="no"/>lum 
+          ut ratio uirtutis constare possit</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e542">
+          <lb ed="#C"/><ref xml:id="bHY6yh-d10983-Rd1e623">Augustinus in epigrammatibus prosperi 76 epilogus</ref> <quote xml:id="bHY6yh-d10983-Qd1e546">Non 
+          <lb ed="#C"/>sufficit abstinere a malo nisi fiat quod bonum
+          <lb ed="#C"/>est Nulla substantia iniquitas et peccatum non
+          <lb ed="#C"/>est natura sed uitium nature appetentis id
+          <lb ed="#C"/>quod sui ordinis non est
+          </quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e565">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e648">boetius de conso<lb ed="#C" break="no"/>latione 
+          libro 3 capitulo XIX</ref> <quote xml:id="bHY6yh-d10983-Qd1e569">Omnium expetendorum
+          <lb ed="#C"/>summa cardo atque causa est bonum quod enim
+          <cb ed="#C" n="b"/>
+          <lb ed="#C"/>ut quere neque similitudine ullum in
+          <lb ed="#C"/>se retinet bonum non expeti ullo modo
+          <lb ed="#C"/>potest</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e579">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e662">Idem libro 4 capitulo III</ref> <quote xml:id="bHY6yh-d10983-Qd1e581">Omnes homines
+          <lb ed="#C"/>boni pariter ac mali indiscreta inten<lb ed="#C" break="no"/>tione 
+          ad bonum peruenire nituntur</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e589">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e673">Idem
+          <lb ed="#C"/>capitulo 7</ref> <quote xml:id="bHY6yh-d10983-Qd1e591">bonum est omne quod iustum est quod
+          <lb ed="#C"/>iniustum est malum esse liquet</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e600">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e686">Idem
+          <lb ed="#C"/>capitulo XI</ref> <quote xml:id="bHY6yh-d10983-Qd1e602">Et si nobis fatalem ordinem minime
+          <lb ed="#C"/>considerare ualentibus confusa omnia contur<lb ed="#C" break="no"/>bataque 
+          esse uideantur nichilominus tantum suus
+          <lb ed="#C"/>modus ad bonum dirigens cuncta dispon<lb ed="#C" break="no"/>suit
+          ¶ Ibidem Nichil est quod mali causa
+          <lb ed="#C"/>ue etiam ab ipsis quidem improbis fi<lb ed="#C" break="no"/>at 
+          quos bonum querentes prauus er<lb ed="#C" break="no"/>ror 
+          auertit</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e619">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e707">Idem topicorum libro II</ref> <quote xml:id="bHY6yh-d10983-Qd1e621">Mali 
+          <lb ed="#C"/>notitia de esse non potest bono uirtus
+          <lb ed="#C"/>enim se diligit aspernatur contraria ui<lb ed="#C" break="no"/>tare 
+          uitium nisi cognitum queat</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e631">
+          ¶ <quote xml:id="bHY6yh-d10983-Qd1e633">Idem de
+          <lb ed="#C"/>edomadibus Omnium rerum ipsum esse bo<lb ed="#C" break="no"/>num 
+          est bonum esse censurtia iustum uero esse
+          <lb ed="#C"/>actum respicit bona sunt omnia etiam non
+          <lb ed="#C"/>iusta</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e643">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e737">Gualterius de castiglione libro III
+          <lb ed="#C"/>circa medium</ref> <quote xml:id="bHY6yh-d10983-Qd1e647"> Vsque Omnia cum quodam ueni<lb ed="#C" break="no"/>unt 
+          incommodo fructu</quote>
+        </p>
+        <p xml:id="bHY6yh-d10983-d1e653">
+          ¶ <ref xml:id="bHY6yh-d10983-Rd1e749">Auctor libelli
+          <lb ed="#C"/>de moribus medicorum capitulo V</ref> <quote xml:id="bHY6yh-d10983-Qd1e657">Vsque Omnia
+          <lb ed="#C"/>scire decet cuncta parare nocet Scire
+          <lb ed="#C"/>malum quod inde uitet res conueniens est
+          <lb ed="#C"/>Scire bonum discat quilibet id quod agat
+          </quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
