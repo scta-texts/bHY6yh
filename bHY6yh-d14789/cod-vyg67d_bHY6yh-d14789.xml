@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 5</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Alicia Koepke</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 5</title>
+          <date when="2023-07-04">July 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#O" n="36-v"/>
+        <cb ed="#O" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d14789"><!-- p1l3-r5 -->
+        <head xml:id="bHY6yh-d14789-Hd1e108">Rubrica 5</head>
+        <head xml:id="bHY6yh-d14789-Hd1e111" type="question-title">De moralitate circa se et alium</head>
+        <p xml:id="bHY6yh-d14789-d1e114">
+           <lb ed="#O"/>De moralitate circa se et alium. Rubrica. 5.
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e121">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d14789-Rd1e118">SAlomon in prouerb. capitulo 27.</ref> 
+           <lb ed="#O"/> ¶ <quote xml:id="bHY6yh-d14789-Qd1e127">laudet te alienus et non os 
+           <lb ed="#O"/>tuum.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e133">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d14789-Rd1e133">Ysocra<!--line bumps up-->tes in exhortationibus. capitulo 2.</ref> <!--line bumps back down--> ¶ <quote xml:id="bHY6yh-d14789-Qd1e137">Intristis eris si alienas 
+           <lb ed="#O"/>iacturas iniuitus fueris et 
+           <lb ed="#O"/>memores teipsum existere hominem.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e146">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d14789-Rd1e149">ARistoteles ethicorum libro 5. capitulo 8.</ref> ¶ 
+           <lb ed="#O"/><quote xml:id="bHY6yh-d14789-Qd1e150">Non est iustitia ad seipsum.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e156">
+           <lb ed="#O"/> ¶ <ref xml:id="bHY6yh-d14789-Rd1e161">ORatius in sermo. libro 1. sermo 3.</ref> ¶ <quote xml:id="bHY6yh-d14789-Qd1e160">Cum 
+           <lb ed="#O"/>tua peruideas oculis mala li<lb ed="#O" break="no"/>ppus 
+           inunctis ¶ Cur in amicorum 
+           <lb ed="#O"/>uitiis tam cernis acutum.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e168">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d14789-Rd1e175">SEneca epistolarum ad lucillum libro 2. 
+           <lb ed="#O"/>capitulo 1.</ref> ¶ <quote xml:id="bHY6yh-d14789-Qd1e172">Si uis amari ama.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e178">
+           ¶ <ref xml:id="bHY6yh-d14789-Rd1e185">Libro. 3 
+           <lb ed="#O"/>capitulo 1.</ref> <quote xml:id="bHY6yh-d14789-Qd1e180">Cum aspexeris qui te ante<lb ed="#O" break="no"/>cedant 
+           cogita qui sequantur
+           <lb ed="#O"/> ¶ Si uis gratus esse aduersus deos 
+           <lb ed="#O"/>et aduersus uitam tuam cogita quam 
+           <lb ed="#O"/>multos anteces seris.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e197">
+           ¶ <ref xml:id="bHY6yh-d14789-Rd1e206">libro 4. capitulo 8. et fine</ref> 
+           <lb ed="#O"/><quote xml:id="bHY6yh-d14789-Qd1e199">Multo ad rem pertinet magis qua<lb ed="#O" break="no"/>lis 
+           tibi uidearis quam quilis aliis</quote>
+           <lb ed="#O"/> ¶ <ref xml:id="bHY6yh-d14789-Rd1e215">libro 6. capitulo 5.</ref> <quote xml:id="bHY6yh-d14789-Qd1e217">Sic cum inferiore uiuas 
+           <lb ed="#O"/>quemad modum tecum superiorem uiuere 
+           <lb ed="#O"/>uelles.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e209">
+           <!--line breaks down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d14789-Rd1e229">LEx diges. t. quod quisque iur. 
+           l. 1.</ref> ¶ <quote xml:id="bHY6yh-d14789-Qd1e213">Quis aspernabitur 
+           <lb ed="#O"/>idem ius sibi dici quod ipse aliis 
+           <lb ed="#O"/>dixit uel dici efficit ¶ Quod quis 
+           <lb ed="#O"/>in alterius persona equum esse credi<lb ed="#O" break="no"/>dit 
+           id in sua quoque persona ualere
+           <lb ed="#O"/>patiatur.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e226">
+           ¶ <ref xml:id="bHY6yh-d14789-Rd1e246">ti. de aqua pluuia. arcenda li. 1. 
+           <pb ed="#O" n="37-r"/>
+           <cb ed="#O" n="a"/>
+           <lb ed="#O"/>§. item ait</ref> <quote xml:id="bHY6yh-d14789-Qd1e228">Aquam pluuiam prodesse 
+           <lb ed="#O"/>sibi unus quisque dum alii non no<lb ed="#O" break="no"/>cet 
+           non prohibetur. ¶ Codicis 
+           <lb ed="#O"/>ti. de iudeis. l. nullus. ¶ Id circo 
+           <lb ed="#O"/>Iudiciorum uigor iurisque publici 
+           <lb ed="#O"/>tutela uidetur in medio consti<lb ed="#O" break="no"/>tuta 
+           ne quisque sibiipsi permittere 
+           <lb ed="#O"/>ualeat ultionem.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e245">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d14789-Rd1e269">MArcialis cocus <!--line bumps up--> l. undique suscepto. capitulo 2.</ref> <!--line bumps back down--> ¶ <quote xml:id="bHY6yh-d14789-Qd1e249">Miraris quod n<lb ed="#O" break="no"/>ullus 
+           amet te ceciliane ¶ Non 
+           <lb ed="#O"/>quod amas nullum dilige carus eris.
+           <lb ed="#O"/> ¶ Nulli carus erat erodinus et 
+           <lb ed="#O"/>sibi nullus.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e259">
+           ¶ <ref xml:id="bHY6yh-d14789-Rd1e285">capitulo 5.</ref> <quote xml:id="bHY6yh-d14789-Qd1e263">dilige nos 
+           <lb ed="#O"/>omnes ut amer ab omnibus unus</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e267">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d14789-Rd1e295">MAximianus</ref> ¶ <quote xml:id="bHY6yh-d14789-Qd1e271">Quis suam in 
+           <lb ed="#O"/>alterius condennet crimine ui<lb ed="#O" break="no"/>tam 
+           et quo ipse tendit claudere 
+           <lb ed="#O"/>certet iter.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e279">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d14789-Rd1e309">AUgustinus in <!--line bumps up--> epig. prosperi. epi. <!--line bumps back down--> 1</ref> ¶ <quote xml:id="bHY6yh-d14789-Qd1e283">Nemo non pri<lb ed="#O" break="no"/>us
+           in se quiam in alterum peccat.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e289">
+           <lb ed="#O"/> ¶ <ref xml:id="bHY6yh-d14789-Rd1e321">CAto. capitulo 2.</ref> ¶ <quote xml:id="bHY6yh-d14789-Qd1e293">Cum te aliquis 
+           <lb ed="#O"/>laudat iudex tuus esse memen<lb ed="#O" break="no"/>to. 
+           ¶ Plus aliis de te quam tu tibi 
+           <lb ed="#O"/>credere noli.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e302">
+           ¶ <ref xml:id="bHY6yh-d14789-Rd1e334">capitulo 5. et fine</ref> <quote xml:id="bHY6yh-d14789-Qd1e304">Cum fortu<lb ed="#O" break="no"/>na 
+           tuarum rerum tibi displicet ipsi 
+           <lb ed="#O"/>¶ Alterius specta quanto sit discrimine 
+           <lb ed="#O"/>peior.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e312">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d14789-Rd1e348">GRe<!--line bumps up-->gorius in pastorali. capitulo 52.</ref> <!--line bumps back down--> ¶ <quote xml:id="bHY6yh-d14789-Qd1e316">Quisque non tam que ab al<lb ed="#O" break="no"/>tero 
+           tolerat quam quae ab ipso tol<lb ed="#O" break="no"/>lerantur 
+           attendat. Si enim sua que 
+           <lb ed="#O"/>portantur considerat ea quae ab 
+           <lb ed="#O"/>altero sustinet leuius portat.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e326">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d14789-Rd1e364">Isidorus soliloquiorum libro. 2. capitulo 48.</ref> 
+           <lb ed="#O"/> ¶ <quote xml:id="bHY6yh-d14789-Qd1e330">Talis esto aliis quales op<lb ed="#O" break="no"/>tas 
+           esse circa te alios. Quod non 
+           <cb ed="#O" n="b"/>
+           <lb ed="#O"/>uis pati quod non uis fieri tibi 
+           <lb ed="#O"/>alteri numquam inferas.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e340">
+           ¶ <ref xml:id="bHY6yh-d14789-Rd1e378">capitulo 50.</ref> 
+           <lb ed="#O"/><quote xml:id="bHY6yh-d14789-Qd1e342">Iudicium quod aliis impones ipse 
+           <lb ed="#O"/>portabis.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e348">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d14789-Rd1e390">Iohannes <!--line bumps up--> solobriensis anglicus <!--line bumps back down--> im palicratone li. 5.</ref> ¶
+           <lb ed="#O"/><quote xml:id="bHY6yh-d14789-Qd1e352">Traianus optimus imperatorum
+           <lb ed="#O"/>arguentibus eum amicis quod in 
+           <lb ed="#O"/>omnes nimium et ultra quam imperatorem 
+           <lb ed="#O"/>deceat conis esset. Respondit se talem 
+           <lb ed="#O"/>uelle imperatorem esse priuatis quales 
+           <lb ed="#O"/>imperatores sibi esse priuatus optasset. </quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e373">
+           <ref xml:id="bHY6yh-d14789-Rd1e418">BErnardus l. de improbatione 
+           <lb ed="#O"/>uitiorum. capitulo 1.</ref> ¶ <quote xml:id="bHY6yh-d14789-Qd1e377">Quam plures ali<lb ed="#O" break="no"/>ena 
+           notant sua crimina numquam</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e384">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d14789-Rd1e431">HErricus samariensis li. 2.</ref> ¶ <quote xml:id="bHY6yh-d14789-Qd1e388">Inte 
+           <lb ed="#O"/>cognoscas alios magis utile 
+           <lb ed="#O"/>nichil est</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e394">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d14789-Rd1e443">RIcardus <!--line bumps up--> iudex uenusinus <!--line bumps back down--> l. de pertractatione nuper
+           <lb ed="#O"/>capitulo 2.</ref> ¶ <quote xml:id="bHY6yh-d14789-Qd1e398">Quorum mihi plus aliis 
+           <lb ed="#O"/>non debeo credere de me.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14789-d1e406">
+           <ref xml:id="bHY6yh-d14789-Rd1e460">Prouerb. uulgar:</ref> ¶ <quote xml:id="bHY6yh-d14789-Qd1e410">Chi non a mo<lb ed="#O" break="no"/>glere 
+           speso labate efere. ¶ 
+           <lb ed="#O"/>dogne carne manga ellouo aster 
+           <lb ed="#O"/>delasoa. ¶ Pensa daltrui quel 
+           <lb ed="#O"/>che de ti.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
