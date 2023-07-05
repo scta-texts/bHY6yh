@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 33</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 33</title>
+          <date when="2023-07-05">July 5, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="16-r"/>
+        <cb ed="#B" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-de9259"><!-- p1l1-r33 -->
+        <head xml:id="bHY6yh-de9259-Hd1e108">Rubrica 33</head>
+        <head xml:id="bHY6yh-de9259-Hd1e111" type="question-title">De fide seu firma credulitate religionis dei et diuine trinitatis</head>
+        <p xml:id="bHY6yh-de9259-d1e114">
+          De fide 
+          <lb ed="#B"/>se firma credulitate religionis 
+          <lb ed="#B"/>dei et diuine trinitatis Rubrica 33
+        </p>
+        <!--the next paragraph begins on the same line as the previous paragraph-->
+        <p xml:id="bHY6yh-de9259-d1e123">
+          <ref xml:id="bHY6yh-de9259-Rd1e120">Moyses
+          in deuteromio 
+          capiutlo</ref> <quote xml:id="bHY6yh-de9259-Qd1e129">Non temptabis dominum deum tuum</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e135">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e135">Yesus filius sirach in ecclesiastico capitulo IIo</ref> <quote xml:id="bHY6yh-de9259-Qd1e139">Ve peccatori
+          terram ingredienti duabus uiis Ve discoloris
+          corde qui non credunt deo et ideo non protegentur 
+          ab eo</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e150">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e150">Idem capitulo XXXI</ref> <quote xml:id="bHY6yh-de9259-Qd1e152">qui credit
+          deo attendit mandatis et qui confidit in illo
+          non minorabitur</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e160">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e164">phylon siue philo<cb ed="#C" n="b"/>menon 
+          sapiente primo</ref> <quote xml:id="bHY6yh-de9259-Qd1e164">Apparet dominus hiis qui fidem
+          habent in illum</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e170">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e174">Idem capitulo IIo</ref> <quote xml:id="bHY6yh-de9259-Qd1e172">Sentite de domino
+          in bonitate</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e182">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e190">Marcus VIII capitulo</ref> <quote xml:id="bHY6yh-de9259-Qd1e186">Omnia possibilia 
+          sunt credenti</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e192">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e200">Idem XVI et finale</ref> <quote xml:id="bHY6yh-de9259-Qd1e194">qui crediderit 
+          et baptisatus fuerit saluus erit Signa
+          autem eorum in nomine me crediderit hec sequantur</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e213">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e225">Lucas XVII distinctio I distinctio scilicet</ref> <quote xml:id="bHY6yh-de9259-Qd1e217">Si hueritis 
+          fidem tantam fidem quantur est granam
+          sinapis sicud</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e228">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e242">Ioannes capitulo III</ref> <quote xml:id="bHY6yh-de9259-Qd1e232">qui credit in filium
+          dei non iudicabitur qui autem non credit
+          iam iudicatus est qui credit in filium
+          habet uitam eternam qui autem incredulus
+          est filio non uidebit uitam sed ira dei super
+          manum in eum</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e244">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e258">Idem capitulo V</ref> <quote xml:id="bHY6yh-de9259-Qd1e246">ait yesus qui uerbum
+          dei <!--meum is written above the line-->meum audit et credit ei qui misit me habet
+          uitam eternam et in iudicium non uenit sed
+          transiet de morte ad uitam</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e256">
+          ¶ <quote xml:id="bHY6yh-de9259-Qd1e258">Idem ait yesus
+          Si credidissetis moysi crederetis forsitan
+          et in de me enim ille scripsit</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e266">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e282">Idem VI</ref>
+          <quote xml:id="bHY6yh-de9259-Qd1e268">ait yesus hec est uoluntas patris mei et qui
+          uidet filius et credit in eum habent uitam
+          eternam</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e289">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e307">Idem X</ref> <quote xml:id="bHY6yh-de9259-Qd1e291">ait yesus Si mihi non uultis
+          credere operibus credite</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e297">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e317">Idem XI</ref> <quote xml:id="bHY6yh-de9259-Qd1e299">ait yesus Ego
+          sum resurrectio et uita</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e312">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e334">Idem 12</ref> <quote xml:id="bHY6yh-de9259-Qd1e314">Ego ait
+          ueni inuidum ut omnis qui credit in me
+          in tenebris non maneat</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e322">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e346">Idem in apocalypsi
+          capitulo II</ref> <quote xml:id="bHY6yh-de9259-Qd1e324">Esto fidelis usque ad mortem et dabo tibi
+          coronam uite ait yesus</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e332">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e360">Iacobus epistola vnica capitulo II</ref> <quote xml:id="bHY6yh-de9259-Qd1e336">fides
+          si non habeat opera mortua est in semetipsa tu credis 
+          quia unus est deus et benefacis et demones 
+          credunt et contremiscunt Sicud corpus 
+          sine spiritu mortuum est ita spes sine
+          operibus mortua est</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e348">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e378">paulus ad romanos Io</ref> <quote xml:id="bHY6yh-de9259-Qd1e352">Virtus
+          dei insalutem est homini credenti</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e358">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e388">Idem
+          X</ref> <quote xml:id="bHY6yh-de9259-Qd1e360">finis legis est christus ad iustitiam etcetera</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e370">
+          <ref xml:id="bHY6yh-de9259-Rd1e402">Idem 24</ref> <quote xml:id="bHY6yh-de9259-Qd1e372">Omne quod non est ex fide peccatum est</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e411">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e414">Idem ad galathas 2o</ref> <quote xml:id="bHY6yh-de9259-Qd1e419">Non iustificatur
+          <pb ed="#C" n="14-r"/>
+          <cb ed="#C" n="a"/>
+          homo ex operibus legis nisi per fidem Iesu christi</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e383">
+          <ref xml:id="bHY6yh-de9259-Rd1e427">Idem capitulo IIIo</ref> <quote xml:id="bHY6yh-de9259-Qd1e385">omnes filii dei estes per fidem in
+          christo</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e391">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e437">Idem capitulo V</ref> <quote xml:id="bHY6yh-de9259-Qd1e393">In christo iesu fides ualet
+          que per peccatatem operatur</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e401">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e449">Idem ad epheseos
+          VI capitulo et finale</ref> <quote xml:id="bHY6yh-de9259-Qd1e403">Induite uos armatura dei etcetera
+          ubi quid est uerbum dei etcetera ut sunt</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e428"> 
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e478">Idem prima
+          thymotheum capitulo I</ref> <quote xml:id="bHY6yh-de9259-Qd1e430">Finis praecepti est caritas de corde
+          puro conscientia bona et fide non ficta</quote>
+        </p>
+        <p xml:id="bHY6yh-de9259-d1e438">
+          ¶ <ref xml:id="bHY6yh-de9259-Rd1e491">Idem
+          ad ebreos XI</ref> <quote xml:id="bHY6yh-de9259-Qd1e440">fides est sperandarum substantia rerum 
+          non apparentium sine fide impossibile 
+          est placere deo credere enim oportet
+          accedentest ad deum et inquirentibus
+          se remunerator est</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
