@@ -9,11 +9,16 @@
           <resp>Transcription Editor</resp>
           <resp>TEI Encoder</resp>
         </respStmt>
+        <respStmt>
+          <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
           <title>Rubrica 3</title>
-          <date when="2021-05-18">May 18, 2021</date>
+          <date when="2023-07-06">July 6, 2023</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -25,7 +30,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -38,7 +43,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2021-05-18" status="draft" n="0.0.0">
+        <change when="2023-07-06" status="draft" n="0.0.0">
           <p>Created file for the first time.</p>
         </change>
       </listChange>
@@ -47,8 +52,8 @@
   <text xml:lang="la">
     <front>
       <div xml:id="starts-on">
-        <pb ed="#V" n="19-v"/>
-        <cb ed="#V" n="a"/>
+        <pb ed="#C" n="20-v"/>
+        <cb ed="#C" n="b"/>
       </div>
     </front>
     <body>
@@ -56,98 +61,84 @@
         <head xml:id="bHY6yh-d14369-Hd1e108">Rubrica 3</head>
         <head xml:id="bHY6yh-d14369-Hd1e111" type="question-title">De affectibus et motibus animorum</head>
         <p xml:id="bHY6yh-d14369-d1e114">
-          <lb ed="#V" n="22"/>
-          ¶ De affectibus et motibus
-          <lb ed="#V" n="23"/>animorum. Rubrica. 3
-          
+        [omitted]
         </p>
         <p xml:id="bHY6yh-d14369-d1e121">
-          <lb ed="#V" n="24"/> <ref xml:id="bHY6yh-d14369-Rd1e118">IN genesi. ca. 4.</ref> <quote xml:id="bHY6yh-d14369-Qd1e125">Sub
-            <lb ed="#V" n="25"/>te erit 
-            ar<lb ed="#V" n="26" break="no"/>petitus peccati: et tu dominaberis 
-            il<lb ed="#V" n="27" break="no"/>lius.</quote>
+          <ref xml:id="bHY6yh-d14369-Rd1e118">IN genesi
+          <lb ed="#C"/>capitulo 4</ref> <quote xml:id="bHY6yh-d14369-Qd1e125">Sub
+          <lb ed="#C"/>te erit appetitus peccati et tu dominaberis illi</quote>
         </p>
-        <p xml:id="bHY6yh-d14369-d1e135"> /
-          <ref xml:id="bHY6yh-d14369-Rd1e132">c. 8.</ref> <quote xml:id="bHY6yh-d14369-Qd1e137">Sensus et cogitatio 
-            hu<lb ed="#V" n="28" break="no"/>mani cordis in malum prona sunt ab 
-            adole<lb ed="#V" n="29" break="no"/>scentia sua.</quote>
+        <p xml:id="bHY6yh-d14369-d1e135">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d14369-Rd1e132">Idem capitulo 8</ref> <quote xml:id="bHY6yh-d14369-Qd1e137">Sensus et cogitatio humani cor<lb ed="#C" break="no"/>dis 
+          in malum prona sunt ab adolescentia sua</quote>
         </p>
         <p xml:id="bHY6yh-d14369-d1e146">
-          <lb ed="#V" n="30"/>
-          ¶ <ref xml:id="bHY6yh-d14369-Rd1e147">Oratius epistolarum. e. 2. lib. i.</ref> <quote xml:id="bHY6yh-d14369-Qd1e150">Animum
-            <lb ed="#V" n="31"/>rege: qui nisi paret Imperat: hunc frenis hunc
-            <lb ed="#V" n="32"/>tu compesce cathenis.</quote>
+          <pb ed="#C" n="21-r"/><cb ed="#C" n="a"/><lb ed="#C"/><ref xml:id="bHY6yh-d14369-Rd1e147">Oratius epistolarum libro primo epistola II</ref> <quote xml:id="bHY6yh-d14369-Qd1e150">Animum
+          <lb ed="#C"/>rege qui ubi paret hunc Imperat hunc
+          <lb ed="#C"/>frenis hunc tu compesce cathenis</quote>
         </p>
         <p xml:id="bHY6yh-d14369-d1e158">
-          <lb ed="#V" n="33"/>
-          ¶ <ref xml:id="bHY6yh-d14369-Rd1e161">Quintilianus declama. 9 declam.</ref> <quote xml:id="bHY6yh-d14369-Qd1e162">
-            Quic<lb ed="#V" n="34" break="no"/>quid rationem vincit affectus est.</quote>
+          ¶ <ref xml:id="bHY6yh-d14369-Rd1e161">Quin<lb ed="#C" break="no"/>tilianus 
+          in declamationibus declam VIII</ref> <quote xml:id="bHY6yh-d14369-Qd1e162">Quicquid
+          <lb ed="#C"/>idem uincit affectus</quote>
         </p>
         <p xml:id="bHY6yh-d14369-d1e168">
-          <lb ed="#V" n="35"/>
-          ¶ <ref xml:id="bHY6yh-d14369-Rd1e173">Seneca in epistolis ad lucillum: libro. 11
-            <lb ed="#V" n="36"/>c. 3. et fi.</ref> <quote xml:id="bHY6yh-d14369-Qd1e172">Facilius est initia affectuum 
-              prohi<lb ed="#V" n="37" break="no"/>bere quam impetum regere.</quote>
+          ¶ <ref xml:id="bHY6yh-d14369-Rd1e173">Seneca in epistolis ad
+          <lb ed="#C"/>lucillum libro XI epistola 3 et finale</ref> <quote xml:id="bHY6yh-d14369-Qd1e172">facilius est
+          <lb ed="#C"/>initia affectuum purdere quam impetum regere</quote>
         </p>
-        <p xml:id="bHY6yh-d14369-d1e180"> /
-          <ref xml:id="bHY6yh-d14369-Rd1e186">Libro. 19. c. 10.</ref>
-          <lb ed="#V" n="38"/> <quote xml:id="bHY6yh-d14369-Qd1e182">Imbecillis est primo omnis affectus: 
-            dein<lb ed="#V" n="39" break="no"/>de ipse se concitat et vires dum procedit 
-            pa<lb ed="#V" n="40" break="no"/>rat: excluditur facilius quam expellitur. Quis
-            <lb ed="#V" n="41"/>negat omnes affectus a quodam quasi 
-            na<lb ed="#V" n="42" break="no"/>turali fluere principio.</quote>
+        <p xml:id="bHY6yh-d14369-d1e180">
+          ¶ <ref xml:id="bHY6yh-d14369-Rd1e186">Idem libro 19 Epistola 10</ref> <quote xml:id="bHY6yh-d14369-Qd1e182">Imbecillis est primo omnis
+          <lb ed="#C"/>affectus deinde ipse se concitat et uires
+          <lb ed="#C"/>dum procedit parat excluditur facilius
+          <lb ed="#C"/>quam expellatur quis negat omnis affectus
+          <lb ed="#C"/>a quodam quasi naturali fluere principio</quote>
         </p>
-        <p xml:id="bHY6yh-d14369-d1e196"> ¶
-          <ref xml:id="bHY6yh-d14369-Rd1e204">Idem de 
-            reme<lb ed="#V" n="43" break="no"/>diis fortuitorum. c. 21. et fi</ref> <quote xml:id="bHY6yh-d14369-Qd1e198">Facilius reges animum
-              <lb ed="#V" n="44"/>nulla vanitate rerum tumentem.</quote>
+        <p xml:id="bHY6yh-d14369-d1e196"> 
+          <lb ed="#C"/><ref xml:id="bHY6yh-d14369-Rd1e204">Idem de remediis fortuitorum capitulo 21 et finale</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d14369-Qd1e198">facilius reges animum nulla uanitate re<lb ed="#C" break="no"/>rum 
+          tumentem</quote>
         </p>
-        <p xml:id="bHY6yh-d14369-d1e206"> /
-          <quote xml:id="bHY6yh-d14369-Qd1e208">Idem <!--no ref-->
-            <lb ed="#V" n="45"/>de moribus: Hoc habet omnis affectus: vt <!--65.xml-->
-            <cb ed="#V" n="b"/>
-            <lb ed="#V" n="46"/>in quo insanit ceteros furere putet.</quote>
+        <p xml:id="bHY6yh-d14369-d1e206">
+          ¶ <quote xml:id="bHY6yh-d14369-Qd1e208">Idem de moribus hoc habet
+          <lb ed="#C"/>omnis affectus ut in quo insanit ceteros
+          <lb ed="#C"/>furere putet</quote>
         </p>
         <p xml:id="bHY6yh-d14369-d1e221">
-          <lb ed="#V" n="47"/>
-          ¶ <ref xml:id="bHY6yh-d14369-Rd1e236">Ambrosius de officiis lib. i. ca. 2.</ref> <quote xml:id="bHY6yh-d14369-Qd1e225">Affectus
-            <lb ed="#V" n="48"/>nature est non potestatis. Etsi vis quedam
-            <lb ed="#V" n="49"/>nature in omni appetitu sit: tamen idem 
-            ap<lb ed="#V" n="50" break="no"/>petitus rationi subiectus est legi nature 
-            ip<lb ed="#V" n="51" break="no"/>sius: et obedit ei.</quote>
+          ¶ <ref xml:id="bHY6yh-d14369-Rd1e236">Ambrosius de officiis libro I capitulo 2</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d14369-Qd1e225">Affectus nature est non potestatis Et si uis
+          <lb ed="#C"/>quedam nature in omni affectu sit tamen idem
+          <lb ed="#C"/>appetitus rationi subiectus est lege nature
+          <lb ed="#C"/>ipsius et obedit ei</quote>
         </p>
         <p xml:id="bHY6yh-d14369-d1e237">
-          <lb ed="#V" n="52"/>
-          ¶ <ref xml:id="bHY6yh-d14369-Rd1e254">Boetius in musica. ca. i.</ref> <quote xml:id="bHY6yh-d14369-Qd1e241">Ut sese corporis
-            <lb ed="#V" n="53"/>affectus habent: ita etiam pulsus cordis. 
-            mo<lb ed="#V" n="54" break="no"/>tibus incitantur.</quote>
+          ¶ <ref xml:id="bHY6yh-d14369-Rd1e254">boetius in musica capitulo
+          <lb ed="#C"/>I </ref> <quote xml:id="bHY6yh-d14369-Qd1e241">ut sese corporis affectus habent sic et pul<lb ed="#C" break="no"/>sus 
+          cordis motibus incitantur</quote>
         </p>
         <p xml:id="bHY6yh-d14369-d1e249">
-          <lb ed="#V" n="55"/>
-          ¶ <ref xml:id="bHY6yh-d14369-Rd1e268">Cassiodorus epistolarum li. 6. c. 24. et pe.</ref>
-          <lb ed="#V" n="56"/> <quote xml:id="bHY6yh-d14369-Qd1e253">Ratio motus vestros componat.</quote>
+          ¶ <ref xml:id="bHY6yh-d14369-Rd1e268">Cassiodorus
+          <lb ed="#C"/>epistolarum libro 6 epistola 23 et poena</ref> <quote xml:id="bHY6yh-d14369-Qd1e253">ratio motus modos
+          <lb ed="#C"/>componat</quote>
         </p>
         <p xml:id="bHY6yh-d14369-d1e259">
-          <lb ed="#V" n="57"/>
-          ¶ <ref xml:id="bHY6yh-d14369-Rd1e280">Gregorius in pastorali. c. 12.</ref> <quote xml:id="bHY6yh-d14369-Qd1e263">Humanum
-            <lb ed="#V" n="58"/>quidem est in corde tentationem perpeti: 
-            de<lb ed="#V" n="59" break="no"/>moniacum vero est tentationis certamie in 
-            ope<lb ed="#V" n="60" break="no"/>ratione superari.</quote>
+          ¶ <ref xml:id="bHY6yh-d14369-Rd1e280">Gregorius in pastorali capitulo 12</ref> <quote xml:id="bHY6yh-d14369-Qd1e263">Huma<lb ed="#C" break="no"/>num 
+          quidem est in corde temptationem
+          <lb ed="#C"/>perpeti demoniacum uero est temptationis
+          <lb ed="#C"/>certamie in oratione superari</quote>
         </p>
         <p xml:id="bHY6yh-d14369-d1e273">
-          <lb ed="#V" n="61"/>
-          ¶ <ref xml:id="bHY6yh-d14369-Rd1e296">Isidorus soliloquiorum li. 2. c. 3.</ref> <quote xml:id="bHY6yh-d14369-Qd1e277">In 
-            ini<lb ed="#V" n="62" break="no"/>tio resiste cogitationi pessime. Si titilat 
-            pra<lb ed="#V" n="63" break="no"/>ua cogitatio non consenties illi.</quote>
+          ¶ <ref xml:id="bHY6yh-d14369-Rd1e296">Ysidorus soliloquiorum
+          <lb ed="#C"/>libro 2 capitulo 3</ref> <quote xml:id="bHY6yh-d14369-Qd1e277">Initio resiste cogitationi pessime
+          <lb ed="#C"/>si titilat praua cogitatio non consenties
+          <lb ed="#C"/>illi</quote>
         </p>
-        <p xml:id="bHY6yh-d14369-d1e285"> /
-          <ref xml:id="bHY6yh-d14369-Rd1e308">.c. 4.</ref> <quote xml:id="bHY6yh-d14369-Qd1e287">
-            Pri<lb ed="#V" n="64" break="no"/>mam peccati suggestionem contere: vt non
-            <lb ed="#V" n="65"/>sinas eam in corde tuo manere.</quote>
+        <p xml:id="bHY6yh-d14369-d1e285">
+          ¶ <ref xml:id="bHY6yh-d14369-Rd1e308">Idem capitulo 4</ref> <quote xml:id="bHY6yh-d14369-Qd1e287">primam peccati suggestionem
+          <lb ed="#C"/>contere et sinas eam in corde tuo manere</quote>
         </p>
-        <p xml:id="bHY6yh-d14369-d1e296"> /
-          <ref xml:id="bHY6yh-d14369-Rd1e321">c. 21.</ref> <quote xml:id="bHY6yh-d14369-Qd1e298">
-            Co<lb ed="#V" n="66" break="no"/>hibe animi motus.</quote>
+        <p xml:id="bHY6yh-d14369-d1e296">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d14369-Rd1e321">Ibidem capitulo 21</ref> <quote xml:id="bHY6yh-d14369-Qd1e298">Cohibe animi motus</quote>
         </p>
       </div>
     </body>
