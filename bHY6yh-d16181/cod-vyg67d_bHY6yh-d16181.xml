@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 11</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Alicia Koepke</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 11</title>
+          <date when="2023-07-06">July 06, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#O" n="39-v"/>
+        <cb ed="#O" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d16181"><!-- p1l3-r11 -->
+        <head xml:id="bHY6yh-d16181-Hd1e108">Rubrica 11</head>
+        <head xml:id="bHY6yh-d16181-Hd1e111" type="question-title">De possibilitate et impossibilitate</head>
+        <p xml:id="bHY6yh-d16181-d1e114">
+           De possibilita<lb ed="#O" break="no"/>te 
+           et impossibilitate. Rubrica. 11
+        </p>
+        <p xml:id="bHY6yh-d16181-d1e121">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d16181-Rd1e118">ARistoteles ethicorum l. 10. et fi. capitulo 5.</ref> 
+           <lb ed="#O"/><quote xml:id="bHY6yh-d16181-Qd1e129">Omnia habentia corpora non possunt 
+           <lb ed="#O"/>continne operari.</quote>
+        </p>
+        <p xml:id="bHY6yh-d16181-d1e135">
+           ¶ <ref xml:id="bHY6yh-d16181-Rd1e133">capitulo 8.</ref> <quote xml:id="bHY6yh-d16181-Qd1e137">Speculari po<lb ed="#O" break="no"/>ssumus 
+           continue magis quam operari.</quote>
+        </p>
+        <p xml:id="bHY6yh-d16181-d1e146">
+           <lb ed="#O"/> ¶ <ref xml:id="bHY6yh-d16181-Rd1e146">Idem rethor. l. 2. capitulo 19</ref> ¶ <quote xml:id="bHY6yh-d16181-Qd1e148">Omnes cum
+           <lb ed="#O"/>potentes uelint agunt.</quote>
+        </p>
+        <p xml:id="bHY6yh-d16181-d1e154">
+           ¶ <ref xml:id="bHY6yh-d16181-Rd1e156">Idem poli<lb ed="#O" break="no"/>ticorum
+           l. 5. capitulo 7.</ref> <quote xml:id="bHY6yh-d16181-Qd1e156">Que uolunt po<lb ed="#O" break="no"/>tentes 
+           agunt omnes</quote>
+        </p>
+        <p xml:id="bHY6yh-d16181-d1e162">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d16181-Rd1e169">Oratius in poetria.</ref> ¶ <quote xml:id="bHY6yh-d16181-Qd1e166">Nescit 
+           <lb ed="#O"/>uox missa reuerti.</quote>
+        </p>
+        <p xml:id="bHY6yh-d16181-d1e172">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d16181-Rd1e181">TUllius philippicorum <!--line bumps up--> l. 6.</ref> ¶ <quote xml:id="bHY6yh-d16181-Qd1e176">Nolite <!--line bumps back down--> uelle quod 
+           <lb ed="#O"/>fieri non potest.</quote>
+        </p>
+        <p xml:id="bHY6yh-d16181-d1e182">
+           ¶ <ref xml:id="bHY6yh-d16181-Rd1e191">l. 10.</ref> <quote xml:id="bHY6yh-d16181-Qd1e184">duas res 
+           <lb ed="#O"/>magnas presertim non modo agere Uno
+           <lb ed="#O"/>tempore sed ne cogitando quidem expli<lb ed="#O" break="no"/>care 
+           quisquam potest.</quote>
+        </p>
+        <p xml:id="bHY6yh-d16181-d1e194">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d16181-Rd1e207">LEx dige. tit. de conditie institur l. filius</ref> ¶ <quote xml:id="bHY6yh-d16181-Qd1e198">Que facta 
+           <lb ed="#O"/>ledunt pietatem existimationem 
+           <lb ed="#O"/>Uerecundiam nostram et ut generaliter 
+           <lb ed="#O"/>dixerim que contra bonos mores sunt 
+           <lb ed="#O"/>nec facere nos posse credendum 
+           <lb ed="#O"/>est.</quote>
+        </p>
+        <p xml:id="bHY6yh-d16181-d1e211">
+           <pb ed="#O" n="39-r"/>
+           <cb ed="#O" n="a"/>
+           <lb ed="#O"/><ref xml:id="bHY6yh-d16181-Rd1e226">Boetius de consolatione l. 4. capitulo 3.</ref> ¶ <quote xml:id="bHY6yh-d16181-Qd1e215">duo
+           <lb ed="#O"/>sunt quibus humanorum actuum 
+           <lb ed="#O"/>constat effectus uoluntas scilicet et po<lb ed="#O" break="no"/>testas
+           quorum si alterum desit nichil 
+           <lb ed="#O"/>est quod explicari queat.</quote>
+        </p>
+        <p xml:id="bHY6yh-d16181-d1e232">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d16181-Rd1e249">Isidorus in sinonima <!--line bumps up--> soliloqui<!--line bumps back down-->orum l. 2.</ref>
+           <lb ed="#O"/><quote xml:id="bHY6yh-d16181-Qd1e236">Nichil potest caro facere nisi quod 
+           <lb ed="#O"/>uoluerit animus.</quote>
+        </p>
+        <p xml:id="bHY6yh-d16181-d1e244">
+           <!--line bumps down-->
+           <ref xml:id="bHY6yh-d16181-Rd1e265">AUctor qui dicitur <!--line bumps up--> pamphylus. capitulo 28</ref> <!--line bumps back down--> ¶ <quote xml:id="bHY6yh-d16181-Qd1e248">Mitte quod esse
+           <lb ed="#O"/>nequit quere quod esse potest.</quote>
+        </p>
+        <p xml:id="bHY6yh-d16181-d1e254">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d16181-Rd1e275">Auctor libelli qui dicitur facetus. capitulo 10. 
+           <lb ed="#O"/>et fi.</ref> ¶ <quote xml:id="bHY6yh-d16181-Qd1e258">Non cupiat quisquam quod 
+           <lb ed="#O"/>numquam possit habere. Quod fortuna dedit 
+           <lb ed="#O"/>sufficienter amet.</quote>
+        </p>
+        <p xml:id="bHY6yh-d16181-d1e266">
+           [omitted]
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
