@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 4</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 4</title>
+          <date when="2023-07-06">July 6, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="21-r"/>
+        <cb ed="#C" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d14568"><!-- p1l3-r4 -->
+        <head xml:id="bHY6yh-d14568-Hd1e108">Rubrica 4</head>
+        <head xml:id="bHY6yh-d14568-Hd1e111" type="question-title">De naturalitate animi circa se et alium</head>
+        <p xml:id="bHY6yh-d14568-d1e114">
+          De naturalitate animi
+          <lb ed="#C"/>idest cognitione cir<lb ed="#C" break="no"/>ca 
+          se et alium
+        </p>
+        <!--next paragraph begins on the same line as the previous paragraph-->
+        <p xml:id="bHY6yh-d14568-d1e121">
+          <ref xml:id="bHY6yh-d14568-Rd1e118">CRonica
+          <lb ed="#C"/>de nugis
+          <lb ed="#C"/>philosophorum capitulo 2 scilicet de tha<lb ed="#C" break="no"/>lete</ref>
+          <quote xml:id="bHY6yh-d14568-Qd1e129">Thales qui primus sapiens nominatus
+          <cb ed="#C" n="b"/>
+          <lb ed="#C"/>est secundum quem septem sapientes nominati
+          <lb ed="#C"/>sunt Interrogatus quid difficile ait seipsum
+          <lb ed="#C"/>noscere</quote>
+        </p>
+        <p xml:id="bHY6yh-d14568-d1e139">
+          ¶ <ref xml:id="bHY6yh-d14568-Rd1e139">Aristoteles ethicorum libro V capitulo 8</ref> <quote xml:id="bHY6yh-d14568-Qd1e143">Seipsum nul<lb ed="#C" break="no"/>lus 
+          eligit noscere</quote>
+        </p>
+        <p xml:id="bHY6yh-d14568-d1e150">
+          ¶ <ref xml:id="bHY6yh-d14568-Rd1e150">Ibidem libro 8 capitulo 4.</ref> <quote xml:id="bHY6yh-d14568-Qd1e152">Vnusquis<lb ed="#C" break="no"/>que 
+          sibi ipsi uult bona</quote>
+        </p>
+        <p xml:id="bHY6yh-d14568-d1e158">
+          ¶ <ref xml:id="bHY6yh-d14568-Rd1e160">Ibidem capitulo 7</ref> <quote xml:id="bHY6yh-d14568-Qd1e160">omnis proprium
+          <lb ed="#C"/>opus magis diligit quam diligatur ab opere ani<lb ed="#C" break="no"/>mato 
+          facto</quote>
+        </p>
+        <p xml:id="bHY6yh-d14568-d1e168">
+          ¶ <ref xml:id="bHY6yh-d14568-Rd1e172">Ibidem capitulo IX</ref> <quote xml:id="bHY6yh-d14568-Qd1e170">Speculari magis
+          <lb ed="#C"/>possimus proximo quam nos ipsos et illorum
+          <lb ed="#C"/>actiones quam proprias</quote>
+        </p>
+        <p xml:id="bHY6yh-d14568-d1e178">
+          ¶ <ref xml:id="bHY6yh-d14568-Rd1e184">Idem magnorum moralium
+          <lb ed="#C"/>libro 2 capitulo 36</ref> <quote xml:id="bHY6yh-d14568-Qd1e180">difficillimum est noscere seipsum ipsi
+          <lb ed="#C"/>quidem nos ipsos ex nobis ipsis speculari
+          <lb ed="#C"/>non possumus</quote>
+        </p>
+        <p xml:id="bHY6yh-d14568-d1e190">
+          ¶ <ref xml:id="bHY6yh-d14568-Rd1e199">Idem rethoricorum libro 3 et finale capitulo
+          <lb ed="#C"/>14</ref> <quote xml:id="bHY6yh-d14568-Qd1e192">Conspicabile magis est quod proprium est ne<lb ed="#C" break="no"/>gocium
+          eo quod alienum</quote>
+        </p>
+        <p xml:id="bHY6yh-d14568-d1e202">
+          ¶ <ref xml:id="bHY6yh-d14568-Rd1e216">Terentius in andria
+          <lb ed="#C"/>capitulo X</ref> <quote xml:id="bHY6yh-d14568-Qd1e206">Verum illud verbum uni est quod uulgo
+          <lb ed="#C"/>dicit solet omnes sibi male melius esse quam alteri
+          <lb ed="#C"/>Idem 3 eritumerumenon<ref xml:id="bHY6yh-d14568-Rd1e235">capitulo IX</ref>Ita comparatam
+          <lb ed="#C"/>esse naturam hominum aliena ut melius uideant
+          <lb ed="#C"/>et iudicent quam sua id quem eo fit quia in re 
+          uideri aut gaudio sumus prepediti minime aut
+          <lb ed="#C"/>egritudine.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14568-d1e232">
+          ¶ <ref xml:id="bHY6yh-d14568-Rd1e253">Tullius de fine bonorum siue malorum libro
+          <lb ed="#C"/>V et finale</ref> <quote xml:id="bHY6yh-d14568-Qd1e236">Omne animal seipsum diligit</quote>
+        </p>
+        <p xml:id="bHY6yh-d14568-d1e242">
+          ¶ <ref xml:id="bHY6yh-d14568-Rd1e264">Idem tusculanarum
+          <lb ed="#C"/>questionum libro I</ref> <quote xml:id="bHY6yh-d14568-Qd1e244">Non ualet tamen animus ut seipsum uideat
+          <lb ed="#C"/>at ut oculus sic animus se non uidens alia cernit</quote>
+        </p>
+        <p xml:id="bHY6yh-d14568-d1e254">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d14568-Rd1e279">Ibidem libro 3</ref> <quote xml:id="bHY6yh-d14568-Qd1e256">proprium stultitie est aliorum
+          <lb ed="#C"/>uitia cernere obliuisci suorum</quote>
+        </p>
+        <p xml:id="bHY6yh-d14568-d1e264">
+          ¶ <ref xml:id="bHY6yh-d14568-Rd1e294">Ouidius
+          <lb ed="#C"/>in ponto libro 4 et finale epistola I</ref> <quote xml:id="bHY6yh-d14568-Qd1e268">quod fecit quisque
+          <lb ed="#C"/>tuetur opus</quote>
+        </p>
+        <p xml:id="bHY6yh-d14568-d1e274">
+          ¶ <ref xml:id="bHY6yh-d14568-Rd1e306">Seneca epistolarum ad lucillum
+          <lb ed="#C"/>libro 13 epistola 6</ref> <quote xml:id="bHY6yh-d14568-Qd1e278">nemo cum alteri prodest sibi pro<lb ed="#C" break="no"/>ficit </quote>
+          ¶ <ref xml:id="bHY6yh-d14568-Rd1e316">Ibidem libro 4 epistola I</ref> <quote xml:id="bHY6yh-d14568-Qd1e319">Nemo eorum qui in
+          <lb ed="#C"/>re publica versantur quos uincat sed a quibus 
+          <lb ed="#C"/>vincatur aspicit et illis non tam iocundum est mul<lb ed="#C" break="no"/>tos 
+          post se uidere quam graue est aliquem ante se habere</quote>
+        </p>
+        <p xml:id="bHY6yh-d14568-d1e295">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d14568-Rd1e335">Idem de natura libro 2</ref> <quote xml:id="bHY6yh-d14568-Qd1e297">Aliena uitia ante oculos
+          <lb ed="#C"/>habemus nostra a tergo</quote>
+        </p>
+        <p xml:id="bHY6yh-d14568-d1e304">
+          ¶ <ref xml:id="bHY6yh-d14568-Rd1e348">Martialis cocus libro vndi<lb ed="#C" break="no"/>que 
+          suscepto capitulo V Verso</ref> <quote xml:id="bHY6yh-d14568-Qd1e308">Ad fratris culpam aquile
+          <lb ed="#C"/>tu lumina portas Ad tua sed scelera nulla uel
+          <pb ed="#C" n="21-v"/>
+          <cb ed="#C" n="a"/>
+          <lb ed="#C"/>orba geris</quote>
+        </p>
+        <p xml:id="bHY6yh-d14568-d1e316">
+          ¶ <ref xml:id="bHY6yh-d14568-Rd1e362">Bernardus de improbatione uitio<lb ed="#C" break="no"/>rum 
+          capitulo I Versus</ref> <quote xml:id="bHY6yh-d14568-Qd1e320">quam plures aliena notant sua crimi<lb ed="#C" break="no"/>na 
+          nusquam</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
