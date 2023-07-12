@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 16</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Alicia Koepke</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 16</title>
+          <date when="2023-07-07">July 7, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#O" n="41-r"/>
+        <cb ed="#O" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d17247"><!-- p1l3-r16 -->
+        <head xml:id="bHY6yh-d17247-Hd1e108">Rubrica 16</head>
+        <head xml:id="bHY6yh-d17247-Hd1e111" type="question-title">De nouitatibus</head>
+        <p xml:id="bHY6yh-d17247-d1e114">
+           De nouitatibus. Rubrica. 16
+        </p>
+        <p xml:id="bHY6yh-d17247-d1e119">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d17247-Rd1e115">Seneca declama. seu ciuilis
+           <lb ed="#O"/>causarum. l. 4. in prohemio</ref> 
+           <lb ed="#O"/> ¶ <quote xml:id="bHY6yh-d17247-Qd1e127">Ad noua homines ad noua conue<lb ed="#O" break="no"/>niunt.</quote>
+        </p>
+        <p xml:id="bHY6yh-d17247-d1e133">
+           ¶ <ref xml:id="bHY6yh-d17247-Rd1e130">Idem de naturalibus quaestionibus l. 5.</ref> 
+           <lb ed="#O"/> ¶ <quote xml:id="bHY6yh-d17247-Qd1e135">Naturale est magis noua quam magna 
+           <lb ed="#O"/>mirari.</quote>
+        </p>
+        <p xml:id="bHY6yh-d17247-d1e144">
+           <!--line bumps down-->
+           <ref xml:id="bHY6yh-d17247-Rd1e146">Plinius <!--line bumps up--> de naturali hysto. l. 12. capitulo 2.</ref> <!--line bumps back down--> ¶ <quote xml:id="bHY6yh-d17247-Qd1e148">Est natura hominum noui<lb ed="#O" break="no"/>tatis 
+           auida.</quote>
+        </p>
+        <p xml:id="bHY6yh-d17247-d1e154">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d17247-Rd1e158">Cassiodorus epistolarum <!--line bumps up--> l. 1. capitulo 38</ref> ¶ <quote xml:id="bHY6yh-d17247-Qd1e158">Pri<!--line bumps back down-->mordia cuncta 
+           pauida sunt et aliter timiditas non tollitur nisi cum rebus 
+           <lb ed="#O"/>necessariis nouitas arrogatur.</quote>
+        </p>
+        <p xml:id="bHY6yh-d17247-d1e172">
+           <lb ed="#O"/> ¶ <ref xml:id="bHY6yh-d17247-Rd1e176">l. 3 capitulo 17.</ref> <quote xml:id="bHY6yh-d17247-Qd1e174">Non sit nouitas mo<lb ed="#O" break="no"/>lesta
+           que proba est.</quote>
+        </p>
+        <p xml:id="bHY6yh-d17247-d1e180">
+           ¶ <ref xml:id="bHY6yh-d17247-Rd1e186">l. 11. capitulo 2.</ref> 
+           <lb ed="#O"/><quote xml:id="bHY6yh-d17247-Qd1e182">Semper nouitas incerta tempertatur.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

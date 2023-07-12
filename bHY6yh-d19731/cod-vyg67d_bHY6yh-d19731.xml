@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 3</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Alicia Koepke</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 3</title>
+          <date when="2023-07-10">July 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#O" n="46-v"/>
+        <cb ed="#O" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d19731"><!-- p2l1-r3 -->
+        <head xml:id="bHY6yh-d19731-Hd1e108">Rubrica 3</head>
+        <head xml:id="bHY6yh-d19731-Hd1e111" type="question-title">De conscientia benignitatis et malignitatis</head>
+        <p xml:id="bHY6yh-d19731-d1e114">
+           De conscientia 
+           <lb ed="#O"/>benignitatis et malignitatis. ¶ Rubrica. 3
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e121">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d19731-Rd1e118">ORatius epistolarum libro 1. e. 1.</ref> ¶ <quote xml:id="bHY6yh-d19731-Qd1e127">hic 
+           <lb ed="#O"/>murus eneus extat. Nil 
+           <lb ed="#O"/>conscii sibi nulla pallescere culpa.</quote> 
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e134">
+           <ref xml:id="bHY6yh-d19731-Rd1e135">TUllius de senectute</ref> ¶ <quote xml:id="bHY6yh-d19731-Qd1e138">Conscientia 
+           bene acte uite multorumque bene<lb ed="#O" break="no"/>ficiorum 
+           recordatio iocundissima est.</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e147"> 
+           <lb ed="#O"/><ref xml:id="bHY6yh-d19731-Rd1e148">Idem tuscalanarum que stionum libro 2.</ref> ¶ 
+           <lb ed="#O"/><quote xml:id="bHY6yh-d19731-Qd1e149">Nullum theatrum uirtute et conscientia 
+           <lb ed="#O"/>maius est.</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e157">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d19731-Rd1e163">OUidius <!--line bumps up--> de fastis libro 1.</ref> ¶ <quote xml:id="bHY6yh-d19731-Qd1e161">Conscientia <!--line bumps back down--> mens ut cuique sua est 
+           <lb ed="#O"/>sic concipit intra ¶ Pectore pro<lb ed="#O" break="no"/>fecto 
+           spemque metumque suo.</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e169"> 
+           ¶ <ref xml:id="bHY6yh-d19731-Rd1e175">libro 4</ref> <quote xml:id="bHY6yh-d19731-Qd1e171">con<lb ed="#O" break="no"/>scientia 
+           mens recti fame menda<lb ed="#O" break="no"/>cia 
+           ridet. Sed nos in uitium credula 
+           <lb ed="#O"/>turba sumus.</quote>
+           <!--sentence beginning "Seneca in prouerb" moved from here to line "101"-->
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e183">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d19731-Rd1e198">PAulus apostolus <!--line bumps up--> epistola. 2. ad corinth. <!--line bumps back down--> capitulo 1.</ref> <quote xml:id="bHY6yh-d19731-Qd1e187">Gloria nostra hec est 
+           <lb ed="#O"/>testimonium conscientie nostre.</quote>
+           <!--following sentence beginning "Seneca in prouerb" moved down from line "94"-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d19731-Rd1e186">SEneca in prouerb.</ref> ¶ <quote xml:id="bHY6yh-d19731-Qd1e188">Plerique famam 
+           <lb ed="#O"/>conscientiam pauci uerentur.</quote>
+           <lb ed="#O"/><ref xml:id="bHY6yh-d19731-Rd1e206">Statius thebaydos libro 2.</ref> <quote xml:id="bHY6yh-d19731-Qd1e208">O semper 
+           <lb ed="#O"/>timidum scelus</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e195">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d19731-Rd1e215">IUuenalis libro 2. <!--line bumps up--> satis 1.</ref> ¶ <quote xml:id="bHY6yh-d19731-Qd1e199">Cui fri<!--line bumps back down-->gida mens est
+           <lb ed="#O"/> ¶ Criminibus tacita sudant prae<lb ed="#O" break="no"/>cordia 
+           culpa.</quote>
+           <!--line bumps down--> <!--new paragraph should start here-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d19731-Rd1e224">MArcialis co<!--line bumps up-->cus l. undique suscepto. <!--line bumps back down--> capitulo 6.</ref> ¶ <quote xml:id="bHY6yh-d19731-Qd1e229">Ibis ad occultos 
+           tramites loca deuia mundi
+           <lb ed="#O"/> ¶ Peccatum tecum est conscientie culpa co<lb ed="#O" break="no"/>mes.
+           ¶ Alterius censor censor et 
+           <lb ed="#O"/>esto tuus.</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e213">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d19731-Rd1e241">AM<!--line bumps up-->brosius de officiis libro 2. capitulo 1.</ref> <quote xml:id="bHY6yh-d19731-Qd1e217">uitam <!--line bumps back down--> beatam efficiunt tranquillitas 
+           <lb ed="#O"/>conscientie et securitas innocentie. </quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e232">
+           <pb ed="#O" n="46-v"/>
+           <cb ed="#O" n="a"/>
+           <lb ed="#O"/><ref xml:id="bHY6yh-d19731-Rd1e262">AUgustinus in epig. prosperi epi. 80</ref> <quote xml:id="bHY6yh-d19731-Qd1e236">
+           <lb ed="#O"/>Bona conscientia tranquillum facit 
+           <lb ed="#O"/>aimu.</quote>
+           <!--line bumps down--> <!--new paragraph should start here-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d19731-Rd1e271">MAcro<!--line bumps up-->bius de somno scipionis libro 2. <!--line bumps back down--> et fi.</ref> ¶ <quote xml:id="bHY6yh-d19731-Qd1e276">Uirtutis fructum sa<lb ed="#O" break="no"/>piens 
+           in conscientia ponit minus per<lb ed="#O" break="no"/>fectus 
+           in gloria.</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e248">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d19731-Rd1e286">CAto. capitulo 2.</ref> ¶ <quote xml:id="bHY6yh-d19731-Qd1e252">Conscius ipse sibi de se 
+           <lb ed="#O"/>putat omnia dici.</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e258">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d19731-Rd1e298">CAssiodorus epistola<!--line bumps up-->rum libro 7. capitulo 32.</ref> <!--line bumps back down--> ¶ <quote xml:id="bHY6yh-d19731-Qd1e262">Totum uicio
+           <lb ed="#O"/>sum geritur ubi conscientie puri<lb ed="#O" break="no"/>tas 
+           non habetur.</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e270"> 
+           ¶ <ref xml:id="bHY6yh-d19731-Rd1e310">libro 8. e. 18.</ref> <quote xml:id="bHY6yh-d19731-Qd1e272">Sicut con<lb ed="#O" break="no"/>scientia 
+           leta est que prouehitur meri<lb ed="#O" break="no"/>tis 
+           ita sub reatu iacet qui se im<lb ed="#O" break="no"/>parem 
+           cognoscit muneribus con<lb ed="#O" break="no"/>secutis.</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e282"> 
+           ¶ <ref xml:id="bHY6yh-d19731-Rd1e324">libro 11. capitulo 8.</ref> <quote xml:id="bHY6yh-d19731-Qd1e284">Quid acquiri 
+           <lb ed="#O"/>putatur ubi conscientia bona perditur.</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e290">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d19731-Rd1e336">Isidorus soliloquiorum libro 2. capitulo 3.</ref> 
+           <lb ed="#O"/><quote xml:id="bHY6yh-d19731-Qd1e294">deus conscientias iudicat.</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e301"> 
+           ¶ <ref xml:id="bHY6yh-d19731-Rd1e347">capitulo 37.</ref> 
+           <lb ed="#O"/><quote xml:id="bHY6yh-d19731-Qd1e303">Et site non te damnet publica fa<lb ed="#O" break="no"/>ma 
+           condennat propria conscia.</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e309"> 
+           <lb ed="#O"/> ¶ <ref xml:id="bHY6yh-d19731-Rd1e357">capitulo 38</ref> <quote xml:id="bHY6yh-d19731-Qd1e311">Conscientia rei semper tin pena 
+           <lb ed="#O"/>est. Mens male conscientie propriis 
+           <lb ed="#O"/>agitatur stimulis.</quote>
+        </p>
+        <p xml:id="bHY6yh-d19731-d1e319">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d19731-Rd1e371">PRouerb uulgare</ref> <quote xml:id="bHY6yh-d19731-Qd1e323">lamore gua<lb ed="#O" break="no"/>sta 
+           la conscia</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
