@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 2</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Alicia Koepke</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 2</title>
+          <date when="2023-06-24">June 24, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#O" n="29-v"/>
+        <cb ed="#O" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d11545"><!-- p1l2-r2 -->
+        <head xml:id="bHY6yh-d11545-Hd1e108">Rubrica 2</head>
+        <head xml:id="bHY6yh-d11545-Hd1e111" type="question-title">De honesto et licito et inhonesto seu turpi</head>
+        <p xml:id="bHY6yh-d11545-d1e114">
+           <lb ed="#O"/>De honesto et licito et in honesto s
+           <lb ed="#O"/>eu turpi. Rubrica. 2.
+        </p>
+        <p xml:id="bHY6yh-d11545-d1e121">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d11545-Rd1e118">ARistoteles rectoricorum libro 1. 
+           capitulo 13.</ref> ¶ <quote xml:id="bHY6yh-d11545-Qd1e129">honestum est quodcumque 
+           <lb ed="#O"/>propter se eligibile existens lauda<lb ed="#O" break="no"/>bile 
+           est aut quodcumque bonum existens 
+           <lb ed="#O"/>delectabile est quia bonum.</quote>
+        </p>
+        <p xml:id="bHY6yh-d11545-d1e137">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d11545-Rd1e141">TErentius in euinco. <!--line bumps up--> capitulo 23.</ref> ¶ <quote xml:id="bHY6yh-d11545-Qd1e141">Quis <!--line bumps back down--> homo pro 
+           <lb ed="#O"/>mecho unquam uidit in domo 
+           <lb ed="#O"/>meretricis prendi quemquam:</quote> ¶ <ref xml:id="bHY6yh-d11545-Rd1e150"><sic>Inea<lb ed="#O" break="no"/>ncontumerumeton</sic>
+           capitulo 12.</ref> ¶ <quote xml:id="bHY6yh-d11545-Qd1e155">Non
+           licet hominem esse ita ult si res 
+           <lb ed="#O"/>non sunt.</quote>
+        </p>
+        <p xml:id="bHY6yh-d11545-d1e152">
+           <pb ed="#O" n="30-r"/>
+           <cb ed="#O" n="a"/>
+           <ref xml:id="bHY6yh-d11545-Rd1e168">Tullius de fine bonorum et malo<lb ed="#O" break="no"/>rum 
+           libro 2.</ref> ¶ <quote xml:id="bHY6yh-d11545-Qd1e156">honestum intelligimus 
+           <lb ed="#O"/>quod tale est ut detracta omni utilitate 
+           <lb ed="#O"/>sine ullis premiis fructibus ne ipsum
+           <lb ed="#O"/>possit iure laudari.</quote>
+        </p>
+        <p xml:id="bHY6yh-d11545-d1e166">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d11545-Rd1e184">Ouidius de arte a<!--line bumps up-->mandi libro 3. et fine</ref> <!--line bumps back down--> ¶ <quote xml:id="bHY6yh-d11545-Qd1e170">multa uiros 
+           nescire decet. ¶ Idem methamor.
+           <lb ed="#O"/>libro 1. ¶ protinus irrupit uene peio<lb ed="#O" break="no"/>ris 
+           in euum. ¶ Omne nefas fugere 
+           <lb ed="#O"/>pudor. uerumque fidesque. ¶ In quorum 
+           <lb ed="#O"/>subiere locum fraudesque dolique. ¶ Insi<lb ed="#O" break="no"/>dieque 
+           et uis et amor sceleratus habendi.
+           <lb ed="#O"/> ¶ Uiuitur ex rapto non hospes ab hospi<lb ed="#O" break="no"/>te 
+           tutus. Non socer a genero fratrum 
+           <lb ed="#O"/>quoque gratia rara est. ¶ Inminet exitio uir 
+           coniugis ipsa mariti. ¶ Lurida terribi<lb ed="#O" break="no"/>les 
+           miscent aconita nouerce. ¶ Filius 
+           <lb ed="#O"/>ante diem patrios inquirit in annos.
+           <lb ed="#O"/> ¶ Uicta iacet pietas. et virgo cedere ma<lb ed="#O" break="no"/>dentes.</quote>
+        </p>
+        <p xml:id="bHY6yh-d11545-d1e202">
+           ¶ <ref xml:id="bHY6yh-d11545-Rd1e222">Idem depuncto. libro 2. epistola. 3.</ref> ¶ <quote xml:id="bHY6yh-d11545-Qd1e206">Cu<lb ed="#O" break="no"/>ra 
+           quid expediat prius est quam quid sit 
+           <lb ed="#O"/>honestum. ¶ Et cum fortuna statque ca<lb ed="#O" break="no"/>ditque 
+           fides. ¶ Nec facile inuenies mul<lb ed="#O" break="no"/>tis 
+           in milibus unum. ¶ Uirtutem precii qui 
+           <lb ed="#O"/>potest esse sui. ¶ Ipse decor recti facti 
+           <lb ed="#O"/>si primia desunt. ¶ Non mouet et 
+           <lb ed="#O"/>gratis penitet esse probum. ¶ Nil nisi 
+           <lb ed="#O"/>quid <sic>dest</sic> carum est. en detrahe menti.
+           <lb ed="#O"/> ¶ Spem fructus auide nemo pe<lb ed="#O" break="no"/>tendus 
+           erit. ¶ At redditus iam quis
+           <lb ed="#O"/>que suos amat. et sibi quid sit. ¶ Utile 
+           <lb ed="#O"/>solicitis computat articulis. Sponte 
+           <lb ed="#O"/>sua probitas officiumque iuuat.</quote>
+        </p>
+        <p xml:id="bHY6yh-d11545-d1e233">
+           <ref xml:id="bHY6yh-d11545-Rd1e255">Seneca traiediarum in otauia. capitulo 
+           <lb ed="#O"/>10.</ref> ¶ <quote xml:id="bHY6yh-d11545-Qd1e237">Id 
+           facere laus est quod decet 
+           <cb ed="#O" n="b"/>
+           <lb ed="#O"/>non quod licet.</quote>
+        </p>
+        <p xml:id="bHY6yh-d11545-d1e243">
+           ¶ <ref xml:id="bHY6yh-d11545-Rd1e265">Idem in epistolis ad lucillum. 
+           libro 2. capitulo 5.</ref> <quote xml:id="bHY6yh-d11545-Qd1e245">honestum enim uile est cui cor<lb ed="#O" break="no"/>pus 
+           nimis carum est.</quote>
+        </p>
+        <p xml:id="bHY6yh-d11545-d1e253">
+           <!--line bumps down-->
+           ¶ <ref xml:id="bHY6yh-d11545-Rd1e280">/ UAlerius maximius <!--line bumps up--> libro 2. ti. de <!--line bumps back down--> institutis an<lb ed="#O" break="no"/>tiquis</ref>
+           ¶ <quote xml:id="bHY6yh-d11545-Qd1e257">Ariopagus ubi quid 
+           <lb ed="#O"/>quisque atteniensium. agent aut quoniam 
+           <lb ed="#O"/>questum sustentaretur diligentissime 
+           <lb ed="#O"/>inquirere solebat. Ut homines honesta<lb ed="#O" break="no"/>tem 
+           uite ationem memores reddi
+           <lb ed="#O"/>institur. l. filius turam esse sequerentur.</quote>
+        </p>
+        <p xml:id="bHY6yh-d11545-d1e270">
+           ¶ <ref xml:id="bHY6yh-d11545-Rd1e299">LEx <unclear>ffor.</unclear> t. de condid instit. l. filius.</ref> 
+           <lb ed="#O"/><quote xml:id="bHY6yh-d11545-Qd1e274">Que facta ledunt pietatem existi<lb ed="#O" break="no"/>mationem 
+           uerecundiam iram. et ut genera<lb ed="#O" break="no"/>liter 
+           dixerim que contra bonos mores sunt 
+           <lb ed="#O"/>nec facere nos posse credendum est.</quote> <ref xml:id="bHY6yh-d11545-Rd1e312">Et
+           <lb ed="#O"/>de reg. iur. l. infrascripta.</ref> ¶ <quote xml:id="bHY6yh-d11545-Qd1e314">Non omne
+           <lb ed="#O"/>quod licet honestum est.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

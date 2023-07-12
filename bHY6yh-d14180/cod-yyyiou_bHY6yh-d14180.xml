@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 2</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 2</title>
+          <date when="2023-07-06">July 6, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="20-v"/>
+        <cb ed="#C" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d14180"><!-- p1l3-r2 -->
+        <head xml:id="bHY6yh-d14180-Hd1e108">Rubrica 2</head>
+        <head xml:id="bHY6yh-d14180-Hd1e111" type="question-title">De moralitate</head>
+        <p xml:id="bHY6yh-d14180-d1e114">
+          De moralitate
+        </p>
+        <p xml:id="bHY6yh-d14180-d1e119">
+          <ref xml:id="bHY6yh-d14180-Rd1e116">ARistoteles rethori<lb ed="#C" break="no"/>corum 
+          libro 2 capitulo 16</ref> <quote xml:id="bHY6yh-d14180-Qd1e127">Iuuenes non sunt
+          <lb ed="#C"/>maligni moris sed facilis moris prope quod non ui<lb ed="#C" break="no"/>derunt 
+          multas nequitias</quote>
+        </p>
+        <p xml:id="bHY6yh-d14180-d1e135">
+          ¶ <ref xml:id="bHY6yh-d14180-Rd1e135">Seneca de natura capitulo 3</ref>
+          <quote xml:id="bHY6yh-d14180-Qd1e139">Sumuntur a conuersantibus mores</quote>
+        </p>
+        <p xml:id="bHY6yh-d14180-d1e146">
+          ¶ <ref xml:id="bHY6yh-d14180-Rd1e146">Idem
+          <lb ed="#C"/>de moribus</ref> <quote xml:id="bHY6yh-d14180-Qd1e148">Educatio et disciplina mores
+          <lb ed="#C"/>faciunt</quote>
+        </p>
+        <p xml:id="bHY6yh-d14180-d1e154">
+          ¶ <ref xml:id="bHY6yh-d14180-Rd1e158">Lex digestum de conditione institutem libro filius.</ref> <quote xml:id="bHY6yh-d14180-Qd1e158">que contra
+          <lb ed="#C"/>bonos mores sunt nec nos facem credendum est</quote>
+        </p>
+        <p xml:id="bHY6yh-d14180-d1e164">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d14180-Rd1e170">Valerius maximus libro 7 titulo</ref> <quote xml:id="bHY6yh-d14180-Qd1e168">de mutatione morum
+          <lb ed="#C"/>Lucius filla usque ad questure sue comitia ui<lb ed="#C" break="no"/>tam 
+          libidine vino ludicre artis amore in<cb ed="#C" n="b"/><lb ed="#C"/>quinatam perducit qua propter gaium maximum
+          <lb ed="#C"/>consulem tulisse traditur quod sibi asperrimum
+          <lb ed="#C"/>in affrica bellum gerenti tam delicatus
+          <lb ed="#C"/>questor sorte obuenisset eiusdem uirtus qua
+          <lb ed="#C"/>si preruptis et disiectis nequitie qua obscide<lb ed="#C" break="no"/>batur 
+          claustris cathenas iugurte iniecit
+          <lb ed="#C"/>et manibus mitridatem compescuit Sociales bel<lb ed="#C" break="no"/>li 
+          luctus repressit dominationem nativitate fregit</quote>
+        </p>
+        <!--manuscript makes the next parargraph a contiuation-->
+        <p xml:id="bHY6yh-d14180-d1e193">
+          <quote xml:id="bHY6yh-d14180-Qd1e195">the<lb ed="#C" break="no"/>nuscodis 
+          adolescentiam piget actingere siue
+          <lb ed="#C"/>patrem aspiciam abdicationis imergentem
+          <lb ed="#C"/>notam siue matrem suspendio finire uitam
+          <lb ed="#C"/>propter filii turpitudinem coactam Cum omnium pos<lb ed="#C" break="no"/>tea 
+          graii sanguinis uirorum extiterit mediumque
+          <lb ed="#C"/>europe et Asie vel spei uel desperationis pignus
+          <lb ed="#C"/>fuerit hec enim ait salute sue patronum habuit illa
+          <lb ed="#C"/>uadem victorie absumpsit</quote>
+        </p>
+        <p xml:id="bHY6yh-d14180-d1e225">
+          ¶ <ref xml:id="bHY6yh-d14180-Rd1e237">Cassioderus
+          <lb ed="#C"/>Epistolarum libro XI epistola II</ref> <quote xml:id="bHY6yh-d14180-Qd1e229">Rarum omnio bonum
+          <lb ed="#C"/>est diuium triumphare demoribus</quote>
+        </p>
+        <p xml:id="bHY6yh-d14180-d1e237">
+          ¶ <ref xml:id="bHY6yh-d14180-Rd1e251">Ysidorus
+          <lb ed="#C"/>soliloquiorum libro 2 capitulo 41</ref> <quote xml:id="bHY6yh-d14180-Qd1e241">Assiduitas mores facit</quote>
+        </p>
+        <p xml:id="bHY6yh-d14180-d1e248">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d14180-Rd1e264">Bernardus libro de contemptu mundi vers</ref> <quote xml:id="bHY6yh-d14180-Qd1e252">Collige the<lb ed="#C" break="no"/>saurum 
+          qui gemmas uincit et aurum Quere
+          <lb ed="#C"/>bonos mores thesauros interiores</quote>
+        </p>
+        <p xml:id="bHY6yh-d14180-d1e260">
+          ¶ <ref xml:id="bHY6yh-d14180-Rd1e278">Ricardus
+          <lb ed="#C"/>Iudex venusinus libro de pertractatione nuptiarum
+          <lb ed="#C"/>capitulo III Versus</ref> <quote xml:id="bHY6yh-d14180-Qd1e264">Vsus et mores seres formantur
+          <lb ed="#C"/>ab annis</quote>
+        </p>
+        <p xml:id="bHY6yh-d14180-d1e272">
+          ¶ <ref xml:id="bHY6yh-d14180-Rd1e293">Montaraius in luna clericus capitulo 59 Versus</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d14180-Qd1e276">qualis conuictus talis formatio morum</quote>
+        </p>
+        <p xml:id="bHY6yh-d14180-d1e282">
+          <lb ed="#C"/><ref xml:id="bHY6yh-d14180-Rd1e305">prouerb</ref> <quote xml:id="bHY6yh-d14180-Qd1e286">metricum extraordinem libu uagas Versus
+          <lb ed="#C"/>Cum fueris Rome romano uiuito more Cum
+          <lb ed="#C"/>sueris alibi uiuito sicud ibi</quote>
+        </p>
+        <p xml:id="bHY6yh-d14180-xxx204">
+          Isti etiam sunt
+          <lb ed="#C"/>aliti versus maistrales Cunctos conuacatus formatur
+          <lb ed="#C"/>mores mihi crede Ergo paruorum confortia sper<lb ed="#C" break="no"/>ne 
+          Vuorum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 38</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 38</title>
+          <date when="2023-06-28">June 28, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-06-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="14-v"/>
+        <cb ed="#C" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d10089"><!-- p1l1-r38 -->
+        <head xml:id="bHY6yh-d10089-Hd1e108">Rubrica 38</head>
+        <head xml:id="bHY6yh-d10089-Hd1e111" type="question-title">De futuro fine mundi: et futura resurrectione mortuorum: et
+          futuro vniuersali iudicio dei secundum christianam religionem
+        </head>
+        <p xml:id="bHY6yh-d10089-d1e114">
+          De
+          <lb ed="#C"/>futuro in<lb ed="#C" break="no"/>ditio 
+          et re<lb ed="#C" break="no"/>surrectione 
+          mortuorum
+          <lb ed="#C"/>capitulum
+        </p>
+        <!-- the next paragraph starts on the line below the start of the previous paragraph-->
+        <p xml:id="bHY6yh-d10089-d1e123">
+          <ref xml:id="bHY6yh-d10089-Rd1e120">PSalmista CI psalmo CC libro</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d10089-Qd1e127">pibunt etcetera</quote>
+        </p>
+        <p xml:id="bHY6yh-d10089-d1e133">
+          ¶ <ref xml:id="bHY6yh-d10089-Rd1e132">Sa<lb ed="#C" break="no"/>lomon in prouerbiorum capitulo XI</ref> <quote xml:id="bHY6yh-d10089-Qd1e137">Non 
+          <lb ed="#C"/>proderunt diuitie in die ula
+          <lb ed="#C"/>omnis Iustitia autem liberabit a morte</quote>
+        </p>
+        <p xml:id="bHY6yh-d10089-d1e146">
+          <ref xml:id="bHY6yh-d10089-Rd1e147">Malachias capitulo 4</ref> <quote xml:id="bHY6yh-d10089-Qd1e150">Veniet dies succensus
+          <lb ed="#C"/>quasi caminus et erit superbus ut omnes
+          <lb ed="#C"/>facientes impietatem stipula et inflam<lb ed="#C" break="no"/>abit 
+          eos dies ueniens</quote>
+        </p>
+        <p xml:id="bHY6yh-d10089-d1e158">
+          ¶ <ref xml:id="bHY6yh-d10089-Rd1e161">Mattheus XIo</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d10089-Qd1e162">Omne uerbum otiosum quod locuti sunt
+          <lb ed="#C"/>homines reddent idem de eo in die iu<lb ed="#C" break="no"/>dicii 
+          ex uerbis enim tuis iustificaberis</quote>
+        </p>
+        <p xml:id="bHY6yh-d10089-d1e172">
+          <lb ed="#C"/>¶<ref xml:id="bHY6yh-d10089-Rd1e175">Idem 13</ref> <quote xml:id="bHY6yh-d10089-Qd1e174">In consummatione seculi mittet
+          <lb ed="#C"/>filio hominis angelos suos et colligent
+          <lb ed="#C"/>de regno <!--suo is written above the line--> suo omnia scandala et omnes qui fa<lb ed="#C" break="no"/>tient 
+          iniquitatem et mictent eos in ca<lb ed="#C" break="no"/>minum 
+          ignis ibi erit fletus et stridor
+          <lb ed="#C"/>dentium tunc iusti fulgebunt sicud sol
+          <lb ed="#C"/>in regno patris eorum</quote>
+        </p>
+        <p xml:id="bHY6yh-d10089-d1e193">
+          ¶ <quote xml:id="bHY6yh-d10089-Qd1e195">Ibidem in con<lb ed="#C" break="no"/>summatione 
+          seculi exibunt angeli et
+          <lb ed="#C"/>separabunt malos de medio iustorum et
+          <lb ed="#C"/>miccent eos in caminum ardentis</quote>
+        </p>
+        <p xml:id="bHY6yh-d10089-d1e207">
+          [omitted]
+        </p>
+        <p xml:id="bHY6yh-d10089-d1e215">
+          [omitted]
+        </p>
+        <p xml:id="bHY6yh-d10089-d1e287">
+          [omitted]
+        </p>
+        <p xml:id="bHY6yh-d10089-d1e370">
+          ¶ <ref xml:id="bHY6yh-d10089-Rd1e388">Mar<cb ed="#C" n="b"/><lb ed="#C"/>cus XII</ref> <quote xml:id="bHY6yh-d10089-Qd1e374">Cum a mortuis resurrexerint etcetera</quote>
+        </p>
+        <p xml:id="bHY6yh-d10089-d1e382">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d10089-Rd1e400">Idem XIII</ref> <quote xml:id="bHY6yh-d10089-Qd1e384">Celum et terra transibunt
+          <lb ed="#C"/>etcetera</quote>
+        </p>
+        <p xml:id="bHY6yh-d10089-d1e390">
+          [omitted]
+        </p>
+        <p xml:id="bHY6yh-d10089-d1e396">
+          ¶ <ref xml:id="bHY6yh-d10089-Rd1e418">Ioannes V</ref> <quote xml:id="bHY6yh-d10089-Qd1e400">Venit hora in qua omnes qui
+          <lb ed="#C"/>in monumentis sunt audient vocem filii
+          <lb ed="#C"/>dei et procedent qui bona fecerunt etcetera</quote>
+        </p>
+        <p xml:id="bHY6yh-d10089-d1e412">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d10089-Rd1e434">Idem in apocalypsi 3</ref> <quote xml:id="bHY6yh-d10089-Qd1e414">ait dominus si non uigilaueri<lb ed="#C" break="no"/>tis 
+          ueniam tanquam fur et nescietis qua
+          <lb ed="#C"/>hora ueniam ad uos</quote>
+        </p>
+        <p xml:id="bHY6yh-d10089-d1e423">
+          ¶ <ref xml:id="bHY6yh-d10089-Rd1e449">Petrus II capitulo III</ref> <quote xml:id="bHY6yh-d10089-Qd1e427">Ad<lb ed="#C" break="no"/>ueniet 
+          dies domini sicud fur in quo celo
+          <lb ed="#C"/>magno ipse tu transies elementa non ca<lb ed="#C" break="no"/>lore 
+          soluentur</quote>
+        </p>
+        <p>
+          ¶ Lucas in principe primo libro
+          <lb ed="#C"/>sic ait conpage soluta Secula tot meum
+          <lb ed="#C"/>di supperma coegerit gora Antiquum repe<lb ed="#C" break="no"/>tens
+          iter cahog omnia mixtis Si dera sicud
+          <lb ed="#C"/>rius conuenient ignea pontum enim Ast<lb ed="#C" break="no"/>petent 
+          tellus excendere litera nolet
+          <lb ed="#C"/>Excutietque fretrus fri contria phebe A<lb ed="#C" break="no"/>bit 
+          et obliquum bigas agitare prioribeus
+          <lb ed="#C"/>Indignata diem postet sibi tota que enim
+          <lb ed="#C"/>Discors Machina diuulsi turbabit sedit
+          <lb ed="#C"/>iri mundi
+        </p>
+        <p xml:id="bHY6yh-d10089-d1e435">
+          ¶ <ref xml:id="bHY6yh-d10089-Rd1e463">Paulus prima ad corinthios XV</ref> <quote xml:id="bHY6yh-d10089-Qd1e439">Accepi
+          <lb ed="#C"/>quoniam christus mortuus est pro peccatis nostris
+          <lb ed="#C"/>secundum scripturas et quam sepultus est et quia
+          <lb ed="#C"/>resurrexit tertia die secundum scripturas etcetera Vsque
+          <lb ed="#C"/>ibi imortalitate</quote>
+        </p>
+        <p xml:id="bHY6yh-d10089-d1e479">
+          ¶ <ref xml:id="bHY6yh-d10089-Rd1e507">Idem II corinthios V</ref> <quote xml:id="bHY6yh-d10089-Qd1e481">Omnes
+          <lb ed="#C"/>nos manifestari oportet ante tribunal christi
+          <lb ed="#C"/>ut referat unusquisque propria corporis pro<lb ed="#C" break="no"/>ut 
+          gessit siue bonum siue malum</quote>
+        </p>
+        <p xml:id="bHY6yh-d10089-d1e491">
+          ¶ <ref xml:id="bHY6yh-d10089-Rd1e521">Idem
+          <lb ed="#C"/>primo ad thimotheum 4</ref> <quote xml:id="bHY6yh-d10089-Qd1e493">In nouissimis temporibus
+          <lb ed="#C"/>discedent quidam usque ibi ad percipiendum
+          <lb ed="#C"/>cum gratiarum actione</quote>
+        </p>
+        <p xml:id="bHY6yh-d10089-d1e510">
+          ¶ <ref xml:id="bHY6yh-d10089-Rd1e542">Idem 2 ad thimotheum
+          <lb ed="#C"/>3 et petrus</ref> <quote xml:id="bHY6yh-d10089-Qd1e512">In nouissimis diebus instabunt
+          <lb ed="#C"/>tempora periculosa etcetera Vusque ututem autem eio
+          <lb ed="#C"/>abnegantes</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
