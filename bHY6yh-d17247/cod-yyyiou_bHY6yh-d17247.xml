@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 16</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 16</title>
+          <date when="2023-07-12">July 12, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="24-v"/>
+        <cb ed="#C" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d17247"><!-- p1l3-r16 -->
+        <head xml:id="bHY6yh-d17247-Hd1e108">Rubrica 16</head>
+        <head xml:id="bHY6yh-d17247-Hd1e111" type="question-title">De nouitatibus</head>
+        <p xml:id="bHY6yh-d17247-d1e114">
+          De noui<lb ed="#C" break="no"/>tatibus 
+          capitulum
+        </p>
+        <!--next paragraph begins on the second line of the previous paragraph-->
+        <p xml:id="bHY6yh-d17247-d1e119">
+          <ref xml:id="bHY6yh-d17247-Rd1e115">Seneca declamant
+          <lb ed="#C"/>seu ciuilis causarum
+          <lb ed="#C"/>libro 4 in prohemio</ref> <quote xml:id="bHY6yh-d17247-Qd1e127">Ad noua homines conueniunt
+          <lb ed="#C"/>ad noua concurrant</quote>
+        </p>
+        <p xml:id="bHY6yh-d17247-d1e133">
+          ¶ <ref xml:id="bHY6yh-d17247-Rd1e130">Idem de naturalibus quaestionibus</ref> <quote xml:id="bHY6yh-d17247-Qd1e135">nam
+          <lb ed="#C"/>est magis magna quam magis mirari</quote>
+        </p>
+        <p xml:id="bHY6yh-d17247-d1e144">
+          ¶ <ref xml:id="bHY6yh-d17247-Rd1e146">Plinius de naturali
+          <lb ed="#C"/>historia libro 12 epistola 2</ref> <quote xml:id="bHY6yh-d17247-Qd1e148">Est natura hominum nouitatis aui<lb ed="#C" break="no"/>da </quote>
+        </p>
+        <p xml:id="bHY6yh-d17247-d1e154">
+          <ref xml:id="bHY6yh-d17247-Rd1e158">Cassiodorus epistolarum libro I Epistola 39</ref> <quote xml:id="bHY6yh-d17247-Qd1e158">primordia cuncta
+          <lb ed="#C"/>pauida sunt et aliter timiditas non tollitur nisi cum
+          <lb ed="#C"/>rebus necessariis nouitas abrogatur</quote>
+        </p>
+        <p xml:id="bHY6yh-d17247-d1e172">
+          ¶ <ref xml:id="bHY6yh-d17247-Rd1e176">Idem libro
+          <lb ed="#C"/>3 Epistola XVII</ref> <quote xml:id="bHY6yh-d17247-Qd1e174">non sit nouitas molesta que proba
+          <lb ed="#C"/>est</quote>
+        </p>
+        <p xml:id="bHY6yh-d17247-d1e180">
+          ¶ <ref xml:id="bHY6yh-d17247-Rd1e186">Idem libro XI Epistola 2</ref> <quote xml:id="bHY6yh-d17247-Qd1e182">Semper nouitas incer<lb ed="#C" break="no"/>ta 
+          temptatur</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
