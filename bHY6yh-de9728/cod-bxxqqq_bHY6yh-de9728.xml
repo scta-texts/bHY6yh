@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 35</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 35</title>
+          <date when="2023-07-06">July 6, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="17-r"/>
+        <cb ed="#B" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-de9728"><!-- p1l1-r35 -->
+        <head xml:id="bHY6yh-de9728-Hd1e108">Rubrica 35</head>
+        <head xml:id="bHY6yh-de9728-Hd1e111" type="question-title">De baptismo</head>
+        <p xml:id="bHY6yh-de9728-d1e114">
+           De baptismo Rubrica 35
+        </p>
+        <p xml:id="bHY6yh-de9728-d1e119">
+          <lb ed="#B"/><ref xml:id="bHY6yh-de9728-Rd1e116">MAttheus in ewangelio capitulo 18 et fine</ref> <quote xml:id="bHY6yh-de9728-Qd1e127">Ait 
+          <lb ed="#B"/>ihesus discipulis suis post re<lb ed="#B" break="no"/>surrectionem 
+          suam Euntes docete 
+          <lb ed="#B"/>omnes gentes baptizantes eos In 
+          <lb ed="#B"/>nomine patris et filii et spiritus sancti</quote>
+        </p>
+        <p xml:id="bHY6yh-de9728-d1e137">
+          <lb ed="#B"/><ref xml:id="bHY6yh-de9728-Rd1e141">MArcus in ewangelio capitulo 6 et fine</ref> <quote xml:id="bHY6yh-de9728-Qd1e145">Qui 
+          <lb ed="#B"/>crediderit et baptizatus fuerit 
+          <lb ed="#B"/>saluus erit</quote>
+        </p>
+        <p xml:id="bHY6yh-de9728-d1e152">
+          <lb ed="#B"/><ref xml:id="bHY6yh-de9728-Rd1e154">Iohannes<!--line jumps up--> in ewangelio capitulo 3</ref> <quote xml:id="bHY6yh-de9728-Qd1e156">Ait ihesus<!--line jumps down--> Nisi quis renatu fu<lb ed="#B" break="no"/>erit 
+          ex aqua et spiritu sancto non 
+          <lb ed="#B"/>potest introire in regnum dei</quote>
+        </p>
+        <p xml:id="bHY6yh-de9728-d1e164">
+          <lb ed="#B"/><ref xml:id="bHY6yh-de9728-Rd1e168">PAulus apostolus ad galatas<!--line jumps up--> capitulo 3</ref> <quote xml:id="bHY6yh-de9728-Qd1e168">Qui<!--line jumps down-->cumque 
+          <lb ed="#B"/>in christo baptizati estis christum induistis</quote>
+        </p>
+        <p xml:id="bHY6yh-de9728-d1e174">
+          <lb ed="#B"/><ref xml:id="bHY6yh-de9728-Rd1e180">Lucas in libro actuum apostolorum capitulo 2</ref> 
+          <lb ed="#B"/><quote xml:id="bHY6yh-de9728-Qd1e178">petrus apostolus ait penitentiam 
+          <lb ed="#B"/>agite et baptizentur unus quisque
+          <lb ed="#B"/>uestrum in nomine ihesu christi in remissio<lb ed="#B" break="no"/>nem
+          peccatorum vestrorum et accipietis dominum 
+          <lb ed="#B"/>spiritus sancti.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

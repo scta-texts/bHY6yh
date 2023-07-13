@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 30</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 30</title>
+          <date when="2023-07-04">July 4, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="15-r"/>
+        <cb ed="#B" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-de8596"><!-- p1l1-r30 -->
+        <head xml:id="bHY6yh-de8596-Hd1e108">Rubrica 30</head>
+        <head xml:id="bHY6yh-de8596-Hd1e111" type="question-title">De peccato et peccatoribus consideratione religiosa</head>
+        <p xml:id="bHY6yh-de8596-d1e114">
+          De peccatorum et peccatoribus con<lb ed="#B" break="no"/>sidera 
+          religiosa Rubrica 30
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e121">
+          <lb ed="#B"/>PSalmista pslamo 1 <quote xml:id="bHY6yh-de8596-Qd1e125">Beatus vir qui 
+          <lb ed="#B"/>non abiit in consilio impiorum et
+          <lb ed="#B"/>in via peccorum non scetir</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e139">
+          ¶ <ref xml:id="bHY6yh-de8596-Rd1e134">psalmus 
+          <lb ed="#B"/> 10</ref> <quote xml:id="bHY6yh-de8596-Qd1e141">!ui diligit iniquitatem odit 
+          <lb ed="#B"/>animam suam</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e148">
+          ¶ <ref xml:id="bHY6yh-de8596-Rd1e145">psalmus 36</ref> <quote xml:id="bHY6yh-de8596-Qd1e150">Considerat pec<lb ed="#B" break="no"/>cator 
+          iustum et quorit mortifica<lb ed="#B" break="no"/>re 
+          eum dominus autem non derelinquet
+          <lb ed="#B"/>eum in manibus eius</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e158">
+          <lb ed="#B"/><ref xml:id="bHY6yh-de8596-Rd1e159">SAlomon in prouerbiorum capitulo 33</ref><!--line jumps up--> <quote xml:id="bHY6yh-de8596-Qd1e162">ne emuletur<!--line jumps down--> cortuum peccatores 
+          <lb ed="#B"/>sed in timore domini esto tota die quia 
+          <lb ed="#B"/>habebis spem in nouissimo et prestolatio 
+          <lb ed="#B"/>tua non auferetur</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e172">
+          <lb ed="#B"/><ref xml:id="bHY6yh-de8596-Rd1e175">Thobie historiarum capitulo 12</ref><!--line jumps up--> <quote xml:id="bHY6yh-de8596-Qd1e176">Qui faciunt<!--line jumps down--> peccata et iniqui<lb ed="#B" break="no"/>tatem
+          hostes sunt animae sue</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e182">
+          <lb ed="#B"/><ref xml:id="bHY6yh-de8596-Rd1e187">IEsus filius sydrach in ecclesiastico capitulo 5</ref><!--line jumps up--> <quote xml:id="bHY6yh-de8596-Qd1e186">Ne ad<!--line jumps down-->dicias 
+          <lb ed="#B"/>peccatum super pecccatum et ne dicas misera<lb ed="#B" break="no"/>tio 
+          dei magna est multudini pec<lb ed="#B" break="no"/>catorum 
+          meorum miserebitur</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e194">
+          / <ref xml:id="bHY6yh-de8596-Rd1e199">capitulo 9</ref> <quote xml:id="bHY6yh-de8596-Qd1e196">Non 
+          <lb ed="#B"/>zeles gloriam et opes peccatoris non enim 
+          <lb ed="#B"/>scis que futura sunt illius subuersio</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e204">
+          <lb ed="#B"/><ref xml:id="bHY6yh-de8596-Rd1e213">MAttheus in ewangelo capitulo 19</ref> <quote xml:id="bHY6yh-de8596-Qd1e208">dixit ihesus 
+          <lb ed="#B"/>non homicidium facies non adultera<lb ed="#B" break="no"/>beris 
+          non facies furtum non falsum testi 
+          <lb ed="#B"/>monium dices</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e217">
+          <lb ed="#B"/><ref xml:id="bHY6yh-de8596-Rd1e230">IOhannes<!--line jumps up--> in ewangelo capitulo 1</ref> <quote xml:id="bHY6yh-de8596-Qd1e221">Si dixe<!--line jumps down-->rimus peccatum non habeus 
+          <lb ed="#B"/>ipsi nos seducimus et ueritas in 
+          <lb ed="#B"/>nobis non est</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e229">
+          . <ref xml:id="bHY6yh-de8596-Rd1e242">capitulo 8</ref> <quote xml:id="bHY6yh-de8596-Qd1e231">omnis qui facit 
+          <lb ed="#B"/>peccatum seruus peccati est</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e237">
+          ¶ <ref xml:id="bHY6yh-de8596-Rd1e252">capitulo 9</ref> <quote xml:id="bHY6yh-de8596-Qd1e239">Si ceci
+          <lb ed="#B"/>essetis non haberetis peccatum</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e245">
+          ¶ <ref xml:id="bHY6yh-de8596-Rd1e262">Idem epistola 
+          <lb ed="#B"/>1 capitulo 3</ref> <quote xml:id="bHY6yh-de8596-Qd1e247">Omnis quae facit peccatum et iniqui<lb ed="#B" break="no"/>tatem 
+          facit et peccatum est iniquitas 
+          <lb ed="#B"/>¶ Qui facit peccatum ex dyabolo <add place="margin-right">est</add></quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e255">
+          ¶ <ref xml:id="bHY6yh-de8596-Rd1e274">capitulo 
+          <lb ed="#B"/>5 et fidei</ref> <quote xml:id="bHY6yh-de8596-Qd1e257">Omnis iniquitas est ad 
+          <lb ed="#B"/>mortem </quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e265">
+          ¶ <ref xml:id="bHY6yh-de8596-Rd1e290">Idem epistola 2a capitulo 2</ref> <quote xml:id="bHY6yh-de8596-Qd1e267">Qui male 
+          <lb ed="#B"/>facit non videt deum</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e274">
+          <lb ed="#B"/><ref xml:id="bHY6yh-de8596-Rd1e303"><sic>vdas</sic> alphei apostolus<!--line jumps up--> Qui<add place="margin-right">fuit</add> frater<!--line jumps down--> iacobi apostoli 
+          <lb ed="#B"/>epistola vnica capitulo 3 et fidei</ref> <quote xml:id="bHY6yh-de8596-Qd1e278">peccatores impii 
+          <lb ed="#B"/>hii sunt murmuratores querulosi
+          <lb ed="#B"/>secundum desideria sua ambulantes et os 
+          <lb ed="#B"/>illorum loquitur superbiam mirantes 
+          <lb ed="#B"/>personas questus causa</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e290">
+          <lb ed="#B"/><ref xml:id="bHY6yh-de8596-Rd1e322">Iacobus apostolus epistola<!--line jumps up--> 1ca capitulo 1</ref> <quote xml:id="bHY6yh-de8596-Qd1e294">peccatum<!--line jumps down--> cum consummatum 
+        <pb ed="#B" n="15-v"/>
+        <cb ed="#B" n="a"/>
+          <lb ed="#B"/>fuerit generat mortem</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e300">
+          ¶ <ref xml:id="bHY6yh-de8596-Rd1e332">capitulo 4</ref> <quote xml:id="bHY6yh-de8596-Qd1e302">Scien<lb ed="#B" break="no"/>ti 
+          bonum facere et non facienti pec<lb ed="#B" break="no"/>catum 
+          est</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e308">
+          ¶ <ref xml:id="bHY6yh-de8596-Rd1e344">apostolus epistola 1 ad corinthios 
+          <lb ed="#B"/><sic>SAulus</sic> capitulo X</ref> <quote xml:id="bHY6yh-de8596-Qd1e312">Non potestis men<lb ed="#B" break="no"/>se 
+          dei participes esse et mense demo<lb ed="#B" break="no"/>niorum</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e320">
+          ¶ <ref xml:id="bHY6yh-de8596-Rd1e356"> capitulo 15</ref> <quote xml:id="bHY6yh-de8596-Qd1e322">Stimulus mortis pec<lb ed="#B" break="no"/>catum 
+          est</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e328">
+          <lb ed="#B"/><ref xml:id="bHY6yh-de8596-Rd1e368">Seneca<!--line jumps up--> epistolarum ad lucillum libro 17<!--line jumps down--> capitulo 2</ref> <quote xml:id="bHY6yh-de8596-Qd1e332">omnibus crimen su<lb ed="#B" break="no"/>um
+          voluptati est</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e339">
+          ¶ <quote xml:id="bHY6yh-de8596-Qd1e343">Idem de moribus 
+          <lb ed="#B"/>omne peccatum Actio est voluntaria </quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e349">
+          <lb ed="#B"/><ref xml:id="bHY6yh-de8596-Rd1e392">Isydorus soliloquiorum libro 2 capitulo 9</ref>
+          <lb ed="#B"/><quote xml:id="bHY6yh-de8596-Qd1e353">Sepe occasio peccandi uolunta<lb ed="#B" break="no"/>tem 
+          facit</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e365">
+          <lb ed="#B"/><ref xml:id="bHY6yh-de8596-Rd1e410"><sic>Atheus</sic><!--line jumps up--> vindocinensis in poetria<!--line jumps down--> particula 1 capitulo 6</ref> <quote xml:id="bHY6yh-de8596-Qd1e369">peccati geminat 
+          <lb ed="#B"/>peccantis gloria culpam diffamat 
+          <lb ed="#B"/>fame dissipentis honor</quote>
+        </p>
+        <p xml:id="bHY6yh-de8596-d1e379">
+          / <ref xml:id="bHY6yh-de8596-Rd1e425">capitulo 12</ref> <quote xml:id="bHY6yh-de8596-Qd1e381">ve<lb ed="#B" break="no"/>malis
+          est voluntas peccandi fre<lb ed="#B" break="no"/>quentia</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
