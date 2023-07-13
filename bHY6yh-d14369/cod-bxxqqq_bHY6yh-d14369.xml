@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 3</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 3</title>
+          <date when="2023-07-13">July 13, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="25-r"/>
+        <cb ed="#B" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d14369"><!-- p1l3-r3 -->
+        <head xml:id="bHY6yh-d14369-Hd1e108">Rubrica 3</head>
+        <head xml:id="bHY6yh-d14369-Hd1e111" type="question-title">De affectibus et motibus animorum</head>
+        <p xml:id="bHY6yh-d14369-d1e114">
+          De affectibus et 
+          <lb ed="#B"/>motibus animorum 3
+        </p>
+        <p xml:id="bHY6yh-d14369-d1e121">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d14369-Rd1e118">IN genesi capitulo 4</ref> <quote xml:id="bHY6yh-d14369-Qd1e125">Sub
+            <lb ed="#B"/><unclear>tenierit</unclear> appetitus peccati et tu do<lb ed="#B" break="no"/>minaberis 
+            illius</quote>
+        </p>
+        <p xml:id="bHY6yh-d14369-d1e135">
+          ¶ <ref xml:id="bHY6yh-d14369-Rd1e132">capitulo 18</ref> <quote xml:id="bHY6yh-d14369-Qd1e137">Sensus et 
+          <lb ed="#B"/>cogitatio humani corporis in malum 
+          <lb ed="#B"/>prona sunt ab adolescentia sua</quote>
+        </p>
+        <p xml:id="bHY6yh-d14369-d1e146">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d14369-Rd1e147">ORatius epistolarum libro 1 epistla 2</ref><!--line jumps up--> <quote xml:id="bHY6yh-d14369-Qd1e150">Ani<!--line jumps down-->mum
+          <lb ed="#B"/>rege qui nisi patet Impera hunc 
+          <lb ed="#B"/>frenis hunc tu compesce catenis</quote>
+        </p>
+        <p xml:id="bHY6yh-d14369-d1e158">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d14369-Rd1e161">qvintilianus declamacionum 9 
+          <lb ed="#B"/>declama</ref> <quote xml:id="bHY6yh-d14369-Qd1e162"> Quid rationem vincit 
+          <lb ed="#B"/>affectus est</quote>
+        </p>
+        <p xml:id="bHY6yh-d14369-d1e168">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d14369-Rd1e173">SEneca in<!--line jumps up--> epistola ad lucillum libro<!--line jumps down--> 11 epistola 3 et fine</ref> <quote xml:id="bHY6yh-d14369-Qd1e172">Facilius 
+          <lb ed="#B"/>initio affectum prohibere quam im<lb ed="#B" break="no"/>petum 
+          regere</quote>
+        </p>
+        <p xml:id="bHY6yh-d14369-d1e180">
+          ¶ <ref xml:id="bHY6yh-d14369-Rd1e186">libro 19 epistola 10</ref> <quote xml:id="bHY6yh-d14369-Qd1e182">In<lb ed="#B" break="no"/>becillis 
+          est primo omnis affectus 
+          <lb ed="#B"/>deinde ipse se concitat et vires dum 
+          <lb ed="#B"/>procedit parat excluditur facilius 
+          <lb ed="#B"/>quam expellitur ¶ Quis negat
+          <lb ed="#B"/>omnes affectus a quodam quasi na<lb ed="#B" break="no"/>turali 
+          fluere principio</quote>
+        </p>
+        <p xml:id="bHY6yh-d14369-d1e196">
+          ¶ <ref xml:id="bHY6yh-d14369-Rd1e204">Idem de 
+          <lb ed="#B"/>remediis fortune capitulo 21 et fine</ref> <quote xml:id="bHY6yh-d14369-Qd1e198">fa<lb ed="#B" break="no"/>cilius 
+          reges animum nulla vani<lb ed="#B" break="no"/>tate 
+          rem tumentem</quote>
+        </p>
+        <p xml:id="bHY6yh-d14369-d1e206">
+          ¶ <quote xml:id="bHY6yh-d14369-Qd1e208">Idem de mo<lb ed="#B" break="no"/>ribus 
+          hoc habet omnis affectus ut in 
+          <lb ed="#B"/>quo insanit ceteros furere putet</quote>
+        </p>
+        <p xml:id="bHY6yh-d14369-d1e221">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d14369-Rd1e236">aMbrosius de officiis libro 1 capitulo 2</ref> <quote xml:id="bHY6yh-d14369-Qd1e225">Af<lb ed="#B" break="no"/>fectus
+          nature est non potestatis et 
+          <lb ed="#B"/>suus quedam nature in omni ap<lb ed="#B" break="no"/>petitu 
+          sit tamen idem appetitus rationi 
+          <lb ed="#B"/>subiectus est lege nature ipsius et 
+          <lb ed="#B"/>obediet ei et cetera</quote>
+        </p>
+        <p xml:id="bHY6yh-d14369-d1e237">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d14369-Rd1e254">BOetius in<!--line jumps up--> musica capitulo 1</ref> <quote xml:id="bHY6yh-d14369-Qd1e241">vt se<!--line jumps down-->se corporis affectus 
+          <lb ed="#B"/>habent Ita et pulsus cordis motibus 
+          <lb ed="#B"/>insica inicitantur.</quote>
+        </p>
+        <p xml:id="bHY6yh-d14369-d1e249">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d14369-Rd1e268">CAssiodorus epistolarum<!--line jumps down--> libro 6 epistola 14<!--line jumps down--> et <unclear>pelt</unclear></ref> <quote xml:id="bHY6yh-d14369-Qd1e253">Ratio 
+          <lb ed="#B"/>motus uestros componat</quote>
+        </p>
+        <p xml:id="bHY6yh-d14369-d1e259">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d14369-Rd1e280">gRegorius in pastorali<!--line jumps up--> capitulo 12</ref> <quote xml:id="bHY6yh-d14369-Qd1e263">humanum<!--line jumps down--> quidem est 
+        <cb ed="#B" n="b"/>
+          <lb ed="#B"/>in corde temptationem perpeti de<lb ed="#B" break="no"/>moniacum 
+          uero est temptationis 
+          <lb ed="#B"/>certamie in operatione superari</quote>
+        </p>
+        <p xml:id="bHY6yh-d14369-d1e273">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d14369-Rd1e296">ISydorus soliloquiorum libro<!--line jumps up--> 2 capitulo<!--line jumps down--> 3</ref> <quote xml:id="bHY6yh-d14369-Qd1e277">In 
+          <lb ed="#B"/>initio resiste cogitationi pessime 
+          <lb ed="#B"/>scintillat praua cogitatio non 
+          <lb ed="#B"/>consenties illi</quote>
+        </p>
+        <p xml:id="bHY6yh-d14369-d1e285">
+          ¶ <ref xml:id="bHY6yh-d14369-Rd1e308">capitulo 4</ref> <quote xml:id="bHY6yh-d14369-Qd1e287">primam peccati 
+          <lb ed="#B"/>suggestionem contere et non sinas 
+          <lb ed="#B"/>eam in corde tuo manere</quote>
+        </p>
+        <p xml:id="bHY6yh-d14369-d1e296">
+          [omitted]
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
