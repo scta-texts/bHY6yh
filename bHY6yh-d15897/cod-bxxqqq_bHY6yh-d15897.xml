@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 9</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 9</title>
+          <date when="2023-07-15">July 15, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="27-r"/>
+        <cb ed="#B" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d15897"><!-- p1l3-r9 -->
+        <head xml:id="bHY6yh-d15897-Hd1e108">Rubrica 9</head>
+        <head xml:id="bHY6yh-d15897-Hd1e111" type="question-title">De salute corporis consideratione morali</head>
+        <p xml:id="bHY6yh-d15897-d1e114">
+          de salute corporis 
+          <lb ed="#B"/>consideratione morali Rubrica 9
+        </p>
+        <p xml:id="bHY6yh-d15897-d1e121">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d15897-Rd1e118">ARistotiles ethicorum libro I capitulo 4</ref> <quote xml:id="bHY6yh-d15897-Qd1e129">de<lb ed="#B" break="no"/>siderabilissimum 
+          est saluum 
+          <lb ed="#B"/>esse</quote>
+        </p>
+        
+        <p xml:id="bHY6yh-d15897-d1e135">
+          ¶ <ref xml:id="bHY6yh-d15897-Rd1e134">Idem rethoricorum libro 
+          <lb ed="#B"/>1 capitulo 5</ref> <quote xml:id="bHY6yh-d15897-Qd1e137">Corporis virtus est sanitas</quote>
+        </p>
+        <p xml:id="bHY6yh-d15897-d1e144">
+          <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d15897-Rd1e144">libro 2 capitulo 21</ref> <quote xml:id="bHY6yh-d15897-Qd1e146">viro sanum esse optimum 
+          <lb ed="#B"/>est vt nobis videtur</quote>
+        </p>
+        <p xml:id="bHY6yh-d15897-d1e152">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d15897-Rd1e156">IEsus filius syrach in ecclesiastico<!--line jumps up--> capitulo 30</ref> <quote xml:id="bHY6yh-d15897-Qd1e156">Non<!--line jumps down--> est census 
+          <lb ed="#B"/>super censum salutis corporis</quote>
+        </p>
+        <p xml:id="bHY6yh-d15897-d1e162">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d15897-Rd1e168">tvlius rethoricorum artis<!--line jumps up--> ueteris<!--line jumps down--> libro 2 capitulo 11</ref>
+          <lb ed="#B"/><quote xml:id="bHY6yh-d15897-Qd1e166">Incolumitas est salutis tuta atque 
+          <lb ed="#B"/>integra conseruatio</quote>
+        </p>
+        <p xml:id="bHY6yh-d15897-d1e174">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d15897-Rd1e181">Ivuenalis libro 4<!--line jumps up--> satis I</ref> <quote xml:id="bHY6yh-d15897-Qd1e178">Orandum<!--line jumps down--> est ut sit mens 
+          <lb ed="#B"/>sana in corpore sano</quote>
+        </p>
+        <p xml:id="bHY6yh-d15897-d1e184">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d15897-Rd1e193">chato capitulo 3</ref> <quote xml:id="bHY6yh-d15897-Qd1e188">Corporis<!--line jumps up--> auxilium me<!--line jumps down-->dico committe 
+          <lb ed="#B"/>fideli Sit tibi precipue quod primum
+          <lb ed="#B"/>est cura salutis</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
