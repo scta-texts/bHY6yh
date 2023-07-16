@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 12</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 12</title>
+          <date when="2023-07-16">July 16, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="27-r"/>
+        <cb ed="#B" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d16352"><!-- p1l3-r12 -->
+        <head xml:id="bHY6yh-d16352-Hd1e108">Rubrica 12</head>
+        <head xml:id="bHY6yh-d16352-Hd1e111" type="question-title">De facilitate et difficultate</head>
+        <p xml:id="bHY6yh-d16352-d1e114">
+          De facili<lb ed="#B" break="no"/>tate 
+          et difficultate Rubrica 12
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e119">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d16352-Rd1e116">PSalmista psalmus 9</ref> <quote xml:id="bHY6yh-d16352-Qd1e123">Cuius male<lb ed="#B" break="no"/>dictione 
+          os plenum est et ama<lb ed="#B" break="no"/>ritudine 
+          et dolo sub lingua 
+          <lb ed="#B"/>eius labor et dolor</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e133">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d16352-Rd1e132">Isaias propheta<!--line jumps up--> capitulo 26</ref> <quote xml:id="bHY6yh-d16352-Qd1e137">Semita<!--line jumps down--> iusti recta est
+          <lb ed="#B"/>rectus callis iusti ad ambulandum</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e144">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d16352-Rd1e145">ARistotiles ethicorum libro 2 capitulo 2</ref> <quote xml:id="bHY6yh-d16352-Qd1e148">Circa difi<lb ed="#B" break="no"/>cilius 
+          semper et ars fit et virtus</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e154">
+          <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d16352-Rd1e155">Idem de memoria et reminiscentia</ref> 
+          <lb ed="#B"/><quote xml:id="bHY6yh-d16352-Qd1e156">Sunt magis reminiscibilia quecumque 
+          <lb ed="#B"/>ordinationem habent</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e164">
+          ¶ <ref xml:id="bHY6yh-d16352-Rd1e168">Idem yconomicorum 
+          <lb ed="#B"/>libro 1 in fine</ref> <quote xml:id="bHY6yh-d16352-Qd1e166">Oportet vnumquodque in loco suo 
+          <lb ed="#B"/>poni. Sic enim paratum existens non 
+          <lb ed="#B"/>queretur</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e176">
+          ¶ <ref xml:id="bHY6yh-d16352-Rd1e183">Idem rethoricorum libro 2 
+          <lb ed="#B"/>capitulo 10</ref> <quote xml:id="bHY6yh-d16352-Qd1e178">facilia sunt quecumque fiunt sine 
+          <lb ed="#B"/>tristitia vel in modico difficile enim 
+          <lb ed="#B"/>determinantur aut tristitia aut multitu<lb ed="#B" break="no"/>dine 
+          temporis</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e188">
+          ¶ <ref xml:id="bHY6yh-d16352-Rd1e197">Idem elementorum libro I</ref> <quote xml:id="bHY6yh-d16352-Qd1e190">Diffi<lb ed="#B" break="no"/>cile 
+          est simul multa conspicere</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e196">
+          <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d16352-Rd1e210">libro 2 et fine</ref> <quote xml:id="bHY6yh-d16352-Qd1e200">prouidere quidem difficile 
+          <lb ed="#B"/>est per vacationem autem videre faci<lb ed="#B" break="no"/>le.</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e209">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d16352-Rd1e225">Te<!--line jumps up-->rentius in heutontumeru<!--line jumps down-->meon capitulo 17</ref> / <quote xml:id="bHY6yh-d16352-Qd1e213">Nulla res est 
+          <lb ed="#B"/>tam facilis quin difficilis fiet
+          <lb ed="#B"/>quam in uitus facias</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e221">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d16352-Rd1e239">Salustius in ca<!--line jumps up-->tilinario</ref> <quote xml:id="bHY6yh-d16352-Qd1e225">Que<!--line jumps down--> quisque facilia 
+          <lb ed="#B"/>factu putat equo animo accipit</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e231">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d16352-Rd1e251">Tvlius Rethoricorum artis vereris libro 2 
+          <lb ed="#B"/>capitulo 12</ref> <quote xml:id="bHY6yh-d16352-Qd1e235">facile fieri id didiamus 
+          <lb ed="#B"/>quod sine magno aut sine vllo 
+          <lb ed="#B"/>labore sumptu molestia quam bre<lb ed="#B" break="no"/>uissimo 
+          tempore confici potest difficile autem
+          <lb ed="#B"/>fieri quod quamquam laboris sumptus mo<lb ed="#B" break="no"/>lestie 
+          longitudinis indiget atque 
+          <lb ed="#B"/>omnes ut plurimas aut maximas 
+          <lb ed="#B"/>causas habet difficultatis tantum hiis sus<lb ed="#B" break="no"/>ceptis 
+          difficultatibus compleri 
+          <lb ed="#B"/>atque ad exitum perduci potest</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e260">
+          / <ref xml:id="bHY6yh-d16352-Rd1e280">Idem 
+          <lb ed="#B"/>de orato libro 3 et fine</ref> <quote xml:id="bHY6yh-d16352-Qd1e262">Facilius est ap<lb ed="#B" break="no"/>ta 
+          dissoluere quam dissipata connectere</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e270">
+          <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d16352-Rd1e293">Idem super timeum platonis de essen<lb ed="#B" break="no"/>tia 
+          mundi</ref> <quote xml:id="bHY6yh-d16352-Qd1e272">difficillimum est in omni 
+          <lb ed="#B"/>conquisitione rationis exordium</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e280">
+          <cb ed="#B" n="b"/>
+          <lb ed="#B"/><ref xml:id="bHY6yh-d16352-Rd1e308">Ovidius epistolarum 12 capitulo</ref> <quote xml:id="bHY6yh-d16352-Qd1e284">est aliqua 
+          <lb ed="#B"/>decipere arte labor ¶ <ref xml:id="bHY6yh-d16352-Rd1e314">epistola 16</ref> diffi<lb ed="#B" break="no"/>cilem 
+          culpe suspicor esse viam</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e293">
+          <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d16352-Rd1e323">Idem de tristibus libro 3 capitulo II</ref> ¶ <quote xml:id="bHY6yh-d16352-Qd1e295">In causa 
+          <lb ed="#B"/>facili cui ius licet esse dissertur Et 
+          <lb ed="#B"/>minime vires frangere quassa valent</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e305">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d16352-Rd1e340">SEneca de ira libro 2</ref> <quote xml:id="bHY6yh-d16352-Qd1e309">Nichil est dif<lb ed="#B" break="no"/>ficile
+          et arduum quod non humana 
+          <lb ed="#B"/>mens vincat et in familiaritatem 
+          <lb ed="#B"/>perducat assidua meditatio</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e319">
+          ¶ <ref xml:id="bHY6yh-d16352-Rd1e354">Idem 
+          <lb ed="#B"/>de consolatione ad helbiam</ref> <quote xml:id="bHY6yh-d16352-Qd1e321">Nichil 
+          <lb ed="#B"/>homini natura quod necessarium faciebat <add place="margin-right">fiebat</add> 
+          <lb ed="#B"/>fecit operosum</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e329">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d16352-Rd1e368">LEx aucten titulo<!--line jumps up--> de monachis</ref> <quote xml:id="bHY6yh-d16352-Qd1e333">§ scimus<!--line jumps down--> Non facilis est vite 
+          <lb ed="#B"/>mutatio sed cum magno animi fit la<lb ed="#B" break="no"/>bore</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e341">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d16352-Rd1e384">UE<!--line jumps up-->gecius de Re militari libro I capitulo 10</ref><!--line jumps down--> <quote xml:id="bHY6yh-d16352-Qd1e345">Cottidianus vsus non laborat 
+          <lb ed="#B"/>et si onorosa gestauerit</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e353">
+          / <ref xml:id="bHY6yh-d16352-Rd1e396">libro 
+          <lb ed="#B"/>2 titulo 17</ref> <quote xml:id="bHY6yh-d16352-Qd1e355">omne opus difficile videtur 
+          ante quam tentes</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e362">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d16352-Rd1e409">Avgustinus in epi<!--line jumps up-->grama prosperi 65<!--line jumps down--> epistola</ref> <quote xml:id="bHY6yh-d16352-Qd1e366">difficilia et 
+          <lb ed="#B"/>laboriosa sunt firquencia menda<lb ed="#B" break="no"/>cii 
+          qui autem uult verum dicere non laborat</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e376">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d16352-Rd1e426">Gvalterius de castellione alexandro<lb ed="#B" break="no"/>idos
+          libro 8</ref> ¶ <quote xml:id="bHY6yh-d16352-Qd1e380">o quam difficili visu sors 
+          <lb ed="#B"/>prouehit actus. lubrica mortales 
+          <lb ed="#B"/>et quos ascendere fecit Quam facile 
+          <lb ed="#B"/>euereit magno fortuna labore</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e392">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d16352-Rd1e445">MAtheus vindocinensis in poetria parte
+          <lb ed="#B"/>2 et fine capitulo 4</ref> ¶ <quote xml:id="bHY6yh-d16352-Qd1e396">leuius est in ferre 
+          <lb ed="#B"/>vulnera quam sanare</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e404">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d16352-Rd1e460">GAnfredus in poetria<!--line jumps up--> capitulo 30</ref> <quote xml:id="bHY6yh-d16352-Qd1e408">facti<!--line jumps down--> grauitas cui<lb ed="#B" break="no"/>cumque 
+          uolenti Est leui et leuitas 
+          <lb ed="#B"/>animo cuicumque rebelli Est grauis</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e416">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d16352-Rd1e474">RIardus iudex venussinus</ref> / <quote xml:id="bHY6yh-d16352-Qd1e420">Est la<lb ed="#B" break="no"/>bor 
+          in labiis mendacia composi<lb ed="#B" break="no"/>turis. 
+          vera locuturis non labor ullus 
+          <lb ed="#B"/>inest</quote>
+        </p>
+        <p xml:id="bHY6yh-d16352-d1e428">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d16352-Rd1e488">MOn<!--line jumps up-->tenarius in luna cleri</ref> / <quote xml:id="bHY6yh-d16352-Qd1e432">leuiter<!--line jumps down--> fit quidquod amatur</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
