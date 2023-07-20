@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 15</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 15</title>
+          <date when="2023-07-12">July 12, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="24-v"/>
+        <cb ed="#C" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d17152"><!-- p1l3-r15 -->
+        <head xml:id="bHY6yh-d17152-Hd1e108">Rubrica 15</head>
+        <head xml:id="bHY6yh-d17152-Hd1e111" type="question-title">De raris naturaliter</head>
+        <p xml:id="bHY6yh-d17152-d1e114">
+          De raris na<lb ed="#C" break="no"/>turalibus
+          capitulum
+        </p>
+        <!--next paragraph begins on the same line as the previous paragraph-->
+        <p xml:id="bHY6yh-d17152-d1e119">
+          <ref xml:id="bHY6yh-d17152-Rd1e116">ARistoteles politicorum
+          <lb ed="#C"/>libro 3 capitulo V</ref> <quote xml:id="bHY6yh-d17152-Qd1e127">O<lb ed="#C" break="no"/>pulenti 
+          quidem pauci Egeni autem multi
+          <lb ed="#C"/>ubique</quote>
+        </p>
+        <p xml:id="bHY6yh-d17152-d1e133">
+          ¶ <ref xml:id="bHY6yh-d17152-Rd1e133">Tullius de fine bonorum et ma<lb ed="#C" break="no"/>lorum 
+          libro 2</ref> <quote xml:id="bHY6yh-d17152-Qd1e137">In omni arte uel studio uel quau<lb ed="#C" break="no"/>is 
+          scientia uel in ipsa uirtute optimum quidque
+          <lb ed="#C"/>rarissimum</quote>
+        </p>
+        <p xml:id="bHY6yh-d17152-d1e146">
+          ¶ <ref xml:id="bHY6yh-d17152-Rd1e146">Idem rethoricorum artis ueteris libro 2
+          <lb ed="#C"/>capitulo V</ref> <quote xml:id="bHY6yh-d17152-Qd1e148">que rara et ardua sunt ea experimendo
+          <lb ed="#C"/>pulchra et iocunda hominibus uidentur</quote>
+        </p>
+        <p xml:id="bHY6yh-d17152-d1e158">
+          ¶ <ref xml:id="bHY6yh-d17152-Rd1e161">Idem
+          <lb ed="#C"/>amacitia</ref> <quote xml:id="bHY6yh-d17152-Qd1e160">vere amicicie difficile reperiuntur in
+          <lb ed="#C"/>hiis qui honoribus reipublice versantur</quote>
+        </p>
+        <p xml:id="bHY6yh-d17152-d1e168">
+          ¶ <ref xml:id="bHY6yh-d17152-Rd1e175">Iu<lb ed="#C" break="no"/>uenalis 
+          libro V et finale satira I Versus</ref> <quote xml:id="bHY6yh-d17152-Qd1e172">Rari quippe bo<lb ed="#C" break="no"/>ni 
+          numero sunt uix totidem quod thelabarum 
+          <lb ed="#C"/>porte uel diuitis hostia tulii</quote>
+        </p>
+        <p xml:id="bHY6yh-d17152-d1e180">
+          ¶ <ref xml:id="bHY6yh-d17152-Rd1e189">Lex autem
+          <lb ed="#C"/>titulo de consulibus</ref> <quote xml:id="bHY6yh-d17152-Qd1e184">§ itaque causa In hiisque raro fiunt
+          <lb ed="#C"/>miraculum est</quote>
+        </p>
+        <p xml:id="bHY6yh-d17152-d1e190">
+          ¶ <ref xml:id="bHY6yh-d17152-Rd1e201">Iacobus beneuentanus capitulo 34</ref> <quote xml:id="bHY6yh-d17152-Qd1e194">sed
+          <lb ed="#C"/>modo perfectus rarus amicus adest</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

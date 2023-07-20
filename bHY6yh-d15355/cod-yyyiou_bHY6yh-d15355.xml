@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 7</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 7</title>
+               <date when="2023-07-07">July 7, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="22-r"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d15355"><!-- p1l3-r7 -->
+            <head xml:id="bHY6yh-d15355-Hd1e108">Rubrica 7</head>
+            <head xml:id="bHY6yh-d15355-Hd1e111" type="question-title">De diuersitate moralitatum et naturalitatum diuersorum hominum</head>
+            <p xml:id="bHY6yh-d15355-d1e114">
+              De diuersitate mo<lb ed="#C" break="no"/>ralitatum 
+              et naturalitatum
+              <lb ed="#C"/>diuersorum hominum
+            </p>
+            <!--next paragraph begins on the second line of the previous paragraph-->
+            <p xml:id="bHY6yh-d15355-d1e121">
+              <ref xml:id="bHY6yh-d15355-Rd1e118">ARistoteles
+              <lb ed="#C"/>ethicorum
+              <lb ed="#C"/>libro primo capitulo 4</ref> <quote xml:id="bHY6yh-d15355-Qd1e129">Multis quidem delectabilia 
+              <lb ed="#C"/>aduersantur adinuicem que non naturalia sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e137">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d15355-Rd1e135">Ibidem libro VIII capitulo 3</ref> <quote xml:id="bHY6yh-d15355-Qd1e139">Vnicuique secundum de<lb ed="#C" break="no"/>lectionem 
+              sunt proprie actiones</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e146">
+              ¶ <ref xml:id="bHY6yh-d15355-Rd1e146">Ibidem libro
+              <lb ed="#C"/>X et finale capitulo VI</ref> <quote xml:id="bHY6yh-d15355-Qd1e148">uidetur esse vnicuique alteri
+              <lb ed="#C"/>delectatio propria quemadmodum et opus</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e156">
+              ¶ <ref xml:id="bHY6yh-d15355-Rd1e158">Idem
+              <lb ed="#C"/>politicorum libro I capitulo V</ref> <quote xml:id="bHY6yh-d15355-Qd1e158">Non idem vnicuique
+              <lb ed="#C"/>delectabile est secundum naturam sed altera alteris</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e166">
+              ¶ <ref xml:id="bHY6yh-d15355-Rd1e173">Te<lb ed="#C" break="no"/>rentius 
+              in formione capitulo X</ref> <quote xml:id="bHY6yh-d15355-Qd1e170"><!--Tot crossed out-->Quot ho<lb ed="#C" break="no"/>mines 
+              tot sciens vnicuique moris</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e176">
+              ¶ <ref xml:id="bHY6yh-d15355-Rd1e185">Oratius
+              <lb ed="#C"/>in epistolis libro 2 epistola III et finale Versus</ref> <quote xml:id="bHY6yh-d15355-Qd1e180">Denique
+              <lb ed="#C"/>non omnes eadem mirantur amantque</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e186">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d15355-Rd1e197">Tullius de natura deorum libro primo</ref> <quote xml:id="bHY6yh-d15355-Qd1e190">Similimis
+              <lb ed="#C"/>formis dispares mores sunt et moribus
+              <lb ed="#C"/>figura dissimilis</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e198">
+              ¶ <ref xml:id="bHY6yh-d15355-Rd1e209">Idem de fato</ref> <quote xml:id="bHY6yh-d15355-Qd1e200">In naturis
+              <lb ed="#C"/>hominum dissimilitudines sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e207">
+              ¶ <ref xml:id="bHY6yh-d15355-Rd1e222">Ouidius de 
+              <lb ed="#C"/>arte amandi libro I circa finem Versus</ref> <quote xml:id="bHY6yh-d15355-Qd1e211">pectoribus
+              <lb ed="#C"/>mores tot sunt quot in orbe figure</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e225">
+              ¶ <ref xml:id="bHY6yh-d15355-Rd1e240">Idem
+              <lb ed="#C"/>de remedio amoris libro 2 Versus</ref> <quote xml:id="bHY6yh-d15355-Qd1e227">Totidem mores
+              <lb ed="#C"/>totidemque figure que tuo non possunt
+              <lb ed="#C"/>offendi limine facto forsitan hoc alio indi<lb ed="#C" break="no"/>ce 
+              crimen erit</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e237">
+              ¶ <ref xml:id="bHY6yh-d15355-Rd1e255">Persius satira V Versus</ref> <quote xml:id="bHY6yh-d15355-Qd1e241">Mil<lb ed="#C" break="no"/>le 
+              hominum species et rerum discolor vsus
+              <lb ed="#C"/>velle suum cuique est nec voto uiuitur vno</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e249">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d15355-Rd1e269">Lex digestum titulo de arbitris libro item si vnus §</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d15355-Qd1e253">item si in duos Naturalis facilitas est hominum
+              <lb ed="#C"/>ad dissentiendum</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e261">
+              ¶ <ref xml:id="bHY6yh-d15355-Rd1e281">Idem titulo ad senatus
+              <lb ed="#C"/>consultus trebellum libro</ref> <quote xml:id="bHY6yh-d15355-Qd1e263">qui poterat vane sunt homi<lb ed="#C" break="no"/>num 
+              voluntates</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e269">
+              ¶ <ref xml:id="bHY6yh-d15355-Rd1e294">Vegetius de re militari
+              <lb ed="#C"/>libro 2 capitulo XX</ref> <quote xml:id="bHY6yh-d15355-Qd1e273">Naturaliter equites a peditibus
+              <lb ed="#C"/>solent discrepare</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e280">
+              ¶ <ref xml:id="bHY6yh-d15355-Rd1e307">Maximianus versus</ref> <quote xml:id="bHY6yh-d15355-Qd1e284">Di<pb ed="#C" n="22-v"/><cb ed="#C" n="a"/><lb ed="#C"/>uersos 
+              diuersa inuuant</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e288">
+              <ref xml:id="bHY6yh-d15355-Rd1e317">Auctor libro qui dicitur
+              <lb ed="#C"/>rudium doctrina libro I Versus</ref> <quote xml:id="bHY6yh-d15355-Qd1e292">Quique dari
+              <lb ed="#C"/>uoluit nature purde cria <sic>forcontra</sic>
+              <lb ed="#C"/>dissimilesque animos</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
