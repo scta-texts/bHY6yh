@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 4</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 4</title>
+          <date when="2023-07-21">July 21, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="33-r"/>
+        <cb ed="#B" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d19953"><!-- p2l1-r4 -->
+        <head xml:id="bHY6yh-d19953-Hd1e108">Rubrica 4</head>
+        <head xml:id="bHY6yh-d19953-Hd1e111" type="question-title">De innocentia</head>
+        <p xml:id="bHY6yh-d19953-d1e114">
+          <lb ed="#B"/>De innocentia Rubrica 4
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e119">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e116">IOb histrio capitulo 22</ref> <quote xml:id="bHY6yh-d19953-Qd1e123">Saluabitur
+          innocens</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e129">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e128">Psalmista<!--line jumps up--> 36 psalmus</ref> <quote xml:id="bHY6yh-d19953-Qd1e133">Custodi In<!--line jumps down-->nocentiam et vide in<lb ed="#B" break="no"/>iquitatem</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e140">
+          ¶ <ref xml:id="bHY6yh-d19953-Rd1e139">psalmus 83</ref> <quote xml:id="bHY6yh-d19953-Qd1e142">Non priua<lb ed="#B" break="no"/>bit 
+          bonis eos qui ambulant in
+          <lb ed="#B"/>innocentia dominus virtutum</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e150">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e153">Thobias capitulo 4</ref> <quote xml:id="bHY6yh-d19953-Qd1e154">Quod ab<!--line jumps up--> alio o<!--line jumps down-->dis fieri 
+          <lb ed="#B"/>tibi vide ne alteri <add place="margin-right">tu</add> aliquan<lb ed="#B" break="no"/>do facias</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e160">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e165">UIrgilius<!--line jumps up--> eneydos libro 7 ante medium</ref><!--line jumps down--> <quote xml:id="bHY6yh-d19953-Qd1e164">Mille nocendi artes</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e170">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e177">Tvlius tusculanarum questionum libro 3</ref> <quote xml:id="bHY6yh-d19953-Qd1e174">In<lb ed="#B" break="no"/>nocentia 
+          est affectio talis animi 
+          <lb ed="#B"/>quae noceat nemini</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e180">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e189">Ovidius de arte a<!--line jumps up-->mandi libro<!--line jumps down--> I</ref> <quote xml:id="bHY6yh-d19953-Qd1e184">fraus ab<lb ed="#B" break="no"/>sit
+          vacuas credis habere manus</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e190">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e201">Qvintilianus declamatis 12 decla</ref> 
+          <lb ed="#B"/><quote xml:id="bHY6yh-d19953-Qd1e194">Male heret ibi innocentia 
+          <lb ed="#B"/>vbi in potestate est secretum scelus</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e203">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e216">MAtheus in ewangelo capitulo 27</ref> <quote xml:id="bHY6yh-d19953-Qd1e207">dixit 
+          <lb ed="#B"/>Iudeis pilatus quid faciam 
+          <lb ed="#B"/>de ihesu qui dicitur christus dicunt omnes 
+          <lb ed="#B"/>crucifigatur. Ait illis pilatus 
+          <lb ed="#B"/>quid enim malifecit At illi magis 
+          <lb ed="#B"/>clamabant dicentes crucifigatur. 
+          <cb ed="#B" n="b"/>
+          <lb ed="#B"/>videns autem pilatus quia nil proficeret 
+          <lb ed="#B"/>sed magis tumultus fieret ac<lb ed="#B" break="no"/>cepta 
+          aqua lauit manus suas 
+          <lb ed="#B"/>coram populo dicens Innocens ego 
+          <lb ed="#B"/>sum a sanguine iusti huius vos vi<lb ed="#B" break="no"/>deritis</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e232">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e247">SEne<!--line jumps up-->ca tragediarum in edipo capitulo<!--line jumps down--> 14 et finali</ref> <quote xml:id="bHY6yh-d19953-Qd1e236">Nemo fit fato 
+          <lb ed="#B"/>nocens ¶ In hercule heteo haud est nocens quicuque non sponte est 
+          <lb ed="#B"/>nocens</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e246">
+          ¶ <ref xml:id="bHY6yh-d19953-Rd1e261">Idem epistolarum ad lucillum 
+          <lb ed="#B"/>libro 18 epistola 5</ref> <quote xml:id="bHY6yh-d19953-Qd1e248">Securitatis magna por<lb ed="#B" break="no"/>tio 
+          est nichil inique facere</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e256">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e276">LEx diges titulo de noui operis<!--line jumps up--> <unclear>nunciaont</unclear><!--line jumps down--> libro de pu<lb ed="#B" break="no"/>pillo 
+          § si plurium</ref> ¶ <quote xml:id="bHY6yh-d19953-Qd1e260">Non debet 
+          <lb ed="#B"/>nocere factum alterius ei qui nichil fecit</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e268">
+          ¶ <ref xml:id="bHY6yh-d19953-Rd1e289">titulo de aqua plu arcenda libro 
+          <lb ed="#B"/>1 § item ait</ref> <quote xml:id="bHY6yh-d19953-Qd1e270">aquam prodesse sibi vnus<lb ed="#B" break="no"/>quisque
+          dum alii non nocet nec prohi<lb ed="#B" break="no"/>betur</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e278">
+          ¶ <ref xml:id="bHY6yh-d19953-Rd1e302">titulo de Iniuriis libro iniuriarum 
+          <lb ed="#B"/>§ I</ref> <quote xml:id="bHY6yh-d19953-Qd1e280">Iuris executio non habet iniuriam</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e289">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e318">MArcialis cocus libro vndique suscepto 
+          <lb ed="#B"/>capitulo 2</ref> <quote xml:id="bHY6yh-d19953-Qd1e293">Te uideo solum dum possis 
+          <lb ed="#B"/>aule nocere / Nec prodesse tamen sed 
+          <lb ed="#B"/>petis ut noceas</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e301">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e332">Avctor libro de formule<!--line jumps up--> honeste vite<!--line jumps down--> capitulo 5</ref> <quote xml:id="bHY6yh-d19953-Qd1e305">Amabis 
+          <lb ed="#B"/>deum si illum in hoc imitaberis 
+          <lb ed="#B"/>ut uelis omnibus prodesse nulli no<lb ed="#B" break="no"/>cere 
+          et te tunc iustum virum appella<lb ed="#B" break="no"/>bunt 
+          omnis sequentur venerabuntur et 
+          <lb ed="#B"/>diligent Sicque merito iustus ap<lb ed="#B" break="no"/>pellaberis 
+          / Iustus ut sis non solum 
+          <lb ed="#B"/>non nocebis sed etiam nocentes pro<lb ed="#B" break="no"/>hibebis</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e322">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e355">AMbro<!--line jumps up-->sius de officiis libro IIo capitulo</ref><!--line jumps down--> <quote xml:id="bHY6yh-d19953-Qd1e326">vitam beatam efficiunt trans<lb ed="#B" break="no"/>quillitas 
+          conscientie et securitas
+          <lb ed="#B"/>innocentie</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e334">
+          / <ref xml:id="bHY6yh-d19953-Rd1e367">libro 3 capitulo 5</ref> <quote xml:id="bHY6yh-d19953-Qd1e336">Non latebra 
+          <lb ed="#B"/>sapienti spes impunitas sed Innocentia</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e342">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e379">CEcilius firmianus de beata vita libro 3</ref>
+          <lb ed="#B"/><quote xml:id="bHY6yh-d19953-Qd1e346">Inter summas hominis virtutes inno<lb ed="#B" break="no"/>centia 
+          numeratur</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e354">
+          / <ref xml:id="bHY6yh-d19953-Rd1e391">libro 4</ref> <quote xml:id="bHY6yh-d19953-Qd1e356">In hoc 
+          <lb ed="#B"/>iustitie summa consistit ut non fa<lb ed="#B" break="no"/>ciatis 
+          alteri quidque ipsi ab alteri pa<lb ed="#B" break="no"/>ti 
+          nolis</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e365">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e406">Avgustius<!--line jumps up--> in epigram prosperi epigram I</ref> <quote xml:id="bHY6yh-d19953-Qd1e369">In<!--line jumps down-->nocentia vera est que 
+          <lb ed="#B"/>nec sibi nec alteri nocet</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e375">
+          / <ref xml:id="bHY6yh-d19953-Rd1e418">Epigram 
+          <lb ed="#B"/>75</ref> <quote xml:id="bHY6yh-d19953-Qd1e379">Parum est nemini nocere nisi
+          <pb ed="#B" n="33-v"/>
+          <cb ed="#B" n="a"/>
+          <lb ed="#B"/>studeatur multis prodesse</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e385">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e430">PRosper sub ultimo capitulo</ref> <quote xml:id="bHY6yh-d19953-Qd1e389">In<!--line jumps up-->sontem<!--line jumps down--> vitam 
+          <lb ed="#B"/>pacis amator agit</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e395">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e442">CAssiodorus epistolarum<!--line jumps up--> libro 6 capitulo 16</ref><!--line jumps down--> <quote xml:id="bHY6yh-d19953-Qd1e399">Innocen<lb ed="#B" break="no"/>tia
+          cuncta commendat</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e405">
+          ¶ <ref xml:id="bHY6yh-d19953-Rd1e452">libro 9 epistola 2</ref> 
+          <lb ed="#B"/><quote xml:id="bHY6yh-d19953-Qd1e407">vix audet quisque in illos excedere 
+          <lb ed="#B"/>in quibus culpas non potest inuenire</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e415">
+          <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d19953-Rd1e464">epistola 3.</ref> <quote xml:id="bHY6yh-d19953-Qd1e417">honesta sunt lucra per que 
+          <lb ed="#B"/>nemo leditur</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e424"> 
+          ¶ <ref xml:id="bHY6yh-d19953-Rd1e475">epistola 10</ref> <quote xml:id="bHY6yh-d19953-Qd1e426">Nullum ledit 
+          <lb ed="#B"/>obseruata iusta</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e438"> 
+          ¶ <ref xml:id="bHY6yh-d19953-Rd1e491">libro 11 epistola 8</ref> <quote xml:id="bHY6yh-d19953-Qd1e440">In qua
+          <lb ed="#B"/>parte habet homo proficere si innocentiam 
+          <lb ed="#B"/>probatus fuerit amisisse</quote>
+        </p>
+        <p xml:id="bHY6yh-d19953-d1e448">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e505">BAldo fabula 32</ref> <quote xml:id="bHY6yh-d19953-Qd1e452">In te quidque 
+          <lb ed="#B"/>odis fieri molumine quo uis 
+          <lb ed="#B"/>Cuilibet arte mali caueas infer<lb ed="#B" break="no"/>re sodali</quote>
+          <lb ed="#B"/><ref xml:id="bHY6yh-d19953-Rd1e516">BErnhar<!--line jumps up-->dus de improbatione vitiorum<!--line jumps down--> capitulo 3</ref> <quote xml:id="bHY6yh-d19953-Qd1e521">vir sapiens pro<lb ed="#B" break="no"/>desse 
+          cupit nec ledere quemquam
+          <lb ed="#B"/>Mitibus et gratis nemo nocere<!--line jumps down--> solet</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
