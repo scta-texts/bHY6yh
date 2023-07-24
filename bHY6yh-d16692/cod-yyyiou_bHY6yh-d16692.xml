@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 13</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 13</title>
+          <date when="2023-07-12">July 12, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="23-v"/>
+        <cb ed="#C" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d16692"><!-- p1l3-r13 -->
+        <head xml:id="bHY6yh-d16692-Hd1e108">Rubrica 13</head>
+        <head xml:id="bHY6yh-d16692-Hd1e111" type="question-title">De consuetudine</head>
+        <p xml:id="bHY6yh-d16692-d1e114">
+          De consuetu<lb ed="#C" break="no"/>dine
+          capitulum
+        </p>
+        <!--next paragraph begins on the same line as the previous paragraph-->
+        <p xml:id="bHY6yh-d16692-d1e119">
+          <ref xml:id="bHY6yh-d16692-Rd1e120">ARistoteles
+          <lb ed="#C"/>ethicorum libro 2
+          <lb ed="#C"/>capitulo primo</ref> <quote xml:id="bHY6yh-d16692-Qd1e127">Nullum natura existentium aliter
+          <lb ed="#C"/>assuescit</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e133">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e135">Idem libro 7 capitulo XI</ref> <quote xml:id="bHY6yh-d16692-Qd1e135">Consuetudo
+          <lb ed="#C"/>nature assimilatur</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e142">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e146">Idem libro X et finale capitulo VIII et
+          <lb ed="#C"/>finale</ref> <quote xml:id="bHY6yh-d16692-Qd1e144">non possibile uel non facile ex antiquo 
+          <lb ed="#C"/>consuetudinibus comprehensa sermonem transfor<lb ed="#C" break="no"/>mare</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e154">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e160">Idem de memoria et reminiscentia</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d16692-Qd1e156">Antiquum in natura iam consuetudine con<pb ed="#C" n="24-r"/><cb ed="#C" n="a"/><lb ed="#C" break="no"/>suetudo 
+          est altera natura</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e164">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e173">Idem rethoricorum
+          <lb ed="#C"/>libro primo capitulo 20</ref> <quote xml:id="bHY6yh-d16692-Qd1e166">Simile est consuetudo nature prope
+          <lb ed="#C"/>enim quod sepe et quod semper est consuetudo
+          <lb ed="#C"/>eius quod sepe quod consuecum est delectabile
+          <lb ed="#C"/>est</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e180">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e192">Idem capitulo 21</ref> <quote xml:id="bHY6yh-d16692-Qd1e182">Omnes consueta seruant</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e188">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d16692-Rd1e202">Ibidem libro 2 capitulo 12</ref> <quote xml:id="bHY6yh-d16692-Qd1e190">quod antiquum est prope
+          <lb ed="#C"/>uidetur et quod secundum naturam est</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e196">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e212">Idem politicorum libro
+          <lb ed="#C"/>7 capitulo 12 et finale</ref> <quote xml:id="bHY6yh-d16692-Qd1e198">Expedit et ad frigora assu<lb ed="#C" break="no"/>escere 
+          ex paruis pueris hoc enim et ad sani<lb ed="#C" break="no"/>tatem 
+          et ad bellicas actiones proficit omnia
+          <lb ed="#C"/>quecumque possibile assuescere</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e213">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e234">Idem probleumatum
+          <lb ed="#C"/>particula 19</ref> <quote xml:id="bHY6yh-d16692-Qd1e217">Consuecum magis delectabile est in<lb ed="#C" break="no"/>consueto </quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e223">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e244">Ibidem 28 particula</ref> <quote xml:id="bHY6yh-d16692-Qd1e225">Magnum
+          <lb ed="#C"/>quamquam est consuetudo singulis natura enim utique
+          <lb ed="#C"/>fit</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e233">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e256">Idem methaphicorum libro 2 capitulo 3</ref> <quote xml:id="bHY6yh-d16692-Qd1e235">Consuetum
+          <lb ed="#C"/>ratione sius est</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e241">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e269">Tullius tusculanarum questionum libro I</ref> <quote xml:id="bHY6yh-d16692-Qd1e245">Qui in
+          <lb ed="#C"/>compedibus corporis semper fuerunt etiam
+          <lb ed="#C"/>cum soluti sunt tarduis ingrediuntur</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e253">
+          <ref xml:id="bHY6yh-d16692-Rd1e281">Ibidem libro 2 consuetudo laborum</ref> <quote xml:id="bHY6yh-d16692-Qd1e255">propes<lb ed="#C" break="no"/>sionem 
+          dolorum efficit faciliorem ferre
+          <lb ed="#C"/>laborem contempnere uulnus consuetu<lb ed="#C" break="no"/>do 
+          docet consuetudinis magna est uis</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e267">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d16692-Rd1e300">Ouidius de arte amandi libro 2 Versus</ref> <quote xml:id="bHY6yh-d16692-Qd1e271">fac
+          <lb ed="#C"/>tibi consuescat nil consuetudine maius</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e278">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d16692-Rd1e313">Iuuenalis libro 3 statira versus</ref> <quote xml:id="bHY6yh-d16692-Qd1e282">Consuetu<lb ed="#C" break="no"/>do 
+          mali tenet insanabile multos</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e288">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e325">Marcialis
+          <lb ed="#C"/>coquor libro vndique suscepto capitulo 3 Versus</ref> <quote xml:id="bHY6yh-d16692-Qd1e292">Mens consueta ma<lb ed="#C" break="no"/>lo 
+          firmor erit ei</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e298">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e335">Ibidem capitulo 4 Versus</ref> <quote xml:id="bHY6yh-d16692-Qd1e300">Molli<lb ed="#C" break="no"/>bus 
+          assuetus loricam ferre recusat cer<lb ed="#C" break="no"/>uici 
+          tenere ferrea cassis obest Sepius unc<lb ed="#C" break="no"/>ta 
+          manus capulo non accipit ensem Leta con<lb ed="#C" break="no"/>fecta 
+          cutis frigore et ymbre dolet</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e317">
+          <ref xml:id="bHY6yh-d16692-Rd1e357">ysidorus soliloquiorum libro I capitulo IX</ref> <quote xml:id="bHY6yh-d16692-Qd1e321">Difficile est prauam
+          <lb ed="#C"/>consuetudinem uincere prauus vsus abo<lb ed="#C" break="no"/>letur 
+          assidua consuetudo in naturam ut infra
+          <lb ed="#C"/>ad peccatum consuetudo astringit</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e333">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e373">Idem
+          <lb ed="#C"/>XV capitulo et finale</ref> <quote xml:id="bHY6yh-d16692-Qd1e335">Vvlnus interatum tardius sana<cb ed="#C" n="b"/><lb ed="#C" break="no"/>tur</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e341">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e383">Ibidem libro 2 capitulo 61 Vers difficile uinci<lb ed="#C" break="no"/>tur</ref> 
+          <quote xml:id="bHY6yh-d16692-Qd1e343">consuetudinis uincula uix soluuntur
+          <lb ed="#C"/>Assiduitas mores facit iugis vsus in naturam se
+          <lb ed="#C"/>vertit omnia vsui cedunt vsui omnia parent quod cum
+          <lb ed="#C"/>difficultate ceperis per vsum cum facilitate
+          <lb ed="#C"/>perficies</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e358">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e404">Mattheus vindocinensis in poetria particula I capitulo 6</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d16692-Qd1e362">Consuetudo sapit naturam testa saporis quem
+          <lb ed="#C"/>noua concepit immemor esse negat</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e370">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e419">Idem
+          <lb ed="#C"/>capitulo 12</ref> <quote xml:id="bHY6yh-d16692-Qd1e374">Est graue consuetudo vitiis desuescere
+          <lb ed="#C"/>uergit Noxius a solite noxietatis iter <!--"n" crossed out-->
+          <lb ed="#C"/>pullulat in speciem nature concolor vsus
+          <lb ed="#C"/>Et quasi nature filius esse potest</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e384">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e435">Iacobus benuentanus
+          <lb ed="#C"/>capitulo 46 Vers</ref> <quote xml:id="bHY6yh-d16692-Qd1e388">non est res habilis morem depel<lb ed="#C" break="no"/>lere 
+          corde Est radix cuius inueterata diu
+          <lb ed="#C"/>hec connexa diu mos et natura uidentur defa<lb ed="#C" break="no"/>cili 
+          dirimi ut nec reor ista ualent</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e400">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e451">Idem
+          <lb ed="#C"/>capitulo 48 Vers</ref> <quote xml:id="bHY6yh-d16692-Qd1e402">Res est dura nimis vsum
+          <lb ed="#C"/>depellere longum Radix euelli non ualet
+          <lb ed="#C"/>alta bene</quote>
+        </p>
+        <p xml:id="bHY6yh-d16692-d1e410">
+          ¶ <ref xml:id="bHY6yh-d16692-Rd1e465">Montenarius in luna clericus ver</ref> <quote xml:id="bHY6yh-d16692-Qd1e414">Auget non
+          <lb ed="#C"/>minuit mala consuetudo reatum</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
