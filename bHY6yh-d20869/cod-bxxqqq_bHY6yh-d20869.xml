@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 6</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 6</title>
+          <date when="2023-07-22">July 22, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="34-r"/>
+        <cb ed="#B" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d20869"><!-- p2l1-r6 -->
+        <head xml:id="bHY6yh-d20869-Hd1e108">Rubrica 6</head>
+        <head xml:id="bHY6yh-d20869-Hd1e111" type="question-title">De licita defensione</head>
+        <p xml:id="bHY6yh-d20869-d1e114">
+          De licita defensione Rubrica 6
+        </p>
+        <p xml:id="bHY6yh-d20869-d1e119">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d20869-Rd1e116">LEx digestur titulo de iustitia et <unclear>iur</unclear> libro 3</ref>
+          <lb ed="#B"/> / <quote xml:id="bHY6yh-d20869-Qd1e125">hoc iure euenit ut quod quisque 
+          <lb ed="#B"/>ob tutelam sui corporis fecerit iure 
+          <lb ed="#B"/>fecisse existimetur</quote>
+        </p>
+        <p xml:id="bHY6yh-d20869-d1e133">
+          <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d20869-Rd1e130">titulo ad le acquil 
+          <lb ed="#B"/>libro 3</ref> <quote xml:id="bHY6yh-d20869-Qd1e135">Aduersus periculum naturalis <del>I</del> ratio 
+          <lb ed="#B"/>permittit se defendere</quote>
+        </p>
+        <p xml:id="bHY6yh-d20869-d1e148">
+          ¶ <ref xml:id="bHY6yh-d20869-Rd1e148">titulo de bonis 
+          <lb ed="#B"/>eorum qui ante sententiam libro I</ref> <quote xml:id="bHY6yh-d20869-Qd1e150">Ignoscendum 
+          <lb ed="#B"/>est his qui sanguinem suum qualitercumque 
+          <lb ed="#B"/>redemptum uoluerut</quote>
+        </p>
+        <p xml:id="bHY6yh-d20869-d1e158">
+          ¶ <ref xml:id="bHY6yh-d20869-Rd1e163">lex codit titulo 
+          <lb ed="#B"/>quoniam liceat se sine iudice vindicare 
+          <lb ed="#B"/>libro I</ref> <quote xml:id="bHY6yh-d20869-Qd1e162">Melius est in tempus occurrere quam 
+          <lb ed="#B"/>post exitum vindicare</quote>
+        </p>
+        <p xml:id="bHY6yh-d20869-d1e170">
+          ¶ <ref xml:id="bHY6yh-d20869-Rd1e176">titulo in quibus 
+          <lb ed="#B"/>causis in integrum resti resti tunto est <unclear>neccesaria</unclear> 
+          <lb ed="#B"/>libro finale</ref> <quote xml:id="bHY6yh-d20869-Qd1e172">Melius est intacta iura seruare 
+          <lb ed="#B"/>quam post causam uulneratam remedium
+          <lb ed="#B"/>querere</quote>
+        </p>
+        <p xml:id="bHY6yh-d20869-d1e182">
+          ¶ <ref xml:id="bHY6yh-d20869-Rd1e191">titulo ad le cor de sicca libro</ref> <quote xml:id="bHY6yh-d20869-Qd1e184">siquis 
+          <lb ed="#B"/>percussorem defensor proprie salutis uidetur
+          <lb ed="#B"/>in nullo peccasse</quote>
+        </p>
+        <p xml:id="bHY6yh-d20869-d1e192">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d20869-Rd1e205">UEgecius<!--line jumps up--> de re militari libro 3 titulo 3</ref><!--line jumps down--> <quote xml:id="bHY6yh-d20869-Qd1e196">diuitiarum secura non 
+          <pb ed="#B" n="34-v"/>
+          <cb ed="#B" n="a"/>
+          <lb ed="#B"/>est possessio nisi armorum defensione
+           <lb ed="#B"/>seruetur</quote>
+        </p>
+        <p xml:id="bHY6yh-d20869-d1e204">
+          ¶ <ref xml:id="bHY6yh-d20869-Rd1e217">libro 4 titulo 8</ref> / <quote xml:id="bHY6yh-d20869-Qd1e206">oppugnantium 
+           <lb ed="#B"/>machinis per alias machina consueuit</quote>
+        </p>
+        <p xml:id="bHY6yh-d20869-d1e213">
+           <lb ed="#B"/><ref xml:id="bHY6yh-d20869-Rd1e230">CAssiodorus epistolarum libro 9 epistola 25</ref> <quote xml:id="bHY6yh-d20869-Qd1e217">Il<lb ed="#B" break="no"/>le 
+          defensor proprie dicendus est 
+          <lb ed="#B"/>qui tuetur in noxie</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
