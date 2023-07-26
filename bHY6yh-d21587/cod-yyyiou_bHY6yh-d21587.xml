@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 9</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 9</title>
+          <date when="2023-07-26">July 26, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="30-v"/>
+        <cb ed="#C" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d21587"><!-- p2l1-r9 -->
+        <head xml:id="bHY6yh-d21587-Hd1e108">Rubrica 9</head>
+        <head xml:id="bHY6yh-d21587-Hd1e111" type="question-title">De errore facti et erronea existimatione</head>
+        <p xml:id="bHY6yh-d21587-d1e114">
+          De errore et facti
+          <lb ed="#C"/>et erronea ex<lb ed="#C" break="no"/>timatione 
+          capitulum
+        </p>
+        <!--next paragraph begins on the second line of the previous paragraph-->
+        <p xml:id="bHY6yh-d21587-d1e121">
+          <ref xml:id="bHY6yh-d21587-Rd1e118">MOyses in
+          <lb ed="#C"/>deuteronomio
+          <lb ed="#C"/>capitulo 28</ref> <quote xml:id="bHY6yh-d21587-Qd1e127">Maledictus qui errare facit secum
+          <lb ed="#C"/>in itinere</quote> 
+        </p>
+        <p xml:id="bHY6yh-d21587-d1e133">
+          ¶ <ref xml:id="bHY6yh-d21587-Rd1e133">Quintilianus declamat prima declaram</ref> <quote xml:id="bHY6yh-d21587-Qd1e137">Te<lb ed="#C" break="no"/>nues 
+          rerum ymagines solent cogitatio<lb ed="#C" break="no"/>nibus 
+          accipere corpus cum <sic>uarie</sic> absenti animo 
+          <lb ed="#C"/>cogitationes finguntur</quote>
+        </p>
+        <p xml:id="bHY6yh-d21587-d1e148">
+          ¶ <ref xml:id="bHY6yh-d21587-Rd1e150">Lex digestum titulo de iu<lb ed="#C" break="no"/>risdictione 
+          o iudice libro qui per errorem</ref> <quote xml:id="bHY6yh-d21587-Qd1e152">Non consenti<lb ed="#C" break="no"/>unt 
+          qui errant uidex summa</quote>
+        </p>
+        <p xml:id="bHY6yh-d21587-d1e162">
+          ¶ <ref xml:id="bHY6yh-d21587-Rd1e165">Ibidem titulo de iuris
+          <lb ed="#C"/>2 facis ig</ref> <quote xml:id="bHY6yh-d21587-Qd1e164">Interpretatio plerumque etiam pruden<lb ed="#C" break="no"/>tissimos 
+          fallit</quote>
+        </p>
+        <p xml:id="bHY6yh-d21587-d1e172">
+          ¶ <ref xml:id="bHY6yh-d21587-Rd1e178">Ibidem de suppellectili legata libro labeo
+          <lb ed="#C"/>§ finale</ref> <quote xml:id="bHY6yh-d21587-Qd1e174">Nemo existimandus est id dixisse quod
+          <lb ed="#C"/>non mente agitauit</quote>
+        </p>
+        <p xml:id="bHY6yh-d21587-d1e182">
+          ¶ <ref xml:id="bHY6yh-d21587-Rd1e191">Ibidem titulo ad libro iuls maie
+          <lb ed="#C"/>libro famosi § I</ref>  <quote xml:id="bHY6yh-d21587-Qd1e184">lubricum lingue facile ad
+          <lb ed="#C"/>penam trahendum non est</quote>
+        </p>
+        <p xml:id="bHY6yh-d21587-d1e192">
+          ¶ <ref xml:id="bHY6yh-d21587-Rd1e204">Ibidem titulo de regnum
+          <lb ed="#C"/>iudex libro infrascripta</ref> <quote xml:id="bHY6yh-d21587-Qd1e194">Non uidetur qui errat con<lb ed="#C" break="no"/>sentire</quote>
+        </p>
+        <p xml:id="bHY6yh-d21587-d1e200">
+          ¶ <ref xml:id="bHY6yh-d21587-Rd1e217">Ualerius maxius libro IX capitulo IX</ref> <quote xml:id="bHY6yh-d21587-Qd1e204">uide
+          <lb ed="#C"/>summa</quote>
+        </p>
+        <p xml:id="bHY6yh-d21587-d1e213">
+          ¶ <ref xml:id="bHY6yh-d21587-Rd1e232">Auctor libelli de formula honeste uite capitulo
+          <lb ed="#C"/>4</ref> <quote xml:id="bHY6yh-d21587-Qd1e217">Errori facile ueniam dato</quote>
+        </p>
+        <p xml:id="bHY6yh-d21587-d1e223">
+          ¶ <ref xml:id="bHY6yh-d21587-Rd1e244">Andreas
+          <lb ed="#C"/>ad gualterium de amore libro I</ref> <quote xml:id="bHY6yh-d21587-Qd1e227">Fas est ab erra<lb ed="#C" break="no"/>to 
+          discedere et ab eo quodquisque minus recte per<lb ed="#C" break="no"/>senserit 
+          resisipiscere</quote>
+        </p>
+        <p xml:id="bHY6yh-d21587-d1e235">
+          ¶ <ref xml:id="bHY6yh-d21587-Rd1e258">prouerbiorum metricum extra<lb ed="#C" break="no"/>ordinem 
+          uagans</ref> <quote xml:id="bHY6yh-d21587-Qd1e239">Vt paruantur forsan nec
+          <lb ed="#C"/>torquis habetur</quote>
+        </p>
+        <p xml:id="bHY6yh-d21587-d1e245">
+          [omitted]
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
