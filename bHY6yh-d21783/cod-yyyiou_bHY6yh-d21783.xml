@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 11</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 11</title>
+          <date when="2023-07-26">July 26, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="30-v"/>
+        <cb ed="#C" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d21783"><!-- p2l1-r11 -->
+        <head xml:id="bHY6yh-d21783-Hd1e108">Rubrica 11</head>
+        <head xml:id="bHY6yh-d21783-Hd1e111" type="question-title">De necessitate. ii.</head>
+        <p xml:id="bHY6yh-d21783-d1e114">
+          [omitted]
+        </p>
+        <!--manuscript makes this rubric a continuation of the last rubric-->
+        <p xml:id="bHY6yh-d21783-d1e119">
+          ¶ <ref xml:id="bHY6yh-d21783-Rd1e116">ARistoteles magnorum
+          <lb ed="#C"/>moralium libro I capitulo 17</ref> <quote xml:id="bHY6yh-d21783-Qd1e127">Operatis etcetera summa</quote>
+        </p>
+        <p xml:id="bHY6yh-d21783-d1e135">
+          <pb ed="#C" n="31-r"/>
+          <cb ed="#C" n="a"/>
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d21783-Rd1e135">Tullius rethoricorum artis veteris libro I capitulo XIIo</ref>
+          <quote xml:id="bHY6yh-d21783-Qd1e139">hiis qui necessario profuerunt haberi gratiam non oportet</quote>
+        </p>
+        <p xml:id="bHY6yh-d21783-d1e146">
+          ¶ <ref xml:id="bHY6yh-d21783-Rd1e148">Quintilianus declamationum VI declamat</ref> <quote xml:id="bHY6yh-d21783-Qd1e150">Omnium
+          <lb ed="#C"/>benefitiorum ista natura ut non sit necessitas sed
+          <lb ed="#C"/>potestas</quote> ¶ <ref xml:id="bHY6yh-d21783-Rd1e157">Ibidem declamat XIII</ref> <quote xml:id="bHY6yh-d21783-Qd1e160">Exasperant necessi<lb ed="#C" break="no"/>tates</quote>
+        </p>
+        <p xml:id="bHY6yh-d21783-d1e160">
+          ¶ <ref xml:id="bHY6yh-d21783-Rd1e170">Seneca epistolarum ad lucillum libro VII epistola
+          <lb ed="#C"/>VIII</ref> <quote xml:id="bHY6yh-d21783-Qd1e164">Sic animum componamus ut quicquid
+          <lb ed="#C"/>res exigit id uelimus</quote>
+        </p>
+        <p xml:id="bHY6yh-d21783-d1e172">
+          ¶ <ref xml:id="bHY6yh-d21783-Rd1e184">Lucanus libro 4</ref> <quote xml:id="bHY6yh-d21783-Qd1e176">Cu<lb ed="#C" break="no"/>pias 
+          quodcumque necesse est</quote>
+        </p>
+        <p xml:id="bHY6yh-d21783-d1e180">
+          ¶ <ref xml:id="bHY6yh-d21783-Rd1e194">Palladius de agri<lb ed="#C" break="no"/>cultura 
+          </ref> <quote xml:id="bHY6yh-d21783-Qd1e184">necessitas etcetera uide summma</quote>
+        </p>
+        <p xml:id="bHY6yh-d21783-d1e190">
+          [omitted]
+        </p>
+        <p xml:id="bHY6yh-d21783-d1e200">
+          ¶ <quote xml:id="bHY6yh-d21783-Qd1e204"> <ref xml:id="bHY6yh-d21783-Rd1e221">Cassio<lb ed="#C" break="no"/>derus 
+          epistolarum libro 4 fabula V</ref>Grande commodum
+          <lb ed="#C"/>est cum ludi gentibus pacisci quoniam fames totum
+          <lb ed="#C"/>solet contendere ut suam necessitatem possit
+          <lb ed="#C"/>explere</quote>
+        </p>
+        <p xml:id="bHY6yh-d21783-d1e215">
+          [omitted]
+        </p>
+        <p xml:id="bHY6yh-d21783-d1e223">
+          ¶ <ref xml:id="bHY6yh-d21783-Rd1e244">Ibidem XIII capitulo</ref> <quote xml:id="bHY6yh-d21783-Qd1e225">Sub quadam excusatione peccare creditur cui necessaria non habentur dum mater
+          <lb ed="#C"/>criminum necessitas tollitur peccandi ambitus
+          <lb ed="#C"/>auferetur</quote>
+        </p>
+        <p>
+          ¶ Idem epistola 13 Neccessitas moderata
+          <lb ed="#C"/>non diligit
+        </p>
+        <p xml:id="bHY6yh-d21783-d1e235">
+          ¶ <ref xml:id="bHY6yh-d21783-Rd1e260">Andreas ad gualterium de
+          <lb ed="#C"/>amore </ref> <quote xml:id="bHY6yh-d21783-Qd1e239">Importunam necessitate nulla iuris
+          <lb ed="#C"/>neccesitas coartari</quote>
+        </p>
+        <p xml:id="bHY6yh-d21783-d1e247">
+          ¶ <ref xml:id="bHY6yh-d21783-Rd1e274">Mattheus vindocinensis in poetria
+          <lb ed="#C"/>parte 2 capitulo 3</ref> <quote xml:id="bHY6yh-d21783-Qd1e251">Necessitas non habet habet legem</quote>
+        </p>
+        <p xml:id="bHY6yh-d21783-d1e257">
+          [omitted]
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
