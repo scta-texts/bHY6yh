@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 2</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 2</title>
+          <date when="2023-07-29">July 29, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="33-v"/>
+        <cb ed="#C" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d24063"><!-- p2l2-r2 -->
+        <head xml:id="bHY6yh-d24063-Hd1e108">Rubrica 2</head>
+        <head xml:id="bHY6yh-d24063-Hd1e111" type="question-title">De fidelitate et fide et infidelitate seu perfidia</head>
+        <p xml:id="bHY6yh-d24063-d1e114">
+          De fide infidelitate et per<lb ed="#C"/>fidia 
+          capitulum bonum
+        </p>
+        <!--next paragraph begins on the same line as the previous paragraph-->
+        <p xml:id="bHY6yh-d24063-d1e121">
+          <ref xml:id="bHY6yh-d24063-Rd1e117">SA<lb ed="#C"/>lo<lb ed="#C"/>mon 
+          in prouerbiis capitulo XIII</ref> <quote xml:id="bHY6yh-d24063-Qd1e127">Legatus fidelis
+          <lb ed="#C"/>sanitas</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e133">
+          % <ref xml:id="bHY6yh-d24063-Rd1e130">Idem 20 capitulo</ref> <quote xml:id="bHY6yh-d24063-Qd1e135">Virum fidelem quis
+          <lb ed="#C"/>inueniet % Idem 28 Vir fidelis multum lauda<lb ed="#C"/>bitur</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e144">
+          % <ref xml:id="bHY6yh-d24063-Rd1e145">Aristoteles rethoricorum libro I capitulo 2V</ref> <quote xml:id="bHY6yh-d24063-Qd1e148"><sic>diuinerare</sic>
+          <lb ed="#C"/>iniustum facere est</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e154">
+          % <ref xml:id="bHY6yh-d24063-Rd1e157">Salustius iugur<lb ed="#C"/>tino</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d24063-Qd1e158">Expertus sum miseris parum fidei est</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e164">
+          <lb ed="#C"/>% <ref xml:id="bHY6yh-d24063-Rd1e169">Oratio in epistolis libro 2 epistola 2 Vers</ref> <quote xml:id="bHY6yh-d24063-Qd1e168">Multa fidem 
+          <lb ed="#C"/>promissa leuant</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e174">
+          % <ref xml:id="bHY6yh-d24063-Rd1e181">Tullius de officiis libro I capitulo
+          <lb ed="#C"/>X</ref> <quote xml:id="bHY6yh-d24063-Qd1e178">fundamentum iustitie fides est idest con<lb ed="#C"/>uentorum 
+          constantia et ueritas</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e186">
+          % <ref xml:id="bHY6yh-d24063-Rd1e193">Ibidem capitulo XIII</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d24063-Qd1e188">Nec promissa seruanda sunt eaque sunt hiis quibus
+          <lb ed="#C"/>promiseris inutilia nec si plus tibi ea no<lb ed="#C"/>ceant 
+          quam sibi illi prosint cui quid promiseris</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e198">
+          <lb ed="#C"/>% <ref xml:id="bHY6yh-d24063-Rd1e207">Idem libro 2 capitulo 39</ref> <quote xml:id="bHY6yh-d24063-Qd1e200">Nulla res uehementius
+          <lb ed="#C"/>rem publicam continet quam fides</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e209">
+          % <ref xml:id="bHY6yh-d24063-Rd1e220">Idem
+          <lb ed="#C"/>libro 3 capitulo XXII</ref> <quote xml:id="bHY6yh-d24063-Qd1e211">Quod ita inuratum est ut mens
+          <lb ed="#C"/>conceperat id fieri oportere id seruandum est
+          <lb ed="#C"/>quod aliter id si non fecerit nullum periurium est</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e219">
+          <lb ed="#C"/>% <ref xml:id="bHY6yh-d24063-Rd1e234">Idem de amicitia</ref> <quote xml:id="bHY6yh-d24063-Qd1e223">In uita <sic>tiranpnorum</sic>
+          <lb ed="#C"/>nulla fides</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e229">
+          % <ref xml:id="bHY6yh-d24063-Rd1e244">Idem rethoricorum artis ueteris
+          <lb ed="#C"/>capitulo 12</ref> <quote xml:id="bHY6yh-d24063-Qd1e231">Amanus si est fide stabilis amicis esse
+          <lb ed="#C"/>potest qui sepe nos numero fefellerunt per fidem
+          <lb ed="#C"/>eorum errori fidem habere non debemus</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e241">
+          <lb ed="#C"/>% <ref xml:id="bHY6yh-d24063-Rd1e261">Quidius de arte amandi libro I Vers</ref> <quote xml:id="bHY6yh-d24063-Qd1e245">Reddi<lb ed="#C"/>te 
+          depositum pietas sua federa seruet</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e251">
+          % <ref xml:id="bHY6yh-d24063-Rd1e271">Idem
+          <lb ed="#C"/>de fastis libro 3 Vers</ref> <quote xml:id="bHY6yh-d24063-Qd1e253">Tardauerit dictis diffi<lb ed="#C"/>cilisque 
+          fides</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e265">
+          % <ref xml:id="bHY6yh-d24063-Rd1e288">Idem de ponto libro 4 et finale epistola
+          <lb ed="#C"/>X Vers</ref> <quote xml:id="bHY6yh-d24063-Qd1e267">Quis labor est puram non temerare
+          <lb ed="#C"/>fidem</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e274">
+          % <ref xml:id="bHY6yh-d24063-Rd1e301">Seneca tragediarum in agamenone capitulo VIII
+          <lb ed="#C"/>Vers</ref> <quote xml:id="bHY6yh-d24063-Qd1e278">precio parata uincitur prectio fides</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e284">
+          % <ref xml:id="bHY6yh-d24063-Rd1e310">Idem de
+          <pb ed="#C" n="34-r"/>
+          <cb ed="#C" n="a"/>
+          <lb ed="#C"/>moribus</ref> <quote xml:id="bHY6yh-d24063-Qd1e280">priusquem promictas deliberes et cum
+          <lb ed="#C"/>promiseris facies</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e294"> /
+          <ref xml:id="bHY6yh-d24063-Rd1e323">Idem in prouerb.</ref> <quote xml:id="bHY6yh-d24063-Qd1e296">Etiam
+            peccato recte prestatur fides.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e302">
+          
+           <ref xml:id="bHY6yh-d24063-Rd1e335">Lucanus li. i.</ref> <quote xml:id="bHY6yh-d24063-Qd1e306">Nulla fides regni sociis: omnis
+            que potestas Impatiens consortis erit.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e312"> /
+          <ref xml:id="bHY6yh-d24063-Rd1e345">Lib.
+            10. et fi.</ref> <quote xml:id="bHY6yh-d24063-Qd1e314">Nulla fides pietasque inuris qui 
+              castra sequuntur. Uenalesque manus ibi fas vbi
+              maxima merces.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e324">
+          
+           <ref xml:id="bHY6yh-d24063-Rd1e362">Iuuenalis li. i. satis 3.</ref> <quote xml:id="bHY6yh-d24063-Qd1e328">Quantum quisque sua
+            nummorum seruat in archa. Tanum habet et fidei.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e335">
+          
+           <ref xml:id="bHY6yh-d24063-Rd1e375">Lex diges. ti. de pac. l. i. in prin.</ref> <quote xml:id="bHY6yh-d24063-Qd1e339">Quid tam
+            congruum est fidei humane qued ea que intur eos
+            placuerunt seruare.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e347"> /
+          <ref xml:id="bHY6yh-d24063-Rd1e387">Ti. de constituta pecu. l.
+            i. in prin.</ref> <quote xml:id="bHY6yh-d24063-Qd1e349">Graue est fidem fallere</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e355"> /
+          <ref xml:id="bHY6yh-d24063-Rd1e398">Tit. 
+            mandati l. si fid: iussor. §. quendam:</ref> <quote xml:id="bHY6yh-d24063-Qd1e357">
+              Bonefidei non congruit de appicibus inuris disputare.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e365">
+          
+          <ref xml:id="bHY6yh-d24063-Rd1e413">Ti. loca. et condu. l. cum vendere:</ref> <quote xml:id="bHY6yh-d24063-Qd1e369">Bona fides
+            exigit: vt id quod conuenit fiat.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e375"> /
+          <ref xml:id="bHY6yh-d24063-Rd1e423">Lex codic
+            ti. de non nume. pecum l. generaliter.</ref> <quote xml:id="bHY6yh-d24063-Qd1e377">Nimis 
+              indignum iudicamus vt quod quisque sua voce 
+              dilucide protestatus est: id in eundem casum 
+              infirmare testimonioque proprio resistere.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e389">
+          
+           <ref xml:id="bHY6yh-d24063-Rd1e442">Martialis cocus li. vndique suscepto. c. 2.</ref>
+           <quote xml:id="bHY6yh-d24063-Qd1e393">Sponsio res vacua: sponsor versatilis auri.
+            Noli spondenti fidem dare nimis.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e402"> /
+          <ref xml:id="bHY6yh-d24063-Rd1e455">ca. 3.</ref>
+          <quote xml:id="bHY6yh-d24063-Qd1e404">Magna quidem dare: sed promittere parua
+            decorum est: Te facere con gloria nulla tibi.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e412"> /
+          <ref xml:id="bHY6yh-d24063-Rd1e466">c 3</ref>
+          <quote xml:id="bHY6yh-d24063-Qd1e414">Inscrutabilis est malefidei mentis abyssus.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e420">
+          
+           <ref xml:id="bHY6yh-d24063-Rd1e477">Uegecius de re militari li. 3. ti. 9.</ref> <quote xml:id="bHY6yh-d24063-Qd1e424">
+            Aduersis rebus rarior fides est: vbi nudari 
+            incipit qui copiosus aduenit.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e432">
+          
+           <ref xml:id="bHY6yh-d24063-Rd1e491">Auctor li. de formula honeste vite. c. 2.</ref> <quote xml:id="bHY6yh-d24063-Qd1e436">Cum
+            consideratione promitte: plenius quam promiseris 
+            praesta.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e444"> /
+          <ref xml:id="bHY6yh-d24063-Rd1e503">5. c.</ref> <quote xml:id="bHY6yh-d24063-Qd1e446">Nihil tibi intersit an affirmes 
+            aniures: de religione ac fide agi <unclear>sci s</unclear> vbicumque <!--letters smudged-->
+            de veritate tractatur Si contigerit fidelitatem 
+            mendacio redimi: non mentieris sed potus excusabis</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e456">
+          
+           <ref xml:id="bHY6yh-d24063-Rd1e523">Ambrosius de officiis lib. i. c. 28.</ref> <quote xml:id="bHY6yh-d24063-Qd1e460">Liquet
+            etiam in bello fidem et iustitiam obseruari 
+            oportere. Fundamentum iustitie est fides.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e469"> /
+          <ref xml:id="bHY6yh-d24063-Rd1e536">Li. 2
+            c. 6.</ref> <quote xml:id="bHY6yh-d24063-Qd1e471">Auaritia perfidie vicina est. / <ref xml:id="bHY6yh-d24063-Rd1e543">Libro. 3 <!--90.xml-->
+              <pb ed="#V" n="32-r"/>
+              <cb ed="#V" n="a"/>
+              et fi. c. 12.</ref>Unusquisque nihil promittat 
+              inhonestum. at si promiserit tolerabilius est promissum
+              non facere: quam facere quod turbe sit.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e490">
+          
+           <ref xml:id="bHY6yh-d24063-Rd1e564">Cassiodorus epistolarum li. 5. e. 34.</ref> <quote xml:id="bHY6yh-d24063-Qd1e494">
+            Leuissimi animi mos est polliceri facile quia non 
+            disponit implere.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e502"> /
+          <ref xml:id="bHY6yh-d24063-Rd1e576">Idem de amicitia. c. i.</ref> <quote xml:id="bHY6yh-d24063-Qd1e504">Uix
+            aliquis in aliquo integritatem fidei experitur.
+            <ref xml:id="bHY6yh-d24063-Rd1e583">16. c.</ref>Fides in necessitate probatur.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e512">
+          
+           <ref xml:id="bHY6yh-d24063-Rd1e591">Isidorus in sinonima soliloquiorum lib. 2.
+            c. 35.</ref> <quote xml:id="bHY6yh-d24063-Qd1e516">Fac bonum quod spopondisti: non sis in 
+              verbis facilis.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e524"> /
+          <ref xml:id="bHY6yh-d24063-Rd1e604">36. c.</ref> <quote xml:id="bHY6yh-d24063-Qd1e526">In malis promissis 
+            rescinde fidem. Impia est promissio quae scelem adipletur.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e532">
+          
+           <ref xml:id="bHY6yh-d24063-Rd1e616">Cato. c. i.</ref> <quote xml:id="bHY6yh-d24063-Qd1e536">Datum serua. Iusiurandum serua.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e541">
+          
+          <ref xml:id="bHY6yh-d24063-Rd1e627">c. et.</ref> <quote xml:id="bHY6yh-d24063-Qd1e545">Rem tibi promissam: certam promittem noli
+            Rara fides: ideo quia multi multa loquuntur.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e551">
+          
+           <ref xml:id="bHY6yh-d24063-Rd1e639">Uersificator fabularum esopi 31 fa.</ref> <quote xml:id="bHY6yh-d24063-Qd1e555">
+            Expedit infido non interare fidem. Que dedit 
+            infidus mella venena puto.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e563">
+          
+           <ref xml:id="bHY6yh-d24063-Rd1e653">Auctor libri qui dicitur pamphilus. c. 40</ref>
+          <quote xml:id="bHY6yh-d24063-Qd1e567">Est mens nostra suis contria sepe loquelis.
+            Nec factis sequimur omnia que loquimur.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e575">
+          
+           <ref xml:id="bHY6yh-d24063-Rd1e666">Mattheus vindocinensis in poetria parte
+            i. c. 6</ref> <quote xml:id="bHY6yh-d24063-Qd1e579">Iactura fidei notat inconstantia mentis.
+              Palpitat in vario pectore rara fides.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e587">
+          
+           <ref xml:id="bHY6yh-d24063-Rd1e681">Iacobus beneuetanus. c. 19.</ref> <quote xml:id="bHY6yh-d24063-Qd1e591">Siquid 
+            promissum fuerit tibi suscipe raptum. Mens
+            apposito: nam resilire potest.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e599"> /
+          <ref xml:id="bHY6yh-d24063-Rd1e693">c. 20.</ref> <quote xml:id="bHY6yh-d24063-Qd1e601">Qui
+            spondet multa soluere pauca solent.
+            Quod dare volueris: nulli spondebis amico
+            Dedecet hic euentos: praecipueque bonos.
+            Cum spondes aliquid manus ilico verba sequatur.
+            Auget enim meritum: qui cito soluit idem.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e616">
+          
+           <ref xml:id="bHY6yh-d24063-Rd1e714">Auctor li. de moribus medicorum. c. 4.</ref> <quote xml:id="bHY6yh-d24063-Qd1e620">Dum
+            dolet infirmus promittit premia multa.
+            Cessat promissum cum dolor ipse cadit.</quote>
+        </p>
+        <p xml:id="bHY6yh-d24063-d1e628">
+          
+           <ref xml:id="bHY6yh-d24063-Rd1e728">Ricardus iudex venusinus li. de pertracta.
+            nup. c. 37.</ref> <quote xml:id="bHY6yh-d24063-Qd1e632">Quis bonus absque fide.
+              Est homo vas vacuum deficiente fide:
+              Uirtutes alias frustra conaris habere.
+              Si virtus fidei deficit ipsa tibi.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
