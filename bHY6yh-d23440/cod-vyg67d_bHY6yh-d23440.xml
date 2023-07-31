@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 1</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Alicia Koepke</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 1</title>
+          <date when="2023-07-18">July 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#O" n="53-r"/>
+        <cb ed="#O" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d23440"><!-- p2l2-r1 -->
+        <head xml:id="bHY6yh-d23440-Hd1e108">Rubrica 1</head>
+        <head xml:id="bHY6yh-d23440-Hd1e111" type="question-title">De ueritate et falsitate et mendacio</head>
+        <p xml:id="bHY6yh-d23440-d1e114">
+           <lb ed="#O"/>Secundus 
+           <lb ed="#O"/>liber secun<lb ed="#O" break="no"/>de 
+           parti tractat de 
+           <lb ed="#O"/>ueritate et 
+           <lb ed="#O"/>falsitate
+           <lb ed="#O"/>et connexis 
+           <lb ed="#O"/>utrique ul 
+           alterutri. <unclear>Sub his titulis</unclear> se<lb ed="#O" break="no"/>quentibus. 
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e127">
+           <unclear>De ueritate et</unclear> falsi<lb ed="#O" break="no"/>tate 
+           et mendacio. Rubrica 
+           <lb ed="#O"/>prima 
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e134">
+           <pb ed="#O" n="53-v"/>
+           <cb ed="#O" n="a"/>
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e131">IN exodo. capitulo 23.</ref> <quote xml:id="bHY6yh-d23440-Qd1e138">Non suscipies 
+           <lb ed="#O"/>uocem mendacii. Mendacium 
+           <lb ed="#O"/>fugies.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e145">
+           <!--line bumps down-->
+           <lb ed="#O"/> ¶ <ref xml:id="bHY6yh-d23440-Rd1e144">IN leui<!--line bumps up-->tico. capitulo 19.</ref> <quote xml:id="bHY6yh-d23440-Qd1e149">Non mentie<!--line bumps back down-->mini nec decipiet unus
+           <lb ed="#O"/>quisque proximum suum.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e155">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e156">Psalmista. 11 psalmus.</ref> ¶ <quote xml:id="bHY6yh-d23440-Qd1e159">Diminute 
+           <lb ed="#O"/>sunt ueritates a filiis hominum.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e165">
+           <lb ed="#O"/> ¶ <ref xml:id="bHY6yh-d23440-Rd1e166">84 psalmus.</ref> <quote xml:id="bHY6yh-d23440-Qd1e167">misercordia et ueritas obuiauerunt 
+           <lb ed="#O"/>sibi. ¶ Ueritas de terra orta est et 
+           <lb ed="#O"/>iustitia de celo prospexit.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e175">
+           ¶ <ref xml:id="bHY6yh-d23440-Rd1e180">116 psalmus.</ref> 
+           <lb ed="#O"/><quote xml:id="bHY6yh-d23440-Qd1e179">deus custodit ueritatem in seculum.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e183">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e190">SAlomon improuer. capitulo 13.</ref> ¶ <quote xml:id="bHY6yh-d23440-Qd1e187">Uer<lb ed="#O" break="no"/>bum 
+           mendax iustus detestabi<lb ed="#O" break="no"/>tur. 
+           Impius autem considit et confunde<lb ed="#O" break="no"/>tur.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e195">
+           ¶ <ref xml:id="bHY6yh-d23440-Rd1e204">16. capitulo</ref> <quote xml:id="bHY6yh-d23440-Qd1e197">Qui recta loquitur di<lb ed="#O" break="no"/>rigetur.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e204">
+           ¶ <ref xml:id="bHY6yh-d23440-Rd1e215">17. capitulo</ref> <quote xml:id="bHY6yh-d23440-Qd1e206">Fallax obtemperat 
+           <lb ed="#O"/>labiis mendacibus.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e212">
+           <!--line bumps down-->
+           <lb ed="#O"/> ¶ <ref xml:id="bHY6yh-d23440-Rd1e227">ARistotiles topicorum <!--line bumps up--> libro 4. capitulo 7.</ref> ¶ <quote xml:id="bHY6yh-d23440-Qd1e216">per <!--line bumps back down--> se mendacium 
+           <lb ed="#O"/>prauum et fugiendum est uerum 
+           <lb ed="#O"/>autem et bonum est laudabile.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e224">
+           ¶ <ref xml:id="bHY6yh-d23440-Rd1e239">Idem
+           <lb ed="#O"/>ethicorum libro 1. capitulo 2.</ref> ¶ <quote xml:id="bHY6yh-d23440-Qd1e226">Uidebitur uti<lb ed="#O" break="no"/>que 
+           melius esse forsitan et oportere 
+           <lb ed="#O"/>pro salute ueritatis et familiaria 
+           <lb ed="#O"/>destruere aliterque et phylosophos 
+           <lb ed="#O"/>existentes ambobus enim existentibus 
+           <lb ed="#O"/>amicis sanctum est praehonorare ueri<lb ed="#O" break="no"/>tatem</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e240">
+           ¶ <ref xml:id="bHY6yh-d23440-Rd1e258">libro 4. capitulo 8.</ref> <quote xml:id="bHY6yh-d23440-Qd1e242">Per se menda<lb ed="#O" break="no"/>cium 
+           prauum et fugiendum est 
+           <lb ed="#O"/>uerum autem bonum et laudabile 
+           <lb ed="#O"/>est.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e252">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e279">CRo<!--line bumps up-->nica denugis philosophurum. capitulo 28 <!--line bumps back down--> s. de aristotele</ref> ¶ <quote xml:id="bHY6yh-d23440-Qd1e260">Aristote<lb ed="#O" break="no"/>les 
+           interrogatus quid fenoris
+           <lb ed="#O"/>acquirant mendaces inquit 
+           <lb ed="#O"/>ut quotiens uera dicunt non credantur eis.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e270">
+           <cb ed="#O" n="b"/>
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e296">IEsus filius sirach in eccl. capitulo 
+           <lb ed="#O"/>4.</ref> ¶ <quote xml:id="bHY6yh-d23440-Qd1e274">Non contradicas uerbo 
+           <lb ed="#O"/>ueritatis ullo modo.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e281">
+           ¶ <ref xml:id="bHY6yh-d23440-Rd1e307">20. capitulo</ref> ¶ <quote xml:id="bHY6yh-d23440-Qd1e283">Po<lb ed="#O" break="no"/>tior 
+           fur est quam assiduitas uiri 
+           <lb ed="#O"/>mendacis proditionem autem ambo 
+           <lb ed="#O"/>hereditabunt.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e291">
+           ¶ <ref xml:id="bHY6yh-d23440-Rd1e319">23. capitulo</ref> <quote xml:id="bHY6yh-d23440-Qd1e293">uir multum 
+           <lb ed="#O"/>iurans replebitur iniquitate.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e299">
+           <lb ed="#O"/> ¶ <ref xml:id="bHY6yh-d23440-Rd1e329">25. capitulo</ref> <quote xml:id="bHY6yh-d23440-Qd1e301">Tres species odiuit anima 
+           <lb ed="#O"/>mea. pauperem superbum diuitem 
+           <lb ed="#O"/>mendacem et senem fatuum 
+           <lb ed="#O"/>et insensatum.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e311">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e344">Phylon. in l. <!--line bumps up--> sapiente. capitulo 1.</ref> <quote xml:id="bHY6yh-d23440-Qd1e315">Os eius <!--line bumps back down--> qui mentitur oc<lb ed="#O" break="no"/>cidit 
+           animam.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e321">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e356">TErentius <unclear>mian<!--line bumps up-->dria</unclear>. capitulo 3.</ref> ¶ <quote xml:id="bHY6yh-d23440-Qd1e325">hoc <!--line bumps back down--> tempore obsequium
+           <lb ed="#O"/>amicos ueritas odium parit.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e331">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e368">TUllius rethoric. artis ueteris 
+           <lb ed="#O"/>libro 2. capitulo 9.</ref> ¶ <quote xml:id="bHY6yh-d23440-Qd1e335">Ueritas est uirtus 
+           <lb ed="#O"/>per quam immutata ea quie sunt
+           <lb ed="#O"/>Aut fuerit aut futura sunt 
+           <lb ed="#O"/>dicuntur.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e344">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e383">QUinti<!--line bumps up-->lianus declamationum. 2 de<!--line bumps back down-->clamac.</ref> ¶ <quote xml:id="bHY6yh-d23440-Qd1e348">Uiro forti prae<lb ed="#O" break="no"/>sertim 
+           et innocenti nihil facere
+           <lb ed="#O"/>conuenit quod negandum sit.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e356">
+           ¶ <ref xml:id="bHY6yh-d23440-Rd1e394">10 
+           <lb ed="#O"/>declamac.</ref> <quote xml:id="bHY6yh-d23440-Qd1e358">magis oderis mendaci<lb ed="#O" break="no"/>um 
+           cum simile uero est.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e364">
+           ¶ <ref xml:id="bHY6yh-d23440-Rd1e404">16. decla<lb ed="#O" break="no"/>mac.</ref> 
+           <quote xml:id="bHY6yh-d23440-Qd1e366">Nuncio uobis nichil a mori<lb ed="#O" break="no"/>entibus 
+           <sic>fingi</sic> nichil uita laboran<lb ed="#O" break="no"/>te 
+           simplicius.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e374">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e419">IAcobus apostolus <!--line bumps up--> epistola unica. capitulo 3.</ref> <!--line bumps back down--> ¶ <quote xml:id="bHY6yh-d23440-Qd1e378">Nolite gloria<lb ed="#O" break="no"/>ri 
+           et mendaces esse aduersus 
+           <lb ed="#O"/>ueritatem non est enim ista sapientia 
+           <lb ed="#O"/>desursum descendens sed terrena 
+           <lb ed="#O"/>animalis et diabolica.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e388">
+           <!--line bumps down-->
+           <lb ed="#O"/> ¶ <ref xml:id="bHY6yh-d23440-Rd1e435">PAulus apostolus epistola <!--line bumps up--> ad romanos <!--line bumps back down--> capitulo 3. et p.</ref> <quote xml:id="bHY6yh-d23440-Qd1e392">Est 
+           <lb ed="#O"/>autem deus uerax omnis autem 
+           <pb ed="#O" n="54-r"/>
+           <cb ed="#O" n="a"/>
+           <lb ed="#O"/>homo mendax.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e398">
+           ¶ <ref xml:id="bHY6yh-d23440-Rd1e445">Idem epistola ad 
+           <lb ed="#O"/>colosenses. capitulo 3. et pe.</ref> <quote xml:id="bHY6yh-d23440-Qd1e400">nolite men<lb ed="#O" break="no"/>tiri 
+           inuicem.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e407">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e459">SEneca trage<!--line bumps up-->diarum in edipo. <!--line bumps back down--> capitulo 10.</ref> <quote xml:id="bHY6yh-d23440-Qd1e411">Quid uer<lb ed="#O" break="no"/>ba 
+           queris ueritas odit mo<lb ed="#O" break="no"/>ras.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e417">
+           ¶ <ref xml:id="bHY6yh-d23440-Rd1e469">Idem epistolarum ad lucillum 
+           <lb ed="#O"/>libro 5. e. 11. et fi.</ref> <quote xml:id="bHY6yh-d23440-Qd1e419">que ueritati operam 
+           <lb ed="#O"/>dat orationem incomposita debet esse et 
+           <lb ed="#O"/>simplex.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e429">
+           ¶ <ref xml:id="bHY6yh-d23440-Rd1e484">libro 6. e. 6.</ref> <quote xml:id="bHY6yh-d23440-Qd1e431">apta decent et 
+           <lb ed="#O"/>simplicia ueritatem.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e437">
+           ¶ <ref xml:id="bHY6yh-d23440-Rd1e494">7. e. et fi.</ref> 
+           <lb ed="#O"/><quote xml:id="bHY6yh-d23440-Qd1e439">ueritas simplex oratio est.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e443">
+           ¶ <ref xml:id="bHY6yh-d23440-Rd1e504">libro 13 
+           <lb ed="#O"/>e. 4.</ref> <quote xml:id="bHY6yh-d23440-Qd1e447">ueritas in omnem partem sui ea<lb ed="#O" break="no"/>dem
+           est qui decipiunt nichil ha<lb ed="#O" break="no"/>bent 
+           solidi tenue est mendacium 
+           <lb ed="#O"/>plucet si diligenter inspexeris</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e455">
+           <lb ed="#O"/> ¶ <ref xml:id="bHY6yh-d23440-Rd1e518">Idem declamac. libro 1. in prohemio</ref> 
+           <lb ed="#O"/> ¶ <quote xml:id="bHY6yh-d23440-Qd1e459">Semper circa ueritatem est simi<lb ed="#O" break="no"/>litudo.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e466">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e531">LEx <!--line bumps up--> coditie ti si ut se ab hereditate <!--line bumps back down--> abstineant libro 1.</ref> <quote xml:id="bHY6yh-d23440-Qd1e460">Fides ueri<lb ed="#O" break="no"/>tatis 
+           uerborum adminicula non 
+           <lb ed="#O"/>desiderat.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e482">
+           ¶ <ref xml:id="bHY6yh-d23440-Rd1e548">lex auc. ti. de fide instru<lb ed="#O" break="no"/>mentor
+           fidem impern.</ref> ¶ <quote xml:id="bHY6yh-d23440-Qd1e484">Nichil ali<lb ed="#O" break="no"/>ud 
+           est falsitas quam immutatio ue<lb ed="#O" break="no"/>ritatis.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e492">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e563">MArci<!--line bumps up-->alis cocus li. undique suscep<!--line bumps back down-->to. capitulo 3.</ref> ¶ <quote xml:id="bHY6yh-d23440-Qd1e496">Rumor falsi<lb ed="#O" break="no"/>dicus 
+           surgit et ecce cadit.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e502">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e574">AUctor libe. de formula honeste ui<lb ed="#O" break="no"/>te. 
+           capitulo 2.</ref> ¶ <quote xml:id="bHY6yh-d23440-Qd1e506">Non recedas auero</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e512">
+           <lb ed="#O"/> ¶ <ref xml:id="bHY6yh-d23440-Rd1e583">capitulo 5.</ref> <quote xml:id="bHY6yh-d23440-Qd1e514">nichil tibi intersit an af<lb ed="#O" break="no"/>firmes 
+           an inures de religione ac 
+           <lb ed="#O"/>fide agi scias ubicumque de ueritate 
+           <lb ed="#O"/>tractatur. ¶ Si aliquando coarteris U<lb ed="#O" break="no"/>ti 
+           mendacio utere non ad falsi sed ad ueri custodiam. ¶ Si conti<lb ed="#O" break="no"/>gerit 
+           fidelitatem mendacio re<lb ed="#O" break="no"/>dimi 
+           <cb ed="#O" n="b"/>
+           non mentieris sed potius ex<lb ed="#O" break="no"/>cusabis.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e531">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e606">CEcilius <!--line bumps up--> de beata uita libro 2.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-d23440-Qd1e535">ueritas a uulgi solet uariis 
+           <lb ed="#O"/>sermonibus dissipata corrumpi.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e542">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e619">AUgustinus in epig. prosperi 
+           <lb ed="#O"/>ep. 65.</ref> ¶ <quote xml:id="bHY6yh-d23440-Qd1e546">Difficilia et laborio<lb ed="#O" break="no"/>sa 
+           sunt sigmenta mendacii quae
+           <lb ed="#O"/>autem uult uerum dicere non laborat.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e554">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e633">MAcrobius saturnaliorum 
+           <lb ed="#O"/>libro 2. capitulo 18</ref> ¶ <quote xml:id="bHY6yh-d23440-Qd1e558">Exauditor liberii. 
+           <lb ed="#O"/> ¶ Nimium altercando ueritas a<lb ed="#O" break="no"/>mittitur.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e564">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e645">Fulgentius <!--line bumps up--> libro 3. et fi. Fab. 21. et fi.</ref> <quote xml:id="bHY6yh-d23440-Qd1e568">lu<!--line bumps back down-->cida ueritas omnium 
+           <lb ed="#O"/>malorum morum falsitate
+           <lb ed="#O"/>circumdata pollui aliqua commi<lb ed="#O" break="no"/>stione 
+           non nouit.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e576">
+           <!--Note: ref. kept but quote omitted and replaced with quote from next paragraph-->
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e659">CAssiodorus epistolarum libro 3. e. 3.</ref> <quote xml:id="bHY6yh-d23440-Qd1e580">theodorus rex 
+           <lb ed="#O"/>gothorum cuidam illustri uiro
+           <lb ed="#O"/>dixit ¶ Non te terruit contenti<lb ed="#O" break="no"/>onibus 
+           inflammata regalis auc<lb ed="#O" break="no"/>toritas 
+           subiugasti quim <sic>ymo</sic>
+           <lb ed="#O"/>audaciam ueritati. </quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e586">
+           [omitted/moved]
+           <!--ref. omitted, quote moved up to paragraph on lines 303 to 311-->
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e600">
+           ¶ <ref xml:id="bHY6yh-d23440-Rd1e686">libro 9. e. 24.</ref> <quote xml:id="bHY6yh-d23440-Qd1e602">Que 
+           <lb ed="#O"/>libet malitia formidat contra ma<lb ed="#O" break="no"/>nifesta 
+           bona aliquid profiteri 
+           <lb ed="#O"/>dum generalibus odiis ueretur 
+           <lb ed="#O"/>exponi.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e613">
+           ¶ <ref xml:id="bHY6yh-d23440-Rd1e701">Idem de amincitia. e. 24</ref> 
+           <lb ed="#O"/><quote xml:id="bHY6yh-d23440-Qd1e615">plerumque molesta est ueritas.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e621">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e713">GRegorius in pastorali. capitulo 
+           <lb ed="#O"/>36</ref> <quote xml:id="bHY6yh-d23440-Qd1e625">Impii dum deprehen<lb ed="#O" break="no"/>di 
+           metuunt semper pauidis su<lb ed="#O" break="no"/>spitionibus
+           agitantur nichil autem 
+           <lb ed="#O"/>est ad defendendum puritate 
+           <lb ed="#O"/>tutius nichil ad dicendum ue<lb ed="#O" break="no"/>ritate 
+           facilius.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e637">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e733">Isidorus in sino<!--line bumps up-->nima soliloquiorum libro 2. 
+           <pb ed="#O" n="54-v"/>
+           <cb ed="#O" n="a"/>
+           <lb ed="#O"/>capitulo 34.</ref> <quote xml:id="bHY6yh-d23440-Qd1e641">Omne mendacium peccatum est. 
+           <lb ed="#O"/> ¶ Neminem mentiendo fallax. 
+           <lb ed="#O"/> ¶ Non aliud loqueris et aliud animo
+           <lb ed="#O"/>teneas. Non aliud dicas et aliud 
+           <lb ed="#O"/>facias.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e651">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e750">AUctor <!--line bumps up--> l. qui dicitur pamphylus. capitulo <!--line bumps back down--> 3</ref> <quote xml:id="bHY6yh-d23440-Qd1e655">Crede quod interdum mul<lb ed="#O" break="no"/>tis 
+           mendacia prosunt. ¶ Et quandoque 
+           <lb ed="#O"/>nocet omnia uera loqui. </quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e669">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e770">AUctor l. qui dicitur <!--line bumps up--> facetus <!--line bumps back down--> capitulo 2.</ref> <quote xml:id="bHY6yh-d23440-Qd1e673">Esto 
+           <lb ed="#O"/>ueridicus falsum quandoque loquaris. 
+           <lb ed="#O"/>Nam semper uerum dicere credo nep<lb ed="#O" break="no"/>has.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e681">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e784">BEr<!--line bumps up-->nardus li. de improbatione Ui<!--line bumps back down-->tiorum capitulo 1.</ref> ¶ <quote xml:id="bHY6yh-d23440-Qd1e685">Nil docto men<lb ed="#O" break="no"/>dace 
+           potest truculentius esse</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e692">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e798">RIcardus iudex uenusinus l. de 
+           <lb ed="#O"/>pertractatione nup. capitulo 37.</ref> ¶ <quote xml:id="bHY6yh-d23440-Qd1e696">Est 
+           <lb ed="#O"/>labor in labiis mendacia composi<lb ed="#O" break="no"/>turis 
+           ¶ uera locuturis non labor 
+           <lb ed="#O"/>ullus inest.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e706">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d23440-Rd1e815">MOntenarius <!--line bumps up--> in luna cleri. capitulo 100.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-d23440-Qd1e710">Multa fidem paucis 
+           adimunt mendacia ueris.</quote>
+        </p>
+        <p xml:id="bHY6yh-d23440-d1e716">
+           <lb ed="#O"/> ¶ <ref xml:id="bHY6yh-d23440-Rd1e827">PRouer. uulgare</ref> <quote xml:id="bHY6yh-d23440-Qd1e720"><sic>Elsa</sic> zonze 
+           <lb ed="#O"/><sic>piu</sic> tosto <sic>elbosadro</sic> calcoto. 
+           <lb ed="#O"/> ¶ lomo ueio el forestero po dir
+           <lb ed="#O"/>buxia epo dir uero. ¶ longa uia 
+           <lb ed="#O"/>longa boxia</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 12</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 12</title>
+          <date when="2023-07-27">July 27, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="31-r"/>
+        <cb ed="#C" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d21956"><!-- p2l1-r12 -->
+        <head xml:id="bHY6yh-d21956-Hd1e108">Rubrica 12</head>
+        <head xml:id="bHY6yh-d21956-Hd1e111" type="question-title">De violentia et coactione</head>
+        <p xml:id="bHY6yh-d21956-d1e114">
+          De uiolentia et
+          <lb ed="#C"/>coactione capi<lb ed="#C" break="no"/>tulum
+        </p>
+        <!--next paragraph begins on the same line as the previous paragraph-->
+        <p xml:id="bHY6yh-d21956-d1e119">
+          <ref xml:id="bHY6yh-d21956-Rd1e116">MOyses in
+          <lb ed="#C"/>deuteronomio
+          <lb ed="#C"/>libro 24</ref> <quote xml:id="bHY6yh-d21956-Qd1e125">Cum tenes
+          <lb ed="#C"/>a proximo tuo rem aliquam quam debet tibi
+          <lb ed="#C"/>non ingrediaris domum eius ut pignus aufe<lb ed="#C" break="no"/>ras 
+          sed stabis foris etcetera uide summa in prima parte</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e137">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d21956-Rd1e137">Salomon in prouerbiorum 22 capitulo</ref> <quote xml:id="bHY6yh-d21956-Qd1e141">Non facies uiolen<lb ed="#C" break="no"/>tiam 
+          quia pauper est nec conteres egenum
+          <lb ed="#C"/>in porta quia dominus iudicabit causam eius</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e150">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d21956-Rd1e152">Cronica de nugis philosophorum capitulo VI scilicet de biante</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d21956-Qd1e154">bians de septem sapientibus unus ait persua<lb ed="#C" break="no"/>de 
+          non uiolans</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e162">
+          ¶ <ref xml:id="bHY6yh-d21956-Rd1e166">Aristoteles ethicorum libro I capitulo II</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d21956-Qd1e166">preter naturam est uiolentia</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e172">
+          <ref xml:id="bHY6yh-d21956-Rd1e176">Ibidem 25 capitulo
+          <lb ed="#C"/>et finale</ref> <quote xml:id="bHY6yh-d21956-Qd1e174">Nichil omnius coacti falsa dicunt quam uera
+          <lb ed="#C"/>et facile mentientes quamquam requiescituri celerius</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e184">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d21956-Rd1e190">Idem politicorum libro I capitulo 2</ref> <quote xml:id="bHY6yh-d21956-Qd1e186">Iustum uiolentum non
+          <cb ed="#C" n="b"/>
+          <lb ed="#C"/>est</quote> <ref xml:id="bHY6yh-d21956-Rd1e197">Ibidem libro V capitulo 16</ref> <quote xml:id="bHY6yh-d21956-Qd1e199">Si per fraudem
+          <lb ed="#C"/>principatur aliquis uel per uiolentiam hic
+          <lb ed="#C"/>uidetur <sic>tirapnus</sic> esse non uolentibus
+          <lb ed="#C"/>mox non est rex sed <sic>tyrapnus</sic></quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e198">
+          ¶ <ref xml:id="bHY6yh-d21956-Rd1e211">Idem ethicorum libro
+          <lb ed="#C"/>3 capitulo I</ref> <quote xml:id="bHY6yh-d21956-Qd1e200">videtur uiolentum esse cuius extrinsecus
+          <lb ed="#C"/>principium nichil conferente uim passo</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e210">
+          ¶ <ref xml:id="bHY6yh-d21956-Rd1e226">Idem
+          <lb ed="#C"/>magnorum libro primo capitulo 17</ref> <quote xml:id="bHY6yh-d21956-Qd1e212">Voluntarium est
+          <lb ed="#C"/>etcetera uide summa</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e221">
+          ¶ <ref xml:id="bHY6yh-d21956-Rd1e239">Idem libro 2o capitulo 4</ref> <quote xml:id="bHY6yh-d21956-Qd1e223">Tristitia est
+          <lb ed="#C"/>in hiis que per coactionem sunt</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e229">
+          ¶ <ref xml:id="bHY6yh-d21956-Rd1e252">Terentius
+          <lb ed="#C"/>in adelphis</ref> <quote xml:id="bHY6yh-d21956-Qd1e233">Qui suam imperium uide summa</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e241">
+          <lb ed="#C"/><ref xml:id="bHY6yh-d21956-Rd1e266">Ouidius de tristibus libro V Epistola IX</ref> <quote xml:id="bHY6yh-d21956-Qd1e245">Credit viribus
+          <lb ed="#C"/>equum iucta qua pugnati iura sub ense ia<lb ed="#C" break="no"/>cent</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e253">
+          ¶ <ref xml:id="bHY6yh-d21956-Rd1e278">Ibidem epistola 12 Vers</ref> <quote xml:id="bHY6yh-d21956-Qd1e255">Adde quod iniustum rigi<lb ed="#C" break="no"/>do 
+          ius dicitur ense Dantur et in medio<lb ed="#C" break="no"/>vulnera 
+          sepe foro</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e263">
+          ¶ <ref xml:id="bHY6yh-d21956-Rd1e292">Quintilianus declamatus V</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d21956-Qd1e267">habet pietas impetum suum nec ullum dominus no<lb ed="#C" break="no"/>uit 
+          iniutum</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e273">
+          ¶ <ref xml:id="bHY6yh-d21956-Rd1e304">Ibidem declamatus VI</ref> <quote xml:id="bHY6yh-d21956-Qd1e277">Quidquid
+          <lb ed="#C"/>in honorem alicui inuentum est desinet pri<lb ed="#C" break="no"/>uilegium 
+          uocari posse si cogas genus seruitutis
+          <lb ed="#C"/>est coacta libertas</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e286">
+          ¶ <ref xml:id="bHY6yh-d21956-Rd1e319">Seneca epistolarum ad lucillum
+          <lb ed="#C"/>libro VIII epistola I</ref> <quote xml:id="bHY6yh-d21956-Qd1e290">Nichil honestum est quod ab initio
+          <lb ed="#C"/>coactione fit</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e296">
+          ¶ <ref xml:id="bHY6yh-d21956-Rd1e329">Idem de tranquillitate animi</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d21956-Qd1e298">Male rindent coacta ingenia</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e310">
+          ¶ <ref xml:id="bHY6yh-d21956-Rd1e346">Idem tragediarum
+          <lb ed="#C"/>in trocha capitulo 4</ref> <quote xml:id="bHY6yh-d21956-Qd1e312">Violenta imperia nemo conti<lb ed="#C" break="no"/>nuit 
+          diu</quote> ¶ <ref xml:id="bHY6yh-d21956-Rd1e353">Ibidem in optauia capitulo X</ref> <quote xml:id="bHY6yh-d21956-Qd1e358">Quid ex<lb ed="#C" break="no"/>primitur 
+          graue est</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e320">
+          ¶ <ref xml:id="bHY6yh-d21956-Rd1e365">Lex digestum titulo quod metus
+          <lb ed="#C"/>causa libro I</ref> <quote xml:id="bHY6yh-d21956-Qd1e324">Vis est maioris rei impetus qui re<lb ed="#C" break="no"/>pelli 
+          nonpotest</quote> ¶ <ref xml:id="bHY6yh-d21956-Rd1e374">Ibidem ad libro aquili libro summa
+          <lb ed="#C"/>§ pe</ref> <quote xml:id="bHY6yh-d21956-Qd1e377">vim repellere omnes leges omnia iura
+          <lb ed="#C"/>permictunt</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e334">
+          ¶ <ref xml:id="bHY6yh-d21956-Rd1e387">Ibidem titulo de actionibus empti et uen libro si
+          <lb ed="#C"/>ea res</ref> <quote xml:id="bHY6yh-d21956-Qd1e338">Custodia aduersus uim parum proficit</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e344">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d21956-Rd1e399">Macrobius saturnaliorum libro I capitulo 18</ref> <quote xml:id="bHY6yh-d21956-Qd1e348">Exautiori<lb ed="#C" break="no"/>tate 
+          liberii potestas non solum si inuitetur sed et si plurem
+          <lb ed="#C"/>cogit</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e357">
+          ¶ <ref xml:id="bHY6yh-d21956-Rd1e414">Cassioderus epistolarum libro V Epistola XXVII</ref> <quote xml:id="bHY6yh-d21956-Qd1e361">Ne<lb ed="#C" break="no"/>mo 
+          cogitur ut credat inuitus</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e367">
+          ¶ <ref xml:id="bHY6yh-d21956-Rd1e424">Ibidem
+          <lb ed="#C"/>libro IIII Epistola XX</ref> <quote xml:id="bHY6yh-d21956-Qd1e369">Quid a bellica confusio<lb ed="#C" break="no"/>ne 
+          pax tranquilla distabit si per uim litigia
+          <pb ed="#C" n="31-v"/>
+          <cb ed="#C" n="a"/>
+          <lb ed="#C"/>terminentur</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e377">
+          ¶ <ref xml:id="bHY6yh-d21956-Rd1e436">Idem libro XI Epistola IX</ref> <quote xml:id="bHY6yh-d21956-Qd1e379">Nullus
+          <lb ed="#C"/>ad uiolenta confugiat</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e385">
+          ¶ <ref xml:id="bHY6yh-d21956-Rd1e448">Claudianus
+          <lb ed="#C"/>libro primo Verus</ref> <quote xml:id="bHY6yh-d21956-Qd1e389">peragit tranquilla potestas Quod
+          <lb ed="#C"/>uiolenta nequit mandataque fortius urget
+          <lb ed="#C"/>Imperiosa quies</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e397">
+          ¶ <ref xml:id="bHY6yh-d21956-Rd1e462">Andreas ad gualterium de
+          <lb ed="#C"/>amore libro primo</ref> <quote xml:id="bHY6yh-d21956-Qd1e401">Maioribus censetur meritis
+          <lb ed="#C"/>dignus qui bona sponte preagit quam qui etcetera
+          <lb ed="#C"/>uide summa Coacta nemini sunt grata obsequia
+          <lb ed="#C"/>et nullis digna premio uindicantur</quote>
+        </p>
+        <p xml:id="bHY6yh-d21956-d1e413">
+          [omitted]
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
