@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 7</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#graydonlee">Graydon Lee</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 7</title>
+               <date when="2023-07-10">July 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="35-r"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d15355"><!-- p1l3-r7 -->
+            <head xml:id="bHY6yh-d15355-Hd1e108">Rubrica 7</head>
+            <head xml:id="bHY6yh-d15355-Hd1e111" type="question-title">De diuersitate moralitatum et naturalitatum diuersorum hominum</head>
+            <p xml:id="bHY6yh-d15355-d1e114">
+              <lb ed="#Ka"/>de diuersitate moralitatum et 
+              <lb ed="#Ka"/>naturalitatum diuersorum hominum
+              <lb ed="#Ka"/>rubrica septima
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d15355-Rd1e118">ARistotiles ethycorum libro 1 capitulo
+              <lb ed="#Ka"/>4</ref> <quote xml:id="bHY6yh-d15355-Qd1e129">Multis quidem de<lb ed="#Ka" break="no"/>lectabilia
+              aduersantur
+              <pb ed="#Ka" n="35-v"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>adinuicem quia non naturalia
+              <lb ed="#Ka"/>sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e137">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d15355-Rd1e135">libro 8 capitulo 3</ref> <quote xml:id="bHY6yh-d15355-Qd1e139">unicuique secundum
+              <lb ed="#Ka"/>dilectionem sunt proprie actiones</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e146">
+              // <ref xml:id="bHY6yh-d15355-Rd1e146">libro 10
+              <lb ed="#Ka"/>et <sic>si</sic> capitulo 6</ref> <quote xml:id="bHY6yh-d15355-Qd1e148">videtur esse vnicuique
+              <lb ed="#Ka"/>animali et delectatio propria quemadmodum
+              <lb ed="#Ka"/>et opus</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e156">
+              // <ref xml:id="bHY6yh-d15355-Rd1e158">Idem polliticorum libro 1
+              <lb ed="#Ka"/>capitulo 5</ref> <quote xml:id="bHY6yh-d15355-Qd1e158">non idem vnicuique delec<lb ed="#Ka" break="no"/>tabile
+              est secundum naturam sed altera alteris</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e166">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d15355-Rd1e173">Terentius in formatione capitulo 10</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d15355-Qd1e170">Quot homines tot <unclear>sine</unclear> <unclear>summus</unclear>
+              <lb ed="#Ka"/>cuique mos</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e176">
+              <ref xml:id="bHY6yh-d15355-Rd1e185">Oratius in episto<lb ed="#Ka" break="no"/>lis
+              libro 2 epistola 3 et <sic>si</sic></ref> <quote xml:id="bHY6yh-d15355-Qd1e180">denique non
+              <lb ed="#Ka"/>omnes eadem mirantur amantque</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e186">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d15355-Rd1e197">Tulius de natura deorum libro 1</ref> <quote xml:id="bHY6yh-d15355-Qd1e190">Simi<lb ed="#Ka" break="no"/>lis
+              formis dispares mores et
+              <lb ed="#Ka"/>moribus figura dissimilis</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e198">
+              // <ref xml:id="bHY6yh-d15355-Rd1e209">Idem
+              <lb ed="#Ka"/>de fato</ref> <quote xml:id="bHY6yh-d15355-Qd1e200">in <del rend="strikethrough"><unclear>natris</unclear></del> naturis
+              <lb ed="#Ka"/>hominum dissimilitudines sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e207">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d15355-Rd1e222">Ouidius de arte amandi libro
+              <lb ed="#Ka"/>2 circa finem</ref> <quote xml:id="bHY6yh-d15355-Qd1e211">pectoribus mores
+              <lb ed="#Ka"/>tot sunt quod in orbe figure</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e225">
+              / <ref xml:id="bHY6yh-d15355-Rd1e240">Idem
+              <lb ed="#Ka"/>de remedio amoris libro 2</ref> <quote xml:id="bHY6yh-d15355-Qd1e227">Toti<lb ed="#Ka" break="no"/>dem
+              mores totidemque figure
+              <lb ed="#Ka"/>Quo tuo non possunt offendi
+              <lb ed="#Ka"/>facto forsitan hec alio Iudice
+              <lb ed="#Ka"/>crimen erit</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e237">
+              <lb ed="#Ka"/><add place="margin-bottom"><ref xml:id="bHY6yh-d15355-Rd1e255">persius satis 5</ref> <quote xml:id="bHY6yh-d15355-Qd1e241">mille hominum species et rerum discolor usus velle suum cuique est
+              <lb ed="#Ka"/>nec uoto uiuitur</quote></add>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e249">
+              // <ref xml:id="bHY6yh-d15355-Rd1e269">lex <unclear>ff</unclear> titulo de arbitris
+              <lb ed="#Ka"/>libro item si vnus</ref> <quote xml:id="bHY6yh-d15355-Qd1e253">si in duos
+              <lb ed="#Ka"/>naturalibus <sic>faciiltas</sic> <add place="right">est</add> hominum
+              ad dis<add place="above-line">cen</add>tiendum</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e261">
+              ¶ <ref xml:id="bHY6yh-d15355-Rd1e281">titulo ad senatus con<lb ed="#Ka"/>sultum 
+              trebelli <unclear>ann</unclear> libro</ref> <quote xml:id="bHY6yh-d15355-Qd1e263">qui poterat
+              <lb ed="#Ka"/>vane sunt hominum facultates</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e269">
+              <ref xml:id="bHY6yh-d15355-Rd1e294">Ue<lb ed="#Ka"/>gecius
+              de re militari 2 libro ti 20</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d15355-Qd1e273">naturaliter equites a peditibus solent
+              <lb ed="#Ka"/>discrepare</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e280">
+              <ref xml:id="bHY6yh-d15355-Rd1e307">Maximianus</ref> <quote xml:id="bHY6yh-d15355-Qd1e284">Diuersos
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>diuersa inuuant</quote>
+            </p>
+            <p xml:id="bHY6yh-d15355-d1e288">
+              <ref xml:id="bHY6yh-d15355-Rd1e317">Auctor liber qui
+              <lb ed="#Ka"/>dicitur rudium doctrine liber 1</ref> <quote xml:id="bHY6yh-d15355-Qd1e292">Cuique
+              <lb ed="#Ka"/>dari voluit nature prouida cura
+              <lb ed="#Ka"/>dissimiles vultus animos dissimilesque</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
