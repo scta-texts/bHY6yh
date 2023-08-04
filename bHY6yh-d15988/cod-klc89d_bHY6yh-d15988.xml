@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 10</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#graydonlee">Graydon Lee</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 10</title>
+          <date when="2023-07-20">July 20, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Ka" n="36-v"/>
+        <cb ed="#Ka" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d15988"><!-- p1l3-r10 -->
+        <head xml:id="bHY6yh-d15988-Hd1e108">Rubrica 10</head>
+        <head xml:id="bHY6yh-d15988-Hd1e111" type="question-title">De viribus corporis</head>
+        <p xml:id="bHY6yh-d15988-d1e114">
+          <lb ed="#Ka"/>de <subst><del rend="strikethrough">virtutibus</del><add place="above-line">viribus</add></subst> corporis rubrica 10 
+        </p>
+        <p xml:id="bHY6yh-d15988-d1e121">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d15988-Rd1e116">SAlomon in prouerbiis capitulo 12</ref>
+          <lb ed="#Ka"/><quote xml:id="bHY6yh-d15988-Qd1e125">manus fortium dominabitur que
+          <lb ed="#Ka"/>autem remisasa est tributis seruiet</quote>
+        </p>
+        <p xml:id="bHY6yh-d15988-d1e133">
+          <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d15988-Rd1e131">capitulo 24</ref> <quote xml:id="bHY6yh-d15988-Qd1e135">vir sapiens fortis est
+          <lb ed="#Ka"/>et vir doctus et robustus et validus</quote>
+        </p>
+        <p xml:id="bHY6yh-d15988-d1e144">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d15988-Rd1e146">Socrates in exortationibus capitulo 2</ref>
+          <lb ed="#Ka"/><quote xml:id="bHY6yh-d15988-Qd1e148">fortitudo cum prudentia profuit
+          <lb ed="#Ka"/>ac enim sine mare lesit haben<lb ed="#Ka"/>tes
+          et corpora quidem exercentium
+          <lb ed="#Ka"/>venustauit: anime vero solertiam
+          <lb ed="#Ka"/>effuscauit Corpus mediocri<lb ed="#Ka"/>bus
+          laboribus anima vero studiosis
+          <lb ed="#Ka"/>sermonibus augeri natura est</quote>
+        </p>
+        <p xml:id="bHY6yh-d15988-d1e162">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d15988-Rd1e166">ARistotiles de anima libro 2</ref><!--NOTE: superscript "A" in "ARistotiles"--> <quote xml:id="bHY6yh-d15988-Qd1e166">for<lb ed="#Ka"/>tes
+          carne in eptos men<lb ed="#Ka"/>te
+          videmus Molles autem carne
+          <lb ed="#Ka"/>bene aptos mente</quote>
+        </p>
+        <p xml:id="bHY6yh-d15988-d1e174"> /
+          <ref xml:id="bHY6yh-d15988-Rd1e178">Idem retho<lb ed="#Ka"/>ricorum
+          libro 2 capitulo 16</ref> <quote xml:id="bHY6yh-d15988-Qd1e176">Iuuenes viri<lb ed="#Ka"/>liores
+          sunt animosi enim et bene quorum
+          <lb ed="#Ka"/>hic quidem non timere hoc autem audiere
+          <lb ed="#Ka"/>facit Est autem instatu <del rend="strikethrough">corporis</del>
+          <lb ed="#Ka"/>corpus attriginta annis ut ad
+          <lb ed="#Ka"/>triginta quinque autem vno opus
+          <cb ed="#Ka" n="b"/>
+          <lb ed="#Ka"/>est vsque ad quinquaginta</quote>
+        </p>
+        <p xml:id="bHY6yh-d15988-d1e193">
+          <ref xml:id="bHY6yh-d15988-Rd1e201">Ouidius
+          <lb ed="#Ka"/>de remedio amoris libro 2</ref> <quote xml:id="bHY6yh-d15988-Qd1e197">parua ne<lb ed="#Ka"/>cat
+          morsu spaciosum viiperaturum
+          <lb ed="#Ka"/>A cane non magno sepe tenetur aper</quote>
+        </p>
+        <p xml:id="bHY6yh-d15988-d1e209">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d15988-Rd1e218">Idem de tristibus libro 4 epistola 6</ref> <quote xml:id="bHY6yh-d15988-Qd1e213">fortior
+          <lb ed="#Ka"/>est fulua nouus lucrator arena</quote>
+        </p>
+        <p xml:id="bHY6yh-d15988-d1e221">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d15988-Rd1e232">Idem methamorsosis libro 3</ref> <quote xml:id="bHY6yh-d15988-Qd1e225">dolor
+          <lb ed="#Ka"/>vires adimit</quote>
+        </p>
+        <p xml:id="bHY6yh-d15988-d1e232">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d15988-Rd1e243">Idem de ponto libro
+          <lb ed="#Ka"/>3 capitulo 7</ref> <quote xml:id="bHY6yh-d15988-Qd1e234">omnia deficiunt anime tantum omnia
+          <lb ed="#Ka"/>vincit Illa etiam vires corpus habere
+          <lb ed="#Ka"/>facit</quote>
+        </p>
+        <p xml:id="bHY6yh-d15988-d1e242">
+          <ref xml:id="bHY6yh-d15988-Rd1e256">Seneca epistolarum ad lucillum
+          <lb ed="#Ka"/>libro 3 <del rend="strikethrough">capitulo</del> epistola 1</ref> <quote xml:id="bHY6yh-d15988-Qd1e246">Stulta est et minime
+          <lb ed="#Ka"/>que mens litterato viro occupa<lb ed="#Ka"/>tio
+          exercendi lacertos et dilatan<lb ed="#Ka"/>di
+          ceruicem ac latra formandi</quote>
+        </p>
+        <p xml:id="bHY6yh-d15988-d1e256">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d15988-Rd1e271">Gladius de agricultura capitulo 6</ref> <quote xml:id="bHY6yh-d15988-Qd1e260">in
+          <lb ed="#Ka"/>rebus agrestibus maxime officia
+          <lb ed="#Ka"/>inuenum congruum imperia se<lb ed="#Ka"/>niorum</quote>
+        </p>
+        <p xml:id="bHY6yh-d15988-d1e268">
+          <ref xml:id="bHY6yh-d15988-Rd1e285">Cato capitulo 1</ref> ¶ <quote xml:id="bHY6yh-d15988-Qd1e272">nil arbitrio
+          <lb ed="#Ka"/>virium feceris</quote>
+        </p>
+        <p xml:id="bHY6yh-d15988-d1e276">
+          <ref xml:id="bHY6yh-d15988-Rd1e293">capitulo 3</ref> <quote xml:id="bHY6yh-d15988-Qd1e278">Corporis ex<lb ed="#Ka"/>igui
+          vires <unclear>contempnere</unclear> noli Con<lb ed="#Ka"/>silio
+          pollet cui vim natura negauit</quote>
+        </p>
+        <p xml:id="bHY6yh-d15988-d1e286">
+          <ref xml:id="bHY6yh-d15988-Rd1e306">Caufredus in poetria capitulo 33</ref> <quote xml:id="bHY6yh-d15988-Qd1e290">viri<lb ed="#Ka"/>bus 
+          absit prorsus habere fidem
+          <lb ed="#Ka"/>mors est que facinora frangit</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
