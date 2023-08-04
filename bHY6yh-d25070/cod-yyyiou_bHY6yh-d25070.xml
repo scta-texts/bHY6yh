@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 5</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 5</title>
+          <date when="2023-08-01">August 1, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-08-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="34-r"/>
+        <cb ed="#C" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d25070"><!-- p2l2-r5 -->
+        <head xml:id="bHY6yh-d25070-Hd1e108">Rubrica 5</head>
+        <head xml:id="bHY6yh-d25070-Hd1e111" type="question-title">De simulatione et dissimulatione</head>
+        <!--this is where the manuscript continues after rubric 2-->
+        <p xml:id="bHY6yh-d25070-d1e114">
+          De simulatione et dis<lb ed="#C" break="no"/>simulatione 
+          capitulum
+        </p>
+        <!--next paragraph begins on the same line as the previous paragraph-->
+        <p xml:id="bHY6yh-d25070-d1e121">
+          <ref xml:id="bHY6yh-d25070-Rd1e117">IOb his<lb ed="#C" break="no"/>toriarum
+          <lb ed="#C"/>capitulo 36</ref> <quote xml:id="bHY6yh-d25070-Qd1e125">Simulatores et calidi prouocant
+          <pb ed="#C" n="34-v"/>
+          <lb ed="#C" n="a"/>
+          <lb ed="#C"/><sic>cant</sic> iram dei</quote>
+        </p>
+        <p xml:id="bHY6yh-d25070-d1e131">
+          ¶ <ref xml:id="bHY6yh-d25070-Rd1e129">Salomon in prouerbiorum capitulo 11</ref> <quote xml:id="bHY6yh-d25070-Qd1e135">Simulator
+          <lb ed="#C"/>ore decipit amicum suum</quote>
+        </p>
+        <p xml:id="bHY6yh-d25070-d1e142">
+          ¶ <ref xml:id="bHY6yh-d25070-Rd1e142">Idem 12</ref> <quote xml:id="bHY6yh-d25070-Qd1e146">qui simulat
+          <lb ed="#C"/>iniuriam callidissimus est.</quote>
+        </p>
+        <p xml:id="bHY6yh-d25070-d1e152">
+          ¶ <ref xml:id="bHY6yh-d25070-Rd1e154">Idem regum libro 3 capitulo 3</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d25070-Qd1e156">Due mulieres uenerunt ad regem salomonem
+          <lb ed="#C"/>nec etcetera vsque ibi hec est mater eius</quote>
+        </p>
+        <p xml:id="bHY6yh-d25070-d1e212">
+          ¶ <ref xml:id="bHY6yh-d25070-Rd1e220">yesus filius in
+          <lb ed="#C"/>eccesiastico capitulo 19</ref> <quote xml:id="bHY6yh-d25070-Qd1e216">Est qui nequitur se humiliat et interio<lb ed="#C" break="no"/>ra 
+          eius plena sunt dolo</quote>
+        </p>
+        <p xml:id="bHY6yh-d25070-d1e222">
+          ¶ <ref xml:id="bHY6yh-d25070-Rd1e232">Salustius in
+          <lb ed="#C"/>cathelinario Quidam nomine lelius tarquinius
+          <lb ed="#C"/>ad senatum adductus erat</ref> <quote xml:id="bHY6yh-d25070-Qd1e226">qui ad catheli<lb ed="#C" break="no"/>nam 
+          proficiscentem ex itinere retractum age<lb ed="#C" break="no"/>bat 
+          hic eum diceret se iudicaturum de coniu<lb ed="#C" break="no"/>ratione 
+          catheline si fides publica data sibi da<lb ed="#C" break="no"/>ta 
+          esset Iussus a consule quesieret dicere de paratis
+          <lb ed="#C"/>incendiis de sede bonorum de itinere hostium
+          <lb ed="#C"/>senatum docet Eoque magis properaret ad vrbem
+          <lb ed="#C"/>accedem quo et ceterorum animos reficeret et illi fa<lb ed="#C" break="no"/>cilius 
+          a periculo eriperentur Sed ubi tarquinius
+          <lb ed="#C"/>crassum nominauit hominem nobilem maximis
+          <lb ed="#C"/>diuitiis summa potentia Alii rem incredi<lb ed="#C" break="no"/>bilem 
+          rati esse pars tantum in tali ipse tanta uis hominis
+          <lb ed="#C"/>magis lenisunda magis quam exagitanda uide<lb ed="#C" break="no"/>batur 
+          plerique crasso ex negociis priuatis ob<lb ed="#C" break="no"/>noxii 
+          clamabant omnes falsum iudicem deque
+          <lb ed="#C"/>ea postulant ut referatur itaque consulente ci<lb ed="#C" break="no"/>cerone 
+          frequens senatus decreuit tarquinii
+          <lb ed="#C"/>iudicium falsum esse eumque in uinculis retinendum
+          <lb ed="#C"/>neque amplius potestatem faciendi nisi de eo iudi<lb ed="#C" break="no"/>caret 
+          cuius tantam rem manet mentitus</quote>
+        </p>
+        <p xml:id="bHY6yh-d25070-d1e282">
+          ¶ <ref xml:id="bHY6yh-d25070-Rd1e294">Tullius
+          <lb ed="#C"/>de officiis libro 2 capitulo 17</ref> <quote xml:id="bHY6yh-d25070-Qd1e286">Ficta omnia celeriter tanquam flos<lb ed="#C" break="no"/>culi 
+          decidunt nec simulatum quicquam potest esse diu<lb ed="#C" break="no"/>turnum</quote>
+        </p>
+        <p xml:id="bHY6yh-d25070-d1e294">
+          ¶ <ref xml:id="bHY6yh-d25070-Rd1e308">Ouidius de arte amandi libro i Versus</ref>
+          <quote xml:id="bHY6yh-d25070-Qd1e298">Sepe tantum uere cepit simulator amare sepe quod
+          <lb ed="#C"/>incipiens fixerat esse fuit</quote>
+        </p>
+        <p xml:id="bHY6yh-d25070-d1e311">
+          ¶ <ref xml:id="bHY6yh-d25070-Rd1e327">Seneca declamatione seu ci<lb ed="#C" break="no"/>uilis 
+          causam libro I in prohemino</ref> <quote xml:id="bHY6yh-d25070-Qd1e315">Vtilissima est dissimulata subtilitas
+          <lb ed="#C"/>que effectum apparet habitu lucet</quote>
+        </p>
+        <p xml:id="bHY6yh-d25070-d1e323">
+          ¶ <ref xml:id="bHY6yh-d25070-Rd1e343">Idem in prouerb</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d25070-Qd1e327">Malus bonum ubi se simulat tunc est pessimus</quote>
+        </p>
+        <p xml:id="bHY6yh-d25070-d1e333">
+          <ref xml:id="bHY6yh-d25070-Rd1e355">Frontinus libro i capitulo IX</ref> <quote xml:id="bHY6yh-d25070-Qd1e337">Gneus pompeius trucidi<cb ed="#C" n="b"/><lb ed="#C" break="no"/>to 
+          exercitu melam senatu ne tumultum
+          <lb ed="#C"/>moueret si solos euocasset nocentes mixtis
+          <lb ed="#C"/>eis qui extra delictum erant uenire iussit ita
+          <lb ed="#C"/>et noxii minori animi metu quia non segre<lb ed="#C" break="no"/>gati 
+          Ideoque non ex causa culpe uidebantur
+          <lb ed="#C"/>accersiti Comparuerunt et illi quibus erat
+          <lb ed="#C"/>integra conscientia custodiendis quoque nocentibus 
+          <lb ed="#C"/>attenderunt ite illorum fuge inquinarentur
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d25070-Rd1e377">Uegecius de re militari libro 3 capitulo 3</ref>frequen<lb ed="#C" break="no"/>tius 
+          conuentiones pacisque simulatio credulis
+          <lb ed="#C"/>nocuere quam arma</quote>
+        </p>
+        <p xml:id="bHY6yh-d25070-d1e364">
+          ¶ <ref xml:id="bHY6yh-d25070-Rd1e390">Valerius maximus
+          <lb ed="#C"/>libro 2 titulo</ref> <quote xml:id="bHY6yh-d25070-Qd1e368">sapienter dicta aut facta Tuscula<lb ed="#C" break="no"/>nis 
+          acumine confilii incolumitas parata
+          <lb ed="#C"/>est cum enim crebris rebellationibus metuis<lb ed="#C" break="no"/>sent 
+          ut eorum urbem funditus euertere
+          <lb ed="#C"/>uellent ad romani atque exequendum furius ca<lb ed="#C" break="no"/>millus 
+          maximus dux ualidissimo instructus
+          <lb ed="#C"/>exercitu uenisset Vniuersi ei cogitati obui<lb ed="#C" break="no"/>am 
+          processerunt comeatusque et cetera pacis
+          <lb ed="#C"/>munia benignissime praestiterunt Armatum
+          <lb ed="#C"/>etiam intrare passi sunt nec uultu nec habitu
+          <lb ed="#C"/>mutato quia constantia tranquillitatis
+          <lb ed="#C"/>non solum ad amicitie romanorum sed etiam ad
+          <lb ed="#C"/>communionem romane ciuitatis usque penetrarunt Sa<lb ed="#C" break="no"/>gaci 
+          <sic>eraile</sic> usque simplicitate quoniam comp<lb ed="#C" break="no"/>tius 
+          esse intellexerunt metum officio dissimulare quam armis protegere
+          ¶ <ref xml:id="bHY6yh-d25070-Rd1e427">Auctor libro de formula
+          <lb ed="#C"/>honeste uite capitulo 4</ref> non tibi affingas quod non es ma<lb ed="#C" break="no"/>gis
+          quam es uelis uideri</quote>
+        </p>
+        <p xml:id="bHY6yh-d25070-d1e411">
+          ¶ <ref xml:id="bHY6yh-d25070-Rd1e440">Cato capitulo 2 Versus</ref> <quote xml:id="bHY6yh-d25070-Qd1e415">qui
+          <lb ed="#C"/>simulat uerbis nec corde est fidus amicus
+          <lb ed="#C"/>tum quoque fac simile sic ars deluditur arte</quote>
+        </p>
+        <p xml:id="bHY6yh-d25070-d1e423">
+          <ref xml:id="bHY6yh-d25070-Rd1e452">Idem capitulo 3</ref> <quote xml:id="bHY6yh-d25070-Qd1e425">Insipiens esto cum tempus postulat
+          <lb ed="#C"/>aut res Stultitiam similare loco prudentia summa est</quote>
+        </p>
+        <p xml:id="bHY6yh-d25070-d1e434">
+          ¶ <ref xml:id="bHY6yh-d25070-Rd1e467">Ysydorus soliloquiorum libro 2 capitulo 34</ref> <quote xml:id="bHY6yh-d25070-Qd1e438">Prebe af<lb ed="#C" break="no"/>fectum 
+          sine simulatione sine falso exhibe
+          <lb ed="#C"/>bonitatem</quote>
+        </p>
+        <p xml:id="bHY6yh-d25070-d1e452">
+          ¶ <ref xml:id="bHY6yh-d25070-Rd1e487">Cassiodorus de amicitia capitulo 24</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d25070-Qd1e456">Simulatio siquidem et assentatio due ui<pb ed="#C" n="35-r"/><cb ed="#C" n="a"/><lb ed="#C" break="no"/>olentissime 
+          pestes sunt que procul semper
+          <lb ed="#C"/>ab amicitia relegentur</quote>
+        </p>
+        <p xml:id="bHY6yh-d25070-d1e466">
+          ¶ <ref xml:id="bHY6yh-d25070-Rd1e503">Versificator
+          <lb ed="#C"/>fabule ysopi fabula 44 et finale vers</ref> <quote xml:id="bHY6yh-d25070-Qd1e470">pacis amatorem
+          <lb ed="#C"/>simulat se perfidus hostis cautius ut uulnus ex<lb ed="#C" break="no"/>ciale 
+          ferat</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
