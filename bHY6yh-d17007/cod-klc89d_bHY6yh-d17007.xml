@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 14</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#graydonlee">Graydon Lee</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 14</title>
+          <date when="2023-07-31">July 31, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Ka" n="38-r"/>
+        <cb ed="#Ka" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d17007"><!-- p1l3-r14 -->
+        <head xml:id="bHY6yh-d17007-Hd1e108">Rubrica 14</head>
+        <head xml:id="bHY6yh-d17007-Hd1e111" type="question-title">De crebritate seu frequentia et raritate vsus rerum</head>
+        <p xml:id="bHY6yh-d17007-d1e114">
+          Omitted <!--Rubric heading missing, skips from 13 to 15-->
+        </p>
+        <p xml:id="bHY6yh-d17007-d1e121">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d17007-Rd1e118">Uale<lb ed="#Ka"/>rius
+          maximus libro 2 titulo 1</ref> <quote xml:id="bHY6yh-d17007-Qd1e127">Quid
+          <lb ed="#Ka"/>quem in excelso fastigio positam
+          <lb ed="#Ka"/>est humili et trita consuetudine
+          <lb ed="#Ka"/>quod sit venerabilius vacuum esse
+          <lb ed="#Ka"/>conuenit</quote>
+        </p>
+        <p xml:id="bHY6yh-d17007-d1e137">
+          // <ref xml:id="bHY6yh-d17007-Rd1e141">plinius de naturali hys<lb ed="#Ka"/>toria
+          libro 12 capitulo 19</ref> // <quote xml:id="bHY6yh-d17007-Qd1e141">nulla est vo<lb ed="#Ka"/>luntas
+          que non assiduitate sui fastidium pariat</quote>
+        </p>
+        <p xml:id="bHY6yh-d17007-d1e150">
+          <ref xml:id="bHY6yh-d17007-Rd1e156">Ouidius de pon<lb ed="#Ka"/>to
+          libro 5 epistola 7</ref> <quote xml:id="bHY6yh-d17007-Qd1e154">percussu crebo saxa
+          <lb ed="#Ka"/>cauantur aquis</quote> // <ref xml:id="bHY6yh-d17007-Rd1e162">libro 4 et <sic>si</sic> epistola
+          <lb ed="#Ka"/>10</ref> <quote>Gutta cauat lapidem con<lb ed="#Ka"/>sumitur
+          anulus vsu et teritur praessa
+          <lb ed="#Ka"/>vomer ad huncus humo</quote> <!--NOTE: seperate refs and quotes-->
+        </p>
+        <p xml:id="bHY6yh-d17007-d1e164">
+          <ref xml:id="bHY6yh-d17007-Rd1e174">Iuue<pb ed="#Ka" n="39-r"/><cb ed="#Ka" n="a"/><lb ed="#Ka" break="no"/>nalis
+          libro 4 satis</ref> <quote xml:id="bHY6yh-d17007-Qd1e168">et voluptas con<lb ed="#Ka"/>mendat
+          rarior vsus</quote>
+        </p>
+        <p xml:id="bHY6yh-d17007-d1e174">
+          <ref xml:id="bHY6yh-d17007-Rd1e186">Marcia<lb ed="#Ka"/>lis
+          cocus libro vndique suscepto capitulo
+          <lb ed="#Ka"/>3</ref> <quote xml:id="bHY6yh-d17007-Qd1e178">uilia diuitibus notum est <unclear>plen</unclear><lb ed="#Ka"/>que
+          placere non quod sint vilia sed
+          <lb ed="#Ka"/>quia rara line // Sic plerumque premit
+          <lb ed="#Ka"/>praeciosa uiliori vsus</quote>
+        </p>
+        <p xml:id="bHY6yh-d17007-d1e195">
+          <ref xml:id="bHY6yh-d17007-Rd1e208">Cassiodorus
+          <lb ed="#Ka"/>epistolarum libro 8 epistola 20</ref> <quote xml:id="bHY6yh-d17007-Qd1e199">bonum in solitum
+          <lb ed="#Ka"/>plus amatur</quote>
+        </p>
+        <p xml:id="bHY6yh-d17007-d1e205">
+          <ref xml:id="bHY6yh-d17007-Rd1e220">Uersificator fabu<lb ed="#Ka"/>larum
+          esopi 22 fabula</ref> <quote xml:id="bHY6yh-d17007-Qd1e209">Omne boni
+          <lb ed="#Ka"/>precium nimio vile scit in vsu</quote>
+        </p>
+        <p xml:id="bHY6yh-d17007-d1e215">
+          Omitted <!--<ref xml:id="bHY6yh-d17007-Rd1e232">Heinricus samariensis li. i. parte. i.</ref> <quote xml:id="bHY6yh-d17007-Qd1e219">Omne quod est crebrum nimio vilescit in vsu. Omne quod est rarum carius esse solet.</quote>-->
+        </p>
+        <p xml:id="bHY6yh-d17007-d1e228">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d17007-Rd1e247"><!--no ref--></ref> <quote xml:id="bHY6yh-d17007-Qd1e232">Et quod est rarum se crebito carius
+          <lb ed="#Ka"/>ipso</quote>
+        </p>
+        <p xml:id="bHY6yh-d17007-d1e238">
+          <ref xml:id="bHY6yh-d17007-Rd1e259">prouerbium vulgare</ref> <quote xml:id="bHY6yh-d17007-Qd1e242">Tanto
+          <lb ed="#Ka"/>tona chel pioue Tanto respa
+          <lb ed="#Ka"/>caura che mal chasse Tanto
+          <lb ed="#Ka"/>pigota el pigoca chel la bru<lb ed="#Ka"/>schare tace in lochio</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
