@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 13</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 13</title>
+               <date when="2023-08-06">August 6, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="51-v"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d31691"><!-- p2l3-r13 -->
+            <head xml:id="bHY6yh-d31691-Hd1e108">Rubrica 13</head>
+            <head xml:id="bHY6yh-d31691-Hd1e111" type="question-title">De amicorum confidentia</head>
+            <p xml:id="bHY6yh-d31691-d1e114">
+              <lb ed="#B"/>De confidentia amicorum 13
+            </p>
+            <p xml:id="bHY6yh-d31691-d1e119">
+              <pb ed="#B" n="52-r"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/><ref xml:id="bHY6yh-d31691-Rd1e115">CRonica de nugis philosophorum capitulo 6 scilicet 
+              <lb ed="#B"/>de beante</ref> ¶ <quote xml:id="bHY6yh-d31691-Qd1e127">Bias unus de 7
+              <lb ed="#B"/>sapeientibus dicebat diligere oporte<lb ed="#B" break="no"/>re
+              ut odio habituros nam pleros<!--line jumps down-->que malos</quote> 
+            </p>
+            <p xml:id="bHY6yh-d31691-d1e135">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d31691-Rd1e134">Tvlius de amicitia</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d31691-Qd1e139">Sipio negaba ullam uocem 
+              <lb ed="#B"/>inimicitiorem amicitie posse repi<lb ed="#B" break="no"/>ri 
+              quam eius qui dixisset ita amare 
+              <lb ed="#B"/>oportere ut aliquoniam esset usurus 
+              <lb ed="#B"/>nec uero se adduci posse ut hoc 
+              <lb ed="#B"/>quemadmodum putaretur abiante esse 
+              <lb ed="#B"/>dictum crederet qui sapiens hitus 
+              <lb ed="#B"/>esset vnus ex septem impuri cuius<lb ed="#B" break="no"/>dam 
+              aut ambitiosi ut omnia ad suam
+              <lb ed="#B"/>potentiam reuocantis esse sententiam quo<lb ed="#B" break="no"/>niam 
+              enim modo quisquam amicus esse 
+              <lb ed="#B"/>poterit eius cui se putabit inimi<lb ed="#B" break="no"/>cum 
+              esse posse</quote>
+            </p>
+            <p xml:id="bHY6yh-d31691-d1e163">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d31691-Rd1e164">UAlerius maximus<!--line jumps up--> libro 3 titulo de constan<!--line jumps down-->tia.</ref> ¶ <quote xml:id="bHY6yh-d31691-Qd1e167"><sic>Allexandri</sic>
+              <lb ed="#B"/>macedonum regis amicus et 
+              <lb ed="#B"/>comes philippus medicus cum su<lb ed="#B" break="no"/>is 
+              manibus temperatam potionem
+              <lb ed="#B"/>allexandro porrexisset a permeni<lb ed="#B" break="no"/>one 
+              <hi rend="underline">littere</hi> misse littere superue<lb ed="#B" break="no"/>nerunt 
+              admonentes ut rex in<lb ed="#B" break="no"/>sidias 
+              philippi medici perinde ac 
+              <lb ed="#B"/>pecunia corupti adario caueret quam 
+              <lb ed="#B"/>cum legisset fine ulla contatione me<lb ed="#B" break="no"/>dicamentum 
+              hangit ac eas tantum legen<lb ed="#B" break="no"/>das 
+              philippo tradidit: pro quo tam 
+              <lb ed="#B"/>constanti erga amicum iudicio dig<lb ed="#B" break="no"/>nissimam 
+              adiis immortalibus mer<lb ed="#B" break="no"/>cedem 
+              recepit qui incolumitatis 
+              <lb ed="#B"/>eius praesidium falso interpellari 
+              <lb ed="#B"/>iudicio uoluerunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d31691-d1e194">
+              ¶ <ref xml:id="bHY6yh-d31691-Rd1e195">Idem libro 4 titulo 
+              <lb ed="#B"/>de moderatione</ref> ¶ <quote xml:id="bHY6yh-d31691-Qd1e196">plato cum a quo<lb ed="#B" break="no"/>dam 
+              audierat xenocratem discipu<lb ed="#B" break="no"/>lum 
+              suum dese multa impie locutum 
+              <lb ed="#B"/>sine ulla <del>con</del> cunctactione criminationem 
+              <lb ed="#B"/>respuit instabat certo uultum 
+              <lb ed="#B"/>iudex causam querens cur sibi non 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>fides adhiberetur adiecit non esse 
+              <lb ed="#B"/>credibile ut quem tantopere amaret 
+              <lb ed="#B"/>ab eo inuicem non diligerentur. postre<lb ed="#B" break="no"/>mo 
+              cum ad iusiurandum inimicitias 
+              <lb ed="#B"/>serentis malignitas confugisset ne 
+              <lb ed="#B"/>de periurio eius disputaret affirma<lb ed="#B" break="no"/>uit 
+              numquam xenocratem illa dicturum 
+              <lb ed="#B"/>fuisse nisi ea dici expedire sibi 
+              <lb ed="#B"/>iudicasset</quote>
+            </p>
+            <p xml:id="bHY6yh-d31691-d1e223">
+              ¶ <ref xml:id="bHY6yh-d31691-Rd1e227">Idem titulo de amore et 
+              <lb ed="#B"/>dilectione</ref> ¶ <quote xml:id="bHY6yh-d31691-Qd1e225">damon et phitias pi<lb ed="#B" break="no"/>tagorice 
+              prudentie sacris iniciati 
+              <lb ed="#B"/>tam fidelem intur se amicitiam uinxe<lb ed="#B" break="no"/>runt 
+              ut cum alterum ex hiis dionisius 
+              <lb ed="#B"/>siracusanus interficere uellet at<lb ed="#B" break="no"/>que 
+              hiis temptus ab eo quo prius peri<lb ed="#B" break="no"/>ret 
+              domum perfectus res suas or<lb ed="#B" break="no"/>dinaret
+              impetrasset altur uadem se 
+              <lb ed="#B"/>proredditu eius tyranno dare non 
+              <lb ed="#B"/>dubitauit Igitur omnes et in primis 
+              <lb ed="#B"/>dionisius noue atque ancipitis 
+              <lb ed="#B"/>rei exitum speculabantur appropinquin<lb ed="#B" break="no"/>te 
+              deinde finita die nec illo re<lb ed="#B" break="no"/>deunte 
+              vnusquisque stultitie tam 
+              <lb ed="#B"/>temerarium sponsorem dapnabat 
+              <lb ed="#B"/>at is nichil se de <sic>amicici</sic> constan<lb ed="#B" break="no"/>tia 
+              metuere praedicabat Eodem 
+              <lb ed="#B"/>autem momento et hora adionisio 
+              <lb ed="#B"/>constituta qui eam acceperat super ue<lb ed="#B" break="no"/>nit 
+              amborum animum tyrannus supplicium 
+              <lb ed="#B"/>fidei remisit Insuperque eos roga<lb ed="#B" break="no"/>uit 
+              ut se in societatem amicitie 
+              <lb ed="#B"/>tertium sodalitii gradum ultima cul<lb ed="#B" break="no"/>turum 
+              beniuolentia reciperent ¶ Bias 
+              <lb ed="#B"/>ita agebat homines in vsu amicitie 
+              <lb ed="#B"/>uersari ut meminissent eam ad
+              <lb ed="#B"/>grauissimas inimicitias posse con<lb ed="#B" break="no"/>uerti 
+              Quod quidem praeceptum prima 
+              <lb ed="#B"/>specie nimis fortasse calidum uideatur 
+              <lb ed="#B"/>Inimicumque simplicitati qua praeci<lb ed="#B" break="no"/>pue
+              amicitia gaudet sed si animi al<lb ed="#B" break="no"/>tior 
+              cogitatio dimissa fuerit per quam<!--line jumps down--> vtile reperietur</quote>
+            </p>
+            <p xml:id="bHY6yh-d31691-d1e287">
+              <pb ed="#B" n="53-r"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/><ref xml:id="bHY6yh-d31691-Rd1e294">MAcrobius saturnaliorum libro 2 
+              <lb ed="#B"/>capitulo 18</ref> <quote xml:id="bHY6yh-d31691-Qd1e291">ex auctoritatibus publii ¶ Ita 
+              <lb ed="#B"/>amicum habeas ut posse fieri hunc 
+              <lb ed="#B"/>inimicum putes</quote>
+            </p>
+            <p xml:id="bHY6yh-d31691-d1e299">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d31691-Rd1e308">Avctor libri qui<!--line jumps up--> dicitur facetus capitulo 6</ref><!--line jumps down--> <quote xml:id="bHY6yh-d31691-Qd1e303">Sed tamen in mundo 
+              <lb ed="#B"/>non est fidus amicus / frau<lb ed="#B" break="no"/>de 
+              est et enim calidus est omnis homo</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
