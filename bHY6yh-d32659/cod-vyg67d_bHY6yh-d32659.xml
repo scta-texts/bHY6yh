@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 2</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 2</title>
+               <date when="2023-08-07">August 7, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="74-r"/>
+            <cb ed="#O" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d32659"><!-- p2l4-r2 -->
+            <head xml:id="bHY6yh-d32659-Hd1e108">Rubrica 2</head>
+            <head xml:id="bHY6yh-d32659-Hd1e111" type="question-title">[omitted]</head>
+            <p xml:id="bHY6yh-d32659-d1e114">
+               [omitted]
+               <!--rubrics one (1) and two (2) are merged into Rubrica Prima, there is no title paragraph for rubric two-->
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e119">
+               <!--line bumps down-->
+               <lb ed="#O"/>IOb <!--line bumps up--> hystor. capitulo 2. paruulum oc<!--line bumps back down-->cidit inuidia. 
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e126">
+               <!--line bumps down-->
+                <lb ed="#O"/><ref xml:id="bHY6yh-d32659-Rd1e123">SAlomon in eccl. capitulo 8.</ref> <!--line bumps up--> <quote xml:id="bHY6yh-d32659-Qd1e130">Ait salo<!--line bumps back down-->mon Con%templatus 
+               sum omnes labo%res 
+               hominum et industrias animad%uerti 
+               patere inuidie proximi.</quote>
+            </p>
+            <!--LEFT OFF HERE-->
+            <p xml:id="bHY6yh-d32659-d1e139">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e138">Aristoteles rethori. libro 2. capitulo 12.</ref> <quote xml:id="bHY6yh-d32659-Qd1e143">Ne 
+               messare est tristari de eo qui uidetur indigne bene agere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e151">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e150">capitulo 13.</ref> <quote xml:id="bHY6yh-d32659-Qd1e153">Inuidia est tristitia quedam super
+               bona actione apparente bonorum circa similes.
+               ¶ Inuidebunt quidem tales quibus sunt aliqui 
+               similes aut uidentur. ¶ Amatores honoris 
+               magis inuidiosi sunt quam non amatores honoris.
+               Et opinati sapientes sunt enim amatores 
+               honoris in sapientia. Et uniuersaliter 
+               amatores fame circa aliquid inuidiosi sunt contra hoc </quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e176">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e179">14. capitulo</ref> <quote xml:id="bHY6yh-d32659-Qd1e180">Celus est tristitia quedam super 
+               apparenti potentia bonorum honorabilium et contingentium
+               sibi accipere praeter similes natura non quia alii
+               sed quia non et sibi sunt. ¶ Celatiuus seipsum 
+               praeparat propter emulationem ut obtineat bona.
+               Inuidus autem ut proximus non habeat proptur 
+               inuidiam. ¶ Necesse <sic>cst</sic> celatiuos quidem esse digni <!--'cst' to 'est'?-->
+               ficantes seipsos bonis que non habent. 
+               ¶ Iuuenes et magnanimi sunt zelatiui.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e201"> 
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e208">Idem topicorum libro 2.</ref> <quote xml:id="bHY6yh-d32659-Qd1e203">Inuidia est tristitia in apparenti 
+               utilitate alicuius.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e211">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e223">Iesus filius sirach in eccl. capitulo 9.</ref> <quote xml:id="bHY6yh-d32659-Qd1e215">Non zeles
+               gloriam et opes peccatoris non enim scis que
+               futura sit illius subuersio.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e223">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e235">30. capitulo</ref> <quote xml:id="bHY6yh-d32659-Qd1e225">Zelus et
+               iracundia minuunt dies.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e232">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e248">Oratius in epistolis. 2. capitulo</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e236">In uidus alterius
+               macrescit rebus optimis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e242">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e260">Tullius de oratore libro 2.</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e246">laudi atque glorie
+               maxime inuideri solet. ¶ Inuident homines 
+               maxime paribus aut inferioribus inuident sepe
+               uehementer et eo magis si intolerantius se
+               iactant et equabilitatem communis iuris praestantia
+               dignitatis aut fortune sue transeunt. 
+               ¶ Plerique sunt inuidi maximeque hoc commune est 
+               uitium. ¶ Inuidetur praestanti florentique fortune
+               ut hoc opinio minuatur et illa excellens 
+               opinione fortuna cum laboribus et miseriis permixta uideatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e271">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e289">Idem tusculanarum quaestionem libro 3.</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e273">
+               Inuidentia egritudo est ex alterius rebus secundis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e281">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e301">Idem philippicorum libro 9.</ref> <quote xml:id="bHY6yh-d32659-Qd1e283">Nemo alterius
+               qui sue confidit uirtuti inuidet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e289">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e311">Idem de 
+               essentia mundi.</ref> <quote xml:id="bHY6yh-d32659-Qd1e291">Probus nemini inuidet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e297">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e324">Ouidius sine titulo seu amorum libro 1. capitulo 15. et fi.</ref>
+               ¶ <quote xml:id="bHY6yh-d32659-Qd1e301">Pascitur in inuidis liuor post fata quiscit.
+               Tunc si uis ex merito quemque tuetur homo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e310">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e338">Idem de arte amandi libro 1.</ref> 
+               ¶ <quote xml:id="bHY6yh-d32659-Qd1e314">Fertilior seges est alienis semper in agris.
+               Uicinumque pecus grandius uber habet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e322">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e351">Idem de remedio amoris libro 1. contra fi.</ref> 
+               ¶ <quote xml:id="bHY6yh-d32659-Qd1e326">Summa petit liuor perflant altissima uenti.
+               Summa petunt dextera fulmina missa iouis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e334">
+               <ref xml:id="bHY6yh-d32659-Rd1e364">Idem de fastis libro 4.</ref> <quote xml:id="bHY6yh-d32659-Qd1e338">Que non liuor adit.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e342">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e374">Idem de puncto libro 3. e. 3</ref> 
+               <quote xml:id="bHY6yh-d32659-Qd1e346">Liuor iners uicium mores non exit in altos.
+               Utque latens ima uipera serpit humo. 
+               </quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e360">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e393">Epistola. 4.</ref> <quote xml:id="bHY6yh-d32659-Qd1e364">Scripta placent a morte fere
+               que ledere uiuos Liuor. et iniusto carpore 
+               dente solet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e372"> 
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e405">libro 4. et fi. epistola. 16. et fi.</ref> 
+               <quote xml:id="bHY6yh-d32659-Qd1e374">Non solet ingeniis summa nocere dies.
+               Famaque post cineres maior uenit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e383">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e419">Quintilianus declamationum. 12 declam.</ref> 
+               <quote xml:id="bHY6yh-d32659-Qd1e387">Quo non penetrans improbe liuor quidue 
+               scabre malignitati clausum est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e395">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e432">Matheus in euangelio. capitulo 13.</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e399">Non est 
+               propheta sine honore nisi in patria sua et in 
+               cognatione sua et in domo sua.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e407">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e446">Marcus in euangel. capitulo 6.</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e411">Non est propheta
+               sine honore nisi in patria sua et in cognatio
+               ne sua et in domo sua.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e419">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e460">Lucas in euange. capitulo 4.</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e423">Nemo propheta 
+               acceptus est in patria sua.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e429">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e472">Ioannes in euange. capitulo 4.</ref> <quote xml:id="bHY6yh-d32659-Qd1e433">Propheta in sua 
+               patria honorem non habet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e439">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e484">Paulus apostolus epstola ad galathas. capitulo 5.</ref> <quote xml:id="bHY6yh-d32659-Qd1e443">Si 
+               inuicem mordetis et comeditis uidete ne 
+               abinuicem consumamini.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e452">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e499">Seneca tragediarum in hercule furente. capitulo 3</ref>
+               ¶ <quote xml:id="bHY6yh-d32659-Qd1e456">Inuidia fastum ac sermo popularis premet.
+               ¶ Ars praemi regni est posse ab inuidia pati.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e464">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e512">Idem epistolarum ad lucillum libro 14. e. 1.</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e468">Nemo 
+               eorum qui in re publica uersantur quos uincant
+               sed a quibus uincantur aspicit et illis non tam 
+               iocundum est multos post se uidere quam graue est
+               aliquem ante se habere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e480">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e528">Idem de consolatione
+               ad paulinum.</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e482">Edax et inimica est semper alienis
+               profectibus inuidia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e490"> 
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e541">Idem de tranquillitate
+               animi</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e492">Alit liuorem infelix inertia et omnes 
+               destrui cupiunt qui se prouehere non possunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e500">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e554">Idem
+               de breuitate uite</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e502">In uicino uersatur inuidia.
+               Simplicius longe posita miramur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e510">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e567">Idem in prouerb.</ref> <quote xml:id="bHY6yh-d32659-Qd1e512">Inuidia est dolor animi ex alienis commodis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e521">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e583">Lucanus libro 4.</ref> <quote xml:id="bHY6yh-d32659-Qd1e525">Abscidit nostre multum sors
+               inuida laudi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e531">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e595">Iuuenalis libro 4. satura i.</ref> <quote xml:id="bHY6yh-d32659-Qd1e535">Quosdam precipitat
+               subiecta potentia magne Inuidie.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e541">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e607">Marcialis cocus epigramaton libro 5.</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e545">Esse
+               quid dicam quod uiuis fama negatur.
+               Et sua quod rarus tempora lector amat.
+               Hi sunt inuidie nimirum regule mores. 
+               Preferat antiquos semper ut illa nouis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e562">
+               <ref xml:id="bHY6yh-d32659-Rd1e630">Idem libro undique suscepto. capitulo 1.</ref>
+               ¶ <quote xml:id="bHY6yh-d32659-Qd1e566">Inuidus irrisor rediuiuo crimine gaudet.
+               Et semel irrisum terque quaterque cupit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e574">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e644">Capitulo 2.</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e578">Inuidie flammam qui tigiline laboras
+               Exiccata cutis omnibus insinuat.
+               ¶ Torres inuidia non quintum candide sed te
+               Tores inuidia non alium nisi te.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e588"> 
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e660">Ualerius max. libro 4. ti. de amore et dilctione</ref>
+               <quote xml:id="bHY6yh-d32659-Qd1e592">Nulla tam modesta felicitas est que 
+               malignitatis dentes uitare possit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e601">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e675">Priscianus li. 18. et fi. ti.</ref> <quote xml:id="bHY6yh-d32659-Qd1e605">de significatione
+               uerborum significantium actionem et transitionem.
+               ¶ Inuideo tibi quasi non inuidens tibi fio hoc
+               est non ferens te bene agentem uidere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e615">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e693">Boetius in li. diuisionum:</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e619">Quicquid nouum
+               est in pudenti obstinatione obliqui mors obtractionis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e627">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e705">Idem de disciplina scholarium
+               libro 2.</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e629">Inuidia si secundum quid aduenerit
+               uidelicet in discendo gratuita est. Simpliciter uero 
+               proprii est auctoris consumptura.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e639">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e722">Cassiodorus epistolarum libro 1. e. 8.</ref> <quote xml:id="bHY6yh-d32659-Qd1e643">Quicquid
+               ex inuidia dicitur ueritas non putatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e649">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e732">libro 6.
+               epistola. 22.</ref> <quote xml:id="bHY6yh-d32659-Qd1e651">Maiori cura tractanda sunt ueni 
+               inuidia plus timetur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e659">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e745">libro. 10. e. 11.</ref> <quote xml:id="bHY6yh-d32659-Qd1e661">
+               Profectibus quidem proxima est indubitanter inuidia
+               ¶ Inuidia tolerantia melius uincitur que 
+               contentione semper augetur</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e672">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e762">GRegorius in pastorali. capitulo 35.</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e676">Inuidi dum
+               liuorem a corde non proiiciunt ad apertas
+               operum nequitias deuoluuntur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e684">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e776">Auctor libro qui dicitur pamphilus. capitulo 25.</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e688">Omnia
+               non cessat carpere liuor edax.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e694">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e788">Mattheus uindocinensis in poetria parte
+               2. et fi. capitulo 4.</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e698">Faxinat inuidie spiritus omne bonum
+               Inuidia est odium aliene infelicitatis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e706">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e803">Gaufridus in poetria. capitulo 18.</ref> <quote xml:id="bHY6yh-d32659-Qd1e710">Pessima res
+               liuor totus letale uenenum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e716">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e815">Iacobus beneuentanus. capitulo 6.</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e720">Ut durum 
+               ferrum mordax consumit erugo.
+               Sic hominis lacerat intima liuor edax.</quote>
+            </p>
+            <p xml:id="bHY6yh-d32659-d1e728">
+               ¶ <ref xml:id="bHY6yh-d32659-Rd1e829">Prouerb. uulgar.</ref> ¶ <quote xml:id="bHY6yh-d32659-Qd1e732">Cane en cosina so par
+               non de sira.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
