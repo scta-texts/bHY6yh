@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5</title>
+               <date when="2023-08-08">August 8, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-08" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="38-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d29106"><!-- p2l3-r5 -->
+            <head xml:id="bHY6yh-d29106-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-d29106-Hd1e111" type="question-title">De cognatis</head>
+            <p xml:id="bHY6yh-d29106-d1e114">
+              De proximis cognatis
+              <lb ed="#C"/>et delectione capitulum
+            </p>
+            <!--next paragraph begins on the same line as the previous paragraph-->
+            <p xml:id="bHY6yh-d29106-d1e119">
+              PSalmista psalmo C
+              <lb ed="#C"/>LIII Ecce
+              <lb ed="#C"/>quam bonum et quam iocundum habitare frens in u<lb ed="#C" break="no"/>num 
+            </p>
+            <p xml:id="bHY6yh-d29106-d1e128">
+              ¶ <ref xml:id="bHY6yh-d29106-Rd1e125">Salomon in prouerbiorum capitulo 14</ref> <quote xml:id="bHY6yh-d29106-Qd1e132">qui despicit
+              <lb ed="#C"/>propinquum suum peccat</quote>
+            </p>
+            <p xml:id="bHY6yh-d29106-d1e139">
+              ¶ <ref xml:id="bHY6yh-d29106-Rd1e140">Aristoteles rethoricorum
+              <lb ed="#C"/>libro 2 capitulo 6</ref> <quote xml:id="bHY6yh-d29106-Qd1e143">Species amicicie est sodalitas et
+              <lb ed="#C"/>domesticitas et cognatio</quote>
+            </p>
+            <p xml:id="bHY6yh-d29106-d1e149">
+              ¶ <ref xml:id="bHY6yh-d29106-Rd1e152">Ualerius maxius
+              <lb ed="#C"/>libro 2 titulo de institut antiquis</ref> <quote xml:id="bHY6yh-d29106-Qd1e153">Conuiuium solenne ma<lb ed="#C" break="no"/>iores 
+              instituerunt idque caristiam appellauer<lb ed="#C" break="no"/>unt 
+              qui praeter cognatos et assines nemo
+              <lb ed="#C"/>interponebatur ut siqua inter necessarias personas
+              <lb ed="#C"/>quirela esset orta apud sacramense et uitera
+              <lb ed="#C"/>ylaritatem animorum a fautoribus concordie tolleretur</quote>
+              <pb ed="#C" n="39-r"/>
+              <cb ed="#C" n="a"/>
+            </p>
+            <p xml:id="bHY6yh-d29106-d1e167">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d29106-Rd1e172">Cato capitulo I</ref> <quote xml:id="bHY6yh-d29106-Qd1e171">Cognatos cole</quote>
+            </p>
+            <p xml:id="bHY6yh-d29106-d1e175">
+              ¶ <ref xml:id="bHY6yh-d29106-Rd1e182">Cassiodorus epistolarum
+              <lb ed="#C"/>libro XII et finale capitulo V</ref> <quote xml:id="bHY6yh-d29106-Qd1e179">Gratificante natura illis amp<lb ed="#C" break="no"/>lius 
+              debemus qui nobis aliqua proximitate iunguntur</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
