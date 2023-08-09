@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 1</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 1</title>
+          <date when="2023-08-03">August 3, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-08-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="44-v"/>
+        <cb ed="#B" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d27579"><!-- p2l3-r1 -->
+        <head xml:id="bHY6yh-d27579-Hd1e108">Rubrica 1</head>
+        <head xml:id="bHY6yh-d27579-Hd1e111" type="question-title">De amore et dilectione</head>
+        <p xml:id="bHY6yh-d27579-d1e114">
+          <pb ed="#B" n="44-v"/>
+          <cb ed="#B" n="a"/>
+          <lb ed="#B"/>TErtius liber 
+          <lb ed="#B"/>secunde partis
+          <lb ed="#B"/>tractat de di<lb ed="#B" break="no"/>lectione 
+          et a<lb ed="#B" break="no"/>micitia 
+          sub 
+          <lb ed="#B"/>hiis tytulis
+          <lb ed="#B"/>sequentibus
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e127">
+          <lb ed="#B"/>De amore et dilectione Rubrica 1 
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e134">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e131">SAlomon in cantico canticorum 
+          <lb ed="#B"/>circa finale</ref> ¶ <quote xml:id="bHY6yh-d27579-Qd1e138">fortis est et mors 
+          <lb ed="#B"/>dilectio dura sicud inferus est 
+          <lb ed="#B"/>mulatio ¶ Atque multe non poterunt 
+          <lb ed="#B"/>extinguere charitatem nec flumina 
+          <lb ed="#B"/>obruent illam ¶ Si dederit homo 
+          <lb ed="#B"/>omnem substantiam domus sue pro
+          <lb ed="#B"/>dilectione quasi nichil despiciet<!--line jumps down--> eum</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e156">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e158">ARistotiles libro 4 capitulo I</ref> <quote xml:id="bHY6yh-d27579-Qd1e160">Omnes 
+          <lb ed="#B"/>diligunt sua opera ut parentes 
+          <lb ed="#B"/>et poete</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e166">
+          ¶ <ref xml:id="bHY6yh-d27579-Rd1e168">libro 10 et finale capitulo 5</ref> <quote xml:id="bHY6yh-d27579-Qd1e168">vnus<lb ed="#B" break="no"/>quisque 
+          circa hec et in hiis operatur 
+          <lb ed="#B"/>que maxime diligit</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e176">
+          ¶ <ref xml:id="bHY6yh-d27579-Rd1e181">Idem yco<lb ed="#B" break="no"/>nomirorum 
+          libro I</ref> <quote xml:id="bHY6yh-d27579-Qd1e178">Dissimilitudines 
+          <lb ed="#B"/>morum nequaquam amabant</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e186">
+          ¶ <ref xml:id="bHY6yh-d27579-Rd1e194">Idem 
+          <lb ed="#B"/>magnorum moralium libro 2 capitulo 79</ref> 
+          <lb ed="#B"/><quote xml:id="bHY6yh-d27579-Qd1e188">Multis multotiens aut audire 
+          <lb ed="#B"/>aut abaudire aliquid de aliquo 
+          <lb ed="#B"/>bono beniuoli simus ¶ <ref xml:id="bHY6yh-d27579-Rd1e202">Idem rethoricorum 
+          <lb ed="#B"/>libro I capitulo 20</ref> diligere delectabile 
+          <lb ed="#B"/>est ¶ diligi delectabile ¶ <ref xml:id="bHY6yh-d27579-Rd1e209">libro 2 capitulo 
+          <lb ed="#B"/>6</ref> Nullus que timet amat</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e202">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e218">21 
+          <lb ed="#B"/>capitulo</ref> <quote xml:id="bHY6yh-d27579-Qd1e204">Non oportet amare tamque oditire 
+          <lb ed="#B"/>sed magis odire tanquam amaturum</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e210">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e230">IEsus filius syrach in ecclesiastico capitulo 13</ref> <quote xml:id="bHY6yh-d27579-Qd1e214">Omne 
+          <lb ed="#B"/>animal diligit similem sic et omnis 
+          <lb ed="#B"/>homo proximum sibi</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e221">
+          / <ref xml:id="bHY6yh-d27579-Rd1e241">33 capitulo</ref> <quote xml:id="bHY6yh-d27579-Qd1e223">Si est 
+          <lb ed="#B"/>tibi seruus fidelis sit tibi quasi 
+          <lb ed="#B"/>anima tua</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e229">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e253">TEren<!--line jumps up-->tius in thecira capitulo 9</ref><!--line jumps down--> <quote xml:id="bHY6yh-d27579-Qd1e233">Qui amat cui odio
+          <lb ed="#B"/>ipsius est bis facere stulte 
+          <lb ed="#B"/>dico laborem inanem ipsius capit 
+          <lb ed="#B"/>et illi molestiam affert</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e241">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e267">Tvlius de officiis libro<!--line jumps up--> 2 capitulo 7</ref><!--line jumps down--> <quote xml:id="bHY6yh-d27579-Qd1e245">Omnium rerum 
+          <cb ed="#B" n="b"/>
+          <lb ed="#B"/>nec appetitus est quicquam ad 
+          <lb ed="#B"/>opes tuendas ac tenendas quam 
+          <lb ed="#B"/>diligi nec alienis quam timeri /</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e253">
+          <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d27579-Rd1e281">11 capitulo</ref> <quote xml:id="bHY6yh-d27579-Qd1e257">vehementer multitudinis a<lb ed="#B" break="no"/>mor
+          commouetur ipsa fama et in 
+          <lb ed="#B"/>opinione liberalitatis beniuolen<lb ed="#B" break="no"/>tie 
+          iustitie fidei omniumque earum 
+          <lb ed="#B"/>virtutum ad mansuetudinem morum 
+          <lb ed="#B"/>ac felicitatem</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e269">
+          ¶ <quote xml:id="bHY6yh-d27579-Qd1e273">Idem de amicitia 
+          <lb ed="#B"/>Nichil est virtute amabilius 
+          <lb ed="#B"/>nichil quod magis alliciat ad di<lb ed="#B" break="no"/>ligendum 
+          quippe cum virtute et 
+          <lb ed="#B"/>probitate et eos quos nunquam vidi<lb ed="#B" break="no"/>mus 
+          quoddammodo diligamus 
+          <lb ed="#B"/>¶ Confirmatur amor ex beneficio 
+          <lb ed="#B"/>accepto et studio perspecto et con<lb ed="#B" break="no"/>suetudine 
+          adiuncta</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e296">
+          ¶ <ref xml:id="bHY6yh-d27579-Rd1e326">Idem de fide 
+          <lb ed="#B"/>bonorum et malorum libro 5 et finale</ref> <quote xml:id="bHY6yh-d27579-Qd1e300">Omne 
+          <lb ed="#B"/>animal seipsum diligit</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e307"> 
+          ¶ <ref xml:id="bHY6yh-d27579-Rd1e338">Idem de 
+          <lb ed="#B"/>legibus libro I</ref> <quote xml:id="bHY6yh-d27579-Qd1e309">Natura propensi sumus 
+          <lb ed="#B"/>ad diligendos homines quod funda<lb ed="#B" break="no"/>mentum 
+          iuris est</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e317">
+          ¶ <ref xml:id="bHY6yh-d27579-Rd1e351">Idem de natura 
+          <lb ed="#B"/>deorum libro I</ref> <quote xml:id="bHY6yh-d27579-Qd1e319">Causarum ipsum verbum est amoris</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e327">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e366">Ovidius de arte amandi libro 2</ref> 
+          <lb ed="#B"/><quote xml:id="bHY6yh-d27579-Qd1e331">Sit procul omne nephas 
+          <lb ed="#B"/>ut ameris amabilis esto</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e337">
+          <quote xml:id="bHY6yh-d27579-Qd1e339">Er<lb ed="#B" break="no"/>rue 
+          fastus ¶ Curam mansuri 
+          <lb ed="#B"/>quisquis amoris habes ¶ dulcibus 
+          <lb ed="#B"/>est verbis molis alendus amor
+          <lb ed="#B"/>¶ vane scit que absens et no<lb ed="#B" break="no"/>uus 
+          intrat amor</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e349">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e390">MAtheus in ewangelio<!--line jumps up--> capitulo 6</ref> <quote xml:id="bHY6yh-d27579-Qd1e353">vbi the<!--line jumps down-->zaurus tuus 
+          <lb ed="#B"/>ibi et cor tuum</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e359">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e402">IOhannes in ewange capitulo<!--line jumps up--> 15</ref> <quote xml:id="bHY6yh-d27579-Qd1e363">Maiorem<!--line jumps down--> hac dilectionem 
+          <lb ed="#B"/>nemo habet ut animam suam quis 
+          <lb ed="#B"/>ponat pro amicis suis ¶ <ref xml:id="bHY6yh-d27579-Rd1e410">Idem in 
+          epistola I capitulo 3</ref> Non diligamus verbo 
+          <lb ed="#B"/>neque lingua sed opere et veritate</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e376">
+          <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d27579-Rd1e422">4 capitulo</ref> <quote xml:id="bHY6yh-d27579-Qd1e378">Timor non est in caritate 
+          <lb ed="#B"/>sed perfecta caritas foris mittit
+          <lb ed="#B"/>timorem et cetera et cetera</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e386">
+          <pb ed="#B" n="45-r"/>
+          <cb ed="#B" n="a"/>
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e436">SEneca epistolarum ad lucillum libro 2 
+          <lb ed="#B"/>epistola I</ref> <quote xml:id="bHY6yh-d27579-Qd1e390">Si vis amari ama /</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e396">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e446">libro 4 capitulo 8 et finale</ref> <quote xml:id="bHY6yh-d27579-Qd1e398">Conciliari non nisi 
+          <lb ed="#B"/>turpi ratione amor turpium potest</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e404">
+          <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d27579-Rd1e458">libro 6 epistola 5</ref> <quote xml:id="bHY6yh-d27579-Qd1e408">Qui colitur et amatur 
+          <lb ed="#B"/>¶ Non potest amor cum timore misceri</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e414">
+          <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d27579-Rd1e468">Idem declemencia libro 8 capitulo 6 et finali</ref> 
+          <lb ed="#B"/><quote xml:id="bHY6yh-d27579-Qd1e416">Magnus est amor qui ex mise<lb ed="#B" break="no"/>ricordia 
+          uenit</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e424">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e483">Ivuenalis libro<!--line jumps up--> I satis 3</ref> <quote xml:id="bHY6yh-d27579-Qd1e428">Quis<!--line jumps down--> nunc diligitur nisi
+          <lb ed="#B"/>conscius et feruens Extuat oc<lb ed="#B" break="no"/>cultis 
+          animus semper que tacendis</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e437">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e498">LEx diges titulo de donatis inter virum et 
+          <lb ed="#B"/>vx libro III in prin</ref> <quote xml:id="bHY6yh-d27579-Qd1e441">Amor hones<lb ed="#B" break="no"/>tus 
+          solis animis extimatur</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e449">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e513">MArtialis cocus libro vndique suscep<lb ed="#B" break="no"/>to 
+          capitulo 2</ref> <quote xml:id="bHY6yh-d27579-Qd1e453">Miraris quod nullus 
+          <lb ed="#B"/>amet te ceciliane Numquid amas 
+          <lb ed="#B"/>ullum dilige carus eris</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e461">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e526"></ref> <quote xml:id="bHY6yh-d27579-Qd1e465">Nulli ca<lb ed="#B" break="no"/>rus 
+          erat erodinus et sibi nul<lb ed="#B" break="no"/>lus
+          ¶ capitulo 4 Conuentus morum facu<lb ed="#B" break="no"/>lam 
+          succendit amoris Moribus 
+          <lb ed="#B"/>at variis gratia distrahitur</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e473">
+          ¶ <ref xml:id="bHY6yh-d27579-Rd1e538">libro 5</ref>
+          <lb ed="#B"/><quote xml:id="bHY6yh-d27579-Qd1e475">Inuitus nemo coactus amat
+          <lb ed="#B"/>¶ Blandiciis non imperio uis cres<lb ed="#B" break="no"/>cit 
+          amoris Dilige nos omnes 
+          <lb ed="#B"/>ut ameris ab omnibus vnus /
+          <lb ed="#B"/>Querit amor pariles dissimi<lb ed="#B" break="no"/>les 
+          odium</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e487">
+          ¶ <ref xml:id="bHY6yh-d27579-Rd1e555">capitulo 6</ref> <quote xml:id="bHY6yh-d27579-Qd1e491">Nescit amor ue<lb ed="#B" break="no"/>hemens 
+          ad queque pericula rumpi</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e501">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e571">Avgustinus in epigram prosperi emp 2</ref> 
+          <lb ed="#B"/><quote xml:id="bHY6yh-d27579-Qd1e505">Sic diligendi sunt homines ut 
+          <lb ed="#B"/>eorum non diligantur errores</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e514">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e586">BEetius de consolatione libro<!--line jumps up--> 4 capitulo<!--line jumps down--> 8</ref> <quote xml:id="bHY6yh-d27579-Qd1e518">di<lb ed="#B" break="no"/>lige 
+          iure bonos et miser este 
+          <lb ed="#B"/>malis</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e524">
+          ¶ <ref xml:id="bHY6yh-d27579-Rd1e596">Idem in musica</ref> <quote xml:id="bHY6yh-d27579-Qd1e526">dissimili<lb ed="#B" break="no"/>tudo 
+          atque contria ¶ Amorem dilec<lb ed="#B" break="no"/>tionem 
+          que similitudo conciliat</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e536">
+          ¶ <ref xml:id="bHY6yh-d27579-Rd1e611">libro 
+          <lb ed="#B"/>2 capitulo 16 et finale</ref> <quote xml:id="bHY6yh-d27579-Qd1e538">O felix hominum ge<lb ed="#B" break="no"/>nus 
+          Si uestros animos amor Quo 
+          <lb ed="#B"/>celum regitur regat</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e546">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e625">CAssiodorus de<!--line jumps up--> amicitia capitulo I</ref><!--line jumps down--> <quote xml:id="bHY6yh-d27579-Qd1e550">vix inuenitur
+          <cb ed="#B" n="b"/>
+            <lb ed="#B"/>dilectio: que non sit questuaria 
+            <lb ed="#B"/>et venalis ¶ <ref xml:id="bHY6yh-d27579-Rd1e632">capitulo 3</ref>Amor est quedam 
+            <lb ed="#B"/>uis appetitiua rerum quas desiderio 
+            <lb ed="#B"/>eligimus et amplectimur ad fruen<lb ed="#B" break="no"/>dum 
+            ¶ dilectio exacto animi iudicio 
+            <lb ed="#B"/>uires capud</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e564">
+          ¶ <ref xml:id="bHY6yh-d27579-Rd1e644">capitulo 27 et finale</ref> <quote xml:id="bHY6yh-d27579-Qd1e566">dilectionis 
+          <lb ed="#B"/>est consulere et amico beneficia 
+          <lb ed="#B"/>exhibere</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e572">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e656">UErsifi<!--line jumps up-->cator fabularum esopi 28<!--line jumps down--> fabula</ref> <quote xml:id="bHY6yh-d27579-Qd1e576">Nullus amor du<lb ed="#B" break="no"/>rat 
+          nisi fructus seruat amorem
+          <lb ed="#B"/>Quilibet est tanti munera quan<lb ed="#B" break="no"/>ta 
+          facit</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e585">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e671">Avctor<!--line jumps up--> libro qui dicitur pamphilus<!--line jumps down--> capitulo 3</ref> <quote xml:id="bHY6yh-d27579-Qd1e589">Excitat et nutrit 
+          <lb ed="#B"/>facundia dulcis amorem /</quote>
+        </p>
+        <p xml:id="bHY6yh-d27579-d1e595">
+          <lb ed="#B"/><ref xml:id="bHY6yh-d27579-Rd1e681">13</ref> <quote xml:id="bHY6yh-d27579-Qd1e597">vsu crescit amor omnis decrescit 
+          <lb ed="#B"/>et vsu / omnis et impastus attenu<lb ed="#B" break="no"/>atur 
+          amor</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
