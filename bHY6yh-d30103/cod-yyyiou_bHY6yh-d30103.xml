@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 8</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+             <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 8</title>
+               <date when="2023-08-10">August 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="40-r"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d30103"><!-- p2l3-r8 -->
+            <head xml:id="bHY6yh-d30103-Hd1e108">Rubrica 8</head>
+            <head xml:id="bHY6yh-d30103-Hd1e111" type="question-title">De vera amicitia et amicis veris</head>
+            <p xml:id="bHY6yh-d30103-d1e114">
+              De Amicitia
+              <lb ed="#C"/>et ueris ami<lb ed="#C" break="no"/>cis 
+              capitulum
+            </p>
+            <!--next paragraph begins on the same line as the previous paragraph-->
+            <p xml:id="bHY6yh-d30103-d1e123">
+              <ref xml:id="bHY6yh-d30103-Rd1e119">IN leuitico
+              <lb ed="#C"/>capitulo XVIIII</ref> <quote xml:id="bHY6yh-d30103-Qd1e129">di<lb ed="#C" break="no"/>liges 
+              amicum tuum
+              <lb ed="#C"/>sicud temet ipsum</quote> 
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e135">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e133">Salomon in prouerbiorum capitulo 12</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d30103-Qd1e139">qui negligit dampnum propter amicum sui ius<lb ed="#C" break="no"/>tus 
+              non est</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e146">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e146">Socrates in exhortationibus capitulo I</ref> <quote xml:id="bHY6yh-d30103-Qd1e150">do<lb ed="#C" break="no"/>cet 
+              natos sicud substantie sic et paterne dilectionis
+              <lb ed="#C"/>esse heredes</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e158">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e158">Idem II capitulo</ref> <quote xml:id="bHY6yh-d30103-Qd1e160">Absentium ami<lb ed="#C" break="no"/>corum 
+              memor esto coram patribus ut cen<lb ed="#C" break="no"/>searis 
+              nec eos absentes negligere quoscun<lb ed="#C" break="no"/>que 
+              uelis amicos tibi ibuere de hiis aliquid boni
+              <lb ed="#C"/>profer initium amicicie uero crimen</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e174">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e178">Aristoteles
+              <lb ed="#C"/>ethicorum libro VIII capitulo 2</ref> <quote xml:id="bHY6yh-d30103-Qd1e178">Amicitia maxime necessarium est
+              <lb ed="#C"/>in uita Sine amicis nullus eligeret uiuere habens
+              <lb ed="#C"/>reliqua bona omnia et mendicantibus et prin<lb ed="#C" break="no"/>cipatus 
+              et potentates possidentibus uidetur
+              <lb ed="#C"/>amicis maxime esse opus</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e190">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e194">Idem 3 capitulo</ref> <quote xml:id="bHY6yh-d30103-Qd1e192">Perfec<lb ed="#C" break="no"/>ta 
+              est bonorum amicitia et secundum uirtutem
+              <lb ed="#C"/>similium uoluntas quidem amicitie uelox fit
+              <lb ed="#C"/>amicitia autem non</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e202">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e209">Idem 4 capitulo</ref> <quote xml:id="bHY6yh-d30103-Qd1e204">non uidetur
+              <lb ed="#C"/>senes neque seueri amaturia esse breue enim in
+              <lb ed="#C"/>ipsis quod delectationis est inseueris et senilibus
+              <lb ed="#C"/>minus fit amicitia quantomagis discoli sunt
+              <lb ed="#C"/>et minus colloquiis gaudent hec enim ui<lb ed="#C" break="no"/>dentur 
+              esse maxime amicabilia et factiua ami<pb ed="#C" n="40-v"/><cb ed="#C" n="a"/><lb ed="#C" break="no"/>citie 
+              proptur quod iuuenes fiunt amici cito se<lb ed="#C" break="no"/>nes 
+              autem non Senes et seueri beniuoli
+              <lb ed="#C"/>quidem sunt uolunt quidem bona et ob
+              <lb ed="#C"/>uiant ad necessitates amici autem non omnis
+              <lb ed="#C"/>sunt proptur non commorari neque gaudere adin<lb ed="#C" break="no"/>uicem 
+              maxime uidentur amicabilia et
+              <lb ed="#C"/>multis esse amicum secundum perfectam amicitiam
+              <lb ed="#C"/>non contigit</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e238">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e247">Ibidem capitulo V</ref> <quote xml:id="bHY6yh-d30103-Qd1e240">Equalitas
+              <lb ed="#C"/>est et similitudo amicitia</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e247">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e258">Ibidem capitulo 7</ref> <quote xml:id="bHY6yh-d30103-Qd1e249">In con<lb ed="#C" break="no"/>nuitione 
+              omnis amicitia est</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e253">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e268">Idem libro 9 capitulo 4</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d30103-Qd1e257">Amicus est alius ipse</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e261">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e276">Idem X capitulo</ref> <quote xml:id="bHY6yh-d30103-Qd1e263">Altur ami<lb ed="#C" break="no"/>cus 
+              ipse est</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e269">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e286">Idem XI capitulo</ref> <quote xml:id="bHY6yh-d30103-Qd1e271">Difficile fit et con<lb ed="#C" break="no"/>gaudem 
+              et condolem familiaritur multis non
+              <lb ed="#C"/>contingem uidetur multis esse amicum ualde proptur
+              <lb ed="#C"/>quod neque amare plures</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e281">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e300">Idem XII capitulo</ref> <quote xml:id="bHY6yh-d30103-Qd1e283">Est eti<lb ed="#C" break="no"/>am 
+              praesentia sua ipsa amicorum delectabilis
+              <lb ed="#C"/>et in bonis fortunis et infortuniis alleui<lb ed="#C" break="no"/>antur 
+              enim tristati condolentibus amicis
+              <lb ed="#C"/>Consolatiuum est enim amicus et uisione
+              <lb ed="#C"/>et sermone</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e293">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e314">Idem 13 capitulo et finale</ref> <quote xml:id="bHY6yh-d30103-Qd1e295">Amicis eligibilis<lb ed="#C" break="no"/>simum 
+              est conuiuere communicatio enim amicitia est</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e304">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d30103-Rd1e328">Idem magnorum moralium capitulo libro LI</ref> <quote xml:id="bHY6yh-d30103-Qd1e306">Amicitia
+              <lb ed="#C"/>est medietas adulationis et inimicitie A<lb ed="#C" break="no"/>micitia 
+              est circa operationes et sermones Adu<lb ed="#C" break="no"/>lator 
+              est qui plus decedentibus et docentibus
+              <lb ed="#C"/>adiiciens est diminuens autem inimicus
+              <lb ed="#C"/>et ab eis quie sunt circumauferens neuter ergo
+              <lb ed="#C"/>ratione laudabilis est Amicus autem in medio 
+              <lb ed="#C"/>eorum neque plus eis que sunt additiet
+              <lb ed="#C"/>neque laudabit que non sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e327">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e356">Idem libro 2 capitulo
+              <lb ed="#C"/>62</ref> <quote xml:id="bHY6yh-d30103-Qd1e329">firmissima quidem et elegantissima
+              <lb ed="#C"/>et optima est studiosis amicitia secundum uir<lb ed="#C" break="no"/>tutem 
+              et secundum bonum existens</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e337">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e368">Idem 86 capitulo</ref> <quote xml:id="bHY6yh-d30103-Qd1e339">Est u<lb ed="#C" break="no"/>tique 
+              amicus alter ego</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e345">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e379">Idem rethoricorum libro primo
+              <lb ed="#C"/>capitulo 7</ref> <quote xml:id="bHY6yh-d30103-Qd1e347">Amicus est qui eorum que putat bona
+              <lb ed="#C"/>esse illi opatiuus est proptur illud</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e355">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e392">Idem libro 2 capitulo 4</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d30103-Qd1e357">Amici condolent</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e363">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e372">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e413">Idem capitulo VI</ref> <quote xml:id="bHY6yh-d30103-Qd1e374"> <ref xml:id="bHY6yh-d30103-Rd1e419"></ref>Amare est
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/>uelle alicui que putat bona illius gratia sed
+              <lb ed="#C"/>non sui et secundum posse actiuum esse eorum Amicus
+              <lb ed="#C"/>est qui amat et econtra amatur putantur autem
+              <lb ed="#C"/>amici esse qui sic habere putantur adiuicem
+              <lb ed="#C"/>Nece esse amicum esse congaudentem bonis et con<lb ed="#C" break="no"/>dolentibus 
+              tristibus qui ea qui sibi alii uult huic
+              <lb ed="#C"/>uidetur amicus esse factura amicitie est gratia
+              <lb ed="#C"/>et non requisitum facem et cum fecerit non ma<lb ed="#C" break="no"/>nifestare 
+              sic enim impsius gratia uidetur non proptur
+              <lb ed="#C"/>alterum</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e397">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e442">Idem 16 capitulo</ref> <quote xml:id="bHY6yh-d30103-Qd1e399">Iuuenes sunt amatores
+              <lb ed="#C"/>amicitie et amici et amatores sodalium magis
+              <lb ed="#C"/>quam aliarum etatum quia gaudent in conueniendo</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e407">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e454">Idem pollitur libro 2 capitulo I</ref> <quote xml:id="bHY6yh-d30103-Qd1e409">Amicitiam quidem pu<lb ed="#C" break="no"/>tamus 
+              maximum esse bonorum ciuitatibus sic enim
+              <lb ed="#C"/>utique mime seditiones facient</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e419">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e469">Idem tobicorum libro
+              <lb ed="#C"/>3</ref> <quote xml:id="bHY6yh-d30103-Qd1e421">Magis eligenda est superhabundantia pe<lb ed="#C" break="no"/>cuniarum</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e433">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e487">Cronica de nugis philosophorum capitulo 28</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d30103-Qd1e437">scilicet de Aristotele Aristoteles interrogatus quid
+              <lb ed="#C"/>est amicus vna inquit anima equiualens duo corpora ¶ Idem amicitiam determinab<lb ed="#C" break="no"/>at 
+              esse equilitatem beniuolentie conuertibi<lb ed="#C" break="no"/>lem</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e447">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e503">yesus filius cidrach in ecclesiastico capitulo 6</ref> <quote xml:id="bHY6yh-d30103-Qd1e451">Noli fieri
+              <lb ed="#C"/>pro amico inimicus proximo Amicus fidelis pro<lb ed="#C" break="no"/>cectio 
+              fortis qui autem inuenit illum inuenit te<lb ed="#C" break="no"/>saurum 
+              Amico fideli nulla est comparatio et
+              <lb ed="#C"/>non est digna ponderatio auri et argenti
+              <lb ed="#C"/>contra bonitatem eius fidei</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e466">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e522">Idem 25 capitulo</ref> <quote xml:id="bHY6yh-d30103-Qd1e468">beatus
+              <lb ed="#C"/>qui inuenit amicum uerum</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e472">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e482">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e492">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e500"> 
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e568">Salustius
+              <lb ed="#C"/>in cathelinario</ref>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e508">
+              <quote xml:id="bHY6yh-d30103-Qd1e510">Idem uelle atque idem nolle
+              <lb ed="#C"/>ea demum firma amicitia est</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e517">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e584">Idem in iugur<lb ed="#C" break="no"/>tino</ref> 
+              <quote xml:id="bHY6yh-d30103-Qd1e521">non exercitus neque thesaurum praesidia
+              <lb ed="#C"/>regni sunt uerum amici quos neque armis
+              <lb ed="#C"/>cogere neque auro parare quas officio et fi<lb ed="#C" break="no"/>de 
+              parantur Eadem edisse atque eadem me<lb ed="#C" break="no"/>tuere 
+              inter bonos amicitia intur malos fictio
+              <lb ed="#C"/>est Melius visum est amicos quam seruos quirere
+              <lb ed="#C"/>tu quibus que uolentibus quam coactis imperitare</quote>
+              <pb ed="#C" n="41-r"/>
+              <cb ed="#C" n="a"/>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e538">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d30103-Rd1e607">Tullius rethoricorum artis ueteros libro 2 capitulo
+              <lb ed="#C"/>X</ref> <quote xml:id="bHY6yh-d30103-Qd1e542">Amicitia est uoluntas circa aliqua rem
+              <lb ed="#C"/>bonarum ipsius illius causa quam diligit</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e550">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d30103-Rd1e619">Idem de amicitia</ref> <quote xml:id="bHY6yh-d30103-Qd1e552">Ego uos ortari possum
+              <lb ed="#C"/>tantum ut amicitiam omnibus rebus antepo<lb ed="#C" break="no"/>natis 
+              nichil enim est tam uere aptum tam
+              <lb ed="#C"/>quam conueniens ad res uel secundas uel aduer<lb ed="#C" break="no"/>sas 
+              hoc sentio amicitiam non nisi in bonis
+              <lb ed="#C"/>esse non posse Amicitia non est nisi omnium huma<lb ed="#C" break="no"/>narum
+              diuinarumque rerum cum beniuo<lb ed="#C" break="no"/>lentia 
+              summa consentio virtus amicitiam
+              <lb ed="#C"/>gignit et continet nec sine uirtute amicitia
+              <lb ed="#C"/>ullo pacto esse potest quid dulcius quam habere amicum
+              <lb ed="#C"/>cum quo omnia possis loqui ut tecum Secun<lb ed="#C" break="no"/>das 
+              res splendidiores facit esse amicitia et
+              <lb ed="#C"/>aduersas leuiores comitansque et patiens quan<lb ed="#C" break="no"/>ta 
+              uis amicitie concordieque sit ex dissen<lb ed="#C" break="no"/>tionibus 
+              atque discordiis percipi potest Nulla
+              <lb ed="#C"/>est excusatio peccati si amici causa peccaueris
+              <lb ed="#C"/>hec lex in amicitia sanciatur ut neque ro<lb ed="#C" break="no"/>gemus 
+              res turpes nec faciamus rogati vere
+              <lb ed="#C"/>amicitie difficile imperiuntur in hiis qui
+              <lb ed="#C"/>honoribus reipublice versantur</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e601">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e671">Idem de officii libro 3
+              <lb ed="#C"/>capitulo 9</ref> <quote xml:id="bHY6yh-d30103-Qd1e603">neque contra rempublicam nec contra iusiurandum
+              <lb ed="#C"/>ac fidem amici sui uir bonus faciet</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e611">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e682">Idem de fide
+              <lb ed="#C"/>bonorum et malorum libro I Epicurus ita dicit</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d30103-Qd1e613">omnium rerum quas ad beate uiuendum
+              <lb ed="#C"/>sapientia comparuit nichil est maius amicitia
+              <lb ed="#C"/>nichil uberius nichil iocundius</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e630">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e703">Idem de
+              <lb ed="#C"/>natura deorum libro I</ref> <quote xml:id="bHY6yh-d30103-Qd1e632">hominum caritas et amicitia
+              <lb ed="#C"/>gratuita est</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e639">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e717">Quintilianus declamatione de<lb ed="#C" break="no"/>clamatus
+              8</ref> <quote xml:id="bHY6yh-d30103-Qd1e643">non reperio quid in rebus humanis ex<lb ed="#C" break="no"/>cogitauerit 
+              natura prestantius amicitia quid
+              <lb ed="#C"/>concordia contra fortunam maius <!--quam crossed out--> auxili<lb ed="#C" break="no"/>um</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e653">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e733">Seneca epistolarum ad lucillum libro 2 epistola
+              <lb ed="#C"/>prima</ref> <quote xml:id="bHY6yh-d30103-Qd1e657">negociatio est non amicitia que ad com<lb ed="#C" break="no"/>odum 
+              accedit quomodo homini homines natura consili<cb ed="#C" n="b"/><lb ed="#C" break="no"/>at 
+              sic inest huic quoque rei qui nos ami<lb ed="#C" break="no"/>citiarum 
+              appetentes faciat qui amicus est
+              <lb ed="#C"/>amat qui amat non utique amicus est itaque
+              <lb ed="#C"/>amicitia semper prodest amor etiam aliquando
+              <lb ed="#C"/>nocet ¶ <ref xml:id="bHY6yh-d30103-Rd1e752">Idem libro VII epistola V</ref>Amicus animo
+              <lb ed="#C"/>possidendus est</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e676">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e760">Idem de tranquillitate animi</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d30103-Qd1e680">Nichil eque oblectat animum quam amicitia fide<lb ed="#C" break="no"/>lis 
+              et dulcis</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e686"> 
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e692">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e778">Marcialis coqus epigramaton
+              <lb ed="#C"/>libro V</ref> <quote xml:id="bHY6yh-d30103-Qd1e696">Ex colit uirgitas pauper amicitias</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e702">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e788">Idem libro vndique suscepto capitulo 2</ref> <quote xml:id="bHY6yh-d30103-Qd1e704">quisquis amicus sed
+              <lb ed="#C"/>non qui amat omnis amicus</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e713">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e804">Valerius
+              <lb ed="#C"/>maximus libro 4 titulo de amore et dilectione capitulo 7
+              <lb ed="#C"/>et petrus</ref> <quote xml:id="bHY6yh-d30103-Qd1e717">Amicitie uinculum potens est et praeua<lb ed="#C" break="no"/>lidum 
+              neque ulla ex parte sanguis iuribus
+              <lb ed="#C"/>inferius hoc etiam certius et exploratius quod
+              <lb ed="#C"/>illud nascendi sors fortuitum opus hoc v<lb ed="#C" break="no"/>niuscuiusque 
+              solido uidicio inchoacta uolun<lb ed="#C" break="no"/>tas 
+              leuitatis crimen subiecta est deserta est
+              <lb ed="#C"/>futura uita hominis nullius amicitie iunc<lb ed="#C" break="no"/>ta 
+              presidio</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e734">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e827">Ambrosius de officiis libro 3 et finale capitulo
+              <lb ed="#C"/>16 et finale</ref> <quote xml:id="bHY6yh-d30103-Qd1e738">Si necesse est tolleremus etiam aspera propteur
+              <lb ed="#C"/>amicum plerumque inimicitie subeunde sunt
+              <lb ed="#C"/>proptur amici innocentiam inter disperares mores
+              <lb ed="#C"/>non potest esse amicitia Virtus est amicitia et
+              <lb ed="#C"/>non questus quia non pecunia paratur sed gratia
+              <lb ed="#C"/>meliores amicitie sunt inopum plerumque quam
+              <lb ed="#C"/>diuitum</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e755">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e848">boetius de consolatione libro III capitulo III</ref> <quote xml:id="bHY6yh-d30103-Qd1e759">Amico<lb ed="#C" break="no"/>rum 
+              quidem sanctissimum genus est quid non
+              <lb ed="#C"/>in fortuna sed in uirtute numeratur</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e771">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e868">Cassiodorus
+              <lb ed="#C"/>de amicicia capitulo 3</ref> <quote xml:id="bHY6yh-d30103-Qd1e775">Amicitia ex quodam vsu dili<lb ed="#C" break="no"/>gendi 
+              cum electione rei que diligenda est
+              <lb ed="#C"/>et deliberatione procedit vera amicitia in se so<lb ed="#C" break="no"/>lida 
+              est et in omnibus amicis necessitatibus ad
+              <lb ed="#C"/>omnem cooperationem et tollerantiam se conqua<lb ed="#C" break="no"/>drans 
+              In humanis rebus nichil amicitia dultius
+              <lb ed="#C"/>inuenitur nichil sanctius appetitur nichil
+              <lb ed="#C"/>fructuosius custoditur habet enim fructum
+              <pb ed="#C" n="41-v"/>
+              <cb ed="#C" n="a"/>
+              <lb ed="#C"/>uite que nunc est et future Amicitia propria
+              <lb ed="#C"/>suauitate uirtutes alias condit aduersa
+              <lb ed="#C"/>temperat iusitiam componit tristiaque io<lb ed="#C" break="no"/>cundat 
+              solus est qui sine amico est</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e802">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e899">Idem
+              <lb ed="#C"/>6 capitulo</ref> <quote xml:id="bHY6yh-d30103-Qd1e804">Amicitia uera nichil est inhonestum
+              <lb ed="#C"/>nichil simulatorium nichil lucri temporalis aut
+              <lb ed="#C"/>inanis glorie fons et origo amicitie amor
+              <lb ed="#C"/>est et quasi genus ad speciem Nam cum amore
+              <lb ed="#C"/>sepe sine amicitia sit amicitia sine amore
+              <lb ed="#C"/>nunquam consistit</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e821">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e920">Idem 9 capitulo</ref> <quote xml:id="bHY6yh-d30103-Qd1e823">non est ami<lb ed="#C" break="no"/>citia 
+              in questu non in assentatione sed in ueri<lb ed="#C" break="no"/>tate 
+              et fide Est amicitie suauissimus comes
+              <lb ed="#C"/>sinceritas affectationum mutua obsequia
+              <lb ed="#C"/>rerum honestarum crebra collatio pari<lb ed="#C" break="no"/>litas 
+              uoluntatum iugis et inuiolabilis fides</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e838">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d30103-Rd1e939">Idem 15 capitulo</ref> <quote xml:id="bHY6yh-d30103-Qd1e840">linguosos ad amicitie
+              <lb ed="#C"/>secreta non arbitror eligendos fides in
+              <lb ed="#C"/>amicitia maximum locum tenet</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e848">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e953">Idem 17 capitulo</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d30103-Qd1e852">Solidiores inueniuntur plerumque pauperum
+              <lb ed="#C"/>amicitie quam magnatum tanto purior est erga
+              <lb ed="#C"/>parentem caritatis affectio quo nulla circa
+              <lb ed="#C"/>eum subest adulationis aut simulationis
+              <lb ed="#C"/>occasio</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e864">
+              ¶¶ <ref xml:id="bHY6yh-d30103-Rd1e969">Idem 22 capitulo</ref> <quote xml:id="bHY6yh-d30103-Qd1e866">quicquid amico im<lb ed="#C" break="no"/>penderis 
+              nunquam improperes</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e872">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e979">Idem 24</ref> <quote xml:id="bHY6yh-d30103-Qd1e874">Omnis
+              <lb ed="#C"/>assentatio sit procul a conditione amicitie
+              <lb ed="#C"/>aliena siquidem simulatio et assentatio <!--n crossed out-->
+              <lb ed="#C"/>due uerulentissime pestes sunt que pro<lb ed="#C" break="no"/>cul 
+              semper ab amicitia relegentur</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e886">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e995">Idem
+              <lb ed="#C"/>25</ref> <quote xml:id="bHY6yh-d30103-Qd1e888">Inhonestum est bellum cum eo gerere
+              <lb ed="#C"/>quem tu familiaritatis secretarium habuis<lb ed="#C" break="no"/>ti </quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e898">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e1009">Idem 27 et finale</ref> <quote xml:id="bHY6yh-d30103-Qd1e900">dilectionis est consulere et amico 
+              <lb ed="#C"/>beneficia exhibere veteris amicitie vestigiis
+              <lb ed="#C"/>aliqua reuerentia semper impendenda est nisi
+              <lb ed="#C"/>eam enormitas reatus eximeret</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e913">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e1029">Gregorius
+              <lb ed="#C"/>in pastorali capitulo 47</ref> <quote xml:id="bHY6yh-d30103-Qd1e917">Malorum cum incaute amici<lb ed="#C" break="no"/>tiis 
+              iungimur culpis alligamur</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e923">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e1041">Ver<lb ed="#C" break="no"/>sificator 
+              fabularum ysopi 57 fabula</ref> <quote xml:id="bHY6yh-d30103-Qd1e927">Nemo sibi satis est
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/>eget omnis amicus amico</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e937">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e1057">Auctor libri qui
+              <lb ed="#C"/>dicitur facetus capitulo 6</ref> <quote xml:id="bHY6yh-d30103-Qd1e941">vtilius homini nichil est quam fi<lb ed="#C" break="no"/>dus 
+              amicus vt ueluti secum cuncta loquatur
+              <lb ed="#C"/>ei RRbus in aduersis dabit hic solatia fa<!--c crossed out-->ti
+              <lb ed="#C"/>prosperitate quidem gaudet utrique magis pro<lb ed="#C" break="no"/>uidus 
+              eiusdem doctrine quirat amandum</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e955">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e1077">gu<lb ed="#C" break="no"/>alterius 
+              de castillione libro VI</ref> <quote xml:id="bHY6yh-d30103-Qd1e959">quem fastidit homo non
+              <lb ed="#C"/>uere diligit ille verus amor miserum
+              <lb ed="#C"/>numquam fastidit amicum</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e967">
+              <ref xml:id="bHY6yh-d30103-Rd1e1091">Mattheus vindocinensis
+              <lb ed="#C"/>de historia thobie capitulo 32</ref> <quote xml:id="bHY6yh-d30103-Qd1e971">Est sine melle
+              <lb ed="#C"/>fauus sine messe seges sine fructu Ar<lb ed="#C" break="no"/>bor 
+              amicitie coniuge uita carens</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e981">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e1108">Iacobus
+              <lb ed="#C"/>beneuentanus capitulo 34</ref> <quote xml:id="bHY6yh-d30103-Qd1e985">omnibus est rebus bonus ante<lb ed="#C" break="no"/>ferendus 
+              amicus Sed modo perfectus rarus amicus
+              <lb ed="#C"/>ad est In uerbis fidus non delectatur amicus ga<lb ed="#C" break="no"/>udet 
+              enim factis commoda ferre sibi Infidum
+              <lb ed="#C"/>fugias fidum que sequaris amicum huic pr<lb ed="#C" break="no"/>oposse 
+              stude ferre benignus opem</quote>
+            </p>
+            <p xml:id="bHY6yh-d30103-d1e1003">
+              ¶ <ref xml:id="bHY6yh-d30103-Rd1e1132">Auctor
+              <lb ed="#C"/>libri qui dicitur astrolabi vers</ref> <quote xml:id="bHY6yh-d30103-Qd1e1007">omnia dona dei
+              <lb ed="#C"/>transcendit uerus amicus Si possis omnes praeci<lb ed="#C" break="no"/>pue 
+              tamen ei hii</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
