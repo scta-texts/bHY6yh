@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5</title>
+               <date when="2023-08-15">August 15, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="61-v"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d37483"><!-- p2l5-r5 -->
+            <head xml:id="bHY6yh-d37483-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-d37483-Hd1e111" type="question-title">De auxilio et fauore</head>
+            <p xml:id="bHY6yh-d37483-d1e114">
+              <lb ed="#B"/>De auxilio et fauore Rubrica 5
+            </p>
+            <p xml:id="bHY6yh-d37483-d1e119">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d37483-Rd1e115">YSocrates in exhortationibus 
+              <lb ed="#B"/>capitulo 2</ref> <quote xml:id="bHY6yh-d37483-Qd1e127">Nulli rei praue nec ad<lb ed="#B" break="no"/>sis 
+              nec faueas uideberis enim 
+              <lb ed="#B"/>et tu talia operari qualia operan<lb ed="#B" break="no"/>tibus 
+              aliis subieris</quote> 
+            </p>
+            <p xml:id="bHY6yh-d37483-d1e135">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d37483-Rd1e134">ARistotiles rethoricorum<!--line jumps up--> libro 2 capitulo 8</ref><!--line jumps down--> <quote xml:id="bHY6yh-d37483-Qd1e139">diuinum 
+              <lb ed="#B"/>arbitrabitur iniusta patientibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d37483-d1e146">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d37483-Rd1e147">IEsus filius syrach in ecclesiastico capitulo 5</ref> <quote xml:id="bHY6yh-d37483-Qd1e150">De pro<lb ed="#B" break="no"/>pitiatu 
+              peccatorum noli esse 
+              <lb ed="#B"/>sine metu</quote>
+            </p>
+            <p xml:id="bHY6yh-d37483-d1e156">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d37483-Rd1e159">Therentius<!--line jumps up--> in adelphis capitulo 6</ref> <quote xml:id="bHY6yh-d37483-Qd1e160">Abs<!--line jumps down-->quiuis homine cum est 
+              <lb ed="#B"/>opus beneficium accipe gau<lb ed="#B" break="no"/>deas</quote>
+            </p>
+            <p xml:id="bHY6yh-d37483-d1e166">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d37483-Rd1e171">Salus<!--line jumps up-->tinus in catilinario</ref> <quote xml:id="bHY6yh-d37483-Qd1e170">aux<!--line jumps down-->ilium ab hominibus petas 
+              <lb ed="#B"/>etiam ab infimis</quote>
+            </p>
+            <p xml:id="bHY6yh-d37483-d1e176">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d37483-Rd1e183">LEx diges titulo de <unclear>dcom</unclear> libro I § sed et 
+              <lb ed="#B"/>siquis</ref>  ¶ <quote xml:id="bHY6yh-d37483-Qd1e180">Magis consulendum 
+              <lb ed="#B"/>est hiis quibus maius periculum 
+              <lb ed="#B"/>intenditur</quote>
+            </p>
+            <p xml:id="bHY6yh-d37483-d1e188">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d37483-Rd1e196">AMbrosius<!--line jumps up--> de officiis libro 2 capitulo 24</ref><!--line jumps down--> <quote xml:id="bHY6yh-d37483-Qd1e192">pronum quippe est 
+              <lb ed="#B"/>genus humanum honoratioribus</quote>
+            </p>
+            <p xml:id="bHY6yh-d37483-d1e200">
+              <lb ed="#B"/> ¶ <ref xml:id="bHY6yh-d37483-Rd1e208">25 capitulo</ref> <quote xml:id="bHY6yh-d37483-Qd1e202">hiis fauemus frequentius
+              <lb ed="#B"/>a quibus referende gratie speramus</quote>
+            </p>
+            <p xml:id="bHY6yh-d37483-d1e215">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d37483-Rd1e227">GAufredus in poetria capitulo 75</ref> <quote xml:id="bHY6yh-d37483-Qd1e219">lan<lb ed="#B" break="no"/>gor 
+              ego medico solamine 
+              <lb ed="#B"/>luctus egestas subsidio</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
