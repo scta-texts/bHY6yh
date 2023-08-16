@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+             <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5</title>
+               <date when="2023-08-16">August 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="45-v"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d33588"><!-- p2l4-r5 -->
+            <head xml:id="bHY6yh-d33588-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-d33588-Hd1e111" type="question-title">De discordia</head>
+            <p xml:id="bHY6yh-d33588-d1e114">
+              De discor<lb ed="#C" break="no"/>dia 
+              capi<lb ed="#C" break="no"/>tulum 
+            </p>
+            <!--next paragraph begins on the second line of the previous paragraph-->
+            <p xml:id="bHY6yh-d33588-d1e119">
+              <quote xml:id="bHY6yh-d33588-Qd1e123">SAlomon in prouerbiorum
+              <lb ed="#C"/>capitulo 30 qui prouocat i<lb ed="#C" break="no"/>ras 
+              producit discordias</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e131">
+              ¶ <ref xml:id="bHY6yh-d33588-Rd1e128">Salustius
+              <lb ed="#C"/>in <sic>guigurtino</sic></ref> <quote xml:id="bHY6yh-d33588-Qd1e135">Concordia parue res cres<lb ed="#C" break="no"/>cunt 
+              discordia maxime dilabuntur</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e142">
+              ¶ <ref xml:id="bHY6yh-d33588-Rd1e141">Tullius
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/>de amicitia</ref> <quote xml:id="bHY6yh-d33588-Qd1e146">que domus tam stabilis que
+              <lb ed="#C"/>ciuitas tam firma est que non odiis et
+              <lb ed="#C"/>discordiis funditus possit euerti</quote>
+            </p>
+            <p>
+              ¶ Se<lb ed="#C" break="no"/>neca 
+              de moribus fugienda sunt omnibus modus
+              <lb ed="#C"/>et absandenda toto que artificio seperan<lb ed="#C" break="no"/>da 
+              langor a corpore Inperitia ab animo lux
+              <lb ed="#C"/>uia a uentre a crimitate seditio adomo
+              <lb ed="#C"/>discordia a cunctis reus intemperantia
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e154">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d33588-Rd1e155">Iacobus epistola I capitulo 4</ref> <quote xml:id="bHY6yh-d33588-Qd1e158">Vnde bella et lites inter
+              <lb ed="#C"/>uos none hinc ex concupiscentiis vestris qui
+              <lb ed="#C"/>militant in membris vestris.</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e166">
+              ¶ <ref xml:id="bHY6yh-d33588-Rd1e169">paulus ad galathas
+              <lb ed="#C"/>capitulo V</ref> <quote xml:id="bHY6yh-d33588-Qd1e170">Si inuicem mordetis et comeditis</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e178">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d33588-Rd1e183">Lex digestum titulo de arbiteris libro item siumis
+              <lb ed="#C"/>§ finale</ref> <quote xml:id="bHY6yh-d33588-Qd1e182">Naturalis facilitas hominum est ad
+              <lb ed="#C"/>dissentiendum</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e188">
+              ¶ <ref xml:id="bHY6yh-d33588-Rd1e193">Idem titulo de serui ur praedi libro in
+              <lb ed="#C"/>re communi</ref> <quote xml:id="bHY6yh-d33588-Qd1e190">propter imensas contentiones plerum<lb ed="#C" break="no"/>que 
+              res ad diuisionem peruenit</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e198">
+              ¶ <ref xml:id="bHY6yh-d33588-Rd1e206">Idem
+              <lb ed="#C"/>titulo de le II libro cum psaltur §. dulcissimis</ref> <quote xml:id="bHY6yh-d33588-Qd1e200">omnio solet
+              <lb ed="#C"/>excitare discordias</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e209">
+              ¶ <ref xml:id="bHY6yh-d33588-Rd1e222">Prudentius de
+              <lb ed="#C"/>cicomachia capitulo X</ref> <quote xml:id="bHY6yh-d33588-Qd1e213">Nil dissociabile fir<lb ed="#C" break="no"/>mum 
+              est</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e225">
+              ¶ <ref xml:id="bHY6yh-d33588-Rd1e240">Prosper sub ultio epigrammatus</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d33588-Qd1e229">Vndique bella fremunt omnis furor excitat
+              <lb ed="#C"/>armis Incumbunt reges regibus innume<lb ed="#C" break="no"/>ris 
+              Imperia confuso cepit discordia mun<lb ed="#C" break="no"/>do 
+              pax abiit terris</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e241">
+              ¶ <ref xml:id="bHY6yh-d33588-Rd1e258">boetius de consolatione libro IIII
+              <lb ed="#C"/>persuero XI</ref> <quote xml:id="bHY6yh-d33588-Qd1e245">Vt probis atque improbis nullum foedus
+              <lb ed="#C"/>est uide summa</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e257">
+              ¶ <ref xml:id="bHY6yh-d33588-Rd1e276">Gregorius in pastorali capitulo 48</ref> <quote xml:id="bHY6yh-d33588-Qd1e261">Omnes
+              qui per discordia separantur a uiridita<lb ed="#C" break="no"/>te 
+              dilectionis arescunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d33588-d1e269">
+              [omitted]
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
