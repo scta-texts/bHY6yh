@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 4 [Krakow, lat 700 III Transcription]</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Katrina Van Der Ahe</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 4 [Krakow, lat 700 III Transcription]</title>
+          <date when="2023-08-04">August 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#K" n="110-v"/>
+        <cb ed="#K" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d50443"><!-- p3l2-r4 -->
+        <head xml:id="bHY6yh-d50443-Hd1e108">Rubrica 4</head>
+        <head xml:id="bHY6yh-d50443-Hd1e111" type="question-title">De consilio</head>
+        <p xml:id="bHY6yh-d50443-d1e114">
+        De consilio. Rubrica 4
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e121">
+          <lb ed="#K" n="10"/> <ref xml:id="bHY6yh-d50443-Rd1e120">SAlomon in prouerb. c. 11</ref> <quote xml:id="bHY6yh-d50443-Qd1e127">Ubi non est 
+          <lb ed="#K"/>gubernator populus corruet: sal<lb ed="#K" break="no"/>uus
+          autem vbi multa consilia.</quote> 
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e135"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e134">c 
+          <lb ed="#K"/>12</ref> <quote xml:id="bHY6yh-d50443-Qd1e137">Consilia impiorum fraudulen<lb ed="#K" break="no"/>ta. 
+          Uia stulti recta in oculis eius
+          <lb ed="#K"/>autem qui sapiens est audit consi<lb ed="#K" break="no"/>lia.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e148"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e150">c 13</ref> <quote xml:id="bHY6yh-d50443-Qd1e150">Qui cum consilio cuncta a<lb ed="#K" break="no"/>gunt 
+          reguntur sapientia Astutus 
+          <lb ed="#K"/>omnia agit cum consilio.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e158"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e162">c 20</ref> <quote xml:id="bHY6yh-d50443-Qd1e160">Cogi<lb ed="#K" break="no"/>tationes 
+          consiliis roborantur.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e166"> 
+            <ref xml:id="bHY6yh-d50443-Rd1e172">c 
+            <lb ed="#K"/>24</ref> <quote xml:id="bHY6yh-d50443-Qd1e168">Salus vbi multa consilia.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e174"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e182">c
+          <lb ed="#K"/>25</ref> <quote xml:id="bHY6yh-d50443-Qd1e176">Causam tuam tracta cum amico 
+          <lb ed="#K"/>tuo.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e180">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e192">Tobias. c. 4.</ref> <quote xml:id="bHY6yh-d50443-Qd1e184">Consilium a sapiente semper perquire.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e190">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e204">Isocrates in exhortationibus. c. 2.</ref> <quote xml:id="bHY6yh-d50443-Qd1e194">Consil<lb ed="#K" break="no"/>ians 
+          fac exemplum praeterita futu<lb ed="#K" break="no"/>rorum:
+          nam ignoti ex noto con<lb ed="#K" break="no"/>iectura 
+          certissima nascitur. Con<lb ed="#K" break="no"/>siliare 
+          quidem diutius: effice vero 
+          <lb ed="#K"/>visa velociter Cum protius te ex<lb ed="#K" break="no"/>pedit 
+          consulare quemquam cerne prius 
+          <lb ed="#K"/>quodo disposuerit sua: nam qui perpe<lb ed="#K" break="no"/>ram 
+          patiatur in propriis nunquam bene con<lb ed="#K" break="no"/>siliabitur 
+          in alienis. Sic ad po<lb ed="#K" break="no"/>tius 
+          consiliandum incitaberis: 
+          <lb ed="#K"/>si calamitates prouenientes 
+          <lb ed="#K"/>ex consilii carentia prospexeris: 
+          <lb ed="#K"/>nam et sanitatis mage seduli si<lb ed="#K" break="no"/>mus: 
+          cum miserias languoris anima 
+            <cb ed="#K" n="b"/>
+          <lb ed="#K"/>vertimus.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e227">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e243">Aristoteles ethicorum libro 3. c. 4.</ref> <quote xml:id="bHY6yh-d50443-Qd1e231">Consilium omne
+          <lb ed="#K"/> <!--missing word--> questio est.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e237"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e253">Lib. 6. e. 3.</ref> <quote xml:id="bHY6yh-d50443-Qd1e239">Non 
+          <lb ed="#K"/>est consiliari de his que de ne<lb ed="#K" break="no"/>cessitate 
+          sunt.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e245"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e263">5. c.</ref> <quote xml:id="bHY6yh-d50443-Qd1e247">Prudentis 
+          <lb ed="#K"/>maxime hoc opus dicimus 
+          <lb ed="#K"/>esse bene consiliari. Consiliatur 
+          <lb ed="#K"/>nullus de impossibilibus aliter 
+          <lb ed="#K"/>se habere: neque de quibuscumque 
+          <lb ed="#K"/>non finis aliquis est. Simpliciter 
+          <lb ed="#K"/>bonus consiliator est optimi 
+          <lb ed="#K"/>hominis operabilium coniectatiuus 
+          <lb ed="#K"/>secundum ratiocinationem. Consiliari 
+          <lb ed="#K"/>querem quoddam est.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e266"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e286">6. c.</ref>  <quote xml:id="bHY6yh-d50443-Qd1e268">Consilians 
+          <lb ed="#K"/>querit et ratiocinatur. Operari 
+          <lb ed="#K"/>quidem oportet velocitur con<lb ed="#K" break="no"/>siliata: 
+          consiliari autem tarde.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e276"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e298">Idem 
+          <lb ed="#K"/>retho. li. i. c. 2.</ref> <quote xml:id="bHY6yh-d50443-Qd1e278">Consiliamur de 
+          <lb ed="#K"/>his que videntur contingere vtro<lb ed="#K" break="no"/>que 
+          modo se habere.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e286"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e311">17. c.</ref> <quote xml:id="bHY6yh-d50443-Qd1e288">Ex prius
+          <lb ed="#K"/>factis futura diiudicantes 
+          <lb ed="#K"/>iudicamus.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e295"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e322">Li 2. c. 7.</ref> <quote xml:id="bHY6yh-d50443-Qd1e299">Timor 
+          <lb ed="#K"/>consiliatiuos facit.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e303"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e333">Idem polli<lb ed="#K" break="no"/>ticorum 
+          libro 6. c. 11.</ref> <quote xml:id="bHY6yh-d50443-Qd1e305">Confiliantur 
+          <lb ed="#K"/>melius communiter consiliantes
+          <lb ed="#K"/>omnes.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e313">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e348">Iesus filius sirach in eccl. c. 6.</ref> <quote xml:id="bHY6yh-d50443-Qd1e317">Multi pacifici sint tibi 
+          <lb ed="#K"/>et consiliarius vnus de mille.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e323">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e360">c. 8.</ref> <quote xml:id="bHY6yh-d50443-Qd1e327">Coram extraneo ne facias 
+          <lb ed="#K"/>consilium nescis enim quid 
+          <lb ed="#K"/>pariet.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e333"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e370">32. c.</ref> <quote xml:id="bHY6yh-d50443-Qd1e335">Sine consilio nihil 
+          <lb ed="#K"/>facias: et postfactum non peni<lb ed="#K" break="no"/>tebis.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e341">
+          <ref xml:id="bHY6yh-d50443-Rd1e382">37. c.</ref> <quote xml:id="bHY6yh-d50443-Qd1e345">Ante omnem actum 
+          <lb ed="#K"/>stabile consilium precedat te.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e352">
+         <lb ed="#K"/>  <ref xml:id="bHY6yh-d50443-Rd1e395">Terentius in eunucho. c. 2.</ref> <quote xml:id="bHY6yh-d50443-Qd1e356">Dum 
+         <lb ed="#K"/>est tempus etiam atque cogita etiam.</quote>
+            <pb ed="#K" n="111-r"/>
+            <cb ed="#K" n="a"/>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e362"> 
+          <lb ed="#K" n="1"/> <ref xml:id="bHY6yh-d50443-Rd1e405">18. c.</ref> <quote xml:id="bHY6yh-d50443-Qd1e364">Omnia prius consilio experi<lb ed="#K" break="no"/>ri 
+          quam armis sapientem decet.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e413">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e417">In heauton. c. 20.</ref> <quote xml:id="bHY6yh-d50443-Qd1e419">None id 
+          <lb ed="#K"/>flagitium est te aliis consi<lb ed="#K" break="no"/>lium 
+          dare: foris sapere: tibi 
+          <lb ed="#K"/>non posse te auxiliare.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e376">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e431">Salustius in catilinario:</ref> 
+          <lb ed="#K"/> <quote xml:id="bHY6yh-d50443-Qd1e380">Prius quam incipias consulto 
+          <lb ed="#K"/>et vbi consulueris matu<lb ed="#K" break="no"/>re: 
+          opus facto est. Omnes ho<lb ed="#K" break="no"/>mines 
+          qui de rebus consultant 
+          <lb ed="#K"/>dubiis ab odio amicitia
+          <lb ed="#K"/>ira atque misericordia vacuos esse 
+          <lb ed="#K"/>decet: haud facile animus 
+          <lb ed="#K"/>verum prouidet vbi illa offi<lb ed="#K" break="no"/>ciunt.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e394">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e451">Tullius retho. artis vereris li. i. c. 12.</ref> <quote xml:id="bHY6yh-d50443-Qd1e398">
+          <lb ed="#K"/>Consilium est aliquid faciendi 
+          <lb ed="#K"/>vel non faciendi recte exco<lb ed="#K" break="no"/>gitata 
+          ratio.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e406"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e463">Idem 
+          <lb ed="#K"/>philip. li. 6.</ref> <quote xml:id="bHY6yh-d50443-Qd1e408">Etiam summi gubernato<lb ed="#K" break="no"/>res 
+          in magnis tempes<lb ed="#K" break="no"/>tatibus 
+          auctoribus ad 
+          <lb ed="#K"/>amoueri solent.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e416"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e476">Lib. 11.</ref> <quote xml:id="bHY6yh-d50443-Qd1e418">Op<lb ed="#K" break="no"/>timus 
+          est portus penitenti 
+          <lb ed="#K"/>mutatio consilii.</quote> 
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e431">
+          <ref xml:id="bHY6yh-d50443-Rd1e494">Idem in oratio<lb ed="#K" break="no"/>ne 
+          pro marco marcello.</ref> <quote xml:id="bHY6yh-d50443-Qd1e435">Nunquam 
+          <lb ed="#K"/>temeritas cum sapientia commisce<lb ed="#K" break="no"/>tur 
+          nec ad consilium casus admitti<lb ed="#K" break="no"/>tur. 
+          Iracundia est inimica 
+          <lb ed="#K"/>consilio.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e445">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e510">Ouidius de arte amandi li. i.</ref> <quote xml:id="bHY6yh-d50443-Qd1e449">Nocte latent
+          <lb ed="#K"/>mende vitioque ignoscitur 
+          <lb ed="#K"/>omni Horaque formosam 
+          <lb ed="#K"/>quamlibet illa facit Consule de 
+            <cb ed="#K" n="b"/>
+          <lb ed="#K"/>gemmis detincta murice la<lb ed="#K" break="no"/>na.
+          Consule de facie co<lb ed="#K" break="no"/>rporibusque 
+          diem.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e461">
+         <ref xml:id="bHY6yh-d50443-Rd1e528">Idem sine titulo 
+         <lb ed="#K"/>seu amorum li. i. c. 3.</ref> <quote xml:id="bHY6yh-d50443-Qd1e465">Consilium 
+         <lb ed="#K"/>nobis resque locusque dabunt.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e471">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e540">Idem de tristibus lib. 6. et fi. e. i.</ref>
+          <lb ed="#K"/> <quote xml:id="bHY6yh-d50443-Qd1e475">Consilium resque locusque dabunt.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e481">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e552">Mattheus in euangelio. c. 15.</ref> <quote xml:id="bHY6yh-d50443-Qd1e485">Ce<lb ed="#K" break="no"/>cus 
+          si ceco ducatum praestet am<lb ed="#K" break="no"/>bo 
+          in foueam cadunt.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e491">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e565">Seneca epistolarum ad lucillum li. 2. e 5.</ref>
+          <lb ed="#K"/> <quote xml:id="bHY6yh-d50443-Qd1e495">Consilium rerum omnium sapintens spec<lb ed="#K" break="no"/>tat 
+          nisi exitium.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e504"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e577">Libro. 17. e. 3.</ref> <quote xml:id="bHY6yh-d50443-Qd1e506">Quic<lb ed="#K" break="no"/>quid 
+          consilio prospicere potes prospice.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e512">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e589">Lex codi. ti. de repudio. li. iii.</ref> <quote xml:id="bHY6yh-d50443-Qd1e516">Du<lb ed="#K" break="no"/>bium 
+          non est omnia que consilio 
+          <lb ed="#K"/>recte geruntur iure meritaque ef<lb ed="#K" break="no"/>fectu 
+          et firmitate viri.</quote>
+        </p>
+        <p xml:id="bHy6yh-d50443-d1e522">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e602">Marcialis cocus li. vndique suscepto:</ref> <quote xml:id="bHY6yh-d50443-Qd1e526">
+          <lb ed="#K"/>Pannorum veterum facile contenu<lb ed="#K" break="no"/>untur 
+          vsus Non sic <!--double check this-->
+          <lb ed="#K"/>consilium posthume superne senum Consilio 
+          inuuenum fidis melibee rui<lb ed="#K" break="no"/>nam 
+          Expectare potes: dum sine 
+          <lb ed="#K"/>consilio es.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e535">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e620">Uegetius de re militari li. 3 ti. 26 et fi.</ref> <quote xml:id="bHY6yh-d50443-Qd1e539">Nulla con<lb ed="#K" break="no"/>silia 
+          sunt meliora quam illa que 
+          <lb ed="#K"/>ignorauerit aduersarios antequam facias. Cum  
+          <lb ed="#K"/>consilium tuum cognouerit aduersarius 
+          <lb ed="#K"/>proditum dispositionem mutare te 
+          <lb ed="#K"/>conuenit.</quote> <!--double check-->
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e551"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e636"> </ref> <quote xml:id="bHY6yh-d50443-Qd1e553">Quid fieri debeat trac<lb ed="#K" break="no"/>tato 
+          cum multis: quid vero facturus
+          <lb ed="#K"/>sis cum paucissimis vel poti<lb ed="#K" break="no"/>us 
+          ipse tecum.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e561">
+            <pb ed="#K" n="111-v"/>
+            <cb ed="#K" n="a"/>
+          <lb ed="#K" n="1"/> <ref xml:id="bHY6yh-d50443-Rd1e651">Ualerius maximus li. 7. ti. vafre. 
+          <lb ed="#K"/>dicta aut facta.</ref> <quote xml:id="bHY6yh-d50443-Qd1e565">Hanibal a iulio 
+          <lb ed="#K"/>proconsule nauali prelio victus 
+          <lb ed="#K"/>timensque classis amisse pe<lb ed="#K" break="no"/>nas 
+          dari: offensam astutia a<lb ed="#K" break="no"/>uertit 
+          nam ex illa infelici pug<lb ed="#K" break="no"/>na 
+          priusquam cladis nuncius do<lb ed="#K" break="no"/>mum 
+          perueniret: quendam ex 
+          <lb ed="#K"/>amicis compositum et formatum 
+          <lb ed="#K"/>cartaginem misit. Qui postquam 
+          <lb ed="#K"/>ciuitatis eius curiam intrauit: 
+          <lb ed="#K"/>consulit vos inquit hanibal 
+          <lb ed="#K"/>cum dux romanorum magnas se<lb ed="#K" break="no"/>cum 
+          maritimas trahens co<lb ed="#K" break="no"/>pias 
+          aduenerit an cum eo con<lb ed="#K" break="no"/>fligere 
+          debeat. Acclamauit 
+          <lb ed="#K"/>vniuersus senatus: non esse 
+          <lb ed="#K"/>dubium quin oporteret. Tunc illic 
+          <lb ed="#K"/>conflixit inquit id factum dam<lb ed="#K" break="no"/>nare 
+          quod ipsi fieri debere iudi<lb ed="#K" break="no"/>cauerunt.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e601"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e692">Libro. 8. ti. sue quemque artis 
+          <lb ed="#K"/>etc.</ref>  <quote xml:id="bHY6yh-d50443-Qd1e603">Quintus sceuola legum cla<lb ed="#K" break="no"/>ris
+          simus et certissimus vates qu<lb ed="#K" break="no"/>otienscumque 
+          de iure praetorio co<lb ed="#K" break="no"/>nsulebatur 
+          ad furium et caseli<lb ed="#K" break="no"/>um:
+          quia huic scientie dediti erant 
+          <lb ed="#K"/>consultores reiiciebant. Quo 
+          <lb ed="#K"/>quidem facto moderationem suam ma<lb ed="#K" break="no"/>gis 
+          commendabat quam auctoritatem 
+          <lb ed="#K"/>minuebat. 
+          <lb ed="#K"/>Plato conductores sacre are modum et 
+          <lb ed="#K"/>formam eius secum sermonem con<lb ed="#K" break="no"/>ferre 
+          cognatos: ad euclidem 
+          <lb ed="#K"/>geometrem ire iussit scientie eius 
+          <lb ed="#K"/>tendens vno professioni.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e629">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e724">Auctor libri de for. honeste vite. c. 2.</ref> 
+          <lb ed="#K"/> <quote xml:id="bHY6yh-d50443-Qd1e633">Prudentis proprium est consilia exami<lb ed="#K" break="no"/>nare: 
+            <cb ed="#K" n="b"/>
+          et non cito facili credu<lb ed="#K" break="no"/>litate 
+          ad falsa prolabi.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e641">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e738">Ambrosius de officiis li. i. c. 31.</ref> <quote xml:id="bHY6yh-d50443-Qd1e645">Unusquisque 
+          <lb ed="#K"/>beniuolentis se magis quam sa<lb ed="#K" break="no"/>pientis 
+          credit consilio.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e653"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e750">Lib. 2. c. 
+          <lb ed="#K"/>8.</ref> <quote xml:id="bHY6yh-d50443-Qd1e655">Promptius nos iusto viro 
+          <lb ed="#K"/>quam prudenti committimus.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e661">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e762">Macrobius saturnaliorum li. i. c. 15.</ref> <quote xml:id="bHY6yh-d50443-Qd1e665">
+          <lb ed="#K"/>Conceptum mentis consilia nascuntur.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e671">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e775">Cato. c. i.</ref> <quote xml:id="bHY6yh-d50443-Qd1e675">Antequam voceris ne accesseris ad
+          <lb ed="#K"/>consilium. Tum te 
+          <lb ed="#K"/>consule.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e681"> 
+          <ref xml:id="bHY6yh-d50443-Rd1e785">Capitulo. 4.</ref> <quote xml:id="bHY6yh-d50443-Qd1e683">Utile consilium 
+          <lb ed="#K"/>dominus ne despice serui Nullius 
+          <lb ed="#K"/>si prodest sensum contempseris vnquam</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e692">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e799">Cassiodorus epistolarum li. 6. epi. 19.</ref> 
+          <lb ed="#K"/> <quote xml:id="bHY6yh-d50443-Qd1e696">Omnis prudens consilium querit.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e702"> 
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e809">Lib. 10. epi. 4</ref> <quote xml:id="bHY6yh-d50443-Qd1e704">Consilium mutare de<lb ed="#K" break="no"/>tractat 
+          improuidus Sapientiam il
+          <lb ed="#K"/>ille querit in alto penes quem 
+          <lb ed="#K"/>est scientie magnitudo.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e714">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e825">Gregorius in pastorali. c. 57.</ref> <quote xml:id="bHY6yh-d50443-Qd1e718">Tardius 
+          <lb ed="#K"/>peccatum soluitur quod per consilium 
+          <lb ed="#K"/>solidatur.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e724">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e837">Uersificator fabularum esopi. fab. 14.</ref> <quote xml:id="bHY6yh-d50443-Qd1e728">Prudentia summa 
+          <lb ed="#K"/>est. Credere prudenti.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e734">
+          <ref xml:id="bHY6yh-d50443-Rd1e850">Fabula. 20</ref>
+          <lb ed="#K"/> <quote xml:id="bHY6yh-d50443-Qd1e738">Utile consilium qui spernit in<lb ed="#K" break="no"/>utile 
+          sumit.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e744">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e862">Auctor libri qui dicitur pamphilus:</ref> <quote xml:id="bHY6yh-d50443-Qd1e748">Conuenit ad nostros 
+          <lb ed="#K"/>modus et prudentia casus. Quod<lb ed="#K" break="no"/>que 
+          sequi deceat querere con<lb ed="#K" break="no"/>silium.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e757">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e876">Gaufridus in poetria. c. 23.</ref> <quote xml:id="bHY6yh-d50443-Qd1e761">Si vis bene duci: Te certo 
+          <lb ed="#K"/>comite duci.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e767">
+          <ref xml:id="bHY6yh-d50443-Rd1e888">Idem in hironia 
+          <lb ed="#K"/>curie papalis:</ref> <quote xml:id="bHY6yh-d50443-Qd1e771">Consilium prudens 
+          <lb ed="#K"/>sepe minoris habet.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e777">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e900">Bertrandus iconomica. c. 13.</ref> <quote xml:id="bHY6yh-d50443-Qd1e781">Si consulis 
+            <pb ed="#K" n="112-r"/>
+            <cb ed="#K" n="a"/>
+          <lb ed="#K" n="1"/>amico non queras placere ei: sed 
+          <lb ed="#K"/>rationi Dicas in consulendo ami<lb ed="#K" break="no"/>ce 
+          sic mihi videtur Non precise 
+          <lb ed="#K"/>sic agendum.</quote>
+        </p>
+        <p xml:id="bHY6yh-d50443-d1e798">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d50443-Rd1e923">Iacobus beneuentanus. c. 41</ref> <quote xml:id="bHY6yh-d50443-Qd1e802">Fidum consilium fi<lb ed="#K" break="no"/>dus 
+          amicus habet.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
