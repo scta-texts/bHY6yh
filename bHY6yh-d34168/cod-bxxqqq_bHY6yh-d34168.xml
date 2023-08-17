@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 8</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 8</title>
+               <date when="2023-08-12">August 12, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="56-r"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d34168"><!-- p2l4-r8 -->
+            <head xml:id="bHY6yh-d34168-Hd1e108">Rubrica 8</head>
+            <head xml:id="bHY6yh-d34168-Hd1e111" type="question-title">De rixis et scandalis</head>
+            <p xml:id="bHY6yh-d34168-d1e114">
+              <lb ed="#B"/>De rixis et scan<!--line jumps down-->dalis Rubrica 8
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e119">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d34168-Rd1e115">SAlomon 
+              <lb ed="#B"/>in prouerbiis capitulo 10</ref> <quote xml:id="bHY6yh-d34168-Qd1e125">odium suscitat
+              <lb ed="#B"/>rixas</quote>
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e131">
+              ¶ <ref xml:id="bHY6yh-d34168-Rd1e127">15 capitulo</ref> <quote xml:id="bHY6yh-d34168-Qd1e133">vir iracundus prouocat
+              <lb ed="#B"/>rixas qui patiens est mitigatur 
+              <lb ed="#B"/>suscitatas</quote>
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e142">
+              ¶ <ref xml:id="bHY6yh-d34168-Rd1e140">18 capitulo</ref> <quote xml:id="bHY6yh-d34168-Qd1e144">Labia stulti im<lb ed="#B" break="no"/>miscent 
+              se rixis et eos eius iur<lb ed="#B" break="no"/>gia 
+              prouocat</quote>
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e150">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d34168-Rd1e152">IEsus filius syrach<!--line jumps up--> in ecclesiastico capitulo 8</ref> <quote xml:id="bHY6yh-d34168-Qd1e154">Cum<!--line jumps down--> iracundo non facies 
+              <lb ed="#B"/>rixam</quote>
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e160">
+              ¶ <ref xml:id="bHY6yh-d34168-Rd1e162">capitulo 27</ref> <quote xml:id="bHY6yh-d34168-Qd1e162">Effusio sanguinis 
+              <lb ed="#B"/>in rixa superborum</quote>
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e168">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d34168-Rd1e174">MAtheus in ewangelio<!--line jumps up--> capitulo 18</ref> <quote xml:id="bHY6yh-d34168-Qd1e172">vemundo<!--line jumps down--> a scandalis Ne<lb ed="#B" break="no"/>cesse 
+              est ut ueniant scandala
+              <lb ed="#B"/>verum cum ue homini per quem scandalum 
+              <lb ed="#B"/>uenit</quote>
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e180">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d34168-Rd1e188">CAto<!--line jumps up--> capitulo 2</ref> <quote xml:id="bHY6yh-d34168-Qd1e184">Rumores fuge ne<!--line jumps down--> incipias nouus auctor 
+              <lb ed="#B"/>haberi</quote>
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e190">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d34168-Rd1e200">ISidorus<!--line jumps up--> soliloquorum libro 2 et<!--line jumps down--> finale capitulo 26</ref> <quote xml:id="bHY6yh-d34168-Qd1e194">fuge rixam</quote>
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e199">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d34168-Rd1e211">IAcobus beneuentanus capitulo 5</ref> <quote xml:id="bHY6yh-d34168-Qd1e203">lig<lb ed="#B" break="no"/>ua 
+              odium parit et faciet tibi 
+              <lb ed="#B"/>litem ¶ Effreni ligua surgere 
+              <lb ed="#B"/>bella solent</quote>
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e211">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d34168-Rd1e224">Prouerbium<!--line jumps up--> uulgare</ref> <quote xml:id="bHY6yh-d34168-Qd1e215">El can<!--line jumps down--> grentoso eno for<lb ed="#B" break="no"/>roso 
+              guai la pelle</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
