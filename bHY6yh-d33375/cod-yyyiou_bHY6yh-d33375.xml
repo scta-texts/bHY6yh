@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+             <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4</title>
+               <date when="2023-08-16">August 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="45-r"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d33375"><!-- p2l4-r4 -->
+            <head xml:id="bHY6yh-d33375-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-d33375-Hd1e111" type="question-title">De inimicitia et inimicis</head>
+            <p xml:id="bHY6yh-d33375-d1e114">
+              De inimicitia
+              <lb ed="#C"/>capitulum
+            </p>
+            <!--next paragraph begins on the same line as the previous paragraph-->
+            <p xml:id="bHY6yh-d33375-d1e119">
+              <ref xml:id="bHY6yh-d33375-Rd1e115">SAlomon
+              <lb ed="#C"/>in prouerbiorum capitulo
+              <lb ed="#C"/>XXVI</ref> <quote xml:id="bHY6yh-d33375-Qd1e125">labiis suis intelligitur inimicus
+              <lb ed="#C"/>cum in corde tractauerit inimicos quando sup
+              <lb ed="#C"/>serit uocem suam ne credideris ei quoniam sep<lb ed="#C" break="no"/>tem 
+              nequitie sunt in corde eius qui o<lb ed="#C" break="no"/>perit 
+              odium uide summa</quote> 
+            </p>
+            <p xml:id="bHY6yh-d33375-d1e139">
+              ¶ <ref xml:id="bHY6yh-d33375-Rd1e134">Idem 27 capitulo</ref> <quote xml:id="bHY6yh-d33375-Qd1e141">Meliora
+              <lb ed="#C"/>sunt uulnera diligentis quam fraudulenta
+              <lb ed="#C"/>odientis oscula</quote>
+            </p>
+            <p xml:id="bHY6yh-d33375-d1e150">
+              ¶ <ref xml:id="bHY6yh-d33375-Rd1e149">Aristoteles rethoricorum libro 2
+              <lb ed="#C"/>capitulo 6</ref> <quote xml:id="bHY6yh-d33375-Qd1e154">sartina inimicitie est ira epirsi<lb ed="#C" break="no"/>mus 
+              criminatio</quote>
+            </p>
+            <p xml:id="bHY6yh-d33375-d1e160">
+              ¶ <ref xml:id="bHY6yh-d33375-Rd1e161">yesus filius cidrach in eccesiastico capitulo 12</ref> <quote xml:id="bHY6yh-d33375-Qd1e164">Non
+              <lb ed="#C"/>abscondetur in malis inimicus Non credas
+              <lb ed="#C"/>inimico tuo in eternum In labiis suis indul<lb ed="#C" break="no"/>cet 
+              inimicus et in corde suo insidiatur
+              <lb ed="#C"/>et subuertat te in foueam In oculis suis
+              <lb ed="#C"/>lacrimatur inimicus et si inueniet tempus non
+              <lb ed="#C"/>satiabitur sanguine Si incurrerint in<lb ed="#C" break="no"/>uenies 
+              eum illuc priorem</quote>
+            </p>
+            <p xml:id="bHY6yh-d33375-d1e181">
+              ¶ <ref xml:id="bHY6yh-d33375-Rd1e184">Tullius tusculanarum
+              <lb ed="#C"/>quodnum libro 4</ref> <quote xml:id="bHY6yh-d33375-Qd1e185">Inimicitia est ira vlciscendi
+              <lb ed="#C"/>tempus obseruans</quote>
+            </p>
+            <p xml:id="bHY6yh-d33375-d1e191">
+              <ref xml:id="bHY6yh-d33375-Rd1e194">Idem in inuec<pb ed="#C" n="45-v"/><cb ed="#C" n="a"/><lb ed="#C"/>tura 
+              contra salustium.</ref> <quote xml:id="bHY6yh-d33375-Qd1e193">plerumque in res publica priua<lb ed="#C" break="no"/>tis 
+              crescit inimicitiis ubi nemo tiuis qualis
+              <lb ed="#C"/>sit latere potest</quote>
+            </p>
+            <p xml:id="bHY6yh-d33375-d1e203">
+              ¶ <ref xml:id="bHY6yh-d33375-Rd1e211">Seneca ad lucillum libro 3 epistola V</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d33375-Qd1e207">Leue es alienum facit inimicum</quote>
+            </p>
+            <p xml:id="bHY6yh-d33375-d1e213">
+              ¶ <ref xml:id="bHY6yh-d33375-Rd1e221">Idem
+              <lb ed="#C"/>de remediis fortuitorum capitulo XIX</ref> <quote xml:id="bHY6yh-d33375-Qd1e215">quomodo
+              <lb ed="#C"/>aduersus serpentes sic aduersus inimicos au<lb ed="#C" break="no"/>xilia 
+              circumspice quibus illos aut arceas
+              <lb ed="#C"/>aut quod optimum est places</quote>
+            </p>
+            <p xml:id="bHY6yh-d33375-d1e228">
+              ¶ <ref xml:id="bHY6yh-d33375-Rd1e239">Idem in prouerbiorum</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d33375-Qd1e230">Cum inimico nemo cito gratiam rededit
+              <lb ed="#C"/>de inimico ne loqueris malum sed cogi<lb ed="#C" break="no"/>tes 
+              grauior est inimicus qui latet inimi<lb ed="#C" break="no"/>cum 
+              quamuis humilem docti est metuere lo<lb ed="#C" break="no"/>quax 
+              minus inimicus quam taciturus offendit
+              <lb ed="#C"/>miserima est que inimico capit</quote>
+            </p>
+            <p xml:id="bHY6yh-d33375-d1e249">
+              ¶ <ref xml:id="bHY6yh-d33375-Rd1e264">Boe<lb ed="#C" break="no"/>tius 
+              de consolone libro 3 persa IX</ref> <quote xml:id="bHY6yh-d33375-Qd1e253">que pestis effi<lb ed="#C" break="no"/>cacior 
+              est ad nocendum quam familiaris in<lb ed="#C" break="no"/>imicus</quote>
+            </p>
+            <p xml:id="bHY6yh-d33375-d1e259">
+              ¶ <ref xml:id="bHY6yh-d33375-Rd1e276">bertrandus in yconomica capitulo VIII</ref> <quote xml:id="bHY6yh-d33375-Qd1e263">Non
+              <lb ed="#C"/>semper gladio sed sepe seruitio vincitur inimicus</quote>
+            </p>
+            <p xml:id="bHY6yh-d33375-d1e269">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d33375-Rd1e286">Idem capitulo IX</ref> <quote xml:id="bHY6yh-d33375-Qd1e271">habens inimicum capitalem
+              <lb ed="#C"/>carcere positus est habes inimicum tuum
+              <lb ed="#C"/>capitalem queras oculum tuum pro
+              <lb ed="#C"/>tuo custode Si habes inimicum conuersationem
+              <lb ed="#C"/>non habeas cum ignotis semper cogita quod in<lb ed="#C" break="no"/>imicus 
+              sagax cogitat uias debilitas
+              <lb ed="#C"/>inimici non est tibi loco pacis sed treuga ad
+              <lb ed="#C"/>tempus Si te securas non cogitare inimicum
+              <lb ed="#C"/>quem cogitas periculo te exponis</quote>
+            </p>
+            <p xml:id="bHY6yh-d33375-d1e292">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d33375-Rd1e313">Iacobus beneuentanus capitulo 25 verus</ref> <quote xml:id="bHY6yh-d33375-Qd1e296">Non inimicitie si
+              <lb ed="#C"/>potes subditus esto Ad nichilat censum
+              <lb ed="#C"/>corpus corpus et ipse necat Corpus
+              <lb ed="#C"/>res animam pernix ad perditionem fert inimi<lb ed="#C" break="no"/>citia 
+              consulo nate caue</quote>
+            </p>
+            <p xml:id="bHY6yh-d33375-d1e308">
+              [omitted]
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
