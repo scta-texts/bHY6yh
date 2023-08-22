@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 3</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 3</title>
+               <date when="2023-08-17">August 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="68-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d40738"><!-- p2l6-r3 -->
+            <head xml:id="bHY6yh-d40738-Hd1e108">Rubrica 3</head>
+            <head xml:id="bHY6yh-d40738-Hd1e111" type="question-title">De principibus: ducibus et regibus</head>
+            <p xml:id="bHY6yh-d40738-d1e114">
+              De principibus 
+              <lb ed="#B"/>et ducibus et regibus Rubrica 3
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e121">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e117">IN exodo capitulo 22</ref> <quote xml:id="bHY6yh-d40738-Qd1e125">principi populi tui
+              <lb ed="#B"/>non maledices</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e133">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e131">SAlomon in prouerbiis<!--line jumps up--> capitulo 11</ref> <quote xml:id="bHY6yh-d40738-Qd1e137">vbi non<!--line jumps down--> est gubernator 
+              <lb ed="#B"/>populus corruet</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e144">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e142">14 capitulo</ref> <quote xml:id="bHY6yh-d40738-Qd1e146">In multi<lb ed="#B" break="no"/>tudine 
+              populi dignitas regis et 
+              <lb ed="#B"/>in paucitate plebis ignomia 
+              <lb ed="#B"/>principis</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e154">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e155">16 capitulo</ref> <quote xml:id="bHY6yh-d40738-Qd1e156">Indignatio regis 
+              <lb ed="#B"/>nuncii mortis et vir sapiens pla<lb ed="#B" break="no"/>cabit 
+              eum  ¶ In illaritate uultus  
+              <lb ed="#B"/>regit uita  ¶ clementia regis quasi ym<lb ed="#B" break="no"/>ber 
+              serotinus  ¶ Non decet principem 
+              <lb ed="#B"/>labium mendat</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e175">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e181">capitulo 20</ref> <quote xml:id="bHY6yh-d40738-Qd1e179">Sicud rugitus 
+              <lb ed="#B"/>leonis ita terror regis qui prouocant 
+              <lb ed="#B"/>cum peccat in animam suam</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e185">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e193">20 capitulo</ref> <quote xml:id="bHY6yh-d40738-Qd1e189">disci<lb ed="#B" break="no"/>pat 
+              impios rex sapiens  ¶ Misericordia et 
+              <lb ed="#B"/>veritas custodiunt reges et robo<lb ed="#B" break="no"/>ratur 
+              clementia tronus eius</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e197">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e205">22 
+              <lb ed="#B"/>capitulo</ref> <quote xml:id="bHY6yh-d40738-Qd1e199">Qui diligit cordis mundiciam 
+              <lb ed="#B"/>propter gratiam labiorum suorum habebit ami<lb ed="#B" break="no"/>cum 
+              regem</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e207">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e216">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e228">29 capitulo</ref> <quote xml:id="bHY6yh-d40738-Qd1e218">Cum impii sumpse<lb ed="#B" break="no"/>rint 
+              principatum gemet populus / Rex 
+              <lb ed="#B"/>iustus erigit terram</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e226">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e240">Idem in ecclesiastico capitulo 10</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d40738-Qd1e228">ve tibi terra cuius rex puer est et 
+              <lb ed="#B"/>cuius principes mane commedunt  ¶ beata terra 
+              <lb ed="#B"/>cuius rex nobilis est et cuius principes 
+              <lb ed="#B"/>uescuntur in tempore suo ad reficiendum 
+              <lb ed="#B"/>et non ad luxuriam eceteraetetetetetetet</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e240">
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e258">CRonica de nugis philosophurum capitulo 3 
+              <lb ed="#B"/>scilicet de solone</ref> <quote xml:id="bHY6yh-d40738-Qd1e244">Solo qui fuit vnus 
+              <lb ed="#B"/>de VII sapiententibus dicebat regem 
+              <lb ed="#B"/>fortissimum ui</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e252">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e269">Idem dicebat</ref> <quote xml:id="bHY6yh-d40738-Qd1e254">princi<lb ed="#B" break="no"/>pari 
+              prius edoctus sub esse princi<lb ed="#B" break="no"/>pi</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e260">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e279">5 capitulo scilicet de pictaco</ref> <quote xml:id="bHY6yh-d40738-Qd1e262">pictacus mi<lb ed="#B" break="no"/>tilineus 
+              qui fuit vnus de VIII sapi<lb ed="#B" break="no"/>entibus 
+              Ait principatus uirum ostendit</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e270">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e294">YSocrates in exortationibus capitulo 2 
+              <lb ed="#B"/>prope finem</ref>  ¶ <quote xml:id="bHY6yh-d40738-Qd1e274">Sicut conuersantem in 
+              <lb ed="#B"/>democratia oportet demulcere populum sic 
+              <lb ed="#B"/>et conuersantem in monarchia de<lb ed="#B" break="no"/>cet 
+              mirari regem</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e285">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e310">ARistotiles politicorum<!--line jumps up--> libro I capitulo I</ref> <quote xml:id="bHY6yh-d40738-Qd1e289">rrin<!--line jumps down-->cipatus et 
+              <lb ed="#B"/>subiectum natura propter salutem sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e295">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e320">3 capitulo</ref> <quote xml:id="bHY6yh-d40738-Qd1e297">Semper melior est principa<lb ed="#B" break="no"/>tus 
+              qui melior subiectorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e305">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e331">8 capitulo 
+              <lb ed="#B"/>et finale</ref> <quote xml:id="bHy6yh-d40738-d1e307">Masculus femella natura prin<lb ed="#B" break="no"/>cipalior 
+              est  ¶ Si principans non 
+              <lb ed="#B"/>erit sobrius et iustus quomodo prin<lb ed="#B" break="no"/>cipabitur 
+              bene si uero subiectus quo<lb ed="#B" break="no"/>mdo 
+              subicitur bene  ¶ principem qui<lb ed="#B" break="no"/>dem 
+              perfectam habere oportet moralem vir<lb ed="#B" break="no"/>tutem</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e314">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e347">libro 2 capitulo 6</ref> <quote xml:id="bHY6yh-d40738-Qd1e316">principari qui<lb ed="#B" break="no"/>dem 
+              non facile ualde pauperibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e322">
+              <lb ed="#B"/> ¶ <ref xml:id="bHY6yh-d40738-Rd1e358">8 capitulo</ref> <quote xml:id="bHY6yh-d40738-Qd1e326">prauum vtique uidebitur esse 
+              <lb ed="#B"/>plures principatum eundem princi<lb ed="#B" break="no"/>pari</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e332">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e368">libro 3 capitulo 2</ref> <quote xml:id="bHY6yh-d40738-Qd1e334">Non est bene princi<lb ed="#B" break="no"/>pari 
+              eum qui non sub principe 
+              <lb ed="#B"/>fuit</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e340">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e379">6 capitulo</ref> <quote xml:id="bHY6yh-d40738-Qd1e342">honores dicimus esse 
+              <lb ed="#B"/>principatus</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e349">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e388">9 capitulo et penultimo</ref> <quote xml:id="bHY6yh-d40738-Qd1e351">Qui in<lb ed="#B" break="no"/>tellectum 
+              iubet principari videtur iubere 
+              <lb ed="#B"/>principari deum et leges qui autem 
+              <lb ed="#B"/>hominem iuibet apponit et bestiam 
+              <lb ed="#B"/> ¶ Qui concupiscentia et furore prin<lb ed="#B" break="no"/>cipatum 
+              habuerit tandem et optimos 
+              <lb ed="#B"/>uiros interiment</quote> 
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e358">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e405">libro 4 capitulo 3</ref> <quote xml:id="bHY6yh-d40738-d1e360">sine 
+              <lb ed="#B"/>principibus <sic>inpossile</sic> est esse ciui<lb ed="#B" break="no"/>tatem</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e368">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e415">libro 5 capitulo 6</ref> <quote xml:id="bHY6yh-d40738-Qd1e370">Non similiter faci<lb ed="#B" break="no"/>le 
+              est malignari pauco tempore 
+              <pb ed="#B" n="68-v"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/>principantes et multo  ¶ Tria oportet 
+              <lb ed="#B"/>habere futuros principari princi<lb ed="#B" break="no"/>pales 
+              primo principatus. primo qui<lb ed="#B" break="no"/>dem
+              amorem ad consistentem po<lb ed="#B" break="no"/>liticam 
+              deinde potentiam maximorum 
+              <lb ed="#B"/>operum principatus tertio autem virtu<lb ed="#B" break="no"/>tem 
+              et iustitiam</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e391">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e440">Idem rethoricorum 
+              <lb ed="#B"/>libro I capitulo 20</ref> <quote xml:id="bHY6yh-d40738-Qd1e393">principari delectabissi<lb ed="#B" break="no"/>mum 
+              est  ¶ principes oportet sapere</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e401">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e409">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e462">Idem 
+              <lb ed="#B"/>ethicorum libro 3</ref> <quote xml:id="bHY6yh-d40738-Qd1e411">Nemo iuuenes e<lb ed="#B" break="no"/>ligit 
+              duces eo quod non constat pru<lb ed="#B"/><hi rend="underline">desl</hi> 
+              dentes esse</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e419">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e477">IEsus filius syrach<!--line jumps up--> in ecclesiastico capitulo 10</ref> <quote xml:id="bHY6yh-d40738-Qd1e423">princi<!--line jumps down-->patus sensati stabi<lb ed="#B" break="no"/>lis 
+              erit Qualis est rector ciui<lb ed="#B" break="no"/>tatis 
+              tales habitantes in ea  ¶ Rex 
+              <lb ed="#B"/>inscipiens perdet populum suum  ¶ Reg<lb ed="#B" break="no"/>num 
+              agente in gentem tranfferetur 
+              <lb ed="#B"/>propter in iustitias et iniurias et 
+              <lb ed="#B"/>contumelias et diuersos dolos</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e438">
+              <lb ed="#B"/> ¶ <ref xml:id="bHY6yh-d40738-Rd1e495">19 capitulo</ref> <quote xml:id="bHY6yh-d40738-Qd1e440">Qui potestatem sibi assu<lb ed="#B" break="no"/>mit 
+              iniuste odientur</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e446">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e508">32 capitulo</ref> <quote xml:id="bHY6yh-d40738-Qd1e450">Recto<lb ed="#B" break="no"/>rem 
+              te posuerunt noli extolli
+              <lb ed="#B"/>esto humilis quasi vnus ex<!--line jumps down--> ipsis</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e456">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e520">SAlustinus in iugurtino</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d40738-Qd1e460">natura mortalium auida est imperii</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e466">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e532">Tvlius philipicorum libro 2</ref> <quote xml:id="bHY6yh-d40738-Qd1e470">Cari<lb ed="#B" break="no"/>tate 
+              et beniuolentia ciuium 
+              <lb ed="#B"/>septum oportet esse non armis</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e478">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e547">Philon in libro sapientie capitulo 6</ref>  ¶<!--line jumps up--> <quote xml:id="bHY6yh-d40738-Qd1e482">Rex<!--line jumps down--> sapiens 
+              <lb ed="#B"/>populi stabilimentum est</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e488">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e559">Ovidius epistolarum 16 epistola</ref> <quote xml:id="bHY6yh-d40738-Qd1e492">an<!--line jumps up--> nescis<!--line jumps down--> longas 
+              <lb ed="#B"/>regibus esse manus</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e499">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e570">Idem 
+              <lb ed="#B"/>de arte amandi libro 3 et finale</ref> <quote xml:id="bHY6yh-d40738-Qd1e503">Non 
+              <lb ed="#B"/>bene cum sociis regna uenusque 
+              <lb ed="#B"/>manent</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e511">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e583">Idem de ponto libro 2 epistola 9 
+              <lb ed="#B"/>et antepenultimo</ref>  ¶ <quote xml:id="bHY6yh-d40738-Qd1e515">Regia crede michi 
+              <lb ed="#B"/>res est succurrere lapsis / Con<lb ed="#B" break="no"/>ueniens 
+              homini est hominem seruare uo<lb ed="#B" break="no"/>luntas
+              <cb ed="#B" n="b"/>
+               ¶ Et melius nulla que<lb ed="#B" break="no"/>ritur 
+              arte fauor</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e527">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e537">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e612">PAulus apostolus<!--line jumps up--> epistola ad roma<!--line jumps down-->nos capitulo 13</ref> <quote xml:id="bHY6yh-d40738-Qd1e541">omnis 
+              <lb ed="#B"/>anima potestatibus sublimio<lb ed="#B" break="no"/>ribus 
+              subdita sit</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e549">
+              / <quote xml:id="bHY6yh-d40738-Qd1e553">principes non 
+              <lb ed="#B"/>sunt timori boni operis sed mali 
+              <lb ed="#B"/> ¶ vis non timere potestatem bonum
+              <lb ed="#B"/>fac et habebis laudem ex illa <hi rend="underline">die</hi> dei 
+              <lb ed="#B"/>enim minister est tibi in bonum. si 
+              <lb ed="#B"/>autem malum feceris tunc non enim sine 
+              <lb ed="#B"/>causa gladium portat dei enim minister 
+              <lb ed="#B"/>est iudex in iram ei qui malum 
+              <lb ed="#B"/>agit</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e574">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e653">SE<!--line jumps up-->neca tragediarum in tyheste<!--line jumps down--> capitulo 3</ref>  ¶ <quote xml:id="bHY6yh-d40738-Qd1e578">vbi non est pudor
+              <lb ed="#B"/>nec cura iuris sanctitas pie<lb ed="#B" break="no"/>tas 
+              fides instabile regnum est</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e589">
+              <lb ed="#B"/> ¶ <ref xml:id="bHY6yh-d40738-Rd1e667">In medea capitulo 3</ref> <quote xml:id="bHY6yh-d40738-Qd1e591">Rex est timendus</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e597">
+              <lb ed="#B"/> ¶ <ref xml:id="bHY6yh-d40738-Rd1e676">capitulo 8</ref> <quote xml:id="bHY6yh-d40738-Qd1e599">Equum atque iniquum regis 
+              <lb ed="#B"/>imperium feras</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e605">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e686">In <sic>agamenone</sic> capitulo 
+              <lb ed="#B"/>3</ref> <quote xml:id="bHY6yh-d40738-Qd1e607">perlucet omne regie uitium do<lb ed="#B" break="no"/>mus</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e609">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e699">In octauia capitulo 10</ref> <quote xml:id="bHY6yh-d40738-Qd1e611">ferrum 
+              <lb ed="#B"/>tuetur principem Melius fides
+              <lb ed="#B"/>  ¶ Decet timeri cesarem at plus 
+              <lb ed="#B"/>diligi  ¶ Male imperatur cum regit 
+              <lb ed="#B"/>uulgus duces</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e621">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e715">capitulo 18</ref> <quote xml:id="bHY6yh-d40738-Qd1e625">Quis 
+              <lb ed="#B"/>regere dementes <hi rend="underline">vauet</hi> ualet</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e629">
+              <lb ed="#B"/> ¶ <ref xml:id="bHY6yh-d40738-Rd1e725">Idem de clementia</ref> <quote xml:id="bHY6yh-d40738-Qd1e633">natura commentata 
+              <lb ed="#B"/>est regem quod ex aliis animalibus 
+              <lb ed="#B"/>licet cognoscere ut ex apibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e641">
+              <lb ed="#B"/> ¶ <ref xml:id="bHY6yh-d40738-Rd1e737">Idem de consolatione ad marci<lb ed="#B" break="no"/>am</ref>
+               ¶ <quote xml:id="bHY6yh-d40738-Qd1e643">Turpis est nauigii rector 
+              <lb ed="#B"/>cui gubernacula fluctus eripuit 
+              <lb ed="#B"/>qui fluctuantia uela deseruit
+              <lb ed="#B"/>permisit tempestati ratem</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e654">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e750">Idem 
+              <lb ed="#B"/>in prouerbiis</ref> <quote xml:id="bHY6yh-d40738-Qd1e656">Male imperando sum<lb ed="#B" break="no"/>mum 
+              imperium amittitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e662">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e761">Lvcanus libro 8</ref> <quote xml:id="bHY6yh-d40738-Qd1e666">Nil pu<!--line jumps up-->det asue<lb ed="#B" break="no"/>tis sceptris
+              <lb ed="#B"/>mitissima sors est Regnorum<!--line jumps down--> sub rege nouo</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e674">
+              <pb ed="#B" n="69-r"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e775">FRontinus libro 4 et finale titulo 7</ref>  ¶ 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d40738-Qd1e678">paulus imperatorem senem 
+              <lb ed="#B"/>moribus dicebat esse oportere
+              <lb ed="#B"/>signficans moderatiora sequen<lb ed="#B" break="no"/>cia 
+              confilia</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e686">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e790">UEgetius<!--line jumps up--> de re militari libro<!--line jumps down--> I titulo I</ref>  ¶ <quote xml:id="bHY6yh-d40738-Qd1e690">Non quemquam
+              <lb ed="#B"/>magis decet uel meliora 
+              <lb ed="#B"/>scire uel plura quem principem 
+              <lb ed="#B"/>cuius doctrina omnibus potest prodesse 
+              <lb ed="#B"/>subiectis</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e700">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e804">libro 2 titulo 5</ref> <quote xml:id="bHY6yh-d40738-Qd1e702">Maiestas 
+              <lb ed="#B"/>imperatoris secundum deum humano diligen<lb ed="#B" break="no"/>da 
+              est et collenda nam imperato<lb ed="#B" break="no"/>ri 
+              cum augusti nomen accepit
+              <lb ed="#B"/>tanquam praesenti et corporali deo fi<lb ed="#B" break="no"/>delis 
+              est praestanda deuotio in<lb ed="#B" break="no"/>pendendus 
+              peruigil famulatus 
+              <lb ed="#B"/> ¶ deo enim uel priuatus uel milita<lb ed="#B" break="no"/>ris 
+              seruit cum fideliter eum dili<lb ed="#B" break="no"/>git 
+              qui deo regnat auctore</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e719">
+              <lb ed="#B"/> ¶ <ref xml:id="bHY6yh-d40738-Rd1e825">9 titulo</ref> <quote xml:id="bHY6yh-d40738-Qd1e721">ad praefecti laudem redun<lb ed="#B" break="no"/>dat 
+              virtus subiectorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e728">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e836">LEx diges titulo de officio<!--line jumps up--> praesidis<!--line jumps down--> libro congru<lb ed="#B" break="no"/>it</ref> 
+               ¶ <quote xml:id="bHY6yh-d40738-Qd1e732">Congruiit bone et graui 
+              <lb ed="#B"/>praesidi curare ut pacata atque
+              <lb ed="#B"/>quieta sit prouincia quam regit</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e740">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e851">BOetius de consolatione libro I capitulo 8</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d40738-Qd1e744">plato ait beatas fore res 
+              <lb ed="#B"/>publicas si eas vel dedici sa<lb ed="#B" break="no"/>pientie 
+              regerent uel si earum recto<lb ed="#B" break="no"/>res 
+              studere sapientie contigisset</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e758">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e871">CAssiodorus epistolarum libro I epistola<!--line jumps up--> 8</ref> <quote xml:id="bHY6yh-d40738-Qd1e762">Tu<lb ed="#B" break="no"/>ta 
+              est conditio subiectorum vbi vi<lb ed="#B" break="no"/>uit 
+              sub equitate regnantium</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e770">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e884">15 
+              <lb ed="#B"/>epistola</ref> <quote xml:id="bHY6yh-d40738-Qd1e772">Regnantis facultas tunc fit di<lb ed="#B" break="no"/>tior 
+              cum remittit et acquirit
+              <lb ed="#B"/>nobiles thezauros fame neglec<lb ed="#B" break="no"/>ta 
+              uilitate pecunie</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e782">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e898">18 capitulo</ref> <quote xml:id="bHY6yh-d40738-Qd1e784">Per<lb ed="#B" break="no"/>nitiosa 
+              res est in imperante tenuitas</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e790">
+              <lb ed="#B"/> ¶ <ref xml:id="bHY6yh-d40738-Rd1e908">22 epistola</ref> <quote xml:id="bHY6yh-d40738-Qd1e792">decet regalis apicis cu<lb ed="#B" break="no"/>ram 
+              <cb ed="#B" n="b"/>
+              generalitatis custodire con<lb ed="#B" break="no"/>cordiam 
+               ¶ Ad laudem regnan<lb ed="#B" break="no"/>tis 
+              trahitur si ab omnibus pax ama<lb ed="#B" break="no"/>tur</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e803">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e922">29 epistola</ref> <quote xml:id="bHY6yh-d40738-Qd1e805">benigni principis 
+              <lb ed="#B"/>est non tam delecta uelle punire 
+              <lb ed="#B"/>quam tollere</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e813">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e938">libro 2 epistola 2</ref> <quote xml:id="bHY6yh-d40738-Qd1e815">Sub imperio bo<lb ed="#B" break="no"/>ni 
+              principis omnium fortuna pro<lb ed="#B" break="no"/>ficiet
+               ¶ In laudem regnantis 
+              <lb ed="#B"/>proficit quod subiectus acquirit</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e825">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e952"></ref>  ¶ <quote xml:id="bHY6yh-d40738-Qd1e827">Regnantis est gloria subiectorum 
+              <lb ed="#B"/>ociosa transquilitas</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e833">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e963">libro 3 epistola 11</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d40738-Qd1e835">beneficia siquidem sunt que reg<lb ed="#B" break="no"/>na 
+              sublimant et liberalitatis do<lb ed="#B" break="no"/>mus
+              iugiter potest crescere si sibi 
+              <lb ed="#B"/>subiectos studeat ampliare</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e847">
+              / <ref xml:id="bHY6yh-d40738-Rd1e980">12 
+              <lb ed="#B"/>epistola</ref> <quote xml:id="bHY6yh-d40738-Qd1e849">Facilius est quippe si dicere 
+              <lb ed="#B"/>fas est errare naturam quam dissimilem sui 
+              <lb ed="#B"/>princeps possit formare rem pu<lb ed="#B" break="no"/>blicam</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e859">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e994">13 epistola</ref> <quote xml:id="bHY6yh-d40738-Qd1e861">Is potest bene regna<lb ed="#B" break="no"/>re 
+              qui se studet sub decore trac<lb ed="#B" break="no"/>tare</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e868">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e1004">29 epistola</ref> <quote xml:id="bHY6yh-d40738-Qd1e870">hec sunt regia dona 
+              <lb ed="#B"/>quod semina sparsa in segetem coales<lb ed="#B" break="no"/>cent 
+              <lb ed="#B"/>et in vnum coacta depereunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e880">
+              <lb ed="#B"/> ¶ <ref xml:id="bHY6yh-d40738-Rd1e1019">38 epistola</ref> <quote xml:id="bHY6yh-d40738-Qd1e882">orincipis opinionem longe 
+              <lb ed="#B"/>lateque disseminat subiectorum custo<lb ed="#B" break="no"/>dia 
+              securitas</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e890">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e1031">44 epistola</ref> <quote xml:id="bHY6yh-d40738-Qd1e892"><hi rend="underline">Teodoricus 
+              <lb ed="#B"/>rex gotorum ait</hi> Nobis propositum
+              <lb ed="#B"/>deo iuuante sic vincere ut sub<lb ed="#B" break="no"/>iecti 
+              se doleant nostrum dominium tar<lb ed="#B" break="no"/>dius 
+              acquisisse</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e904">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e1048">50 epistola</ref> <quote xml:id="bHY6yh-d40738-Qd1e906">felici<lb ed="#B" break="no"/>tas 
+              regnantis est famulantes 
+              <lb ed="#B"/>amare</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e912">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e920">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e1069">libro 4 epistola 12</ref> <quote xml:id="bHY6yh-d40738-Qd1e924">Semper pro<lb ed="#B" break="no"/>dest 
+              diuitum regum acquisita 
+              <lb ed="#B"/>concordia qui dum paruo mu<lb ed="#B" break="no"/>nere 
+              liniuntur maiore semper compensatione 
+              <lb ed="#B"/>prospiciunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e935">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e1083">39 epistola</ref> <quote xml:id="bHY6yh-d40738-Qd1e937">Quies suauis<lb ed="#B" break="no"/>sima 
+              populi et disponitio transquilla re<lb ed="#B" break="no"/>gionum 
+              preconium probatur esse reg<lb ed="#B" break="no"/>nantium</quote>
+              <pb ed="#B" n="69-v"/>
+              <cb ed="#B" n="a"/>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e945">
+              Y <ref xml:id="bHY6yh-d40738-Rd1e1095">44 epistola et finale</ref> <quote xml:id="bHY6yh-d40738-Qd1e947">Sic est in 
+              <lb ed="#B"/>principibus humilitas gloriosa quem<lb ed="#B" break="no"/>admodum 
+              in mediocribus odio<lb ed="#B" break="no"/>sa 
+              potest esse iactantia</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e957">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e1110">libro 6 epistola 16</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d40738-Qd1e959">regis consilium solidos decet scire 
+              <lb ed="#B"/><unclear>geruissimos</unclear></quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e965">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e1121">libro 7 epistola 16</ref> <quote xml:id="bHY6yh-d40738-Qd1e967">omnia sine prin<lb ed="#B" break="no"/>cipe 
+              <lb ed="#B"/>confusa sunt et dum vnusquis<lb ed="#B" break="no"/>que 
+              iuxta uoluntatem suam cogitat 
+              <lb ed="#B"/>uiuere regulam cognoscitur amittere 
+              <lb ed="#B"/>discipline</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e984">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e1142">27 epistola</ref> <quote xml:id="bHY6yh-d40738-Qd1e986">vtile est semper 
+              <lb ed="#B"/>eligere cui reliqui debeant obedi<lb ed="#B" break="no"/>re
+              quia si uoluntas diuersorum uaga 
+              <lb ed="#B"/>relinquitur confusio culparum amica ge<lb ed="#B" break="no"/>neratur</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e996">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e1156">libro 8 epistola 2</ref> <quote xml:id="bHY6yh-d40738-Qd1e998">Magnum pro<lb ed="#B" break="no"/>fecto 
+              felicitatis genus est obtinere 
+              <lb ed="#B"/>sine contentionibus principatum</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e1007">
+              / <ref xml:id="bHY6yh-d40738-Rd1e1169">10 epistola</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d40738-Qd1e1009">arduum nimis est principis meru<lb ed="#B" break="no"/>isse 
+              secretum</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e1017">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e1182">libro 9 epistola 9</ref> <quote xml:id="bHY6yh-d40738-Qd1e1019">disciplina 
+              <lb ed="#B"/>imperandi est amare quod multis ex<lb ed="#B" break="no"/>pedit</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e1025">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e1192">13 epistola</ref> <quote xml:id="bHY6yh-d40738-Qd1e1027">dona regalia quamuis 
+              <lb ed="#B"/>parua sublimant quia simul et meri<lb ed="#B" break="no"/>torum 
+              <unclear>grarum</unclear> recepisse creditur qui 
+              <lb ed="#B"/>principali munere subleuatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e1037">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e1207">libro 10 
+              <lb ed="#B"/>epistola 3</ref> <quote xml:id="bHY6yh-d40738-Qd1e1039">Tollitur necessitas principibus ex<lb ed="#B"/><del>e</del>cedendi 
+              quotiens assueuerunt 
+              <lb ed="#B"/>propria moderari</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e1047">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e1219">11 epistola</ref> <quote xml:id="bHY6yh-d40738-Qd1e1049">Quidquid
+              <lb ed="#B"/>asubiectis proficitur regnantium lau<lb ed="#B" break="no"/>dibus 
+              applicatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e1057">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e1231">libro 11 epistola 2</ref> <quote xml:id="bHY6yh-d40738-Qd1e1059">hoc 
+              <lb ed="#B"/>est prefecto difficillimum regnan<lb ed="#B" break="no"/>di 
+              genus exercere iuuenem in 
+              <lb ed="#B"/>suis sensibus principatum</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e1068">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e1243">libro 12 
+              <lb ed="#B"/>et finale epistola 2</ref> <quote xml:id="bHY6yh-d40738-Qd1e1070">omnes qui gremiorum 
+              <lb ed="#B"/>celsa petimus vitiorum humilia desera<lb ed="#B" break="no"/>mus 
+               ¶ Sit in nobis frons libera ut 
+              <lb ed="#B"/>aliorum possimus emendare peccata</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e1080">
+              <lb ed="#B"/> ¶ <quote xml:id="bHY6yh-d40738-Qd1e1082">Equat crimen omnes quos in<lb ed="#B" break="no"/>quinat 
+              et ideo dissimilis ab accu<lb ed="#B" break="no"/>sato 
+              debet esse qui iudicat</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e1090">
+              / <ref xml:id="bHY6yh-d40738-Rd1e1269">3 epistola</ref>
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/><quote xml:id="bHY6yh-d40738-Qd1e1092">varium poscit remedium diuersa 
+              <lb ed="#B"/>qualitas passionum sic qui populis 
+              <lb ed="#B"/>per esse cognoscitur non vno con<lb ed="#B" break="no"/>silio 
+              praedicturus inuenitur  ¶ feroces 
+              <lb ed="#B"/>districtione premendi sunt mansue<lb ed="#B" break="no"/>ti 
+              ciuiliter admonendi dolosi cau<lb ed="#B" break="no"/>te 
+              simplices sub leuitate trac<lb ed="#B" break="no"/>tandi 
+              sunt  ¶ Sub continentia iras<lb ed="#B" break="no"/>cere
+              sub maritate distringe</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e1111">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e1292">13 
+              <lb ed="#B"/>epistola</ref> <quote xml:id="bHY6yh-d40738-Qd1e1113">Pietas si quidem principum 
+              <lb ed="#B"/>totum custodit imperium et dum illis 
+              incissitudo <sic>redigna</sic> redditur <sic>inco<lb ed="#B" break="no"/>luiam</sic>
+              rei publicem membra seruan<lb ed="#B" break="no"/>tur</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e1123">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e1306">19 capitulo</ref> <quote xml:id="bHY6yh-d40738-Qd1e1125">Rex letus operatur 
+              <lb ed="#B"/>ab omnibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e1131">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e1318">GRegorius<!--line jumps up--> in pastorali capitulo 18</ref><!--line jumps down--> <quote xml:id="bHY6yh-d40738-Qd1e1135">Sit rector bene gen<lb ed="#B" break="no"/>tibus 
+              per humilitatem socius 
+              <lb ed="#B"/>contra delinquentium vitia per celum 
+              <lb ed="#B"/>iustitie erectus  ¶ Tunc necesse est 
+              <lb ed="#B"/>quod rectores a subditis timeantur 
+              <lb ed="#B"/>quoniam ab eis deum timeri mini<lb ed="#B" break="no"/>me 
+              depraehendunt ut humana sal<lb ed="#B" break="no"/>tem 
+              formidine peccare metuant 
+              <lb ed="#B"/>qui diuina iudicia non formi<lb ed="#B" break="no"/>dant
+               ¶ Summus locus bene regitur 
+              <lb ed="#B"/>cum hiis qui prae est vitiis potius 
+              <lb ed="#B"/>quam fratribus dominantur</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e1161">
+              <ref xml:id="bHY6yh-d40738-Rd1e1349">IOhannes solubriensis<!--line jumps up--> anglicus in<!--line jumps down--> policratione 
+              <lb ed="#B"/>libro 5</ref> <quote xml:id="bHY6yh-d40738-Qd1e1165">Trayanus optimus impera<lb ed="#B" break="no"/>tor 
+              arguentibus eum amicis quod 
+              <lb ed="#B"/>in omnes et ultra quam imperatorem de<lb ed="#B" break="no"/>ceat 
+              communis esset Respondit se talem uel<lb ed="#B" break="no"/>le 
+              imperatorem esse priuatis quales 
+              <lb ed="#B"/>imperatores sibi esse priuatos op<lb ed="#B" break="no"/>tasset</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e1179">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e1370">Gval<!--line jumps up-->terus de castellione libro I</ref><!--line jumps down--> <quote xml:id="bHY6yh-d40738-Qd1e1183">parce humili facilis oran<lb ed="#B" break="no"/>ti 
+              frange superbum  ¶ Non murus 
+              <lb ed="#B"/>non arma ducem tutantur auarum
+              <lb ed="#B"/>Instabile regnum est quod non cle<lb ed="#B" break="no"/>mentia 
+              firmat</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e1193">
+               ¶ <ref xml:id="bHY6yh-d40738-Rd1e1386">libro 9 et penultimo</ref> <quote xml:id="bHY6yh-d40738-Qd1e1197">Testantur 
+              <pb ed="#B" n="70-r"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/>eorum finis amicitias regum non 
+              <lb ed="#B"/>esse perempnes</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e2007">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e1399">PRouerbium<!--line jumps up--> metrum extraor libro<!--line jumps down--> uageratis</ref> / <quote xml:id="bHY6yh-d40738-Qd1e2009">Sit rector 
+              <lb ed="#B"/>terre nolens obprobria fer<lb ed="#B" break="no"/>re
+               ¶ prudens legalis audax nulli 
+              <lb ed="#B"/>specialis</quote>
+            </p>
+            <p xml:id="bHY6yh-d40738-d1e1209">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d40738-Rd1e1412">Prouer<!--line jumps up-->bium uulgare</ref> <quote xml:id="bHY6yh-d40738-Qd1e1213">lo tuti<!--line jumps down--> eguale deo uol male.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
