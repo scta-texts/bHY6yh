@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 7</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 7</title>
+               <date when="2023-08-18">August 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="46-r"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d33955"><!-- p2l4-r7 -->
+            <head xml:id="bHY6yh-d33955-Hd1e108">Rubrica 7</head>
+            <head xml:id="bHY6yh-d33955-Hd1e111" type="question-title">De contentionibus</head>
+            <p xml:id="bHY6yh-d33955-d1e114">
+              De contentioni<lb ed="#C" break="no"/>bus 
+              capitulum
+            </p>
+            <!--next paragraph begins on the same line as the previous paragraph-->
+            <p xml:id="bHY6yh-d33955-d1e119">
+              <ref xml:id="bHY6yh-d33955-Rd1e115">SAlomon
+              <lb ed="#C"/>in prouerbiorum capitulo III</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d33955-Qd1e125">Ne contendas aduersum hominem frustra</quote>
+            </p>
+            <p xml:id="bHY6yh-d33955-d1e131">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d33955-Rd1e127">Idem 14 capitulo</ref> <quote xml:id="bHY6yh-d33955-Qd1e133">Ne contendas cum pessimis</quote>
+            </p>
+            <p xml:id="bHY6yh-d33955-d1e140">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d33955-Rd1e138">Idem 20</ref> <quote xml:id="bHY6yh-d33955-Qd1e142">honorem homini qui se separat
+              <lb ed="#C"/>a contentionibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d33955-d1e148">
+              <ref xml:id="bHY6yh-d33955-Rd1e150">Idem 29</ref> <quote xml:id="bHY6yh-d33955-Qd1e152">Vir sapi<lb ed="#C" break="no"/>ens 
+              si cum stulto contenderit siue iras<lb ed="#C" break="no"/>catur 
+              siue rideat non inueniet requiem</quote>
+            </p>
+            <p xml:id="bHY6yh-d33955-d1e158">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d33955-Rd1e162">Yesus filius sidrach in ecclesiastico capitulo 8</ref> <quote xml:id="bHY6yh-d33955-Qd1e162">Non litiges cum ho<lb ed="#C" break="no"/>mine 
+              linguato et ne strtas ignem illus
+              <lb ed="#C"/>lingua</quote>
+            </p>
+            <p xml:id="bHY6yh-d33955-d1e168">
+              ¶ <ref xml:id="bHY6yh-d33955-Rd1e174">Idem capitulo XI</ref> <quote xml:id="bHY6yh-d33955-Qd1e172">de ea re que te non
+              <lb ed="#C"/>molestat ne certaueris</quote>
+            </p>
+            <p xml:id="bHY6yh-d33955-d1e178">
+              ¶ <ref xml:id="bHY6yh-d33955-Rd1e186">Oratius in epistolis
+              <lb ed="#C"/>libro I epistola XIX</ref> <quote xml:id="bHY6yh-d33955-Qd1e182">Alter rixatur de lana se<lb ed="#C" break="no"/>pe 
+              caprina</quote>
+            </p>
+            <p xml:id="bHY6yh-d33955-d1e188">
+              ¶ <ref xml:id="bHY6yh-d33955-Rd1e198">paulus ad thimotheum 2</ref> <quote xml:id="bHY6yh-d33955-Qd1e192">Noli
+              <lb ed="#C"/>uerbis contendere ad nichilum enim valet nisi
+              <lb ed="#C"/>ad subuersionem audientium ineptas
+              <lb ed="#C"/>et sine disciplina questiones de uita sciens quia
+              <lb ed="#C"/>generant lites</quote>
+            </p>
+            <p xml:id="bHY6yh-d33955-d1e205">
+              ¶ <ref xml:id="bHY6yh-d33955-Rd1e216">Seneca de ira libro 2</ref> <quote xml:id="bHY6yh-d33955-Qd1e209">cum
+              <lb ed="#C"/>pari contendere ancepes est cum superiore furi<lb ed="#C" break="no"/>osum 
+              cum in feriore sordidum</quote>
+            </p>
+            <p xml:id="bHY6yh-d33955-d1e223">
+              ¶ <ref xml:id="bHY6yh-d33955-Rd1e236">Lex digestum titulo
+              <lb ed="#C"/>de seruitu ur praedi libro iure communi</ref> <quote xml:id="bHY6yh-d33955-Qd1e227">propter immensas uide summa</quote>
+            </p>
+            <p xml:id="bHY6yh-d33955-d1e235">
+              ¶ <ref xml:id="bHY6yh-d33955-Rd1e249">Auctor libro de formula honeste uite capitulo 4</ref> <quote xml:id="bHY6yh-d33955-Qd1e239">Contendenti
+              <lb ed="#C"/>facile cede nec iniurias disceptationes<lb ed="#C" break="no"/>que 
+              discendas</quote>
+            </p>
+            <p xml:id="bHY6yh-d33955-d1e247">
+              ¶ <ref xml:id="bHY6yh-d33955-Rd1e262">Ambrosius de officiis libro I capitulo II</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d33955-Qd1e251">Absit pertinax in familiari sermone conten<lb ed="#C" break="no"/>tio 
+              questiones enim magis excitare inaures quam 
+              <lb ed="#C"/>utilitatis aliquid afferre solet</quote>
+            </p>
+            <p xml:id="bHY6yh-d33955-d1e261">
+              ¶ <ref xml:id="bHY6yh-d33955-Rd1e278">Macrobius
+              <pb ed="#C" n="46-v"/>
+              <lb ed="#C" n="a"/>
+              <lb ed="#C"/>saturnaliorum libro 2 capitulo XVIII Ex auctoritate pub<lb ed="#C" break="no"/>lii
+              cladii</ref> <quote xml:id="bHY6yh-d33955-Qd1e265">nimium altercando ueritas amic<lb ed="#C" break="no"/>titur</quote>
+            </p>
+            <p xml:id="bHY6yh-d33955-d1e271">
+              ¶ <ref xml:id="bHY6yh-d33955-Rd1e295">Cato capitulo 2 Vers</ref> <quote xml:id="bHY6yh-d33955-Qd1e275">Contra uerbosos no<lb ed="#C" break="no"/>li 
+              contendere uerbis</quote>
+            </p>
+            <!--manuscript makes the next paragraph a continuation of the previous paragraph-->
+            <p xml:id="bHY6yh-d33955-d1e282">
+              <quote xml:id="bHY6yh-d33955-Qd1e284">lis minimis uerbis in<lb ed="#C" break="no"/>terdum 
+              maxima crescit</quote>
+            </p>
+            <p xml:id="bHY6yh-d33955-d1e292">
+              ¶ <ref xml:id="bHY6yh-d33955-Rd1e319">ysidorus soliloquo<lb ed="#C" break="no"/>rum 
+              libro 2 capitulo 26</ref> <quote xml:id="bHY6yh-d33955-Qd1e296">caue contentiones con<lb ed="#C" break="no"/>tentio 
+              rixam gignit Contenptio faties
+              <lb ed="#C"/>odiorum accendit contentio pacem cordis
+              <lb ed="#C"/>extinguit Contentio concordiam rumpit</quote>
+            </p>
+            <p xml:id="bHY6yh-d33955-d1e308">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d33955-Rd1e337">Idem libro 2 capitulo 33</ref> <quote xml:id="bHY6yh-d33955-Qd1e312">Cede cito ueritati
+              <lb ed="#C"/>in omni uide summa</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
