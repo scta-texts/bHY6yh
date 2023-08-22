@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 14</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 14</title>
+               <date when="2023-08-22">August 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="48-r"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d35397"><!-- p2l4-r14 -->
+            <head xml:id="bHY6yh-d35397-Hd1e108">Rubrica 14</head>
+            <head xml:id="bHY6yh-d35397-Hd1e111" type="question-title">De causis inducentibus pacem et concordiam</head>
+            <p xml:id="bHY6yh-d35397-d1e114">
+              De causis inducentibus 
+              <lb ed="#C"/>ad pacem
+              <lb ed="#C"/>capitulum
+            </p>
+            <!--next paragraph begins on the second line of the previous paragraph-->
+            <p xml:id="bHY6yh-d35397-d1e121">
+              <ref xml:id="bHY6yh-d35397-Rd1e117">ARistoteles politicorum libro V
+              <lb ed="#C"/>capitulo III</ref> <quote xml:id="bHY6yh-d35397-Qd1e129">Congregat
+              <lb ed="#C"/>enim separatissimos communis timor</quote>
+            </p>
+            <p xml:id="bHY6yh-d35397-d1e135">
+              ¶ <ref xml:id="bHY6yh-d35397-Rd1e134">Lucas
+              <lb ed="#C"/>in euangelio XXIII et penultima</ref> <quote xml:id="bHY6yh-d35397-Qd1e139">Multitudo iude<lb ed="#C" break="no"/>orum 
+              duxerunt yhesum ad pilatum cap<lb ed="#C" break="no"/>tum 
+              dicens commouit populum docens perto<lb ed="#C" break="no"/>tam  
+              iudeam incipiens a galilea usque
+              <lb ed="#C"/>huc cetera vsque ibi Et ex illa hora facti
+              <lb ed="#C"/>sunt amici herodes et pilatus</quote>
+            </p>
+            <p xml:id="bHY6yh-d35397-d1e183">
+              ¶ <ref xml:id="bHY6yh-d35397-Rd1e184">Sta<lb ed="#C" break="no"/>tius 
+              thebaydos libro VII</ref> <quote xml:id="bHY6yh-d35397-Qd1e187">Socii pacem
+              <lb ed="#C"/>fecere mores</quote>
+            </p>
+            <p xml:id="bHY6yh-d35397-d1e193">
+              ¶ <quote xml:id="bHY6yh-d35397-Qd1e197"> <ref xml:id="bHY6yh-d35397-Rd1e197">frontinus libro primo titulo IXo</ref> Sil<lb ed="#C" break="no"/>la 
+              cum regiones ciuium romanorum
+              <lb ed="#C"/>seditione pernitiosa furerent concilio resti<lb ed="#C" break="no"/>tuit 
+              sanitatem effenatis prope enim annun<lb ed="#C" break="no"/>ciari 
+              iussit hostem adesse ad arma
+              <lb ed="#C"/>uocantem clamorem tolli signa tollere
+              <lb ed="#C"/>discussa seditio est vniuersis aduersus hostem
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/>consentientibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d35397-d1e214">
+              ¶ <ref xml:id="bHY6yh-d35397-Rd1e220">Idem titulo X</ref> <quote xml:id="bHY6yh-d35397-Qd1e216">corulo
+              <lb ed="#C"/>dux dacorum cum sciret dissociatum
+              <lb ed="#C"/>armis ciuilibus populum romanum neque tantum temp<lb ed="#C" break="no"/>tandum 
+              arbitraretur quia externo bel<lb ed="#C" break="no"/>lo 
+              posset concordia in ciues canescere
+              <lb ed="#C"/>duos canes in conspectu plurum commisit his<lb ed="#C" break="no"/>que 
+              acerrime inter ipsos pugnantibus luparium
+              <lb ed="#C"/>ostendit quem protinus canes inter se oberis<lb ed="#C" break="no"/>sa 
+              ira agressi sunt quo exemplo prohi<lb ed="#C" break="no"/>buit 
+              barbaras impetu romanis profu<lb ed="#C" break="no"/>turo </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
