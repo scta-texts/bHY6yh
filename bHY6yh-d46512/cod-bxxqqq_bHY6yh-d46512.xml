@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 3</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 3</title>
+               <date when="2023-08-23">August 23, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="78-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d46512"><!-- p3l1-r3 -->
+            <head xml:id="bHY6yh-d46512-Hd1e108">Rubrica 3</head>
+            <head xml:id="bHY6yh-d46512-Hd1e111" type="question-title">De naturali perspicuitate veri</head>
+            <p xml:id="bHY6yh-d46512-d1e114">
+              De 
+              <lb ed="#B"/>naturali perspicuitate veri Rubrica 3
+            </p>
+            <p xml:id="bHY6yh-d46512-d1e119">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d46512-Rd1e115">ARistotiles rethoricorum libro I capitulo I</ref> <quote xml:id="bHY6yh-d46512-Qd1e127">Homines 
+              <lb ed="#B"/>ad ueritatem apti nati sunt
+              <lb ed="#B"/>sufficienter ¶ Semper veriora et 
+              <lb ed="#B"/>meliora natura silogizabiliora et 
+              <lb ed="#B"/>persuabiliora sunt</quote> 
+            </p>
+            <p xml:id="bHY6yh-d46512-d1e135">
+              ¶ <ref xml:id="bHY6yh-d46512-Rd1e138">Idem ethicorum 
+              <lb ed="#B"/>libro I capitulo 4</ref> ¶ <quote xml:id="bHY6yh-d46512-Qd1e139">vero quidem omnia conso<lb ed="#B" break="no"/>nant 
+              existentia falso autem cito 
+              <lb ed="#B"/>dissonat verum</quote> 
+            </p>
+            <p xml:id="bHY6yh-d46512-d1e146">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d46512-Rd1e151">Tvlius de ora<!--line jumps up-->tore libro 2</ref> <quote xml:id="bHY6yh-d46512-Qd1e150">Mag<!--line jumps down-->na quedem est 
+              <lb ed="#B"/>vis incredibilisque nature 
+              <lb ed="#B"/>omnis enim quedam sensu tacito si<lb ed="#B" break="no"/>ne 
+              ulla arte que sint in artibus 
+              <lb ed="#B"/>ac rationibus recta ac praua di<lb ed="#B" break="no"/>uidicant
+              ¶ Mirabile est cum 
+              <lb ed="#B"/>plurimum in faciendo intersit
+              <lb ed="#B"/>inter doctum et rudem quam non mul<lb ed="#B" break="no"/>tum 
+              differat in iudicando</quote>
+            </p>
+            <p xml:id="bHY6yh-d46512-d1e167">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d46512-Rd1e174">PErsius satira 5</ref> <quote xml:id="bHY6yh-d46512-Qd1e171">Ars<!--line jumps up--> dedit<!--line jumps down--> veri 
+              <lb ed="#B"/>dignoscere calles ¶ Nequid 
+              <lb ed="#B"/>sub errato uinedosum tineat auro
+              <lb ed="#B"/>¶ Queque sequenda forent et que 
+              <lb ed="#B"/>vitanda vicissim</quote>
+            </p>
+            <p xml:id="bHY6yh-d46512-d1e181">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d46512-Rd1e190">SEneca epistolarum<!--line jumps up--> ad lucillum libro 13<!--line jumps down--> epistola 4</ref> <quote xml:id="bHY6yh-d46512-Qd1e185">veritas 
+              <lb ed="#B"/>est in omnem partem sui eadem 
+              <lb ed="#B"/>que decipiunt nichil habent solidi 
+              <lb ed="#B"/>tenue est mendacium perlucet si 
+              <lb ed="#B"/>diligenter inspexeris</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
