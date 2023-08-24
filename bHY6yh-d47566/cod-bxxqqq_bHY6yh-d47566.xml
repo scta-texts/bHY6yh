@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 9</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 9</title>
+               <date when="2023-08-24">August 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="80-r"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d47566"><!-- p3l1-r9 -->
+            <head xml:id="bHY6yh-d47566-Hd1e108">Rubrica 9</head>
+            <head xml:id="bHY6yh-d47566-Hd1e111" type="question-title">De iudicio et prognosticatione futurorum</head>
+            <p xml:id="bHY6yh-d47566-d1e114">
+              Rubrica 9
+              <lb ed="#B"/>De iudicio et pronosticatione<!--line jumps down--> futurorum 
+            </p>
+            <p xml:id="bHY6yh-d47566-d1e121">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d47566-Rd1e119">SAlomon in prouerbiis 
+              <lb ed="#B"/>capitulo 30</ref> <quote xml:id="bHY6yh-d47566-Qd1e127">Penitus ignoro uiam 
+              <lb ed="#B"/>uiri in adolescentia sua</quote> 
+            </p>
+            <p xml:id="bHY6yh-d47566-d1e133">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d47566-Rd1e139">SEneca epistolarum ad lucillum<!--line jumps up--> libro 5<!--line jumps down--> epistola 7</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d47566-Qd1e143">Ariston <hi rend="underline">agebat</hi><add place="margin-right"><hi rend="underline"><del>aul</del></hi> aiebat</add> velle se ado<lb ed="#B" break="no"/>lescentem 
+              tristem quam illarem et 
+              <lb ed="#B"/>amabilem turbe vinum enim bonum 
+              <lb ed="#B"/>fieri quod recendurum et asperum vi<lb ed="#B" break="no"/>sum 
+              est</quote>
+            </p>
+            <p xml:id="bHY6yh-d47566-d1e154">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d47566-Rd1e159">CAssio<!--line jumps up-->dorus epistolarum 12 et finale<!--line jumps down--> epistola 19</ref> <quote xml:id="bHY6yh-d47566-Qd1e158">Necesse est ut res 
+              <lb ed="#B"/>magna compotentia praemittat</quote>
+            </p>
+            <p xml:id="bHY6yh-d47566-d1e164">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d47566-Rd1e171">UErsificator fabularum esopi 50 fabula</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d47566-Qd1e168">perteriti ratio scire futura facit</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
