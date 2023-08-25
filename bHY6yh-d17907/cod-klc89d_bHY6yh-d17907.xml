@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 1</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#graydonlee">Graydon Lee</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 1</title>
+          <date when="2021-08-04">August 4, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Ka" n="40-r"/>
+        <cb ed="#Ka" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d17907"><!-- p2l1-r1 -->
+        <head xml:id="bHY6yh-d17907-Hd1e108">Rubrica 1</head>
+        <head xml:id="bHY6yh-d17907-Hd1e111" type="question-title">De iustitia equitate et iniquitate</head>
+        <p xml:id="bHY6yh-d17907-d1e114">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d17907-Rd1e111">SEcunde partis primus liber
+          <lb ed="#Ka"/>tractat de iustitia et per<lb ed="#Ka" break="no"/>tinentibus
+          ad eam et de con<cb ed="#Ka" n="b"/><lb ed="#Ka" break="no"/>trariis
+          sub hiis titulis sequen<lb ed="#Ka" break="no"/>tibus</ref>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e127">
+          de iustitia equitate et
+          <lb ed="#Ka"/>iniquitate rubrica prima
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e134">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d17907-Rd1e134">IOb hystoria capitulo 11</ref> <quote xml:id="bHY6yh-d17907-Qd1e138">Si iniqui<lb ed="#Ka" break="no"/>tatem
+          que est in manu tua
+          <lb ed="#Ka"/>abstuleris a te et manserit in
+          <lb ed="#Ka"/>tabernaculo tuo iustitia tunc leua<lb ed="#Ka" break="no"/>re
+          poteris faciem tuam absque macu<lb ed="#Ka" break="no"/>la
+          et eris stabilis et non timebis</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e153"> 
+          <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d17907-Rd1e153">capitulo 12</ref> <quote xml:id="bHY6yh-d17907-Qd1e155">deridetur iusti simplicitas lam<lb ed="#Ka" break="no"/>pas
+          contempta apud cogitationes
+          <lb ed="#Ka"/>diuitum parata ad tempus statuum</quote> //
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e165"> 
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d17907-Rd1e167">36 capitulo</ref> <quote xml:id="bHY6yh-d17907-Qd1e167">nec multitudo donorum te in<lb ed="#Ka" break="no"/>clinet
+          // Caue ne declines ad ini<lb ed="#Ka" break="no"/>quitatem
+          hanc enim cepisti sequi
+          <lb ed="#Ka"/>post miseriam</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e175">
+          <ref xml:id="bHY6yh-d17907-Rd1e181">In leuitico capitulo 19</ref> <quote xml:id="bHY6yh-d17907-Qd1e179">non
+          <lb ed="#Ka"/>facies quod iniquum est</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e183">
+          <ref xml:id="bHY6yh-d17907-Rd1e191">Moyses in
+          <lb ed="#Ka"/>deuteronomio capitulo 24</ref> <quote xml:id="bHY6yh-d17907-Qd1e187">non occidentur pa<lb ed="#Ka" break="no"/>tres
+          profiliis nec filii propatribus
+          <lb ed="#Ka"/>sed vnusquisque pro suo peccato mo<lb ed="#Ka" break="no"/>riatur</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e195">
+          <ref xml:id="bHY6yh-d17907-Rd1e205">Psalmista psalmus 10</ref> <quote xml:id="bHY6yh-d17907-Qd1e199">Qui di<lb ed="#Ka" break="no"/>ligit
+          iniquitatem odit animam suam</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e209"> 
+          <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d17907-Rd1e219">33 psalmus</ref> <quote xml:id="bHY6yh-d17907-Qd1e211">noli emulari in eo qui
+          <lb ed="#Ka"/>prosperatur in via sua in homine fa<lb ed="#Ka" break="no"/>ciente
+          iusticias // Confirmat iustos
+          <lb ed="#Ka"/>dominus iustus miseretur et tribuet
+          <lb ed="#Ka"/>Cum ceciderit iustus non collidetur
+          <lb ed="#Ka"/>quia dominus supponit manum suam
+          <lb ed="#Ka"/>iusti hereditabunt terram et in ha<lb ed="#Ka" break="no"/>bitabunt
+          in seculum seculi super
+          <lb ed="#Ka"/>eam Consideratis peccator iustum
+          <lb ed="#Ka"/>et querit mortificare eum dominus
+          <lb ed="#Ka"/>autem non derelinquet eum in ma<pb ed="#Ka" n="40-v"/><cb ed="#Ka" n="a"/><lb ed="#Ka" break="no"/>nibus
+          eius Custodi in nocentiam
+          <lb ed="#Ka"/>et vide iniquitatem</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e218"> 
+          Omitted <!--quote attributed to psalmus 33, 36 omitted--> <ref xml:id="bHY6yh-d17907-Rd1e230"></ref><quote xml:id="bHY6yh-d17907-Qd1e220"></quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e245">
+          // <ref xml:id="bHY6yh-d17907-Rd1e260">81 psalmus</ref> <quote xml:id="bHY6yh-d17907-Qd1e247">noli<lb ed="#Ka" break="no"/>te
+          sperare iniquitatem</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e253"> 
+          // <ref xml:id="bHY6yh-d17907-Rd1e270">82 psalmus</ref>
+          <lb ed="#Ka"/><quote xml:id="bHY6yh-d17907-Qd1e255">Iustitia et pax osculate sunt //
+          <lb ed="#Ka"/>Ueritas de terra orta est et iusti<lb ed="#Ka" break="no"/>tia
+          de celo prospexit</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e263"> 
+          // <ref xml:id="bHY6yh-d17907-Rd1e282">111 psalmus</ref> <quote xml:id="bHY6yh-d17907-Qd1e265">In me<lb ed="#Ka" break="no"/>moria
+          eterna erit iustus ab au<lb ed="#Ka" break="no"/>ditione
+          mala non timebit</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e273">
+          <ref xml:id="bHY6yh-d17907-Rd1e296">Salomon
+          <lb ed="#Ka"/>in prouerbiis capitulo 4</ref> <quote xml:id="bHY6yh-d17907-Qd1e277">ne declines ad
+          <lb ed="#Ka"/>dexteram neque ad sinistram auerte
+          <lb ed="#Ka"/>pedem tuum a malo</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e285"> 
+          // <ref xml:id="bHY6yh-d17907-Rd1e308">capitulo 10</ref> <quote xml:id="bHY6yh-d17907-Qd1e287">benedictio
+          <lb ed="#Ka"/>domini super caput iusti ¶ Memoria
+          <lb ed="#Ka"/>iusti cum laudibus</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e294">
+          // <ref xml:id="bHY6yh-d17907-Rd1e321">capitulo 11</ref> <quote xml:id="bHY6yh-d17907-Qd1e298">iustitia
+          <lb ed="#Ka"/>rectorum liberabit eos insidiis suis
+          <lb ed="#Ka"/>capientur impii</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e304"> 
+          // <ref xml:id="bHY6yh-d17907-Rd1e331">capitulo 12</ref> <quote xml:id="bHY6yh-d17907-Qd1e306">In semita
+          <lb ed="#Ka"/>iustitie vita</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e312"> 
+          // <ref xml:id="bHY6yh-d17907-Rd1e341">capitulo 13</ref> <quote xml:id="bHY6yh-d17907-Qd1e314">Iustitia cu<lb ed="#Ka" break="no"/>stodit
+          in nocentis viam iustis
+          <lb ed="#Ka"/>retribuentur bona</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e320"> 
+          // <ref xml:id="bHY6yh-d17907-Rd1e351">capitulo 14</ref> <quote xml:id="bHY6yh-d17907-Qd1e322">iustitia
+          <lb ed="#Ka"/>elevat gentem miseros facit populos
+          <lb ed="#Ka"/>peccatum // domus impiorum delebitur
+          <lb ed="#Ka"/>tabernacula iustorum germinabuntur</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e332"> 
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d17907-Rd1e365">capitulo 15</ref> <quote xml:id="bHY6yh-d17907-Qd1e334">Qui sequitur iustitiam dili<lb ed="#Ka" break="no"/>gitur
+          a domino</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e340"> 
+          // <ref xml:id="bHY6yh-d17907-Rd1e375">capitulo 26</ref> <quote xml:id="bHY6yh-d17907-Qd1e342">Initium <del rend="strikethrough">bo</del> vie
+          <lb ed="#Ka"/>bone facere iustitiam // Iustitia
+          <lb ed="#Ka"/>formatur solium</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e349">
+          / <ref xml:id="bHY6yh-d17907-Rd1e386">capitulo 28</ref> <quote xml:id="bHY6yh-d17907-Qd1e351">Septies
+          <lb ed="#Ka"/>cadet iustus et resurget</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e357">
+          <ref xml:id="bHY6yh-d17907-Rd1e398">Isayas
+          <lb ed="#Ka"/>propheta capitulo 5</ref> <quote xml:id="bHY6yh-d17907-Qd1e361">ue qui iustificatis
+          <lb ed="#Ka"/>impium prominentibus et iustitiam
+          <lb ed="#Ka"/>iusti auffertis ab eo</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e367">
+          <ref xml:id="bHY6yh-d17907-Rd1e410">capitulo 28</ref> <quote xml:id="bHY6yh-d17907-Qd1e371">Semi<lb ed="#Ka" break="no"/>ta
+          iusti recta est rectus callis iusti
+          <lb ed="#Ka"/>ad ambulandum</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e377">
+          <ref xml:id="bHY6yh-d17907-Rd1e422">Ieremias propheta
+          <lb ed="#Ka"/>in libro prophetiarum capitulo 22</ref> <quote xml:id="bHY6yh-d17907-Qd1e381">ue qui
+          <lb ed="#Ka"/>edificat domum suam in iustitia</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e387">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d17907-Rd1e434">Aristotiles ethycorum libro 5 capitulo 1</ref> <quote xml:id="bHY6yh-d17907-Qd1e391">pre<cb ed="#Ka" n="b"/><lb ed="#Ka" break="no"/>clarissimam
+          virtutem esse videtur
+          <lb ed="#Ka"/>iustitia et neque vesperus neque
+          <lb ed="#Ka"/>lucifer ita admirabilis</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e399"> 
+          // <ref xml:id="bHY6yh-d17907-Rd1e446">capitulo 5</ref> <quote xml:id="bHY6yh-d17907-Qd1e401">iusti<lb ed="#Ka" break="no"/>tia
+          est habitus secundum quem iustus dicitur
+          <lb ed="#Ka"/>operatiuus secundum electionem iusti non
+          <lb ed="#Ka"/>est iustitia ad seipsum</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e410"> 
+          <ref xml:id="bHY6yh-d17907-Rd1e459">capitulo 6</ref> <quote xml:id="bHY6yh-d17907-Qd1e412">pollitici
+          <lb ed="#Ka"/>iusti hoc quidem naturale est hoc
+          <lb ed="#Ka"/>autem legale // naturale quidem est quod
+          <lb ed="#Ka"/>vbique habet eandem potentiam et non
+          <lb ed="#Ka"/>in videri vel non legali autem quod exprin<lb ed="#Ka" break="no"/>cipis
+          quidem nichil differt</quote> // <ref xml:id="bHY6yh-d17907-Rd1e470">capitulo 7</ref>
+          <quote xml:id="bHY6yh-d17907-Qd1e472">Iniustum patitur nullus volens quod</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e431">
+          <ref xml:id="bHY6yh-d17907-Rd1e486">mag<lb ed="#Ka" break="no"/>norum
+          moralium libro 5 capitulo 61</ref> <quote xml:id="bHY6yh-d17907-Qd1e433">Melius
+          <lb ed="#Ka"/>est iustum quod secundum naturam est eo quod est secundum
+          <lb ed="#Ka"/>legem</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e441">
+          // <ref xml:id="bHY6yh-d17907-Rd1e498">64 capitulo</ref> <quote xml:id="bHY6yh-d17907-Qd1e443">In iustia est in le<lb ed="#Ka" break="no"/>sione
+          lesio autem inpraeuatione bonorum</quote> 
+          <!--quote merged with previous ref--> <ref xml:id="bHY6yh-d17907-Rd1e503"></ref> <quote xml:id="bHY6yh-d17907-Qd1e508"></quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e451">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d17907-Rd1e516">Idem rethoricorum libro 2 capitulo 13</ref> <quote xml:id="bHY6yh-d17907-Qd1e453">Iustitia
+          <lb ed="#Ka"/>est virtus propter quam que sua sunt sin<lb ed="#Ka" break="no"/>guli
+          habent et vt lex in iustitia
+          <lb ed="#Ka"/>autem propter <add place="margin-left">quam</add> aliena non vt lex <del rend="strikethrough">in
+          <lb ed="#Ka"/>iustitia autem propter quam</del></quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e463">
+          // <ref xml:id="bHY6yh-d17907-Rd1e530">capitulo 15</ref> <quote xml:id="bHY6yh-d17907-Qd1e465">iustum
+          <lb ed="#Ka"/>honestum est</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e471"> 
+          // <ref xml:id="bHY6yh-d17907-Rd1e540">capitulo 18</ref> <quote xml:id="bHY6yh-d17907-Qd1e473">iustitiam facere
+          <lb ed="#Ka"/>est ledere volentem praeter legem</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e480">
+          // <ref xml:id="bHY6yh-d17907-Rd1e551">capitulo 23</ref>
+          <lb ed="#Ka"/><quote xml:id="bHY6yh-d17907-Qd1e482">in iustitie sunt quecumque non in oppi<lb ed="#Ka" break="no"/>nata
+          amalitia autem sunt</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e488">
+          // <ref xml:id="bHY6yh-d17907-Rd1e561">capitulo 25 et
+          <lb ed="#Ka"/><sic>si</sic></ref> <quote xml:id="bHY6yh-d17907-Qd1e490">deierare in iustum facere est</quote> // <ref xml:id="bHY6yh-d17907-Rd1e568">libro
+          <lb ed="#Ka"/>2 capitulo 5</ref> <quote xml:id="bHY6yh-d17907-Qd1e573">non sit ira ad iustum</quote> //
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e498">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d17907-Rd1e578">capitulo 8</ref> <quote xml:id="bHY6yh-d17907-Qd1e500">In iusta pati ire fatuum est
+          <lb ed="#Ka"/>// diuinum arbitrabitur auxiliari
+          <lb ed="#Ka"/>in iusta patientibus</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e508">
+          <ref xml:id="bHY6yh-d17907-Rd1e590">Idem politi<lb ed="#Ka" break="no"/>corum
+          libro 1 capitulo 1</ref> <quote xml:id="bHY6yh-d17907-Qd1e510">Sicut perfectum optimum
+          <lb ed="#Ka"/>animalium est homo sic separatum a lege
+          <lb ed="#Ka"/>et iustitia pessimum omnium</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e518">
+          <ref xml:id="bHY6yh-d17907-Rd1e602">capitulo 2</ref> <quote xml:id="bHY6yh-d17907-Qd1e520">iustum
+          <lb ed="#Ka"/>violentum non est</quote> // <ref xml:id="bHY6yh-d17907-Rd1e609">libro 3 capitulo 7</ref> <quote xml:id="bHY6yh-d17907-Qd1e611">Con<pb ed="#Ka" n="41-r"/><cb ed="#Ka" n="a"/><lb ed="#Ka" break="no"/>munitatiuam
+          virtutem dicimus esse
+          <lb ed="#Ka"/>iustitiam cui necessarium est omnes ali<lb ed="#Ka" break="no"/>as
+          assequi</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e530">
+          // <ref xml:id="bHY6yh-d17907-Rd1e621">capitulo 9 et penultis</ref>  <quote xml:id="bHY6yh-d17907-Qd1e532">iustum
+          <lb ed="#Ka"/>querentes medium querunt</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e539">
+          <ref xml:id="bHY6yh-d17907-Rd1e632">libro 6</ref> //
+          <lb ed="#Ka"/><quote xml:id="bHY6yh-d17907-Qd1e541">Quod iustum est equale videtur
+          <lb ed="#Ka"/>esse</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e547">
+          // <ref xml:id="bHY6yh-d17907-Rd1e642">libro 6 capitulo 2</ref> <quote xml:id="bHY6yh-d17907-Qd1e549">Semper querunt quod
+          <lb ed="#Ka"/>iustum et quod equale est Qui mi<lb ed="#Ka" break="no"/>nores
+          sunt praeheminentes autem nichil cu<lb ed="#Ka" break="no"/>rant</quote>
+          // <ref xml:id="bHY6yh-d17907-Rd1e651">libro 7 capitulo 1</ref> // <quote xml:id="bHY6yh-d17907-Qd1e655">Iustus nullus
+          <lb ed="#Ka"/>atque temperatus a fortuna neque propter
+          <lb ed="#Ka"/>fortunam est</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e561">
+          <ref xml:id="bHY6yh-d17907-Rd1e665">Cronica de nugis
+          <lb ed="#Ka"/>phylosophorum capitulo 28</ref> <quote xml:id="bHY6yh-d17907-Qd1e565">scilicet de aristotile
+          <lb ed="#Ka"/>// Aristoteles iustitiam ait virtutem
+          <lb ed="#Ka"/>anime distributiam digni</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e573">
+          <ref xml:id="bHY6yh-d17907-Rd1e679">Ihesus
+          <lb ed="#Ka"/>filius syrach in ecclesiastico capitulo 4</ref> <quote xml:id="bHY6yh-d17907-Qd1e577">pro
+          <lb ed="#Ka"/>iustitia egonizare pro anima tua
+          <lb ed="#Ka"/>et vsque ad mortem certa pro iustitia
+          <lb ed="#Ka"/>et deus expugnabit pro te in imi<lb ed="#Ka" break="no"/>cos
+          tuos</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e587">
+          // <ref xml:id="bHY6yh-d17907-Rd1e693">capitulo 5</ref>  <quote xml:id="bHY6yh-d17907-Qd1e589">prosequatur te verbum
+          <lb ed="#Ka"/>pacis et iustitie iustifica pusil<lb ed="#Ka" break="no"/>lum
+          et magnum similiter</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e597">
+          // <ref xml:id="bHY6yh-d17907-Rd1e705">capitulo 10</ref> <quote xml:id="bHY6yh-d17907-Qd1e599">Exe<lb ed="#Ka" break="no"/>crabilis
+          omnis iniquitas gen<lb ed="#Ka" break="no"/>tium
+          // Regnum a gente in gentem
+          <lb ed="#Ka"/>transfertur propter in iustitias et
+          <lb ed="#Ka"/>iniurias et contumelias et aduersus
+          <lb ed="#Ka"/>dolos</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e610">
+          // <ref xml:id="bHY6yh-d17907-Rd1e720">capitulo 2</ref> <quote xml:id="bHY6yh-d17907-Qd1e612">operatur iustitiam ipse
+          <lb ed="#Ka"/>exaltabitur</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e618">
+          <ref xml:id="bHY6yh-d17907-Rd1e732">Phylon in libro sapiente
+          <lb ed="#Ka"/>capitulo 1</ref> <quote xml:id="bHY6yh-d17907-Qd1e622">iustitia est perpetua et immor<lb ed="#Ka" break="no"/>talis
+          In iustitia est mortis ac<lb ed="#Ka" break="no"/>quisitione</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e630">
+          // <ref xml:id="bHY6yh-d17907-Rd1e744">capitulo 3</ref> <quote xml:id="bHY6yh-d17907-Qd1e632">nationes inique
+          <lb ed="#Ka"/><sic>due</sic> sunt consummationis</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e636">
+          <ref xml:id="bHY6yh-d17907-Rd1e754">Terentius
+          <lb ed="#Ka"/>in heautontumerameno capitulo 16</ref> <quote xml:id="bHY6yh-d17907-Qd1e640">ius summum
+          <lb ed="#Ka"/>sepe summa malitia est</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e646">
+          <ref xml:id="bHY6yh-d17907-Rd1e766">Salustius
+          <lb ed="#Ka"/>in catilinario</ref> <quote xml:id="bHY6yh-d17907-Qd1e650">labore ac iustitia
+          <cb ed="#Ka" n="b"/>
+          <lb ed="#Ka"/>res publica ex crescit</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e660">
+          <ref xml:id="bHY6yh-d17907-Rd1e782">Tulius re<lb ed="#Ka" break="no"/>thoricorum
+          artis veteris libro 2 capitulo 9</ref> <quote xml:id="bHY6yh-d17907-Qd1e664">Iustitia
+          <lb ed="#Ka"/>est habitus animi cum vtilitate conseruata
+          <lb ed="#Ka"/>suam cuique tribuens dignitatem
+          <lb ed="#Ka"/>initium iustitie est a natura profectum
+          <lb ed="#Ka"/>deinde quedam in consuetudinem
+          <lb ed="#Ka"/>ex vtilitatis ratione venerunt // postea
+          <lb ed="#Ka"/>res et a natura profectas et a consue<lb ed="#Ka" break="no"/>tudine
+          probitas legum metus et
+          <lb ed="#Ka"/>religio sanxit</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e682">
+          // <ref xml:id="bHY6yh-d17907-Rd1e806">Idem rethoricorum ar<lb ed="#Ka" break="no"/>tis
+          noue libro 3 capitulo 2</ref> <quote xml:id="bHY6yh-d17907-Qd1e686">iustitia est equi<lb ed="#Ka" break="no"/>tas
+          ius vnicuique rei tribuens
+          <lb ed="#Ka"/>pro dignitae cuiusque</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e694">
+          <ref xml:id="bHY6yh-d17907-Rd1e820">Matheus in
+          <lb ed="#Ka"/><sic>evvangeliio</sic> capitulo 5</ref> <quote xml:id="bHY6yh-d17907-Qd1e698">beati qui esuriunt et
+          <lb ed="#Ka"/>sitiunt iustitiam quoniam ipsi satura<lb ed="#Ka" break="no"/>buntur
+          beati qui persecutionem patiuntur
+          <lb ed="#Ka"/>propter iustitiam quoniam ipsorum est regnum
+          <lb ed="#Ka"/>celorum</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e708">
+          <ref xml:id="bHY6yh-d17907-Rd1e836">Paulus apostolus in epistola 1
+          <lb ed="#Ka"/>ad thymotheum capitulo 1</ref> <quote xml:id="bHY6yh-d17907-Qd1e712">Sectare iustiti<lb ed="#Ka" break="no"/>am
+          pietatem fidem caritatem pati<lb ed="#Ka" break="no"/>entiam
+          mansuetudinem</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e720">
+          // <ref xml:id="bHY6yh-d17907-Rd1e848">Idem epistola
+          <lb ed="#Ka"/><sic>et</sic> ad thymotheum capitulo 2</ref> <quote xml:id="bHY6yh-d17907-Qd1e722">Sectare iustitiam</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e728">
+          <ref xml:id="bHY6yh-d17907-Rd1e861">lex digestis titulo de iustitia et iure libro iusti<lb ed="#Ka" break="no"/>tia</ref>
+          <lb ed="#Ka"/>¶ <quote xml:id="bHY6yh-d17907-Qd1e732">Iustitia est constans et perpetua
+          <lb ed="#Ka"/>voluntas ius suum unicuique tribuens</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e740">
+          <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d17907-Rd1e873">titulo quod quisque iuris et caetera libro 1</ref> <quote xml:id="bHY6yh-d17907-Qd1e742">Quis
+          <lb ed="#Ka"/>aspernabitur idem ius sibi dici quod ipse
+          <lb ed="#Ka"/>aliis dixit vel dici afficit quod quis
+          <lb ed="#Ka"/>in alterius persona equum esse credidit id
+          <lb ed="#Ka"/>in sua persona valere patiatur</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e755">
+          // <ref xml:id="bHY6yh-d17907-Rd1e890">titulo de
+          <lb ed="#Ka"/>regis iuris in scripta</ref> <quote xml:id="bHY6yh-d17907-Qd1e757">in omnibus qui<lb ed="#Ka" break="no"/>dem
+          maxime cum cum in iurus equi<lb ed="#Ka" break="no"/>tas
+          spectanda est</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e765">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d17907-Rd1e905">Auctor libelli de forma honeste
+          <pb ed="#Ka" n="41-v"/>
+          <cb ed="#Ka" n="a"/>
+          <lb ed="#Ka"/>vite capitulo 5</ref> <quote xml:id="bHY6yh-d17907-Qd1e769">Quid est iustitia <seg type="correction">nis<del>e</del><add>i</add></seg>
+          <lb ed="#Ka"/>nature constitutio <sic>sevv</sic> lex diuina et
+          <lb ed="#Ka"/>vinculum societatis humane Quisquis
+          <lb ed="#Ka"/>iustitiam spectari desideras time
+          <lb ed="#Ka"/>deum prius et ama amaris a deo /
+          <lb ed="#Ka"/>Amabis deum si illum in hoc imi<lb ed="#Ka" break="no"/>taberis
+          vt velis omnibus prodesse
+          <lb ed="#Ka"/>nulli nocere et tunc te iustum virum
+          <lb ed="#Ka"/>appellabunt omnes sequentur vene<lb ed="#Ka" break="no"/>rabuntur
+          et diligent sic que merito
+          <lb ed="#Ka"/>iustus appellaberis iustus vt
+          <lb ed="#Ka"/>sis non / solum non nocebis sed etiam
+          <lb ed="#Ka"/>nocentem prohibebis</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e796">
+          <ref xml:id="bHY6yh-d17907-Rd1e938">Ambrosius
+          <lb ed="#Ka"/>de officiis libro 2 capitulo 19</ref> <quote xml:id="bHY6yh-d17907-Qd1e800">Equitas 
+          <lb ed="#Ka"/>imperia confirmat in iustitia dissoluit</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e806">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d17907-Rd1e950">Cecilianus firmanus de beata vita
+          <lb ed="#Ka"/>libro 3</ref> <quote xml:id="bHY6yh-d17907-Qd1e810">nunquam posset esse iustus qui
+          <lb ed="#Ka"/>stultus est nec sapiens qui fuerit
+          <lb ed="#Ka"/>in iustus</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e818">
+          // <ref xml:id="bHY6yh-d17907-Rd1e962">libro 4</ref> <quote xml:id="bHY6yh-d17907-Qd1e820">in hoc iustitie
+          <lb ed="#Ka"/>summa consistit vt non facias alteri
+          <lb ed="#Ka"/>quicquid ipse ab altero pati nolis</quote> 
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e834">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d17907-Rd1e987">Augustinus in epigramm prosperi 74 epigramm</ref>
+          <lb ed="#Ka"/><quote xml:id="bHY6yh-d17907-Qd1e838">in magna egestate sunt diuites
+          <lb ed="#Ka"/>iustitie inopes</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e845">
+          <ref xml:id="bHY6yh-d17907-Rd1e1000">Macrobius
+          <lb ed="#Ka"/>de sampno scipionis libro 1 in primo</ref>
+          <lb ed="#Ka"/><quote xml:id="bHY6yh-d17907-Qd1e849">Sine iustitia non solum res pub<lb ed="#Ka" break="no"/>lica
+          sed nec exiguus hominum cetus
+          <lb ed="#Ka"/>nec quidem parua constabit</quote> //
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e859">
+          <ref xml:id="bHY6yh-d17907-Rd1e1016">Cato capitulo 1</ref>  <quote xml:id="bHY6yh-d17907-Qd1e863">illud stude quod iustum
+          <lb ed="#Ka"/>est</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e867">
+          <ref xml:id="bHY6yh-d17907-Rd1e1026">Boetius de consolatione libro 1
+          <lb ed="#Ka"/>capitulo 10</ref> // <quote xml:id="bHY6yh-d17907-Qd1e871">ob temperare iustitie summa
+          <lb ed="#Ka"/>libertas</quote> // <ref xml:id="bHY6yh-d17907-Rd1e1033">libro 4 capitulo 1</ref> <quote xml:id="bHY6yh-d17907-Qd1e103X">Imperante
+          <lb ed="#Ka"/>florentque nequitie virtus non solum
+          <cb ed="#Ka" n="b"/>
+          <lb ed="#Ka"/>primiis caret verum etiam scelera<lb ed="#Ka" break="no"/>torum
+          pedibus subiecta calcatur
+          <lb ed="#Ka"/>et in loco facinorum supplicia
+          <lb ed="#Ka"/>luit</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e885">
+          <ref xml:id="bHY6yh-d17907-Rd1e1054">Cassiodorus epistolarum libro 2
+          <lb ed="#Ka"/>epistola 10</ref> <quote xml:id="bHY6yh-d17907-Qd1e889">nimis absurdum est vt quos
+          <lb ed="#Ka"/>pena meruit consumere etiam sibi
+          <lb ed="#Ka"/>lucra valeat vendicare</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e897">
+          <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d17907-Rd1e1066">Epistola 26</ref>
+          <lb ed="#Ka"/><quote xml:id="bHY6yh-d17907-Qd1e899">satis obsurdum est vt affligatur
+          <lb ed="#Ka"/>dampnis qui comoda non habet ac<lb ed="#Ka" break="no"/>tionis</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e907">
+          // <ref xml:id="bHY6yh-d17907-Rd1e1078">libro iii epistola 11</ref> <quote xml:id="bHY6yh-d17907-Qd1e909">iusta sequere<del rend="strikethrough">scere</del></quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e916">
+          <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d17907-Rd1e1089">epistola 13</ref> <quote xml:id="bHY6yh-d17907-Qd1e918">nescit personas respicere
+          <lb ed="#Ka"/>qui meram cogitat equitatem</quote> //
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e924">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d17907-Rd1e1099">epistola 24</ref> <quote xml:id="bHY6yh-d17907-Qd1e926">acquiescite iustitie qua
+          <lb ed="#Ka"/>mundus letatur</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e932">
+          <ref xml:id="bHY6yh-d17907-Rd1e1109">epistola 27</ref> <quote xml:id="bHY6yh-d17907-Qd1e934">Tam
+          <lb ed="#Ka"/>diu iudex dicitur quam diu iustus
+          <lb ed="#Ka"/>putatur</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e940">
+          // <ref xml:id="bHY6yh-d17907-Rd1e1121">epistola 41</ref> <quote xml:id="bHY6yh-d17907-Qd1e944">tollerabile sit
+          <lb ed="#Ka"/>omne quod equali ordinatione disponitur
+          <lb ed="#Ka"/>quia diuisum onus subconmutatione
+          <lb ed="#Ka"/>subiectos certum est non grauare</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e952">
+          <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d17907-Rd1e1135">libro 4 epistola 10</ref> <quote xml:id="bHY6yh-d17907-Qd1e956">furantes iusta non
+          <lb ed="#Ka"/>sentiunt quia dum commoti animo
+          <lb ed="#Ka"/>in vindictam <unclear>viuiunt</unclear> rerum temperantiam
+          <lb ed="#Ka"/>non requirent</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e964">
+          // <ref xml:id="bHY6yh-d17907-Rd1e1147">epistola 14</ref> <quote xml:id="bHY6yh-d17907-Qd1e966">magni
+          <lb ed="#Ka"/>peccati genus est alienis debitis al<lb ed="#Ka" break="no"/>terum
+          pregrauare sua queque damp<lb ed="#Ka" break="no"/>na
+          respiciant</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e975">
+          <ref xml:id="bHY6yh-d17907-Rd1e1160">libro 6 epistola 5</ref> <quote xml:id="bHY6yh-d17907-Qd1e977">Teodricus
+          <lb ed="#Ka"/>rex ait propequitate seruanda et
+          <lb ed="#Ka"/>nobis patimur contra dici cui etiam
+          <lb ed="#Ka"/>obediri oportet</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e987">
+          <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d17907-Rd1e1175">libro 7 epistola 8</ref> <quote xml:id="bHY6yh-d17907-Qd1e989">Quic<lb ed="#Ka" break="no"/>quid
+          non discutitur iustitia non
+          <lb ed="#Ka"/>putatur</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e995">
+          // <ref xml:id="bHY6yh-d17907-Rd1e1185">epistola 26</ref> <quote xml:id="bHY6yh-d17907-Qd1e997">Iustitia ita cunc<lb ed="#Ka" break="no"/>torum
+          sensibus beneficium diuini<lb ed="#Ka" break="no"/>tatis
+          attribuit vt et qui nesciunt
+          <lb ed="#Ka"/>iura rationem tantum veritatis agnoscant</quote>
+        </p>
+          <pb ed="#Ka" n="42-r"/>
+          <cb ed="#Ka" n="a"/>
+        <p xml:id="bHY6yh-d17907-d1e1007">
+          <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d17907-Rd1e1199">libro 8 epistola 20</ref> <quote xml:id="bHY6yh-d17907-Qd1e1009">vltra omnes impietates
+          <lb ed="#Ka"/>est nocere lesos qui sanare creditur
+          <lb ed="#Ka"/>vulneratos</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e1017">
+          / <ref xml:id="bHY6yh-d17907-Rd1e1211">libro 9 epistola 2</ref> <quote xml:id="bHY6yh-d17907-Qd1e1019">vix audet
+          <lb ed="#Ka"/>quisquam in illos exercere in quibus
+          <lb ed="#Ka"/>cui culpas non potest in uenire</quote> /
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e1027">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d17907-Rd1e1223">epistola 10</ref> <quote xml:id="bHY6yh-d17907-Qd1e1029">nullum ledit obseruata iustitia</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e1036">
+          <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d17907-Rd1e1234">epistola 15</ref> <quote xml:id="bHY6yh-d17907-Qd1e1038">omnia docet sub ratione mode<lb ed="#Ka" break="no"/>rari
+          nec possunt dici iusta que nimia</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e1050">
+          <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d17907-Rd1e1250">epistola 20</ref> <quote xml:id="bHY6yh-d17907-Qd1e1052">intelligimus de in opia iusti<lb ed="#Ka" break="no"/>ti<seg type="correction"><del rend="strikethrough">a</del><add place="above-line">e</add></seg>
+          copiam venire causarum</quote> /
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e1058">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d17907-Rd1e1260">libro 11 epistola 13</ref> <quote xml:id="bHY6yh-d17907-Qd1e1060">predoni similis est qui
+          <lb ed="#Ka"/>sub iniqua cupit voluntate dis<lb ed="#Ka" break="no"/>trahere
+          vtrosque enim constat alie<lb ed="#Ka" break="no"/>na
+          diripere et considerationem iustitie
+          <lb ed="#Ka"/>non habere</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e1072">
+          <lb ed="#Ka"/>/ <ref xml:id="bHY6yh-d17907-Rd1e1277">libro 22 et <sic>si</sic> epistola 2</ref> <quote xml:id="bHY6yh-d17907-Qd1e1074">iusti<lb ed="#Ka" break="no"/>tia
+          omnes clarificat quos sui
+          <lb ed="#Ka"/>participatione sublimat / omni laude
+          <lb ed="#Ka"/>decoratur qui iustus edicitur</quote> /
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e1084">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d17907-Rd1e1291">epistola 3</ref> <quote xml:id="bHY6yh-d17907-Qd1e1086">iustitiam nimis diligunt
+          <lb ed="#Ka"/>que frequenter prelia retractauerunt</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e1092">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d17907-Rd1e1301">Idem de anima capitulo 7</ref> <quote xml:id="bHY6yh-d17907-Qd1e1094">aduersum pra<lb ed="#Ka" break="no"/>ua
+          vel iniqua iustitie minime
+          <lb ed="#Ka"/>obiectum est</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e1103">
+          <ref xml:id="bHY6yh-d17907-Rd1e1317">Montenarius in luna
+          <lb ed="#Ka"/>cleri capitulo 123</ref> <quote xml:id="bHY6yh-d17907-Qd1e1107">Gens sine iustitia
+          <lb ed="#Ka"/>sine regimine nauis in vndis</quote>
+        </p>
+        <p xml:id="bHY6yh-d17907-d1e1113">
+          <ref xml:id="bHY6yh-d17907-Rd1e1329">Prouerbium vulgare</ref> <quote xml:id="bHY6yh-d17907-Qd1e1117">Equal so<lb ed="#Ka" break="no"/>ma
+          non rumpere dosso</quote> /
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
