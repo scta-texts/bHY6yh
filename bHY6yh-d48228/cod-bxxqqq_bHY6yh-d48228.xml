@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 1</title>
+               <date when="2023-08-25">August 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="81-r"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d48228"><!-- p3l2-r1 -->
+            <head xml:id="bHY6yh-d48228-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d48228-Hd1e111" type="question-title">De prudentia et sapientia</head>
+            <p xml:id="bHY6yh-d48228-d1e114">
+              <lb ed="#B"/>SEcundus li<lb ed="#B"/>ber 
+              tertie par<lb ed="#B"/>tis
+              tractat 
+              <lb ed="#B"/>de pruden<lb ed="#B"/>tia 
+              et perti<lb ed="#B"/>nentibus 
+              ad eam sub 
+              <lb ed="#B"/>hiis tytulis 
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e127">
+              <lb ed="#B"/>De prudentia et sapientia Rubrica 1
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e134">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d48228-Rd1e131">IOb historia capitulo 12</ref> <quote xml:id="bHY6yh-d48228-Qd1e138">In antiquis est 
+              <lb ed="#B"/>sapientia et in multo tempore pru<lb ed="#B"/>dentia</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e149">
+              & <ref xml:id="bHY6yh-d48228-Rd1e144">28 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e151">Timor domini ipse est 
+              <lb ed="#B"/>sapientia et recedere amalo intelli<!--line jumps down-->gentia</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e159">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d48228-Rd1e158">PSalmista 31 psalmus</ref> <quote xml:id="bHY6yh-d48228-Qd1e163">Noli<lb ed="#B"/>te 
+              fieri sicud equus et mu<lb ed="#B"/>lus 
+              quibus non est intellectus</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e169">
+              <lb ed="#B"/>& <ref xml:id="bHY6yh-d48228-Rd1e170">121 pslamus</ref> <quote xml:id="bHY6yh-d48228-Qd1e173">Initium sapientie timor domini</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e177">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d48228-Rd1e180">SAlomon in prouerbiis capitulo I</ref> <quote xml:id="bHY6yh-d48228-Qd1e181">Audi sa<lb ed="#B"/>piens
+              sapientior erit et intelli<lb ed="#B"/>gens 
+              <pb ed="#B" n="81-v"/>
+              <cb ed="#B" n="a"/>
+              gubernacula possidebit</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e189"> 
+              & <ref xml:id="bHY6yh-d48228-Rd1e192">capitulo 
+              <lb ed="#B"/>2</ref> <quote xml:id="bHY6yh-d48228-Qd1e191">Inclina cor tuum ad cognoscendam 
+              <lb ed="#B"/>prudentiam & Dominus dat sapientiam & Si 
+              <lb ed="#B"/>intrauerit sapientia cor tuum et scientia anime 
+              <lb ed="#B"/>tue placuerit consilium custodiet te 
+              <lb ed="#B"/>et prudentia seruabit te ut erua<lb ed="#B"/>ris 
+              de via mala et ab homine qui 
+              <lb ed="#B"/>peruersa loquitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e205">
+              & <ref xml:id="bHY6yh-d48228-Rd1e210">capitulo 3</ref> <quote xml:id="bHY6yh-d48228-Qd1e207">beatus homo
+              <lb ed="#B"/>qui inuenit sapientiam et cui afflu<lb ed="#B"/>it 
+              prudentia & Melior est acquisitio 
+              <lb ed="#B"/>sapientie negotiatione argenti et 
+              <lb ed="#B"/>auri primi et purissimi fructus 
+              <lb ed="#B"/>eius praeciosior est cunctis opibus 
+              <lb ed="#B"/>et omnia que desiderantur huic non va<lb ed="#B"/>lent 
+              comparari & Longitudo dierum 
+              <lb ed="#B"/>in dextera sapientie et in sinistra eius 
+              <lb ed="#B"/>diuitie et gloria & vie sapientie vie 
+              <lb ed="#B"/>pulchre et omnes semite illius pa<lb ed="#B"/>cifice 
+              & Gloriam sapientes possidebunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e231">
+              <lb ed="#B"/>& <ref xml:id="bHY6yh-d48228-Rd1e240">capitulo 4</ref> <quote xml:id="bHY6yh-d48228-Qd1e233">dilige sapientiam et seruabit te 
+              <lb ed="#B"/>& Glorificaberis a sapientia cum eam 
+              <lb ed="#B"/>fueris amplexatus dabit capiti 
+              <lb ed="#B"/>tuo augmentum gratiarum et corona 
+              <lb ed="#B"/>inclita proteget te</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e245">
+              & <ref xml:id="bHY6yh-d48228-Rd1e256">7 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e247">dic sapientie
+              <lb ed="#B"/>soror mea es et prudentiam uoca a<lb ed="#B"/>micam 
+              tuam</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e253">
+              & <ref xml:id="bHY6yh-d48228-Rd1e268">8 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e257">Melior est sapientia 
+              <lb ed="#B"/>cunctis opibus preciosissimus et 
+              <lb ed="#B"/>omne desiderabile ei non potest com<lb ed="#B"/>parari 
+              & fingitur dicere sapientia per 
+              <lb ed="#B"/>me reges regnant et legum condito<lb ed="#B"/>res 
+              iuste decernunt per me principes 
+              <lb ed="#B"/>imperant et potentes decernunt iusti<lb ed="#B"/>tiam 
+              & Ego diligentes me diligo 
+              <lb ed="#B"/>et qui mane vigilant ad me in<lb ed="#B"/>uenient 
+              me Mecum sunt diuitie et 
+              <lb ed="#B"/>gloria opes superne et iustitia etcaetera 
+              <lb ed="#B"/>& Beatus homo
+        qui audit me: et qui vigilat ad fores meos 
+               quotidie: et obseruat ad postes ostii mei. Qui me
+        inuenerit: inueniet vitam: et hauriet salutem a 
+               domino. Qui autem in me peccauerit: ledet animam
+        suam. Omnes qui me oderunt: diligunt 
+               mortem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e297">
+                <ref xml:id="bHY6yh-d48228-Rd1e312">Nono cap.</ref> <quote xml:id="bHY6yh-d48228-Qd1e299">Da sapientie 
+               occasionem: et addetur ei sapientia. Principium 
+               sapientie timor domini. Per me 
+               multiplicabuntur dies tui: et addentur tibi anni vite. Si 
+               sapiens fueris: tibi metipsi eris. Si autem 
+               illusor: solus portabis malum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e313">
+                <ref xml:id="bHY6yh-d48228-Rd1e330">12. c.</ref>  <quote xml:id="bHY6yh-d48228-Qd1e315">Lingua
+        sapientum sanitas est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e321">
+                <ref xml:id="bHY6yh-d48228-Rd1e340">14. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e323">Labia 
+               sapientium custodiunt eos. Sapiens timet et 
+               declinat a malo. Stultus transilit et confidit. 
+               Lingua sapientium ornat scientiam. Cor 
+               sapientis querit doctrinam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e336">
+                <ref xml:id="bHY6yh-d48228-Rd1e357">16. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e338">Posside 
+               sapientiam: quia auro melior est: et acquire 
+               prudentiam: quia preciosior est argento. Qui 
+               sapiens corde est appellabitur prudens: et qui 
+               dulcis eloquio maiora percipiet. Cor sapientis
+        erudiet os eius: et labiis illius addet gratiam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e352">
+                
+               <ref xml:id="bHY6yh-d48228-Rd1e377">17. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e356">In facie prudentis lucet sapientia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e360">
+                
+               <ref xml:id="bHY6yh-d48228-Rd1e387">18. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e364">Auris sapientium querit doctrinam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e368">
+                
+               <ref xml:id="bHY6yh-d48228-Rd1e397">22. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e372">Inclina aurem tuam: et audi verba 
+               sapientium. Uir sapintens et fortis est: et vir 
+               doctus robustus et validus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e380">
+                <ref xml:id="bHY6yh-d48228-Rd1e409">Idem in eccle. c.
+        i.</ref> <quote xml:id="bHY6yh-d48228-Qd1e382">In multa sapientia: multa est indignatio.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e388">
+                
+               <ref xml:id="bHY6yh-d48228-Rd1e422">7. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e392">Utilior est sapientia cum diuitiis: et
+        magis prodest. Sicut protegit sapientia: sic 
+               protegit pecunia: hoc autem plus habet 
+               eruditio et sapientia: quod vitam tribuit possessori suo.
+        Noli esse plus sapiens quam necesse est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e405">
+                
+               <ref xml:id="bHY6yh-d48228-Rd1e441">8. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e409">Sapientia hominis lucet in vultum eius.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e413">
+                
+               <ref xml:id="bHY6yh-d48228-Rd1e451">9. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e417">Melior est sapientia quam arma bellica</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e421">
+                
+               <ref xml:id="bHY6yh-d48228-Rd1e461">10. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e425">Cor sapientis in dextera eius: et cor
+        stulti in sinistra illius. Uerba oris 
+               sapientis gratia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e433">
+                
+             ¶ <ref xml:id="bHY6yh-d48228-Rd1e475">Aristoteles magnorum moralium libro
+        i. ca. 71.</ref> <quote xml:id="bHY6yh-d48228-Qd1e437">Prudentia est contra operabilia
+        in quibus electio et fuga. Circa 
+               operationem et operabilia est prudentia. Prudentia
+        est habitus electiuus et operatiuus: eorum qua
+        in nobis sunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e451">
+                <ref xml:id="bHY6yh-d48228-Rd1e494">73. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e453">Sapientia est ex 
+               intellectu et scientia composita: quare erit cir <!--154.xml-->
+        <cb ed="#V" n="b"/>
+                  ca hoc: circa que et intellectus et scientia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e465">
+                
+               <ref xml:id="bHY6yh-d48228-Rd1e512">74. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e469">Circa conferentia est prudentia: 
+               sapientia autem non: alterum ergo est 
+               sapientia et prudentia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e478">
+                <ref xml:id="bHY6yh-d48228-Rd1e525">75. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e480">Sapientia quidem est <!--'7' flipped-->
+        circa perpetuum et diuinum: prudentia autem
+        circa conferens hominum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e488">
+                <ref xml:id="bHY6yh-d48228-Rd1e539">77. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e490">
+               Prudentis et prudentie est opiimam appetere: et 
+               horum electiuum esse et operatiuum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e498">
+                <ref xml:id="bHY6yh-d48228-Rd1e551">81. c. et
+        pe.</ref> <quote xml:id="bHY6yh-d48228-Qd1e500">Prudentia sicut architector quidam 
+               virtutum est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e508">
+                <ref xml:id="bHY6yh-d48228-Rd1e564">Libro. 2 c. 7.</ref> <quote xml:id="bHY6yh-d48228-Qd1e510">Neque absque 
+               prudentia alie virtutes fiunt: neque prudentia 
+               perfecta est absque aliis virtutibus: sed 
+               cooperantur quodammodo ad seinuicem 
+               consequentes prudentiam. Sapientia absconsa
+        et thesaurus inuisus que vtilitas in vtrisque</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e524">
+                
+               <ref xml:id="bHY6yh-d48228-Rd1e584">21. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e528">Uerba prudentium statera 
+               ponderabuntur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e534">
+                <ref xml:id="bHY6yh-d48228-Rd1e594">25. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e536">Corona senum multa 
+               peritia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e543">
+                <ref xml:id="bHY6yh-d48228-Rd1e605">32. c.</ref>  <quote xml:id="bHY6yh-d48228-Qd1e545">Importune noli extolli in 
+               sapientia tua.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e551">
+                <ref xml:id="bHY6yh-d48228-Rd1e615">37. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e553">Est sapiens anime sue sapiens.
+        Uir sapientens implebitur benedictionibus: et 
+               videntes illum laudabunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e561">
+                <ref xml:id="bHY6yh-d48228-Rd1e627">39. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e563">Sapientiam omnium
+        antiquorum exquiret sapiens.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e569">
+                <ref xml:id="bHY6yh-d48228-Rd1e637">40. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e571">Uinum
+        et musica letificant cor: et super vtraque dilectio
+        sapientie.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e579">
+                <ref xml:id="bHY6yh-d48228-Rd1e649">Idem ethicorum libro 6. c. 3.</ref> <quote xml:id="bHY6yh-d48228-Qd1e581">Necesse
+        est prudentiam esse habitum cum ratione verum circa
+        humana operatiuum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e589">
+                <ref xml:id="bHY6yh-d48228-Rd1e661">5. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e591">Sapientia est 
+               intellectus et scientia honorabilissimorum natura. Prudentia
+        est circa humana: et de quibus est confiliari:
+        prudentis enim maxime hoc opus esse dicimus
+        bene confiliari. Non est prudentia vniuersalium
+        solum: sed oportet et singularia cognoscere 
+               actiua enim: actio autem circa singularia Iuuenes
+        non videntur fieri prudentes. Causa autem quoniam et 
+               singularium est prudentia que fiunt cognita 
+               experientia: inuuenis autem expertus non est: multitudo
+        enim temporis faciet experientiam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e617">
+              <ref xml:id="bHY6yh-d48228-Rd1e691">8. c. et pe.</ref>  <quote xml:id="bHY6yh-d48228-Qd1e619">
+               Peruertit malitia et mentiri facit circa practica principia
+        quia manifestum: quoniam impossibile est prudentem esse
+        non entem bonum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e629">
+                <ref xml:id="bHY6yh-d48228-Rd1e705">Idem retho. li. i. c. 13.</ref> <quote xml:id="bHY6yh-d48228-Qd1e631">
+               Prudentia est virtus intellectus secundum quam bene 
+               consiliari possunt de bonis et optimis dictis ad 
+               felicitatem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e641">
+                <ref xml:id="bHY6yh-d48228-Rd1e719">20. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e643">Sapientia est multorum et mirabilium
+        scientia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e649">
+                <ref xml:id="bHY6yh-d48228-Rd1e729">Idem politicorum libro 7. c. 6.</ref> <quote xml:id="bHY6yh-d48228-Qd1e651">Aptum natum
+        est potentiam quidem in minoribus: prudentiam autem
+        in senioribus esse.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e659">
+                <ref xml:id="bHY6yh-d48228-Rd1e741">Idem methaph. li. 2. ca. i.</ref> <!--155.xml-->
+        <pb ed="#V" n="64-v"/>
+                  <cb ed="#V" n="a"/>
+                   <quote xml:id="bHY6yh-d48228-Qd1e661">Sapientia circa principina: scientia est.</quote>
+                </p>
+                <p xml:id="bHY6yh-d4228-d1e669">
+                    <ref xml:id="bHY6yh-d48228-Rd1e758">Idem
+        priorum analeticorum libro 2. c. 70.</ref> <quote xml:id="bHY6yh-d48228-Qd1e671">Sapientes boni
+        sunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e678">
+                <ref xml:id="bHY6yh-d48228-Rd1e772">Idem elementorum libro i.</ref> <quote xml:id="bHY6yh-d48228-Qd1e680">Quibusdam est
+        magis opere precium videri esse sapientes quam
+        esse et non videri. Sophistica est apparens 
+               sapientia: non autem existens.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e691">
+                <ref xml:id="bHY6yh-d48228-Rd1e786">Idem de anima li. 2.</ref>
+         <quote xml:id="bHY6yh-d48228-Qd1e693">Homo est prudentissimum animalium.</quote>
+          </p>
+          <p xml:id="bHY6yh-d48228-d1e697">
+                <ref xml:id="bHY6yh-d48228-Rd1e796">Idem 
+               probleumatum: parte. 30.</ref> <quote xml:id="bHY6yh-d48228-Qd1e699">Parui capitis 
+               prudentiores sunt eis qui sunt magni capitis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e703">
+               
+             ¶ <ref xml:id="bHY6yh-d48228-Rd1e811">Iesus filius sirach in eccl. c. i.</ref> <quote xml:id="bHY6yh-d48228-Qd1e707">Omnis sapientia a
+        domino deo est. Deus praebet sapientiam 
+               diligentibus se. Concupiscens sapientiam: conserua 
+               iustitiam: et deus praebebit illam tibi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e717">
+                <ref xml:id="bHY6yh-d48228-Rd1e825">5. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e719">Honor et
+        gloria in sermone sensati.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e725">
+                <ref xml:id="bHY6yh-d48228-Rd1e835">6. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e727">Inuestiga 
+               sapientiam: et manifestabitur tibi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e733">
+                <ref xml:id="bHY6yh-d48228-Rd1e846">10. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e735">
+               Principatus sensati stabilis erit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e741">
+                <quote xml:id="bHY6yh-d48228-Qd1e743">Seruo sensato
+        liberi seruient.</quote> <!--quote with no ref-->
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e750">
+                <ref xml:id="bHY6yh-d48228-Rd1e866">15. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e752">A deo <sic>profeca</sic> est sapientia</quote>
+          </p>
+          <p xml:id="bHY6yh-d48228-d1e754">
+         <ref xml:id="bHY6yh-d48228-Rd1e878">19. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e756">Non est sapientia nequitie disciplina: et
+        non est cogitatus peccatorum prudentia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e760">
+                <ref xml:id="bHY6yh-d48228-Rd1e888">20
+        c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e762">Sapiens in verbis: seipsum amabilem factus.
+        Sapiens in verbis: producet seipsum. Homo 
+               prudens: placebit magnatis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e772">
+               
+             ¶ <ref xml:id="bHY6yh-d48228-Rd1e905">Philon vel philemon lib. sapientie. c. i.</ref> <quote xml:id="bHY6yh-d48228-Qd1e776">
+               Inmaliuolam animam: non intrabit sapientia: nec 
+               habitabit in corpore subdito peccatis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e784">
+                <ref xml:id="bHY6yh-d48228-Rd1e918">3. c.</ref>
+        <quote xml:id="bHY6yh-d48228-Qd1e786">Sapientiam et disciplinam qui abiicit: infelix est:
+        et vacua est spes illorum: et labores sine fructu.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e794">
+                
+               <ref xml:id="bHY6yh-d48228-Rd1e931">5. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e798">Melior est sapientia quam vires: et vir 
+               prudens magis quam fortis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e804"> 
+                <ref xml:id="bHY6yh-d48228-Rd1e941">6. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e806">Sapientia facile
+        videtur ab his qui diligunt eam: et iuuenitur ab his
+        qui querunt illam. Concupiscentia sapientie 
+               deducet ad regnum perpetuum. Multitudo 
+               sapientium: sanitas est orbis terrarum. Rex sapiens: 
+               populi stabilimentum est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e821">
+                <ref xml:id="bHY6yh-d48228-Rd1e959">7. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e823">Sapientia est 
+               speciosior sole: et super omnem dispositionem stellarum
+        luci comparata prior inuenitur. Sapientia
+        vincit malitiam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e833">
+               
+             ¶ <ref xml:id="bHY6yh-d48228-Rd1e975">Tullius de officiis li. 2. c. 2.</ref> <quote xml:id="bHY6yh-d48228-Qd1e837">Sapientia est 
+               rerum diuinarum: et humanarum causarum qua 
+               quibus he res continentur scientia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e845">
+                <ref xml:id="bHY6yh-d48228-Rd1e987">Idem 
+               tusculanarum quodnum li. i.</ref> <quote xml:id="bHY6yh-d48228-Qd1e847">Nihil est hominis prudentia 
+               dulcius quam vt cetera auferat: affert certe senectus</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e855">
+                
+               <ref xml:id="bHY6yh-d48228-Rd1e1003">Libro 3.</ref> <quote xml:id="bHY6yh-d48228-Qd1e859">Sapientia sanitas est animi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e863">
+                <ref xml:id="bHY6yh-d48228-Rd1e1011">Li. 5.
+        et fi.</ref> <quote xml:id="bHY6yh-d48228-Qd1e865">Sapientia semper eo contenta est quod adest.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e871">
+                
+               <ref xml:id="bHY6yh-d48228-Rd1e1024">Idem rethorica artis vereris lib. 2. ca. 9.</ref> <!--155.xml-->
+        <cb ed="#V" n="b"/>
+                 
+                <quote xml:id="bHY6yh-d48228-Qd1e875">Prudentia est rerum bonarum malarumque
+        vtrumque scientia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e888">
+                <ref xml:id="bHY6yh-d48228-Rd1e1041">Li. 2. c. 2.</ref>  <quote xml:id="bHY6yh-d48228-Qd1e890">Prudentia est 
+               calliditas: que ratione quadam potest delectum habere 
+               bonorum et malorum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e898">
+                <ref xml:id="bHY6yh-d48228-Rd1e1053">Idem de legibus li. i.</ref> <quote xml:id="bHY6yh-d48228-Qd1e900">Ratio cum
+        adoleuit atque perfecta est nominatur rite sapientia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e902">
+         <ref xml:id="bHY6yh-d48228-Rd1e1065">Idem de diuinatione li. 2.</ref> <quote xml:id="bHY6yh-d48228-Qd1e904">Sapientem esse 
+               portentum est: sepius enim in vllam peperisse 
+               arbitror quam sapientem fuisse.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e912">
+                ¶ 
+               <ref xml:id="bHY6yh-d48228-Rd1e1080">Iacobus apostolus epistola vnica. c. 3.</ref> <quote xml:id="bHY6yh-d48228-Qd1e916">Que desursum
+        est sapientia. Primum quidem pudica est: deinde
+        pacifica: modesta: suadibilis: bonis 
+               consentiens: plena misericordia et fructibus bonis:
+        iudicans sine similitudine.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e928">
+                ¶ 
+               <ref xml:id="bHY6yh-d48228-Rd1e1098">Paulus apostolus epistola ad roma. c. 8.</ref> <quote xml:id="bHY6yh-d48228-Qd1e932">
+               Prudentia carnis mors est: prudentia autem spiritus vita
+        et pax.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e940">
+                <ref xml:id="bHY6yh-d48228-Rd1e1110">12. c.</ref> <quote xml:id="bHY6yh-d48228-Qd1e942">Non plus sapere quam oportet sapere</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1116">
+                 ¶ 
+                <ref xml:id="bHY6yh-d48228-Rd1e1120">Seneca in epistolis ad lucillum li. 3. e. 3.</ref> <quote xml:id="bHY6yh-d48228-Qd1e1122">
+               Repraesentat opes sapientia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e950">
+                <ref xml:id="bHY6yh-d48228-Rd1e1130">Li. 15. e. i.</ref> <quote xml:id="bHY6yh-d48228-Qd1e952">Sapientia 
+               perfectum bonum: est mentis humane.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e959">
+                <ref xml:id="bHY6yh-d48228-Rd1e1140">Libro. 19
+        e. 11. et fi.</ref> <quote xml:id="bHY6yh-d48228-Qd1e961">Sapientia est mens perfecta: et ad 
+               summum optimumque perducta.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e969">
+                 ¶ 
+                <ref xml:id="bHY6yh-d48228-Rd1e1156">Uegetius de re militari li. i. ti. 2.</ref> <quote xml:id="bHY6yh-d48228-Qd1e973">
+               Prudentia et modestiam seruat in castris: et non parum
+        prodest in dimicatione consiliis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e981">
+                ¶ 
+               <ref xml:id="bHY6yh-d48228-Rd1e1170">Auctor libri de for. honeste vite. c. 2.</ref> <quote xml:id="bHY6yh-d48228-Qd1e985">
+               Prudens falli non potest: non fallere vult.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e991">
+                ¶ 
+               <ref xml:id="bHY6yh-d48228-Rd1e1182">Ambrosius de officiis li. i. c. 23.</ref> <quote xml:id="bHY6yh-d48228-Qd1e995">
+               Prudentia in veri inuestigatione versatur: et scientie
+        plenioris infundit cupiditatem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1003">
+                ¶ 
+               <ref xml:id="bHY6yh-d48228-Rd1e1196">Cecilius firmianus de beata vita li. i.</ref> <quote xml:id="bHY6yh-d48228-Qd1e1007">
+               Primus sapientie gradus est falsa intelligere:
+        secundus vera cognoscere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1015">
+                <ref xml:id="bHY6yh-d48228-Rd1e1208">Lib. 3.</ref> <quote xml:id="bHY6yh-d48228-Qd1e1017">Uirtus
+        cum scientia coniuncta sapientia est. Sapientia nisi in
+        aliquo actu fuerit quo vim suam exerceat inanis
+        et falsa est. Nunquam potest esse iustus qui stultus
+        est: neque sapiens qui fuerit iniustus. 
+               Calliditas et astutia in multis animalibus sunt: vel cum
+        insidiantur aliis: et dolo capiant et deuorant: vel
+        cum insidias aliorum vario genere deludunt. 
+               Sapientia vero in hominem solum cadit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1039">
+                <ref xml:id="bHY6yh-d48228-Rd1e1233">Libro. 6.</ref>
+         <quote xml:id="bHY6yh-d48228-Qd1e1041">Nemo potest iure dici homo: nisi qui sapiens est</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1047">
+                 ¶ 
+                <ref xml:id="bHY6yh-d48228-Rd1e1246">Augustinus in epigramatibus prosperi. 74
+        emp.</ref> <quote xml:id="bHY6yh-d48228-Qd1e1051">In magna egestate sunt diuites: sapientie
+        thesauros non habentes.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1059">
+                ¶ 
+               <ref xml:id="bHY6yh-d48228-Rd1e1261">Fulgentius mitologiarum lib. 2. fabula. 2.</ref> <!--156.xml-->
+        <pb ed="#V" n="64B-r"/>
+                  <cb ed="#V" n="a"/>
+                 
+                <quote xml:id="bHY6yh-d48228-Qd1e1063">Sapientia etiam in tenebris proprium fulgorem
+        possidet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1077">
+                 ¶ 
+                <ref xml:id="bHY6yh-d48228-Rd1e1282">Cato. c. 2.</ref> <quote xml:id="bHY6yh-d48228-Qd1e1081">Sermo datur cunctis animi 
+               sapientia paucis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1087">
+                <ref xml:id="bHY6yh-d48228-Rd1e1292">Capitulo. 3</ref>
+         <quote xml:id="bHY6yh-d48228-Qd1e1089">Insipiens esto: cum tempus postulat aut res.
+        Stultitiam simulare loco prudentia summa est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1097">
+                 ¶ 
+                <ref xml:id="bHY6yh-d48228-Rd1e1306">Boetius in arismetrica. c. 2.</ref> <quote xml:id="bHY6yh-d48228-Qd1e1101">Sapientia est earum
+        rerum que vere sunt cognitio et integra 
+               compraehensio.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1110">
+                 ¶ 
+                <ref xml:id="bHY6yh-d48228-Rd1e1320">Cassiodorus epistolarum li. 6. e. 10.</ref> <quote xml:id="bHY6yh-d48228-Qd1e1114">Sapientia
+        est que honores meretur. Sola prudentia quae
+        nemo sic assequitur vt eam non necessario et per
+        alios querem videatur. Senes ipsi sapientiam
+        consiliis discunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1126"> 
+                <ref xml:id="bHY6yh-d48228-Rd1e1337">Libro. 10. c. 4.</ref> <quote xml:id="bHY6yh-d48228-Qd1e1128">
+               Sapientiam ille querit in alto penes quem est scientie
+        magnitudo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1136"> 
+                <ref xml:id="bHY6yh-d48228-Rd1e1349">Li. 12. et fi. e. 3.</ref> <quote xml:id="bHY6yh-d48228-Qd1e1138">Ubicumque 
+               probatur esse necessaria prudentia: quoniam rebus
+        omnibus videtur adhibere accommoda.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1146">
+                <ref xml:id="bHY6yh-d48228-Rd1e1361">Idem de
+        anima. c. 7.</ref> <quote xml:id="bHY6yh-d48228-Qd1e1148">Circa confusa et incertata prudentia
+        vtiliter adhibetur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1156">
+                 ¶ 
+                <ref xml:id="bHY6yh-d48228-Rd1e1376">Isidorus in sinonima soliloquiorum li. 2. c
+        42.</ref> <quote xml:id="bHY6yh-d48228-Qd1e1160">Dilige sapientiam: et monstrabitur tibi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1166">
+                 ¶ 
+                <ref xml:id="bHY6yh-d48228-Rd1e1389">Hugo de sancto victore in didascalo li. i.
+        c. i.</ref> <quote xml:id="bHY6yh-d48228-Qd1e1170">Omnium expetendorum prima est sapientia in qua
+        perfecti boni forma consistit. Summum in 
+               vita solamen est studium sapientie quam qua inuenit
+        felix est: et qui possidet beatus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1183">
+                <ref xml:id="bHY6yh-d48228-Rd1e1406">Libro. 2
+        c. 13.</ref>  <quote xml:id="bHY6yh-d48228-Qd1e1185">Omnes pene virtutes corporis mutantur
+        in senibus et crescente sola sapientia 
+               decrescunt cetera.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1195">
+                <ref xml:id="bHY6yh-d48228-Rd1e1422">Idem in compendio philosophie in 
+               prohem.</ref> <quote xml:id="bHY6yh-d48228-Qd1e1197">Uniuersorum expetendorum sapientie est per
+        quam acquiritur perfectorum omnium bonorum forma.
+        Summum solamen animorum exercitatio sapiente est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1207">
+                 ¶ 
+                <ref xml:id="bHY6yh-d48228-Rd1e1439">Gaufridus de hironia curie papalis</ref> <quote xml:id="bHY6yh-d48228-Qd1e1211">
+               Multa vident paucis pectora magna notis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1217">
+                 ¶ 
+                <ref xml:id="bHY6yh-d48228-Rd1e1451">Prouerb. metrice extraor. li. vag.</ref> <quote xml:id="bHY6yh-d48228-Qd1e1221">Non de
+        ponte cadit qui cum sapientia vadit.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
