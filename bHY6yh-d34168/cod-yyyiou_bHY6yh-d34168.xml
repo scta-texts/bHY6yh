@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 8</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 8</title>
+               <date when="2023-08-18">August 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="46-v"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d34168"><!-- p2l4-r8 -->
+            <head xml:id="bHY6yh-d34168-Hd1e108">Rubrica 8</head>
+            <head xml:id="bHY6yh-d34168-Hd1e111" type="question-title">De rixis et scandalis</head>
+            <p xml:id="bHY6yh-d34168-d1e114">
+              De rixis et scandalis
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e119">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d34168-Rd1e115">SAlomon in prouerbiorum capitulo X</ref> <quote xml:id="bHY6yh-d34168-Qd1e125">odium susci<lb ed="#C" break="no"/>tat 
+              rixas</quote>
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e142"> 
+              ¶ <ref xml:id="bHY6yh-d34168-Rd1e140">Idem XVIII</ref> <quote xml:id="bHY6yh-d34168-Qd1e144">labia stulta
+              <lb ed="#C"/>immiscent se rixis et dens eius iurgia pro<lb ed="#C" break="no"/>uocat </quote>
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e131">
+              ¶ <ref xml:id="bHY6yh-d34168-Rd1e127">Idem XV</ref> <quote xml:id="bHY6yh-d34168-Qd1e133">Vir iracundus prouocat rix<lb ed="#C" break="no"/>as 
+              qui patiens est mitigatur suscitatas</quote>
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e150">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d34168-Rd1e152">yesus filius sidrach in ecclesiastico capitulo VIII</ref> <quote xml:id="bHY6yh-d34168-Qd1e154">Cum iracundo
+              <lb ed="#C"/>non facias rixam</quote>
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e160">
+              ¶ <ref xml:id="bHY6yh-d34168-Rd1e162">Idem 27 capitulo</ref> <quote xml:id="bHY6yh-d34168-Qd1e162">Effusi<lb ed="#C" break="no"/>o 
+              sanguinis in rixam superborum</quote>
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e168">
+              ¶ <ref xml:id="bHY6yh-d34168-Rd1e174">Matheus
+              <lb ed="#C"/>capitulo XVIII</ref> <quote xml:id="bHY6yh-d34168-Qd1e172">Ve mundo a scandalis necesse est
+              <lb ed="#C"/>enim ut ueniant scandala veruntamen ve
+              <lb ed="#C"/>homini illi perquem scandalum uenit</quote>
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e180">
+              ¶ <ref xml:id="bHY6yh-d34168-Rd1e188">Ca<lb ed="#C" break="no"/>to 
+              capitulo 2 Vers</ref> <quote xml:id="bHY6yh-d34168-Qd1e184">Rumores fuge ne incipias
+              <lb ed="#C"/>nouus auctor haberi</quote>
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e190">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e199">
+              ¶ <ref xml:id="bHY6yh-d34168-Rd1e211">Iacobus beneuentanus capitulo V</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d34168-Qd1e203">Lingua odium parit et faciet tibi litem
+              <lb ed="#C"/>Et freni lingua bella surgere solent</quote>
+            </p>
+            <p xml:id="bHY6yh-d34168-d1e211">
+              [omitted]
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
