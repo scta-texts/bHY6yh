@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 6</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 6</title>
+               <date when="2023-08-29">August 29, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="87-r"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d51499"><!-- p3l2-r6 -->
+            <head xml:id="bHY6yh-d51499-Hd1e108">Rubrica 6</head>
+            <head xml:id="bHY6yh-d51499-Hd1e111" type="question-title">De ordine et ordinatione</head>
+            <p xml:id="bHY6yh-d51499-d1e114">
+               <cb ed="#B" n="b"/>
+               <lb ed="#B"/>De ordine et ordinatione Rubrica 6
+            </p>
+            <p xml:id="bHY6yh-d51499-d1e119">
+               <lb ed="#B"/><ref xml:id="bHY6yh-d51499-Rd1e116">ARistotiles phisicorum libro 8 capitulo 3</ref> <quote xml:id="bHY6yh-d51499-Qd1e127">Nic<lb ed="#B" break="no"/>hil 
+               est inordinatum eorum que natura 
+               <lb ed="#B"/>et secundum naturam sunt ¶ Natura omnibus 
+               <lb ed="#B"/>causa ordinationis est ¶ ordinatio omnis 
+               <lb ed="#B"/>ratio est</quote> 
+            </p>
+            <p xml:id="bHY6yh-d51499-d1e137">
+               ¶ <ref xml:id="bHY6yh-d51499-Rd1e135">Idem de memoria et remi<lb ed="#B" break="no"/>niscentia</ref> 
+               ¶ <quote xml:id="bHY6yh-d51499-Qd1e139">Sunt magis reminisci<lb ed="#B" break="no"/>bilia 
+               quecumque ordinationem habent</quote>
+            </p>
+            <p xml:id="bHY6yh-d51499-d1e148">
+               ¶ <ref xml:id="bHY6yh-d51499-Rd1e149">Idem 
+               <lb ed="#B"/>yconomicorum libro I in fine</ref> ¶ <quote xml:id="bHY6yh-d51499-Qd1e150">oportet vnum<lb ed="#B" break="no"/>quodque 
+               in loco suo poni sicud enim 
+               <lb ed="#B"/>paratum existens non queretur</quote>
+            </p>
+            <p xml:id="bHY6yh-d51499-d1e160">
+               ¶ <ref xml:id="bHY6yh-d51499-Rd1e167">I<lb ed="#B" break="no"/>dem 
+               politicorum libro 7 capitulo 3</ref> ¶ <quote xml:id="bHY6yh-d51499-Qd1e162">Lex qui<lb ed="#B" break="no"/>dam 
+               ordo est ualde excedens nu<lb ed="#B" break="no"/>merus 
+               non potest participare ordi<lb ed="#B" break="no"/>nem</quote>
+            </p>
+            <p xml:id="bHY6yh-d51499-d1e170">
+               <lb ed="#B"/><ref xml:id="bHY6yh-d51499-Rd1e181">PAu<!--line jumps up-->lus apostolus epistola ad romanos capitulo 13</ref><!--line jumps down--> <quote xml:id="bHY6yh-d51499-Qd1e174">Que a deo sunt ordinata 
+               <lb ed="#B"/>sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d51499-d1e180">
+               ¶ <ref xml:id="bHY6yh-d51499-Rd1e192">Idem epistola I ad corintheos 
+               <lb ed="#B"/>capitulo 14</ref> <quote xml:id="bHY6yh-d51499-Qd1e182">omnia honeste et secundum ordinem 
+               <lb ed="#B"/>fiant in nobis</quote>
+            </p>
+            <p xml:id="bHY6yh-d51499-d1e190">
+               <lb ed="#B"/><ref xml:id="bHY6yh-d51499-Rd1e207">MArcialis cocus<!--line jumps up--> libro vndique suscep<!--line jumps down-->to capitulo 3</ref> <quote xml:id="bHY6yh-d51499-Qd1e194">Quam ma<lb ed="#B" break="no"/>le 
+               confundit ratio praepostera mores</quote>
+            </p>
+            <p xml:id="bHY6yh-d51499-d1e200">
+               <lb ed="#B"/><ref xml:id="bHY6yh-d51499-Rd1e219">BOetius de consolatione libro I capitulo 11</ref> <quote xml:id="bHY6yh-d51499-Qd1e204">Quod 
+               <lb ed="#B"/>precipiti uia certum deserit ordinem 
+               <lb ed="#B"/>letos non habet exitus</quote>
+            </p>
+            <p xml:id="bHY6yh-d51499-d1e213">
+               <lb ed="#B"/><ref xml:id="bHY6yh-d51499-Rd1e234">CAssiodorus epistolarum<!--line jumps down--> libro 8 epistola 13</ref><!--line jumps down--> <quote xml:id="bHY6yh-d51499-Qd1e217">Securus cel<lb ed="#B" break="no"/>sa 
+               conscendit qui se in paulo 
+               <lb ed="#B"/>minoribus approbauit et certo pro<lb ed="#B" break="no"/>cedit 
+               uestigio qui gradatim deside<lb ed="#B" break="no"/>rio 
+               potitur accepto</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
