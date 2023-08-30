@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 2</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 2</title>
+               <date when="2023-08-23">August 23, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="48-v"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d35945"><!-- p2l5-r2 -->
+            <head xml:id="bHY6yh-d35945-Hd1e108">Rubrica 2</head>
+            <head xml:id="bHY6yh-d35945-Hd1e111" type="question-title">De beneficiis</head>
+            <p xml:id="bHY6yh-d35945-d1e114">
+              De beneficiis et eo<lb ed="#C" break="no"/>rum
+              largitione
+              <lb ed="#C"/>capitulum 
+            </p>
+            <!--next paragraph begins on the second line of the previous paragraph-->
+            <p xml:id="bHY6yh-d35945-d1e119">
+              <ref xml:id="bHY6yh-d35945-Rd1e116">Psalmista psalmus 26</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d35945-Qd1e123">Iustus misere<lb ed="#C" break="no"/>bitur 
+              et tribuet</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e129">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e128">Salomon in prouerbiorum capitulo
+              <lb ed="#C"/>XII</ref> <quote xml:id="bHY6yh-d35945-Qd1e133">qui negligit dampnum propter amicum
+              <lb ed="#C"/>multi colunt personam potentis</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e142">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e143">Cronica
+              <lb ed="#C"/>de nugis philosophurum scilicet de eleobolo</ref> <quote xml:id="bHY6yh-d35945-Qd1e146">Eleobolus
+              <lb ed="#C"/>unus de septem sapientibus dicebat bene<pb ed="#C" n="49-r"/><cb ed="#C" n="a"/><lb ed="#C" break="no"/>faciendum 
+              esse amico ut amicicior fiat</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e156">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d35945-Rd1e158">Idem 28 capitulo scilicet de Aristotele</ref> <quote xml:id="bHY6yh-d35945-Qd1e158">Aristoteles ad
+              <lb ed="#C"/>que indam culpantem quia improbo con<lb ed="#C" break="no"/>tribuerat 
+              ait non contribui illi sed humanita<lb ed="#C" break="no"/>ti</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e172">
+              ¶ <quote xml:id="bHY6yh-d35945-Qd1e174">Idem interrogatus qualiter sit erga ca<lb ed="#C" break="no"/>ros 
+              agendum ait prout maius amamus eos
+              <lb ed="#C"/>circa nos se gerere</quote> 
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e182">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e190">plato in thimeo circa finale</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d35945-Qd1e186">bonos uiros dicet commodos esse</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e192">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e202">Socrates
+              <lb ed="#C"/>in exhortationibus capitulo 2</ref> <quote xml:id="bHY6yh-d35945-Qd1e196">benefaciens malis assi<lb ed="#C" break="no"/>debis 
+              alienos canes alientibus illi nam<lb ed="#C" break="no"/>que 
+              impendentes panem ut in quoslibet
+              <lb ed="#C"/>latrant</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e204">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e216">Aristoteles ethicorum libro 4 capitulo I</ref> <quote xml:id="bHY6yh-d35945-Qd1e208">virtutis 
+              <lb ed="#C"/>est magis benefacere quam bene pati</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e215">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e227">Idem libro VIII
+              <lb ed="#C"/>capitulo VIII et finale</ref> <quote xml:id="bHY6yh-d35945-Qd1e217">bene pati multi uolunt bene autem
+              <lb ed="#C"/>facere fugiunt ut in utile</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e225">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e240">Idem libro IX capitulo VII</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d35945-Qd1e227">multi magis bene pati quam benefacere appetunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e233">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d35945-Rd1e250">Ibidem capitulo IX</ref> <quote xml:id="bHY6yh-d35945-Qd1e235">Amici magis est benefacere quam pa<lb ed="#C" break="no"/>ti 
+              boni et uirtutis est benefacere amicis quam extra<lb ed="#C" break="no"/>neis </quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e243">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e262">Idem politicorum libro 2 capitulo 2</ref> <quote xml:id="bHY6yh-d35945-Qd1e245">largiri et aux<lb ed="#C" break="no"/>iliari 
+              amicis aut extraneis aut alteris delectabi<lb ed="#C" break="no"/>lissimum 
+              est</quote> ¶ <ref xml:id="bHY6yh-d35945-Rd1e273">Idem rethoricorum libro I capitulo XIII</ref> <quote xml:id="bHY6yh-d35945-Qd1e249">Magna<lb ed="#C" break="no"/>nimitas 
+              est uirtus factiua magnorum bene<lb ed="#C" break="no"/>ficiorum 
+              pusillanitas autem contrarium</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e259">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e285">Ibidem
+              <lb ed="#C"/>libro 2 capitulo 6</ref> <quote xml:id="bHY6yh-d35945-Qd1e261">factiua amicitie est gratia et non
+              <lb ed="#C"/>requisitum facere et cum fecerit non manifes<lb ed="#C" break="no"/>tare 
+              sic enim ipsius gratia uidetur non propter alterum</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e271">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d35945-Rd1e301">yesus filius sidrach in ecclesiastico capitulo III</ref> <quote xml:id="bHY6yh-d35945-Qd1e275">non sit porrecta tu<lb ed="#C" break="no"/>a 
+              manus ad accipiendum et dandum collec<lb ed="#C" break="no"/>ta</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e284">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e314">Idem XXIX capitulo</ref> <quote xml:id="bHY6yh-d35945-Qd1e286">uir bonus fidem facit
+              <lb ed="#C"/>proximo suo</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e292">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e326">Tullius de officii libro I capitulo 26</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d35945-Qd1e296">quicquid sine detrimento commodari possit
+              <lb ed="#C"/>id tribuatur cuique uel ignoto</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e304">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e338">Idem rethoricorum
+              <lb ed="#C"/>artis ueteris libro 2 capitulo 5</ref> <quote xml:id="bHY6yh-d35945-Qd1e306">Est imprudens qui pro
+              <lb ed="#C"/>beneficio non gratiam verum mercedem postul<lb ed="#C" break="no"/>at</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e314">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e353">Ouidius libro 2 de ponto capitulo IX et antepe</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d35945-Qd1e318">Regia crede mihi res est succurrere lapsis con<lb ed="#C" break="no"/>ueniens 
+              homini est hominem seruare uoluptas
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/>Et melius nulla queritur arte fauor</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e328">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d35945-Rd1e369">Quintilianus declamatus VI</ref> <quote xml:id="bHY6yh-d35945-Qd1e332">Omnium beneficiorum
+              <lb ed="#C"/>ista est nam ut non sit necessitas sed potestas</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e338">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d35945-Rd1e381">Mattheus in euangelio capitulo VII</ref> <quote xml:id="bHY6yh-d35945-Qd1e342">omnia quaecumque uult ut
+              <lb ed="#C"/>faciant uobis homines et uos facite illis</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e349">
+              <ref xml:id="bHY6yh-d35945-Rd1e394">paulus ad galathas VI capitulo</ref> <quote xml:id="bHY6yh-d35945-Qd1e353">Alter alterius onera
+              <lb ed="#C"/>portate</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e359">
+              <ref xml:id="bHY6yh-d35945-Rd1e406">Seneca de beneficiis libro primo</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d35945-Qd1e363">beneficia sine ullo delectu magis proiicimus
+              <lb ed="#C"/>quam demus beneficium est beniuola actio gra<lb ed="#C" break="no"/>duum 
+              tribuens capienti et idem quod facit
+              <lb ed="#C"/>prona et sponte sua parata</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e380">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e427">Idem libro 2</ref> <quote xml:id="bHY6yh-d35945-Qd1e382">Ingrat<lb ed="#C" break="no"/>um 
+              beneficium est quod diu inter manus dantis
+              <lb ed="#C"/>hesit maioris est muneris gratia quo minus
+              <lb ed="#C"/>diu pependit Omnis benignitas properat
+              <lb ed="#C"/>et proprium est libertas faciens cito facere Non
+              <lb ed="#C"/>sunt exasperanda beneficia non quicquam illis
+              <lb ed="#C"/>triste miscendum est Etiam si siquid uelis
+              <lb ed="#C"/>admonere aliud tempus elige Qui dedit be<lb ed="#C" break="no"/>neficium 
+              taceat narret qui accipit</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e403">
+              <ref xml:id="bHY6yh-d35945-Rd1e452">Idem
+              <lb ed="#C"/>libro III</ref> <quote xml:id="bHY6yh-d35945-Qd1e405">Turpissima res est in beneficio red<lb ed="#C" break="no"/>de</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e411">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e462">Idem libro IIII</ref> <quote xml:id="bHY6yh-d35945-Qd1e413">Santius est prodesse malis
+              <lb ed="#C"/>propter bonos</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e421">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e474">Idem epistolarum ad lucillum libro VI
+              <lb ed="#C"/>epistola VI</ref> <quote xml:id="bHY6yh-d35945-Qd1e423">non potest quisquam beate degere qui
+              <lb ed="#C"/>se tantum tuetur qui omnia ad utilitales suos con<lb ed="#C" break="no"/>uertit 
+              alteri uiuas oportet si uis tibi uiuere</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e434">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e489">Ibidem libro 13 epistola 14</ref> <quote xml:id="bHY6yh-d35945-Qd1e436">Nemo habet tam
+              <lb ed="#C"/>certam in beneficiis manum ut non sepe
+              <lb ed="#C"/>fallatur Animo beneficia et iniurie constant
+              <lb ed="#C"/>Errat siquis beneficium libenter accipit
+              <lb ed="#C"/>quam reddat</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e448">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e504">Idem de beata uita</ref> <quote xml:id="bHY6yh-d35945-Qd1e450">Vbicumque
+              <lb ed="#C"/>homo ibi beneficio locus est</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e456">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e518">Idem de moribus</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d35945-Qd1e458">prius quam promittas deliberes et cum promiseris
+              <lb ed="#C"/>facies</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e466">
+              <ref xml:id="bHY6yh-d35945-Rd1e531">Idem in prouerbiorum</ref> <quote xml:id="bHY6yh-d35945-Qd1e468">Ab alio expectes
+              <lb ed="#C"/>alteri quod feceris bis est gratum quod opus est
+              <lb ed="#C"/>si ultero offeras beneficium qui dare nescit in<lb ed="#C" break="no"/>iuste 
+              petit beneficia plura accipit qui scit
+              <lb ed="#C"/>reddere beneficium dando accipit qui digne
+              <pb ed="#C" n="49-v"/>
+              <cb ed="#C" n="a"/>
+              <lb ed="#C"/>dedit beneficium sepe dare docere est reddere
+              <lb ed="#C"/>benignus etiam causam dandi cogitat habet
+              <lb ed="#C"/>in aduersis auxilia qui in secundis comod<lb ed="#C" break="no"/>at</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e489">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e557">Valerius libro V titulo de ingratis</ref> <quote xml:id="bHY6yh-d35945-Qd1e493">dandi
+              <lb ed="#C"/>et accipiendi beneficiii commercium est sine
+              <lb ed="#C"/>quo uita hominum est mors tollit quisque
+              <lb ed="#C"/>qui bene merito parem referre gratiam neg<lb ed="#C" break="no"/>ligit</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e503">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e572">Lex digestum titulo commodati libro in commodato
+              <lb ed="#C"/>sicud autem</ref> <quote xml:id="bHY6yh-d35945-Qd1e507">adiuuari quippe nos non de<lb ed="#C" break="no"/>cipi 
+              beneficio oportet</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e516">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e586">Lex codice titulo de negotiis
+              <lb ed="#C"/>ges libro tutori</ref> <quote xml:id="bHY6yh-d35945-Qd1e518">Sufficit si cui uel in paucis amici 
+              <lb ed="#C"/>laboribus consolatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e526">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e599">Marcialis coqus libro vndique
+              <lb ed="#C"/>suscepto</ref> <quote xml:id="bHY6yh-d35945-Qd1e530">Ne noceas tibi sic aliis prodesse memen<lb ed="#C" break="no"/>to</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e536">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e611">Ambrosius de officiis libro 3 et finale 3</ref> <quote xml:id="bHY6yh-d35945-Qd1e540">Con<lb ed="#C" break="no"/>sidera 
+              homo unde nomen sumper<lb ed="#C" break="no"/>ensis 
+              ab humo vtique nihil cuique eripit sed omnia
+              <lb ed="#C"/>largitur omnibus et diuersos in vsum omnium ani<lb ed="#C" break="no"/>mantium 
+              versus ministrat Inde appellata hu<lb ed="#C" break="no"/>manitas 
+              specialis et domestica uirtus ho<lb ed="#C" break="no"/>minum 
+              que consortem adiuuat Subuenire
+              <lb ed="#C"/>non habenti humanitatis est duritie autem ex<lb ed="#C" break="no"/>torquere 
+              quam dederis</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e565">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e642">Idem capitulo 5</ref> <quote xml:id="bHY6yh-d35945-Qd1e569">Si non
+              <lb ed="#C"/>potes alteri subuenire nisi alter ledatur como<lb ed="#C" break="no"/>dius 
+              est neutium iuuari quam grauari alterum</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e577">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d35945-Rd1e656">prosper sub LXVI epigramatus</ref> <quote xml:id="bHY6yh-d35945-Qd1e581">gratior est fructus
+              <lb ed="#C"/>quem spes productior edit</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e587">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e668">Cato capitulo I
+              <lb ed="#C"/>bonis benefacito ¶ Idem capitulo 2</ref> <quote xml:id="bHY6yh-d35945-Qd1e591">Sic bonus esto<lb ed="#C" break="no"/>bonis 
+              etcetera Officium alterius multis narrare me<lb ed="#C" break="no"/>mento
+              etcetera ne dubites cum magna etcetera hiis et
+              <lb ed="#C"/>enim rebus</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e609">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e688">Idem capitulo 4</ref> <quote xml:id="bHY6yh-d35945-Qd1e611">Si potes ignotis etcetera
+              <lb ed="#C"/>vtilius regno etcetera</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e619">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e631">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e714">Cassiodorus epistolarum libro I
+              <lb ed="#C"/>epistola XIII</ref> <quote xml:id="bHY6yh-d35945-Qd1e635">non decet esse difficile beneficium
+              <lb ed="#C"/>quod non sui largitate patitur detrimentum</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e643">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d35945-Rd1e726">Idem XXXIII epistola</ref> <quote xml:id="bHY6yh-d35945-Qd1e645">Tunc de exteris cogitandum
+              <lb ed="#C"/>est uide summa</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e653">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e738">Idem 37 epistola</ref> <quote xml:id="bHY6yh-d35945-Qd1e655">Non est beneficium
+              <lb ed="#C"/>quod praestatur inuitis nec cuiquam est vtile quod ad<lb ed="#C" break="no"/>uersa 
+              uoluntate conceditur</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e663">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e750">Idem libro 2 epistola 28</ref>
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d35945-Qd1e665">beneficium dici potest quod nulla utilitate sentitur
+              <lb ed="#C"/>Angusta sunt beneficia que non etiam de fu<lb ed="#C" break="no"/>turis 
+              aliquid pollicentur</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e676">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e765">Idem 24</ref> <quote xml:id="bHY6yh-d35945-Qd1e678">Deno<lb ed="#C" break="no"/>tius 
+              accipitur quod sub aliqua dilatione
+              <lb ed="#C"/>prestatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e684">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e775">Idem libro XI epistola 6</ref> <quote xml:id="bHY6yh-d35945-Qd1e686">Ipsius quoddam<lb ed="#C" break="no"/>modo 
+              res agitur cuius in alterum uota complentur</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e694">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d35945-Rd1e786">Idem epistola XVII</ref> <quote xml:id="bHY6yh-d35945-Qd1e696">Subuenire semper aman<lb ed="#C" break="no"/>tis 
+              est</quote> 
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e698">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e796">Idem libro 12 et finale epistola prima</ref> <quote xml:id="bHY6yh-d35945-Qd1e702">Persona tu<lb ed="#C" break="no"/>a 
+              refugium fit oppraesso infirmi defensio praesi<lb ed="#C" break="no"/>dium 
+              aliqua calamitate concluso</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e706">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e808">Ibidem
+              <lb ed="#C"/>de epistola V</ref> <quote xml:id="bHY6yh-d35945-Qd1e708">Gratificante natura illis amplius
+              <lb ed="#C"/>debemus qui nobis aliqua proximitate iun<lb ed="#C" break="no"/>guntur</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e716">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e820">Idem de amicitia capitulo XXII</ref> <quote xml:id="bHY6yh-d35945-Qd1e718">quicquid
+              <lb ed="#C"/>amico impenderis nunquam improperes</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e726">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e836">Andre<lb ed="#C" break="no"/>as 
+              ad gualterium de amore libro primo</ref> <quote xml:id="bHY6yh-d35945-Qd1e730">qui serui<lb ed="#C" break="no"/>tia 
+              oblata recusat accipere offerentem nimi<lb ed="#C" break="no"/>o 
+              rubore perturbat Et seipsum iudicat au<lb ed="#C" break="no"/>aritie 
+              uitio contineri</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e745">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e755">
+              ¶ <ref xml:id="bHY6yh-d35945-Rd1e868">Montenarius in luna
+              <lb ed="#C"/>clericus</ref> <quote xml:id="bHY6yh-d35945-Qd1e759">quisquis amat seruit</quote>
+            </p>
+            <p xml:id="bHY6yh-d35945-d1e765">
+              [omitted]
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
