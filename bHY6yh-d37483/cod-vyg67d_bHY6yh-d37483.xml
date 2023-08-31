@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5</title>
+               <date when="2023-08-30">August 30, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-30" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="84-r"/>
+            <cb ed="#O" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d37483"><!-- p2l5-r5 -->
+            <head xml:id="bHY6yh-d37483-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-d37483-Hd1e111" type="question-title">De auxilio et fauore</head>
+            <p xml:id="bHY6yh-d37483-d1e114">
+               De auxilio et 
+               <lb ed="#O"/>fauore. Rubrica. 5.
+            </p>
+            <p xml:id="bHY6yh-d37483-d1e119">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d37483-Rd1e115">Ysocrates in exhortationibus. capitulo 2</ref> <quote xml:id="bHY6yh-d37483-Qd1e127">nulli 
+               <lb ed="#O"/>rei praue nec assis nec faueas 
+               <lb ed="#O"/>uidebis enim et tu talia operari 
+               <lb ed="#O"/>qualia operantibus aliis subieris.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d37483-d1e135">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d37483-Rd1e134">ARistoteles rethor. libro 2. capitulo 8.</ref> <quote xml:id="bHY6yh-d37483-Qd1e139">Di<lb ed="#O" break="no"/>uinum 
+               arbitrabitur auxiliari 
+               <lb ed="#O"/>iniusta patientibus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d37483-d1e146">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d37483-Rd1e147">IEsus filius sirach in ecc. capitulo 5.</ref> <quote xml:id="bHY6yh-d37483-Qd1e150">De pro<lb ed="#O" break="no"/>pitiatu 
+               peccatorum noli esse 
+               <lb ed="#O"/>sine metu.</quote>
+            </p>
+            <p xml:id="bHY6yh-d37483-d1e156">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d37483-Rd1e159">TErrentius <!--line bumps up--> in adelphis. capitulo 6.</ref> <quote xml:id="bHY6yh-d37483-Qd1e160">Abs<!--line bumps back down-->quiuis homine cum est opus 
+               <lb ed="#O"/>beneficium accipere gaudeas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d37483-d1e166">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d37483-Rd1e171">SAlustius in catilinario</ref> <quote xml:id="bHY6yh-d37483-Qd1e170">Au<lb ed="#O" break="no"/>xilium 
+               ab omnibus petas etiam ab 
+               <lb ed="#O"/>infimis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d37483-d1e176">
+               <pb ed="#O" n="48-v"/>
+               <cb ed="#O" n="a"/>
+               <lb ed="#O"/><ref xml:id="bHY6yh-d37483-Rd1e183">LEx ff. t. de carbo. edicto 
+               <lb ed="#O"/>libro 1. §. sed et siquis.</ref> <quote xml:id="bHY6yh-d37483-Qd1e180">magis consu<lb ed="#O" break="no"/>lendum 
+               est his quibus maius per<lb ed="#O" break="no"/>iculum 
+               intenditur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d37483-d1e188">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d37483-Rd1e196">Ambrosius <!--line bumps up--> de officiis libro 3. capitulo <!--line bumps back down--> 24</ref> <quote xml:id="bHY6yh-d37483-Qd1e192">pronum quippe 
+               <lb ed="#O"/>est genus humanum fauere 
+               <lb ed="#O"/>honoratioribus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d37483-d1e200">
+               ¶ <ref xml:id="bHY6yh-d37483-Rd1e208">25. capitulo</ref> <quote xml:id="bHY6yh-d37483-Qd1e202">hiis fa<lb ed="#O" break="no"/>uemus 
+               frequentius a quibus referende 
+               <lb ed="#O"/>gratie uicem speramus. </quote>
+            </p>
+            <p xml:id="bHY6yh-d37483-d1e215">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d37483-Rd1e227">GUafredus in poe<!--line bumps up-->tria. capitulo 75.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-d37483-Qd1e219">languor 
+               <lb ed="#O"/>eget medico solamine luc<lb ed="#O" break="no"/>tus 
+               egestas subsidio.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
