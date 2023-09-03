@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 11</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 11</title>
+               <date when="2023-09-03">September 3, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#B" n="89-r"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d52780"><!-- p3l2-r11 -->
+            <head xml:id="bHY6yh-d52780-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-d52780-Hd1e111" type="question-title">De potioritate qualitatis et quantitatis</head>
+            <p xml:id="bHY6yh-d52780-d1e114">
+              <lb ed="#B"/>De potioritate qualitatis et<!--line jumps down--> quantitatis Rubrica 11
+            </p>
+            <p xml:id="bHY6yh-d52780-d1e121">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d52780-Rd1e120">IN exodo capitulo 23</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d52780-Qd1e125">Non sequaris turbam ad facien<lb ed="#B" break="no"/>dum 
+              malum nec in iudicio pluri<lb ed="#B" break="no"/>morum
+              acquiesces sententie ut 
+              <lb ed="#B"/>a uero deuies</quote>
+            </p>
+            <p xml:id="bHY6yh-d52780-d1e135">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d52780-Rd1e139">ARistotiles<!--line jumps up--> topicorum libro 2</ref> <quote xml:id="bHY6yh-d52780-Qd1e139">No<!--line jumps down-->minationibus quidem 
+              <lb ed="#B"/>res . que autem rerum sunt huiusmodi 
+              <lb ed="#B"/>non iam attendendum pluribus</quote>
+            </p>
+            <p xml:id="bHY6yh-d52780-d1e150">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d52780-Rd1e156">SEneca epistolarum ad lucillum<!--line jumps up--> libro<!--line jumps down--> 4 
+              <lb ed="#B"/>epistola 8 et fine</ref> ¶ <quote xml:id="bHY6yh-d52780-Qd1e154">Extimes iudi<lb ed="#B" break="no"/>cia 
+              non numeres</quote>
+            </p>
+            <p xml:id="bHY6yh-d52780-d1e160"> 
+              ¶ <ref xml:id="bHY6yh-d52780-Rd1e167">Idem in pro<lb ed="#B" break="no"/>uerbiis</ref> 
+              <quote xml:id="bHY6yh-d52780-Qd1e162">frons nostra populo con<!--line jumps down-->ueniat</quote>
+            </p>
+            <p xml:id="bHY6yh-d52780-d1e168">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d52780-Rd1e180">Lex codicis titulo de ueteri 
+              <lb ed="#B"/>iuris enucli libro II § sed et si quis</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d52780-Qd1e172">Multo melius est pauca ydo<lb ed="#B" break="no"/>nee 
+              effundere quam multis invti<lb ed="#B" break="no"/>libus 
+              homines pregrauari</quote>
+            </p>
+            <p xml:id="bHY6yh-d52780-d1e184">
+              ¶ <ref xml:id="bHY6yh-d52780-Rd1e199">lex 
+              <lb ed="#B"/>auctis titulo de tabellionibus § sed nec 
+              <lb ed="#B"/>questus</ref> ¶ <quote xml:id="bHY6yh-d52780-Qd1e188">Melius est pauca agere 
+              <lb ed="#B"/>caute quam multis uite esse periculose</quote>
+            </p>
+            <p xml:id="bHY6yh-d52780-d1e196">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d52780-Rd1e214">Avctor libro de forma honeste uite capitulo 58</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d52780-Qd1e200">Non quam multis sed quibus place<lb ed="#B" break="no"/>as 
+              cogita</quote>
+            </p>
+            <p xml:id="bHY6yh-d52780-d1e206">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d52780-Rd1e226">CAssiodo<!--line jumps up-->rus epistolarum libro 2 epistola 12</ref><!--line jumps down--> <quote xml:id="bHY6yh-d52780-Qd1e210">In qualitate non in quan<lb ed="#B" break="no"/>titate 
+              est peccatum</quote>
+            </p>
+            <p xml:id="bHY6yh-d52780-d1e217">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d52780-Rd1e239">GRegorius in pasto<!--line jumps up-->rali capitulo 58</ref><!--line jumps down--> <quote xml:id="bHY6yh-d52780-Qd1e221">Admonen<lb ed="#B" break="no"/>di
+              sunt qui quamuis in minimis 
+              <lb ed="#B"/>tamen frequenter excedunt. ut nequa<lb ed="#B" break="no"/>quam 
+              considerent qualia sed quanta
+              <lb ed="#B"/>committant facta et enim sua si dis<lb ed="#B" break="no"/>piciunt 
+              timere cum pensant debent 
+              <lb ed="#B"/>formidare cum numerant</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
