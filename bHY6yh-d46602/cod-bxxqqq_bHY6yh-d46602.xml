@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4</title>
+               <date when="2023-08-23">August 23, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="78-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d46602"><!-- p3l1-r4 -->
+            <head xml:id="bHY6yh-d46602-Hd1e108">Rubrica 4</head>
+    <head xml:id="bHY6yh-d46602-Hd1e111" type="question-title">De ratione morali consideratione</head>
+            <p xml:id="bHY6yh-d46602-d1e114">
+              De ratio<lb ed="#B" break="no"/>ne 
+              morali considerantione Rubrica 4
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e119">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d46602-Rd1e115">Plato in menone</ref> ¶ <quote xml:id="bHY6yh-d46602-Qd1e123">Quotiens
+              <lb ed="#B"/>absque mente audet homo
+              <lb ed="#B"/>leditur ¶ Quotiens uero cum 
+              <lb ed="#B"/>mente proficitur</quote> 
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e135">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d46602-Rd1e135">ARistotiles<!--line jumps up--> ethicorum libro I capitulo 8<!--line jumps down--> et finale</ref> ¶ <quote xml:id="bHY6yh-d46602-Qd1e141">Omnia consonant 
+              <lb ed="#B"/>rationi</quote> 
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e147">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e146">Idem magnorum moralium
+              <lb ed="#B"/>libro 2 capitulo 3</ref> <quote xml:id="bHY6yh-d46602-Qd1e149">Que fiunt absque ratione 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>iudicante directiones a fortuna 
+              <lb ed="#B"/>sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e152">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e159">Idem physicorum libro 8 capitulo 3</ref> <quote xml:id="bHY6yh-d46602-Qd1e154">ordinatio 
+              <lb ed="#B"/>omnis ratio est</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e160">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d46602-Rd1e172">Tvlius<!--line jumps up--> tusculanarum questionum libro 3</ref><!--line jumps down--> <quote xml:id="bHY6yh-d46602-Qd1e164">Munus animi est ratione 
+              <lb ed="#B"/>bene vti ¶ Sapientis animus ita 
+              <lb ed="#B"/>semper affectus est ut ratione op<lb ed="#B" break="no"/>tima 
+              vtatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e174">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e185">libro 4</ref> <quote xml:id="bHY6yh-d46602-Qd1e176">bene ad hibi<lb ed="#B" break="no"/>ta 
+              ratio cernit quid optimum sit 
+              <lb ed="#B"/>neglecta uero multis implicatur 
+              <lb ed="#B"/>erroribus ¶ Nil sine ratione fieri 
+              <lb ed="#B"/>potest</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e186">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e199">Idem de legibus libro I</ref> <quote xml:id="bHY6yh-d46602-Qd1e188">Quid 
+              <lb ed="#B"/>est non dicam in homine sed in caelo at<lb ed="#B" break="no"/>quem 
+              terra ratione diuinius que cum 
+              <lb ed="#B"/>adoleuit profecta est nominatur 
+              <lb ed="#B"/>rite sapientia</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e198">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e216">libro et</ref> <quote xml:id="bHY6yh-d46602-Qd1e202">lex vera at<lb ed="#B" break="no"/>que 
+              princeps apta adiubendum et 
+              <lb ed="#B"/>ad cietandum ratio est recta</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e208">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e227">Idem
+              <lb ed="#B"/>de fine bonorum et malorum libro 4</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d46602-Qd1e210">rationis perfectio est virtus</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e216">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e240">Idem 
+              <lb ed="#B"/>de natura deorum libro 2</ref> ¶ <quote xml:id="bHY6yh-d46602-Qd1e218">Nichil est men<lb ed="#B" break="no"/>te 
+              et ratione melius</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e221">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d46602-Rd1e253">SEneca epistolarum ad<!--line jumps up--> lucillum libro 5<!--line jumps down--> epistola 8</ref> ¶ <quote xml:id="bHY6yh-d46602-Qd1e225">Si vis 
+              <lb ed="#B"/>tibi omnia subicere te rationi</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e231">
+              / <ref xml:id="bHY6yh-d46602-Rd1e265">libro 
+              <lb ed="#B"/>8 epistola I</ref> <quote xml:id="bHY6yh-d46602-Qd1e235">Ratio uel aliud est quam 
+              <lb ed="#B"/>incorpus humanum pars diuini spiritus 
+              <lb ed="#B"/>mersa ¶ Nullum bonum sine ratione 
+              <lb ed="#B"/>est ¶ Quicquid vera ratio commendat 
+              <lb ed="#B"/>solidum et eternum est firmat animum 
+              <lb ed="#B"/>attollit futurum semper in excelso
+              <lb ed="#B"/>¶ virtus non aliud quam recta ratio est 
+              <lb ed="#B"/>¶ Omnes virtutes rationes sunt ¶ Se<lb ed="#B" break="no"/>quitur 
+              ratio naturam quid ergo est ratio nature 
+              <lb ed="#B"/>immitatio</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e254">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e288">libro 18 epistola 2</ref> <quote xml:id="bHY6yh-d46602-Qd1e256">Ratione va<lb ed="#B" break="no"/>lentius 
+              nichil est casum dolorem<lb ed="#B" break="no"/>que 
+              et iniuriam subigit ¶ Ama 
+              <lb ed="#B"/>rationem huius te amor contra durissima 
+              <lb ed="#B"/>armabit</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e266">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e301">libro 17 epistola 4 et penultimo</ref> <quote xml:id="bHY6yh-d46602-Qd1e268">Omnia 
+              <lb ed="#B"/>ad rationem reuocanda sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e274">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e315">Idem de 
+              <lb ed="#B"/>beneficiis libro 4</ref> <quote xml:id="bHY6yh-d46602-Qd1e278">Nichil sine ratione fa<lb ed="#B" break="no"/>ciendum 
+              est <hi rend="underline">¶ Idem de beneficiis libro</hi></quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e284">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d46602-Rd1e327">LEx diges titulo de legibus libro infrascripta</ref> 
+              <pb ed="#B" n="79-r"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/>¶ <quote xml:id="bHY6yh-d46602-Qd1e288">Non omnium que a maioribus sunt con<lb ed="#B" break="no"/>stituta 
+              ratio reddi potest</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e297">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e339">titulo ad libro 
+              <lb ed="#B"/>acquiliam libro ita uulneratus</ref> ¶ <quote xml:id="bHY6yh-d46602-Qd1e299">Mul<lb ed="#B" break="no"/>ta 
+              iure ciuili contra rationem disputan<lb ed="#B" break="no"/>di 
+              pro vtilitate communi recepta sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e307">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d46602-Rd1e354">MAximianus</ref> <quote xml:id="bHY6yh-d46602-Qd1e311">plus ratio quamuis ce<lb ed="#B" break="no"/>ca 
+              valere solet</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e317">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d46602-Rd1e366">CAssiodorus epistolarum<!--line jumps up--> libro I capitulo 9</ref><!--line jumps down--> <quote xml:id="bHY6yh-d46602-Qd1e321">fidem siqui<lb ed="#B" break="no"/>dem 
+              rerum a ratione in celligimus 
+              <lb ed="#B"/>que nunquam desiderantibus abscon<lb ed="#B" break="no"/>ditur 
+              si suis vestigiis perqui<lb ed="#B" break="no"/>ratur</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
