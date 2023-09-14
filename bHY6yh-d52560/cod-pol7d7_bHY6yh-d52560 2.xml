@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10 [Krakow, lat 700 III Transcription]</title>
+               <date when="2023-08-12">August 12, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="115-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d52560"><!-- p3l2-r10 -->
+            <head xml:id="bHY6yh-d52560-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-d52560-Hd1e111" type="question-title">De cause et effectus consideratione et occasione</head>
+            <p xml:id="bHY6yh-d52560-d1e114">
+              De cause et effec<lb ed="#K" n="6" break="no"/>tus 
+              consideratione et occasione. Rubrica. 10
+            </p>
+            <p xml:id="bHY6yh-d52560-d1e121">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d52560-Rd1e118">ARistoteles ethicorum li. i. c. 3.</ref> <quote xml:id="bHY6yh-d52560-Qd1e129">In omni 
+              <lb ed="#K"/>operatione et electione finis 
+              <lb ed="#K"/>bonum: huius enim gratia reliqua 
+              <lb ed="#K"/>operantur omnes.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d52560-d1e137"> 
+              <ref xml:id="bHY6yh-d52560-Rd1e135">Libro. 3. c. 6.</ref> <quote xml:id="bHY6yh-d52560-Qd1e139">Qua<lb ed="#K" break="no"/>liscuque
+              vnusquisque est talis 
+              <lb ed="#K"/>et finis videtur ei.</quote>
+            </p>
+            <p xml:id="bHY6yh-d52560-d1e146"> 
+              <ref xml:id="bHY6yh-d52560-Rd1e146">Li 4. c. 8.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d52560-Qd1e148">Unusquisque qualis est talia 
+              <lb ed="#K"/>dicit et operatur: et sic viuit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d52560-d1e156"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d52560-Rd1e159">Idem topicorum lib. 3</ref> <quote xml:id="bHY6yh-d52560-Qd1e158">Quod propter 
+              <lb ed="#K"/>se eligendum est eo quod propter aliud
+              <lb ed="#K"/>magis eligendum. Quod per se 
+              <lb ed="#K"/>est causa mali magis fugien<lb ed="#K" break="no"/>dum 
+              est eo quod per accidens.</quote>
+            </p>
+            <p xml:id="bHY6yh-d52560-d1e168">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d52560-Rd1e175">Tullius philippicorum libro 8.</ref> <quote xml:id="bHY6yh-d52560-Qd1e172">Is profecto 
+              <lb ed="#K"/>mortem attulit qui causa 
+              <lb ed="#K"/>mortis fuit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d52560-d1e178">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d52560-Rd1e187">Mattheus in euangelio. c. 7.</ref>  <quote xml:id="bHY6yh-d52560-Qd1e182">Omnis arbor bona 
+              <lb ed="#K"/>fructus bonus facit ma<lb ed="#K" break="no"/>la
+              autem arbor fructus
+              <lb ed="#K"/>malos factus non potest ar<lb ed="#K" break="no"/>bor
+              bona fructus malos 
+              <lb ed="#K"/>facere</quote>
+            </p>
+            <p xml:id="bHY6yh-d52560-d1e201"> 
+              <ref xml:id="bHY6yh-d52560-Rd1e210">12. c.</ref> <quote xml:id="bHY6yh-d52560-Qd1e203">Ex fructum ar<lb ed="#K" break="no"/>bor
+              agnoscitur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d52560-d1e209">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d52560-Rd1e222">Lex diges. ti. ad le: acquilis l. qui occidit. 
+              <lb ed="#K"/>§ pe.</ref> <quote xml:id="bHY6yh-d52560-Qd1e213">Qui occasionem dan<lb ed="#K" break="no"/>ni 
+              prestat: damnum fecisse 
+              <lb ed="#K"/>videtur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d52560-d1e222">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d52560-Rd1e238">Auctor libri de for. honeste vite. c. 2.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d52560-Qd1e226">Cuiuscumque facti causam requiras.</quote>
+            </p>
+            <p xml:id="bHY6yh-d52560-d1e232">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d52560-Rd1e250">Cassiodorus epistolarum lib. 7. 
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>epistola 6.</ref> <quote xml:id="bHY6yh-d52560-Qd1e236">Nulla lesio
+              <lb ed="#K"/>remouetur cuius origo non tollitur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d52560-d1e242"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d52560-Rd1e260">Lib. 9. e 23.</ref> <quote xml:id="bHY6yh-d52560-Qd1e244">Rerum cause semper in semine 
+              <lb ed="#K"/>sunt Fructus editus perdit 
+              <lb ed="#K"/>auctores.</quote>
+            </p>
+            <p xml:id="bHY6yh-d52560-d1e252">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d52560-Rd1e275"><sic>Idorus</sic> soliloquiorum li. 2. c. 9.</ref> <quote xml:id="bHY6yh-d52560-Qd1e256">Sepe occasio pec<lb ed="#K" break="no"/>candi 
+              voluntatem facit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d52560-d1e262">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d52560-Rd1e289">Uersificator fabularum esopi. 24 fab.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d52560-Qd1e266">Cum tibi quid detur: cur detur respice.</quote>
+            </p>
+            <p xml:id="bHY6yh-d52560-d1e272">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d52560-Rd1e301">Auctor li. qui dicitur pamphilus. c. 13.</ref> <quote xml:id="bHY6yh-d52560-Qd1e276">Cum pusil<lb ed="#K" break="no"/>la 
+              nocet: sapiens nocentia 
+              <lb ed="#K"/>vitat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d52560-d1e283">
+              <ref xml:id="bHY6yh-d52560-Rd1e314">Capitulo. 19.</ref> <quote xml:id="bHY6yh-d52560-Qd1e287">Arbore de dul<lb ed="#K" break="no"/>ci 
+              dulcia poma cadunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d52560-d1e293">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d52560-Rd1e326">Capitulo. 60.</ref> <quote xml:id="bHY6yh-d52560-Qd1e297">Fructibus ipsa suis: que 
+              <lb ed="#K"/>sit cognoscitur arbor.</quote>
+            </p>
+            <p xml:id="bHY6yh-d52560-d1e303">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d52560-Rd1e338">Mattheus vindocinensis de hystoria 
+              <lb ed="#K"/>tobie. c. 31.</ref> <quote xml:id="bHY6yh-d52560-Qd1e307">Non tibi quod 
+              <lb ed="#K"/>dabitur: sed cur intellige quia
+              <lb ed="#K"/>Sola voluntatis forma mone<lb ed="#K" break="no"/>at 
+              opus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d52560-d1e315">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d52560-Rd1e353">Iacobus beneuentanus. c. 15.</ref> <quote xml:id="bHY6yh-d52560-Qd1e319">Omnis a specie 
+              <lb ed="#K"/>fructus cognoscitur arbor.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

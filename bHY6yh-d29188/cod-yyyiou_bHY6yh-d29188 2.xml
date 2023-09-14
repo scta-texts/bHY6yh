@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 6</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 6</title>
+               <date when="2023-08-08">August 8, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-08" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="39-r"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d29188"><!-- p2l3-r6 -->
+            <head xml:id="bHY6yh-d29188-Hd1e108">Rubrica 6</head>
+            <head xml:id="bHY6yh-d29188-Hd1e111" type="question-title">De vincinis propinquitate et longinquitate</head>
+            <p xml:id="bHY6yh-d29188-d1e114">
+              De uicinis propin<lb ed="#C" break="no"/>quitate 
+              et longinquitate
+            </p>
+            <!--next paragraph begins on the same line as the previous paragraph-->
+            <p xml:id="bHY6yh-d29188-d1e119">
+              <ref xml:id="bHY6yh-d29188-Rd1e115">SAlomon
+              <lb ed="#C"/>in proueriorum capitulo
+              <lb ed="#C"/>27</ref>
+            </p>
+            <p xml:id="bHY6yh-d29188-d1e124">
+              <quote xml:id="bHY6yh-d29188-Qd1e128">Melius est amicus iuxta quam frater procul</quote> 
+            </p>
+            <p xml:id="bHY6yh-d29188-d1e135">
+              ¶ <ref xml:id="bHY6yh-d29188-Rd1e133">yesus
+              <lb ed="#C"/>filius cidrach in ecclesiastico capitulo 22 25</ref> <quote xml:id="bHY6yh-d29188-Qd1e139">dilige proximum
+              <lb ed="#C"/>tuum et conuinge fidem cum illo</quote>
+            </p>
+            <p xml:id="bHY6yh-d29188-d1e157">
+              ¶ <ref xml:id="bHY6yh-d29188-Rd1e158">Oratius
+              <lb ed="#C"/>epistolarum libro I capitulo XIX</ref> <quote xml:id="bHY6yh-d29188-Qd1e161">Nam tua res agitur
+              <lb ed="#C"/>proximus cum ardet</quote>
+            </p>
+            <p xml:id="bHY6yh-d29188-d1e145">
+              ¶ <ref xml:id="bHY6yh-d29188-Rd1e144">Iuuenalis libro V
+              <lb ed="#C"/>et finale satira III et pe</ref> <quote xml:id="bHY6yh-d29188-Qd1e149">Inter finitiones uetus at<lb ed="#C" break="no"/>que 
+              antiqua simulitas Immortale odium et nunquam
+              <lb ed="#C"/>sanabile uulnus</quote>
+            </p>
+            <p xml:id="bHY6yh-d29188-d1e167">
+              ¶ <ref xml:id="bHY6yh-d29188-Rd1e170">Cassiodorus epistolarum libro I 14</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d29188-Qd1e171">peruie sunt semper iniuriis facultates ab<lb ed="#C" break="no"/>sentium</quote>
+            </p>
+            <p xml:id="bHY6yh-d29188-d1e177">
+              ¶ <ref xml:id="bHY6yh-d29188-Rd1e180">Idem libro X epistola 34 et pe</ref> <quote xml:id="bHY6yh-d29188-Qd1e179">Visorum
+              <lb ed="#C"/>semper maius est effectus dum gratissime reti<lb ed="#C" break="no"/>netur 
+              qui assiduo et suaui sermone coniun<lb ed="#C" break="no"/>gitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d29188-d1e189">
+              ¶ <ref xml:id="bHY6yh-d29188-Rd1e197">Auctor libro qui dicitur pamphilus capitulo 2</ref> <quote xml:id="bHY6yh-d29188-Qd1e193">Nam solet
+              <lb ed="#C"/>adamato plus ledere proximus ignis</quote>
+            </p>
+            <p xml:id="bHY6yh-d29188-d1e206">
+              ¶ <ref xml:id="bHY6yh-d29188-Rd1e216">Bertrandus in
+              <lb ed="#C"/>yconomica capitulo 8 vers</ref> <quote xml:id="bHY6yh-d29188-Qd1e210">Superbia contra uicinum
+              <lb ed="#C"/>balneum est expectans tonitruum cum
+              <lb ed="#C"/>sagipta</quote>
+            </p>
+            <p xml:id="bHY6yh-d29188-d1e218">
+              ¶ <ref xml:id="bHY6yh-d29188-Rd1e228">Idem 17 capitulo</ref> <quote xml:id="bHY6yh-d29188-Qd1e220">partem hereditatis
+              <lb ed="#C"/>non uendas te potentiori sed potius minori to<lb ed="#C" break="no"/>tum 
+              autem plus offerenti</quote>
+            </p>
+            <p xml:id="bHY6yh-d29188-d1e228">
+              ¶ <ref xml:id="bHY6yh-d29188-Rd1e244">Idem XIX capitulo</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d29188-Qd1e232">Nichil emas in consortio potentioris paruum
+              <lb ed="#C"/>consortem patienter sustineas ne tibi sotiet
+              <lb ed="#C"/>fortiorem</quote>
+            </p>
+            <p xml:id="bHY6yh-d29188-d1e240">
+              ¶ <ref xml:id="bHY6yh-d29188-Rd1e258">Iacobus beneuentanus capitulo XII</ref> <quote xml:id="bHY6yh-d29188-Qd1e244">dilige uici<lb ed="#C" break="no"/>nos 
+              ut sis dilectus ab illus vicino melius nil
+              <lb ed="#C"/>crede fore bono</quote>
+            </p>
+            <p xml:id="bHY6yh-d29188-d1e252">
+              ¶ <ref xml:id="bHY6yh-d29188-Rd1e272">bellinus in speculo uite parte
+              <lb ed="#C"/>I exodo 2</ref> <quote xml:id="bHY6yh-d29188-Qd1e256">Inter uicinos interdum maxima crescunt
+              <lb ed="#C"/>iurgia longinqui rarius illud habent</quote>
+            </p>
+            <p xml:id="bHY6yh-d29188-d1e264">
+              [omitted]
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
