@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 11 Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 11 [Krakow, lat 700 III Transcription]</title>
+               <date when="2023-08-27">August 27, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+                <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+          <pb ed="#K" n="115-r"/>
+          <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d52780"><!-- p3l2-r11 -->
+            <head xml:id="bHY6yh-d52780-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-d52780-Hd1e111" type="question-title">De potioritate qualitatis et quantitatis</head>
+            <p xml:id="bHY6yh-d52780-d1e114">
+              <lb ed="#K" n="59"/>De <sic>pocioritate</sic> qualitatis et quantitatis Rubrica 11
+            </p>
+            <p xml:id="bHY6yh-d52780-d1e121">
+              <lb ed="#K"/> ¶<ref xml:id="bHY6yh-d52780-Rd1e120">Exodi capitulo 23</ref> <quote xml:id="bHY6yh-d52780-Qd1e125">non <sic>sequer</sic> tur<lb ed="#K" break="no"/>bam 
+              ad faciendum malum nec in 
+              <lb ed="#K"/>iudicio plurimorum acquiesces 
+              <lb ed="#K"/>sententie vt a vero deuies</quote>
+            </p>
+            <p xml:id="bHY6yh-d52780-d1e135">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d52780-Rd1e139">Aristoteles topicorum libro 2</ref> <quote xml:id="bHY6yh-d52780-Qd1e139">nominationibus 
+              <lb ed="#K"/>quidem res nuncupanda est
+              <lb ed="#K"/>vt plures que autem res sunt 
+              <lb ed="#K"/>huiusmodi vel non huiusmodi non iam 
+              <lb ed="#K"/>attendendum pluribus</quote>
+            </p>
+            <p xml:id="bHY6yh-d52780-d1e150">
+                <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d52780-Rd1e156">Seneca epistolarum ad lucillum libro 4
+                <lb ed="#K"/>epistola 4 et fi</ref> <quote xml:id="bHY6yh-d52780-Qd1e154">Estimes iudicia 
+                <lb ed="#K"/>non numeres</quote>
+            </p>
+            <p xml:id="bHY6yh-d52780-d1e160"> 
+              <ref xml:id="bHY6yh-d52780-Rd1e167">Idem in prouerbiis</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d52780-Qd1e162">frons nostra populo conueniat</quote>
+            </p>
+            <p xml:id="bHY6yh-d52780-d1e168">
+                  <pb ed="#K" n="115-v"/>
+                  <cb ed="#K" n="a"/>
+                <lb ed="#K" n="1"/> <ref xml:id="bHY6yh-d52780-Rd1e180">Lex codi ti de vete iu enucli
+                <lb ed="#K"/>libro 2 § sed et si quis</ref> <quote xml:id="bHY6yh-d52780-Qd1e172">multo meli<lb ed="#K" break="no"/>us 
+                est pauca indonee effundere 
+                <lb ed="#K"/>quam multis inutilibus homines 
+                 <lb ed="#K"/>praegrauari</quote>
+            </p>
+            <p xml:id="bHY6yh-d52780-d1e184">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d52780-Rd1e199">Lex aucti de tabellionibus § sed nec questus</ref> <quote xml:id="bHY6yh-d52780-Qd1e188">Melius 
+              <lb ed="#K"/>est pauca agere caute quam multis 
+              <lb ed="#K"/>vite esse periculose</quote>
+            </p>
+            <p xml:id="bHY6yh-d52780-d1e196">
+               <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d52780-Rd1e214">Auctor libro de for honeste vite capitulo 2</ref> <quote xml:id="bHY6yh-d52780-Qd1e200">non quam mul <lb ed="#K" break="no"/>tis
+               sed quibus placeas cogita</quote>
+            </p>
+            <p xml:id="bHY6yh-d52780-d1e206">
+                <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d52780-Rd1e226">Cassiodorus epistolarum libro 2 epistola 12</ref> 
+                <lb ed="#K"/> <quote xml:id="bHY6yh-d52780-Qd1e210">in qualitate non in quantitate 
+                 <lb ed="#K"/>est peccatum</quote>
+            </p>
+            <p xml:id="bHY6yh-d52780-d1e217">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d52780-Rd1e239">Gregorius in pastorali capitulo 58</ref> <quote xml:id="bHY6yh-d52780-Qd1e221">admonendi sunt 
+              <lb ed="#K"/>qui quamuis in minimis tamen fre<lb ed="#K" break="no"/>quenter 
+              excedunt vt nequaquam 
+              <lb ed="#K"/>considerent qualia sed quanta 
+              <lb ed="#K"/>committant facta etenim sua si 
+              <lb ed="#K"/>despiciunt timere cum pensant 
+              <lb ed="#K"/>debent formidare cum numeratur</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

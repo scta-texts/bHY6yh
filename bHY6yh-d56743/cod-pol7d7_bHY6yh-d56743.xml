@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 7 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 7 [Krakow, lat 700 III Transcription]</title>
+               <date when="2023-09-01">September 1, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+                <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="123-v"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d56743"><!-- p3l3-r7 -->
+            <head xml:id="bHY6yh-d56743-Hd1e108">Rubrica 7</head>
+            <head xml:id="bHY6yh-d56743-Hd1e111" type="question-title">De disciplina</head>
+            <p xml:id="bHY6yh-d56743-d1e114">
+              De disciplina Rubrica. 7.
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e119">
+              <lb ed="#K" n="27"/> <ref xml:id="bHY6yh-d56743-Rd1e116">SAlomon in prouerbiis c. i.</ref> <quote xml:id="bHY6yh-d56743-Qd1e125">Audiens 
+              <lb ed="#K"/>sapiens sapientior erit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e131"> 
+             <ref xml:id="bHY6yh-d56743-Rd1e129">12. c.</ref> 
+             <lb ed="#K"/> <quote xml:id="bHY6yh-d56743-Qd1e133">Qui diligit disciplinam 
+             <lb ed="#K"/>diligit scientiam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e140">
+               <ref xml:id="bHY6yh-d56743-Rd1e142">13. c.</ref> <quote xml:id="bHY6yh-d56743-Qd1e144">Egestas 
+               <lb ed="#K"/>et ignominia ei qui deserit dis<lb ed="#K" break="no"/>ciplinam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e150"> 
+             <ref xml:id="bHY6yh-d56743-Rd1e152">17. c.</ref> <quote xml:id="bHY6yh-d56743-Qd1e152">Qui euitat 
+             <lb ed="#K"/>discere incidet in mala.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e158"> 
+              <ref xml:id="bHY6yh-d56743-Rd1e162">19. c.</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d56743-Qd1e160">Non ceses fili audire doctrinam: 
+              <lb ed="#K"/>nec ignores sermones scientie.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e166">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e174">22. c.</ref> <quote xml:id="bHY6yh-d56743-Qd1e170">Inclina aurem tuam 
+              <lb ed="#K"/>et audi verba sapientum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e176">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e186">Plato in menonen:</ref> <quote xml:id="bHY6yh-d56743-Qd1e180">Non natura 
+              <lb ed="#K"/>boni: fiunt itaque disciplina.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e186">
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e198">Isocrates. in exhortationibus. c. 3. et fi.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d56743-Qd1e190">Sicut <sic>viduimus</sic> apem in omnes 
+              <lb ed="#K"/>quidem ascendere plantulas. 
+              <lb ed="#K"/>e singulis autem optima col<lb ed="#K" break="no"/>ligentem: 
+              sic etiam pueros 
+              <lb ed="#K"/>auidos in nullo quidem inscie 
+              <lb ed="#K"/>se habere. vndique vero seria 
+              <lb ed="#K"/>legere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e203">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e219">Aristotelis ethicorum. li. i. c. 2.</ref> <quote xml:id="bHY6yh-d56743-Qd1e207">Qui neque ipsemet intel<lb ed="#K" break="no"/>ligit 
+              neque alium audiens 
+              <lb ed="#K"/>in animo ponet: hic inutilis 
+              <lb ed="#K"/>vir est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e215"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e231">Idem rethor. li.  i. c. 20.</ref> <quote xml:id="bHY6yh-d56743-Qd1e217">Addiscere et imutari 
+              <lb ed="#K"/>delectabile est vt ad multum: imm<lb ed="#K" break="no"/>itari 
+              quidem enim est concupisce<lb ed="#K" break="no"/>re 
+              addiscere quare immutabile 
+              <lb ed="#K"/>est concupiscibile addiscere 
+              <lb ed="#K"/>autem est in id quod secundum naturam 
+              <lb ed="#K"/>consistit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e236">
+               / <ref xml:id="bHY6yh-d56743-Rd1e257">Li. 3. et f. c. 11.</ref> <quote xml:id="bHY6yh-d56743-Qd1e240">A<lb ed="#K" break="no"/>discere 
+               quod facile delectabi<lb ed="#K" break="no"/>le 
+               natura omnibus est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e246"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e267">Idem politicorum. lib. 5. c. 9. et fi.</ref> <quote xml:id="bHY6yh-d56743-Qd1e248">Contin<lb ed="#K" break="no"/>git 
+              esse aliquos quos dis<lb ed="#K" break="no"/>ciplinari 
+              et fieri studiosos vi<lb ed="#K" break="no"/>ros 
+              impossibile est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e258"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e282">Idem probleumatum. partur. 19.</ref>  <quote xml:id="bHY6yh-d56743-Qd1e260">Delecta<lb ed="#K" break="no"/>bile 
+              est discere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e266"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e292">Idem elencorum libro. i.</ref> <quote xml:id="bHY6yh-d56743-Qd1e268">Oportet credere 
+              <lb ed="#K"/>eum qui addiscit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e275">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e306">Iesus filius <sic>firach.</sic> in ecclesiast. c. 6.</ref> <quote xml:id="bHY6yh-d56743-Qd1e279">Si inclinaueris 
+              <lb ed="#K"/>aurem tuam excipe doctrinam 
+              <lb ed="#K"/>et si dilexeris audire sapiens eris.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e287"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e321">18. c.</ref> <quote xml:id="bHY6yh-d56743-Qd1e289">Antequam loquaris disce.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e295">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e333">Oratius in poetria:</ref> <quote xml:id="bHY6yh-d56743-Qd1e299">Cur nes<lb ed="#K" break="no"/>cire 
+              pudens praue quam discere 
+              <lb ed="#K"/>malo</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e305">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e345">Tullius retho. artis veteris. li. i. 9. c.</ref> <quote xml:id="bHY6yh-d56743-Qd1e309">His maxime 
+              <lb ed="#K"/>docilis est qui attentissime 
+              <lb ed="#K"/>est paratus audire.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e317"> 
+                <pb ed="#K" n="124-r"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/> <ref xml:id="bHY6yh-d56743-Rd1e357">Idem rethor. artis noue. li i. c. 4.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d56743-Qd1e319">Docilis qui attente vult audire.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e325"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e368">Li 3 c. 9.</ref> <quote xml:id="bHY6yh-d56743-Qd1e327">Ingenii bonitas imi<lb ed="#K" break="no"/>tatur 
+              sepe doctrinam</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e336"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e382">Idem de oratore li. i.</ref> <quote xml:id="bHY6yh-d56743-Qd1e338">Non est omnino ars
+              <lb ed="#K"/>vlla in qua omnia que 
+              <lb ed="#K"/>illa arte effici possunt a doctore tradantur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e346"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e394">Idem tusculanarum questionum. li. 4.</ref> <quote xml:id="bHY6yh-d56743-Qd1e348">Audienti disci<lb ed="#K" break="no"/>pulo 
+              intento opus est animo 
+              <lb ed="#K"/>ne omnia dilabantur si vnum 
+              <lb ed="#K"/>aliquod aufugiat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e358"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e409">Idem de natura deorum li. i.</ref> <quote xml:id="bHY6yh-d56743-Qd1e360">Obest plerum<lb ed="#K" break="no"/>que 
+              his qui discere volunt 
+              <lb ed="#K"/>auctoritates eorum qui se docere 
+              <lb ed="#K"/>profitentur deserunt enim suu 
+              <lb ed="#K"/>iudicium adhibere et habent 
+              <lb ed="#K"/>ratum: quod ab eo quod 
+              <lb ed="#K"/>probat iudicatum vident.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e372">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e428">Seneca epistolarum ad lucillum. li. 
+              <lb ed="#K"/>i. c. 2.</ref> <quote xml:id="bHY6yh-d56743-Qd1e376">Distrahit librorum 
+              <lb ed="#K"/>multitudo. Itaque cum le<lb ed="#K" break="no"/>gere 
+              non possis quantum habueris 
+              <lb ed="#K"/>satis est habere quantum legas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e386"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e442">3. c.</ref> <quote xml:id="bHY6yh-d56743-Qd1e388">Plus tibi et viua vox 
+              <lb ed="#K"/>et conuinctus quam oratio proderit
+              <lb ed="#K"/>Homines amplius oculis quam 
+              <lb ed="#K"/>auribus credunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e398"> 
+              <ref xml:id="bHY6yh-d56743-Rd1e456">Libro. 3. c. 3.</ref> <quote xml:id="bHY6yh-d56743-Qd1e400">Si 
+              <lb ed="#K"/>vis vacare animo vt pau<lb ed="#K" break="no"/>per 
+              sis oportet: aut pauperi 
+              <lb ed="#K"/>similis: non potest studium salu<lb ed="#K" break="no"/>tare 
+              fieri sine fragilitatis 
+              <lb ed="#K"/>cura. fragilitas autem pau<lb ed="#K" break="no"/>pertas 
+              voluntaria est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e413"> 
+             <ref xml:id="bHY6yh-d56743-Rd1e473">Lib. 6. 
+              <lb ed="#K"/>c. 3.</ref> <quote xml:id="bHY6yh-d56743-Qd1e415">Lectio certa prodest varia 
+              <lb ed="#K"/>delectat. Que dementia est 
+              <lb ed="#K"/>superuacua discere in tanta temporis 
+              <lb ed="#K"/>egestate.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e423"> 
+              <ref xml:id="bHY6yh-d56743-Rd1e485">7 c. et fi.</ref> <quote xml:id="bHY6yh-d56743-Qd1e425">Dociles 
+              <lb ed="#K"/>natura nos edidit et rationem 
+              <lb ed="#K"/>dedit imperfectam sed que 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>profici posset.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e437">
+              <ref xml:id="bHY6yh-d56743-Rd1e504">Li. 11. c. 2.</ref> <quote xml:id="bHY6yh-d56743-Qd1e441">Apes 
+              <lb ed="#K"/>debemus imitari: que vagantur 
+              <lb ed="#K"/>et flores ad mel faciendum 
+              <lb ed="#K"/>idoneos carpunt. deinde quicquid 
+              <lb ed="#K"/>attulere disponunt ac per fauos 
+              <lb ed="#K"/>dirigunt. Nos quoque debemus qua<lb ed="#K" break="no"/>cunque 
+              ex diuersa lectione conges<lb ed="#K" break="no"/>simus 
+              separare. Melius enim dis<lb ed="#K" break="no"/>tincta 
+              seruantur deinde adhibita 
+              <lb ed="#K"/>ingenii nostri cura et facultate 
+              <lb ed="#K"/>in vnum saporem varia ista 
+              <lb ed="#K"/>libamenta confundere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e462"> 
+              <ref xml:id="bHY6yh-d56743-Rd1e529">Li. 15. c. i.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d56743-Qd1e464">Facilius per partes in cognitionem 
+              <lb ed="#K"/>totius adducimur Quicquid 
+              <lb ed="#K"/>in maius creuit <sic>sacilius</sic> ig<lb ed="#K" break="no"/>noscitur. 
+              si discessit in partes 
+              <lb ed="#K"/>quas innumerabiles esse et paulu<lb ed="#K" break="no"/>las 
+              non oportet. Idem enim 
+              <lb ed="#K"/>vicium habet nimia quod nulla 
+              <lb ed="#K"/>diuisio simile confuso est quicquid 
+              <lb ed="#K"/>in puluerem sectum est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e481">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e554">Idem declama. li. 4. in prohemio.</ref> <quote xml:id="bHY6yh-d56743-Qd1e485">Accutior est 
+              <lb ed="#K"/>cupiditas ignota cognoscendi 
+              <lb ed="#K"/>quod nota repetendi:</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e564">
+             <ref xml:id="bHY6yh-d56743-Rd1e566">Idem de 
+             <lb ed="#K"/>ira. li. 2.</ref> <quote xml:id="bHY6yh-d56743-Qd1e568">Nihil est difficile 
+             <lb ed="#K"/>et arduum quod non humana 
+             <lb ed="#K"/>mens vincat et in familiaritatem 
+             <lb ed="#K"/>perducat assidua meditatio.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e499"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e581">Idem de tranquillitate animi:</ref> <quote xml:id="bHY6yh-d56743-Qd1e501">Puto 
+              <lb ed="#K"/>multos potuisse ad sapientiam  
+              <lb ed="#K"/>peruenire: nisi putassent 
+              <lb ed="#K"/>se peruenisse. Onerat discente 
+              <lb ed="#K"/>turba librorum non instituit: 
+              <lb ed="#K"/>multo que satius est paucis 
+              <lb ed="#K"/>te auctoribus tradere quam errare 
+              <lb ed="#K"/>per multos.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e516">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e601">Iuuenalis. li. 5. et fi. saty. 2.</ref> <quote xml:id="bHY6yh-d56743-Qd1e520">Dociles imitandis: 
+              <lb ed="#K"/>turpibus ac prauis omnes sumus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e637">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e641">Ualerius maximus li. 4. ti. de studio 
+              <lb ed="#K"/>et industria.</ref> <quote xml:id="bHY6yh-d56743-Qd1e646">Democritus
+                  <pb ed="#K" n="124-v"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>cum diuitiis censeri posset que 
+              <lb ed="#K"/>tante fuerunt vt pater eius 
+              <lb ed="#K"/>xersis exercitui exemplum dare ex 
+              <lb ed="#K"/>facili potuerit quo magis 
+              <lb ed="#K"/>vacuo animo studiis litterarum
+              <lb ed="#K"/>esset operatus parua admodum 
+              <lb ed="#K"/>summa retenta: patrimonium suum 
+              <lb ed="#K"/>patrie donauit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e526">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e613">Lex dige. ti. de fideicommissa libertatibus. l. apud iu<lb ed="#K" break="no"/>lianum.</ref> 
+              <quote xml:id="bHY6yh-d56743-Qd1e530">Cupiditas discendi est 
+              <lb ed="#K"/>optima ratio viuendi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e538"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e626">Lex cod. li. 10 ti. de excusatur. artificium. 
+              <lb ed="#K"/>l. ii.</ref> <quote xml:id="bHY6yh-d56743-Qd1e540">In addipiscendis artibus 
+              <lb ed="#K"/>ocium est accommodandum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e565">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e667">Auctor libro de for. honeste vite. c. 4.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d56743-Qd1e569">Docentium esto tacitus auditor. 
+              <lb ed="#K"/>Sapientie cupidus esto et docilis 
+              <lb ed="#K"/>Que nescis sine occultatione 
+              <lb ed="#K"/>ignorantie tibi postula impertiri.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e586">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e691">Ambrosius de officiis li. i. c. 17.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d56743-Qd1e590">Que deectat audire alterum 
+              <lb ed="#K"/>loqui prouocat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e596">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e703">Macrobius de somno Scipionis lib. i</ref> <quote xml:id="bHY6yh-d56743-Qd1e600">Fa<lb ed="#K" break="no"/>cilior 
+              ad intellectum per oculos 
+              <lb ed="#K"/>via est quam per sermonem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e609"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e715">Lib. 2.</ref> <quote xml:id="bHY6yh-d56743-Qd1e611">Anime facilius illabitur 
+              <lb ed="#K"/>concepta ratio descriptione quam ser<lb ed="#K" break="no"/>mone.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e619"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e727">Idem saturnaliorum. lib. 2. c. 18 exauctor libierii.</ref> <quote xml:id="bHY6yh-d56743-Qd1e621">Nimium al<lb ed="#K" break="no"/>tercando 
+               veritas amittitur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e629">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e742">Cato <sic>capitolo.</sic> 4.</ref> <quote xml:id="bHY6yh-d56743-Qd1e633">Instrue doctrinis 
+              <lb ed="#K"/>animum ne discere cesses. Nam 
+              <lb ed="#K"/>sine doctrina vita est quasi morti 
+              <lb ed="#K"/>imago.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e641"> 
+              <ref xml:id="bHY6yh-d56743-Rd1e757">Capitulo. 5. et fi.</ref> <quote xml:id="bHY6yh-d56743-Qd1e643">Disce aliquid. 
+              <lb ed="#K"/>nam cum subito fortuna recedit. 
+              <lb ed="#K"/>Ars remanet vitamque hominis 
+              <lb ed="#K"/>non deserit vnquam. Disce sed 
+              <lb ed="#K"/>a doctis indoctos ipse doceto. 
+              <lb ed="#K"/>Propaganda et enim est rerum
+              <lb ed="#K"/>doctrina bonarum. Ne pudeat 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>que nescieris te velle doceri. 
+              <lb ed="#K"/>   <!--missing text-->
+              <lb ed="#K"/>       Cum tibi con<lb ed="#K" break="no"/>tigerit 
+              studio cognoscere mul<lb ed="#K" break="no"/>ta. 
+              Fac discas multa: et vi<lb ed="#K" break="no"/>ta 
+              nescire doceri.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e664">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e785">Boetius. li. diuisionum:</ref> <quote xml:id="bHY6yh-d56743-Qd1e668">Quis non videat 
+              <lb ed="#K"/>plurimum ad bonarum artium effectum 
+              <lb ed="#K"/>valere: si apud mentes hominum 
+              <lb ed="#K"/>nunquam sit desperatio discendi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e678"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e799">Idem de disciplina scholarium. lib. 3.</ref> <quote xml:id="bHY6yh-d56743-Qd1e680">No<lb ed="#K" break="no"/>uerca 
+              est discipline egestas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e689">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e814">Cassiodorus epistolarum. li. 3. c. 11.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d56743-Qd1e693">Indocilis est animi ad vitia 
+              <lb ed="#K"/>trahi. Edificator liberis locum 
+              <lb ed="#K"/>non relinquit iniuriis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e701"> 
+              <ref xml:id="bHY6yh-d56743-Rd1e826">Li. 6.
+              <lb ed="#K"/>c. 19.</ref> <quote xml:id="bHY6yh-d56743-Qd1e703">Ille magis studiosus 
+              <lb ed="#K"/>agnoscitur qui cautior fre<lb ed="#K" break="no"/>quenti 
+              interrogatione monstratur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e713"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e841">Lib. 8. c. 9.</ref> <quote xml:id="bHY6yh-d56743-Qd1e715">Magna est in<lb ed="#K" break="no"/>sinitaque 
+              prudentia quam nemo 
+              <lb ed="#K"/>sic assequitur vt eam non 
+              <lb ed="#K"/>necessario et per alios querere 
+              <lb ed="#K"/>videatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e723"> 
+              <ref xml:id="bHY6yh-d56743-Rd1e853">Li 10. c. 4.</ref> <quote xml:id="bHY6yh-d56743-Qd1e725">Sapientiam 
+              <lb ed="#K"/>ille querit in altero penes 
+              <lb ed="#K"/>quem est scientie magnitudo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e733">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e869"><sic>Isydorus</sic> in synonima soliloquiorum li. 
+              <lb ed="#K"/>2 c. 41.</ref> <quote xml:id="bHY6yh-d56743-Qd1e737">Excellentior sit natura 
+              <lb ed="#K"/>doctrina.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e743">
+              <ref xml:id="bHY6yh-d56743-Rd1e883">42 c.</ref> <quote xml:id="bHY6yh-d56743-Qd1e747">Quod deesse 
+              <lb ed="#K"/>tibi scientie sentis querere ab 
+              <lb ed="#K"/>aliis. Collatione operta. clares<lb ed="#K" break="no"/>cunt. 
+              Conferendo difficilima 
+              <lb ed="#K"/>aperiuntur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e756">
+              <ref xml:id="bHY6yh-d56743-Rd1e897">Auctor libro qui dicitur facetus. c. 3.</ref> <quote xml:id="bHY6yh-d56743-Qd1e760">Scire quidem 
+              <lb ed="#K"/>frustra contendit 
+              <lb ed="#K"/>quisque quod horret Quod 
+              <lb ed="#K"/>natura negat discere nemo 
+              <lb ed="#K"/>potest.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e772">
+              <ref xml:id="bHY6yh-d56743-Rd1e915">Capitulo. 4.</ref> <quote xml:id="bHY6yh-d56743-Qd1e776">Ad loca prudentum 
+              <lb ed="#K"/>tendat vestigia semper. 
+              <lb ed="#K"/>Et notet attente queque 
+              <lb ed="#K"/>probantur ibi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e784">
+                  <pb ed="#K" n="125-r"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/> <ref xml:id="bHY6yh-d56743-Rd1e929">Auctor rudium doctrine libro. primo:</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d56743-Qd1e788">Queras que sunt ignota fre<lb ed="#K" break="no"/>quenter
+              A quocunque vides po<lb ed="#K" break="no"/>sse 
+              satisfieri Prudentis mox 
+              <lb ed="#K"/>est varias inquirere causas 
+              <lb ed="#K"/>Ut valeat animum certificare 
+              <lb ed="#K"/>suum Et quanto potior tanto 
+              <lb ed="#K"/>prudentior extat A quocumque 
+              <lb ed="#K"/>potest discere si studeat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e805">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e951">Ugo de sancto victore in compendio 
+              <lb ed="#K"/>philosophie in prohemio.</ref> <quote xml:id="bHY6yh-d56743-Qd1e809">Quidam bo<lb ed="#K" break="no"/>nitate <sic>
+               igenii</sic> freti parua 
+               <lb ed="#K"/>quidem contennunt: eoque am<lb ed="#K" break="no"/>plius 
+               in maximis veritat<lb ed="#K" break="no"/>ibus 
+               lumen amittunt. Ne maiorum 
+               <lb ed="#K"/>fructum perdamus in nostro stu<lb ed="#K" break="no"/>dio 
+               minora ne contemnamus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e823">
+            <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e976">Lib. 3. c. 4.</ref> <quote xml:id="bHY6yh-d56743-Qd1e827">Principium a magistro: 
+            <lb ed="#K"/>sed per fectio ab ingenio et 
+            <lb ed="#K"/>exerciratione esse debet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e835">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e990">Auctor libro qui incipit 
+              <lb ed="#K"/>astrolabi:</ref> <quote xml:id="bHY6yh-d56743-Qd1e839">Maior discendi 
+              <lb ed="#K"/>tibi sit quam cura docendi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e846">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e1002">Prouerb. metricum. extraord. l. vag.</ref> <quote xml:id="bHY6yh-d56743-Qd1e850">Uir
+              <lb ed="#K"/>sine doctrina vix manet 
+              <lb ed="#K"/>absque ruina.</quote>
+            </p>
+            <p xml:id="bHY6yh-d56743-d1e856">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d56743-Rd1e1014">Prouerb. vulg.</ref> <quote xml:id="bHY6yh-d56743-Qd1e860">El seno no sen para chi
+              <lb ed="#K"/>nol compra.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

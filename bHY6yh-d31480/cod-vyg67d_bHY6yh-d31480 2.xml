@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 11</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 11</title>
+               <date when="2023-08-04">August 4, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-04" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#O" n="71-r"/>
+           <cb ed="#O" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d31480"><!-- p2l3-r11 -->
+            <head xml:id="bHY6yh-d31480-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-d31480-Hd1e111" type="question-title">De acquirendis amicis</head>
+            <p xml:id="bHY6yh-d31480-d1e114">
+               De acqu<lb ed="#O" break="no"/>rendis 
+               amicis. Rubrica. 11
+            </p>
+            <p xml:id="bHY6yh-d31480-d1e119">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d31480-Rd1e119">Isocrates in exhortationibus. capitulo 2.</ref> ¶ <quote xml:id="bHY6yh-d31480-Qd1e127">Ne<lb ed="#O" break="no"/>minem 
+               amicum concilies prius<lb ed="#O" break="no"/>quam
+               perttenes quo pacto se 
+               <lb ed="#O"/>gesserit erga priscos amicos 
+               <lb ed="#O"/>credas enim etiam erga te
+               <lb ed="#O"/>huiusmodi futurum cuiusmodi 
+               <lb ed="#O"/>erga illos fuit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31480-d1e137">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d31480-Rd1e140">SEneca epistolarum <!--line bumps up--> ad lucillum libro 1. e. <!--line bumps back down--> 3.</ref> ¶ <quote xml:id="bHY6yh-d31480-Qd1e141">Omnia cum
+               <lb ed="#O"/>amico delibera. </quote>
+            </p>
+            <p xml:id="bHY6yh-d31480-d1e148">
+               <ref xml:id="bHY6yh-d31480-Rd1e151"> <!--ref is prior paragraph--> </ref> <quote xml:id="bHY6yh-d31480-Qd1e150">Sed cum queras
+               <lb ed="#O"/>ubi inuenias quere inter li<lb ed="#O" break="no"/>berales 
+               artes inter recta et hone<lb ed="#O" break="no"/>sta 
+               officia quere in laboribus ad 
+               <lb ed="#O"/>mensam ista res non queritur 
+               <lb ed="#O"/>quere aliquem frugi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31480-d1e162">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d31480-Rd1e170">LUcanus libro 8.</ref> <quote xml:id="bHY6yh-d31480-Qd1e166">Co<!--line bumps up-->le felices <!--line bumps back down--> miseros fu<lb ed="#O" break="no"/>ge.
+               Aduersis non deesse de<lb ed="#O" break="no"/>cet 
+               sed leta secutos. ¶ Nulla fides 
+               <lb ed="#O"/>unquam miseros eligit amicos.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31480-d1e174">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d31480-Rd1e184">MArcialis cocus li. undique 
+               <lb ed="#O"/>sus. capitulo 3.</ref> ¶ <quote xml:id="bHY6yh-d31480-Qd1e178">Sepe diuque suo 
+               <lb ed="#O"/>quem dignum censet amorem
+               <lb ed="#O"/>Pertractat sapiens sic amat ex 
+               <lb ed="#O"/>habitu. ¶ Ante quaem ames <sic>crisippe</sic> 
+               proba sed amare probatum 
+               <lb ed="#O"/>Cura totoque illum pectore su<lb ed="#O" break="no"/>scipias.</quote>
+            </p>
+            <p xml:id="bHY6yh-d31480-d1e190">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d31480-Rd1e201">CAto. <!--line bumps up--> capitulo 5. et fi.</ref> ¶ <quote xml:id="bHY6yh-d31480-Qd1e194">Cum tibi uel <!--line bumps back down--> socium uel fidum queris 
+               <pb ed="#O" n="72-v"/>
+               <cb ed="#O" n="a"/>
+               <lb ed="#O"/>amicum. Non tibi fortuna est hominis 
+               <lb ed="#O"/>sed uita petenda.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

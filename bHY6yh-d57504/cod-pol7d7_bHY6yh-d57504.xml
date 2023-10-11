@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 8 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 8 [Krakow, lat 700 III Transcription]</title>
+               <date when="2023-09-02">September 2, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="125-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d57504"><!-- p3l3-r8 -->
+            <head xml:id="bHY6yh-d57504-Hd1e108">Rubrica 8</head>
+            <head xml:id="bHY6yh-d57504-Hd1e111" type="question-title">De etate acceptabili discipline</head>
+            <p xml:id="bHY6yh-d57504-d1e114">
+              De etate accep<lb ed="#K" break="no"/>tabili 
+              discipline. Rubrica. 8. 
+            </p>
+            <p xml:id="bHY6yh-d57504-d1e121">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d57504-Rd1e118">SAlomon in prouerbiis e. 22.</ref> <quote xml:id="bHY6yh-d57504-Qd1e127">Adolele<lb ed="#K" break="no"/>scens 
+              iuxta viami suam etiam 
+              <lb ed="#K"/>cum senuerit non recedet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d57504-d1e135">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d57504-Rd1e135">Iesus filius sirach. in ecclesiast. c. 6.</ref> <quote xml:id="bHY6yh-d57504-Qd1e139">A 
+              <lb ed="#K"/>iuuentute tua excipe doc<lb ed="#K" break="no"/>trinam 
+              et vsque ad canos in<lb ed="#K" break="no"/>uenies 
+              sapientiam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d57504-d1e148">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d57504-Rd1e150">Oratius in epistolis lib. i. c. 2.</ref> <quote xml:id="bHY6yh-d57504-Qd1e152">Nunc ad<lb ed="#K" break="no"/>hibe 
+              puro Pectore verba 
+              <lb ed="#K"/>puer: nunc te melioribus 
+              <lb ed="#K"/>offer. Quo semel est 
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>imbuta recens seruabit odorem 
+              <lb ed="#K"/>Testa diu.</quote>
+            </p>
+            <p xml:id="bHY6yh-d57504-d1e162">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d57504-Rd1e166">Seneca epistolarum ad lucillum. lib. 10 c. 3.</ref> <quote xml:id="bHY6yh-d57504-Qd1e166">Quid stultius 
+              <lb ed="#K"/>quam que diu non didiceris non 
+              <lb ed="#K"/>discere. Tandium discendum est quan<lb ed="#K" break="no"/>diu
+              nescias. Si prouerbio credimus 
+              <lb ed="#K"/>quandiu viuas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d57504-d1e178"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d57504-Rd1e183">Idem de consolatione ad helbiam matrem.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d57504-Qd1e180">Altius precepta descendunt que 
+              <lb ed="#K"/>teneris imprimunt annis.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d57504-d1e194">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d57504-Rd1e204">Ualerius maximus. li. 4. ti. de stu<lb ed="#K" break="no"/>dio 
+              et industria:</ref> <quote xml:id="bHY6yh-d57504-Qd1e198">Cato sextum 
+              <lb ed="#K"/>et octogessimum annum agens grecis 
+              <lb ed="#K"/>litteris erudiri concupiuit. Quam 
+              <lb ed="#K"/>sero inde estimemus: quod etiam 
+              <lb ed="#K"/>latinas pene iam senex 
+              <lb ed="#K"/>didicit. Socratem constat etate 
+              <lb ed="#K"/>prouectum fidibus tractandis 
+              <lb ed="#K"/>operam dare cepisse. Satius 
+              <lb ed="#K"/>iudicantem eius artis vsum 
+              <lb ed="#K"/>sero quam numquam percipere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d57504-d1e217">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d57504-Rd1e230">Lex digest. titu. de fideicommis. liber. 
+              <lb ed="#K"/>l apud iulianum:</ref> <quote xml:id="bHY6yh-d57504-Qd1e221">Iulianus 
+              <lb ed="#K"/>dixisse fertur: etsi alterum 
+              <lb ed="#K"/>pedem in sepulchro haberem 
+              <lb ed="#K"/>discere quid vellem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d57504-d1e231">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d57504-Rd1e247">Uegecius de re militari. li. i. ti. 8.</ref> <quote xml:id="bHY6yh-d57504-Qd1e235">Non 
+              <lb ed="#K"/>tantum celerius: sed perfectius im<lb ed="#K" break="no"/>buuntur 
+              que discuntur a pueris.</quote>
+            </p>
+            <p xml:id="bHY6yh-d57504-d1e244">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d57504-Rd1e262">Cassiodorus epistolarum lib. 3. c. 11.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d57504-Qd1e248">In teneris annis acquiritur 
+              <lb ed="#K"/>quod matura etate seruatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d57504-d1e256">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d57504-Rd1e276">Iacobus beneuentanus. c. 49.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d57504-Qd1e260">Discere fac artem puerili tempore 
+              <lb ed="#K"/>natos: Tunc valet ingenium discere 
+              <lb ed="#K"/>cuncta bene: Nam postquam mol<lb ed="#K" break="no"/>lis 
+              etas pertransit: ineptum 
+              <lb ed="#K"/>Redditur et durum quodlibet inge<lb ed="#K" break="no"/>nium.</quote>
+            </p>
+            <p xml:id="bHY6yh-d57504-d1e272">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d57504-Rd1e294">Prouerb. metricum. extraord. l. vag.</ref> <quote xml:id="bHY6yh-d57504-Qd1e276">Quod noua testa capit 
+              <lb ed="#K"/>inueterata sapit Qui non 
+                <pb ed="#K" n="125-v"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>assuescit virtuti dum iuuenescit 
+              <lb ed="#K"/>A viciis nescit discedere quando 
+              <lb ed="#K"/>senescit Disce puer dum tempus 
+              <lb ed="#K"/>habes dum sufficit etas Tempora 
+              <lb ed="#K"/>labuntur more fluentis aque.</quote>
+            </p>
+            <p xml:id="bHY6yh-d57504-d1e290">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d57504-Rd1e314">Prouerb. vulga.</ref>  <quote xml:id="bHY6yh-d57504-Qd1e294">A caual 
+              <lb ed="#K"/>vcio no ensegnare amblare.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
