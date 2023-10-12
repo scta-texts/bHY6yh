@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10</title>
+               <date when="2023-10-12">October 12, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="98-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d58142"><!-- p3l3-r10 -->
+            <head xml:id="bHY6yh-d58142-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-d58142-Hd1e111" type="question-title">De inuestigatione seu indagatione et inuentione</head>
+            <p xml:id="bHY6yh-d58142-d1e114">
+              De inuestigia 
+              <lb ed="#B"/>seu indagatione et inuen<!--line jumps down-->tione Rubrica 10
+            </p>
+            <p xml:id="bHY6yh-d58142-d1e121">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d58142-Rd1e118">ARistotelis methaph 
+              <lb ed="#B"/>libro 3 capitulo I</ref> <quote xml:id="bHY6yh-d58142-Qd1e127">Inest inuestigare 
+              <lb ed="#B"/>uolentibus pre opere bene du<lb ed="#B" break="no"/>bitate</quote>
+            </p>
+            <p xml:id="bHY6yh-d58142-d1e133"> 
+              ¶ <ref xml:id="bHY6yh-d58142-Rd1e130">Idem elencorum libro 2 et finale in 
+              <lb ed="#B"/>fine</ref> <quote xml:id="bHY6yh-d58142-Qd1e135">Inuento facile est addere</quote>
+            </p>
+            <p xml:id="bHY6yh-d58142-d1e144"> 
+              <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d58142-Rd1e144">Idem ethicorum libro I capitulo I</ref> <quote xml:id="bHY6yh-d58142-Qd1e146">disciplinati
+              <lb ed="#B"/>est in tantum certitudinem in quirere 
+              <lb ed="#B"/>secundum vnusquoque genus inquantum naturam rei 
+              <lb ed="#B"/>recipit</quote>
+            </p>
+            <p xml:id="bHY6yh-d58142-d1e154"> 
+              ¶ <ref xml:id="bHY6yh-d58142-Rd1e156">capitulo 4</ref> <quote xml:id="bHY6yh-d58142-Qd1e156">Certitudinem non 
+              <lb ed="#B"/>oportem in omnibus similiter exquirere sed
+              <lb ed="#B"/>in singulis secundum subiectam materiam et 
+              <lb ed="#B"/>in tantum in quantum est proprium doctrine</quote>
+            </p>
+            <p xml:id="bHY6yh-d58142-d1e166"> 
+              <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d58142-Rd1e170">libro 3 capitulo 5</ref> <quote xml:id="bHY6yh-d58142-Qd1e168">Studiosus singula iu<lb ed="#B" break="no"/>dicat 
+              recte et in singulis verum ei 
+              <lb ed="#B"/>apparet</quote>
+            </p>
+            <p xml:id="bHY6yh-d58142-d1e176">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d58142-Rd1e184">IEsus<!--line jumps up--> filius syrach in ecclesiastico capitulo 6</ref><!--line jumps down--> <quote xml:id="bHY6yh-d58142-Qd1e180">In uestiga sapientiam et ma<lb ed="#B" break="no"/>nifestabitur 
+              tibi</quote>
+            </p>
+            <p xml:id="bHY6yh-d58142-d1e186">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d58142-Rd1e196">TErentius in heauton<!--line jumps up--> capitulo 13</ref> <quote xml:id="bHY6yh-d58142-Qd1e190">Nich<!--line jumps down-->il tam fa<lb ed="#B" break="no"/>cile 
+              est quin querendo inuesti<!--line jumps down-->gari possit</quote>
+            </p>
+            <p xml:id="bHY6yh-d58142-d1e196">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d58142-Rd1e208">Tvllius de oratore 
+              <lb ed="#B"/>libro 3 et finale</ref> <quote xml:id="bHY6yh-d58142-Qd1e200">Non est tanta in 
+              <lb ed="#B"/>rebus obscuritas ut eam non 
+              <lb ed="#B"/>penitus acri vir ingenio cernat. 
+              <lb ed="#B"/>si modo aspexerit</quote>
+            </p>
+            <p xml:id="bHY6yh-d58142-d1e209"> 
+              ¶ <ref xml:id="bHY6yh-d58142-Rd1e221">Idem hortensio 
+              <lb ed="#B"/>circa finem</ref> <quote xml:id="bHY6yh-d58142-Qd1e211">Indagatio rerum tum max<lb ed="#B" break="no"/>imarum 
+              tum etiam occultissiarum habet 
+              <lb ed="#B"/>oblectationem</quote>
+            </p>
+            <p xml:id="bHY6yh-d58142-d1e219">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d58142-Rd1e236">SEncea<!--line jumps up--> epistolarum ad lucillum libro<!--line jumps down--> 4 epistola 8 et finem</ref> <quote xml:id="bHY6yh-d58142-Qd1e223">Nemo 
+              <lb ed="#B"/>potest fieri ut non aliquando suc<lb ed="#B" break="no"/>cedant 
+              multa temptanti</quote>
+            </p>
+            <p xml:id="bHY6yh-d58142-d1e231"> 
+              / <ref xml:id="bHY6yh-d58142-Rd1e248">libro 5 epistola 4</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d58142-Qd1e233">patet omnibus veritas nondum est 
+              <lb ed="#B"/>occupata ¶ Multum etiam ex illa 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>futuris relictum est</quote>
+            </p>
+            <p xml:id="bHY6yh-d58142-d1e241"> 
+              ¶ <ref xml:id="bHY6yh-d58142-Rd1e260">Idem declamatione 
+              <lb ed="#B"/>seu ciuilis causarum libro I in prohemio</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d58142-Qd1e243">Sepe quod quaerenti non comparu<lb ed="#B" break="no"/>erat 
+              aliud agenti presto est</quote>
+            </p>
+            <p xml:id="bHY6yh-d58142-d1e257">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d58142-Rd1e281">MAcrobius saturnaliorum libro 
+              <lb ed="#B"/>2 capitulo 18 ex<unclear>auercte</unclear> liberii</ref> <quote xml:id="bHY6yh-d58142-Qd1e261">Ni<lb ed="#B" break="no"/>mium 
+              altercando verita amittitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d58142-d1e269">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d58142-Rd1e296">BOetius de disciplina scolari<lb ed="#B" break="no"/>um 
+              libro 3</ref> <quote xml:id="bHY6yh-d58142-Qd1e273">facilius diserendo ple<lb ed="#B" break="no"/>rumque 
+              difficultatis scintillula re<lb ed="#B" break="no"/>peritur 
+              quam si studii obseruatione 
+              <lb ed="#B"/>committeretur</quote>
+            </p>
+            <p xml:id="bHY6yh-d58142-d1e284">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d58142-Rd1e313">CAssiodo<!--line jumps up-->rus epistolarum libro I epistola<!--line jumps down--> 9</ref> <quote xml:id="bHY6yh-d58142-Qd1e288">fidem siquidem 
+              <lb ed="#B"/>rerum a ratione colligimus que
+              <lb ed="#B"/>nunquam desiderantibus absconditur 
+              <lb ed="#B"/>si suis uestigiis perquiratur</quote>
+            </p>
+            <p xml:id="bHY6yh-d58142-d1e298">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d58142-Rd1e329">GAufredus in poetria capitulo 106</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d58142-Qd1e302">Speculatio prima non bene 
+              <lb ed="#B"/>discernit nec plene</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
