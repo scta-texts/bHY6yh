@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 6</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 6</title>
+               <date when="2023-10-13">October 13, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-13" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="100-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d59392"><!-- p3l4-r6 -->
+            <head xml:id="bHY6yh-d59392-Hd1e108">Rubrica 6</head>
+            <head xml:id="bHY6yh-d59392-Hd1e111" type="question-title">De exercitio et vsu exercitii</head>
+            <p xml:id="bHY6yh-d59392-d1e114">
+              <lb ed="#B"/>De exercitio et vsu<!--line jumps down--> exercitii Rubrica 6
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e119">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59392-Rd1e116">ARistotiles 
+              <lb ed="#B"/>ethycorum libro 2 capitulo 1</ref> <quote xml:id="bHY6yh-d59392-Qd1e125">Que oportet 
+              <lb ed="#B"/>discentes facere hoc facientes 
+              <lb ed="#B"/>discimus ¶ Ex similibus operationibus 
+              <lb ed="#B"/>habitus fiunt</quote> 
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e135"> 
+              ¶ <ref xml:id="bHY6yh-d59392-Rd1e133">libro 3 capitulo 6</ref> <quote xml:id="bHY6yh-d59392-Qd1e137">Ex operari 
+              <lb ed="#B"/>circa singula habitus fiunt pene 
+              <lb ed="#B"/>insensibiles</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e144">
+              ¶ <ref xml:id="bHY6yh-d59392-Rd1e146">Idem thopicorum libro 5</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d59392-Qd1e148">omne obscurum est quod in consuetum</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e154">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59392-Rd1e158">Tvlius rethoricorum artis noue libro 3 
+              <lb ed="#B"/>capitulo 13</ref> <quote xml:id="bHY6yh-d59392-Qd1e158">pricipia ab ingenio per<lb ed="#B" break="no"/>fecta 
+              sunt et exercitiis disciplina 
+              <lb ed="#B"/>comparatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e166"> 
+              ¶ <ref xml:id="bHY6yh-d59392-Rd1e170">13 capitulo et finem</ref> ¶ <quote xml:id="bHY6yh-d59392-Qd1e168">In omni 
+              <lb ed="#B"/>disciplina infirma est artis 
+              <lb ed="#B"/>perceptio sine assiduitate exercita<lb ed="#B" break="no"/>tionis
+              etc.</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e182">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59392-Rd1e190">OViduus<!--line jumps up--> sine titulo seu amorum libro<!--line jumps down--> I capitulo 8</ref> <quote xml:id="bHY6yh-d59392-Qd1e186">Hera nitent vsu 
+              <lb ed="#B"/>uestis bona querit haberi
+              <lb ed="#B"/>¶ Canescunt turpi recta relicta 
+              <lb ed="#B"/>situ</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e194"> 
+              ¶ <ref xml:id="bHY6yh-d59392-Rd1e202">Idem de arte amandi libro 2</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d59392-Qd1e196">Solus et artifices qui facit v<lb ed="#B" break="no"/>sus 
+              adest</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e204"> 
+              ¶ <ref xml:id="bHY6yh-d59392-Rd1e215">Idem methamorphose libro 
+              <lb ed="#B"/>6</ref> <quote xml:id="bHY6yh-d59392-Qd1e206">Seris uenit vsus ab annis</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e213"> 
+              <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d59392-Rd1e226">Idem de fastis libro 4</ref> <quote xml:id="bHY6yh-d59392-Qd1e215">Et non sen<lb ed="#B" break="no"/>titur 
+              sedulitate labor</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e221"> 
+              ¶ <ref xml:id="bHY6yh-d59392-Rd1e237">Idem de
+              <lb ed="#B"/>ponto libro I</ref> ¶ <quote xml:id="bHY6yh-d59392-Qd1e223">Si licet est cupidus 
+              <lb ed="#B"/>studiorum quisque suorum ¶ tempus et 
+              <lb ed="#B"/>assueta ponere in arte iuuat</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e231">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59392-Rd1e252">UEgetius de re militari<!--line jumps up--> libro I<!--line jumps down--> titulo 20</ref> 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>¶ <quote xml:id="bHY6yh-d59392-Qd1e235">Cottidianus vsus non laborat 
+              <lb ed="#B"/>et si onerosa gestauerit</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e239"> 
+              ¶ <ref xml:id="bHY6yh-d59392-Rd1e264">libro 2 titulo 
+              <lb ed="#B"/>23</ref> <quote xml:id="bHY6yh-d59392-Qd1e241">Siendum est vsum in pugna am<lb ed="#B" break="no"/>plius 
+              valere quam uires</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e245"> 
+              ¶ <ref xml:id="bHY6yh-d59392-Rd1e274">libro 3 titulo 
+              <lb ed="#B"/>10</ref> <quote xml:id="bHY6yh-d59392-Qd1e247">omnes artes omniaque opera cotti<lb ed="#B" break="no"/>diano 
+              vsu / et iugi exercitatione<!--line jumps down--> proficiunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e255">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59392-Rd1e288">CEcilius fir de beata 
+              <lb ed="#B"/>vita libro 3</ref> <quote xml:id="bHY6yh-d59392-Qd1e259">Sapientia nisi in aliquo 
+              <lb ed="#B"/>actu fuerit quo vim suam exerceat 
+              <lb ed="#B"/>inanis et falsa est</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e267">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59392-Rd1e303">CAto capitulo 5 et finem</ref> ¶<!--line jumps up--> <quote xml:id="bHY6yh-d59392-Qd1e271">Exercere stu<!--line jumps down-->dium quamuis per<lb ed="#B" break="no"/>ceperis 
+              artem ¶ Ut cura inge<lb ed="#B" break="no"/>nium 
+              sic et manus adiuuat<!--line jumps down--> vsum</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e280">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59392-Rd1e317">BOetius de disciplina 
+              <lb ed="#B"/>scolarium libro I</ref> <quote xml:id="bHY6yh-d59392-Qd1e284">vsus magistrum 
+              <lb ed="#B"/>perare festinat ¶ Sine vsu scientia
+              <lb ed="#B"/>parum poterit. vsus autem sine scientia<!--line jumps down--> multum</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e292">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59392-Rd1e331">CAssiodorus epistolarum libro 
+              <lb ed="#B"/>I capitulo 40</ref> ¶ <quote xml:id="bHY6yh-d59392-Qd1e296">Ars bellandi si non 
+              <lb ed="#B"/>preluditur cum fuerit necessaria non habetur</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e304"> 
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e312"> 
+              <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d59392-Rd1e353">libro 6 epistola 10.</ref> <quote xml:id="bHY6yh-d59392-Qd1e314">Habent exercitia premia 
+              <lb ed="#B"/>sua</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e320"> 
+              ¶ <ref xml:id="bHY6yh-d59392-Rd1e364">libro 11 et penultimo epistola 38</ref> <quote xml:id="bHY6yh-d59392-Qd1e322">Labo<lb ed="#B" break="no"/>res 
+              reddunt homines semper instruc<lb ed="#B" break="no"/>tos 
+              ¶ Ille instructior redditur 
+              <lb ed="#B"/>qui actu continue deuotionis e<!--line jumps down-->ruditur</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e332">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59392-Rd1e382">YSidorus in synomia 
+              <lb ed="#B"/>soliloquiorum libro 2 epistola 41</ref> <quote xml:id="bHY6yh-d59392-Qd1e336">Exer<lb ed="#B" break="no"/>citatione 
+              porficit sensus et cetera</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e343">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59392-Rd1e395">AVctor libri qui dicitur pamphilus 
+              <lb ed="#B"/>capitulo 9</ref> <quote xml:id="bHY6yh-d59392-Qd1e347">Cunctarum rerum prudentia dis<lb ed="#B" break="no"/>citur 
+              vsu. ¶ vsus et ars docuit que 
+              <lb ed="#B"/>sapit omnis homo</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e355"> 
+              ¶ <ref xml:id="bHY6yh-d59392-Rd1e407">capitulo 13</ref> <quote xml:id="bHY6yh-d59392-Qd1e357">vsu crescit 
+              <lb ed="#B"/>amor omnis decrescit et vsu.</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e363">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59392-Rd1e419">AVctor libro qui dicitur facetus capitulo 10 et 
+              <lb ed="#B"/>finem</ref> <quote xml:id="bHY6yh-d59392-Qd1e367">Nil valet Ingenium nisi cum con<lb ed="#B" break="no"/>iungitur 
+              vsus</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e373">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59392-Rd1e431">MAtheus vin<!--line jumps up-->docinensis in poetria<!--line jumps down--> partur 2 et finem capitulo 13 
+              <lb ed="#B"/>et penultimo</ref> <quote xml:id="bHY6yh-d59392-Qd1e377">Est vsus doctrine co<lb ed="#B" break="no"/>mes
+              doctrina scolaris Intercisa pe<lb ed="#B" break="no"/>rit 
+              continuata viget ¶ vsus facit 
+              <lb ed="#B"/>magistrum / Natura fundat ingenium pro<lb ed="#B" break="no"/>uehit 
+              <pb ed="#B" n="101-r"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/>vsus</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e450">
+              ¶ <ref xml:id="bHY6yh-d59392-Rd1e452">Idem de ystoria thobie 
+              <lb ed="#B"/>capitulo 36</ref> <quote xml:id="bHY6yh-d59392-Qd1e457">doctrine pater est vsus doctri<lb ed="#B" break="no"/>na 
+              scolaris ¶ Intercisa perit contin<lb ed="#B" break="no"/>uata 
+              viget</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e400"> 
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e406">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59392-Rd1e481">BErtrandus<!--line jumps up--> yconomica capitulo 21</ref> <quote xml:id="bHY6yh-d59392-Qd1e410">Fu<!--line jumps down-->ge medicum scientia 
+              <lb ed="#B"/>plenum exercitio non probatum</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e417">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59392-Rd1e493">Prouerbium metrice extraordinare libro vagere</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d59392-Qd1e421">Sunt duo que nullus confert 
+              <lb ed="#B"/>nisi conferat vsus ¶ Scribere 
+              <lb ed="#B"/>perfecte versus componere recte</quote>
+            </p>
+            <p xml:id="bHY6yh-d59392-d1e429">
+              [omitted]
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
