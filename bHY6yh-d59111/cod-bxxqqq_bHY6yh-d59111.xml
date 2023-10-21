@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5</title>
+               <date when="2023-10-13">October 13, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-13" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#B" n="100-r"/>
+           <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d59111"><!-- p3l4-r5 -->
+            <head xml:id="bHY6yh-d59111-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-d59111-Hd1e111" type="question-title">De artibus et artificiis</head>
+            <p xml:id="bHY6yh-d59111-d1e114">
+              De 
+              <lb ed="#B"/>artibus et artificiciis Rubrica 5 <unclear>etc.</unclear>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e119">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59111-Rd1e116">ARistotiles ethicorum libro 6 capitulo 2</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d59111-Qd1e125">Ars est habitus quidam cum 
+              <lb ed="#B"/>ratione vera factuius circa contingen<lb ed="#B" break="no"/>tes 
+              aliter se habere</quote> 
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e135"> 
+              ¶ <ref xml:id="bHY6yh-d59111-Rd1e133">Idem magnorum 
+              <lb ed="#B"/>moralium libro I capitulo 71</ref> <quote xml:id="bHY6yh-d59111-Qd1e137">Circa facti<lb ed="#B" break="no"/>onem 
+              et factibilia est ars</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e146">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59111-Rd1e149">TVlius rethoricorum artis ueteris libro 3 
+              <lb ed="#B"/>capitulo 9</ref> <quote xml:id="bHY6yh-d59111-Qd1e150">Ars porro nature comoda con<lb ed="#B" break="no"/>firmat 
+              et auget</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e156">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59111-Rd1e161">OVidius de arte<!--line jumps up--> amandi libro I</ref><!--line jumps down--> <quote xml:id="bHY6yh-d59111-Qd1e160">Arte cite uelo<lb ed="#B" break="no"/>que 
+              rates remoque reguntur / 
+              <lb ed="#B"/>Arte leuis currus regendus 
+              <lb ed="#B"/>amor</quote>
+          </p>
+          <p xml:id="bHY6yh-d59111-d1e171">
+            ¶ <ref xml:id="bHY6yh-d59111-Rd1e173">libro 3 et finem</ref> <quote xml:id="bHY6yh-d59111-Qd1e177">Si ilicet In<lb ed="#B" break="no"/>genium 
+            placida molitur ab arte</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e172">
+              <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d59111-Rd1e187">Idem de ponto libro I</ref> <quote xml:id="bHY6yh-d59111-Qd1e176">Artibus Inge<lb ed="#B" break="no"/>niis
+              quarum tibi maxima cura est 
+              <lb ed="#B"/>Pectora molescunt asperitasque<!--line jumps down--> fugit</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e184">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59111-Rd1e201">SEneca de septem libera<lb ed="#B" break="no"/>libus 
+              artibus</ref> <quote xml:id="bHY6yh-d59111-Qd1e188">Meritoria ar<lb ed="#B" break="no"/>tificia 
+              sunt et cetera et cetera et cetera</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e194">
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59111-Rd1e213">Lex diges titulo de legatis III libro legatis § 
+              <lb ed="#B"/>arnatricibus</ref> <quote xml:id="bHY6yh-d59111-Qd1e198">omne artificium 
+              <lb ed="#B"/>recipit incrementum</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e206">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59111-Rd1e229">UEgetius de re mili<!--line jumps up--> libro 2 titulo 23<!--line jumps down--> et penultimo</ref> <quote xml:id="bHY6yh-d59111-Qd1e210">An<lb ed="#B" break="no"/>tiqua 
+              est prudensque sententia omnes 
+              <lb ed="#B"/>artes in meditatione consistere</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e219">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59111-Rd1e243">CAto capitulo 5 et finem</ref> <quote xml:id="bHY6yh-d59111-Qd1e223">disce aliquid nam 
+              <lb ed="#B"/>cum subito fortuna recedit / Ars 
+              <lb ed="#B"/>remanet vitamquem hominis non deserit<!--line jumps down--> vnquam</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e231">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59111-Rd1e257"><sic>HOetius</sic> in aritmetrica 
+              <lb ed="#B"/>libro I capitulo finem</ref> <quote xml:id="bHY6yh-d59111-Qd1e235">Omnis ars omnisque etiam 
+              <lb ed="#B"/>disciplina honorabiliorem naturaliter 
+              <lb ed="#B"/>habet rationem quam artificium quod manu 
+              <lb ed="#B"/>atque opere artificis exercetur / multo 
+              <lb ed="#B"/>maius est atque auctius scire quod 
+              <lb ed="#B"/>quisque faciat quam ipsum illud effi<lb ed="#B" break="no"/>cere 
+              quod sciat</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e254"> 
+              ¶ <quote xml:id="bHY6yh-d59111-Qd1e256">Artificium corpo<lb ed="#B" break="no"/>rale 
+              quasi seruiens famulatur ¶ Ratio 
+              <lb ed="#B"/>uero quasi domina imperat</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e264">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59111-Rd1e296">YSidorus in synonima soli<!--line jumps up-->loquiorum<!--line jumps down--> libro 2 capitulo 
+              <lb ed="#B"/>41</ref> <quote xml:id="bHY6yh-d59111-Qd1e268">vicia cito captant inertes</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e274">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59111-Rd1e309">Avctor libri qui dicitur pamphylus capitulo I</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d59111-Qd1e278">Nam solet ars dominum sepe iuua<lb ed="#B" break="no"/>re 
+              suum</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e284"> 
+              ¶ <ref xml:id="bHY6yh-d59111-Rd1e320">3 capitulo</ref> <quote xml:id="bHY6yh-d59111-Qd1e286">Ars animos frangit 
+              <lb ed="#B"/>et firmas diruit urbes ¶ Arte 
+              <lb ed="#B"/>cadunt turres arte leuatur onus 
+              <lb ed="#B"/>¶ Et piscis liquidis deprehenditur 
+              <lb ed="#B"/>arte sub undis ¶ Et pedibus siic<lb ed="#B" break="no"/>cis 
+              per mare currit homo ¶ Rebus 
+              <lb ed="#B"/>et in multis ars adiuuat officium
+              <lb ed="#B"/>que ¶ pauper sepe suo pascituro 
+              <lb ed="#B"/>officio ¶ Quod donare sibi mini<lb ed="#B" break="no"/>me 
+              potuere parentes ¶ Hoc ex<lb ed="#B" break="no"/>ercenti 
+              iam dabit officium ¶ Exiguo 
+              pulchram <hi><del>duo</del></hi> ducit solertia vitam</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e310"> 
+              ¶ <ref xml:id="bHY6yh-d59111-Rd1e347">capitulo 30</ref> <quote xml:id="bHY6yh-d59111-Qd1e312">Ars hominis magnum superat 
+              <lb ed="#B"/>studiosa periclum</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e318">
+              ¶ <ref xml:id="bHY6yh-d59111-Rd1e359">capitulo 36</ref> <quote xml:id="bHY6yh-d59111-Qd1e322">Arsque 
+              <lb ed="#B"/>uigil magnas sepe ministrat opes</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e328">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59111-Rd1e371">AVctor libri qui dicitur facetus capitulo 3</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d59111-Qd1e332">Est pecus ut brutum penitus 
+              <pb ed="#B" n="100-v"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/>quisquis caret arte ¶ Ars hominem 
+              <lb ed="#B"/>format nec sinit esse malum</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e340">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59111-Rd1e385">MAtheus vindocinensis in poetria 
+              <lb ed="#B"/>pertur 2 capitulo 4</ref> ¶ <quote xml:id="bHY6yh-d59111-Qd1e344">Ars est scientia do<lb ed="#B" break="no"/>cendi 
+              infinita finite Auxilia<lb ed="#B" break="no"/>re 
+              sibi doctus amicat opus</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e352">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59111-Rd1e400">capitulo 13</ref> <quote xml:id="bHY6yh-d59111-Qd1e356">Ars puerum flectit flectitur<!--line jumps down--> arte puer.</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e362">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59111-Rd1e413">IAcobus beneuentanus 
+              <lb ed="#B"/>capitulo 39</ref> <quote xml:id="bHY6yh-d59111-Qd1e366">Ars bona prebet opes</quote>
+            </p>
+            <p xml:id="bHY6yh-d59111-d1e373">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d59111-Rd1e427">Prouerbium uulgare</ref> <quote xml:id="bHY6yh-d59111-Qd1e377">Ele mel<lb ed="#B" break="no"/>gio 
+              mistero cha spariuero 
+              <lb ed="#B"/>¶ chi non sa scortecare guasta<!--line jumps down--> la pelle</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
