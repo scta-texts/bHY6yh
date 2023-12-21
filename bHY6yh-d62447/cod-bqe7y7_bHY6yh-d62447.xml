@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 6</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 6</title>
+               <date when="2023-12-21">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness> 
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-12-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="129-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d62447"><!-- p3l5-r6 --> <!--Rubric 5 and 6 have been switched around in this manuscript.-->
+            <head xml:id="bHY6yh-d62447-Hd1e108">Rubrica 6</head>
+            <head xml:id="bHY6yh-d62447-Hd1e111" type="question-title">De premediatione: et temeritate locutionis</head>
+            <p xml:id="bHY6yh-d62447-d1e114">
+               <lb ed="#P"/>De circumspectione loquationis
+               <lb ed="#P"/>Alie malignitatis capitulo vi
+            </p>
+            <p xml:id="bHY6yh-d62447-d1e121">
+               <cb ed="#P" n="a"/>
+               <lb ed="#P"/><ref xml:id="bHY6yh-d62447-Rd1e118">Salomon in ecclesiastico capitulo x.</ref> <quote xml:id="bHY6yh-d62447-Qd1e127">In cogitatione tua 
+               <lb ed="#P"/>regine de trahas / et in secreto cubilis tui 
+               <lb ed="#P"/>ne maledixeris que diuiti quia et aues celi 
+               <lb ed="#P"/>portabunt vocem tuam.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d62447-d1e137">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d62447-Rd1e137">Iesus filius sirach in ecclesiastico capitulo viii</ref> <quote xml:id="bHY6yh-d62447-Qd1e141">Coram
+               <lb ed="#P"/>extraneo ne facias consilium / nescis enim 
+               <lb ed="#P"/>quid pariet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d62447-d1e150">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d62447-Rd1e152">Oratius in epistolis libro epistola xviiii</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d62447-Qd1e154">Quid de quo viro / et cui dicas sepe videto
+               <lb ed="#P"/>Percunctatorem fugito / nam garrulus idem erat.
+               <lb ed="#P"/>Nec retinent patule commissa fideliter aures.
+               <lb ed="#P"/>Et semel emissum volat irreuocabile verbum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d62447-d1e168">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d62447-Rd1e172">Prouerbium metricum extraordinem librorum
+               <lb ed="#P"/>vagum</ref> <quote xml:id="bHY6yh-d62447-Qd1e172">Prospice te circum si vis proferre 
+               <lb ed="#P"/>sinistrum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d62447-d1e184">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d62447-Rd1e191">Proverbium vulgare</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d62447-Qd1e188">Chie appossio via non dica fillia / El fante
+               <lb ed="#P"/>dicie algiuoco quello che ode apie del<lb ed="#P" break="no"/>fuoco.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
