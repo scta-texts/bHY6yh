@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+             <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5</title>
+               <date when="2023-12-24">December 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-12-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="57-r"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d41894"><!-- p2l6-r5 -->
+            <head xml:id="bHY6yh-d41894-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-d41894-Hd1e111" type="question-title">De tyrannide et tyranno</head>
+            <p xml:id="bHY6yh-d41894-d1e114">
+              De tyrampno et
+              <lb ed="#C"/>tyrampnide capitulum
+            </p>
+            <!--next paragraph begins on the same line as the previous paragraph-->
+            <p xml:id="bHY6yh-d41894-d1e119">
+              <ref xml:id="bHY6yh-d41894-Rd1e115">IOb his<lb ed="#C" break="no"/>toriarum
+              <lb ed="#C"/>capitulo XV</ref> <quote xml:id="bHY6yh-d41894-Qd1e123">Cunctis diebus suis impius super<lb ed="#C" break="no"/>bit 
+              et numerus annorum incertus est tyrannidis 
+              <lb ed="#C"/>eius sonitus terroris eius semper in auri<lb ed="#C" break="no"/>bus 
+              eius illius et cum pax sit semper in<lb ed="#C" break="no"/>sidiis 
+              suspicatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e137">
+              ¶ <ref xml:id="bHY6yh-d41894-Rd1e133">Idem 34 capitulo</ref> <quote xml:id="bHY6yh-d41894-Qd1e139">Dominus reg<lb ed="#C" break="no"/>nare 
+              facit ypocritam propter peccata populi</quote>
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e146">
+              ¶ <ref xml:id="bHY6yh-d41894-Rd1e146">Cronica de nugis philosophurum capitulo VIII de fia<lb ed="#C" break="no"/>ndro </ref>
+              <quote xml:id="bHY6yh-d41894-Qd1e150">Periander corintius vnus de septem 
+              <lb ed="#C"/>sapientibus ait debentes securos tiramp<pb ed="#C" n="57-v"/><cb ed="#C" n="a"/><lb ed="#C"/>nos 
+              fieri beniuolentia fulciri non armis</quote>
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e160">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d41894-Rd1e161">Aristoteles ethicorum libro VIII capitulo 6</ref> <quote xml:id="bHY6yh-d41894-Qd1e164">Tirampnus
+              <lb ed="#C"/>sibiipsi conferens intendit rex autem quod sub<lb ed="#C" break="no"/>ditorum 
+              prauitas monarchie tirampnus
+              <lb ed="#C"/>malus autem rex In tirampnide nichil uel
+              <lb ed="#C"/>parum amicitie est</quote>
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e176">
+              ¶ <ref xml:id="bHY6yh-d41894-Rd1e177">Idem politicorum libro III capitulo
+              <lb ed="#C"/>8</ref> <quote xml:id="bHY6yh-d41894-Qd1e178">Ciues custodiunt armis reges Tiramp<lb ed="#C" break="no"/>nos 
+              autem extranei hii quidem enim secundum
+              <lb ed="#C"/>legem et voluntariis hii autem inuoluntariis
+              <lb ed="#C"/>principantur</quote>
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e195">
+              ¶ <ref xml:id="bHY6yh-d41894-Rd1e198">Idem IX capitulo et penultimo</ref> <quote xml:id="bHY6yh-d41894-Qd1e197">Legem
+              <lb ed="#C"/>principari eligibilius est quam ciuium vn<lb ed="#C" break="no"/>um 
+              aliquem qui intellectum iubet prin<lb ed="#C" break="no"/>cipari 
+              iubet deum et leges qui autem ho<lb ed="#C" break="no"/>mine 
+              iubet apponit bestiam Quando con<lb ed="#C" break="no"/>cupiscentia 
+              totalems et furor principatum ha<lb ed="#C" break="no"/>buerint 
+              tandem et optimos uide summa</quote>
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e207">
+              ¶ <ref xml:id="bHY6yh-d41894-Rd1e219">Idem
+              <lb ed="#C"/>Libro V capitulo 6</ref> <quote xml:id="bHY6yh-d41894-Qd1e209">Non similiter facilior est malignari
+              <lb ed="#C"/>pauco tempore principantes et multo</quote>
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e218">
+              ¶ <ref xml:id="bHY6yh-d41894-Rd1e231">Idem
+              <lb ed="#C"/>capitulo VII</ref> <quote xml:id="bHY6yh-d41894-Qd1e220">Si per tirampbidem principatur aliq<lb ed="#C" break="no"/>uis 
+              uel per uiolentiam iam ex hoc tiramp<lb ed="#C" break="no"/>nus 
+              uidetur esse cum uolentibus mox non erit
+              <lb ed="#C"/>Rex sed tirampnus et non uolentium</quote>
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e230">
+              ¶ <ref xml:id="bHY6yh-d41894-Rd1e248">Idem
+              <lb ed="#C"/>capitulo VIII</ref> <quote xml:id="bHY6yh-d41894-Qd1e232">Sunt et olim dicta ad saluationem
+              <lb ed="#C"/>ut possibile est tirampnis excellentes peri<lb ed="#C" break="no"/>mere 
+              et sapientes destruere et neque communicati<lb ed="#C" break="no"/>ones 
+              sinere neque sodalidatem neque disciplinam
+              <lb ed="#C"/>neque aliud tale sed omnia cauere vnde consueuerunt
+              <lb ed="#C"/>fieri domine sapiente et persuasio et neque scholas
+              <lb ed="#C"/>neque alias collectiones permittere fieri ua<lb ed="#C" break="no"/>catiuas 
+              et omnia facere ex quibus quammax<lb ed="#C" break="no"/>ime 
+              ignoti inuicem erunt omnes notitia autem
+              <lb ed="#C"/>fidem facit magis adinuicem Malorum
+              <lb ed="#C"/>amicus est tirapnus tyrampni adulationem
+              <lb ed="#C"/>recipientes gaudent hoc autem nullus
+              <lb ed="#C"/>utique faciet sensum habens liberum coniectu<lb ed="#C" break="no"/>rat 
+              tirampnus tirampnum ut modica sa<lb ed="#C" break="no"/>piant 
+              subditi nullus enim pusillanimus
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/>insidiabitur secundum autem ut discedat inuicem
+              <lb ed="#C"/>uera dissoluitur prius enim tirampnus
+              <lb ed="#C"/>antequam credant subditi sibiipsis propter quod et epi<lb ed="#C" break="no"/>cheis 
+              aduersatur tanquam nociuis ad princi<lb ed="#C" break="no"/>patum 
+              non solum propterea quod non uolunti sub<lb ed="#C" break="no"/>dici 
+              dispotice et serui sed quia fideles
+              <lb ed="#C"/>sunt sibiipsis et aliis et quia non produnt
+              <lb ed="#C"/>neque seipsos neque alios Tertium autem impossi<lb ed="#C" break="no"/>bilitas 
+              negociorum nullis enim manum
+              <lb ed="#C"/>mictit ad impossibilia querere neque tiramp<lb ed="#C" break="no"/>nidem 
+              soluere non existente potentia omnia reducet
+              <lb ed="#C"/>quis tirampnica uolita ad has ypothes<lb ed="#C" break="no"/>es 
+              hoc quidem ut subditi non credant inuicem
+              <lb ed="#C"/>hoc ut non possint hoc autem ut parunt sapi<lb ed="#C" break="no"/>ant 
+              Communis custodia omnis monarchie
+              <lb ed="#C"/>est nullum uirum facere magnum nequaquam
+              <lb ed="#C"/>secundum morem audacem maxime enim inuasius
+              <lb ed="#C"/>calix</quote>
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e304">
+              ¶ <ref xml:id="bHY6yh-d41894-Rd1e323">idem Libro V capitulo 7</ref> <quote xml:id="bHY6yh-d41894-Qd1e306">propter iniustitiam
+              <lb ed="#C"/>et propter contemptum multi subditorum insur<lb ed="#C" break="no"/>gunt 
+              ad uersus monarchias</quote>
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e320">
+              ¶ <ref xml:id="bHY6yh-d41894-Rd1e344">Yesus filius sirach in
+              <lb ed="#C"/>ecclesiastico capitulo XIX</ref> <quote xml:id="bHY6yh-d41894-Qd1e324">qui potestatem sibi assumit in<lb ed="#C" break="no"/>iuste 
+              odietur</quote>
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e330">
+              ¶ <ref xml:id="bHY6yh-d41894-Rd1e356">Terentius in adelphis</ref> <quote xml:id="bHY6yh-d41894-Qd1e334">Que sum<lb ed="#C" break="no"/>ma 
+              imperium credam grauius aut stabilius
+              <lb ed="#C"/>nusquam fit quam id quod amicitia iungitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e342">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d41894-Rd1e370">Tullius de amicitia</ref> <quote xml:id="bHY6yh-d41894-Qd1e346">In vita tirampnorum nulla
+              <lb ed="#C"/>fides nulla caritas nulla stabilis beniuo<lb ed="#C" break="no"/>lentie 
+              potest esse fiducia omnia semper suspec<lb ed="#C" break="no"/>ta 
+              atque sollicita nullus locus amicitie
+              <lb ed="#C"/>quis enim aut diligit quem metu<lb ed="#C" break="no"/>it 
+              aut eum a quao metui se putet colun<lb ed="#C" break="no"/>tur 
+              tam cum simulatione amicitie dumtaxat ad
+              <lb ed="#C"/>tempus</quote>
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e363">
+              ¶ <ref xml:id="bHY6yh-d41894-Rd1e393">Seneca tragediarum in trochi</ref> <quote xml:id="bHY6yh-d41894-Qd1e367">Violenta
+              <lb ed="#C"/>imperia nemo continuit diu</quote>
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e373">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e382">
+              ¶ <ref xml:id="bHY6yh-d41894-Rd1e415">Idem de
+              <lb ed="#C"/>clementia</ref> <quote xml:id="bHY6yh-d41894-Qd1e386">Tirampni in uoluntate deseruiunt
+              <lb ed="#C"/>Reges non nisi ex causa et ex necessitate</quote>
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e392">
+              ¶ <ref xml:id="bHY6yh-d41894-Rd1e427">Va<lb ed="#C" break="no"/>lerius 
+              maximus titulo</ref> <quote xml:id="bHY6yh-d41894-Qd1e396">Sapienter dicta aut facta Aris<lb ed="#C" break="no"/>tofanes 
+              incomedia introduxit remissum
+              <pb ed="#C" n="58=r"/>
+              <cb ed="#C" n="a"/>
+              <lb ed="#C"/>ab inferis atheniensium tirampnum periclem
+              <lb ed="#C"/>uaticinentem se oportere in vrbe nutriri
+              <lb ed="#C"/>leonem sinaunt sit aliter obsequi ei con<lb ed="#C" break="no"/>uenire 
+              monet enim ut precipue nobilita<lb ed="#C" break="no"/>tis 
+              et concinnati ingenii iuuenes refrenen<lb ed="#C" break="no"/>tur 
+              nimio uero fauore ac profulsa indulgen<lb ed="#C" break="no"/>tia 
+              pasti quominus potentiam obtine<lb ed="#C" break="no"/>ant 
+              ne impediantur quod stultum et inutile
+              <lb ed="#C"/>sit eas obtrecperare uires quas ipse foueris</quote>
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e421">
+              ¶ <ref xml:id="bHY6yh-d41894-Rd1e458">Boetius de consolatione libro 3 capitulo IX</ref> <quote xml:id="bHY6yh-d41894-Qd1e425">Expertus sorti<lb ed="#C" break="no"/>sue 
+              periculorum tirampnus scilicet regni 
+              <lb ed="#C"/>metus pendentis super uerticem gradu ter<lb ed="#C" break="no"/>rore 
+              simulauit</quote>
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e437">
+              ¶ <ref xml:id="bHY6yh-d41894-Rd1e476">Versificator fabule ysopi 62 fabulam</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d41894-Qd1e441">Nichil magis horrendum quam flebilis aula
+              <lb ed="#C"/>tirampni qua pietas omnis cum ratione perit
+              <lb ed="#C"/>Raptores famulique truces scelerumque
+              <lb ed="#C"/>ministri Iniustis dominis impietate placent nam
+              <lb ed="#C"/>amat insontes sed sontes aula tirampni com<lb ed="#C" break="no"/>placet 
+              iniusto raptor iniquus ero</quote>
+            </p>
+            <p xml:id="bHY6yh-d41894-d1e458">
+              ¶ <ref xml:id="bHY6yh-d41894-Rd1e497">gu<lb ed="#C" break="no"/>alterius 
+              de castelione libro 4</ref> <quote xml:id="bHY6yh-d41894-Qd1e462">que rara tirampnis
+              <lb ed="#C"/>Ssmper inest fregit pietas generosa rigorem</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
