@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 9</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 9</title>
+               <date when="2024-01-09">January 9, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="59-v"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d43598"><!-- p2l6-r9 -->
+            <head xml:id="bHY6yh-d43598-Hd1e108">Rubrica 9</head>
+            <head xml:id="bHY6yh-d43598-Hd1e111" type="question-title">De placiditate et ferocitate regis et iudicis</head>
+            <p xml:id="bHY6yh-d43598-d1e114">
+              De placibi<lb ed="#C" break="no"/>litate 
+              et ferocitate re<lb ed="#C" break="no"/>gis 
+              uel iudicis capitulum
+            </p>
+            <!--next paragraph begins on the second line of the previous paragraph-->
+            <p xml:id="bHY6yh-d43598-d1e121">
+              <ref xml:id="bHY6yh-d43598-Rd1e117">Seneca
+              <lb ed="#C"/>de cle<lb ed="#C" break="no"/>mentia </ref> 
+              <quote xml:id="bHy6yh-d43598-Qd1e123">Magni animi est proprium placidum esse et
+              <lb ed="#C"/>tranquillum quietumque</quote> 
+            </p>
+            <p xml:id="bHY6yh-d43598-d1e130">
+              ¶ <ref xml:id="bHY6yh-d43598-Rd1e131">Lex digestum titulo de
+              <lb ed="#C"/>officum praesi libro obseruandum</ref> <quote xml:id="bHY6yh-d43598-Qd1e134">Obseruandum est ius
+              <lb ed="#C"/>reddenti et in adeundo quidem facile se
+              <lb ed="#C"/>praebeat sed se contempni non patiatur iudex in
+              <lb ed="#C"/>cognoscendo neque ex causa debet aduersus
+              <lb ed="#C"/>eos quos malos putat neque praecibus ca<lb ed="#C" break="no"/>lamitosorum 
+              illachrimari oportet id enim non est
+              <lb ed="#C"/>recti et constantis iudicis cuius animi motum
+              <lb ed="#C"/>uultus detegit</quote>
+            </p>
+            <p xml:id="bHY6yh-d43598-d1e154">
+              ¶ <ref xml:id="bHY6yh-d43598-Rd1e158">Auctor libri de formula honeste
+              <pb ed="#C" n="60-r"/>
+              <cb ed="#C" n="a"/>
+              <lb ed="#C"/>uite capitulo 4</ref> <quote xml:id="bHY6yh-d43598-Qd1e158">Senior esto iudicio quam sermone ui<lb ed="#C" break="no"/>ta 
+              quam uultu</quote>
+            </p>
+            <p xml:id="bHY6yh-d43598-d1e170">
+              ¶ <ref xml:id="bHY6yh-d43598-Rd1e175">Claudianus libro I</ref> <quote xml:id="bHY6yh-d43598-Qd1e174">peragit tran<lb ed="#C" break="no"/>quilla 
+              potestas quod uiolenta nequit mandata<lb ed="#C" break="no"/>que 
+              fortius iuget imperiosa quies</quote>
+            </p>
+            <p xml:id="bHY6yh-d43598-d1e182">
+              ¶ <ref xml:id="bHY6yh-d43598-Rd1e187">Idem
+              <lb ed="#C"/>libro 8</ref> <quote xml:id="bHY6yh-d43598-Qd1e184">publicus hinc ardescit amor cum mori<lb ed="#C" break="no"/>bus 
+              equis Inclinat populo regale modes<lb ed="#C" break="no"/>tia 
+              culmen</quote>
+            </p>
+            <p xml:id="bHY6yh-d43598-d1e192">
+              ¶ <ref xml:id="bHY6yh-d43598-Rd1e200">Cassioderus epistolarum libro
+              <lb ed="#C"/>VI epistola XVI et penultimo</ref> <quote xml:id="bHY6yh-d43598-Qd1e196">Vtrumque laudabile
+              <lb ed="#C"/>est ut bonus populus benignum iudicem
+              <lb ed="#C"/>faciat et mansuetus iudex grauissimum
+              <lb ed="#C"/>populum equabili ratione componat</quote>
+            </p>
+            <p xml:id="bHY6yh-d43598-d1e206">
+              ¶ <ref xml:id="bHY6yh-d43598-Rd1e214">Idem
+              <lb ed="#C"/>epistola VII</ref> <quote xml:id="bHY6yh-d43598-Qd1e208">Iudiciaria uirtus est lingue
+              <lb ed="#C"/>bonis habundare et mentis temperantia cus<lb ed="#C" break="no"/>todire</quote>
+            </p>
+            <p xml:id="bHY6yh-d43598-d1e216">
+              ¶ <ref xml:id="bHY6yh-d43598-Rd1e229">Gregorius in pastoraliorum captiulo 18</ref> <quote xml:id="bHY6yh-d43598-Qd1e220">Sit rec<lb ed="#C" break="no"/>tor 
+              bene agentibus uide summa</quote>
+            </p>
+            <p xml:id="bHY6yh-d43598-d1e233">
+              ¶ <ref xml:id="bHY6yh-d43598-Rd1e248">Gualterius de
+              <lb ed="#C"/>castellione</ref> <quote xml:id="bHY6yh-d43598-Qd1e237">Ciuiliter argue sontes</quote>
+            </p>
+            <p>
+              ¶ Tullius
+              <lb ed="#C"/>de oratore libro 2
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
