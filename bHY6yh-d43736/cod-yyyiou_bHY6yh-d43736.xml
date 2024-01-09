@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10</title>
+               <date when="2024-01-09">January 9, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="60-r"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d43736"><!-- p2l6-r10 -->
+            <head xml:id="bHY6yh-d43736-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-d43736-Hd1e111" type="question-title">De causidicis</head>
+            <p xml:id="bHY6yh-d43736-d1e114">
+              De causidicis et
+              <lb ed="#C"/>causidictione 
+              <lb ed="#C"/>capitulum
+            </p>
+            <!--next paragraph begins on the second line of the previous paragraph-->
+            <p xml:id="bHY6yh-d43736-d1e119">
+              <ref xml:id="bHY6yh-d43736-Rd1e115">TUllius de
+              <lb ed="#C"/>oratore
+              <lb ed="#C"/>libro 2</ref> <quote xml:id="bHY6yh-d43736-Qd1e125">Ego sepissime uideo in causis aliquid
+              <lb ed="#C"/>male facere homines minime malos</quote> 
+            </p>
+            <p xml:id="bHY6yh-d43736-d1e133">
+              ¶ <ref xml:id="bHY6yh-d43736-Rd1e131">O<lb ed="#C" break="no"/>uidius 
+              epistolarum 19 epistola et penultimo</ref> <quote xml:id="bHY6yh-d43736-Qd1e137">Optima non nulla
+              <lb ed="#C"/>tam tuente perit</quote>
+            </p>
+            <p xml:id="bHY6yh-d43736-d1e144">
+              ¶ <ref xml:id="bHY6yh-d43736-Rd1e142">Idem de arte amandi libro III et
+              <lb ed="#C"/>finale</ref> <quote xml:id="bHY6yh-d43736-Qd1e146">Ius qui prositebitur adsit facundus causam sepe
+              <lb ed="#C"/>clientis agat</quote>
+            </p>
+            <p xml:id="bHY6yh-d43736-d1e154">
+              ¶ <ref xml:id="bHY6yh-d43736-Rd1e157">Idem de ponto libro 2 epistola 2</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d43736-Qd1e158">Non est confessi causa tuenti rei</quote>
+            </p>
+            <p xml:id="bHY6yh-d43736-d1e164">
+              ¶ <ref xml:id="bHY6yh-d43736-Rd1e169">Quintilianus
+              <lb ed="#C"/>declamationum X</ref> <quote xml:id="bHY6yh-d43736-Qd1e168">Multum me uel uos fallit opinio
+              <lb ed="#C"/>iudices si nullam causam ita euidentem deferri
+              <lb ed="#C"/>in forum posse putatis cui nulla ne men<lb ed="#C" break="no"/>dacii 
+              quidem nelamenta contingant</quote>
+            </p>
+            <p xml:id="bHY6yh-d43736-d1e180">
+              ¶ <ref xml:id="bHY6yh-d43736-Rd1e186">Iuue<lb ed="#C" break="no"/>nalis 
+              libro 3 satura I</ref> <quote xml:id="bHY6yh-d43736-Qd1e184">purpuram causidicum
+              <lb ed="#C"/>vendit amesina uendunt Que anime illis est
+              <lb ed="#C"/>strepidum a facie maioris uiuere census</quote>
+            </p>
+            <p xml:id="bHY6yh-d43736-d1e192">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d43736-Rd1e200">Lex digestum de oratori iuris libro I</ref> <quote xml:id="bHY6yh-d43736-Qd1e196">In foro causas dicenti<lb ed="#C" break="no"/>bus 
+              nephas ut ita dixerim uidetur esse
+              <lb ed="#C"/>nulla praefatione facta iudici rem exponere</quote>
+            </p>
+            <p xml:id="bHY6yh-d43736-d1e204">
+              ¶ <ref xml:id="bHY6yh-d43736-Rd1e214">Lex
+              <lb ed="#C"/>codice titulo de postulando <!--SS symbol here--></ref> <quote xml:id="bHY6yh-d43736-Qd1e208">Siquis adeo procax
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/>fuerit ut non ratione sed probris putet esse certandum
+              <lb ed="#C"/>opinionis sue munitionem patietur</quote>
+            </p>
+            <p xml:id="bHY6yh-d43736-d1e226">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d43736-Rd1e234">Ibidem titulo C de aduocatus diuerso iudice libro laudabi<lb ed="#C" break="no"/>bile</ref> 
+              <quote xml:id="bHY6yh-d43736-Qd1e228">laudabile uiteque hominum necessarium ad<lb ed="#C" break="no"/>uocationis 
+              officium premiis operum remu<lb ed="#C" break="no"/>nerari</quote>
+            </p>
+            <p xml:id="bHY6yh-d43736-d1e238">
+              ¶ <ref xml:id="bHY6yh-d43736-Rd1e249">Ibidem titulo si per uim capitulo libro II</ref> <quote xml:id="bHY6yh-d43736-Qd1e240">Negoti<lb ed="#C" break="no"/>orum 
+              merita partium assertione panduntur</quote>
+            </p>
+            <p xml:id="bHY6yh-d43736-d1e248">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d43736-Rd1e264">Prouerbiorum extraordinem</ref> <quote xml:id="bHY6yh-d43736-Qd1e252">In propria causa aduo<lb ed="#C" break="no"/>catum 
+              quere</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
