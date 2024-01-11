@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 13</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 13</title>
+               <date when="2024-01-11">January 11, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="60-v"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d44168"><!-- p2l6-r13 -->
+            <head xml:id="bHY6yh-d44168-Hd1e108">Rubrica 13</head>
+            <head xml:id="bHY6yh-d44168-Hd1e111" type="question-title">De facti probatione et testimonio</head>
+            <p xml:id="bHY6yh-d44168-d1e114">
+              De facti probati<lb ed="#C" break="no"/>one 
+              et testimonio
+            </p>
+            <!--next paragraph begins on the same line as the previous paragraph-->
+            <p xml:id="bHY6yh-d44168-d1e121">
+              <ref xml:id="bHY6yh-d44168-Rd1e118">IN exodo
+              <lb ed="#C"/>capitulo XX</ref> <quote xml:id="bHY6yh-d44168-Qd1e125">No
+              <lb ed="#C"/>loqueris contra proximum tuum falsum testi<lb ed="#C" break="no"/>monium</quote> 
+            </p>
+            <p xml:id="bHY6yh-d44168-d1e133">
+              ¶ <ref xml:id="bHY6yh-d44168-Rd1e132">In libro numeri capitulo penultimo</ref> <quote xml:id="bHY6yh-d44168-Qd1e137">Ad unius testi<lb ed="#C" break="no"/>monium 
+              nullus condemnabitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d44168-d1e144">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d44168-Rd1e145">Moyses in deuteronomio capitulo 19</ref> <quote xml:id="bHY6yh-d44168-Qd1e148">Non stabit testis
+              <lb ed="#C"/>contra aliquem quicquid illud peccati et facinoris
+              <lb ed="#C"/>fuerit sed in ore duorum uel trium stat omne uer<lb ed="#C" break="no"/>bum</quote>
+            </p>
+            <p xml:id="bHY6yh-d44168-d1e158">
+              ¶ <ref xml:id="bHY6yh-d44168-Rd1e161">Salomon in prouerbiis capitulo XIX</ref> <quote xml:id="bHY6yh-d44168-Qd1e162">Testis fal<lb ed="#C" break="no"/>sus 
+              non erit impunitus</quote>
+            </p>
+            <p xml:id="bHY6yh-d44168-d1e168">
+              ¶ <ref xml:id="bHY6yh-d44168-Rd1e173">Aristoteles
+              <lb ed="#C"/>rethoricorum libro I capitulo 25 et finale</ref> <quote xml:id="bHY6yh-d44168-Qd1e172">Nichil minus coac<lb ed="#C" break="no"/>ti 
+              falsa dicunt quam uera et facile mentientes tan<lb ed="#C" break="no"/>quam 
+              requiescituri celeris</quote>
+            </p>
+            <p xml:id="bHy6yh-d44168-d1e182">
+              ¶ <ref xml:id="bHY6yh-d44168-Rd1e189">Tullius rethoricorum artis noue
+              <lb ed="#C"/>libro 2 capitulo 2</ref> <quote xml:id="bHY6yh-d44168-Qd1e186">Vita hominis ex antefactis specta<lb ed="#C" break="no"/>bitur 
+              Argumentum est per quod res arguitur
+              <lb ed="#C"/>certioribus argumentis et magis firma sus<lb ed="#C" break="no"/>pitione 
+              A quo fuit factum maleficium hoc modo
+              <lb ed="#C"/>spectabitur si telum uestimentum si quid
+              <lb ed="#C"/>huius relictum aut si uestigium rei repertum
+              <lb ed="#C"/>fuerit aut cruor in uestimentis aut si in eo lo<lb ed="#C" break="no"/>co 
+              comprehensus aut uisus transacto nego<lb ed="#C" break="no"/>cio 
+              quo in loco res gesta dicitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d44168-d1e210">
+              ¶ <ref xml:id="bHY6yh-d44168-Rd1e221">Ibidem 
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/>Libro 4 capitulo I</ref> <quote xml:id="bHY6yh-d44168-Qd1e212">Oportet testimonium cum re con<lb ed="#C" break="no"/>uenire 
+              aliter enim rem non potest confirmare</quote>
+            </p>
+            <p xml:id="bHY6yh-d44168-d1e220">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d44168-Rd1e233">Idem thopicorum capitulo 24 et finale</ref> <quote xml:id="bHY6yh-d44168-Qd1e222">Testimonium di<lb ed="#C" break="no"/>cimus 
+              esse quod ab aliquo extraneo sumitur
+              <lb ed="#C"/>ad faciendum fidem persona non qualiscum<lb ed="#C" break="no"/>que 
+              est testimonium pondus habet sed fidem enim
+              <lb ed="#C"/>faciendam auctoritas queritur plerumque cre<lb ed="#C" break="no"/>ditur 
+              hiis qui experti sunt per sompnium unum
+              <lb ed="#C"/>insaniam multa patefacta sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d44168-d1e241">
+              ¶ <ref xml:id="bHY6yh-d44168-Rd1e260">Idem
+              <lb ed="#C"/>in uectiuarum omne catellinam libro I</ref> <quote xml:id="bHY6yh-d44168-Qd1e245">Quid ex<lb ed="#C" break="no"/>pectas 
+              auctoritatem loquentium quorum
+              <lb ed="#C"/>uoluntatem tacitorum perspicis</quote>
+            </p>
+            <p xml:id="bHY6yh-d44168-d1e254">
+              ¶ <ref xml:id="bHY6yh-d44168-Rd1e272">Idem inuec<lb ed="#C" break="no"/>tiua 
+              contra salustium</ref> <quote xml:id="bHY6yh-d44168-Qd1e256">Vbi rei testimonia
+              <lb ed="#C"/>assunt quid opus est uerbis</quote>
+            </p>
+            <p xml:id="bHY6yh-d44168-d1e264">
+              ¶ <ref xml:id="bHY6yh-d44168-Rd1e287">Ouidius
+              <lb ed="#C"/>sine titulo libro I capitulo X</ref> <quote xml:id="bHY6yh-d44168-Qd1e268">Nec bene produci uendunt
+              <lb ed="#C"/>periuria testes</quote>
+            </p>
+            <p xml:id="bHY6yh-d44168-d1e274">
+              <ref xml:id="bHY6yh-d44168-Rd1e298">Idem Libro 2 capitulo 2</ref> <quote xml:id="bHY6yh-d44168-Qd1e278">Culpa nec
+              <lb ed="#C"/>ex facili quamuis manifesta probatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d44168-d1e284">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d44168-d1e294">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d44168-Rd1e323">Seneca in prouerbiis</ref> <quote xml:id="bHY6yh-d44168-Qd1e298">Fatetur facinus qui iudicium
+              <lb ed="#C"/>fugit</quote>
+            </p>
+            <p xml:id="bHY6yh-d44168-d1e304">
+              ¶ <ref xml:id="bHY6yh-d44168-Rd1e336">Auctor libro de forma honeste uite capitulo 2</ref> <quote xml:id="bHY6yh-d44168-Qd1e308">Testimo<lb ed="#C" break="no"/>nium 
+              ueritati non amicitie reddas</quote>
+            </p>
+            <p xml:id="bHY6yh-d44168-d1e315">
+              ¶ <ref xml:id="bHY6yh-d44168-Rd1e348">Ca<lb ed="#C" break="no"/>to 
+              capitulo 4</ref> <quote xml:id="bHY6yh-d44168-Qd1e319">Productus testis etcetera</quote>
+            </p>
+            <p xml:id="bHY6yh-d44168-d1e327">
+              ¶ <ref xml:id="bHY6yh-d44168-Rd1e362">Cassiodorus
+              <lb ed="#C"/>epistolarum libro 5 capitulo 39</ref> <quote xml:id="bHY6yh-d44168-Qd1e331">Quanto uehementior pe<lb ed="#C" break="no"/>na 
+              est tanto eius rei debet inquisitio <!--n crossed out-->
+              <lb ed="#C"/>plus haberi ne amore uindicte innocentes ui<lb ed="#C" break="no"/>deantur 
+              uite pericula sustinere</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
