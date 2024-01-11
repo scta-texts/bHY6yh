@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 12</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 12</title>
+               <date when="2024-01-10">January 10, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness> 
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="140-v"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d66758"><!-- p3l6-r12 -->
+            <head xml:id="bHY6yh-d66758-Hd1e108">Rubrica 12</head>
+            <head xml:id="bHY6yh-d66758-Hd1e111" type="question-title">De electis benedictionibus</head>
+            <p xml:id="bHY6yh-d66758-d1e114">
+               <lb ed="#P"/>De electis benedictionibus
+               <lb ed="#P"/>capitulo xii
+            </p>
+            <p xml:id="bHY6yh-d66758-d1e121">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66758-Rd1e118">In genesi capitulo xxviiii</ref> <quote xml:id="bHY6yh-d66758-Qd1e125">Isaac benedix filio 
+               <lb ed="#P"/>suo iacob qui postea cognominatus est 
+               <lb ed="#P"/>israel / his verbis / Det tibi deus de rore 
+               <lb ed="#P"/>celi / et terre pinguedine abundantiam fru<lb ed="#P" break="no"/>menti 
+               vini / et olei / et seruiant tibi populi 
+               <lb ed="#P"/>et cetera. Qui maledixerit tibi sit ille ma<lb ed="#P" break="no"/>ledictus
+               / et qui benedixerit tibi benedictio<lb ed="#P" break="no"/>nibus 
+               repleatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66758-d1e150"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66758-Rd1e147">Ibidem xxviii capitulo</ref> <quote xml:id="bHY6yh-d66758-Qd1e152">Secunda benedictio 
+               <lb ed="#P"/>isaac ad iacob filium suum deus omni<lb ed="#P" break="no"/>potens 
+               benedicat tibi / et crescere faciat 
+               <cb ed="#P" n="b"/>
+               <lb ed="#P"/>te atque multiplicet ut sis in turbis po<lb ed="#P" break="no"/>pulorum 
+               et det tibi benedictiones abraam 
+               <lb ed="#P"/>et semini tuo post te.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66758-d1e167">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66758-Rd1e168">Ouidius de philomena.</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d66758-Qd1e171">Tu valeas felix ceu longo tempore fenix.
+               <lb ed="#P"/>Te foueat tellus / veluti pupillare tollus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66758-d1e179">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66758-Rd1e182">Paulus primo ad corinthios xiii et fine</ref>: <quote xml:id="bHY6yh-d66758-Qd1e183">Gratia
+               <lb ed="#P"/>domini nostri iesu christi / et caritas dei et 
+               <lb ed="#P"/>communicatio sancti spiritus sit cum omnibus nobus
+               <lb ed="#P"/>amen.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
