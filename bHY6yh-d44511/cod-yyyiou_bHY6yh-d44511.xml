@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 15</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 15</title>
+               <date when="2024-01-11">January 11, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="61-r"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d44511"><!-- p2l6-r15 -->
+            <head xml:id="bHY6yh-d44511-Hd1e108">Rubrica 15</head>
+            <head xml:id="bHY6yh-d44511-Hd1e111" type="question-title">De vulgari seu famosa asseueratione facti</head>
+            <p xml:id="bHY6yh-d44511-d1e114">
+              De famosa seu uul<lb ed="#C" break="no"/>gari 
+              asseueratione fabulum
+            </p>
+            <!--next paragraph begins on the same line as previous paragraph-->
+            <p xml:id="bHY6yh-d44511-d1e121">
+              <ref xml:id="bHY6yh-d44511-Rd1e117">Socrates
+              <lb ed="#C"/>in exhor<lb ed="#C" break="no"/>tationibus 
+              capitulo 2</ref> <quote xml:id="bHY6yh-d44511-Qd1e129">Verere crimina tam et si falsa
+              <lb ed="#C"/>sunt nam plerique ueritatem ignorant opinionem
+              <lb ed="#C"/>autem coniectant</quote>
+            </p>
+            <p xml:id="bHY6yh-d44511-d1e137">
+              ¶ <ref xml:id="bHY6yh-d44511-Rd1e136">Virgilius eneydos libro 4
+              <lb ed="#C"/>circa principe</ref> <quote xml:id="bHY6yh-d44511-Qd1e141">Fama malum quo non aliud
+              <lb ed="#C"/>uelocius ullum nobilitate uiget uires<lb ed="#C" break="no"/>que 
+              acquirit eundo parua motu primo mox
+              <lb ed="#C"/>sese tollit in auras Ingreditur que solo at
+              <lb ed="#C"/>capud inter nubila condit</quote>
+            </p>
+            <p xml:id="bHY6yh-d44511-d1e156">
+              ¶ <ref xml:id="bHY6yh-d44511-Rd1e154">Idem Libro VII ante
+              <lb ed="#C"/>medium et in IIIo et in VIII</ref> <quote xml:id="bHY6yh-d44511-Qd1e158">Fama uolat</quote>
+            </p>
+            <p xml:id="bHY6yh-d44511-d1e164">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d44511-Rd1e165">Tullius thopicorum capitulo 24 et finale</ref> <quote xml:id="bHY6yh-d44511-Qd1e168">Fama uulgi est
+              <lb ed="#C"/>quoddam multitudinis testimonium</quote>
+            </p>
+            <p xml:id="bHY6yh-d44511-d1e174">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d44511-Rd1e177">Quintilianus declamatione XVII et finali</ref> <quote xml:id="bHY6yh-d44511-Qd1e178">Rumor est res
+              <lb ed="#C"/>sine teste sine iudice res ex in certis impro<lb ed="#C" break="no"/>bissima 
+              maligna et fallax</quote>
+            </p>
+            <p xml:id="bHY6yh-d44511-d1e186">
+              ¶ <ref xml:id="bHY6yh-d44511-Rd1e190">Seneca in prouerbiis</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d44511-Qd1e190">Bona opinio hominum tutior est pecunia
+              <lb ed="#C"/>bona fama in tenebris proprium splendorem
+              <lb ed="#C"/>obtinet Dampnum appellandum est cum
+              <lb ed="#C"/>mala fama lucrum</quote>
+            </p>
+            <p xml:id="bHY6yh-d44511-d1e200">
+              ¶ <ref xml:id="bHY6yh-d44511-Rd1e206">Marcialis cocus libro vndique suscepto
+              <lb ed="#C"/>capitulo III</ref> <quote xml:id="bHY6yh-d44511-Qd1e204">Rumor falsidicus surgit et ecce ca<lb ed="#C" break="no"/>dit</quote>
+            </p>
+            <p xml:id="bHY6yh-d44511-d1e210">
+              ¶ <ref xml:id="bHY6yh-d44511-Rd1e217">Auctor libro de formula honeste uite capitulo 4</ref> <quote xml:id="bHY6yh-d44511-Qd1e214">Rumori<lb ed="#C" break="no"/>bus 
+              criminum et suspitionibus minime sis cre<lb ed="#C" break="no"/>dulus 
+              sed potius malignis qui per speciem sim<lb ed="#C" break="no"/>plicitatis 
+              ad nocendum aliquibus subre<lb ed="#C" break="no"/>perunt 
+              oppositissimus</quote>
+            </p>
+            <p xml:id="bHY6yh-d44511-d1e227">
+              <ref xml:id="bHY6yh-d44511-Rd1e235">Lucanus libro primo</ref> <quote xml:id="bHY6yh-d44511-Qd1e231">muneras
+              <lb ed="#C"/>soluit falsa preconia linguas</quote>
+            </p>
+            <p xml:id="bHY6yh-d44511-d1e237">
+              ¶ <ref xml:id="bHY6yh-d44511-Rd1e247">Boetius
+              <lb ed="#C"/>de consolatione libro I praesentibus 12 et penultimo</ref> <quote xml:id="bHY6yh-d44511-Qd1e241">Plures magnum
+              <lb ed="#C"/>nomen falsis uulgi opinionibus abstule<lb ed="#C" break="no"/>runt 
+              Sapiens bonum nomen siuis non po<lb ed="#C" break="no"/>pularim 
+              rumore sed conscientie ueritate tacetur</quote>
+            </p>
+            <p xml:id="bHY6yh-d44511-d1e260">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d44511-Rd1e271">Cassiodorus epistolarum libro VII epistola II</ref> <quote xml:id="bHY6yh-d44511-Qd1e264">Nulla potestas
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/>est que qualitatem fame sue de ore ho<lb ed="#C" break="no"/>minum 
+              possit auferre</quote>
+            </p>
+            <p>
+              ¶ Cato capitulo 4 ar<lb ed="#C" break="no"/>bit 
+              nostri non est etcetera
+            </p>
+            <p xml:id="bHY6yh-d44511-d1e272">
+              ¶ <ref xml:id="bHY6yh-d44511-Rd1e285">Auctor de doctrina ru<lb ed="#C" break="no"/>dium 
+              libro 2</ref> <quote xml:id="bHY6yh-d44511-Qd1e276">Error minimo crescit sed non cito fama
+              <lb ed="#C"/>quiescit Quamuis mentitur crescit eundo
+              <lb ed="#C"/>tamen</quote>
+            </p>
+            <p xml:id="bHY6yh-d44511-d1e284">
+              [omitted]
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
