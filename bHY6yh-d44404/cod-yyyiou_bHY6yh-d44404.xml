@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 14</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 14</title>
+               <date when="2024-01-11">January 11, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="60-v"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d44404"><!-- p2l6-r14 -->
+            <head xml:id="bHY6yh-d44404-Hd1e108">Rubrica 14</head>
+            <head xml:id="bHY6yh-d44404-Hd1e111" type="question-title">De naturalibus iudiciis facti</head>
+            <p xml:id="bHY6yh-d44404-d1e114">
+              De naturalibus iudi<lb ed="#C" break="no"/>ciis 
+              facti capitulum
+            </p>
+            <!--next paragraph begins on the same line as the previous paragraph-->
+            <p xml:id="bHY6yh-d44404-d1e121">
+              <ref xml:id="bHY6yh-d44404-Rd1e117">ORatius
+              <lb ed="#C"/>epistolarum
+              <lb ed="#C"/>libro I epistola I</ref> <quote xml:id="bHY6yh-d44404-Qd1e127">hic murus eneus exstat Nil
+              <lb ed="#C"/>conscire sibi nulla pallescere culpa</quote>
+            </p>
+            <p xml:id="bHY6yh-d44404-d1e135">
+              ¶ <ref xml:id="bHY6yh-d44404-Rd1e133">Ouidius
+              <lb ed="#C"/>methamorphoses libro II</ref> <quote xml:id="bHY6yh-d44404-Qd1e139">heu quam difficile est crimem non
+              <lb ed="#C"/>prodere uultu</quote>
+            </p>
+            <p xml:id="bHY6yh-d44404-d1e146">
+              ¶ <ref xml:id="bHY6yh-d44404-Rd1e145">Quintilianus declamatione X </ref> <quote xml:id="bHY6yh-d44404-Qd1e150">Acci<lb ed="#C" break="no"/>dere 
+              nocentibus solet semper errantium patrocini<lb ed="#C" break="no"/>orum 
+              uerba uariari</quote>
+            </p>
+            <p xml:id="bHY6yh-d44404-d1e162">
+              ¶ <ref xml:id="bHY6yh-d44404-Rd1e161">Idem XVII declamatione</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d44404-Qd1e164">Et si integritas simplicitas
+              <lb ed="#C"/>est nihil timen</quote>
+            </p>
+            <p xml:id="bHY6yh-d44404-d1e170">
+              ¶ <ref xml:id="bHY6yh-d44404-Rd1e172">Seneca tragediarum in Thieste capitulo 8</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d44404-Qd1e174">heret in uultum trucis ymago facti</quote>
+            </p>
+            <p xml:id="bHY6yh-d44404-d1e180">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d44404-d1e190">
+              ¶ <ref xml:id="bHY6yh-d44404-Rd1e194">Iu<lb ed="#C" break="no"/>uenalis 
+              libro ¶ satura</ref> <quote xml:id="bHY6yh-d44404-Qd1e194">Cum frigida mens
+              <pb ed="#C" n="61-r"/>
+              <cb ed="#C" n="a"/>
+              <lb ed="#C"/>est Criminibus tacita sudantur praecordia culpa</quote>
+            </p>
+            <p>
+              <lb ed="#C"/>¶ Statius thebayderus libro 2 semper timidus
+              <lb ed="#C"/>sceliis
+            </p>
+            <p xml:id="bHY6yh-d44404-d1e200">
+              ¶ <ref xml:id="bHY6yh-d44404-Rd1e206">Prudentius in sicomachia capitulo XX</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d44404-Qd1e204">Pallor in ore Conscius audacis facti dat
+              <lb ed="#C"/>signa reatus</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
