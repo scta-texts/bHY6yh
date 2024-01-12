@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 12</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 12</title>
+               <date when="2023-12-28">Decmeber 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness> 
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-12-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="132-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d63588"><!-- p3l5-r12 -->
+            <head xml:id="bHY6yh-d63588-Hd1e108">Rubrica 12</head>
+            <head xml:id="bHY6yh-d63588-Hd1e111" type="question-title">De locutione et auditione inhonestarum actionum</head>
+            <p xml:id="bHY6yh-d63588-d1e114">
+               <lb ed="#P"/>De loqutione sepera et rigida
+               <cb ed="#P" n="b"/>
+               <lb ed="#P"/>et verbus malignis acco<lb ed="#P" break="no"/>uitiis
+               capitulo xiii
+            </p>
+            <p xml:id="bHY6yh-d63588-d1e123">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d63588-Rd1e120">Psalmista psalmus ix</ref> <quote xml:id="bHY6yh-d63588-Qd1e127">Quorum os male dictionem
+               <lb ed="#P"/>plenum est veloces pedes eorum ad effun<lb ed="#P" break="no"/>dendum 
+               sanguinem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d63588-d1e141"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d63588-Rd1e136">Idem xxxiii psalmus</ref> <quote xml:id="bHY6yh-d63588-Qd1e143">Quis est homo quae vult 
+               <lb ed="#P"/>vitam / diligit dies videre bonos 
+               <lb ed="#P"/>prohibeat linguam suam a malo et labia 
+               <lb ed="#P"/>sua ne loquantur dolum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d63588-d1e154"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d63588-Rd1e151">Idem psalmus cl</ref> <quote xml:id="bHY6yh-d63588-Qd1e156">Ab auditione mala non ti<lb ed="#P" break="no"/>mebit 
+               iustus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d63588-d1e162"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d63588-Rd1e161">Idem psalmus cl</ref> <quote xml:id="bHY6yh-d63588-Qd1e164">Uir linguosus non diri<lb ed="#P" break="no"/>getur 
+               in terra.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
