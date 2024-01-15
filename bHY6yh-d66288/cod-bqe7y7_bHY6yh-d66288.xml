@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 9</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 9</title>
+               <date when="2024-01-08">January 8, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness> 
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-08" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="139-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d66288"><!-- p3l6-r9 -->
+            <head xml:id="bHY6yh-d66288-Hd1e108"> ¶ De iteratione sermonis 
+            vitanda. Rubrica 9</head>
+            <p> <!--This is the header/title-->
+               <lb ed="#P"/><ref>De interatione sermonis vi<lb ed="#P" break="no"/>tanda 
+               capitulum viiii</ref>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e114"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e112">Iesus filius sirach in ecclesiastico capitulo vii</ref> 
+               <pb ed="#P" n="139-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d66288-Qd1e120">Non interes sermonem in tua oratione.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e126"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e125">Ibidem capitulo xliii</ref> <quote xml:id="bHY6yh-d66288-Qd1e128">Non duplices sermonem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e134">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e137">Gaufridus in poetria capitulo lii</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d66288-Qd1e138">Respuat audiri bis idem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e145">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e149"><!--this is a header/title-->De multiplicatione verborum 
+               <lb ed="#P"/>capitulo<!--end header-->
+               <lb ed="#P"/>Salomon in prouerbium capitulo x</ref> <quote xml:id="bHY6yh-d66288-Qd1e149">In multiloquio 
+               <lb ed="#P"/>non deest peccatum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e159">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e170">Aristotelis rethoricorum libro iii et fine
+               <lb ed="#P"/>capitulo xviii</ref> <quote xml:id="bHY6yh-d66288-Qd1e163">Oportet non prolixe narrare
+               <lb ed="#P"/>sicut nec prohemicare prolixe neque persua<lb ed="#P" break="no"/>siones 
+               dicere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e171">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e184">Oratius in poetria</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d66288-Qd1e175">Quicquid precipies esto breuis ut cito 
+               <lb ed="#P"/>dicta percipiant animi dociles teneantque fideles
+               <lb ed="#P"/>Omne superuacuum pleno de pectore ma<lb ed="#P" break="no"/>nat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e185">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e200">Tullius rethoricorum artis vereris libro
+               <lb ed="#P"/>primo capitulo x</ref> <quote xml:id="bHY6yh-d66288-Qd1e189">Sepe res parum est intellecta lon<lb ed="#P" break="no"/>gitudine 
+               magis quam obscuritate.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e197"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e212">Ibidem xi capitulo</ref> <quote xml:id="bHY6yh-d66288-Qd1e199">Breuitas orationis est cum 
+               <lb ed="#P"/>nisi necessarium assumitur verbum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e207"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e224">Ibidem xiiii capitulo et fine</ref> <quote xml:id="bHY6yh-d66288-Qd1e209">Commotis animis 
+               <lb ed="#P"/>diutius in conquestione morari non opor<lb ed="#P" break="no"/>tebit. 
+               / Quemadmodum enim dixit / Apo<lb ed="#P" break="no"/>lius 
+               rector / lerima nichil citius 
+               <lb ed="#P"/>arescit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e222"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e240">Idem rethoricorum artis noue libro primo capitulo
+               <lb ed="#P"/>v</ref> <quote xml:id="bHY6yh-d66288-Qd1e224">Quo breuior eo lucidior et 
+               <cb ed="#P" n="b"/>
+               <lb ed="#P"/>cognita facilior narratio est.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e251">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e253">Ibidem libro ii capitulo vii</ref> <quote xml:id="bHY6yh-d66288-Qd1e255">Conmiserati<lb ed="#P" break="no"/>onem
+               breuem esse oportet</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e236"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e265">Idem de iure ciuili / et iustitia naturali
+               <lb ed="#P"/>siue de legibus libro iii</ref> <quote xml:id="bHY6yh-d66288-Qd1e238">Breuitas ma<lb ed="#P" break="no"/>gna 
+               laus est in sententia nec usque longa ora<lb ed="#P" break="no"/>tione 
+               utendum.</quote>
+          </p>
+          <p xml:id="bHY6yh-d66288-d1e282">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e286">Lex codi de veteri iure enucleando libro ii</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d66288-Qd1e290">Multo utilius est pauca indonee effun<lb ed="#P" break="no"/>dere 
+               quam multis inutilibus homines pregra<lb ed="#P" break="no"/>uare.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e259">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e300">Priscianus in prohemio</ref> <quote xml:id="bHY6yh-d66288-Qd1e263">in magna operis 
+               <lb ed="#P"/>materia impossibile est aliquid perfectum bre<lb ed="#P" break="no"/>uiter 
+               exponi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e271"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e312">Idem libro vii ti de vocatiuo singula<lb ed="#P" break="no"/>ri 
+               secunde declinationis</ref> <quote xml:id="bHY6yh-d66288-Qd1e273">iuniores bre<lb ed="#P" break="no"/>uitate 
+               gaudent.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e281">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e327">Gregorius in pastorali capitulo xvi</ref> <quote xml:id="bHY6yh-d66288-Qd1e285">Sepe 
+               <lb ed="#P"/>dicto virtus perditur cum apud audien<lb ed="#P" break="no"/>tium
+               corda minimus cauta cauta inportuni<lb ed="#P" break="no"/>tatis 
+               loquacitas levigatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e293">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e342">Isidorus in sinonomia soliloquiorum libro
+               <lb ed="#P"/>ii capitulo xiii</ref> <quote xml:id="bHY6yh-d66288-Qd1e297">Tolle verbositatem sermo<lb ed="#P" break="no"/>nis 
+               superflui Multiloquium non effugiet 
+               <lb ed="#P"/>culpam breues sermone scientia facit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e308">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e358">Mattheus vindocinesis in poetria parte prima
+               <lb ed="#P"/>capitulo viii</ref> <quote xml:id="bHY6yh-d66288-Qd1e312">Prolixitas nouerca est memorie.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e318"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e371">Ibidem viiii capitulo</ref> <quote xml:id="bHY6yh-d66288-Qd1e320">breuitas sibi aperta sibi 
+               <pb ed="#P" n="140-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P"/>amicat audatiam.</quote>
+          </p>
+          <p xml:id="bHY6yh-d66288-d1e380">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e384">Ibidem capitulo x</ref> <quote xml:id="bHY6yh-d66288-Qd1e386">Uerborum confusio nouerca est 
+               <lb ed="#P"/>intelligentie et doctrine pretendit offendi 
+               <lb ed="#P"/>cultum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e332"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e396">Ibidem xxiii capitulo</ref> <quote xml:id="bHY6yh-d66288-Qd1e334">prolixitas fastidii puer<lb ed="#P" break="no"/>pera
+               est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e340"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e406">Ibidem parte ii capitulo iii</ref> <quote xml:id="bHY6yh-d66288-Qd1e342">Infinitas nouerca 
+               <lb ed="#P"/>est discipline / et amica confusionis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e348">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e419">Iacobus beneuentanus capitulo lvii et pe</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d66288-Qd1e352">Inuidiam generat et longus tedia sermo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e358">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d66288-Rd1e431">Ricchardus iudex venusinus libro de per<lb ed="#P" break="no"/>tractatione 
+               nuptiarum capitulo primo</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d66288-Qd1e362">Sermo breuis longo gratior esse solet.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
