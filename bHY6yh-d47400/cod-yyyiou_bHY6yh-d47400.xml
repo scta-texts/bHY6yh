@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 8</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 8</title>
+               <date when="2024-01-17">January 17, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="63-r"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d47400"><!-- p3l1-r8 -->
+            <head xml:id="bHY6yh-d47400-Hd1e108">Rubrica 8</head>
+            <head xml:id="bHY6yh-d47400-Hd1e111" type="question-title">De dubio</head>
+            <p xml:id="bHY6yh-d47400-d1e114">
+              De dubio ca<lb ed="#C" break="no"/>pitulum
+            </p>
+            <!--next paragraph begins on the same line as the previous paragraph-->
+            <p xml:id="bHY6yh-d47400-d1e119">
+              <ref xml:id="bHY6yh-d47400-Rd1e116">SAlomon
+              <lb ed="#C"/>in ecclesiastico capitulo 27</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d47400-Qd1e125">Ne glorieris in crastinum ignorans enim
+              <lb ed="#C"/>quid super uentura pariat dies</quote>
+            </p>
+            <p xml:id="bHY6yh-d47400-d1e133">
+              ¶ <ref xml:id="bHY6yh-d47400-Rd1e132">Teren<lb ed="#C" break="no"/>tius 
+              in andria capitulo 6</ref> <quote xml:id="bHY6yh-d47400-Qd1e137">Dum in dubio est
+              <lb ed="#C"/>animus paulo memento huc illuc impellitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d47400-d1e144">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d47400-Rd1e145">Iacobus I capitulum capitulo I</ref> <quote xml:id="bHY6yh-d47400-Qd1e148">Qui hesitat fluctui
+              <lb ed="#C"/>maris qui a uento mouetur et uix duplex
+              <lb ed="#C"/>animo inconstans et in omnibus uiis suis</quote>
+            </p>
+            <p xml:id="bHY6yh-d47400-d1e158">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d47400-Rd1e161">Seneca epistola ad lucillum libro IX capitulo 4 et penultima</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d47400-Qd1e162">In uoluntate rerum humanarum nichil
+              <lb ed="#C"/>cuiquam nisi mors certum est</quote>
+            </p>
+            <p xml:id="bHY6yh-d47400-d1e170">
+              ¶ <ref xml:id="bHY6yh-d47400-Rd1e174">Idem tragediarum in edipoesis
+              <lb ed="#C"/>capitulo 3</ref> <quote xml:id="bHY6yh-d47400-Qd1e172">ubi leta dubis mixta in ambigu<lb ed="#C" break="no"/>o 
+              iacent Incertus est animus scire quid</quote> 
+            </p>
+            <!--next paragraph is a written as a continuation of the previous paragraph-->
+            <p xml:id="bHY6yh-d47400-d1e187">
+              <quote xml:id="bHY6yh-d47400-Qd1e193">refugit
+              <lb ed="#C"/>suas generat timorem dubia plus torquet
+              <lb ed="#C"/>mala</quote>
+            </p>
+            <p xml:id="bHY6yh-d47400-d1e186">
+              ¶ <ref xml:id="bHY6yh-d47400-Rd1e203">Idem de naturalibus questionibus libro V</ref> <quote xml:id="bHY6yh-d47400-Qd1e190">Arduum est ex
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/>his que coniectura sequenda sunt aliquid
+              <lb ed="#C"/>certum promittere</quote>
+            </p>
+            <p xml:id="bHY6yh-d47400-d1e198">
+              ¶ <ref xml:id="bHY6yh-d47400-Rd1e217">Auctor libro de formula honeste uite capitulo
+              <lb ed="#C"/>II</ref> <quote xml:id="bHY6yh-d47400-Qd1e202">De dubiis non diffinies sed suspensam
+              <lb ed="#C"/>tene sententiam</quote>
+            </p>
+            <p xml:id="bHY6yh-d47400-d1e208">
+              ¶ <ref xml:id="bHY6yh-d47400-Rd1e230">Cassiodorus de anima capitulo IX</ref> <quote xml:id="bHY6yh-d47400-Qd1e212">Me<lb ed="#C" break="no"/>lius 
+              est in occultis causis confiteri confiteri igno<lb ed="#C" break="no"/>rantiam 
+              quam periculosam assumere fortasse
+              <lb ed="#C"/>audaciam</quote>
+            </p>
+            <p xml:id="bHY6yh-d47400-d1e221">
+              ¶ <ref xml:id="bHY6yh-d47400-Rd1e244">ysidorus soliloquiorum libro 2 capitulo 41</ref> <quote xml:id="bHY6yh-d47400-Qd1e225">Ancipi<lb ed="#C" break="no"/>tem 
+              diu delibera sententiam</quote>
+            </p>
+            <p xml:id="bHY6yh-d47400-d1e231">
+              ¶ <ref xml:id="bHY6yh-d47400-Rd1e254">Idem capitulo L</ref> <quote xml:id="bHY6yh-d47400-Qd1e233">In am<lb ed="#C" break="no"/>biguis 
+              deo serua sententiam</quote>
+            </p>
+            <p xml:id="bHY6yh-d47400-d1e239">
+              ¶ <ref xml:id="bHY6yh-d47400-Rd1e266">Auctor libri qui dicitur
+              <lb ed="#C"/>pamphilus capitulo 3</ref> <quote xml:id="bHY6yh-d47400-Qd1e243">pellitur huc animus hominum
+              <lb ed="#C"/>depellitur illuc Sepe labore breui dum ma<lb ed="#C" break="no"/>net 
+              in dubio</quote>
+            </p>
+            <p xml:id="bHY6yh-d47400-d1e251">
+              ¶ <ref xml:id="bHY6yh-d47400-Rd1e280">Montenarius in luna clerico capitulo CIIII</ref>
+              <quote xml:id="bHY6yh-d47400-Qd1e255">In dubiis sapiens centensimo quamtotius intrum</quote>
+            </p>
+            <p xml:id="bHY6yh-d47400-d1e261">
+              <ref xml:id="bHY6yh-d47400-Rd1e292">Prouerbiis metricum</ref> <quote xml:id="bHY6yh-d47400-Qd1e265">Sub dubio forsan respondent
+              <lb ed="#C"/>sepe periti</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
