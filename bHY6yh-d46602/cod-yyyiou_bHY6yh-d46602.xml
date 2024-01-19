@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4</title>
+               <date when="2024-01-19">January 19, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="64-r"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d46602"><!-- p3l1-r4 -->
+            <head xml:id="bHY6yh-d46602-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-d46602-Hd1e111" type="question-title">De ratione morali consideratione</head>
+            <p xml:id="bHY6yh-d46602-d1e114">
+              De experienti<lb ed="#C" break="no"/>a 
+              capitulum
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e119">
+              <ref xml:id="bHY6yh-d46602-Rd1e115">Plato in
+              <lb ed="#C"/>menone</ref> <quote xml:id="bHY6yh-d46602-Qd1e123">Quotiens absque mente
+              <lb ed="#C"/>audet homo leditur quotiens uero cum
+              <lb ed="#C"/>mente proficitur</quote> 
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e135">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e135">Aristoteles ethicorum libro I capitulo
+              <lb ed="#C"/>VIII et finem</ref> <quote xml:id="bHY6yh-d46602-Qd1e141">Omnia consonant rationi</quote> 
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e147">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e146">Idem mag<lb ed="#C" break="no"/>norum 
+              moralium libro capitulo 3</ref> <quote xml:id="bHY6yh-d46602-Qd1e149">Que fiunt absque
+              <lb ed="#C"/>ratione iudicante a fortuna sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e152">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e159">Idem
+              <lb ed="#C"/>physicorum libro 8 capitulo 3</ref> <quote xml:id="bHY6yh-d46602-Qd1e154">Ordinatio omnis ratio est</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e160">
+              <ref xml:id="bHY6yh-d46602-Rd1e172">Tullius tusculanarum questionum libro 3</ref> <quote xml:id="bHY6yh-d46602-Qd1e164">Munus animi est ratione bene
+              <lb ed="#C"/>uti Sapientis animus ita semper affectus est
+              <lb ed="#C"/>ut ratione optime utatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e174">
+              <ref xml:id="bHY6yh-d46602-Rd1e185">Idem libro 4</ref> <quote xml:id="bHY6yh-d46602-Qd1e176">Bene adhibita ratio conuerit quid opti<lb ed="#C" break="no"/>mum 
+              sit neglecta uero multis implicatur
+              <lb ed="#C"/>erroribus uel sine ratione recte fieri potest</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e186">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e199">Idem
+              <lb ed="#C"/>de legibus libro I</ref> <quote xml:id="bHY6yh-d46602-Qd1e188">Quid est non dicam in homine
+              <lb ed="#C"/>sed in celo atquem terra ratione diuinius que cum
+              <lb ed="#C"/>adoleuit perfecta est et nominatur rite sapientia</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e198">
+              <ref xml:id="bHY6yh-d46602-Rd1e216">IDem libro 2</ref> <quote xml:id="bHY6yh-d46602-Qd1e202">Lex uera atque princeps acta ad iu<lb ed="#C" break="no"/>bendum 
+              et ad uetandum est ratio recta</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e208">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e227">Idem
+              <lb ed="#C"/>de fine bonorum et malorum libro 4</ref> <quote xml:id="bHY6yh-d46602-Qd1e210">Rationis per<lb ed="#C" break="no"/>fectio 
+              est uirtus</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e216">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e240">Idem de natura deorum libro 2</ref> <quote xml:id="bHY6yh-d46602-Qd1e218">Nic<lb ed="#C" break="no"/>hil 
+              est mente et ratione melius</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e221">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e253">Seneca e<lb ed="#C" break="no"/>pistolarum 
+              ad lucillum libro V epistola VIII</ref> <quote xml:id="bHY6yh-d46602-Qd1e225">Si uis om<lb ed="#C" break="no"/>nia 
+              tibi subiicere subiice te rationi</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e231">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e265">Idem libro
+              <lb ed="#C"/>8 epistola I</ref> <quote xml:id="bHY6yh-d46602-Qd1e235">Ratio nichil aliud est quam in corpus
+              <lb ed="#C"/>humanum pars diuini spiritus mersa Nullum
+              <lb ed="#C"/>bonum est fine ratione est Quicquid uera ratio commendat
+              <lb ed="#C"/>solidum et eternum est firmat animum attollit<lb ed="#C" break="no"/>que 
+              futurum semper in excelso uirtus non aliud
+              <lb ed="#C"/>quam recta ratio est omnes uirtutes rationes sunt Sequitur
+              <lb ed="#C"/>ratio naturam quid ergo est ratio nature</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e254">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d46602-Rd1e288">Idem libro 14 epistola 2</ref> <quote xml:id="bHY6yh-d46602-Qd1e256">Ratione nichil ualentius
+              <lb ed="#C"/>est casum que dolorem et iniuriam subiit yma
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/>rationem huius te amor contra durissima arma<lb ed="#C" break="no"/>bit</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e266">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e301">Idem libro 17 epistola 4 et penultimo</ref> <quote xml:id="bHY6yh-d46602-Qd1e268">Omnia ad
+              <lb ed="#C"/>rationem reuocanda sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e274">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e315">Idem de beneficiis libro 4</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d46602-Qd1e278">Nichil sine ratione faciendum</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e284">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e327">Lex digestum titulo de le<lb ed="#C" break="no"/>gatibus 
+              libro infrascripta</ref> <quote xml:id="bHY6yh-d46602-Qd1e288">Non omnium que a maioribus
+              <lb ed="#C"/>sunt tradita ratio reddi potest</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e297">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e339">Ibidem titulo ad legis
+              <lb ed="#C"/>acquilis libro ita uulneratus</ref> <quote xml:id="bHY6yh-d46602-Qd1e299">Multa iure ciuili contra
+              <lb ed="#C"/>rationem disputandi pro utilitate communi re<lb ed="#C" break="no"/>cepta 
+              sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e307">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e354">Maximianus</ref> <quote xml:id="bHY6yh-d46602-Qd1e311">Plus ratio quam uis ceca 
+              <lb ed="#C"/>ualere solet</quote>
+            </p>
+            <p xml:id="bHY6yh-d46602-d1e317">
+              ¶ <ref xml:id="bHY6yh-d46602-Rd1e366">Cassiodorus libro I epistola IX</ref> <quote xml:id="bHY6yh-d46602-Qd1e321">fidem
+              <lb ed="#C"/>siquidem rerum a ratione colligimus que nunquam de<lb ed="#C" break="no"/>siderantibus 
+              absconditur uide summa</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
