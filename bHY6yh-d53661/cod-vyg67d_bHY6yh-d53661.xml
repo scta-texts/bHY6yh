@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 14</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Alicia Koepke</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 14</title>
+          <date when="2024-01-23">January 23, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-01-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#O" n="117-r"/>
+        <cb ed="#O" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d53661"><!-- p3l2-r14 -->
+        <head xml:id="bHY6yh-d53661-Hd1e108">Rubrica 14</head>
+        <head xml:id="bHY6yh-d53661-Hd1e111" type="question-title">De certitudine et incertitudine</head>
+        <p xml:id="bHY6yh-d53661-d1e114">
+           De certi$tudine 
+           et incertitudine. Rubrica. 14
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e121">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d53661-Rd1e118">SAlomon in eccl capitulo 9.</ref> ¶ <quote xml:id="bHY6yh-d53661-Qd1e127">Omnia 
+           <lb ed="#O"/>in futuro seruantur incerta.</quote> 
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e135">  
+           <lb ed="#O"/><ref xml:id="bHY6yh-d53661-Rd1e132">SAlustius in iugurtino.</ref> <quote xml:id="bHY6yh-d53661-Qd1e137">non 
+           <lb ed="#O"/>debent certa pro incertis mu$tari.</quote>
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e144">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d53661-Rd1e145">PA<!--line bumps up-->ladius. capitulo 7.</ref> ¶ <quote xml:id="bHY6yh-d53661-Qd1e148">Rerum sine <!--line bumps back down--> culpa melior usus est quam 
+           <lb ed="#O"/>cum spe corrigendi serus e$uentus.</quote>
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e154">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d53661-Rd1e157">MAxi<!--line bumps up-->mianus</ref> ¶ <quote xml:id="bHY6yh-d53661-Qd1e158">Nonne placet <!--line bumps back down--> melius certis confidere 
+           <lb ed="#O"/>rebus. Euentus uarios res 
+           <lb ed="#O"/>noua semper habet.</quote>
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e166">
+           <!--line bumps down-->
+           <lb ed="#O"/><ref xml:id="bHY6yh-d53661-Rd1e171">CAto. capitulo 2.</ref> ¶ <quote xml:id="bHY6yh-d53661-Qd1e170">Rem <!--line bumps up--> tibi promissam <!--line bumps back down--> certam promittere 
+           <lb ed="#O"/>noli. ¶ Ignotum tibimet no$li 
+           proponere notis. Cognita iudicio 
+           <lb ed="#O"/>constat incognita casu.</quote>
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e180">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d53661-Rd1e187">BOetius de consolatione libro 1. capitulo 11.</ref> <quote xml:id="bHY6yh-d53661-Qd1e184">Quod
+           <lb ed="#O"/>praecipiti uia certum deserit ordi$nem 
+           letos non habet exitum.</quote>
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e192">
+           <lb ed="#O"/><ref xml:id="bHY6yh-d53661-Rd1e201">UErsificator fabularum exopi fab. 5.</ref>
+           <lb ed="#O"/><quote xml:id="bHY6yh-d53661-Qd1e196">Non igitur debent prouanis 
+           <lb ed="#O"/>certa relinqui.</quote>
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e202">
+<!--LEFT OFF HERE-->
+           <ref xml:id="bHY6yh-d53661-Rd1e213">Baldo. 9. fabula.</ref> <quote xml:id="bHY6yh-d53661-Qd1e206">Nec que sunt extra faciant uos linquere uestra.</quote>
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e213">
+           <ref xml:id="bHY6yh-d53661-Rd1e226">Idem de beneficiis libro 4.</ref> <quote xml:id="bHY6yh-d53661-Qd1e217">Nichil sine ratione faciendum est.</quote>
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e223">
+           <ref xml:id="bHY6yh-d53661-Rd1e238">Lex diges. ti. de legibus. li. infrascripta.</ref> <quote xml:id="bHY6yh-d53661-Qd1e227">Non
+           omnium que a maioribus constituta sunt ratio reddi potest.</quote>
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e235">
+           <ref xml:id="bHY6yh-d53661-Rd1e250">t. ad le. acquilis li. ita uulneratus</ref> <quote xml:id="bHY6yh-d53661-Qd1e255">Multa iure ciuili contra 
+           rationem disputandi pro utilitate communi recepta sunt.</quote>
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e245">
+           <ref xml:id="bHY6yh-d53661-Rd1e265">Maximianus</ref> <quote xml:id="bHY6yh-d53661-Qd1e249">Plus ratio quamuis ceca ualere solet.</quote>
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e255">
+           <ref xml:id="bHY6yh-d53661-Rd1e277">Cassiodorus epistolarum libro 1. epistola 9.</ref> <quote xml:id="bHY6yh-d53661-Qd1e259">Fidem 
+           siquidem rerum a ratione colligimus que nunquam</quote> 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
