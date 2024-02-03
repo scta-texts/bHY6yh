@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 8</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 8</title>
+               <date when="2024-02-03">February 3, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-02-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#C" n="71-v"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d52152"><!-- p3l2-r8 -->
+            <head xml:id="bHY6yh-d52152-Hd1e108">Rubrica 8</head>
+            <head xml:id="bHY6yh-d52152-Hd1e111" type="question-title">De finis consideratione</head>
+            <p xml:id="bHY6yh-d52152-d1e114">
+              De fine et con<lb ed="# " break="no"/>sideratione 
+              capitulum
+            </p>
+            <!--next paragraph begins on the same line as the previous paragraph-->
+            <p xml:id="bHY6yh-d52152-d1e119">
+              <ref xml:id="bHY6yh-d52152-Rd1e116">Socrates
+              <lb ed="#C"/>in exhorta<lb ed="# " break="no"/>tionibus 
+              capitulo 3 et finem</ref> <quote xml:id="bHY6yh-d52152-Qd1e127">In omnibus operibus nota
+              <lb ed="#C"/>ita finem ut principium perpendimus</quote> 
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e133">
+              ¶ 
+              <lb ed="#C"/><ref xml:id="bHY6yh-d52152-Rd1e133">Aristoteles libro I capitulo I</ref> <quote xml:id="bHY6yh-d52152-Qd1e137">Multis operationibus entibus
+              <lb ed="#C"/>et artibus et doctrinis multi fiunt fines</quote> 
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e146">
+              <lb ed="#C"/>¶ <quote xml:id="bHY6yh-d52152-Qd1e148"> <ref xml:id="bHY6yh-d52152-Rd1e148">Idem 3 capitulo</ref> In operatione et electione finis
+              <lb ed="#C"/>bonus huius enim gratia reliqua operantur
+              <lb ed="#C"/>omnes</quote>
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e156">
+              ¶ <ref xml:id="bHY6yh-d52152-Rd1e158">Idem politicorum libro III capitulo VII</ref> <quote xml:id="bHY6yh-d52152-Qd1e158">In omnibus
+              <lb ed="#C"/>scientiis et artibus bonum maximum est
+              <lb ed="#C"/>finis</quote>
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e164">
+              ¶ <ref xml:id="bHY6yh-d52152-Rd1e173">Ouidius epistolarum 2 epistola</ref> <quote xml:id="bHY6yh-d52152-Qd1e168">Exitus ac<lb ed="# " break="no"/>ta 
+              probat careat successibus opto quisquis
+              <lb ed="#C"/>ab euentum facta notanda putat</quote>
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e176">
+              ¶ <ref xml:id="bHY6yh-d52152-Rd1e187">Idem
+              <lb ed="#C"/>methamorphoses libro 3</ref> <quote xml:id="bHY6yh-d52152-Qd1e180">vltima semper expectanda
+              <lb ed="#C"/>dies hominis est dicique beatus Ante obi<lb ed="# " break="no"/>tum 
+              nemo supprema que funera dedit de<lb ed="# " break="no"/>bet </quote>
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e197">
+              ¶ <ref xml:id="bHY6yh-d52152-Rd1e215">Valerius libro 7 titulo sapienter dicta aut facta</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d52152-Qd1e201">Solon neminem adhuc dum adhuc ui<pb ed="#C" n="72-r"/><cb ed="#C" n="a"/><lb ed="#C"/>ueret 
+              beatum dici debere arbitrabatur quod
+              <lb ed="#C"/>ad ultimum usque fati dicit ancipiti for<lb ed="# " break="no"/>tuna 
+              subiecti essemus</quote>
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e211">
+              ¶ <ref xml:id="bHY6yh-d52152-Rd1e230">Marcialis cocus libro vndique suscepto
+              <lb ed="#C"/>capitulo 2</ref> <quote xml:id="bHY6yh-d52152-Qd1e215">Incipit alcunades uirtuti sepe stu<lb ed="# " break="no"/>dere 
+              sed si fine parum proderit incipere Se<lb ed="# " break="no"/>pe 
+              dolor leto prodiit introitu</quote>
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e226">
+              ¶ <ref xml:id="bHY6yh-d52152-Rd1e247">Auctor libri
+              <lb ed="#C"/>de formulae honeste uite capitulo 2</ref> <quote xml:id="bHY6yh-d52152-Qd1e230">Cum initiaueris ex<lb ed="# " break="no"/>itus 
+              cogitabis</quote>
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e236">
+              ¶ <ref xml:id="bHY6yh-d52152-Rd1e259">Prosperi sub XX epigramatus</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d52152-Qd1e240">palmam qua capitur gloria finis
+              <lb ed="#C"/>habet</quote>
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e246">
+              ¶ <ref xml:id="bHY6yh-d52152-Rd1e271">Boetius de consolatione libro 2 praesentibus I</ref> <quote xml:id="bHY6yh-d52152-Qd1e250">Quod ante
+              <lb ed="#C"/>oculos uide summa</quote>
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e258">
+              ¶ <ref xml:id="bHY6yh-d52152-Rd1e285">ysidorus soliloquiorum libro 2 capitulo 42</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d52152-Qd1e262">Summa miseria uide summa</quote>
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e268">
+              ¶ <ref xml:id="bHY6yh-d52152-Rd1e295">Idem capitulo 53</ref> <quote xml:id="bHY6yh-d52152-Qd1e270">In omni
+              <lb ed="#C"/>re finis intenditur</quote>
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e276">
+              ¶ <ref xml:id="bHY6yh-d52152-Rd1e307">Versificator fabularum esopi
+              <lb ed="#C"/>fabula 23</ref> <quote xml:id="bHY6yh-d52152-Qd1e280">Si quid agas summa</quote>
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e287">
+              ¶ <ref xml:id="bHY6yh-d52152-Rd1e320">Auctor libri qui dicitur
+              <lb ed="#C"/>pamphilus capitulo XVIII</ref> <quote xml:id="bHY6yh-d52152-Qd1e291">Principium finemque simul summa</quote>
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e303">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d52152-Rd1e338">Auctor rudium libro I</ref> <quote xml:id="bHY6yh-d52152-Qd1e307">Non datur extraordine bonus
+              <lb ed="#C"/>post primordia merces Congrua sed rectus
+              <lb ed="#C"/>premia finis habet</quote>
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e315">
+              ¶ <ref xml:id="bHY6yh-d52152-Rd1e355">Mattheus vindocinensis po<lb ed="# " break="no"/>etria 
+              parte 2 et finem capitulo 4</ref> <quote xml:id="bHY6yh-d52152-Qd1e319">Quod complere ne<lb ed="# " break="no"/>quis 
+              principiare caue</quote>
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e325">
+              ¶ <ref xml:id="bHY6yh-d52152-Rd1e368">Gualfredus in
+              <lb ed="#C"/>poetria capitulo 30</ref> <quote xml:id="bHY6yh-d52152-Qd1e329">A casu describe diem non
+              <lb ed="#C"/>solis abortu cum totum feccisse pates
+              <lb ed="#C"/>latet anguis in herba</quote>
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e335">
+              ¶ <ref xml:id="bHY6yh-d52152-Rd1e380">Iacobus beneuentanus capitulo 40</ref> <quote xml:id="bHY6yh-d52152-Qd1e339">Pre<lb ed="# " break="no"/>meditare 
+              prius homo quam res operari inci<lb ed="# " break="no"/>pias 
+              fiat finis ut actus eis principi<lb ed="# " break="no"/>um 
+              sapiens et finem premeditatur finis
+              <lb ed="#C"/>habet rerum dedecus atque decus</quote>
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e351">
+              ¶ <ref xml:id="bHY6yh-d52152-Rd1e398">Auctor
+              <lb ed="#C"/>qui dicitur astrolabi</ref> <quote xml:id="bHY6yh-d52152-Qd1e355">Occasum sapiens stul<lb ed="# " break="no"/>tum 
+              conscidem ortum Finis quippe rei can<lb ed="# " break="no"/>tica 
+              laudis habet</quote>
+            </p>
+            <p xml:id="bHY6yh-d52152-d1e364">
+              ¶ <ref xml:id="bHY6yh-d52152-Rd1e413">Prouerbiis</ref> <quote xml:id="bHY6yh-d52152-Qd1e368">omnis laueris insin<lb ed="# " break="no"/>cantur</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
