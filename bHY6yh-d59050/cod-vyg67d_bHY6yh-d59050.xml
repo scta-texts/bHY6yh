@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4</title>
+               <date when="2024-02-04">February 8, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-02-08" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#O" n="127-v"/>
+           <cb ed="#O" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d59050"><!-- p3l4-r4 -->
+            <head xml:id="bHY6yh-d59050-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-d59050-Hd1e111" type="question-title">De promotione ingeniositatis et artificiositatis</head>
+            <p xml:id="bHY6yh-d59050-d1e114">
+               De promotione inge<lb ed="#O" break="no"/>niositatis 
+               et artificiositatis. Rubrica. 4
+            </p>
+            <p xml:id="bHY6yh-d59050-d1e121">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d59050-Rd1e122">SAlustius in catilinario.</ref> ¶ <quote xml:id="bHY6yh-d59050-Qd1e127">Ubi 
+               <lb ed="#O"/>intenderis ingenium ualet.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d59050-d1e133">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d59050-Rd1e136">Ouidius de arte amandi. libro 2.</ref> 
+               <lb ed="#O"/><quote xml:id="bHY6yh-d59050-Qd1e137">Ingenium mala sepe 
+               <pb ed="#O" n="128-r"/>
+               <cb ed="#O" n="a"/>
+               <lb ed="#O"/>mouent.</quote>
+            </p>
+            <p xml:id="bHY6yh-d59050-d1e144"> 
+               <lb ed="#O"/>¶ <ref xml:id="bHY6yh-d59050-Rd1e147">Idem methamor. libro 6.</ref> ¶ <quote xml:id="bHY6yh-d59050-Qd1e146">Grande do<lb ed="#O" break="no"/>loris 
+               ingenium est miserisque uenit 
+               <lb ed="#O"/>solertia rebus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d59050-d1e154">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d59050-Rd1e162">AUctor l qui <!--line bumps up--> dicitur pamphilus. <!--line bumps back down--> capitulo 30.</ref> ¶ <quote xml:id="bHY6yh-d59050-Qd1e158">Concipit 
+               <lb ed="#O"/>ingentes animos inanis egestas. 
+               <lb ed="#O"/>Et facit hoc hominem sepius artificem.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
