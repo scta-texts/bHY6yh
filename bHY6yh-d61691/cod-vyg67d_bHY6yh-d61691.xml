@@ -9,11 +9,16 @@
                <resp>Transcription Editor</resp>
                <resp>TEI Encoder</resp>
             </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="0.0.0-dev">
                <title>Rubrica 3</title>
-               <date when="2021-05-18">May 18, 2021</date>
+               <date when="2024-02-15">February 15, 2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -25,7 +30,7 @@
          </publicationStmt>
          <sourceDesc>
             <listWit>
-               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -38,7 +43,7 @@
       </encodingDesc>
       <revisionDesc status="draft">
          <listChange>
-            <change when="2021-05-18" status="draft" n="0.0.0">
+            <change when="2024-02-15" status="draft" n="0.0.0">
                <p>Created file for the first time.</p>
             </change>
          </listChange>
@@ -47,8 +52,8 @@
    <text xml:lang="la">
       <front>
          <div xml:id="starts-on">
-            <pb ed="#V" n="75-r"/>
-            <cb ed="#V" n="b"/>
+            <pb ed="#O" n="133-r"/>
+            <cb ed="#O" n="a"/>
          </div>
       </front>
       <body>
@@ -56,108 +61,124 @@
             <head xml:id="bHY6yh-d61691-Hd1e108">Rubrica 3</head>
             <head xml:id="bHY6yh-d61691-Hd1e111" type="question-title">Quando loquendum sit</head>
             <p xml:id="bHY6yh-d61691-d1e114">
-               <lb ed="#V" n="78"/>
-      ¶ Quando sit loquendum. Rubrica. 3
-    </p>
+               Quando sit loquen<lb ed="#O" break="no"/>dum. 
+               Rubrica. 3
+            </p>
             <p xml:id="bHY6yh-d61691-d1e119">
-               <lb ed="#V" n="79"/> <ref xml:id="bHY6yh-d61691-Rd1e116">SAlomon in prouerb. c. 15.</ref>
-      <lb ed="#V" n="80"/>
-               <quote xml:id="bHY6yh-d61691-Qd1e125">Responsio 
-               mol<lb ed="#V" n="81" break="no"/>lis frangit iram sermo durus 
-               susci<lb ed="#V" n="82" break="no"/>tat furorem.</quote>
+               <lb ed="#O"/><ref xml:id="bHY6yh-d61691-Rd1e116">SAlomon in prouerb. capitulo 15.</ref> ¶ <quote xml:id="bHY6yh-d61691-Qd1e125">Re<lb ed="#O" break="no"/>sponsio 
+               mollis frangit iram 
+               <lb ed="#O"/>sermo durus suscitat furorem.</quote>
             </p>
             <p xml:id="bHY6yh-d61691-d1e133">
-               <ref xml:id="bHY6yh-d61691-Rd1e130">18. c.</ref> <quote xml:id="bHY6yh-d61691-Qd1e135">Qui prius 
-               respon<lb ed="#V" n="83" break="no"/>det quam audiat stultum esse se demonstrat: et
-        <lb ed="#V" n="84"/>confusione dignum.</quote> 
+               ¶ <ref xml:id="bHY6yh-d61691-Rd1e130">18. 
+               <lb ed="#O"/>capitulo</ref> <quote xml:id="bHY6yh-d61691-Qd1e135">Qui prius respondet quam audiat 
+               <lb ed="#O"/>stultum esse se demonstrat et con<lb ed="#O" break="no"/>fusione 
+               dignum.</quote> 
             </p>
             <p xml:id="bHY6yh-d61691-d1e144"> 
-             / <ref xml:id="bHY6yh-d61691-Rd1e143">26 c.</ref> <quote xml:id="bHY6yh-d61691-Qd1e146">Ne 
-               responde<lb ed="#V" n="85" break="no"/>as stulto iuxta stultitiam suam: ne efficiaris
-        <lb ed="#V" n="86"/>ei similis. Responde stulto iuxta stultitiam
-        <lb ed="#V" n="87"/>suam: ne sapiens esse sibi videatur.</quote>
+               ¶ <ref xml:id="bHY6yh-d61691-Rd1e143">26 capitulo</ref> <quote xml:id="bHY6yh-d61691-Qd1e146">ne re<lb ed="#O" break="no"/>spondeas 
+               stulto iuxta stultitiam 
+               <lb ed="#O"/>suam ne efficiaris ei similis. ¶ Responde 
+               <lb ed="#O"/>stulto iuxta stultitiam 
+               <lb ed="#O"/>suam ne sapiens esse 
+               <lb ed="#O"/>sibi uideatur.</quote>
             </p>
             <p xml:id="bHY6yh-d61691-d1e156">
-               <lb ed="#V" n="88"/>¶ <ref xml:id="bHY6yh-d61691-Rd1e159">Aristotelis topicorum. li. 8.</ref> <quote xml:id="bHY6yh-d61691-Qd1e160">Nisi planum sit
-        <lb ed="#V" n="89"/>quod dicitur: non pigritandum est dicere et non
-        <lb ed="#V" n="90"/>intelligere.</quote>
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d61691-Rd1e159">ARistotelis <!--line bumps up--> topicorum. libro 8.</ref> <quote xml:id="bHY6yh-d61691-Qd1e160">ni<!--line bumps back down-->si planum sit quod dicitur 
+               <lb ed="#O"/>non pigritandum est dicere 
+               <lb ed="#O"/>non intelligere.</quote>
             </p>
             <p xml:id="bHY6yh-d61691-d1e168"> 
-             / <ref xml:id="bHY6yh-d61691-Rd1e171">Idem elencorum. lib. 2.</ref> <quote xml:id="bHY6yh-d61691-Qd1e170">Null <!--189.xml-->
-        <pb ed="#V" n="75-v"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>eorum que equiuoca sunt conuenit 
-               respon<lb ed="#V" n="2" break="no"/>dere simpliciter. In quibus est obscurum quod
-        <lb ed="#V" n="3"/>ponitur non concedendum simpliciter.</quote>
+               ¶ <ref xml:id="bHY6yh-d61691-Rd1e171">Idem elencorum. 
+               <lb ed="#O"/>libro 2.</ref> <quote xml:id="bHY6yh-d61691-Qd1e170">Nulli eorum que equiuoca sunt 
+               <lb ed="#O"/>conuenit respondere simpliciter. ¶ 
+               <lb ed="#O"/>In quibus est obscurum quod ponitur non 
+               <lb ed="#O"/>concedendum simpliciter.</quote>
             </p>
             <p xml:id="bHY6yh-d61691-d1e187">
-               <lb ed="#V" n="4"/>¶ <ref xml:id="bHY6yh-d61691-Rd1e194">Iesus filius sirach: in ecclesiast. c. 5.</ref> <quote xml:id="bHY6yh-d61691-Qd1e191">Si est
-        <lb ed="#V" n="5"/>tibi intellectus responde proximo. 
-               Sinau<lb ed="#V" n="6" break="no"/>tem sit manus tua super os tuum: ne 
-               capia<lb ed="#V" n="7" break="no"/>ris in verbo indisciplinato et confundaris.</quote>
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d61691-Rd1e194">IEsus filius sirach <!--line bumps up--> in ecclesiast. capitulo 5.</ref> <quote xml:id="bHY6yh-d61691-Qd1e191">Si <!--line bumps back down--> est tibi in<lb ed="#O" break="no"/>tellectus 
+               Responde proximo Sin 
+               <lb ed="#O"/>autem sit manus tua super os tuum 
+               <lb ed="#O"/>ne capiaris in uerbo indisciplina<lb ed="#O" break="no"/>to 
+               et confundaris.</quote>
             </p>
             <p xml:id="bHY6yh-d61691-d1e201">
-               <lb ed="#V" n="8"/>/ <ref xml:id="bHY6yh-d61691-Rd1e210">11. c.</ref> <quote xml:id="bHY6yh-d61691-Qd1e205">Priusquam audias ne respondeas 
-               ver<lb ed="#V" n="9" break="no"/>bum.</quote>
+               ¶ <ref xml:id="bHY6yh-d61691-Rd1e210">11. capitulo</ref> <quote xml:id="bHY6yh-d61691-Qd1e205">Priusquam 
+               <lb ed="#O"/>audias ne respondeas uerbum.</quote>
             </p>
             <p xml:id="bHY6yh-d61691-d1e211"> 
-             / <ref xml:id="bHY6yh-d61691-Rd1e220">32. c.</ref> <quote xml:id="bHY6yh-d61691-Qd1e213">Si bis interrogatus fueris 
-               ha<lb ed="#V" n="10" break="no"/>beat caput responsum tuum. In multis esto
-        <lb ed="#V" n="11"/>quasi inscius et audita tacens simul et 
-               que<lb ed="#V" n="12" break="no"/>rens.</quote>
+               ¶ <ref xml:id="bHY6yh-d61691-Rd1e220">
+               <lb ed="#O"/>32. capitulo</ref> <quote xml:id="bHY6yh-d61691-Qd1e213">Si bis interrogatus fueris ha<lb ed="#O" break="no"/>beat 
+               caput responsum tuum. ¶ In 
+               <cb ed="#O" n="b"/>
+                <lb ed="#O"/>multis esto quasi inscius et audita ta<lb ed="#O" break="no"/>cens 
+                simul et querens.</quote>
             </p>
             <p xml:id="bHY6yh-d61691-d1e224"> 
-             / <ref xml:id="bHY6yh-d61691-Rd1e235">41. c.</ref> <quote xml:id="bHY6yh-d61691-Qd1e226">Erubescite a salutaribus de
-        <lb ed="#V" n="13"/>silentio.</quote>
+               ¶ <ref xml:id="bHY6yh-d61691-Rd1e235">41. capitulo</ref> <quote xml:id="bHY6yh-d61691-Qd1e226">E<lb ed="#O" break="no"/>rubescite 
+               <lb ed="#O"/>asalutaribus de silentio.</quote>
             </p>
             <p xml:id="bHY6yh-d61691-d1e232">
-               <lb ed="#V" n="14"/>¶ <ref xml:id="bHY6yh-d61691-Rd1e247">Paulus apostolus in epistola. i. ad 
-               corin<lb ed="#V" n="15" break="no"/>thios. c. 14.</ref> <quote xml:id="bHY6yh-d61691-Qd1e236">Quomodo dicit amen super tuam 
-               be<lb ed="#V" n="16" break="no"/>nedictionem quicquid dicas nescitur.</quote>
+               <lb ed="#O"/><ref xml:id="bHY6yh-d61691-Rd1e247">Paulus apostolus in epistola. 1. ad co<lb ed="#O" break="no"/>rinthios. 
+               capitulo 14.</ref> ¶ <quote xml:id="bHY6yh-d61691-Qd1e236">Quomodo dicit 
+               <lb ed="#O"/>amen. super tuam benedictionem quic<lb ed="#O" break="no"/>quid 
+               dicas nescitur.</quote>
             </p>
             <p xml:id="bHY6yh-d61691-d1e244">
-               <lb ed="#V" n="17"/>¶ <ref xml:id="bHY6yh-d61691-Rd1e262">Lex dige. ti. de legibus. l. infrascripta.</ref> <quote xml:id="bHY6yh-d61691-Qd1e248">In
-        <lb ed="#V" n="18"/>ciuile est nisi tota lege perspecta: vna aliqua
-        <lb ed="#V" n="19"/>pticula eius proposita iudicare: vel respondere.</quote>
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d61691-Rd1e262">LEx dige. ti. de legibus. <!--line bumps up--> l. infrascrip<!--line bumps back down-->ta.</ref> ¶ <quote xml:id="bHY6yh-d61691-Qd1e248">In ciui<lb ed="#O" break="no"/>le 
+               est nisi tota lege prospec<lb ed="#O" break="no"/>ta 
+               Una aliqua pticula eius proposita 
+               <lb ed="#O"/>indicare uel respondere.</quote>
             </p>
             <p xml:id="bHY6yh-d61691-d1e256">
-               <lb ed="#V" n="20"/>¶ <ref xml:id="bHY6yh-d61691-Rd1e276">Marcialis cocus l. vndique suscepto. c. 3.</ref>
-        <lb ed="#V" n="21"/> <quote xml:id="bHY6yh-d61691-Qd1e260">Iratus irato animo respondet alanus.
-        <lb ed="#V" n="22"/>Et se iactat in hoc grande nimis vicium.</quote>
+               <lb ed="#O"/><ref xml:id="bHY6yh-d61691-Rd1e276">Marcialis cocus l. undique suscepto. 
+               <lb ed="#O"/>capitulo 3.</ref> ¶ <quote xml:id="bHY6yh-d61691-Qd1e260">Iratus irato animo respon<lb ed="#O" break="no"/>det 
+               alanus. Et se iactat in hoc 
+               <lb ed="#O"/>grande nimis uicium.</quote>
             </p>
             <p xml:id="bHY6yh-d61691-d1e268">
-               <lb ed="#V" n="23"/>¶ <ref xml:id="bHY6yh-d61691-Rd1e290">Auctor l. de for. honeste vite. c. 4.</ref><quote xml:id="bHY6yh-d61691-Qd1e272">
-               Requi<lb ed="#V" n="24" break="no"/>renti facile responde.</quote>
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d61691-Rd1e290">AUctor libelli defor <!--line bumps up--> mula ho<!--line bumps back down-->neste uite
+               <lb ed="#O"/>capitulo 4.</ref> ¶ <quote xml:id="bHY6yh-d61691-Qd1e272">Requirenti facile re<lb ed="#O" break="no"/>sponde.</quote>
             </p>
             <p xml:id="bHY6yh-d61691-d1e278">
-               <lb ed="#V" n="25"/>¶ <ref xml:id="bHY6yh-d61691-Rd1e301">Ambrosius de officiis. li. i. c. 2.</ref> <quote xml:id="bHY6yh-d61691-Qd1e282">Noli 
-               respon<lb ed="#V" n="26" break="no"/>dere irato ad iracundiam eius: siue in 
-               pru<lb ed="#V" n="27" break="no"/>denti ad imprudentiam.</quote>
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d61691-Rd1e301">Am<!--line bumps up-->brosius de officiis. libro 1. capitulo 2.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-d61691-Qd1e282">noli respondere irato ad i<lb ed="#O" break="no"/>racundiam 
+               eius siue imprudenti 
+               <lb ed="#O"/>ad imprudentiam.</quote>
             </p>
             <p xml:id="bHY6yh-d61691-d1e291">
-               <lb ed="#V" n="28"/>
-             ¶ <ref xml:id="bHY6yh-d61691-Rd1e316">Macrobius saturnaliorum: lib. 3 
-               impro<lb ed="#V" n="29" break="no"/>hemio.</ref> <quote xml:id="bHY6yh-d61691-Qd1e295">Qui vult esse amenus consultor ea
-        <lb ed="#V" n="30"/>interroget que sunt interrogato facilia 
-               re<lb ed="#V" n="31" break="no"/>sponsum: et que scit illum sedula 
-               exercitatio<lb ed="#V" n="32" break="no"/>ne didicisse. Gaudet enim quisquis cum 
-               pro<lb ed="#V" n="33" break="no"/>uocatur ad doctrinam suam in medium 
-               pro<lb ed="#V" n="34" break="no"/>ferendam: quia nemo vult latere quod didicit:
-        <lb ed="#V" n="35"/>maxime si scientia quam labore acquisiuit cum
-        <lb ed="#V" n="36"/>paucis illa familiaris et plurimis sit 
-               incogni<lb ed="#V" n="37" break="no"/>ta: vt de astronomia: vel dialetica: ceterisque
-        <lb ed="#V" n="38"/>similibus. tunc enim videtur consequi 
-               fru<lb ed="#V" n="39" break="no"/>ctum laboris cum adipiscitur occasionem
-        <lb ed="#V" n="40"/>publicandi: que didicit sine ostentationis
-        <lb ed="#V" n="41"/>nota. qua caret qui non ingerit: sed 
-               innita<lb ed="#V" n="42" break="no"/>tur vt proferat.</quote>
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d61691-Rd1e316">Macrobius <!--line bumps up--> saturnaliorum <!--line bumps back down--> libro 3 improhemio.</ref> 
+               <lb ed="#O"/><quote xml:id="bHY6yh-d61691-Qd1e295">Qui uult esse amenus consul<lb ed="#O" break="no"/>tor 
+               ea interroget que sunt. Interrogato 
+               <lb ed="#O"/>facilia responsum et que scit illum se<lb ed="#O" break="no"/>dula 
+               exercitatione didicisse. Gau<lb ed="#O" break="no"/>det 
+               enim quisquis cum prouocatur ad 
+               <lb ed="#O"/>doctrinam suam in medium profe<lb ed="#O" break="no"/>rendam 
+               quia nemo uult latere quod 
+               <lb ed="#O"/>didicit. Maxime si scientia quam labore 
+               <lb ed="#O"/>acquisiuit cum paucis illa fami<lb ed="#O" break="no"/>liaris 
+               et plurimis sit incognita 
+               <lb ed="#O"/>ut de astronomia uel dyaletica 
+               <lb ed="#O"/>ceterisque similibus. tunc enim uidetur con<lb ed="#O" break="no"/>sequi 
+               fructum laboris cum adipi<lb ed="#O" break="no"/>scitur 
+               <pb ed="#O" n="133-v"/>
+               <cb ed="#O" n="a"/>
+               <lb ed="#O"/>occasionem publicandi que 
+               <lb ed="#O"/>didicit sine ostentationis nota qua 
+               <lb ed="#O"/>caret qui non ingerit sed inui<lb ed="#O" break="no"/>tatur 
+               ut proferat.</quote>
             </p>
             <p xml:id="bHY6yh-d61691-d1e329">
-               <lb ed="#V" n="43"/>¶ <ref xml:id="bHY6yh-d61691-Rd1e357">Prouerb. metrice extraord l vag.</ref> <quote xml:id="bHY6yh-d61691-Qd1e333">Sub
-        <lb ed="#V" n="44"/>dubio forsan respondent sepe periti.
-        <lb ed="#V" n="45"/>In respondendo nunquam celer esse memento. <!--189.xml-->
-        <cb ed="#V" n="b"/>
-               </quote>
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d61691-Rd1e357">PRou. metrice extra<!--line bumps up-->ord l uag.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-d61691-Qd1e333">Subdubio 
+               <lb ed="#O"/>forsan respondent sepe pe<lb ed="#O" break="no"/>riti. 
+               In respondendo nunquam celer es<lb ed="#O" break="no"/>se 
+               memento. </quote>
             </p>
          </div>
       </body>
