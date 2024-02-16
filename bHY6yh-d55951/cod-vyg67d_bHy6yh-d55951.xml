@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5</title>
+               <date when="2024-01-29">January 29, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="121-v"/>
+            <cb ed="#O" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d55951"><!-- p3l3-r5 -->
+            <head xml:id="bHY6yh-d55951-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-d55951-Hd1e111" type="question-title">De increpatione et reprehensione</head>
+            <p xml:id="bHY6yh-d55951-d1e114">
+               De increpatione et repre<lb ed="#O" break="no"/>hensione. 
+               Rubrica. 5.
+            </p>
+            <p xml:id="bHY6yh-d55951-d1e121">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d55951-Rd1e118">SAlomon in prouerb. capitulo 12.</ref> 
+               <lb ed="#O"/><quote xml:id="bHY6yh-d55951-Qd1e127">Qui odit increpationes insipiens 
+               <lb ed="#O"/>est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d55951-d1e133"> 
+               ¶ <ref xml:id="bHY6yh-d55951-Rd1e131">15. capitulo</ref> <quote xml:id="bHY6yh-d55951-Qd1e135">Qui acquiescit incre<lb ed="#O" break="no"/>pationibus 
+               possessor est cordis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d55951-d1e144"> 
+               ¶ <ref xml:id="bHY6yh-d55951-Rd1e144">
+               <lb ed="#O"/>Idem in eccl. capitulo 7.</ref> ¶ <quote xml:id="bHY6yh-d55951-Qd1e146">Melius est a sapien<lb ed="#O" break="no"/>te 
+               corripi quam astuta adulatione 
+               <lb ed="#O"/>decipi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d55951-d1e154">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d55951-Rd1e161">TEr<!--line bumps up-->rentius in andria. capitulo 3.</ref> ¶ <quote xml:id="bHY6yh-d55951-Qd1e158">ob<!--line bumps back down-->sequium amicos ueritas o<lb ed="#O" break="no"/>dium 
+               parit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d55951-d1e164">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d55951-Rd1e173">TUllius de <!--line bumps up--> oratore libro 1. in fi.</ref> <quote xml:id="bHY6yh-d55951-Qd1e168">Ma<!--line bumps back down-->lo non intelligit 
+               <lb ed="#O"/>orationem meam quam reprehendi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d55951-d1e174"> 
+               ¶ <ref xml:id="bHY6yh-d55951-Rd1e183">libro 2</ref> 
+               <lb ed="#O"/><quote xml:id="bHY6yh-d55951-Qd1e176">homines imperiti facilius quod stulte 
+               <lb ed="#O"/>disceris reprehendere quam quod sapienter 
+               <lb ed="#O"/>tuleris laudare possunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d55951-d1e186">
+               <cb ed="#O" n="b"/>
+               <lb ed="#O"/><ref xml:id="bHY6yh-d55951-Rd1e199">MAtheus in euan. capitulo 7.</ref> <quote xml:id="bHY6yh-d55951-Qd1e190">Quid ui<lb ed="#O" break="no"/>des 
+               festucam in oculo fratris tui 
+               <lb ed="#O"/>et trabem in oculo tuo non uides. 
+               <lb ed="#O"/>Aut quomodo dicis fratri tuo. Frater sine 
+               <lb ed="#O"/>eiciam festucam de oculo tuo ecce 
+               <lb ed="#O"/>trabes in oculo tuo est. Ypocrita 
+               <lb ed="#O"/>eice prius trabem de oculo tuo. et 
+               <lb ed="#O"/>tunc uidebis eiicere festucam de oculo 
+               <lb ed="#O"/>fratris tui.</quote>
+            </p>
+            <p xml:id="bHY6yh-d55951-d1e207">
+               ¶ <ref xml:id="bHY6yh-d55951-Rd1e222"> Idem dicit lucas in euang. 
+               <lb ed="#O"/>capitulo 6. </ref> 
+            </p>
+            <p xml:id="bHY6yh-d55951-d1e216">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d55951-Rd1e232">PA<!--line bumps up-->ulus apostolus epistola. i. ad thimo<!--line bumps back down-->theum. capitulo 5.</ref> ¶ <quote xml:id="bHY6yh-d55951-Qd1e220">Seniorem ne incre<lb ed="#O" break="no"/>paueris 
+               sed obsecra ut patrem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d55951-d1e228">
+              <lb ed="#O"/><ref xml:id="bHY6yh-d55951-Rd1e247">SEneca in prou.</ref> ¶ <quote xml:id="bHY6yh-d55951-Qd1e232">Crudelis est 
+              <lb ed="#O"/>iure aduersa obiurgatio. ¶ 
+              <lb ed="#O"/>Obiurgationi semper aliquid blandi<lb ed="#O" break="no"/>tie 
+              admisce.</quote>
+            </p>
+            <p xml:id="bHY6yh-d55951-d1e240">
+               <!--bumps back down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d55951-Rd1e261">UAlerius ma<!--line bumps up-->ximus uel. 3 ti. de fidu<!--line bumps back down-->cia sui.</ref> ¶ <quote xml:id="bHY6yh-d55951-Qd1e244">Euripides 
+               <lb ed="#O"/>quidem acthenis arrogans uisus 
+               <lb ed="#O"/>est cum postulante populo ut ex 
+               <lb ed="#O"/>tragedia sententiam quandam 
+               <lb ed="#O"/>progressus in <sic>seuam</sic> dixit se ut populum 
+               <lb ed="#O"/>doceret non ut ab eo discederet fa<lb ed="#O" break="no"/>bulas 
+               componere sollempnes.</quote>
+            </p>
+            <p xml:id="bHY6yh-d55951-d1e267"> 
+               ¶ <ref xml:id="bHY6yh-d55951-Rd1e290">libro 4. t. 
+               <lb ed="#O"/>de uerecundia</ref> <quote xml:id="bHY6yh-d55951-Qd1e269">Acthenis quidem 
+               <lb ed="#O"/>senectutis. cum spectatum ludos in 
+               <lb ed="#O"/>theatrum uenisset eumque nemo ex 
+               <lb ed="#O"/>cuibus sensum reciperet ad lacede<lb ed="#O" break="no"/>moniorum 
+               legatos peruenit. qui 
+               <lb ed="#O"/>homines etate modica canos eius 
+               <lb ed="#O"/>in annuos assurgendi officio uenerati 
+               <lb ed="#O"/>sunt. Sedemque ei inter ipsos honora<lb ed="#O" break="no"/>tissimo 
+               loco dederunt quod ubi fieri 
+               <lb ed="#O"/>populus aspexit maximo plausu aliene 
+               <lb ed="#O"/>urbis uerecundiam comprobabat. 
+               <lb ed="#O"/>Fertur tunc unum ex lacedemoniis 
+               <pb ed="#O" n="122-r"/>
+               <cb ed="#O" n="a"/>
+               <lb ed="#O"/>dixixe erga acthenienses quid sit 
+               <lb ed="#O"/>rectum sciunt sed id facere negligunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d55951-d1e296">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d55951-Rd1e323">Marcialis cocus uel undique suscepto. 
+               <lb ed="#O"/>capitulo 3.</ref> ¶ <quote xml:id="bHY6yh-d55951-Qd1e300">Cur maculas alios ma<lb ed="#O" break="no"/>culosior 
+               omnibus albi. Et carpi dignus 
+               <lb ed="#O"/>carpere non metuis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d55951-d1e308">
+               ¶ <ref xml:id="bHY6yh-d55951-Rd1e337">capitulo. 5.</ref> <quote xml:id="bHY6yh-d55951-Qd1e312">Fratris 
+               <lb ed="#O"/>uerrucas mordaci dente refringis 
+               <lb ed="#O"/>Ulcera dissimulans que tibi more se<lb ed="#O" break="no"/>dent. 
+               ¶ Ad fratris culpam aquile tu 
+               <lb ed="#O"/>lumina portas. Ad tua cum scelera 
+               <lb ed="#O"/>nulla uel orba feras.</quote>
+            </p>
+            <p xml:id="bHY6yh-d55951-d1e325"> 
+               <ref xml:id="bHY6yh-d55951-Rd1e354">capitulo. 6.</ref> <quote xml:id="bHY6yh-d55951-Qd1e327">Alterius 
+               <lb ed="#O"/>censor censor et esto tuus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d55951-d1e333">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d55951-Rd1e366">AUctor li. defor. hone. uite. capitulo 
+               <lb ed="#O"/>4.</ref> ¶ <quote xml:id="bHY6yh-d55951-Qd1e337">Reprehenderis patienter. 
+               <lb ed="#O"/>¶ Si merito te obiurgauerit aliquis 
+               <lb ed="#O"/>scito quod profuit. Si immerito scito 
+               <lb ed="#O"/>quod prodesse uoluit. ¶ Non esto acer<lb ed="#O" break="no"/>bus 
+               reprehensor.</quote>
+            </p>
+            <p xml:id="bHY6yh-d55951-d1e349">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d55951-Rd1e384">CAto capitulo. 2.</ref> <quote xml:id="bHY6yh-d55951-Qd1e353">Que <!--line bumps up--> culpare soles ea <!--line bumps back down--> tu ne feceris ipse. 
+               <lb ed="#O"/>Turpe est edoceri cum culpa 
+               <lb ed="#O"/>redarguit ipsum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d55951-d1e361">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d55951-Rd1e398">MOntenarius <!--line bumps up--> in luna cleri. capitulo <!--line bumps back down--> 128. et p.</ref> ¶ <quote xml:id="bHY6yh-d55951-Qd1e365">Diligitur 
+               <lb ed="#O"/>rector scelerum reprehensor oditur.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
