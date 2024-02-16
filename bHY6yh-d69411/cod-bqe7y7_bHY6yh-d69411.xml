@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 3</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 3</title>
+               <date when="2024-01-25">January 27, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness> 
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-01-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="146-v"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d69411"><!-- p4l1-r3 -->
+            <head xml:id="bHY6yh-d69411-Hd1e108">Rubrica 3</head>
+            <head xml:id="bHY6yh-d69411-Hd1e111" type="question-title">De modo exigentie cuiusque proportionalitatis seu conformitatis</head>
+            <p xml:id="bHY6yh-d69411-d1e114"> 
+               <lb ed="#P"/>De modo exigentie cuiuscumque
+               <lb ed="#P"/>proportionalitatis et conformi<lb ed="#P" break="no"/>tatis
+               capitulum iii 
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e123">
+               <pb ed="#P" n="147-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P"/><ref xml:id="bHY6yh-d69411-Rd1e120">Oratius in poetria</ref> 
+               <lb ed="#P"/>Sumite materiam vestris qui scribitis equam 
+               <lb ed="#P"/>viribus et versate diu / quid ferre 
+               <lb ed="#P"/>recusent / Quid valeant humeri
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e136">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d69411-Rd1e134">Idem in epistolis libro primo epistola vii</ref> 
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e145">
+               <lb ed="#P"/><quote xml:id="bHY6yh-d69411-Qd1e149">Infirmo culpa pusilla nocet.
+               <lb ed="#P"/>Nutritur vento / vento restringitur ignis
+               <lb ed="#P"/>Leuis alit flammas grandior aura necat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e159">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d69411-Rd1e164">Paulus ii ad corinthios ix capitulo</ref> <quote xml:id="bHY6yh-d69411-Qd1e163">Qui par<lb ed="#P" break="no"/>ce 
+               seminat parce metet</quote>
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e169">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d69411-Rd1e177">Seneca epistolarum ad lucillum libro ix epistola
+               <lb ed="#P"/>ii</ref> <quote xml:id="bHY6yh-d69411-Qd1e173">aptari corpus viribus debet nec 
+               <lb ed="#P"/>plus occupari quam cui sufficere possumus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e181">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d69411-Rd1e190">Idem de tranquillitate animi</ref> <quote xml:id="bHY6yh-d69411-Qd1e183">necesse est ut 
+               <lb ed="#P"/>opprimant onera / que ferente maiora sunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e195">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d69411-Rd1e209">Cato capitulo iiii</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d69411-Qd1e199">Quod potes intempta / operis ne pondere pressus 
+               <lb ed="#P"/>Succumbat labor / et frustra temptata 
+               <lb ed="#P"/>relinquas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e207">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d69411-Rd1e223">Cassiodorus epistolarum libro viii epistola xx</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d69411-Qd1e211">Contrariis rebus plerunque medicina paratur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e220">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d69411-Rd1e238">Baldo xxviiii fabula</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d69411-Qd1e224">Non ultra vires discant presumere viles.</quote>
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e230">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d69411-Rd1e250">Gualterius de castellione libro x et fine</ref>: 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d69411-Qd1e234">Sic se conformet meritis cuiusque gohena
+               <lb ed="#P"/>Ut qui deliquit leuius leuioribus ille
+               <lb ed="#P"/>Subiaceat penis / et qui grauiore reatu
+               <lb ed="#P"/>Excessit grauius grauiorem sentiat ignem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e246">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d69411-Rd1e268">Gaufridus in poetria capitulo xxxi</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d69411-Qd1e250">Gressus precurrant oculi preconsule mentem
+               <cb ed="#P" n="b"/>
+               <lb ed="#P"/>Et vires metire tuas / si fortis es aude
+               <lb ed="#P"/>Grandia si fragilis humeris impone minora
+               <lb ed="#P"/>Si mediocris ama mediocria sumere noli
+               <lb ed="#P"/>Est vertus servuare modum memor imprime 
+               <lb ed="#P"/>menti.</quote>
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e267">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d69411-Rd1e291">Prouerbium vulgare</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d69411-Qd1e271">A carne dilupo salsa decane
+               <lb ed="#P"/>Atale moltone cotal bethone
+               <lb ed="#P"/>Chia labrone vole imbolare ladrone 
+               <lb ed="#P"/>geonviene effere</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
