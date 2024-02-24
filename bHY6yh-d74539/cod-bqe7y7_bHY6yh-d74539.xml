@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 11</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 11</title>
+               <date when="2024-02-23">February 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness> 
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-02-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="158-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d74539"><!-- p4l2-r11 -->
+            <head xml:id="bHY6yh-d74539-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-d74539-Hd1e111" type="question-title">De tranquillitate et inquietudinie animi circa diuitias et paupertatem</head>
+            <p xml:id="bHY6yh-d74539-d1e114">
+               <lb ed="#P"/>De tranquillitate / et inquietudine
+               <lb ed="#P"/>circa diuitias / et paupertatem capitulo
+               <lb ed="#P"/>populum xi
+            </p>
+            <p xml:id="bHY6yh-d74539-d1e123">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e120">Aristoteles politicorum libro ii capitulo iiii</ref> <quote xml:id="bHY6yh-d74539-Qd1e131">Ma<lb ed="#P" break="no"/>litia 
+               hominum est irreplebilis.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d74539-d1e135">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e135">Tullius rethoricorum artis noue libro v 
+               <lb ed="#P"/>capitulo x</ref> <quote xml:id="bHY6yh-d74539-Qd1e139">Egens est qui non satis habet / et
+               <lb ed="#P"/>is cui satis nihil potest esse</quote>
+            </p>
+            <p xml:id="bHY6yh-d74539-d1e148"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e149">Idem paradoxorum di vi</ref> <quote xml:id="bHY6yh-d74539-Qd1e150">Animus hominis diues 
+               <lb ed="#P"/><sic>diues</sic> monarcha appellari solet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d74539-d1e158">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e164">Ouidius de nuce.</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d74539-Qd1e162">Diues est hic vere qui plus nil optat habere
+               <lb ed="#P"/>Quam natura dedit bona qualiacumque fuere.
+               <lb ed="#P"/>Regna papates vrbes castella ducatus
+               <lb ed="#P"/>Nec tua sunt vere / nec tecum nata fuere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d74539-d1e170">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e182">Seneca epistolarum ad lucillum primo epistola ii</ref> <quote xml:id="bHY6yh-d74539-Qd1e174">Non 
+               <lb ed="#P"/>qui parum habet / sed qui plus cupit pauper est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d74539-d1e181"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e194">Ibidem iii epistola</ref> <quote xml:id="bHY6yh-d74539-Qd1e183">Magne diuitie sunt 
+               <lb ed="#P"/>lege nature composita paupertas parabile 
+               <lb ed="#P"/>est quod natura desiderat ad manum est quod 
+               <lb ed="#P"/><sic>quod</quod> satis est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d74539-d1e191"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e206">Ibidem libro iii epistola ii</ref> <quote xml:id="bHY6yh-d74539-Qd1e193">Si ad viues 
+               <lb ed="#P"/>nunquam eris pauper si ad opiniones nunquam 
+               <lb ed="#P"/>eris diues exiguum natura desiderat opi<lb ed="#P" break="no"/>nio 
+               immensum. Qui cum paupertate bene 
+               <lb ed="#P"/>conuenit diues est / Exerceamur ad 
+               <lb ed="#P"/>paululum / et ne inparatos fortuna 
+               <lb ed="#P"/>nos deprehendat fiat nobis paupertas 
+               <lb ed="#P"/>Securius diuites erimus si sci uerimus 
+               <lb ed="#P"/>quam non sit graue pauperes esse.</quote>
+            </p>
+            <p xml:id="bHY6yh-d74539-d1e220"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e238">Ibidem vii epistola et fine</ref> <quote xml:id="bHY6yh-d74539-Qd1e222">Si diues fieri non 
+               <lb ed="#P"/>pecunie adiiciendum est sed cupiditatibus 
+               <lb ed="#P"/>detrahendum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d74539-d1e230">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e254">Ibidem libro iiii epistola vi</ref> <quote xml:id="bHY6yh-d74539-Qd1e234">diuitie sunt 
+               <lb ed="#P"/>ad legem nature composita paupertas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d74539-d1e241"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e264">Ibidem libro xx et fine: epistola ii</ref> <quote xml:id="bHY6yh-d74539-Qd1e243">Qui multum
+               <lb ed="#P"/>habet plus cupit / Qui se adid exigit 
+               <lb ed="#P"/>quod natura composiut non tantum extra sensum pauper<lb ed="#P" break="no"/>tatis 
+               est sed extra metum / neminem pecunia 
+               <lb ed="#P"/>diuitem facit immo nulli non maiorem sui 
+               <lb ed="#P"/>cupiditatem incussit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d74539-d1e257"> 
+               <pb ed="#P" n="158-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e282">Ibidem epistola vi</ref> <quote xml:id="bHY6yh-d74539-Qd1e259">paupertas nulli mala est 
+               <lb ed="#P"/>nisi recusanti.</quote>
+            </p>
+            <p xml:id="bHY6yh-d74539-d1e265">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e294">Martialis chochus libro vndique suscepto
+               <lb ed="#P"/>capitulo vi</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d74539-Qd1e269">Si paupertati ad sensum prebere studebis
+               <lb ed="#P"/>Semper nature munere diues eris.</quote>
+            </p>
+            <p xml:id="bHY6yh-d74539-d1e277">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e308">Cato capitulo iiii</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d74539-Qd1e281">Rebus et incensu si non est quod fuit ante 
+               <lb ed="#P"/>Fac viuas contentus eo quod tempora prebent.</quote>
+            </p>
+            <p xml:id="bHY6yh-d74539-d1e289"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e320">Idem capitulo v et fine</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d74539-Qd1e291">Cum fortuna tuarum rerum tibi displicet vni
+               <lb ed="#P"/>Alterius specta / quanto sit discrimine peior.</quote>
+            </p>
+            <p xml:id="bHY6yh-d74539-d1e299">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e335">Boetius de consolatione libro ii capitulo iiii</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d74539-Qd1e303">Nunquam diues agit 
+               <lb ed="#P"/>Qui trepidus gemens sese credit egentem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d74539-d1e312">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e349">Uersificator fabularum / exopi / fabula xii</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d74539-Qd1e316">Pauperies si leta venit ditissima res est.</quote>
+            </p> 
+            <p xml:id="bHY6yh-d74539-d1e357">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e361">Auctor libri qui dicitur facetus capitulo x et fine</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d74539-Qd1e365">Non cupiat quisquam quod nunquam possit habere
+               <lb ed="#P"/>Quod natura dedit sufficienter amet</quote>
+            </p>
+            <p xml:id="bHY6yh-d74539-d1e328">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e375">Gualterius de castellione libro viii</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d74539-Qd1e332">Contentum esse suis alienum nolle beatum
+               <lb ed="#P"/>Efficiunt / igitur siquid quesiueris vltra
+               <lb ed="#P"/>Excedunt tua vota modum / finemque beati.</quote>
+            </p>
+            <p xml:id="bHY6yh-d74539-d1e342">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74539-Rd1e391">Mattheus vindocinensis de istoria tobie
+               <lb ed="#P"/>capitulo xxxi</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d74539-Qd1e346">Pauperiem consulta tegat patientia semper
+               <lb ed="#P"/>Succincta studeas sobrietate frui.
+               <lb ed="#P"/>Non defectus opum sed desperatio confert
+               <lb ed="#P"/>Pauperiem mentis deficiente statu
+               <cb ed="#P" n="b"/>
+               <lb ed="#P"/>Non rerum cumulus sed sufficientia mentis
+               <lb ed="#P"/>dictat sufficiant paucula diues eris.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
