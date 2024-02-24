@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 12</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 12</title>
+               <date when="2024-02-23">February 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness> 
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-02-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="158-v"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d74797"><!-- p4l2-r12 -->
+            <head xml:id="bHY6yh-d74797-Hd1e108">Rubrica 12</head>
+            <head xml:id="bHY6yh-d74797-Hd1e111" type="question-title">De exemplis acceptate paupertatis illustrium virorum</head>
+            <p xml:id="bHY6yh-d74797-d1e114">
+               <lb ed="#P"/>De exemplis acceptate pau<lb ed="#P"/>pertatis 
+               illustrium virorum 
+               <lb ed="#P"/>capitulum xii
+            </p>
+            <p xml:id="bHY6yh-d74797-d1e121">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74797-Rd1e118">Frontinus libro iiii ti iii</ref> <quote xml:id="bHY6yh-d74797-Qd1e127">athilius 
+               <lb ed="#P"/>regulus cum summis rebus profuisset
+               <lb ed="#P"/>adeo pauper fuit / ut se coniugem liberosque 
+               <lb ed="#P"/>collocaret agello qui collebatur per vnum 
+               <lb ed="#P"/>vilicum. Gneus scipio post res prospere 
+               <lb ed="#P"/>gestas in ispania in summa paupertate de<lb ed="#P"/>cessit. 
+               Nec ea relicta pecunia quae suffi<lb ed="#P"/>ceret 
+               in dotem feminarum quas ob in opiam 
+               <lb ed="#P"/>publice dotauit senatus. Curius 
+               <lb ed="#P"/>cum victis ab eo sabinis ex senatus 
+               <lb ed="#P"/>consulto domus agni quem consummati 
+               <lb ed="#P"/>milites accipiebant gregalium portione 
+               <lb ed="#P"/>contentus fuit malum ciuem dicens 
+               <lb ed="#P"/>cui non esset id quod ceteris satis. La<lb ed="#P"/>minius 
+               qui corintho capata non Ita<lb ed="#P"/>liam 
+               solum sed etiam prouinciam tabulis 
+               <lb ed="#P"/>statuisque exornauit adeo nihil 
+               <lb ed="#P"/>extantibus manubiis in suum conuertit 
+               <lb ed="#P"/>vt filiam eius inopem senatus ex pu<lb ed="#P"/>blico 
+               dotauerit</quote> 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
