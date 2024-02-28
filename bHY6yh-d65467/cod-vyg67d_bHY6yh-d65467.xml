@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5</title>
+               <date when="2024-02-28">February 28, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-02-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#O" n="141-r"/>
+            <cb ed="#O" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d65467"><!-- p3l6-r5 -->
+            <head xml:id="bHY6yh-d65467-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-d65467-Hd1e111" type="question-title">De partibus rethorice orationis: uidelicet de prohemio: prologo: prefatione: narratione: conclusione et epilogo</head>
+            <p xml:id="bHY6yh-d65467-d1e114">
+               De par<lb ed="#O" break="no"/>tibus 
+               rethorice orationis scilicet de pro<lb ed="#O" break="no"/>hemino 
+               prologo prefactione narra<lb ed="#O" break="no"/>tione 
+               conclusione et epilogo. Rubrica. 5.
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e130">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d65467-Rd1e127">ARistotelis retho. libro 3. et fi. capitulo 
+               <lb ed="#O"/>15</ref> ¶ <quote xml:id="bHY6yh-d65467-Qd1e136">Necessarie partes retho<lb ed="#O" break="no"/>rice 
+               orationis sunt propositum et persua<lb ed="#O" break="no"/>sio 
+               et epilogus</quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e144"> 
+               ¶ <ref xml:id="bHY6yh-d65467-Rd1e142">16. capitulo</ref> <quote xml:id="bHY6yh-d65467-Qd1e146">Prohemium 
+               <lb ed="#O"/>est principium orationis sicut in poe<lb ed="#O" break="no"/>si 
+               prologus et in fistulatione pre<lb ed="#O" break="no"/>ludium 
+               omnia enim hec principina sunt 
+               <lb ed="#O"/>et uelut breuiator ad sequens.</quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e157">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d65467-Rd1e159">TErrentius in phormione. capitulo 17.</ref> 
+               <lb ed="#O"/><quote xml:id="bHY6yh-d65467-Qd1e161">Nichil est <sic>antulpho.</sic> quin 
+               <cb ed="#O" n="b"/>
+               <lb ed="#O"/>male narrando possit de praua<lb ed="#O" break="no"/>rier.</quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e169">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d65467-Rd1e174">TU<!--line bumps up-->llius de oratore. libro 2.</ref> ¶ <quote xml:id="bHY6yh-d65467-Qd1e173">Nar<!--line bumps back down-->ratio obscura totam ob<lb ed="#O" break="no"/>cecat 
+               narrationem. ¶ Si nota 
+               <lb ed="#O"/>res est nec dubium quod gestum 
+               <lb ed="#O"/>sit narrare non oportet nec si ad<lb ed="#O" break="no"/>uersarius 
+               narrauit nisi refel<lb ed="#O" break="no"/>lemus. 
+               ¶ Oportet ut edibus 
+               <lb ed="#O"/>ac templis uestibula et aditus 
+               <lb ed="#O"/>sic causis principia proportione 
+               <lb ed="#O"/>rerum proponere. Itaque in paruis 
+               <lb ed="#O"/>atque in frequen tibus causis ab ipsa 
+               <lb ed="#O"/>re est exordiri sepe commodius.</quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e194"> 
+               ¶ <ref xml:id="bHY6yh-d65467-Rd1e199">Idem 
+               <lb ed="#O"/>rethor. artis ueteris. libro 1. capitulo 14. et fi.</ref> 
+               <lb ed="#O"/>¶ <quote xml:id="bHY6yh-d65467-Qd1e196">Conclusio est exitus et determi<lb ed="#O" break="no"/>natio 
+               totius orationis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e204">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d65467-Rd1e213">LEx dige. t. de origine iuris. <!--line bumps up--> libro 1.</ref> ¶ <quote xml:id="bHY6yh-d65467-Qd1e208">In <!--line bumps back down--> foro 
+               <lb ed="#O"/>causas dicentibus nephas ut 
+               <lb ed="#O"/>ita dixerim est nulla praefatione facta 
+               <lb ed="#O"/>iudici rem exponere. ¶ Prefatio<lb ed="#O" break="no"/>nes 
+               et libentius nos ad lectionem pro<lb ed="#O" break="no"/>posite
+               materie producunt et cum ibi 
+               <lb ed="#O"/>uenerimus huius euidentiorem 
+               <lb ed="#O"/>prestant intellectum.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
