@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 1</title>
+               <date when="2024-06-02">February 06, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness> 
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-06-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="151-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d71435"><!-- p4l2-r1 -->
+            <head xml:id="bHY6yh-d71435-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d71435-Hd1e111" type="question-title">De diuitiarum proficuo et nocumento paupertatis</head>
+            <p xml:id="bHY6yh-d71435-d1e114">
+               <lb ed="#P"/>Incipit liber secundus quar<lb ed="#P" break="no"/>tie 
+               partis iste liber secundus
+               <lb ed="#P"/>quartie partis tractat de divi<lb ed="#P" break="no"/>tiis 
+               / et de paupertate / et de parti 
+               <lb ed="#P"/>nentibus adeas sub his titu<lb ed="#P" break="no"/>lis 
+               et primo verum 
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e130"><!--combined with above -->
+               de divitiarum pro<lb ed="#P"/><cb ed="#P" n="b"/>ficuo
+               et nocumento pauper<lb ed="#P" break="no"/>tatis 
+               capitulum primum 
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e137">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e134">Psalmista psalmus xxxvi</ref> <quote xml:id="bHY6yh-d71435-Qd1e141">Beatus qui tenebit
+               <lb ed="#P"/>et cetera</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e150">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e149">Salomon in prouerbiis capitulo x</ref> <quote xml:id="bHY6yh-d71435-Qd1e154">Substantia di<lb ed="#P" break="no"/>uitis 
+               vrbis fortitudinis pauor pau<lb ed="#P" break="no"/>perum 
+               egestas eorum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e162">
+               OMITTED
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e170">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e171">Ibidem xiii capitulo</ref> <quote xml:id="bHY6yh-d71435-Qd1e168">Etiam proximo suo pauperum odi<lb ed="#P" break="no"/>osus 
+               erit amici vero diuitum multi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e180">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e183">Ibidem xviii capitulo</ref> <quote xml:id="bHY6yh-d71435-Qd1e182">substantia diuitis ur<lb ed="#P" break="no"/>bis
+               robur eius / et quasi murus euis va<lb ed="#P" break="no"/>lidus 
+               circundans eam / Cum obsecratio<lb ed="#P" break="no"/>nibus 
+               loquitur pauper et diues affabitur ri<lb ed="#P" break="no"/>gide.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e192">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e197">Ibidem xviiii capitulo</ref> <quote xml:id="bHY6yh-d71435-Qd1e194">diuitie addunt ami<lb ed="#P" break="no"/>cos 
+               plurimos a paupere autem et hii quos 
+               <lb ed="#P"/>habuerit separantur / fratres hominis pauperis ode<lb ed="#P" break="no"/>runt 
+               eum insuper / et amici procul recesse<lb ed="#P" break="no"/>runt
+               ab eo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e206">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e213">Ibidem xxii capitulo</ref> <quote xml:id="bHY6yh-d71435-Qd1e208">dines pauperibus imperat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e213">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e224">Idem in ecclesiastico capitulo vii</ref> <quote xml:id="bHY6yh-d71435-Qd1e217">Sic protegit 
+               <lb ed="#P"/>sapientia sic protegit pecunia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e223">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e234">Ibidem x capitulo</ref> <quote xml:id="bHY6yh-d71435-Qd1e225">Pecunie obediunt omnia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e231">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e246">I socrates in exhortationibus capitulo ii</ref> <quote xml:id="bHY6yh-d71435-Qd1e235">honora 
+               <lb ed="#P"/>presentem substantiam propter duo tum tu magnum ma<lb ed="#P" break="no"/>lum 
+               prohibeas tum ut amico studioso 
+               <lb ed="#P"/>erunato suffrageris / quo ad reliquum vero 
+               <lb ed="#P"/>victum haud in excessu sed medio<lb ed="#P" break="no"/>criter
+               eam dilige.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e249">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e269">Aristotelis topicorum libro iii</ref> <quote xml:id="bHY6yh-d71435-Qd1e253">philosophari 
+               <pb ed="#P" n="151-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P"/>melius est quam divitari Sed non magis 
+               <lb ed="#P"/>eligendum indigenti necessariis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e261">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e281">Idem ethicorum libro iiii capitulo</ref> <quote xml:id="bHY6yh-d71435-Qd1e263">diuitie sunt 
+               <lb ed="#P"/>vtilium.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e269">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e291">Idem rethoricorum libro ii capitulo xvi</ref> <quote xml:id="bHY6yh-d71435-Qd1e271">Unum 
+               <lb ed="#P"/>ad necessariorum est substantia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e278">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e304">Ibidem xvii capitulo</ref> <quote xml:id="bHY6yh-d71435-Qd1e282">sapientis est videre 
+               <lb ed="#P"/>ad inanuas diuitum frequentatas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e288">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e314">Ibidem xxvi capitulo et fine</ref>: <quote xml:id="bHY6yh-d71435-Qd1e290">Omnis indigentia 
+               <lb ed="#P"/>mala est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e296">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e324">Idem politicorum libro ii capitulo ii</ref> <quote xml:id="bHY6yh-d71435-Qd1e298">Res posses<lb ed="#P" break="no"/>sa 
+               organum est ad vitam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e304">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e334">Ibidem libro iiii capitulo ii</ref> <quote xml:id="bHY6yh-d71435-Qd1e306">Amant quidem omnes 
+               <lb ed="#P"/>pecuniam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e312">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e345">Ibidem iii capitulo</ref> <quote xml:id="bHY6yh-d71435-Qd1e314">Pecunia seditionem efficit 
+               <lb ed="#P"/>et malignitatem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e320">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e357">Ibidem capitulo iiii</ref> <quote xml:id="bHY6yh-d71435-Qd1e324">Confert multitudo substantiam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e329">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e366">Ibidem vi capitulo</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e331">Principari quidem non facile 
+               <lb ed="#P"/>valde pauperibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e343">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e384">Ibidem libro iii capitulo vii</ref> <quote xml:id="bHY6yh-d71435-Qd1e347">Rationabiliter 
+               <lb ed="#P"/>preparantur honori nobiles / et diuites.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e353">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e396">Iesus filius sirach in ecclestiastico capitulo viii</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e357">Non contendas cum viro locuplete ne 
+               <lb ed="#P"/>forte econtra consistat tibi litem mul<lb ed="#P" break="no"/>tos 
+               enim perdidit aurum / et argentum 
+               <lb ed="#P"/>et vsque cor Regum convertit / et extin<lb ed="#P" break="no"/>guit</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e369">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e412">Ibidem xiii capitulo</ref> <quote xml:id="bHY6yh-d71435-Qd1e371">pascua diuitum sunt 
+               <lb ed="#P"/>pauperes / diues commotus confirmatur 
+               <lb ed="#P"/>ab amicis humilis etiam cum ceciderit
+               <lb ed="#P"/>expelletur a notis / diuiti decepto mul<lb ed="#P"/><cb ed="#P" n="b"/>ti
+               recuperatores / loquitus est superbe 
+               <lb ed="#P"/>et iustificauerunt verum. humilis vero 
+               <lb ed="#P"/>deceptus est insuper et arguitur loquitus 
+               <lb ed="#P"/>est sensate / et non est ei datus locus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e390">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e435">Ibidem xxvii capitulo</ref> <quote xml:id="bHY6yh-d71435-Qd1e392">Propter inopiam multi 
+               <lb ed="#P"/>deliquerunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e398">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e445">Ibidem xxx capitulo</ref> <quote xml:id="bHY6yh-d71435-Qd1e400">facultates et conuictus 
+               <lb ed="#P"/>exaltant cor / In tempore vite tue ne 
+               <lb ed="#P"/>indigeas melius est enim mori quam indi<lb ed="#P" break="no"/>gere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e409">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e460">Terentius in phormione capitulo iiii</ref> <quote xml:id="bHY6yh-d71435-Qd1e413">Quam 
+               <lb ed="#P"/>inique comparatum est hii qui minus 
+               <lb ed="#P"/>habent semper aliquid addant diuitioribus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e421">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e474">Salustius in catilinari</ref> <quote xml:id="bHY6yh-d71435-Qd1e425">Semper in ciui<lb ed="#P" break="no"/>tate 
+               quibus opes nulle sunt bonis inui<lb ed="#P" break="no"/>dent
+               malos extollut vetera odera / no<lb ed="#P" break="no"/>ua 
+               exoptant odio suarum rerum mutari 
+               <lb ed="#P"/>omnia student video super.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e435">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e490">Oratius in epistolis libro primo epistola primo</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e439">O ciues O ciues querenda pecunia primum est 
+               <lb ed="#P"/>Uirtus post numos.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e447">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e502">Ibidem epistola vi</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e449">Et genus / et formam regina pecunia donat
+               <lb ed="#P"/>Et bene numatum decorat sua de la 
+               <lb ed="#P"/>venusque</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e457">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e516">Ibidem epistola vi</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e461">Stultitiam patiuntur opes.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e465">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e526">Idem in sermonibus libro ii sermone iii</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e469">Uirtus fama decus diuina humanaque 
+               <lb ed="#P"/>pulchris / Diuitiis parent quas qui cons<pb ed="#P" n="152-r"/><cb ed="#P" n="a"/><lb ed="#P" break="no"/>truxerit 
+               ille Clarus erit fortis ius<lb ed="#P" break="no"/>tus 
+               sapiens ue et conrex</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e482">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e545">Ibidem semone xxv</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e486">Et grauis et virtus nisi cum re vilior alga est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e492">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e557">Tullius rethoricorum Artis noue libro vi
+               <lb ed="#P"/>et fine: capitulo v</ref> <quote xml:id="bHY6yh-d71435-Qd1e496">Due sunt res que possunt 
+               <lb ed="#P"/>homines ad turpe competentium commouero 
+               <lb ed="#P"/>inopia / et auaritia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e506">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e573">Ouidius sine titulo sine amoris libro
+               <lb ed="#P"/>iii et fine: capitulo viii</ref> <quote xml:id="bHY6yh-d71435-Qd1e510">Curia pauperibus 
+               <lb ed="#P"/>clausa est / dat oeps honores.
+               <lb ed="#P"/>Inde grauis iudex / inde seuerus eques.</quote> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e592">Idem de arte amandi libro ii</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e594">Pauper amet caute timeat maledicere 
+               <lb ed="#P"/>semper. 
+               <lb ed="#P"/>Multaque diuitibus non patienda ferat
+               <lb ed="#P"/>Dummodo sunt diues barbarus ille placet.
+               <lb ed="#P"/>Aurea sunt vere / modo secula / pistolimus auro.
+               <lb ed="#P"/>Uenit honos / auro conciliatur amor.
+               <lb ed="#P"/>Ipse licet venias musis comitatus homere
+               <lb ed="#P"/>Si nihil attuleris ibis homere foras.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e542">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e617">Idem de tristibus libro primo epistola v</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e546">Horea formice tendunt ad inania nunquam
+               <lb ed="#P"/>ullus ad amissas ibit amicus opes.
+               <lb ed="#P"/>Utque comes radios per solis euntibus vmbra est
+               <lb ed="#P"/>Cum licet hic pressus nubibus illa fugit
+               <lb ed="#P"/>Mobile sic sequitur fortune lumina vulgus</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e560">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e637">Idem de fastis libro primo</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e564">In praecio precium est
+               <lb ed="#P"/>Dat census honores
+               <lb ed="#P"/>Census amicitias pauper vbique iacet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e572">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e651">Mattheus in euangelio capitulo xxvi</ref> <quote xml:id="bHY6yh-d71435-Qd1e576">Habenti 
+               <cb ed="#P" n="b"/>
+               <lb ed="#P"/>dabitur et abundabit / ei autem qui non habet
+               <lb ed="#P"/>et quod putat se habere auferetur ab eo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e585">
+               OMITTED
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e597">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e680">Seneca de remediis fortuitorum capitulo xxi
+               <lb ed="#P"/>et fine</ref>: <quote xml:id="bHY6yh-d71435-Qd1e601">Patrimonio iam ipsa nobilitas cessit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e607">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e692">Iuuenalis libro primo satura iii</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e611">Nil potest infelix paupertas durius in se
+               <lb ed="#P"/>Quam quod ridiculos homines facit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e619">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e704">Libertas pauperis hec est</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e621">Pulsatus rogat et pugnis concisus adorat
+               <lb ed="#P"/>Ut liceat paucis cum dentibus inde reuerti.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e629">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e718">Martialis chochus epigrammaton libro v</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e633">Colligit ingratas pauper amicitias.
+               <lb ed="#P"/>Dantur sed opes nullis tunc nisi diuitibus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e648">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e732">Idem libro vndique suscepto capitulo iii</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e652">Sit pauper probus et sapiens omnio negatur.
+               <lb ed="#P"/>Sit diues recte protinus annuitur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e660">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e747">Ambrosius de officiis libro ii capitulo xxi</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e664">Hoc malum iam dudum humanis influxit 
+               <lb ed="#P"/>mentibus ut pecunia honori sit et 
+               <lb ed="#P"/>animi hominum diuitiarum admiratione digni</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e674"> <!--combined with above-->
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e676">vt nemo nisi diues honore dignus 
+               <lb ed="#P"/>putetur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e686">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e777">Boetius de consolatione libro iii dedisci<lb ed="#P" break="no"/>plina 
+               seolarium libro iii</ref> <quote xml:id="bHY6yh-d71435-Qd1e690">Nouerca 
+               <lb ed="#P"/>est discipline egestas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e702">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e795">Cassiodorus epistolarum libro primo epistola viii</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e706">Indigentiam nostram iuste fugimus que 
+               <lb ed="#P"/>suadet excessus pernitiosa res est in impera<lb ed="#P" break="no"/>te
+               tenuitas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e716">
+               <pb ed="#P" n="152-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e809">Ibidem libro vii epistola xiiii</ref> <quote xml:id="bHY6yh-d71435-Qd1e718">Idonei  
+               <lb ed="#P"/>vix damna sentiunt Tenues autem 
+               <lb ed="#P"/>leuius dispendio vulnerantur quoniam 
+               <lb ed="#P"/>vel mediocri iniuria totum videtur 
+               <lb ed="#P"/>amittere / qui exiguum noscitur possidere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e731">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e827">Isidorus in sinonima solliloquiorum libro
+               <lb ed="#P"/>primo capitulo primo</ref> <quote xml:id="bHY6yh-d71435-Qd1e735">Ubique pecunia vincit omnes 
+               <lb ed="#P"/>mendicitatem spernunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e743">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e843">Auctor libri qui dicitur pamphilus capitulo ii</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e747">Dummodo sit diues cuiusdam vacca bubulci
+               <lb ed="#P"/>Eligit ex mille quemlibet illa virum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e755">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e857">Mattheus vindocinensis in poetria parte primo
+               <lb ed="#P"/>capitulo xix</ref> <quote xml:id="bHY6yh-d71435-Qd1e759">Aurum roma sitit / dantes amat
+               <lb ed="#P"/>absque datiuo / Accusatiuo roma faue<lb ed="#P" break="no"/>re 
+               negat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e767">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e872">Andreas ad gualitatem de amore 
+               <lb ed="#P"/>libro iii</ref> <quote xml:id="bHY6yh-d71435-Qd1e771">Qui plurimis consueuit abun<lb ed="#P" break="no"/>dare
+               diuitiis multis ue carnis 
+               <lb ed="#P"/>et gaudiis mundi delectari si ad in<lb ed="#P" break="no"/>opie 
+               post modum tenebras ellabatur 
+               <lb ed="#P"/>totus sibi mundus videtur factus
+               <lb ed="#P"/>obscurus nullumque veretur committere 
+               <lb ed="#P"/>crimen / vt fortunam diuitiarum re<lb ed="#P" break="no"/>cuperare 
+               possit amissam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e790">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e897">Iacobus beneuentanus capitulo xvi</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e794">Diues honoratur cunctis / et diues amatur
+               <lb ed="#P"/>Deuitias sequitur delitiosus homo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e802">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e911">Ricardus iudex venusinus libro de
+               <lb ed="#P"/>pertractatione nuptiarum capitulo iiii</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e806">Denarius bonus est satis quicquid petis illi
+               <cb ed="#P" n="b"/>
+               <lb ed="#P"/>dat tibi denario cuncta parare potes</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e817">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e928">Auctor libri de moribus medicorum capitulo
+               <lb ed="#P"/>xxviii et fine</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e821">Bella mouent numus / eadem sedare videtur
+               <lb ed="#P"/>Qui sunt discordes vnanimesque facit.
+               <lb ed="#P"/>Regibus et ducibus generaliter omnibus ipse
+               <lb ed="#P"/>Imperat atque preest / et dominatur eis.
+               <lb ed="#P"/>Si careat numis sapiens quasi nullus habetur
+               <lb ed="#P"/>Et fauius sapiens diues habetur homo
+               <lb ed="#P"/>Numus amcitias iungit dat munus honores
+               <lb ed="#P"/>Uix sine denariis nullus habetur honor
+               <lb ed="#P"/>Rex regum numus dominus manet: et dominatum
+               <lb ed="#P"/>Omnes inclinant et famulantur ei.
+               <lb ed="#P"/>Destruit edificat numus facit omnia quae
+               <lb ed="#P"/>Ius et iustitiam cum ratione necat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e859">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e973">Bellinus in speculo vite parte primo exodo iii</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e863">Expertus noui quia multos numus adorat.
+               <lb ed="#P"/>Et sine denariis nil reputatur homo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e871">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e987">Prouerbium metricum extraordinem libroroum
+               <lb ed="#P"/>vagum</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e875">Numus honoratur sine numo nullus amatur.
+               <lb ed="#P"/>Numus emit villas illas struit et destruit 
+               <lb ed="#P"/>illas. Presulis albini seu martiris ossa 
+               <lb ed="#P"/>ruffini. Rome si quis habet vertere cuncta 
+               <lb ed="#P"/>valet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d71435-d1e887">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d71435-Rd1e1005">Prouerbium vulghare</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d71435-Qd1e891">Auere fastare tigno so ab alcho 
+               <lb ed="#P"/>Chi non ha delsuo musare glipuo 
+               <lb ed="#P"/>Lapo verta fa luomo bugiardo 
+               <lb ed="#P"/>Quella gallina canta che luouo sisentem
+               <pb ed="#P" n="153-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P"/>chi non a suo buoi non ara quando vinde 
+               <lb ed="#P"/>Massaia piena tosto fa ceria</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
