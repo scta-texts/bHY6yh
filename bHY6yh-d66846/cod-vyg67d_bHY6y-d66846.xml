@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 13</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 13</title>
+               <date when="2024-02-29">February 29, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-02-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#O" n="144-r"/>
+            <cb ed="#O" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d66846"><!-- p3l6-r13 -->
+            <head xml:id="bHY6yh-d66846-Hd1e108">Rubrica 13</head>
+            <head xml:id="bHY6yh-d66846-Hd1e111" type="question-title">De electis blandimentis</head>
+            <p xml:id="bHY6yh-d66846-d1e114">
+               De electis blan<lb ed="#O" break="no"/>dimentis. 
+               Rubrica. 13 
+            </p>
+            <p xml:id="bHY6yh-d66846-d1e121">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d66846-Rd1e118">OUidius epistolarum. <!--line bumps up--> 4. epistola</ref> <quote xml:id="bHY6yh-d66846-Qd1e125">Que nisi <!--line bumps back down--> tum dederis 
+               <lb ed="#O"/>caritura est ipsa salutem. 
+               <lb ed="#O"/>Mittit amazonio cressa puella 
+               <lb ed="#O"/>uiro.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66846-d1e135">
+               ¶ <ref xml:id="bHY6yh-d66846-Rd1e134">epistola. 5.</ref> <quote xml:id="bHY6yh-d66846-Qd1e139">Sed tua sum .te cumque 
+               <lb ed="#O"/>fui puerilibus annis. Et tua 
+               <lb ed="#O"/>quod superest temporis esse precor.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66846-d1e148"> 
+               ¶ <ref xml:id="bHY6yh-d66846-Rd1e147">epistola. 18.</ref> 
+               <lb ed="#O"/><quote xml:id="bHY6yh-d66846-Qd1e150">Si tibi non parcis dilecte parce 
+               <lb ed="#O"/>puelle. Que nunquam nisi te sospite 
+               <lb ed="#O"/>sospes erit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66846-d1e158">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d66846-Rd1e161">HEnricus <!--line bumps up--> samariensis libro 2.</ref> ¶ <quote xml:id="bHY6yh-d66846-Qd1e162">Er<!--line bumps back down-->go uale praesul sum uester
+               <lb ed="#O"/>spiritus iste. Post mortem uester 
+               <lb ed="#O"/>credite uester erit. Uiuus et extinctus 
+               <lb ed="#O"/>te semper amabo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66846-d1e172">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d66846-Rd1e177">GUaufridus im <!--line bumps up--> poetria. capitulo 100.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-d66846-Qd1e176">Quod minus est 
+               <lb ed="#O"/>supple quod plus abrade quod habi<lb ed="#O" break="no"/>tum.
+               Come quod obscurum declara 
+               <lb ed="#O"/>quod uitiosum. Emenda curis istis 
+               <lb ed="#O"/>sunt omnia sana.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
