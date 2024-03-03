@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 2 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 2</title>
+               <date when="2024-02-16">February 16, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+          <pb ed="#K" n="127-v"/>
+          <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d58721"><!-- p3l4-r2 -->
+            <head xml:id="bHY6yh-d58721-Hd1e108">Rubrica 2</head>
+            <head xml:id="bHY6yh-d58721-Hd1e111" type="question-title">De effectu verborum et operum</head>
+            <p xml:id="bHY6yh-d58721-d1e114">
+              De effectu verborum et operum 2
+            </p>
+            <p xml:id="bHY6yh-d58721-d1e121">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d58721-Rd1e118">Aristotles ethicorum libro 19 et fi
+              <lb ed="#K"/>capitulo 1</ref> <quote xml:id="bHY6yh-d58721-Qd1e127">de his quae in pass<lb ed="#K" break="no"/>ionibus 
+              et actionibus 
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>sunt sermones minus sunt 
+              <lb ed="#K"/>credibiles operibus / Ser<lb ed="#K" break="no"/>mones 
+              conuenientes existentes operibus 
+              <lb ed="#K"/>creduntur propter quod prouo<lb ed="#K" break="no"/>cant 
+              intelligentes et viuere 
+              <lb ed="#K"/>secundum ipsos</quote>
+            </p>
+            <p xml:id="bHY6yh-d58721-d1e141">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d58721-Rd1e141">Ouidius de fastis libro 6 et fi</ref> <quote xml:id="bHY6yh-d58721-Qd1e145">exempla 
+              parantur / Cum vides alios 
+              <lb ed="#K"/>quod monet ipse facit</quote>
+            </p>
+            <p xml:id="bHY6yh-d58721-d1e152">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d58721-Rd1e154">Augustinus in epigramatibus prosperi 6 epistola</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d58721-Qd1e156">bene loqui et male viuere 
+              <lb ed="#K"/>nihil aliud est quam 
+              <lb ed="#K"/>seipsum sua voce quod damnare</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
