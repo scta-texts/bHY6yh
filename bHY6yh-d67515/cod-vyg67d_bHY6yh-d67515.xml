@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 19</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 19</title>
+               <date when="2024-03-06">March 6, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="145-v"/>
+            <cb ed="#O" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d67515"><!-- p3l6-r19 -->
+            <head xml:id="bHY6yh-d67515-Hd1e108">Rubrica 19</head>
+           <head xml:id="bHY6yh-d67515-Hd1e111" type="question-title">De scomatibus id est calide dictis conuitiis que vulgo in italia dicuntur moti</head>
+            <p xml:id="bHY6yh-d67515-d1e114">
+               De scomati$bus. 
+               1. callidus dictis conuiciis que uulgo 
+               <lb ed="#O"/>in ytalia dicuntur moti Rubrica 10 <!--supposed to be Rubric 19-->
+            </p>
+            <p xml:id="bHY6yh-d67515-d1e123">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d67515-Rd1e120">CRonica de nugis philosophorum 
+               <lb ed="#O"/>capitulo 24 scilicet de bione.</ref> ¶ <quote xml:id="bHY6yh-d67515-Qd1e131">Bio ad eum 
+               <lb ed="#O"/>qui agros uoraciter consumpserit 
+               <lb ed="#O"/>ait. Amphita quidem deglutiuit 
+               <lb ed="#O"/>terra tu uero terram.</quote>
+            </p>
+            <p xml:id="bHY6yh-d67515-d1e139">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d67515-Rd1e139">Frontinus libro <!--line bumps up--> 4. t. 5.</ref> <quote xml:id="bHY6yh-d67515-Qd1e143">leoni<!--line bumps back down-->das lacedeino$nius 
+               cum dicerentur perse sagit$tarum 
+               multitudine nubes esse fac$turi 
+               fertur dixisse melius in um$bris 
+               propugnabimus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d67515-d1e154">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d67515-Rd1e156">UAlerius maximus libro 3. <!--line bumps up--> t. de fidu<!--line bumps back down-->cia sui</ref> 
+               <lb ed="#O"/><quote xml:id="bHY6yh-d67515-Qd1e158">Spartanus quidem referente 
+               <lb ed="#O"/>quodam sagittis persarum solem ob$scurari 
+               solere bene narras inquit in 
+               <lb ed="#O"/>umbra enim preliabimur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d67515-d1e168">
+               ¶ <ref xml:id="bHY6yh-d67515-Rd1e172">libro 9. ti. de simi$litudine 
+               forme</ref> <quote xml:id="bHY6yh-d67515-Qd1e172">In cicilia proconsuli 
+               <lb ed="#O"/>admodum similis quidam fuit qui pro$consule 
+               dicente mirari se qua$propter 
+               tam similis esset cum pater suus in meam
+               <lb ed="#O"/>prouinciam nunquam accessisset. At 
+               <lb ed="#O"/>mens inquid roman accessit.
+               <lb ed="#O"/>Ioco namquam lacessitam matris sue pu$diciciam 
+               in Uicem suspitionem ma$trem 
+               eius reiecta ultus est.</quote>
+            </p>
+            <p>
+               <!--following paragraph in manuscript but not here, I did my best to transcribe it-->
+               <lb ed="#O"/>IOhannes solobriensis anglicus
+               <lb ed="#O"/>impolicraticem. libro 4 ¶ Octauiano$gu
+               <pb ed="#O" n="146-r"/>
+               <cb ed="#O" n="a"/>
+               <lb ed="#O"/>augusto. simillimus adolesces ur$bem
+               intrauit. quem augustus ad se
+               <lb ed="#O"/>perductum introgauit. dictum adole$scens
+               fuit unquam matur tua rome.
+               <lb ed="#O"/>Negauit ille <unclear>n</unclear>contentus adiecit sed
+               <lb ed="#O"/>patur meus sepe ioci itaque asperitate
+               <lb ed="#O"/>urbana notitia omnium et familiari$tatem
+               imperatoris sibi conciliauit ¶ libro
+               <lb ed="#O"/>5. Plato cum uidisset dyonisium si$cilie
+               tyrampnum corperis sui septum cu$stodibus.
+               Quod tamen inquid malum
+               <lb ed="#O"/>secisti ut atam multis necessere habeas
+               <lb ed="#O"/>custodiar. ¶ libro 8. Anibal cum aptum regem
+               <lb ed="#O"/>antiochum moraetur cam prosicui
+               <lb ed="#O"/>facetissime cauilatus est. Rege ob$stentante
+               exercitum insignibus aureis
+               <lb ed="#O"/>et argenteis florentem inducentem
+               <lb ed="#O"/>cuirus cum fallacibus et cum turibus ele$phantes. 
+               et <unclear>omenm</unclear> equitatus fre$nis
+               epyphiis monilibus ac faleris
+               <lb ed="#O"/>prefulgentem. Cum ergo rex contem plationem
+               <lb ed="#O"/>tanti ac tam ornati exciti <unclear>gsiabum$dus</unclear>
+               amibalem aspexisset. Putas
+               <lb ed="#O"/>ne satis esse romanis hec omnia. Tum
+               <lb ed="#O"/>penus ludens agnauiam inbeliamque
+               <lb ed="#O"/>militum eius perciose armatorum pla$ne
+               inquit. satis esse credo et fi roma$ni
+               auarissimi sum. ¶ libro 12. Antigo$nius
+               rex throcritum rhium de quo
+               <lb ed="#O"/>iurauerat quod ei parfuris esset occidit
+               <lb ed="#O"/>propter scoma ab eodem dese dictum. Cum
+               <lb ed="#O"/>ei qui puniendus ad antigonium
+               <lb ed="#O"/>reciperetur solantibus eum amicis ac spere
+               <lb ed="#O"/>pollicentibus quod omnio clementiam re$gis
+               experturus esset cum ad oculos enim
+               <lb ed="#O"/>uenisset. <unclear>Rexendit</unclear> ergo impossible
+               <cb ed="#O" n="b"/>
+               <lb ed="#O"/>in dicitis spere salutis erat ante an$tigonius
+               Uno orbatur oculo et im$portuna
+               urbanitas amaledicum
+               <lb ed="#O"/>luce pruauit. ¶ libertus regis cum
+               <lb ed="#O"/>ad nouas <unclear>dintias</unclear> nuper erectus phorus
+               <lb ed="#O"/>ad conuiuium congregasset et irri$dendo
+               eorum in mutulas quones sci$re
+               se uelle dixisset cur ex alba fa
+               <lb ed="#O"/>ba et nigra pulmentum unius co$loris
+               edatur. Aridices phorus indiges
+               <lb ed="#O"/>serens. tu <unclear>nb</unclear> inquit absolue
+               <lb ed="#O"/>cur et de albis et nigris loris files
+               <lb ed="#O"/>macule gignantur. Commendatur
+               <lb ed="#O"/>scoma et conditio dicentis si
+               <lb ed="#O"/>in eadem causa sit.
+            </p>
+            <p xml:id="bHY6yh-d67515-d1e189">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d67515-Rd1e195">MArcialis cocus l. <!--line bumps up--> undique su<!--line bumps back down-->scepto. capitulo 2.</ref> ¶ <quote xml:id="bHY6yh-d67515-Qd1e193">
+               <lb ed="#O"/>Calba dolet cicero quoniam pede 
+               <lb ed="#O"/>claudicat uno. Nempe hunc de$ficere 
+               uellet utroque pede.</quote>
+            </p>
+            <p xml:id="bHY6yh-d67515-d1e201">
+               <ref xml:id="bHY6yh-d67515-Rd1e209">capitulo. 5.</ref> <quote xml:id="bHY6yh-d67515-Qd1e205">Co$lligit 
+               umbricius uires a munere 
+               <lb ed="#O"/>bachi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d67515-d1e211">
+               <ref xml:id="bHY6yh-d67515-Rd1e221">Iohannes solobriensis anglicus in policratone. l. 42.</ref> ¶ <quote xml:id="bHY6yh-d67515-Qd1e215">Octauiano 
+               augusto similimus qui dam adolescens urbem intrauit quem augustus ad se perductum interrogauit dic mihi adolescens. fuit unquam mater tua rome ne
+               gauit ille nec contentus adiecit sed pater meus sepe. Ioci itaque asperitate urbana 
+               notitiam omnium et familiaritatem imperatoris sibi conciliauit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d67515-d1e251"> 
+               ¶ <ref xml:id="bHY6yh-d67515-Rd1e253">libro 5.</ref> <quote xml:id="bHY6yh-d67515-Qd1e255">Plato cum uidisset dionysium sicilie tyrannum corporis sui 
+               septum custodibus. Quod tantum inquit malum fecisti ut a tam multis necesse habeas custodiri.</quote>
+            </p>
+            <p xml:id="bHY6yh-d67515-d1e260"> 
+               ¶ <ref xml:id="bHY6yh-d67515-Rd1e270">libro 8.</ref> <quote xml:id="bHY6yh-d67515-Qd1e253">Hannibal cum apud regem anthiochum moraretur causa prosicui 
+               facetissime cauillatus est. Rege ostentante exercitum insignibus aureis et argenteis florentem inducentem currus cum falcibus et cum turribus 
+               elephantes et omnem equitatum frenis epyphiis monilibus ac faleris prefulgentem. Cum ergo rex contemplatione tanti actam ornati exercitus gloriabundus 
+               hannibalem aspexisset putas ne satis esse romanis hec omnia. Tum penus ludens ignauiam imbeliamque militum eius preciose 
+               armatorum. Plane inquit satis esse credo etsi romani auarissimi sint.</quote>
+            </p>
+            <p xml:id="bHY6yh-d67515-d1e286"> 
+               ¶ <ref xml:id="bHY6yh-d67515-Rd1e306">libro 12.</ref> <quote xml:id="bHY6yh-d67515-Qd1e288">Antigonus rex theocricum rhium de quo inurauerat quod ei 
+               parsurus esset occidit propter scoma ab eodem de se dictum. Cum enim quasi puniendus ad antigonum reparetur solantibus eum amicis ac spem 
+               pollicentibus quod omnino clementiam regis experturus esset cum ad oculos eius uenisset respondit ergo impossibile mihi dicitis spem salutis
+               erat autem antigonus uno orbatus oculo. Et importuna vrbanitas maledicum luce priuauit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d67515-d1e315"> 
+               ¶ <quote xml:id="bHY6yh-d67515-Qd1e317">libertus regis cum ad nouas diuitias nuper erectus philosophos ad conuiuium congregasset: et irridendo eorum 
+               immutulas questiones scire se uelle dixisset cum ex alba faba et nigra pulmentum unius coloris edatur. An dicens philosophus indigne ferens tu nobis 
+               inquit absolue cum et de albis et nigris loris similes macule gignantur. Commendatur scoma et conditio dicentis si in eadem causa sit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d67515-d1e340">
+               ¶ <ref xml:id="bHY6yh-d67515-Rd1e366">Mattheus uidoc. in poetria. partu. 1. capitulo 19.</ref> ¶ <quote xml:id="bHY6yh-d67515-Qd1e344">Aurum roma sitit
+               dantes amat absque datiuo Accusatiuo roma fauere negat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d67515-d1e356">
+               <ref xml:id="bHY6yh-d67515-Rd1e385">Prouerb. metric. extraord l. uag.</ref> <quote xml:id="bHY6yh-d67515-Qd1e360">
+               Presulis albini seu martyris ossa ruffini Rome si quis habent uertere cuncta ualet.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
