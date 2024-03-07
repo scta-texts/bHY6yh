@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 21</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 21</title>
+               <date when="2024-03-06">March 6, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="146-v"/>
+            <cb ed="#O" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d67900"><!-- p3l6-r21 -->
+            <head xml:id="bHY6yh-d67900-Hd1e108">Rubrica 21</head>
+            <head xml:id="bHY6yh-d67900-Hd1e111" type="question-title">De iocali seu faceta excusatione</head>
+            <p xml:id="bHY6yh-d67900-d1e114">
+               De iocali seu faceta excusati<lb ed="#O" break="no"/>one. 
+               Rubrica. 21
+            </p>
+            <p xml:id="bHY6yh-d67900-d1e125"> 
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d67900-Rd1e122">UAlerius maxi<!--line bumps up-->mus libro 5. ti. de <!--line bumps back down--> humanitate 
+               <lb ed="#O"/>aut clementia</ref> ¶ <quote xml:id="bHY6yh-d67900-Qd1e133">Pirrus rex 
+               <lb ed="#O"/>audierat quosdam in conuiuio 
+               <lb ed="#O"/>tarentinorum parum honoratum de 
+               <lb ed="#O"/>se sermonem habitum accersitos qui ei 
+               <lb ed="#O"/>interfuerant percunctabatur an ea 
+               <lb ed="#O"/>que ad aures ipsius peruenerant dixis<lb ed="#O" break="no"/>sent. 
+               Tum ex hiis unus nisi inquit no<lb ed="#O" break="no"/>bis 
+               uinum defecisset ista que tibi re<lb ed="#O" break="no"/>lata 
+               phis que de te locuturi eramus 
+               <lb ed="#O"/>lusus ac iocus fuissent. Tam urba<lb ed="#O" break="no"/>na 
+               crapule excusatio tamque sim<lb ed="#O" break="no"/>plex 
+               ueritatis confessio iram regis 
+               <lb ed="#O"/>conuertit in risum. Qua quidem cle<lb ed="#O" break="no"/>mentia 
+               et moderatione assecutus est 
+               <lb ed="#O"/>ut et sobrii sibi tarentini gratias 
+               <lb ed="#O"/>agerent et ebrii bene precarentur.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d67900-d1e163">
+               ¶ <ref xml:id="bHY6yh-d67900-Rd1e163">t. 
+               <lb ed="#O"/>de gratis.</ref> <quote xml:id="bHY6yh-d67900-Qd1e167">marii non solum praecipu<lb ed="#O" break="no"/>us 
+               sed etiam prepotens grate mentis fuit im<lb ed="#O" break="no"/>petus 
+               duas enim camentium cohortes 
+               <lb ed="#O"/>mirabili uirtute uim cimborum substi<lb ed="#O" break="no"/>nentes 
+               in ipsa acie aduersus condi<lb ed="#O" break="no"/>tionem 
+               federis ciuitatem donauit. 
+               <lb ed="#O"/>Quod quidem factum et uere et egregie excusa<lb ed="#O" break="no"/>uit 
+               dicendo inter armorum strepi<lb ed="#O" break="no"/>tum 
+               uerba se inuris ciuilis exaudire 
+               <lb ed="#O"/>non potuisse et sane id tempus tunc erat 
+               <lb ed="#O"/>quo magis defendere quam audire
+               <pb ed="#O" n="147-r"/>
+               <cb ed="#O" n="a"/>
+               <lb ed="#O"/>leges oportebat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d67900-d1e193">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d67900-Rd1e195">IOhannes <!--line bumps up--> solobrienses an<!--line bumps back down-->glicus im policra<lb ed="#O" break="no"/>tone 
+               libro 4.</ref> ¶ <ref xml:id="bHY6yh-d67900-Rd1e200">Cicero consul cum 
+               <lb ed="#O"/>impalatio domum uellet emere
+               <lb ed="#O"/>Respone s. t. proximo.</ref> <!--two refs no quote-->
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
