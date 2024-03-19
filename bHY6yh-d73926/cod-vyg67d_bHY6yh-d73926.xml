@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 7</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 7</title>
+               <date when="2024-03-19">March 19, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="158-r"/>
+            <cb ed="#O" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d73926"><!-- p4l2-r7 -->
+            <head xml:id="bHY6yh-d73926-Hd1e108">Rubrica 7</head>
+            <head xml:id="bHY6yh-d73926-Hd1e111" type="question-title">De conseruatione diuitiarum</head>
+            <p xml:id="bHY6yh-d73926-d1e114">
+               <lb ed="#O"/>De conseruatione diuitiarum. Rubrica. 7
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e121"> 
+               <lb ed="#O"/><ref xml:id="bHY6yh-d73926-Rd1e118">SAlomon in ecclesast. capitulo 3.</ref> ¶ <quote xml:id="bHY6yh-d73926-Qd1e127">Tempus 
+               <lb ed="#O"/>custodiendi et tempus abiiciendi.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e133">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d73926-Rd1e133">TUllius rethor. artis noue libro 5. 
+               <lb ed="#O"/>capitulo 21.</ref> ¶ <quote xml:id="bHY6yh-d73926-Qd1e137">Diligentia est accurata 
+               <lb ed="#O"/>conseruatio suorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e144">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d73926-Rd1e147">OUidius de arte <!--line bumps up--> amandi libro 2.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-d73926-Qd1e148">Nec minor est 
+               <lb ed="#O"/>uirtus quam querere parata tueri. 
+               <lb ed="#O"/>Casus inest illic hic artis opus erit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e156">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d73926-Rd1e161">CAto capitulo. 1.</ref> ¶ <quote xml:id="bHY6yh-d73926-Qd1e160">Rem tuam custo<lb ed="#O" break="no"/>di.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e164">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d73926-Rd1e171">Cassi<!--line bumps up-->odorus epistolarum libro 1. epistola 24.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-d73926-Qd1e168">Maior in conseruandis 
+               <lb ed="#O"/>quam in ueniendis adhibenda ca<lb ed="#O" break="no"/>utella 
+               est quia de initiis predicatio 
+               <lb ed="#O"/>debetur inuentio de custoditis au<lb ed="#O" break="no"/>ditur 
+               laudata perfectio.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e180">
+               ¶ <ref xml:id="bHY6yh-d73926-Rd1e187">43 epistola</ref> <quote xml:id="bHY6yh-d73926-Qd1e182">Que 
+               <lb ed="#O"/>studiosius diligimus maiori gratia 
+               <lb ed="#O"/>custodimus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e188">
+               ¶ <ref xml:id="bHY6yh-d73926-Rd1e199">libro 11. epistola 1.</ref> <quote xml:id="bHY6yh-d73926-Qd1e192">Cito expendun<lb ed="#O" break="no"/>tur 
+               horrea que assidua non fuerint 
+               <lb ed="#O"/>adiectione fulcita. ¶ Thesaurus ipse 
+               <lb ed="#O"/>quam facile profunditur si nullis iterum 
+               <lb ed="#O"/>pecuniis compleatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e202">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d73926-Rd1e215">AUctor lib. qui dici<!--line bumps up-->tur facetus. <!--line bumps back down--> capitulo 7.</ref> <quote xml:id="bHY6yh-d73926-Qd1e206">Res le<lb ed="#O" break="no"/>uis 
+               est querere sed retinere labor</quote>
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e213">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d73926-Rd1e228">RIcardus yconomica capitulo 17.</ref> 
+               <lb ed="#O"/><quote xml:id="bHY6yh-d73926-Qd1e217">Melius est grauem pati fa<lb ed="#O" break="no"/>mem 
+               quam patrimonii uenditionem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e225">
+               <lb ed="#O"/>¶ <ref xml:id="bHY6yh-d73926-Rd1e243">26 capitulo</ref> <quote xml:id="bHY6yh-d73926-Qd1e227">Si nobiles sunt fratres. meli<lb ed="#O" break="no"/>or 
+               est sepe eorum per mundum disper<lb ed="#O" break="no"/>sio 
+               quam hereditatis diuisio. Nam 
+               <lb ed="#O"/>sepe est eorum grauis dissolutio hu<lb ed="#O" break="no"/>ius 
+               modi hereditatis diuisio.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e237">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d73926-Rd1e259">IAcobus beneuentanus. capitulo 52.</ref> 
+               <lb ed="#O"/><quote xml:id="bHY6yh-d73926-Qd1e241">Rem bene custodi quod habes di<lb ed="#O" break="no"/>spergere 
+               noli. Ne dispergaris et uelut 
+               <lb ed="#O"/>exul eas. Laus est magna uiro 
+               <lb ed="#O"/>sua si conseruat et auget. Obpro<lb ed="#O" break="no"/>brium 
+               contra si male tractet ea.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
