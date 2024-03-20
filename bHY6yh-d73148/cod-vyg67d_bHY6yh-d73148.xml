@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4</title>
+               <date when="2024-03-19">March 19, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#O" n="156-v"/>
+            <cb ed="#O" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d73148"><!-- p4l2-r4 -->
+            <head xml:id="bHY6yh-d73148-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-d73148-Hd1e111" type="question-title">De lucri acquisitionis honestate consideranda</head>
+            <p xml:id="bHY6yh-d73148-d1e114">
+               De 
+               <lb ed="#O"/>lucri acquisitionis honestate con<lb ed="#O" break="no"/>sideranda. 
+               Rubrica. 4
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e121">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d73148-Rd1e118">PSalmista. 36 <!--line bumps up--> psalamus.</ref> ¶ <quote xml:id="bHY6yh-d73148-Qd1e125">Melius est <!--line bumps back down--> modicum iusto 
+               <lb ed="#O"/>super diuitias peccatorum multas.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e135">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d73148-Rd1e134">SAlomon in prouerbiis. capitulo 16.</ref> <quote xml:id="bHY6yh-d73148-Qd1e139">Melius 
+               <lb ed="#O"/>est parum cum iusticia quam multi 
+               <lb ed="#O"/>fructus cum iniquitate.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e148">
+               ¶ <ref xml:id="bHY6yh-d73148-Rd1e147">capitulo 17.</ref> <quote xml:id="bHY6yh-d73148-Qd1e150">Me<lb ed="#O" break="no"/>lior 
+               est bucella sicca cum gaudio quam 
+               <lb ed="#O"/>domus plena uictimis cum iurgio.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e156">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d73148-Rd1e159">Ysocrates in exhortationibus. capitulo 2 ad 
+               <lb ed="#O"/>fi.</ref> ¶ <quote xml:id="bHY6yh-d73148-Qd1e160">Amplectere magis iustam 
+               <lb ed="#O"/>penuriam quam iniustas diuitias. haec 
+               <lb ed="#O"/>enim iustitia diuitiis potior. Neminem 
+               <pb ed="#O" n="157-r"/>
+               <cb ed="#O" n="a"/>
+               <lb ed="#O"/>celeris lucrantem nequiter.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e170">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d73148-Rd1e175">ARistotelis politicorum libro 6. capitulo 3.</ref> ¶ <quote xml:id="bHY6yh-d73148-Qd1e174">Multi
+               <lb ed="#O"/>magis appetunt lucrum quam ho<lb ed="#O" break="no"/>norem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e180">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d73148-Rd1e187">IEsus <!--line bumps up--> filius sirach. in ecclesiast. capitulo 5.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-d73148-Qd1e184">Noli anxius esse in diuitiis 
+               <lb ed="#O"/>iniustis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e190">
+               ¶ <ref xml:id="bHY6yh-d73148-Rd1e197">13. capitulo</ref> <quote xml:id="bHY6yh-d73148-Qd1e192">Bona est substantia 
+               <lb ed="#O"/>cui non est peccatum in conscientia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e198">
+               ¶ <ref xml:id="bHY6yh-d73148-Rd1e209">31. capitulo</ref> 
+               <lb ed="#O"/><quote xml:id="bHY6yh-d73148-Qd1e202">Beatus diues qui inuentus est sine 
+               <lb ed="#O"/>macula.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e209">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d73148-Rd1e222">TErren<!--line bumps up-->tius in a delphis.</ref> ¶ <quote xml:id="bHY6yh-d73148-Qd1e213">Pe<!--line bumps back down-->cuniam in loco negli<lb ed="#O" break="no"/>gere 
+               maximum interdum est 
+               <lb ed="#O"/>lucrum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e219">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d73148-Rd1e234">TUllius <!--line bumps up--> rethoricorum artis no<!--line bumps back down-->ue libro 6. et fi. capitulo 5.</ref> ¶ <quote xml:id="bHY6yh-d73148-Qd1e223">Due 
+               <lb ed="#O"/>res sunt que possunt homines 
+               <lb ed="#O"/>ad turpe compendium promouere. In o<lb ed="#O" break="no"/>pia 
+               atque auaritia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e233">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d73148-Rd1e250">CAssiodorus epistola<!--line bumps up-->rum libro 5. capitulo 13.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-d73148-Qd1e237">pulcrum est com<lb ed="#O" break="no"/>modum 
+               feda neglexisse 
+               <lb ed="#O"/>lucra pecunie.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e245">
+               ¶ <ref xml:id="bHY6yh-d73148-Rd1e262">libro 8. epistola 20.</ref> <quote xml:id="bHY6yh-d73148-Qd1e247">Pecu<lb ed="#O" break="no"/>nias 
+               illas uolumus quibus libra iu<lb ed="#O" break="no"/>stitie 
+               suffragatur. </quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e257">
+               ¶ <ref xml:id="bHY6yh-d73148-Rd1e278">libro 9. epistola 3.</ref> <quote xml:id="bHY6yh-d73148-Qd1e261">Aurum 
+               <lb ed="#O"/>siquidem per bella querere nephas est 
+               <lb ed="#O"/>per maria periculum per falsitates 
+               <lb ed="#O"/>obprobrium in sua uero natura 
+               <lb ed="#O"/>iustitia. ¶ Honesta sunt lucra per que 
+               <lb ed="#O"/>nemo leditur. ¶ Bene queritur quod an<lb ed="#O" break="no"/>ullis 
+               adhuc dominis abrogatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e275">
+               ¶ <ref xml:id="bHY6yh-d73148-Rd1e296">14. 
+               <lb ed="#O"/>capitulo</ref> <quote xml:id="bHY6yh-d73148-Qd1e277">Commodum debet esse cum modo. nam 
+               <lb ed="#O"/>si mensuram equalitatis excesserit 
+               <lb ed="#O"/>uim sui nominis non habebt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e286">
+               ¶ <ref xml:id="bHY6yh-d73148-Rd1e309">15. epistola</ref> <quote xml:id="bHY6yh-d73148-Qd1e288">Il<lb ed="#O" break="no"/>lud 
+               tantum uere possumus lucrum dicere 
+               <lb ed="#O"/>quod constat diuina iudicia non 
+               <lb ed="#O"/>punire.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e296">
+               ¶ <ref xml:id="bHY6yh-d73148-Rd1e321">libro 11 epistola 8.</ref> <quote xml:id="bHY6yh-d73148-Qd1e298">Quid acquiri 
+               <lb ed="#O"/>putatur ubi bona conscientia perditur 
+               <lb ed="#O"/>aut in qua parte possit homo perficere 
+               <cb ed="#O" n="b"/>
+               <lb ed="#O"/>si innocentiam probatus fuerit 
+               <lb ed="#O"/>amisisse.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e308">
+               ¶ <ref xml:id="bHY6yh-d73148-Rd1e338">libro 12 epistola 13.</ref> <quote xml:id="bHY6yh-d73148-Qd1e312">Ultra omnes 
+               <lb ed="#O"/>crudelitates est diuitem uelle fi<lb ed="#O" break="no"/>eri 
+               de exiguitate mendici. Amen<lb ed="#O" break="no"/>tur 
+               honesta lucra horreantur damp<lb ed="#O" break="no"/>nosa 
+               compendia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e322">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d73148-Rd1e354">IAcobus bene<!--line bumps up-->uentanus. capitulo 46.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-d73148-Qd1e326">Est id turpe 
+               <lb ed="#O"/>lucrum quod detestatur honestas. 
+               <lb ed="#O"/>Ferre solent damna crimine ple<lb ed="#O" break="no"/>na 
+               lucra.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
