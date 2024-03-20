@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 6</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 6</title>
+               <date when="2024-02-02">February 2, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-02-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#C" n="70-v"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d51499"><!-- p3l2-r6 -->
+            <head xml:id="bHY6yh-d51499-Hd1e108">Rubrica 6</head>
+            <head xml:id="bHY6yh-d51499-Hd1e111" type="question-title">De ordine et ordinatione</head>
+            <p xml:id="bHY6yh-d51499-d1e114">
+              De ordinatione
+              <lb ed="#C"/>et ordine capitulum
+            </p>
+            <!--next paragraph begins on the same line as the previous paragraph-->
+            <p xml:id="bHY6yh-d51499-d1e119">
+              <ref xml:id="bHY6yh-d51499-Rd1e116">ARistoteles 
+              philosicorum libro 7
+              <lb ed="#C"/>capitulo III</ref> <quote xml:id="bHY6yh-d51499-Qd1e127">Nichil est inordinatum eorum qua
+              <lb ed="#C"/>natura et secundum naturam sunt Natura omnibus
+              <lb ed="#C"/>causa ordinationis est ordinatio omnis
+              <lb ed="#C"/>ratio est</quote> 
+            </p>
+            <p xml:id="bHY6yh-d51499-d1e137">
+              ¶ <ref xml:id="bHY6yh-d51499-Rd1e135">Idem de memoria et reminiscentia</ref>
+              <pb ed="#C" n="71-r"/>
+              <cb ed="#C" n="a"/>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d51499-Qd1e139">Sunt magis reminiscibilia quecumque ordina<lb ed="#C" break="no"/>tionem 
+              habent</quote>
+            </p>
+            <p xml:id="bHY6yh-d51499-d1e148">
+              ¶ <ref xml:id="bHY6yh-d51499-Rd1e149">Idem yconomicorum libro I in finem</ref> <quote xml:id="bHY6yh-d51499-Qd1e150">Oportet
+              <lb ed="#C"/>unumquodque in loco suo poni sic enim para<lb ed="#C" break="no"/>tum 
+              existens non queretur</quote>
+            </p>
+            <p xml:id="bHY6yh-d51499-d1e160">
+              ¶ <ref xml:id="bHY6yh-d51499-Rd1e167">Idem po<lb ed="#C" break="no"/>liticorum 
+              libro VII capitulo III</ref> <quote xml:id="bHY6yh-d51499-Qd1e162">Lex quidam ordo est ualde
+              <lb ed="#C"/>excedens numerus non potest participa<lb ed="#C" break="no"/>re 
+              ordinem</quote>
+            </p>
+            <p xml:id="bHY6yh-d51499-d1e170">
+              ¶ <ref xml:id="bHY6yh-d51499-Rd1e181">Paulus ad romanos 12</ref> <quote xml:id="bHY6yh-d51499-Qd1e174">que a deo
+              <lb ed="#C"/>sunt ordinata sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d51499-d1e180">
+              ¶ <ref xml:id="bHY6yh-d51499-Rd1e192">Idem ad corinthios 14</ref> <quote xml:id="bHY6yh-d51499-Qd1e182">Om<lb ed="#C" break="no"/>nia 
+              honeste et secundum ordinem fiant in nobis</quote>
+            </p>
+            <p xml:id="bHY6yh-d51499-d1e190">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d51499-Rd1e207">Marcialis cocus libro vndique suscepto capitulo II</ref> <quote xml:id="bHY6yh-d51499-Qd1e194">quam male
+              <lb ed="#C"/>confundit ratio praepostera mores</quote>
+            </p>
+            <p xml:id="bHY6yh-d51499-d1e200">
+              ¶ <ref xml:id="bHY6yh-d51499-Rd1e219">Boetius
+              <lb ed="#C"/>de consolatione libro I Vers XI</ref> <quote xml:id="bHY6yh-d51499-Qd1e204">Quod precipiti uia
+              <lb ed="#C"/>certum deserit ordinem letos non habet exitus</quote>
+            </p>
+            <p xml:id="bHY6yh-d51499-d1e213">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d51499-Rd1e234">Cassiodorus epistolarum libro VIII epistola XIII</ref> <quote xml:id="bHY6yh-d51499-Qd1e217">Se<lb ed="#C" break="no"/>curus 
+              celsa conscendit qui se in paulo mi<lb ed="#C" break="no"/>noribus 
+              approbauit et certo procedit uestigi<lb ed="#C" break="no"/>o 
+              qui gradatim desiderio potitur accep<lb ed="#C" break="no"/>to</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
