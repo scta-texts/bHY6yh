@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10</title>
+               <date when="2024-04-24">April 2, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-04-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="169-v"/>
+            <cb ed="#O" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d79665"><!-- p4l3-r10 -->
+            <head xml:id="bHY6yh-d79665-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-d79665-Hd1e111" type="question-title">De famulis et domesticis</head>
+            <p xml:id="bHY6yh-d79665-d1e114">
+               De fa<lb ed="#O" break="no"/>mulis 
+               et domesticis. Rubrica. 10
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e119">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d79665-Rd1e116">SAlomon in prouerbiis. capitulo. 15</ref> <quote xml:id="bHY6yh-d79665-Qd1e125">Con<lb ed="#O" break="no"/>turbat
+               domum suam qui sectatur 
+               <lb ed="#O"/>auaritiam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e131">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d79665-Rd1e131">Ysocrates <!--line bumps up--> in exhortationibus. capitulo 2.</ref> ¶ <quote xml:id="bHY6yh-d79665-Qd1e135">Esto <!--line bumps back down--> adherentibus tractabilis 
+               <lb ed="#O"/>non sublimis nam despicien<lb ed="#O" break="no"/>tium 
+               tumorem. Uix equidem tollera<lb ed="#O" break="no"/>bunt 
+               serui modum uero tractabilium 
+               <lb ed="#O"/>cuncti ferunt alacriter.</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e148">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d79665-Rd1e151">IEsus filius sirach <!--line bumps up--> in ecclesiastico. capitulo <!--line bumps back down--> 4.</ref> ¶ <quote xml:id="bHY6yh-d79665-Qd1e152">Noli
+               <lb ed="#O"/>esse sicut leo in domo tua euer<lb ed="#O" break="no"/>tens 
+               domesticos tuos et opprime 
+               <lb ed="#O"/>subiectos tibi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e160">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d79665-Rd1e165">SEneca e<!--line bumps up-->pistolarum ad lucillum libro <!--line bumps back down--> 18. epistola 5.</ref> ¶ <quote xml:id="bHY6yh-d79665-Qd1e164">Tumeri 
+               <lb ed="#O"/>tam domi quam foris molestum 
+               <lb ed="#O"/>est tam a seruis quam aliberis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e172"> 
+               ¶ <ref xml:id="bHY6yh-d79665-Rd1e178">Idem de 
+               <lb ed="#O"/>breuitate uite.</ref> <quote xml:id="bHY6yh-d79665-Qd1e174">Eorum miserrima est 
+               <lb ed="#O"/>conditio qui nec suis quidem labo<lb ed="#O" break="no"/>rant 
+               occupationibus ad alienum 
+               <lb ed="#O"/>dormiunt sonum ad alieuum ambu<lb ed="#O" break="no"/>lant 
+               gradum ad alienum comedunt 
+               <lb ed="#O"/>appetitum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e186">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d79665-Rd1e197">BOetius <!--line bumps up--> de consolatione libro 3. capitulo 9.</ref> ¶ <quote xml:id="bHY6yh-d79665-Qd1e190">Que <!--line bumps back down--> pestis est efficacior ad 
+               <lb ed="#O"/>nocendum quam familiaris ini<lb ed="#O" break="no"/>micus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e198">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d79665-Rd1e211">BEr<!--line bumps up-->trandus yconomica. capitulo 15.</ref> ¶ <quote xml:id="bHY6yh-d79665-Qd1e202">Fa<!--line bumps back down-->mulum alti cordis repelle 
+               <lb ed="#O"/>ut futurum inimicum. ¶ Famulum 
+               <lb ed="#O"/>ut tuis moribus blandientem repel<lb ed="#O" break="no"/>le. 
+               ¶ Famulum de facili se uerecun<lb ed="#O" break="no"/>dantem 
+               dilige ut filium.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
