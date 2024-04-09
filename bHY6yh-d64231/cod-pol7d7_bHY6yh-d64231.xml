@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 1 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-04-06">April 06, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="138-v"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d64231"><!-- p3l6-r1 -->
+          <head xml:id="bHY6yh-d64231-Hd1e108">Rubrica 1</head>
+          <head xml:id="bHY6yh-d64231-Hd1e111" type="question-title">De rethorica et poetria et eloquentia facundia: oratione et oratore atque poeta</head> 
+          <p xml:id="bHY6yh-d64231-d1e114">
+                  <lb ed="#K" n="138-v"/>
+                  <cb ed="#K" n="a"/>
+               <lb ed="#K" n="3"/>SExtus et vltimus liber 
+               <lb ed="#K"/>tertie partis: tractat de elo<lb ed="#K" break="no"/>quentia 
+               sub his titulis suquentibus 
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e125">
+              <lb ed="#K"/>De rethorica et poetria et eloquentia 
+              <lb ed="#K"/>facundia <unclear>ione: oraoratoreatque</unclear> poeta. Rubrica. i.
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e136">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d64231-Rd1e134">ARistoteles rethoricorum li. i. c. i. in princi.</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d64231-Qd1e144">Rethorica est ars secutiua dialetice.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e151"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d64231-Rd1e149">2. c.</ref> <quote xml:id="bHY6yh-d64231-Qd1e153">Rethorica est potentia contra 
+              <lb ed="#K"/>vnumquodque considerandi con<lb ed="#K" break="no"/>tingens
+              persuasibile.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e161"> 
+              <ref xml:id="bHY6yh-d64231-Rd1e161">5. c.</ref> <quote xml:id="bHY6yh-d64231-Qd1e163">Re<lb ed="#K" break="no"/>thorica 
+              componitur ex dialetica: 
+              <lb ed="#K"/>scientia et ex ea que circa mores 
+              <lb ed="#K"/>polytica.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e171"> 
+              <ref xml:id="bHY6yh-d64231-Rd1e173">Li. 3. et finali. c. 19.</ref> <quote xml:id="bHY6yh-d64231-Qd1e173">Co<lb ed="#K" break="no"/>ncionari 
+              difficilius est quam 
+              <lb ed="#K"/>iudicio contendere merito: quia 
+              <lb ed="#K"/>circa futurum ibi autem contra iam
+              <lb ed="#K"/>factum quod est scibile iam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e183">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d64231-Rd1e189">Oratius in poetria:</ref> <quote xml:id="bHY6yh-d64231-Qd1e187">Ut pic<lb ed="#K" break="no"/>tura 
+              poesis erit que si propius 
+              <lb ed="#K"/>stes Te capiat magis: que<lb ed="#K" break="no"/>dam 
+              si longius abstes Hec 
+              <lb ed="#K"/>amat obscurum: volet hoc 
+              <lb ed="#K"/>sub luce videri Iudicis argu<lb ed="#K" break="no"/>tum: 
+              que non formidat a<lb ed="#K" break="no"/>cumen. 
+              Hec placuit semel: hoc decies repetita pla<lb ed="#K" break="no"/>cebit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e204">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d64231-Rd1e212">Tullius retho. artis veteris. li. i. in prohemio:</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d64231-Qd1e208">Me quidem diu cogitantem 
+              <lb ed="#K"/>ratio ipsa in hanc potissimum 
+              <lb ed="#K"/>sententiam ducit vt estimem 
+              <lb ed="#K"/>sapientiam sine eloquentia pa<lb ed="#K" break="no"/>rum
+              prodesse ciuitatibus 
+              <lb ed="#K"/>eloquentiam vero sine sapientia 
+              <lb ed="#K"/>nimium obesse plerumque: prodesse 
+              <lb ed="#K"/>nunquam. Si quis omissis 
+              <lb ed="#K"/>rectissimis atque honestissimis 
+              <lb ed="#K"/>studiis rationis et officii consumit
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>omnem operam in exercitatione 
+              <lb ed="#K"/>dicendi: is inutilis sibi per<lb ed="#K" break="no"/>nitiosus 
+              patrie ciuis alitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e231">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d64231-Rd1e242">Idem de orator. l. i.</ref> <quote xml:id="bHY6yh-d64231-Qd1e235">Quid tam 
+              <lb ed="#K"/>iocundum cogitatu atque auditum
+              <lb ed="#K"/>quam sapientibus sententiis grauibusque
+              <lb ed="#K"/>verbis ornata onio et polita.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e244"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d64231-Rd1e255">Quid potest esse in oratore:</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d64231-Qd1e246">aut iocundius aut magis 
+              <lb ed="#K"/>proprium humanitatis. quam sermo 
+              <lb ed="#K"/>facetus ac nulla in re ru<lb ed="#K" break="no"/>dis.
+              hoc proprium oratoris est 
+              <lb ed="#K"/>oratio grauis et ornata et hominum sensibus ac mentibus accommodata. Is orator erit mea sententia hoc <!--review-->
+              <lb ed="#K"/>tam graui dignus nomine 
+              <lb ed="#K"/>qui quecunque inciderint: que 
+              <lb ed="#K"/>sint dictione explicanda pru<lb ed="#K" break="no"/>denter 
+              et composite et ornatene
+              <lb ed="#K"/>et memoriter docet: cum qua<lb ed="#K" break="no"/>dam 
+              actionis dignitate etiam 
+              <lb ed="#K"/>finitimus est oratori poeta 
+              <lb ed="#K"/>numerus astrictior paulo: 
+              <lb ed="#K"/>verborum autem licentia liberior: 
+              <lb ed="#K"/>multis vero ornandi generibus 
+              <lb ed="#K"/>socius ac pene par. Sunt 
+              <lb ed="#K"/>quidam aut ita lingua he<lb ed="#K" break="no"/>sitantes 
+              aut ita vultu motuque 
+              <lb ed="#K"/>corporis vasti atque agrestes: 
+              <lb ed="#K"/>vt etiam si ingeniis atque 
+              <lb ed="#K"/>arte valeant: tamen in oratorum 
+              <lb ed="#K"/>numero venire non possunt. Sunt 
+              <lb ed="#K"/>autem quidam ita in iisdem 
+              <lb ed="#K"/>rebus habiles ita nature 
+              <lb ed="#K"/>muneribus ornati vt non 
+              <lb ed="#K"/>nati: sed ab aliquo deo electi 
+              <lb ed="#K"/>esse videantur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e297"> 
+              <!--no ref--> <quote xml:id="bHY6yh-d64231-Qd1e299">Magnum est 
+              <lb ed="#K"/>quiddam onus atque munus 
+              <lb ed="#K"/>suscipere atque profiteri se esse 
+              <lb ed="#K"/>omnibus silentibus vnum maximis 
+              <lb ed="#K"/>de rebus magno in conuentu 
+              <lb ed="#K"/>hominum audientium. adest enim
+                <pb ed="#K" n="139-r"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>fere nemo quando acu<lb ed="#K" break="no"/>tius 
+              atque acrius vitia 
+              <lb ed="#K"/>indicet quam recta videat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e313"> 
+              <lb ed="#K"/> <!--no ref--> <quote xml:id="bHY6yh-d64231-Qd1e315">Ut quisque optime dicit: ita 
+              <lb ed="#K"/>maxime dicendi difficultatem
+              <lb ed="#K"/>variosque euentus orationis 
+              <lb ed="#K"/>expectatione hominum pertimescit. 
+              <lb ed="#K"/>Qui vero nihil potest dignum 
+              <lb ed="#K"/>redignum orationis nomine 
+              <lb ed="#K"/>dignum hominum auribus efficere 
+              <lb ed="#K"/>atque edere. is mihi etiam si co<lb ed="#K" break="no"/>mmouetur 
+              indicendo: tamen impu<lb ed="#K" break="no"/>dens 
+              videtur Quotiens dicimus to<lb ed="#K" break="no"/>tiens 
+              <sic>dc</sic> nobis iudicatur
+              <lb ed="#K"/>Permulta sunt que nisi orator
+              <lb ed="#K"/>a natura haberet non multum 
+              <lb ed="#K"/>a magistro adiuuaretur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e340"> 
+              <ref xml:id="bHY6yh-d64231-Rd1e361">Li. 2.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d64231-Qd1e342">Oratoris omnis actio opin<lb ed="#K" break="no"/>ionibus 
+              non scientia continetur.
+              <lb ed="#K"/>Nihil est perfecto oratore pre<lb ed="#K" break="no"/>clarius.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e350"> 
+              <!--no ref--> <quote xml:id="bHY6yh-d64231-Qd1e352">Multo turpius 
+              <lb ed="#K"/>est oratori nocuisse cause 
+              <lb ed="#K"/>quam non profuisse. Habet multitudo 
+              <lb ed="#K"/>vim quandam talem: vt quem<lb ed="#K" break="no"/>admodum 
+              tibicen sine tibiis 
+              <lb ed="#K"/>canere: sic orator sine mul<lb ed="#K" break="no"/>titudine 
+              audiente eloquens 
+              <lb ed="#K"/>esse non possit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e366"> 
+               <ref xml:id="bHY6yh-d64231-Rd1e391">Li. 3.</ref> <quote xml:id="bHY6yh-d64231-Qd1e368">Nihil 
+               <lb ed="#K"/>est tam tenerum: neque tam
+               <lb ed="#K"/>flexibile: neque quod tam 
+               <lb ed="#K"/>facile sequatur quocumque du<lb ed="#K" break="no"/>cas 
+               quam oratio.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e377"> 
+              <!--no ref--> <quote xml:id="bHY6yh-d64231-Qd1e379">Is est elo<lb ed="#K" break="no"/>quens 
+              qui et humilia subti<lb ed="#K" break="no"/>liter 
+              et alta grauiter et me<lb ed="#K" break="no"/>diocria 
+              temperate potest dicere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e387"> 
+              <!--no ref-->  <quote xml:id="bHY6yh-d64231-Qd1e389">Is 
+              <lb ed="#K"/>erit eloquens qui poterit 
+              <lb ed="#K"/>parua submisse modica tem<lb ed="#K" break="no"/>perate 
+              magna grauiter 
+              <lb ed="#K"/>dicereus. Hec sapientia maxime 
+              <lb ed="#K"/>ad hibenda eloquenti est: vt 
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>sit temporum personarumque modera<lb ed="#K" break="no"/>tor: 
+              nam nec semper apud omnes 
+              <lb ed="#K"/>eodem modo dicendum arbitror. 
+              <lb ed="#K"/>Prudentia hominibus grata est 
+              <lb ed="#K"/>lingua suspecta. Uersus ratione non est 
+              <lb ed="#K"/>cognitus: sed natura atque sensum 
+              <lb ed="#K"/>que dimensuratio docuit quid <!--double check-->
+              <lb ed="#K"/>acciderit. Ita notatio nature 
+              <lb ed="#K"/>et animaduersio peperit artem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e419">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d64231-Rd1e452">Ouidius sine titulo. siue amorum. l. 3. 
+              <lb ed="#K"/>et fi. c 12.</ref> <quote xml:id="bHY6yh-d64231-Qd1e423">Exit in immensum io<lb ed="#K" break="no"/>cunda 
+              licentia vatum Obligant 
+              <lb ed="#K"/>hystorica nec sua verba fide.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e431">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d64231-Rd1e467">Idem de tristibus: libro secundo: epistola vnica</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d64231-Qd1e435">Discitur innocuas vt agat 
+              <lb ed="#K"/>facundia causas Protegit haec 
+              <lb ed="#K"/>sontes: immeritosque premit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e443">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d64231-Rd1e481">Libro. 4. epistola. 10 ait ouidius.</ref> <quote xml:id="bHY6yh-d64231-Qd1e453">Scribere 
+              <lb ed="#K"/>tentabam verba soluta modis 
+              <lb ed="#K"/>Sponte sua carmen muneris 
+              <lb ed="#K"/>veniebat adapti Et quod 
+              <lb ed="#K"/>tentabam scribere: versus erat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e464">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d64231-Rd1e497">Seneca declama. seu ciui<lb ed="#K" break="no"/>lis 
+              causarum. lib. i. in prohemio.</ref> <quote xml:id="bHY6yh-d64231-Qd1e468">Quo 
+              <lb ed="#K"/>plura exempla inspecta sunt 
+              <lb ed="#K"/>plus in eloquentia proficiscitur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e476"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d64231-Rd1e511">Li. 3 in prohemio:</ref> <quote xml:id="bHY6yh-d64231-Qd1e478">Magna et 
+              <lb ed="#K"/>varia res est: eloquentia quae inuitis placeat 
+              <lb ed="#K"/>se indulsit vt tota 
+              <lb ed="#K"/>contingeret.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e524">
+              <ref xml:id="bHY6yh-d64231-Rd1e526">Li. 10. et fi. in prohemio:</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d64231-Qd1e528">Magna debet esse elequentia 
+              <lb ed="#K"/>que inuitis placeat: cum 
+              <lb ed="#K"/>ingenia fauor hominum ostendat 
+              <lb ed="#K"/>fauor alat quantam vim esse 
+              <lb ed="#K"/>oportet que inter obstantia erumpat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e495">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d64231-Rd1e542">Fulgentius nutologiarum. li. i. 
+              <lb ed="#K"/>fa. 18</ref> <quote xml:id="bHY6yh-d64231-Qd1e499">Poetica garrulitas 
+              <lb ed="#K"/>semper de falsitate ornata est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e505">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d64231-Rd1e554">Boetius in musica. li. i. c. 
+              <lb ed="#K"/>vlt.</ref> <quote xml:id="bHY6yh-d64231-Qd1e509">Genus poetarum non 
+              <lb ed="#K"/>potius speculatione ac ratione 
+                <pb ed="#K" n="139-v"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>quam naturali quoddam instinctu 
+              <lb ed="#K"/>fertur ad carmen.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e517">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d64231-Rd1e568">Cassiodorus epistolarum in prohemio.</ref> <quote xml:id="bHY6yh-d64231-Qd1e521">Dictio 
+              <lb ed="#K"/>semper agrestis est que aut 
+              <lb ed="#K"/>sensibus electis per moram 
+              <lb ed="#K"/>non committitur: aut verborum
+              <lb ed="#K"/>minime proprietatibus expli<lb ed="#K" break="no"/>catur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e531"> 
+              <!--no ref--> <quote xml:id="bHY6yh-d64231-Qd1e533">Loqui nobis communiter 
+              <lb ed="#K"/>datum est solus ornatus est 
+              <lb ed="#K"/>qui discernit indoctos.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e542"> 
+              <ref xml:id="bHY6yh-d64231-Rd1e595">Li. 5. c. 
+              <lb ed="#K"/>4.</ref> <quote xml:id="bHY6yh-d64231-Qd1e544">Nimis rarum est solide 
+              <lb ed="#K"/>loqui: et cum multa dicere sup<lb ed="#K" break="no"/>petunt 
+              titubantia non proferre.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e552"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d64231-Rd1e607">21. c.</ref> <quote xml:id="bHY6yh-d64231-Qd1e554">Age: netua tibi obi<lb ed="#K" break="no"/>iciatur 
+              oratio: quia pondus 
+              <lb ed="#K"/>pudoris est grauissimi 
+              <lb ed="#K"/>propria voce conuinci.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e562"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d64231-Rd1e619">22 c.</ref> <quote xml:id="bHY6yh-d64231-Qd1e564">Multum 
+              <lb ed="#K"/>facundior est qui sententiam dictat 
+              <lb ed="#K"/>quam ille quae supplicat: libertas 
+              <lb ed="#K"/>verba nutrit. metus autem co<lb ed="#K" break="no"/>piam 
+              frequenter intercipit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e574"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d64231-Rd1e633">Lib. 9. c. 21.</ref> <quote xml:id="bHY6yh-d64231-Qd1e576">Sola reperitur 
+              <lb ed="#K"/>eloquentia que tantum romanorum
+              <lb ed="#K"/>dominiis obsecundat. hinc ora<lb ed="#K" break="no"/>torum 
+              pugna ciuilis iuris  <!--double check-->
+              <lb ed="#K"/>classicum canit. hinc cunc<lb ed="#K" break="no"/>tos 
+              proceres nobilissima 
+              <lb ed="#K"/>disertitudo commendat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e588"> 
+              <ref xml:id="bHY6yh-d64231-Rd1e649">Li.10 
+              <lb ed="#K"/>c. 6.</ref> <quote xml:id="bHY6yh-d64231-Qd1e590">Oratoriam artem or<lb ed="#K" break="no"/>namentum 
+              omnium literarum esse 
+              <lb ed="#K"/>fatemur. quicquid enim 
+              <lb ed="#K"/>in qualibet disciplina conci<lb ed="#K" break="no"/>pitur: 
+              ab insta sub decore pro<lb ed="#K" break="no"/>fertur. 
+              Naturale est inuenire: 
+              <lb ed="#K"/>sed facundi decenter asserere. 
+              <lb ed="#K"/>Quale est cunctis deside<lb ed="#K" break="no"/>rantibus 
+              loqui: et res communes 
+              <lb ed="#K"/>ita diserte loqui quas etiam 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>prudentes se mirentur au<lb ed="#K" break="no"/>disse.</quote>
+            </p>
+            <p xml:id="bHY6yh-d64231-d1e615">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d64231-Rd1e681">Gaufridus in poetria. c. 98.</ref> <quote xml:id="bHY6yh-d64231-Qd1e619">Rem tria 
+              <lb ed="#K"/>perficiunt: ars cuius lege re<lb ed="#K" break="no"/>garis: 
+              vsus quem serues:
+              <lb ed="#K"/>meliores quos imiteris. 
+              <lb ed="#K"/>Ars certos: vsus promptos: 
+              <lb ed="#K"/>imitatio redit Artifices 
+              <lb ed="#K"/>aptos tria concurrentia summos.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
