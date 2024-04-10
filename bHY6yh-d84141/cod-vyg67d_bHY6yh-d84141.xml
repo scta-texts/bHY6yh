@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 8</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 8</title>
+               <date when="2024-04-10">April 10, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-04-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="106-r"/>
+            <cb ed="#O" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d84141"><!-- p4l4-r8 -->
+            <head xml:id="bHY6yh-d84141-Hd1e108">Rubrica 8</head>
+            <head xml:id="bHY6yh-d84141-Hd1e111" type="question-title">De risu apto atque inepto</head>
+            <p xml:id="bHY6yh-d84141-d1e114">
+               De risu apto atque in<lb ed="#O" break="no"/>epto. 
+               Rubrica. 8
+            </p>
+            <p xml:id="bHY6yh-d84141-d1e119">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d84141-Rd1e116">SAlomon in <!--line bumps up--> prouerbiis. capitulo 11.</ref> ¶ <quote xml:id="bHY6yh-d84141-Qd1e125">Quasi perisum 
+               <lb ed="#O"/>stultus operatur scelus.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d84141-d1e131"> 
+               ¶ <ref xml:id="bHY6yh-d84141-Rd1e129">Idem 
+               <lb ed="#O"/>in ecclesiaste capitulo i.</ref> <quote xml:id="bHY6yh-d84141-Qd1e133">Qui addit scientiam ad<lb ed="#O" break="no"/>dit 
+               laborem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84141-d1e142"> 
+               ¶ <ref xml:id="bHY6yh-d84141-Rd1e143">3. capitulo.</ref> <quote xml:id="bHY6yh-d84141-Qd1e144">Tempus flendi 
+               <lb ed="#O"/>et tempus ridendi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84141-d1e150"> 
+               ¶ <ref xml:id="bHY6yh-d84141-Rd1e153">7. capitulo.</ref> <quote xml:id="bHY6yh-d84141-Qd1e152">Sicut sonitus spi<lb ed="#O" break="no"/>narum 
+               ardentium sub olla sic risus 
+               <lb ed="#O"/>stulti.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84141-d1e158">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d84141-Rd1e165">Yso<!--line bumps up-->crates in exhortationibus. capitulo 2. <!--line bumps back down--> im principio.</ref>
+               ¶ <quote xml:id="bHY6yh-d84141-Qd1e162">Risum precipi<lb ed="#O" break="no"/>tem 
+               <lb ed="#O"/>non diliges illud enim 
+               <lb ed="#O"/>amens est</quote>
+            </p>
+            <p xml:id="bHY6yh-d84141-d1e168">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d84141-Rd1e177">IEsus fi<!--line bumps up-->lius sirach in ecc. <!--line bumps back down--> capitulo 21.</ref> <quote xml:id="bHY6yh-d84141-Qd1e172">Fatuus in risu 
+               <lb ed="#O"/>exaltat uocem suam uir aut
+               <lb ed="#O"/>autem prudens uix tacite ridebit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84141-d1e180"> 
+               <lb ed="#O"/>¶ <ref xml:id="bHY6yh-d84141-Rd1e189">27. capitulo.</ref> <quote xml:id="bHY6yh-d84141-Qd1e182">Risus 
+               peccantium in delic<lb ed="#O" break="no"/>tis 
+               peccati.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84141-d1e188">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d84141-Rd1e201">Catullus. <!--line bumps up--> capitulo 5.</ref> ¶ <quote xml:id="bHY6yh-d84141-Qd1e192">Risu inepto <!--line bumps back down--> res ineptior nulla 
+               <lb ed="#O"/>est</quote>
+            </p>
+            <p xml:id="bHY6yh-d84141-d1e197">
+               <!--line bumps back down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d84141-Rd1e212">AUc<!--line bumps up-->tor libelli de formula honeste uite <!--line bumps back down--> capitulo 4.</ref> <quote xml:id="bHY6yh-d84141-Qd1e201">Reprehensibilis risus 
+               <lb ed="#O"/>est si immodicus et si puerili<lb ed="#O" break="no"/>ter 
+               effusus. ¶ Odibilem facit ho<lb ed="#O" break="no"/>minem 
+               risus aut superbus aut e<lb ed="#O" break="no"/>latus 
+               aut malignus aut furti<lb ed="#O" break="no"/>uus 
+               aut alienis malis euocatus
+               <lb ed="#O"/>Risus sine chachimio sit.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
