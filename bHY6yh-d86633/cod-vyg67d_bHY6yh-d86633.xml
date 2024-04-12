@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 17</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 17</title>
+               <date when="2024-04-12">April 12, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-04-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="183-v"/>
+            <cb ed="#O" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d86633"><!-- p4l4-r17 -->
+            <head xml:id="bHY6yh-d86633-Hd1e108">Rubrica 17</head> 
+            <!-- this doesn't seem to be in Chris's list --> 
+            <head xml:id="bHY6yh-d86633-Hd1e113" type="question-title">De conuiuiis.</head>
+            <p xml:id="bHY6yh-d86633-d1e116">
+               <!--rubric title in middle of ref of first paragraph (d1e121) for some reason-->
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e121">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86633-Rd1e118">IE<!--line bumps up-->sus filius sirach. De conui<!--line bumps back down-->uiis. Rubrica. 17.
+               <lb ed="#O"/>in ecclesiastico capitulo 30.</ref> ¶ <quote xml:id="bHY6yh-d86633-Qd1e127">Splendidum
+               <lb ed="#O"/>cor bonum in epulis epule enim 
+               <lb ed="#O"/>illius diligentes fiunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e140">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86633-Rd1e136">SEneca epistolarum ad lu<!--line bumps up-->cillum libro 3. <!--line bumps back down--> capitulo 5.</ref> ¶ 
+               <lb ed="#O"/><quote xml:id="bHY6yh-d86633-Qd1e146">Ante circumspiciendum est 
+               <lb ed="#O"/>cum quibus edas et bibas quam quid 
+               <lb ed="#O"/>edas et bibas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e152">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86633-Rd1e150">Ualerius ma<!--line bumps up-->ximus. libro 2 titulo de in<!--line bumps back down-->stitutis antiquis</ref> 
+               <lb ed="#O"/><quote xml:id="bHY6yh-d86633-Qd1e156">Conuiuium solempne maio<lb ed="#O" break="no"/>res 
+               instituerunt idque caristiam a<lb ed="#O" break="no"/>ppellauerunt.
+               Cui preter cognatos 
+               <lb ed="#O"/>et affines nemo interponebatur ut si<lb ed="#O" break="no"/>qua 
+               inter necessarias personas querela esset 
+               <lb ed="#O"/>orta apud sacra mense et inter hy<lb ed="#O" break="no"/>larimtatem 
+               animorum a fautoribus con<lb ed="#O" break="no"/>cordie 
+               tolleretur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e175">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86633-Rd1e176">MAcrobius sa<!--line bumps up-->turnaliorum libro 3. <!--line bumps back down--> im prohemio</ref> 
+               <lb ed="#O"/><quote xml:id="bHY6yh-d86633-Qd1e179">Solet cibus cum sumitur tacitos 
+               <lb ed="#O"/>efficere potus loquaces.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e187">
+               <ref xml:id="bHY6yh-d86633-Rd1e191">CAto capitulo 1.</ref> <quote xml:id="bHY6yh-d86633-Qd1e191">Conuiuare raro.
+               <pb ed="#O" n="184-r"/>
+               <cb ed="#O" n="a"/> 
+               <lb ed="#O"/>¶ Pauca loquere in conuiuio.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e197"> 
+               ¶ <ref xml:id="bHY6yh-d86633-Rd1e201">capitulo. 
+               <lb ed="#O"/>2.</ref> <quote xml:id="bHY6yh-d86633-Qd1e199">Dapsilis interdum notis et ca<lb ed="#O" break="no"/>ris 
+               amicis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e205">
+               <ref xml:id="bHY6yh-d86633-Rd1e213">capitulo. 4.</ref> <quote xml:id="bHY6yh-d86633-Qd1e209">Inter conuiuas 
+               <lb ed="#O"/>fac sis sermone modestus. Ne di<lb ed="#O" break="no"/>care 
+               loquax dum uis urbanus 
+               <lb ed="#O"/>haberi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e218">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86633-Rd1e228">UEr<!--line bumps up-->sificator fabularium esopi. 22. fabula.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-d86633-Qd1e222">In tenui mensa satis est 
+               <lb ed="#O"/>inmensa uoluntas. Nobili<lb ed="#O" break="no"/>tat 
+               uiles frons generosa dapes. 
+               <lb ed="#O"/>Emendet conditque cibos clemen<lb ed="#O" break="no"/>tia 
+               uultus. Conuiuam saciat plus 
+               <lb ed="#O"/>dape frontis honor. Tristitior in<lb ed="#O" break="no"/>mensas 
+               pauperat usus opes.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
