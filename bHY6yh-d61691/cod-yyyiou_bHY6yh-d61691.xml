@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 3</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 3</title>
+               <date when="2024-04-13">April 13, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-04-13" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="84-V"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d61691"><!-- p3l5-r3 -->
+            <head xml:id="bHY6yh-d61691-Hd1e108">Rubrica 3</head>
+            <head xml:id="bHY6yh-d61691-Hd1e111" type="question-title">Quando loquendum sit</head>
+            <p xml:id="bHY6yh-d61691-d1e114">
+              De interogrationibus
+              responsioribus
+              prudentia
+            </p>
+            <p xml:id="bHY6yh-d61691-d1e119">
+              <ref xml:id="bHY6yh-d61691-Rd1e116">SAlomon
+              <lb ed="#C"/>in prouerbiis capitulo
+              <lb ed="#C"/>4</ref> <quote xml:id="bHY6yh-d61691-Qd1e125">Responsio mollis frangit iram sermo
+              <lb ed="#C"/>durus suscitat furorem</quote>
+            </p>
+            <p xml:id="bHY6yh-d61691-d1e133">
+              ¶ <ref xml:id="bHY6yh-d61691-Rd1e130">Idem 18</ref> <quote xml:id="bHY6yh-d61691-Qd1e135">Qui
+              <lb ed="#C"/>prius respondet quam audiat stultum se esse demon<lb ed="#C" break="no"/>strat 
+              et confusione dignum</quote> 
+            </p>
+            <p xml:id="bHY6yh-d61691-d1e144"> 
+              ¶ <ref xml:id="bHY6yh-d61691-Rd1e143">Idem 16
+              <lb ed="#C"/>capitulo</ref> <quote xml:id="bHY6yh-d61691-Qd1e146">Ne respondeas stulto iuxta stultitiam suam
+              <lb ed="#C"/>ne similis ei efficiaris Responde stulto secundum
+              <lb ed="#C"/>stultitiam suam ne sibi sapiens uidea<lb ed="#C" break="no"/>tur</quote>
+            </p>
+            <p xml:id="bHY6yh-d61691-d1e156">
+              ¶ <ref xml:id="bHY6yh-d61691-Rd1e159">Aristotelis topicorum libro VIII</ref> <quote xml:id="bHY6yh-d61691-Qd1e160">Nisi planum
+              <lb ed="#C"/>sit quod dicitur non pigritandum est dicere et non intel<lb ed="#C" break="no"/>ligere</quote>
+            </p>
+            <p xml:id="bHY6yh-d61691-d1e168"> 
+              ¶ <ref xml:id="bHY6yh-d61691-Rd1e171">Idem elencorum libro I</ref> <quote xml:id="bHY6yh-d61691-Qd1e170">Nulli eorum
+              <lb ed="#C"/>que equiuoca sunt conuenit respondere sim<lb ed="#C" break="no"/>pliciter</quote>
+            </p>
+            <p xml:id="bHY6yh-d61691-d1e187">
+              ¶ <ref xml:id="bHY6yh-d61691-Rd1e194">yesus filius sirach in ecclesiastes capitulo V</ref> <quote xml:id="bHY6yh-d61691-Qd1e191">Si est ti<lb ed="#C" break="no"/>bi 
+              intellectus responde proximo sinautem sit manus
+              <lb ed="#C"/>tua super os tuum ne capiaris in uerbo indis<lb ed="#C" break="no"/>ciplinato 
+              et confundaris</quote>
+            </p>
+            <p xml:id="bHY6yh-d61691-d1e201">
+              ¶ <ref xml:id="bHY6yh-d61691-Rd1e210">Idem XI capitulo</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d61691-Qd1e205">Prius quam audias ne respondeas uerbum</quote>
+            </p>
+            <p xml:id="bHY6yh-d61691-d1e211"> 
+              ¶ <ref xml:id="bHY6yh-d61691-Rd1e220">Idem
+              <lb ed="#C"/>32 capitulo</ref> <quote xml:id="bHY6yh-d61691-Qd1e213">Si bis interrogatus fueris habeas
+              <lb ed="#C"/>capud responsum tuum in multis esto quasi inscius
+              <lb ed="#C"/>et audi totiens simul et querens</quote>
+            </p>
+            <p xml:id="bHY6yh-d61691-d1e224"> 
+              ¶ <ref xml:id="bHY6yh-d61691-Rd1e235">Idem
+              <lb ed="#C"/>XLI capitulo</ref> <quote xml:id="bHY6yh-d61691-Qd1e226">Erubescite a salutaribus de silentio</quote>
+            </p>
+            <p xml:id="bHY6yh-d61691-d1e232">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d61691-Rd1e247">Paulus ad corinthios XIII</ref> <quote xml:id="bHY6yh-d61691-Qd1e236">quomodo dicit amen
+              <lb ed="#C"/>super benedictionem tuam quidquid dicas nescitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d61691-d1e244">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d61691-Rd1e262">Lex digestum de legibus libro</ref> <quote xml:id="bHY6yh-d61691-Qd1e248">In ciuile Est nisi tota lege
+              <lb ed="#C"/>perspecta vna aqua ei particula proposita iu<lb ed="#C" break="no"/>dicare 
+              uel respondere</quote>
+            </p>
+            <p xml:id="bHY6yh-d61691-d1e256">
+              ¶ <ref xml:id="bHY6yh-d61691-Rd1e276">Martialis cocus libro vndique
+              <lb ed="#C"/>suscepto capitulo III</ref> <quote xml:id="bHY6yh-d61691-Qd1e260">Irato iratus animo respondet alanus
+              <lb ed="#C"/>Et se iactat hoc gratia de nimis uicium</quote>
+            </p>
+            <p xml:id="bHY6yh-d61691-d1e268">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d61691-Rd1e290">Auctor libro de formulae honeste uite capitulo 3</ref>
+            </p>
+            <p xml:id="bHY6yh-d61691-d1e278">
+              <quote xml:id="bHY6yh-d61691-Qd1e282">Noli respondere
+              <lb ed="#C"/>irato ad iracundiam eius siue in prudenti
+              <lb ed="#C"/>ad imprudentiam eius</quote>
+            </p>
+            <p xml:id="bHY6yh-d61691-d1e291">
+              ¶ <ref xml:id="bHY6yh-d61691-Rd1e316">Macrobius
+              <lb ed="#C"/>saturnaliorum questionum libro 3 improhemio</ref> <quote xml:id="bHY6yh-d61691-Qd1e295">qui
+              <lb ed="#C"/>uult esse amenus consultor ea interroget
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/>que sunt interrogato facilia responsum et que
+              <lb ed="#C"/>scit illum sedula exercitatione didicis<lb ed="#C" break="no"/>se 
+              gaudet enim quisquis cum prouocatur
+              <lb ed="#C"/>ad doctrinam suam in medium proferendam
+              <lb ed="#C"/>quia nemo uult latere quod didicit max<lb ed="#C" break="no"/>ime 
+              in scientia quam labore acquisiuit
+              <lb ed="#C"/>cum paucis illa familiaris et plurimis sit
+              <lb ed="#C"/>incognita ut de astronomia et dyaletica
+              <lb ed="#C"/>ceterisque similibus Tunc enim consequi fruc<lb ed="#C" break="no"/>tum 
+              laboris cum adipiscitur occasio<lb ed="#C" break="no"/>nem 
+              publicandi que didicit sine osten<lb ed="#C" break="no"/>tationis 
+              nota qua caret qui non ingerit
+              <lb ed="#C"/>sed innitatur ut proferat</quote>
+            </p>
+            <p xml:id="bHY6yh-d61691-d1e329">
+              ¶ <ref xml:id="bHY6yh-d61691-Rd1e357">Prouerbiis metricum</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d61691-Qd1e333">Sub dubio forsan respondent sepe periti
+              <lb ed="#C"/>In respondendo nunquam celer esse memento</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
