@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 2</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 2</title>
+          <date when="2024-04-13">April 13, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-04-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="84-r"/>
+        <cb ed="#C" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d61508"><!-- p3l5-r2 -->
+        <head xml:id="bHY6yh-d61508-Hd1e108">Rubrica 2</head>
+        <head xml:id="bHY6yh-d61508-Hd1e111" type="question-title">De temperantia locutionis</head>
+        <p xml:id="bHY6yh-d61508-d1e114">
+          De temperantia
+          locutionis capitulum
+        </p>
+        <p xml:id="bHY6yh-d61508-d1e121">
+          <ref xml:id="bHY6yh-d61508-Rd1e118">SAlomon
+          <lb ed="#C"/>in prouerbiis
+          <lb ed="#C"/>capitulo XVII</ref> <quote xml:id="bHY6yh-d61508-Qd1e127">qui moderatur sermones suos doc<lb ed="#C" break="no"/>tus 
+          et prudens est</quote>
+        </p>
+        <p xml:id="bHY6yh-d61508-d1e133">
+          ¶ <ref xml:id="bHY6yh-d61508-Rd1e133">Seneca de moribus</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d61508-Qd1e137">Magna res est uocis et filentii temperamentum</quote> 
+        </p>
+        <p xml:id="bHY6yh-d61508-d1e144">
+          [omitted]
+        </p>
+        <p xml:id="bHY6yh-d61508-d1e158">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d61508-Rd1e162">Auctor libro qui dicitur pamphylus capitulo 3</ref> <quote xml:id="bHY6yh-d61508-Qd1e162">Nec nimium
+          <lb ed="#C"/>taceas nec uerba superflua dicas</quote>
+        </p>
+        <p xml:id="bHY6yh-d61508-d1e168">
+          ¶ <ref xml:id="bHY6yh-d61508-Rd1e174">Bernardus de
+          <lb ed="#C"/>improbatione uiciorum capitulo I</ref> <quote xml:id="bHY6yh-d61508-Qd1e172">Verba nocent si non
+          <lb ed="#C"/>moderentur habenis Os quoque nec
+          <lb ed="#C"/>mutum nec decet esse loquax</quote>
+        </p>
+        <p xml:id="bHY6yh-d61508-d1e180">
+          ¶ <ref xml:id="bHY6yh-d61508-Rd1e189">Heynricus
+          <lb ed="#C"/>samariensis libro 2</ref> <quote xml:id="bHY6yh-d61508-Qd1e184">Stillet in ore fauus sed
+          <lb ed="#C"/>mente resultet oliua Et non sit totus
+          <lb ed="#C"/>sensus in ore tuo</quote>
+        </p>
+        <p>
+          De tempore uel quan
+          sit loquendum capitulum
+        </p>
+        <p xml:id="bHY6yh-d61508-d1e192">
+          <lb ed="#C"/><ref xml:id="bHY6yh-d61508-Rd1e203">Salomon
+          <lb ed="#C"/>in prouerbiis capitulo 15</ref> <quote xml:id="bHY6yh-d61508-Qd1e196">Sermo oportu<lb ed="#C" break="no"/>nus</quote>
+        </p>
+        <p xml:id="bHY6yh-d61508-d1e202"> 
+          ¶ <ref xml:id="bHY6yh-d61508-Rd1e213">Idem in ecclesiastes capitulo 3</ref> <quote xml:id="bHY6yh-d61508-Qd1e204">Est tempus lo<lb ed="#C" break="no"/>quendi 
+          et tempus tacendi</quote>
+        </p>
+        <p xml:id="bHY6yh-d61508-d1e211">
+          ¶ <ref xml:id="bHY6yh-d61508-Rd1e226">Socrates in ex<lb ed="#C" break="no"/>ortationibus 
+          capitulo 2 ad finale</ref> <quote xml:id="bHY6yh-d61508-Qd1e215">Duo texa loquendi tempora libera
+          <lb ed="#C"/>publice nosti uel necesse est fari In his
+          <lb ed="#C"/>enim solis sermo prestat filentio in ceteris
+          <lb ed="#C"/>uero simile prestat quam dicere</quote>
+        </p>
+        <p xml:id="bHY6yh-d61508-d1e227">
+          ¶ <ref xml:id="bHY6yh-d61508-Rd1e246">yesus filius sirach
+          <lb ed="#C"/>in ecclesiastes capitulo 20</ref> <quote xml:id="bHY6yh-d61508-Qd1e231">homo sapiens tacebit vsque
+          <lb ed="#C"/>ad tempus lasciuus autem et imprudens
+          <lb ed="#C"/>non seruabit ordinem tempus</quote>
+        </p>
+        <p xml:id="bHY6yh-d61508-d1e239">
+          ¶ <ref xml:id="bHY6yh-d61508-Rd1e260">Idem 20
+          <lb ed="#C"/>capitulo</ref> <quote xml:id="bHY6yh-d61508-Qd1e243">Musica in luctu importuna narratio
+          <lb ed="#C"/>qui narrat uerbum non attendenti qua<lb ed="#C" break="no"/>si 
+          qui excitat dormientem a graui sompno</quote>
+        </p>
+        <p xml:id="bHY6yh-d61508-d1e270">
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d61508-Rd1e274">Idem 32</ref> <quote xml:id="bHY6yh-d61508-Qd1e276">vbi auditus non est non effun<lb ed="#C" break="no"/>das 
+          sermonem et importune noli extolli in
+          <lb ed="#C"/>sipientia tua</quote>
+        </p>
+        <p xml:id="bHY6yh-d61508-d1e257">
+          ¶ <ref xml:id="bHY6yh-d61508-Rd1e288">Tullius de oratore libro primo</ref>
+          <lb ed="#C"/><quote xml:id="bHY6yh-d61508-Qd1e261">Ipsum dicere numquam est non ineptum cum est
+          <pb ed="#C" n="84-v"/>
+          <cb ed="#C" n="a"/>
+          <lb ed="#C"/>necessarium</quote>
+        </p>
+        <p xml:id="bHY6yh-d61508-d1e267">
+          ¶ <ref xml:id="bHY6yh-d61508-Rd1e300">Macrobius saturnalio libro 3
+          <lb ed="#C"/>in prohemio</ref> <quote xml:id="bHY6yh-d61508-Qd1e271">Nil tam congruum sapientie quam locis
+          <lb ed="#C"/>et temporibus aptare sermones</quote>
+        </p>
+        <p xml:id="bHY6yh-d61508-d1e279">
+          [omitted]
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
