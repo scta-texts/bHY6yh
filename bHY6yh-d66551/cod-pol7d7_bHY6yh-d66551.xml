@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-04-16">April 16, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+          <pb ed="#K" n="144-r"/>
+          <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d66551"><!-- p3l6-r10 -->
+            <head xml:id="bHY6yh-d66551-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-d66551-Hd1e111" type="question-title">De breuitate atque longitudine orationis et partium eius</head>
+            <p xml:id="bHY6yh-d66551-d1e114">
+               De multipl<lb ed="#K" break="no"/>icare <!--double check-->
+              verborum Rubrica. 10 <!--combined with parts of rubric 9-->
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e145">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d66288-Rd1e149">SAlomon in prouerbiis c. 10.</ref> <quote xml:id="bHY6yh-d66288-Qd1e149">In mul<lb ed="#K" break="no"/>tiloquio 
+              non deest peccatum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e159">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d66288-Rd1e170">Aristotelis retho. li. 3. et fi. 
+              <lb ed="#K"/>c 18.</ref> <quote xml:id="bHY6yh-d66288-Qd1e163">Oportet non prolixe 
+              <lb ed="#K"/>narrare: sicut neque pro<lb ed="#K" break="no"/>hemizare 
+              prolixe: neque 
+              <lb ed="#K"/>persuasiones dicere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e171">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d66288-Rd1e184">Oratius in poetria:</ref> <quote xml:id="bHY6yh-d66288-Qd1e175">Quicquid precipies
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>esto breuis: vt cito dicta
+              <lb ed="#K"/>Percipiant animi dociles te<lb ed="#K" break="no"/>neantque 
+              fideles Omne super<lb ed="#K" break="no"/>uacuum 
+              pleno de pectore manat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e185">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d66288-Rd1e200">Tullius retho. artis vereris: li. i. 
+              <lb ed="#K"/>c. 10.</ref> <quote xml:id="bHY6yh-d66288-Qd1e189">Sepe res parum est in<lb ed="#K" break="no"/>tellecta 
+              longitudine magis 
+              <lb ed="#K"/>quam obscuritate narrationis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e197"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d66288-Rd1e212">11. c.</ref> <quote xml:id="bHY6yh-d66288-Qd1e199">Breuitas orationis est 
+              <lb ed="#K"/>cum nisi necessarium nullum 
+              <lb ed="#K"/>assumitur verbum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e207"> 
+              <ref xml:id="bHY6yh-d66288-Rd1e224">14. c. et fi.</ref> <quote xml:id="bHY6yh-d66288-Qd1e209">Co<lb ed="#K" break="no"/>mmotis 
+              animis diutius in conquestione 
+              <lb ed="#K"/>morari non oportebit. Quem<lb ed="#K" break="no"/>admodum 
+              enim dixit Appolius 
+              <lb ed="#K"/>retho. Lachryma nihil citius
+              <lb ed="#K"/>arescit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e222"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d66288-Rd1e240">Idem retho. artis noue: lib. i. c. 5.</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d66288-Qd1e224">Quo breuior eo lucidior et cognita faci<lb ed="#K" break="no"/>lior
+              narratio est.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e251">
+              <ref xml:id="bHY6yh-d66288-Rd1e253">Li. 2. c. 7.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d66288-Qd1e255">Conmiserationem breuem esse oportet: 
+              <lb ed="#K"/>nihil enim lachryma citius 
+              <lb ed="#K"/>arescit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e236"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d66288-Rd1e265">Idem de iure ciuili et iustitia naturali: siue de le<lb ed="#K" break="no"/>gibus. 
+              l. iii.</ref> <quote xml:id="bHY6yh-d66288-Qd1e238">Breuitas magna 
+              <lb ed="#K"/>laus est in sententia: nec est vn<lb ed="#K" break="no"/>quam <!--REVIEW-->
+              longa oratione vtendum.</quote>
+          </p>
+          <p xml:id="bHY6yh-d66288-d1e282">
+            <lb ed="#K"/> <ref xml:id="bHY6yh-d66288-Rd1e286">Lex cod. ti. de veteri iure enucleando. 
+            <lb ed="#K"/>li. ii.</ref> <quote xml:id="bHY6yh-d66288-Qd1e290">Multo vtilius pau<lb ed="#K" break="no"/>ca 
+            indonee effundere quam multis 
+            <lb ed="#K"/>inutilibus homines pregrauari.</quote>
+          </p>
+          <p xml:id="bHY6yh-d66288-d1e259">
+            <lb ed="#K"/> <ref xml:id="bHY6yh-d66288-Rd1e300">Priscianus in prohemio:</ref> <quote xml:id="bHY6yh-d66288-Qd1e263">In magna 
+            <lb ed="#K"/>operis materia impossibile est 
+            <lb ed="#K"/>aliquid perfectum breuiter exponi.</quote>
+          </p>
+          <p xml:id="bHY6yh-d66288-d1e271"> 
+            <lb ed="#K"/> <ref xml:id="bHY6yh-d66288-Rd1e312">Li. 7. ti. de vocatiuo singulari 
+            <lb ed="#K"/>sede declinationis:</ref> <quote xml:id="bHY6yh-d66288-Qd1e273">Iuniores
+            <lb ed="#K"/>breuitate gaudent.</quote>
+          </p>
+          <p xml:id="bHY6yh-d66288-d1e281">
+            <lb ed="#K"/> <ref xml:id="bHY6yh-d66288-Rd1e327">Gregorius in pastorali. c. 16.</ref> 
+            
+            <lb ed="#K"/> <quote xml:id="bHY6yh-d66288-Qd1e285">Sepe 
+               dictorum virtus perditur: cum apud corda 
+               audientium loquacitas incauta opportunitateleuigatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e293">
+                <ref xml:id="bHY6yh-d66288-Rd1e342">Isydorus soliloquiorum: li. 2. c. 13.</ref> <quote xml:id="bHY6yh-d66288-Qd1e297">
+               Tolle verbositatem sermonis superflui. 
+               Multiloquium non effugiet culpam. Breuem 
+               sermonem scientia facit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e308">
+              <ref xml:id="bHY6yh-d66288-Rd1e358">Mattheus <sic>vintoniensis</sic> in poetria partur.
+              i. c. 8.</ref> <quote xml:id="bHY6yh-d66288-Qd1e312">Prolixitas nouerca est memorie.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e318"> 
+             <ref xml:id="bHY6yh-d66288-Rd1e371">9.
+              c.</ref> <quote xml:id="bHY6yh-d66288-Qd1e320">Breuitas sibi aperta sibi amicat audatiam.</quote>
+          </p>
+          <p xml:id="bHY6yh-d66288-d1e380">
+              <ref xml:id="bHY6yh-d66288-Rd1e384">10. c.</ref> <quote xml:id="bHY6yh-d66288-Qd1e386">Uerborum confusio nouerca est 
+               intelligentie: et doctrine pretendit offendi 
+               cultum. </quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e332"> 
+             <ref xml:id="bHY6yh-d66288-Rd1e396">22. c.</ref> <quote xml:id="bHY6yh-d66288-Qd1e334">Prolixitas fastidii puerpera
+              est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e340"> 
+             <ref xml:id="bHY6yh-d66288-Rd1e406">Partur. 2. c. 3.</ref> <quote xml:id="bHY6yh-d66288-Qd1e342">Infinitas nouerca est 
+               discipline et amica confusionis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e348">
+               <ref xml:id="bHY6yh-d66288-Rd1e419">Iacobus beneuentanus. c. 5. 7. et pe.</ref> <quote xml:id="bHY6yh-d66288-Qd1e352">
+               Inuidiam generat et longus tedia sermo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66288-d1e358">
+              <ref xml:id="bHY6yh-d66288-Rd1e431">Iudex venusinus: li. de pertractatione nuptis.
+              c. i.</ref> <quote xml:id="bHY6yh-d66288-Qd1e362">Sermo breuis longo gratior esse solet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d66551-d1e121">
+               <ref xml:id="bHY6yh-d66551-Rd1e118">ARisto. retho. li. 3. et fi. c. 2.</ref>
+               <quote xml:id="bHY6yh-d66551-Qd1e127">Non sufficit 
+               habere que oportet dicere: sed necesse et
+              hoc vt oportet dicere.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
