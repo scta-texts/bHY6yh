@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 16</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 16</title>
+               <date when="2024-04-12">April 12, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-04-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="182-v"/>
+            <cb ed="#O" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d86139"><!-- p4l4-r16 -->
+            <head xml:id="bHY6yh-d86139-Hd1e108">Rubrica 16</head>
+            <head xml:id="bHY6yh-d86139-Hd1e111" type="question-title">De saturitate: crapula et ebrietate</head>
+            <p xml:id="bHY6yh-d86139-d1e114">
+               De saturi<lb ed="#O" break="no"/>tate 
+               crapula et ebrietate. 
+               <lb ed="#O"/>Rubrica. 16
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e121">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e118">IOb historia <!--line bumps up--> capitulo 6.</ref> ¶ <quote xml:id="bHY6yh-d86139-Qd1e125">Anime exuri <!--line bumps back down--> enti etiam amara 
+               <lb ed="#O"/>dulcia uidentur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e140">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e132">Salomon in prouerbiis. <!--line bumps up--> capitulo 20.</ref> ¶ <quote xml:id="bHY6yh-d86139-Qd1e144">Tu<!--line bumps back down-->multuosa 
+               <lb ed="#O"/>res est ebrietas</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e150"> 
+               ¶ <ref xml:id="bHY6yh-d86139-Rd1e143">22. capitulo.</ref> <quote xml:id="bHY6yh-d86139-Qd1e152">Qui 
+               <lb ed="#O"/>diligit epulas in egestate erit. 
+               <lb ed="#O"/>Qui amat uinum et pinguia non di<lb ed="#O" break="no"/>tabitur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e160"> 
+               ¶ <ref xml:id="bHY6yh-d86139-Rd1e155">27. capitulo.</ref> <quote xml:id="bHY6yh-d86139-Qd1e162">Anima saturata calca<lb ed="#O" break="no"/>bit 
+               fauum anima esuriens et amarum 
+               <lb ed="#O"/>produlce sumit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e170"> 
+               ¶ <ref xml:id="bHY6yh-d86139-Rd1e167">31. capitulo. et finali</ref> <quote xml:id="bHY6yh-d86139-Qd1e172">nul<lb ed="#O" break="no"/>lum 
+               secretum ubi regnat ebri<lb ed="#O" break="no"/>etas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e178"> 
+               ¶ <ref xml:id="bHY6yh-d86139-Rd1e177">Idem in ecclesiate capitulo 5.</ref> <quote xml:id="bHY6yh-d86139-Qd1e180">Dulcis est 
+               <lb ed="#O"/>sompnus operanti siue parum siue mul<lb ed="#O" break="no"/>tum 
+               comedat. Saturitas autem 
+               <lb ed="#O"/>diuitis non sinit dormire eum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e190">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e194">Ysaias propheta. 5. capitulo.</ref> ¶ <quote xml:id="bHY6yh-d86139-Qd1e194">Ue qui 
+               <lb ed="#O"/>surgitis mane ad ebrietatem 
+               <lb ed="#O"/>sectandam. ¶ Ue qui potentes estis 
+               <lb ed="#O"/>ad bibendum uinum et uiri fortes ad 
+               <lb ed="#O"/>miscendam ebrietatem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e205">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e210">CRonica de nugis <!--line bumps up--> philosophorum. capitulo 9. <!--line bumps back down--> scilicet de anachar<lb ed="#O" break="no"/>si</ref> 
+               ¶ <quote xml:id="bHY6yh-d86139-Qd1e196"> Anacharsis schita quesitus 
+               <lb ed="#O"/>quo pacto quis non fiet amator potus. 
+               <lb ed="#O"/>Si prae oculis inquit habet inebri<lb ed="#O" break="no"/>atum 
+               se turpitudines.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e219">
+               ¶ <ref xml:id="bHY6yh-d86139-Rd1e228">17. capitulo scilicet de 
+               <lb ed="#O"/>socrate</ref> ¶ <quote xml:id="bHY6yh-d86139-Qd1e223">Socrates dicebat con<lb ed="#O" break="no"/>edentem 
+               <pb ed="#O" n="183-r"/>
+               <cb ed="#O" n="a"/>
+               <lb ed="#O"/>affectantem nequaquam 
+               <lb ed="#O"/>egere coedulii.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e229"> 
+               ¶ <ref xml:id="bHY6yh-d86139-Rd1e240">Idem</ref> <quote xml:id="bHY6yh-d86139-Qd1e231">dicebat 
+               <lb ed="#O"/>alios quidem homines uiuere ut 
+               <lb ed="#O"/>manducent se uero manducare
+               <lb ed="#O"/>non uiueret.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e239">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e256">ARistoteles <!--line bumps up--> politicorum libro 2. capitulo 9. <!--line bumps back down--> et finali.</ref> <quote xml:id="bHY6yh-d86139-Qd1e243">plures iniuri<lb ed="#O" break="no"/>antur 
+               ebrii quam sobrii.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e253">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e272">IEsus filius sirach in ecc. capitulo 19.</ref> 
+               <lb ed="#O"/><quote xml:id="bHY6yh-d86139-Qd1e257">Operarius ebriosus non locu<lb ed="#O" break="no"/>pletabitur. 
+               ¶ Uinum et mulieres 
+               <lb ed="#O"/>apostatare faciunt et arguunt sen<lb ed="#O" break="no"/>satos.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e267"> 
+               ¶ <ref xml:id="bHY6yh-d86139-Rd1e289">31. capitulo.</ref> <quote xml:id="bHY6yh-d86139-Qd1e269">Quam sufficiens homini 
+               <lb ed="#O"/>erudito uinum exiguum. ¶ Uigilia 
+               <lb ed="#O"/>et colera et tortura uiro infrunito. 
+               <lb ed="#O"/>Sompnus sanitas in homine parco 
+               <lb ed="#O"/>dormiet usque mane et anima illius 
+               <lb ed="#O"/>cum ipso delectabitur. ¶ Diligentes. 
+               <lb ed="#O"/>1. amicos in uino noli prouocare 
+               <lb ed="#O"/>multos enim exterminauit uinum. 
+               <lb ed="#O"/>¶ Uinum corda superborum arguet in 
+               <lb ed="#O"/>ebrietate potatum. ¶ Exultatio est 
+               <lb ed="#O"/>anime et cordis uinum moderate pota<lb ed="#O" break="no"/>tum. 
+               ¶ Sanitas est animae et corporis 
+               <lb ed="#O"/>sobrius potus. ¶ Uinum multum potatum 
+               <lb ed="#O"/>irritationem et iram et ruinas multas 
+               <lb ed="#O"/>facit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e297"> 
+               ¶ <ref xml:id="bHY6yh-d86139-Rd1e320">37. capitulo.</ref> <quote xml:id="bHY6yh-d86139-Qd1e299">noli auidius esse in 
+               <lb ed="#O"/>omni epulatione et non te effundas 
+               <lb ed="#O"/>super omnem escam. In multis enim escis 
+               <lb ed="#O"/>erit infirmitas et auiditas apro<lb ed="#O" break="no"/>pinquabit 
+               usque ad coleram. ¶ Pro<lb ed="#O" break="no"/>pter 
+               crapulam multi obierunt qui 
+               <lb ed="#O"/>autem abstinens est adiiciet uitam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e313">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e341">ORatius. libro. 2. sermone. 7.</ref> <quote xml:id="bHY6yh-d86139-Qd1e317">nempe in<lb ed="#O" break="no"/>amarescunt 
+               epule sine fine 
+               <lb ed="#O"/>petite et cetera.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e323">
+               <cb ed="#O" n="b"/>
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e353">TUllius de fine bonorum et malorum 
+               <lb ed="#O"/>libro 2</ref> ¶ <quote xml:id="bHY6yh-d86139-Qd1e327">Socrates dixit esse con<lb ed="#O" break="no"/>dimentum 
+               esce famem potionis sitim.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e335"> 
+               <lb ed="#O"/>¶ <ref xml:id="bHY6yh-d86139-Rd1e365">Idem rethoricorum artis noue. libro 5. 
+               <lb ed="#O"/>capitulo 28.</ref> <quote xml:id="bHY6yh-d86139-Qd1e337">Esse oportet ut uiuas non 
+               <lb ed="#O"/>uiuere ut edas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e345">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e380">IOhannes in euangelio. <!--line bumps up--> capitulo. 2.</ref> ¶ <quote xml:id="bHY6yh-d86139-Qd1e349">Omnis homo pri<!--line bumps back down-->mum bonum uinum 
+               <lb ed="#O"/>ponit et cum inebriati fuerit 
+               <lb ed="#O"/>id quod deterius est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e357">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e394">Paulus apostolus in epistola ad ephe<lb ed="#O" break="no"/>sios. 
+               capitulo 4.</ref> <quote xml:id="bHY6yh-d86139-Qd1e361">Nolite inebriari ui<lb ed="#O" break="no"/>no 
+               in quo est luxuria.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e368">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e406">SEneca epistolarum ad <!--line bumps up--> lucillum <!--line bumps back down--> libro 3. epistola 1.</ref> ¶
+               <lb ed="#O"/><quote xml:id="bHY6yh-d86139-Qd1e372">Copia ciborum subtilitas impe<lb ed="#O" break="no"/>ditur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e378"> 
+               ¶ <ref xml:id="bHY6yh-d86139-Rd1e417">libro 4. epistola 3.</ref> <quote xml:id="bHY6yh-d86139-Qd1e380">Epule cruditatem 
+               <lb ed="#O"/>afferunt ebrietates neruorum tor<lb ed="#O" break="no"/>porem 
+               tremoremque.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e388"> 
+               ¶ <ref xml:id="bHY6yh-d86139-Rd1e430">libro 7. epistola 7.</ref> <quote xml:id="bHY6yh-d86139-Qd1e390">Non 
+               <lb ed="#O"/>fames nobis uentris nostri magni 
+               <lb ed="#O"/>constat sed ambitio.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e398"> 
+               ¶ <ref xml:id="bHY6yh-d86139-Rd1e442">libro 11. capitulo 1.</ref> <quote xml:id="bHY6yh-d86139-Qd1e400">Omne 
+               <lb ed="#O"/>uicium ebrietas et intendit et de<lb ed="#O" break="no"/>tegit
+               obstante malis conati<lb ed="#O" break="no"/>bus 
+               uerecundiam remouet. ¶ Ubi 
+               <lb ed="#O"/>possedit animum nimia uis uini 
+               <lb ed="#O"/>quicquid mali latebat emer<lb ed="#O" break="no"/>git.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e412"> 
+               ¶ <ref xml:id="bHY6yh-d86139-Rd1e458">libro 20. et finali. capitulo 5.</ref> <quote xml:id="bHY6yh-d86139-Qd1e414">Merum quod 
+               <lb ed="#O"/>uiatas cibo penetrat ad neruos.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e420"> 
+               <lb ed="#O"/>¶ <ref xml:id="bHY6yh-d86139-Rd1e468">6. epistola.</ref> <quote xml:id="bHY6yh-d86139-Qd1e422">Malum panem inquis 
+               <lb ed="#O"/>expecta bonus fiet. Etiam illum 
+               <lb ed="#O"/>tenerum tibi et siligeneum famis re<lb ed="#O" break="no"/>odit 
+               ideo non est ante edendum 
+               <lb ed="#O"/>quam illa imperet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e440">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e491">LUcanus libro <!--line bumps up--> 4.</ref> <quote xml:id="bHY6yh-d86139-Qd1e444">O prodiga re<!--line bumps back down-->rum luxuries 
+               <lb ed="#O"/>nunquam paruo contenta <sic>para<lb ed="#O" break="no"/>tu.</sic>
+               Et quesitorum terra pelagoque 
+               <lb ed="#O"/>ciborum. Ambitiosa fames et 
+               <pb ed="#O" n="183-v"/>
+               <cb ed="#O" n="a"/>
+               <lb ed="#O"/>late gloria mense. Discite quam paruo 
+               <lb ed="#O"/>licet producere uitam. Et quantum 
+               <lb ed="#O"/>natura petat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e458">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e512">MArcialis co<!--line bumps up-->cus l. undique su<!--line bumps back down-->scepto. capitulo 3.</ref> ¶ <quote xml:id="bHY6yh-d86139-Qd1e462">Gumo<lb ed="#O" break="no"/>ninus
+               quando satur est ieiunia la<lb ed="#O" break="no"/>udat. 
+               Quando ieiunus prandia ma<lb ed="#O" break="no"/>gnificat.
+               ¶ Esca quidem simplex 
+               <lb ed="#O"/>sanum facit atque ualentem. ¶ Sed 
+               <lb ed="#O"/>sanum multi destituere cibi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e474">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e531">AUctor libelli de formula honeste uite. 
+               <lb ed="#O"/>capitulo 4.</ref> ¶ <quote xml:id="bHY6yh-d86139-Qd1e478">Ede citra edulitatem. bi<lb ed="#O" break="no"/>be 
+               citra ebrietatem. ¶ Uictus tibi ex 
+               <lb ed="#O"/>facili sit nec ad uoluptatem sed ad 
+               <lb ed="#O"/>cibum excede. ¶ Palatum tuum 
+               <lb ed="#O"/>fames excitet non sapores. ¶ 
+               <lb ed="#O"/>Non erit tibi scurrilitas sed gra<lb ed="#O" break="no"/>ta 
+               urbanitas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e492">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e551">Macrobius <!--line bumps up--> saturnaliorum libro 2. <!--line bumps back down--> capitulo 18</ref> <quote xml:id="bHY6yh-d86139-Qd1e496">Socrates di<lb ed="#O" break="no"/>cebat 
+               multos homines propterea 
+               <lb ed="#O"/>uelle uiuere ut ederent et biberent 
+               <lb ed="#O"/>sed bibere et esse ut uiueret.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e506"> 
+               ¶ <ref xml:id="bHY6yh-d86139-Rd1e565">libro 3. 
+               <lb ed="#O"/>questione. 1.</ref>  <quote xml:id="bHY6yh-d86139-Qd1e508">Quis ambigit eum qui di<lb ed="#O" break="no"/>uerso 
+               uino utitur in repentinam 
+               <lb ed="#O"/>ruere ebrietatem. ¶ Ipsa immode<lb ed="#O" break="no"/>ratio 
+               ciborum ex uarietate nascitur 
+               <lb ed="#O"/>titilante gula et ad sumendum 
+               <lb ed="#O"/>plura quam necessitate prouocante.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e522"> 
+               ¶ <ref xml:id="bHY6yh-d86139-Rd1e583">2. 
+               <lb ed="#O"/>questione.</ref> <quote xml:id="bHY6yh-d86139-Qd1e524"> Qui fuerint crebro ebrii cito 
+               <lb ed="#O"/>senescunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e531">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e595">CAto capitulo 1.</ref> <!--line bumps up--> <quote xml:id="bHY6yh-d86139-Qd1e535">Tempera te uino.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e539">
+               <ref xml:id="bHY6yh-d86139-Rd1e606">capitulo <!--line bumps back down--> 3</ref> <quote xml:id="bHY6yh-d86139-Qd1e543">Que potu peccas 
+               <lb ed="#O"/>ignoscere tu tibi noli. Nam 
+               <lb ed="#O"/>nullum uini est sed culpa 
+               <lb ed="#O"/>bibentis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e616">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e620">BEr<!--line bumps up-->nardus. libro de improbatione <!--line bumps back down--> uitiorum. capitulo 7</ref> ¶ <quote xml:id="bHY6yh-d86139-Qd1e624">Utilis est 
+               <lb ed="#O"/>homini potus et esca breuis. 
+               <cb ed="O#" n="b"/>
+               <lb ed="#O"/>Sobrietas homines absque dolore nu<lb ed="#O" break="no"/>trit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e557">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e634">GUal<!--line bumps up-->terius de castellione libro 1.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-d86139-Qd1e561">Si bacho uenerique uaces 
+               <lb ed="#O"/>qui cetera subdis. Sub iuga 
+               <lb ed="#O"/>uenisti periit delata uacatis li<lb ed="#O" break="no"/>bertas 
+               animi. ¶ Rixas et bella moueri. 
+               <lb ed="#O"/>Imperat et fuadet rationis uile se<lb ed="#O" break="no"/>pulcrum.
+               Ebrietas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86139-d1e578">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d86139-Rd1e657">RIcardus iudex <!--line bumps up--> uenusinus <!--line bumps back down--> l. de pertractatione 
+               <lb ed="#O"/>nuptiarum. capitulo 28.</ref> ¶ <quote xml:id="bHY6yh-d86139-Qd1e582">Bacho plenus 
+               <lb ed="#O"/>egens regna tenere putat. Let<lb ed="#O" break="no"/>tior 
+               omnis homo postquam manducat ha<lb ed="#O" break="no"/>betur.
+               Letior ex leto pectore sermo 
+               <lb ed="#O"/>uenit.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
