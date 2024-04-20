@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5</title>
+               <date when="2024-04-20">April 20, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-04-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#C" n="90-r"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d65467"><!-- p3l6-r5 -->
+            <head xml:id="bHY6yh-d65467-Hd1e108">Rubrica 5</head>
+           <head xml:id="bHY6yh-d65467-Hd1e111" type="question-title">De partibus rethorice orationis: uidelicet de prohemio: prologo: 
+             prefatione: narratione: conclusione et epilogo</head>
+            <p xml:id="bHY6yh-d65467-d1e114">
+              De partibus rethorice
+              scilicet prohemino prologo
+              prephatione narra<lb ed="#C" break="no"/>tione 
+              et conclusione
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e130">
+              <ref xml:id="bHY6yh-d65467-Rd1e127">Aristotelis
+              <lb ed="#C"/>rethoricorum
+              <lb ed="#C"/>libro III et finali 15</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d65467-Qd1e136">Necessarie partes re<lb ed="#C" break="no"/>thorice 
+              orationis sunt propositum persuasio et e<lb ed="#C" break="no"/>pilogus</quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e144"> 
+              ¶ <ref xml:id="bHY6yh-d65467-Rd1e142">Idem 18 capitulo</ref> <quote xml:id="bHY6yh-d65467-Qd1e146">Prohemium est
+              <lb ed="#C"/>principium orationis sicut et in poesi prologus
+              <lb ed="#C"/>et in fistulatione preludium omnia enim hec principina
+              <lb ed="#C"/>sunt et uelud breuiator absequens</quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e157">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d65467-Rd1e159">Terentius in formione capitulo XVII</ref> <quote xml:id="bHY6yh-d65467-Qd1e161">Nihil est antulpho
+              <lb ed="#C"/>quin male benarrando non possit deprauare</quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e169">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d65467-Rd1e174">Tullius de oratore libro 2</ref> <quote xml:id="bHY6yh-d65467-Qd1e173">Orator obscura
+              <lb ed="#C"/>totam obscat orationem si non res est nec dubium
+              <lb ed="#C"/>totam obserat orationem si nota res est nec
+              <lb ed="#C"/>dubium quod gestum sit narrare non oportet
+              <lb ed="#C"/>nec si aduersarius narrauit nisi fellemus
+              <lb ed="#C"/>oportet ut edibus et templis sic causis principia
+              <lb ed="#C"/>proportione est rerum proponere Itaque in paruis
+              <lb ed="#C"/>ac frequentibus causis ab ipsa re exordium
+              <lb ed="#C"/>est sepe commodius</quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e194"> 
+              ¶ <ref xml:id="bHY6yh-d65467-Rd1e199">Idem rethoricorum artis
+              <lb ed="#C"/>ueteris capitulo 14 et finali</ref> <quote xml:id="bHY6yh-d65467-Qd1e196">Conclusio est exitus et de<lb ed="#C" break="no"/>terminatio 
+              totius orationis</quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e204">
+              ¶ <ref xml:id="bHY6yh-d65467-Rd1e213">Lex digestum de origine iuris
+              <lb ed="#C"/>libro I</ref> <quote xml:id="bHY6yh-d65467-Qd1e208">In foro causas dicentibus nephas ut i<lb ed="#C" break="no"/>ta 
+              dixerim est nulla praefatione facta iudici
+              <lb ed="#C"/>rem opponere prefationes enim libentius
+              <lb ed="#C"/>nos allocutionem apposite materie producunt
+              <lb ed="#C"/>et cum ibi uenerimus huius eruditionis prestant
+              <lb ed="#C"/>intellectum</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
