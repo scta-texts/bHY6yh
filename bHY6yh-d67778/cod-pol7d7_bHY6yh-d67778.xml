@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 20 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 20 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-04-20">April 20, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+          <pb ed="#K" n="147-v"/>
+          <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d67778"><!-- p3l6-r20 -->
+            <head xml:id="bHY6yh-d67778-Hd1e108">Rubrica 20</head>
+            <head xml:id="bHY6yh-d67778-Hd1e111" type="question-title">De facetis dictis exclusiuis verecundie imminentis</head>
+            <p xml:id="bHY6yh-d67778-d1e114">
+               <lb ed="#K"/>De facetis dictis exclusiuis verecun<lb ed="#K" break="no"/>die 
+               imminentis. Rubrica 20
+            </p>
+            <p xml:id="bHY6yh-d67778-d1e121">
+               <lb ed="#K"/> <ref xml:id="bHY6yh-d67778-Rd1e118">UAlerius maximus. ti. desidu<lb ed="#K" break="no"/>cia 
+               sui:</ref> <quote xml:id="bHY6yh-d67778-Qd1e127">Spartanus qui<lb ed="#K" break="no"/>dam 
+               increpitus a quo<lb ed="#K" break="no"/>dam 
+               quod in aciem claudus 
+               <lb ed="#K"/>descenderet pugnare non 
+               <lb ed="#K"/>sibi fugere propositum esse respondit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d67778-d1e139"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d67778-Rd1e137">Li. 6. t. grauiter dicta aut 
+              <lb ed="#K"/>facta:</ref> <quote xml:id="bHY6yh-d67778-Qd1e141">Spartanus quidam 
+              <lb ed="#K"/>nobilitate et sanctitate prestans 
+              <lb ed="#K"/>in petitione magistratus 
+              <lb ed="#K"/>victus maxime sibi letitie 
+              <lb ed="#K"/>esse preiudicauit quod aliquos 
+              <lb ed="#K"/>patria sua se meliores 
+              <lb ed="#K"/>haberet. Quo sermone repul<lb ed="#K" break="no"/>sam 
+              honori adequauit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d67778-d1e156">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d67778-Rd1e158">Iohannes solobriensis anglicus 
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>in policratone: li. 4.</ref> <quote xml:id="bHY6yh-d67778-Qd1e160">Octauianus
+              <lb ed="#K"/>augustus cum vanus ad 
+              <lb ed="#K"/>corporis breuitate conuiciatus: 
+              <lb ed="#K"/>cuiusdam impetu diceretur: 
+              <lb ed="#K"/>sibi calciamentis grandius<lb ed="#K" break="no"/>culis 
+              vtendum esse respondit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d67778-d1e172">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d67778-Rd1e177">Li. 7.</ref> <quote xml:id="bHY6yh-d67778-Qd1e176">Cicero consul cum in pala<lb ed="#K" break="no"/>tio 
+              domum emere vellet et 
+              <lb ed="#K"/>pecuniam in presens non haberet 
+              <lb ed="#K"/>a silla qui tunc reus erat
+              <lb ed="#K"/>mutuo sextertium vicesies 
+              <lb ed="#K"/>accepit. Ea res priusquam 
+              <lb ed="#K"/>emeretur prodita est et in 
+              <lb ed="#K"/>vulgus exiuit: obiectum<lb ed="#K" break="no"/>que
+              est ei: quod pecuniam domus 
+              <lb ed="#K"/>emende causa areo acce<lb ed="#K" break="no"/>pisset. 
+              Tunc Cicero inopi<lb ed="#K" break="no"/>nata 
+              opprobratione permotus 
+              <lb ed="#K"/>accepisse se negauit dicens 
+              <lb ed="#K"/>ad domum non esse empturum: 
+              <lb ed="#K"/>atque ideo falsum esse inquit 
+              <lb ed="#K"/>quod obicitis: vt verum
+              <lb ed="#K"/>sit me pecuniam accepisse 
+              <lb ed="#K"/>si domum emero. Sed cum 
+              <lb ed="#K"/>postea emisset: et hoc 
+              <lb ed="#K"/>mendatium ei in senatu 
+              <lb ed="#K"/>ab amicis obiiceretur: risit
+              <lb ed="#K"/>satis: atque in tridendo 
+              <lb ed="#K"/>imprudentes inquit ho<lb ed="#K" break="no"/>mines 
+              estis cum ignoratis 
+              <lb ed="#K"/>prudentis et cauti patriffa<lb ed="#K" break="no"/>milias 
+              esse quod emere 
+              <lb ed="#K"/>velit inempturum sese ne<lb ed="#K" break="no"/>gare 
+              propter competitores emp<lb ed="#K" break="no"/>tionis: 
+              sic itaque quod in<lb ed="#K" break="no"/>ficiari 
+              non poterat vr<lb ed="#K" break="no"/>bano 
+              facetoque dilluint dicto 
+                <pb ed="#K" n="148-r"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>familiare siquidem habebat: 
+              <lb ed="#K"/>vt quotiens obiectum turpe 
+              <lb ed="#K"/>abnegare non posse: 
+              <lb ed="#K"/>responsione ioculari illud 
+              <lb ed="#K"/>eluderet.</quote> 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
