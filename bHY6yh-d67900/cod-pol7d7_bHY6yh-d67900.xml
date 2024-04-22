@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 21 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 21 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-04-21">April 21, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="148-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d67900"><!-- p3l6-r21 -->
+            <head xml:id="bHY6yh-d67900-Hd1e108">Rubrica 21</head>
+            <head xml:id="bHY6yh-d67900-Hd1e111" type="question-title">De iocali seu faceta excusatione</head>
+            <p xml:id="bHY6yh-d67900-d1e114">
+               De iocali seu at <!--review-->
+               <lb ed="#K"/>que faceta excusatione Rubrica. 21
+            </p>
+            <p xml:id="bHY6yh-d67900-d1e125"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d67900-Rd1e122">UAlerius maximus: li. 5 ti. de 
+              <lb ed="#K"/>humanitate aut clementia:</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d67900-Qd1e133">Pirrus rex audierat 
+              <lb ed="#K"/>quosdam in conuiuio taren<lb ed="#K" break="no"/>tinorum 
+              parum honoratum 
+              <lb ed="#K"/>de se sermonem habitum: accer<lb ed="#K" break="no"/>sitos 
+              qui ei interfuerant 
+              <lb ed="#K"/>percunctabatur an ea que 
+              <lb ed="#K"/>ad aures ipsius peruene<lb ed="#K" break="no"/>rant
+              dixissent. Tum ex his 
+              <lb ed="#K"/>vnus: nisi inquit nobis 
+              <lb ed="#K"/>vinum defecisset: ista que tibi 
+              <lb ed="#K"/>relata sunt prae his que 
+              <lb ed="#K"/>de te locuturi eramus 
+              <lb ed="#K"/>lusus ac iocus fuissent. 
+              <lb ed="#K"/>Tam vrbana crapule 
+              <lb ed="#K"/>excusatio tamque simplex 
+              <lb ed="#K"/>veritatis confessio: iram 
+              <lb ed="#K"/>regis conuertit in risum. Qua 
+              <lb ed="#K"/>quidem clementia et modera<lb ed="#K" break="no"/>tione 
+              assecutus est vt 
+              <lb ed="#K"/>et sobrii sibi tarentini 
+              <lb ed="#K"/>gratias agerent et ebrii 
+              <lb ed="#K"/>bene precarentur.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d67900-d1e163">
+              <ref xml:id="bHY6yh-d67900-Rd1e163">Ti. de gra<lb ed="#K" break="no"/>tis.</ref> 
+              <quote xml:id="bHY6yh-d67900-Qd1e167">Gaii marii non solum 
+              <lb ed="#K"/>praecipuus sed etiam prepotens 
+              <lb ed="#K"/>grate mentis fuit im<lb ed="#K" break="no"/>petus 
+              duas enim camentium 
+              <lb ed="#K"/>cohortes mirabili virtute 
+              <lb ed="#K"/>vim cymrorum substinentes in <!--review-->
+              <lb ed="#K"/>ipsa accie aduersus conditionem 
+              <lb ed="#K"/>federis ciuitatem donauit. 
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>Quod quidem factum et vere 
+              <lb ed="#K"/>et egregie excusauit: 
+              <lb ed="#K"/>dicendo inter armorum 
+              <lb ed="#K"/>strepitum verba se inuris c<lb ed="#K" break="no"/>iuilis 
+               exaudire non po<lb ed="#K" break="no"/>tuisse: 
+               et sane id tempus tunc
+              <lb ed="#K"/>erat quo magis defendere 
+              <lb ed="#K"/>quam audire leges oportebat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d67900-d1e193">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d67900-Rd1e195">Iohannes solobrienses anglicus 
+              <lb ed="#K"/>in polycratone: li. 4.</ref> <ref xml:id="bHY6yh-d67900-Rd1e200">Cicero 
+              <lb ed="#K"/>consul cum in palatio 
+              <lb ed="#K"/>domum vellet emere etc. 
+              <lb ed="#K"/>vt. 8 ti. proximo.</ref> <!--two refs no quote-->
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
