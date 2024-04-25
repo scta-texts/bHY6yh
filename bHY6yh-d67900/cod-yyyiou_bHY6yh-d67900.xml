@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 21</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 21</title>
+               <date when="2024-04-25">April 25, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-04-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="94-r"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d67900"><!-- p3l6-r21 -->
+            <head xml:id="bHY6yh-d67900-Hd1e108">Rubrica 21</head>
+            <head xml:id="bHY6yh-d67900-Hd1e111" type="question-title">De iocali seu faceta excusatione</head>
+            <p xml:id="bHY6yh-d67900-d1e114">
+              De uebali seu faceta
+              <lb ed="#C"/>excusatione capitulum
+            </p>
+            <p xml:id="bHY6yh-d67900-d1e125"> 
+              <ref xml:id="bHY6yh-d67900-Rd1e122">UAlerius
+              <lb ed="#C"/>maximus
+              <lb ed="#C"/>libro V titulo de humanitate et clementia</ref> <quote xml:id="bHY6yh-d67900-Qd1e133">Pirrus
+              <lb ed="#C"/>rex quosdam audierat in conuiuio ta<lb ed="#C" break="no"/>rentinorum 
+              parum honoratum sermonem
+              <lb ed="#C"/>de se habitum accersitos qui ei interfue<lb ed="#C" break="no"/>runt 
+              percunctabatur ac ea que ad aures
+              <lb ed="#C"/>ipsius peruenerant dixissent tunc ex hiis
+              <lb ed="#C"/>unus nisi uinum nobis defecisset ista que ti<lb ed="#C" break="no"/>bi 
+              relata sunt prae hys que de te locuti era<lb ed="#C" break="no"/>mus 
+              ludus ac iocus fuissent itaque urbo<lb ed="#C" break="no"/>ne 
+              crapule excusatio tamque simplex
+              <lb ed="#C"/>ueritatis confessio iram regis conuertit in
+              <lb ed="#C"/>risum qua quidem clementia et mode<lb ed="#C" break="no"/>ratione 
+              assecutus est ut et sobrii sibi ca<lb ed="#C" break="no"/>rentins 
+              gratias agerent et ebrii bene depre<lb ed="#C" break="no"/>carentur</quote> 
+            </p>
+            <p xml:id="bHY6yh-d67900-d1e163">
+              ¶ <ref xml:id="bHY6yh-d67900-Rd1e163">Idem de gratis</ref> <quote xml:id="bHY6yh-d67900-Qd1e167">gaii marii
+              <lb ed="#C"/>non solum praecipuus sed etiam grate
+              <lb ed="#C"/>mentis fuit impetus duas enim camen<lb ed="#C" break="no"/>tium 
+              cohortes mirabili uirtute uim cibo<lb ed="#C" break="no"/>rum 
+              sustinentes in ipsa accie aduersus
+              <lb ed="#C"/>conditionem federis ciuitatem donauit
+              <lb ed="#C"/>quod quidem uerum factum et uere et egregi<lb ed="#C" break="no"/>e 
+              excusauit dicendo inter armorum strepi<lb ed="#C" break="no"/>tus 
+              uerba se inuris ciuilis exaudire non
+              <lb ed="#C"/>potuisse et sane id tempus tunc erat quo magis de<lb ed="#C" break="no"/>fendere 
+              quam audire leges oportebat</quote>
+            </p>
+            <p xml:id="bHY6yh-d67900-d1e193">
+              [omitted]
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
