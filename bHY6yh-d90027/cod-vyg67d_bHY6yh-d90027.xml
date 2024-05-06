@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 2</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 2</title>
+               <date when="2024-05-05">May 5, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-05-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="191-v"/>
+            <cb ed="#O" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d90027"><!-- p4l6-r2 -->
+            <head xml:id="bHY6yh-d90027-Hd1e108">Rubrica 2</head>
+            <head xml:id="bHY6yh-d90027-Hd1e111" type="question-title">De vitiis mulierum et reprobatione earum</head>
+            <p xml:id="bHY6yh-d90027-d1e114">
+               De uitiis 
+               <lb ed="#O"/>mulierum et reprobatione earum. Rubrica. 2.
+            </p>
+            <p xml:id="bHY6yh-d90027-d1e121">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d90027-Rd1e118">SAlomon in prouerbiis. capitulo 31. et finali.</ref>
+               <lb ed="#O"/> <quote xml:id="bHY6yh-d90027-Qd1e127">Mulierem fortem quis in<lb ed="#O" break="no"/>ueniet</quote>
+            </p>
+            <p xml:id="bHY6yh-d90027-d1e133">
+               ¶ <ref xml:id="bHY6yh-d90027-Rd1e131">Idem in ecclesiaste capitulo 7.</ref> <quote xml:id="bHY6yh-d90027-Qd1e137">Ait sa<lb ed="#O" break="no"/>lomon 
+               uirum de mille unum reperi. 
+               <lb ed="#O"/>Mulierem ex omnibus non inueni.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90027-d1e146">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d90027-Rd1e149">IEsus filius sirach. in ecclesiestico 
+               <lb ed="#O"/>capitulo 25.</ref> <quote xml:id="bHY6yh-d90027-Qd1e150">Omnis malitia est nequitia 
+               <lb ed="#O"/>mulieris. ¶ Non est caput nequius 
+               <lb ed="#O"/>super caput colubri et non est ira 
+               <lb ed="#O"/>super iram mulieris. ¶ breuis omnis
+               <lb ed="#O"/>malitia super malitiam mulieris. 
+               <lb ed="#O"/>¶ Amuliere initium factum est peccati 
+               <lb ed="#O"/>et per illam omnes morimur. ¶ Non des 
+               <lb ed="#O"/>mulieri uenam nequem prodeundi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90027-d1e169">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d90027-Rd1e174">TErrentius in eunucho. capitulo 18.</ref> 
+               <lb ed="#O"/><quote xml:id="bHY6yh-d90027-Qd1e173">noui ingenium mulierum no<lb ed="#O" break="no"/>lunt 
+               ubi uelis ubi nolis cupiunt 
+               <lb ed="#O"/>ultra.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90027-d1e181">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d90027-Rd1e188">UIr<!--line bumps up-->gilius eneide libro 4. circa finali.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-d90027-Qd1e185">Uarium et mutabile semper 
+               <lb ed="#O"/>femina.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90027-d1e191">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d90027-Rd1e200">TUllius re<!--line bumps up-->thoricorum artis ueteris <!--line bumps back down--> libro 1. capitulo 12.</ref> ¶ <quote xml:id="bHY6yh-d90027-Qd1e195">Mulierum 
+               <lb ed="#O"/>genus auarum est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90027-d1e201">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d90027-Rd1e212">QUintilianus declamationum. <!--line bumps up--> 1. decla.</ref> <!--line bumps back down--> ¶ <quote xml:id="bHY6yh-d90027-Qd1e205">Sunt 
+               <lb ed="#O"/>et feminis ad scelere uires 
+               <lb ed="#O"/>cum habent causas uirorum. Quin ymo si in<lb ed="#O" break="no"/>terroges 
+               facilius hec pectora me<lb ed="#O" break="no"/>tus 
+               odium ira corrumpunt. Et quoniam
+               <lb ed="#O"/>non habent roboris tantum unde ui<lb ed="#O" break="no"/>tia 
+               mentium uincant. plerumque faci<lb ed="#O" break="no"/>nus 
+               infirmitate fecerunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90027-d1e219">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d90027-Rd1e232">SEneca tragediarum in ypolito. 
+               <lb ed="#O"/>capitulo 7.</ref> <quote xml:id="bHY6yh-d90027-Qd1e223">Quid sinat inausum fe<lb ed="#O" break="no"/>mine 
+               preceps furor.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90027-d1e230"> 
+               ¶ <ref xml:id="bHY6yh-d90027-Rd1e243">Idem de remediis 
+               <pb ed="#O" n="192-r"/>
+               <cb ed="#O" n="a"/>
+               <lb ed="#O"/>fortuitorum. capitulo 21. et finali.</ref> <quote xml:id="bHY6yh-d90027-Qd1e232">Quam multe diu 
+               <lb ed="#O"/>custoditum perdiderunt decus. ¶
+               <lb ed="#O"/>Nichil tam mobile quam feminarum 
+               <lb ed="#O"/>uoluntas nichil tam uagum. ¶ Quam 
+               <lb ed="#O"/>multe quos in adolescentia ama<lb ed="#O" break="no"/>uerunt 
+               in senectute communi reliquerunt. 
+               <lb ed="#O"/>¶ Quam multarum notus amor odi<lb ed="#O" break="no"/>or 
+               nocior emutatus est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90027-d1e249">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d90027-Rd1e266">IUuenalis. libro 2. satyra uni<!--line bumps up-->ca</ref> <quote xml:id="bHY6yh-d90027-Qd1e253">Into<!--line bumps back down-->llerabi<lb ed="#O" break="no"/>lius
+               nichil est quam femina di<lb ed="#O" break="no"/>ues.
+               et cetera.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90027-d1e259">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d90027-Rd1e282">LEx <!--line bumps up--> codice titulo de sponsalibus. l. si <!--line bumps back down--> pater.</ref> ¶ <quote xml:id="bHY6yh-d90027-Qd1e263">Plerumque consilium 
+               <lb ed="#O"/>semine aduersus propria con
+               <lb ed="#O"/>moda da inuenitur laborare.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90027-d1e275">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d90027-Rd1e300">Cassiodorus epistolarum libro 2. epistola 11.</ref> <quote xml:id="bHY6yh-d90027-Qd1e279">Se<lb ed="#O" break="no"/>xus
+               femineus ad mutabilita<lb ed="#O" break="no"/>tis 
+               uitia patet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90027-d1e285">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d90027-Rd1e312">Bertrandus <!--line bumps up--> de improbatione uitio<!--line bumps back down-->rum. capitulo 6</ref> <quote xml:id="bHY6yh-d90027-Qd1e289">Pestis 
+               <lb ed="#O"/>auaritie fragili uiget in muliere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90027-d1e295">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d90027-Rd1e324">Andreas ad gualterium de amore 
+               <lb ed="#O"/>libro 3 et finali.</ref> <quote xml:id="bHY6yh-d90027-Qd1e299">Fluctuosus est animus 
+               <lb ed="#O"/>mulieris et inscrutabilis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90027-d1e308"> 
+               ¶ <ref xml:id="bHY6yh-d90027-Rd1e337">Idem in 
+               <lb ed="#O"/>libro de dissuatur uix.</ref> ¶ <quote xml:id="bHY6yh-d90027-Qd1e310">Mulier in am<lb ed="#O" break="no"/>plexu 
+               demolitur et molit. ¶ Uir in
+               <lb ed="#O"/>mollitiam abiens deiuratur. ¶ Opero<lb ed="#O" break="no"/>sa 
+               est mulieris astutia sumitque ani<lb ed="#O" break="no"/>mos 
+               in crimine deprehensa. ¶ Per 
+               <lb ed="#O"/>mulierem uir se uirum dediscit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90027-d1e322">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d90027-Rd1e358">IAcobus beneuentanus. capitulo 42.</ref> 
+               <lb ed="#O"/><quote xml:id="bHY6yh-d90027-Qd1e326">Non bene secretum mulier te<lb ed="#O" break="no"/>net 
+               ymo reuelat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90027-d1e332">
+               ¶ <ref xml:id="bHY6yh-d90027-Rd1e370">capitulo 50.</ref> <quote xml:id="bHY6yh-d90027-Qd1e336">Mobile 
+               <lb ed="#O"/>cor cunctis et mens est uana pu<lb ed="#O" break="no"/>ellis.
+               firmum propositum femina nulla 
+               <lb ed="#O"/>gerit.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
