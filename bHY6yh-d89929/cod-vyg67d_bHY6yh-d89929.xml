@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 1</title>
+               <date when="2024-05-05">May 5, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-05-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="191-v"/>
+            <cb ed="#O" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d89929"><!-- p4l6-r1 -->
+            <head xml:id="bHY6yh-d89929-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d89929-Hd1e111" type="question-title">De laudibus mulierum et acceptabilitate earum</head>
+            <p xml:id="bHY6yh-d89929-d1e114">
+               <lb ed="#O"/>SExtus et 
+               <lb ed="#O"/>ultimus 
+               <lb ed="#O"/>liber fex<lb ed="#O" break="no"/>te <unclear>quar</unclear> <!--quar appears written in margins after fex-->
+               quarte partis 
+               <lb ed="#O"/>tractat 
+               <lb ed="#O"/>de conuic<lb ed="#O" break="no"/>tu
+               uiri 
+               <lb ed="#O"/>et muli<lb ed="#O" break="no"/>eris 
+               sub hiis titulis sequentibus
+            </p>
+            <p xml:id="bHY6yh-d89929-d1e123">
+              <lb ed="#O"/>De laudibus mulierum et accep<lb ed="#O" break="no"/>tabilitate 
+              earum. Rubrica 1.
+            </p>
+            <p xml:id="bHY6yh-d89929-d1e130">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d89929-Rd1e127">IN genesi capitulo 13.</ref> ¶ <quote xml:id="bHY6yh-d89929-Qd1e134">Di<!--line bumps up-->xit dominus <!--line bumps back down--> mulieri
+               <lb ed="#O"/>Indolore paries filios et sub 
+               <lb ed="#O"/>uiri potestate eris et ipse dominabitur tibi.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d89929-d1e145">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d89929-Rd1e144">ARistoteles de hystoria animalium. 
+               <lb ed="#O"/>libro 8. capitulo 1.</ref> <quote xml:id="bHY6yh-d89929-Qd1e149">Mulier uiro mise<lb ed="#O" break="no"/>ricordior 
+               est. ¶ Minus sunt iracun<lb ed="#O" break="no"/>da 
+               famella omnia masculinis ex<lb ed="#O" break="no"/>cepta
+               ursa et pardolo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d89929-d1e159">
+               <!--line bumps down-->
+               <ref xml:id="bHY6yh-d89929-Rd1e160">Iesus filius sirach <!--line bumps up--> in ecclesistico capitulo <!--line bumps back down--> 36.</ref> ¶ <quote xml:id="bHY6yh-d89929-Qd1e163">Ubi
+               <lb ed="#O"/>non est seps diripitur posso
+               <lb ed="#O"/>et ubi non est mulier gemescit 
+               <lb ed="#O"/>eger et cetera.</quote>
+            </p>
+            <p xml:id="bHY6yh-d89929-d1e171">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d89929-Rd1e174">Paulus <!--line bumps up--> in epistola. 1. ad corinthios. <!--line bumps back down--> capitulo 11.</ref> ¶ <quote xml:id="bHY6yh-d89929-Qd1e175">Mulier gloria est 
+               <lb ed="#O"/>uiri. ¶ Non est creatus Uir 
+               <lb ed="#O"/>propter mulierem sed mulier propter ui<lb ed="#O" break="no"/>rum. </quote>
+            </p>
+            <p xml:id="bHY6yh-d89929-d1e189">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d89929-Rd1e195">LEx <!--line bumps up--> codice titulo qui potiores in pignore <!--line bumps back down--> habeantur l. assiduis</ref> ¶ <quote xml:id="bHY6yh-d89929-Qd1e193">Quis 
+               <lb ed="#O"/>mulieres non miseretur 
+               <lb ed="#O"/>propter obsequia que maritis pre<lb ed="#O" break="no"/>stant 
+               propter partus periculum et ipsam 
+               <lb ed="#O" n="b"/>
+               <lb ed="#O"/>liberorum procreationem</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
