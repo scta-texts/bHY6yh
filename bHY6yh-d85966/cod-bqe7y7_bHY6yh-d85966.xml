@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 15</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 15</title>
+               <date when="2024-04-18">April 18, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness> 
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-04-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="184-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d85966"><!-- p4l4-r15 -->
+            <head xml:id="bHY6yh-d85966-Hd1e108">Rubrica 15</head>
+            <head xml:id="bHY6yh-d85966-Hd1e111" type="question-title">De fame et siti seu ieiunio morali consideratione</head>
+            <p xml:id="bHY6yh-d85966-d1e114">
+               <lb ed="#P"/>De fame siti seu ieiunio morali 
+               <pb ed="#P" n="184-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P"/>consideratione capitulum xv
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e121">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d85966-Rd1e118">Tobias hystoria capitulo vi</ref> <quote xml:id="bHY6yh-d85966-Qd1e125">Nunquid rugiet ho<lb ed="#P" break="no"/>nages 
+               cum habuerit verbam aut mugiet 
+               <lb ed="#P"/>bos cum ante presepe plenum habuerit.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e135">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d85966-Rd1e136">Ouidius de fastis libro iiii</ref>  
+               <lb ed="#P"/><quote xml:id="bHY6yh-d85966-Qd1e139">Absit iniqui fames.</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e144">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d85966-Rd1e147">Quintilianus declamationum xv declamatione</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d85966-Qd1e148">Non habitant vna pudor / et fames fa<lb ed="#P" break="no"/>mes 
+               aspera vitalia haurit precordia car<lb ed="#P" break="no"/>pit
+               animi formentum corporis tabes 
+               <lb ed="#P"/>magistra peccandi durissima necessi<lb ed="#P" break="no"/>tas 
+               deformissima malorum
+               <lb ed="#P"/>hec ad humile opus nobiles minus mic<lb ed="#P" break="no"/>tit
+               hec alienis pedibus mendicantes 
+               <lb ed="#P"/>prosternit / hec sepe sotiorum fidem fregit.
+               <lb ed="#P"/>Hec venena populis publice dedit hec 
+               <lb ed="#P"/>in paricidium pios egit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e179">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d85966-Rd1e177">Luchanus libro iiii</ref> <quote xml:id="bHY6yh-d85966-Qd1e183">nomen quem asserit vr<lb ed="#P" break="no"/>bes 
+               / sola fames / emitur quem metus cum segne 
+               <lb ed="#P"/>potentes / vulgus alunt / nescit plebs 
+               <lb ed="#P"/>ieiunia timere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e187">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d85966-Rd1e187">Statius thebaidos libro x</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d85966-Qd1e191">Nihil non ausa fames.</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e195"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d85966-Rd1e199">Uegetius de Re militari libro iii titulo iii</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d85966-Qd1e210">Ferro seuior fames est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e205"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d85966-Rd1e215">Ibidem titulo viiii</ref> <quote xml:id="bHY6yh-d85966-Qd1e207">Fames vt dicitur intrinse<lb ed="#P" break="no"/>cus 
+               pugnat / et vincit sepius sine 
+               <lb ed="#P"/>ferro.</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e215"> 
+               <cb ed="#P" n="b"/>
+               <lb ed="#P"/><ref xml:id="bHY6yh-d85966-Rd1e227">Ibidem libro iiii et fine</ref>: <quote xml:id="bHY6yh-d85966-Qd1e217">In epilogo malis
+               <lb ed="#P"/>emergentis inopie potus ut cibi nulla 
+               <lb ed="#P"/>arte succurritur</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e224">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d85966-Rd1e240">Cassiodorus epistolarum libro iiii epistola xl</ref> <quote xml:id="bHY6yh-d85966-Qd1e228">Inua<lb ed="#P" break="no"/>lidus 
+               est siquidem ieiunus defensor / nec 
+               <lb ed="#P"/>animus ministrat audaciam cum virtus cor<lb ed="#P" break="no"/>poreo 
+               fuerit robore destituta.</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e238"> 
+                  <lb ed="#P"/><ref xml:id="bHY6yh-d85966-Rd1e254">Ibidem libro iiii epitsola v</ref> <quote xml:id="bHY6yh-d85966-Qd1e240">Fames totum so<lb ed="#P" break="no"/>let 
+                  contennere / vt suam necessitatem possit 
+                  <lb ed="#P"/>explere</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e248"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-d85966-Rd1e266">Ibidem xii epistola</ref> <quote xml:id="bHY6yh-d85966-Qd1e250">disciplinam non potest serua<lb ed="#P" break="no"/>re 
+               ieiunus exercitus dum quod deest pre<lb ed="#P" break="no"/>sumit 
+               armatus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e258">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d85966-Rd1e280">Ricardus iudex venusinus libro deper<lb ed="#P" break="no"/>tractatione 
+               nuptiarum capitulo xxviii</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d85966-Qd1e262">Ieiunus leuiter scandescit ad iram.</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e270">
+               OMITTED
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
