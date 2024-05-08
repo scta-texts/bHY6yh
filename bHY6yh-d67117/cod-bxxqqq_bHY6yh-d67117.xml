@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 17</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 17</title>
+               <date when="2024-04-14">April 14, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#B" n="114-v"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d67117"><!-- p3l6-r17 -->
+            <head xml:id="bHY6yh-d67117-Hd1e108">Rubrica 17</head>
+            <head xml:id="bHY6yh-d67117-Hd1e111" type="question-title">De electis locutionibus significantibus miserabilitatem</head>
+            <p xml:id="bHY6yh-d67117-d1e114">
+              De electis locutionibus 
+              <lb ed="#B"/>significantibus miserabilitatem <!--line jumps down-->Rubrica 17 
+            </p>
+            <p xml:id="bHY6yh-d67117-d1e123">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d67117-Rd1e124">OVidius epistolarum epistola 2</ref> <quote xml:id="bHY6yh-d67117-Qd1e131">eu 
+              <lb ed="#B"/>patior telis uulnera facta 
+              <lb ed="#B"/>meis</quote>
+            </p>
+            <p xml:id="bHY6yh-d67117-d1e139"> 
+              ¶ <ref xml:id="bHY6yh-d67117-Rd1e137">epistola 6</ref> <quote xml:id="bHY6yh-d67117-Qd1e150">Non expectato uul<lb ed="#B" break="no"/>nus 
+              ab hosti tuli</quote>
+            </p>
+            <p xml:id="bHY6yh-d67117-d1e154">
+              ¶ <ref xml:id="bHY6yh-d67117-Rd1e150">epistola 17</ref> <quote xml:id="bHY6yh-d67117-Qd1e158">Mittit 
+              <lb ed="#B"/>abideus quam malet ferre salu<lb ed="#B" break="no"/>tem</quote>
+            </p>
+            <p xml:id="bHY6yh-d67117-d1e164"> 
+              ¶ <ref xml:id="bHY6yh-d67117-Rd1e160">Idem de ponto libro I epistola 10 et finale</ref>
+              <lb ed="#B"/><quote xml:id="bHY6yh-d67117-Qd1e166">Naso suo profugus mittit tibi 
+              <lb ed="#B"/>flacce salutem ¶ <del>Idem de ponto libro 1</del></quote>
+            </p>
+            <p xml:id="bHY6yh-d67117-d1e170">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d67117-Rd1e174">Idem de tristibus libro 3 epistola 13</ref> <quote xml:id="bHY6yh-d67117-Qd1e178">Quod 
+              <lb ed="#B"/>que tibi mittit non habet ipse vale</quote>
+            </p>
+            <p xml:id="bHY6yh-d67117-d1e178">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d67117-Rd1e185">libro 5 epistola 15</ref> <quote xml:id="bHY6yh-d67117-Qd1e182">ac tuus e getico mittit
+              <pb ed="#B" n="115-r"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/>tibi naso salutem ¶ Mittere si 
+              <lb ed="#B"/>quisquam quo caret ipse potest</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
