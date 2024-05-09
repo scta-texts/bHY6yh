@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 8 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 8 [Krakow, lat 700 III Transcription]</title>
+               <date when="2021-05-08">May 08, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="154-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d70545"><!-- p4l1-r8 -->
+            <head xml:id="bHY6yh-d70545-Hd1e108">Rubrica 8</head>
+            <head xml:id="bHY6yh-d70545-Hd1e111" type="question-title">De modo celeritatis dilationis et more</head>
+            <p xml:id="bHY6yh-d70545-d1e114">
+              <lb ed="#K"/>De modo celeritatis di<lb ed="#K" break="no"/>lationis 
+              et more. Rubrica. 8
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e121">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e118">SAlomon in prouerbiis c. 13.</ref> <quote xml:id="bHY6yh-d70545-Qd1e127">Sub<lb ed="#K" break="no"/>stantia 
+              festinata minu<lb ed="#K" break="no"/>etur: 
+              que autem pau<lb ed="#K" break="no"/>latim 
+              colligitur manu multiplicabitur. 
+              <lb ed="#K"/>Spes que differtur aff<lb ed="#K" break="no"/>ligit 
+              animam.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e139">
+              <ref xml:id="bHY6yh-d70545-Rd1e137">Idem in ecclesiast. c. 8.</ref> <quote xml:id="bHY6yh-d70545-Qd1e141">Quia non profertur 
+              <lb ed="#K"/>cito contra malos sententa: 
+              <lb ed="#K"/>absque vllo timore filii 
+              <lb ed="#K"/>hominum perpetrant mala.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e150">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e152">Aristotelis ethicorum: lib. 6. c. 6.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d70545-Qd1e154">Operari quidem oportet 
+              <lb ed="#K"/>velociter confiliata: consili<lb ed="#K" break="no"/>ari 
+              autem tarde.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e162">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e166">Salustius in iugurtino.</ref> <quote xml:id="bHY6yh-d70545-Qd1e166">Natura 
+              <lb ed="#K"/>mortalium preceps est 
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>ad explendam animi 
+              <lb ed="#K"/>cupiditatem. Animo cupi<lb ed="#K" break="no"/>enti 
+              nihil satis festinatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e174">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e180">Tullius phylipicorum: lib. 6.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d70545-Qd1e178">Expectatio quidem quantum 
+              <lb ed="#K"/>afferat langoris 
+              <lb ed="#K"/>animo quis non videt</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e186">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e194">Ouidius epistolarum. 16. e.</ref> <quote xml:id="bHY6yh-d70545-Qd1e190">Sed 
+              <lb ed="#K"/>nimium properas: et ad 
+              <lb ed="#K"/>huc tua messis in her<lb ed="#K" break="no"/>ba 
+              est</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e200">
+               <ref xml:id="bHY6yh-d70545-Rd1e210">Epistola. 18.</ref> <quote xml:id="bHY6yh-d70545-Qd1e204">Longa 
+               <lb ed="#K"/>est nobis omnis 
+               <lb ed="#K"/>que gaudia differt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e210">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e220">Idem de arte amandi: 
+              <lb ed="#K"/>lib. i.</ref> <quote xml:id="bHY6yh-d70545-Qd1e212">Tempore difficiles ve<lb ed="#K" break="no"/>niunt 
+              ad aratra iuuenci
+              <lb ed="#K"/>Tempore lecta pati frena do<lb ed="#K" break="no"/>centur 
+              equi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e221">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e235">Idem de remedio amoris: li. i.</ref> <quote xml:id="bHY6yh-d70545-Qd1e225">Nam mo<lb ed="#K" break="no"/>ra 
+              dat vires: teneras 
+              <lb ed="#K"/>mora percoquie vuas. 
+              <lb ed="#K"/>Et validas segetes quod 
+              <lb ed="#K"/>fuit herba facit</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e233">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e249">Idem de tristibus: li. 4. e. 6.</ref> <quote xml:id="bHY6yh-d70545-Qd1e237">Tempus 
+              <lb ed="#K"/>vt extentis tumeat 
+              <lb ed="#K"/>facit vua racemis Utque 
+              <lb ed="#K"/>merum capiant grana quod 
+              <lb ed="#K"/>intus habent Tempus et 
+              <lb ed="#K"/>incauas semen producit 
+              <lb ed="#K"/>aristas Et ne sit tristi 
+              <lb ed="#K"/>poma sapore facit Hoc 
+              <lb ed="#K"/>tenuat dentem terram min<lb ed="#K" break="no"/>uentis 
+              aratri Hoc 
+              <lb ed="#K"/>rigidos filices hoc ada<lb ed="#K" break="no"/>mantem 
+              terit Hoc etiam 
+              <lb ed="#K"/>seuas paulatim mitigat 
+                  <pb ed="#K" n="154-v"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K"/>iras Hoc minuunt lachry<lb ed="#K" break="no"/>mas:
+              mestaque corda le<lb ed="#K" break="no"/>uat. 
+              Cuncta potest igitur taci<lb ed="#K" break="no"/>to 
+              pede lapsa vetustas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e262"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e278">Idem de ponto: li. 3. e. 7. et 
+              <lb ed="#K"/>ante pel.</ref> <quote xml:id="bHY6yh-d70545-Qd1e264">Mitius ille perit 
+              <lb ed="#K"/>subita qui mergitur vnda.
+              <lb ed="#K"/>Quam sua qui tumidis 
+              <lb ed="#K"/>barachia lassat aquis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e272">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e292">Seneca tragediarum in epido. 
+              <lb ed="#K"/>c. 10.</ref> <quote xml:id="bHY6yh-d70545-Qd1e276">Quid verba queris: 
+              <lb ed="#K"/>veritas odit moras.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e282"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e302">Idem epistolarum ad lucillum: li. 5. 
+              <lb ed="#K"/>e. 11. et fi.</ref> <quote xml:id="bHY6yh-d70545-Qd1e284">Nihil ordina<lb ed="#K" break="no"/>tum 
+              est quod precipitatur 
+              <lb ed="#K"/>et properat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e294">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e317">Idem declam. seu ciuilium causarum: 
+              <lb ed="#K"/>li. 7. c. 7.</ref> <quote xml:id="bHY6yh-d70545-Qd1e296">Affectus non 
+              <lb ed="#K"/>sustinet moram.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e303">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e331">Idem impubiis.</ref> <quote xml:id="bHY6yh-d70545-Qd1e307">Etiam celeritas 
+              <lb ed="#K"/>in desiderio mora est. 
+              <lb ed="#K"/>Ad penitendum properat qui 
+              <lb ed="#K"/>cito iudicat. In iudican<lb ed="#K" break="no"/>do 
+              criminosa est celeritas.
+              <lb ed="#K"/>Mora omnis odio est: sed 
+              <lb ed="#K"/>sapientem facit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e319">
+               <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e349">Lucanus: li. i.</ref> <quote xml:id="bHY6yh-d70545-Qd1e323">Tolle moras: semper 
+               <lb ed="#K"/>nocuit differre paratis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e329">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e361">Iuuenalis: li. 3. saty. 2.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d70545-Qd1e333">Breuesit quod turpiter 
+              <lb ed="#K"/>audes.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e339">
+             <!--ommitted-->
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e349">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e385">Maximianus.</ref> <quote xml:id="bHY6yh-d70545-Qd1e353">Pena minor certam. subito 
+              <lb ed="#K"/>proferre ruinam Quam tim<lb ed="#K" break="no"/>ens 
+              grauius sustinuisse diu.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e361">
+                <cb ed="#K" n="b"/>
+              <ref xml:id="bHY6yh-d70545-Rd1e399">Prosper sub. 66 emp.</ref> <quote xml:id="bHY6yh-d70545-Qd1e365">Gratior 
+              <lb ed="#K"/>est fructus quam spes 
+              <lb ed="#K"/>productior edit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e372">
+               <ref xml:id="bHY6yh-d70545-Rd1e412">Epigramma. 70.</ref> 
+               <lb ed="#K"/> <quote xml:id="bHY6yh-d70545-Qd1e376">Quid iuuat in longum 
+               <lb ed="#K"/>causas producere morbi. 
+               <lb ed="#K"/>Cur dubium expectat 
+               <lb ed="#K"/>cras hodierna salus</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e390">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e432">Cassiodorus epistolarum: li. i. 
+              <lb ed="#K"/>c. 39.</ref> <quote xml:id="bHY6yh-d70545-Qd1e394">Quod salubriter 
+              <lb ed="#K"/>constat esse dispositum 
+              <lb ed="#K"/>per tarditatis vicium non 
+              <lb ed="#K"/>incurrat obstaculum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e402">
+              <ref xml:id="bHY6yh-d70545-Rd1e444">Li 3. 
+              <lb ed="#K"/>c. 14.</ref> <quote xml:id="bHY6yh-d70545-Qd1e404">Malum cum perseuerat 
+              <lb ed="#K"/>augetur et remediabile 
+              <lb ed="#K"/>bonum est in peccatum acce<lb ed="#K" break="no"/>lerata 
+              correctio.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e414">
+              <ref xml:id="bHY6yh-d70545-Rd1e459">c 
+              <lb ed="#K"/>40</ref> <quote xml:id="bHY6yh-d70545-Qd1e416">Lesionis genus est
+              <lb ed="#K"/>profutura tardare. Non pos<lb ed="#K" break="no"/>sumus 
+              existimare iocun<lb ed="#K" break="no"/>dum
+              quodingrata fuerit 
+              <lb ed="#K"/>a dilatione suspensum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e426"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e473">Li. 6. c. 9.</ref> <quote xml:id="bHY6yh-d70545-Qd1e428">Omne siquidem 
+              <lb ed="#K"/>iustum celeritatis como<lb ed="#K" break="no"/>do 
+              transit ad beneficium: et quod 
+              <lb ed="#K"/>debito redditur tali gratia 
+              <lb ed="#K"/>munus putatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e438"> 
+              <ref xml:id="bHY6yh-d70545-Rd1e487">Li. 9. e. 
+              <lb ed="#K"/>24.</ref> <quote xml:id="bHY6yh-d70545-Qd1e440">Habet hoc humana con<lb ed="#K" break="no"/>ditio 
+              vt celerius adepta 
+              <lb ed="#K"/>fastidio sint: dum omne 
+              <lb ed="#K"/>preciosum vilescit oblatum. 
+              <lb ed="#K"/>Dulcius accipitur quod 
+              <lb ed="#K"/>sub aliqua dilatione 
+              <lb ed="#K"/>prestatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e451">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e504">Isydorus in synon. solliloquiorum: li. 2 c. 41.</ref> <quote xml:id="bHY6yh-d70545-Qd1e455">In bonis 
+              <lb ed="#K"/>dilatio nocet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e461">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e517">Bernardus. l. de improbatione viciorum c. 4.</ref>
+                  <pb ed="#K" n="155-r"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d70545-Qd1e465">Expectata ferunt valiturum 
+              <lb ed="#K"/>semina fructum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e473">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e532">Iacobus beneuentanus. c. 19.</ref> <quote xml:id="bHY6yh-d70545-Qd1e477">Si<lb ed="#K" break="no"/>quidem
+              promissum fuerit 
+              <lb ed="#K"/>tibi suscipe raptim Mens 
+              <lb ed="#K"/>apposito nam refilere potest.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e485">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e546">Auctor l. qui incipit astrolabi.</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d70545-Qd1e489">Disce diu: firmaque tibi 
+              <lb ed="#K"/>tardaque doceto Atque 
+              <lb ed="#K"/>ad scribendum ne cito pro<lb ed="#K" break="no"/>filias.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e497">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e560">Prouerb. metricu. extraord. l. vag.</ref> <quote xml:id="bHY6yh-d70545-Qd1e501">Uir sapiens. 
+              <lb ed="#K"/>al caro leporem capit 
+              <lb ed="#K"/>et pede tardo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70545-d1e507">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70545-Rd1e572">Prouerb vulg.</ref> <quote xml:id="bHY6yh-d70545-Qd1e511">Chi va plan siua 
+              <lb ed="#K"/>san El sauio prende 
+              <lb ed="#K"/>la leuore col carro.
+              <lb ed="#K"/>Tosto e bene raro se conuene.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
