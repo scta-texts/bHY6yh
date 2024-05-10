@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 21</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 21</title>
+               <date when="2024-04-21">April 21, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-04-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="116-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d67900"><!-- p3l6-r21 -->
+            <head xml:id="bHY6yh-d67900-Hd1e108">Rubrica 21</head>
+            <head xml:id="bHY6yh-d67900-Hd1e111" type="question-title">De iocali seu faceta excusatione</head>
+            <p xml:id="bHY6yh-d67900-d1e114">
+              De 
+              <lb ed="#B"/>iocali seu faceta excusatione<!--line jumps down--> Rubrica 21
+            </p>
+            <p xml:id="bHY6yh-d67900-d1e125">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d67900-Rd1e122">UAlerius maximus libro 5
+              <lb ed="#B"/>titulo de humanitate et clementia</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d67900-Qd1e133">Pirrus rex audierat quosdam 
+              <lb ed="#B"/>in conuiuio tarentinorum parum hono<lb ed="#B" break="no"/>ratum 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>de se sermonem accersitos qui 
+              <lb ed="#B"/>ei interfuerant percunctabatur an ea 
+              <lb ed="#B"/>que ad aures eius peruenerant
+              <lb ed="#B"/>dixissent ¶ Tum ex hiis vnus 
+              <lb ed="#B"/>nisi inquit nobis vinum defe<lb ed="#B" break="no"/>cisset 
+              Ista que tibi relata sunt 
+              <lb ed="#B"/>prae hiis que de te locuturi era<lb ed="#B" break="no"/>mus 
+              lusus ac iocus fuissent 
+              <lb ed="#B"/>tam urbana crapule excusatio 
+              <lb ed="#B"/>tamque simplex veritatis confessio 
+              <lb ed="#B"/>iram regis conuertit in risum 
+              <lb ed="#B"/>.qua quidem clementia et mode<lb ed="#B" break="no"/>ratione 
+              assecutus ut  asobrii sibi 
+              <lb ed="#B"/>tarentini gratias agerent et ebrii 
+              <lb ed="#B"/>bene precarentur</quote> 
+            </p>
+            <p xml:id="bHY6yh-d67900-d1e163">
+              ¶ <ref xml:id="bHY6yh-d67900-Rd1e163">titulo de gratis</ref> 
+              <lb ed="#B"/>¶ <quote xml:id="bHY6yh-d67900-Qd1e167">Gaii marii non solum praecipuus
+              <lb ed="#B"/>sed etiam prepotens grate mentis 
+              <lb ed="#B"/>fuit impetus duas enim camen<lb ed="#B" break="no"/>tium 
+              cohertes mirabili virtute 
+              <lb ed="#B"/>vim cimbrorum substinentes in ipsa 
+              <lb ed="#B"/>acie aduersus conditionem federis 
+              <lb ed="#B"/>ciuitate donauit quod quidem factum 
+              <lb ed="#B"/>et vere et egregie excusauit 
+              <lb ed="#B"/>dicendo inter armorum strepitum 
+              <lb ed="#B"/>verba se iuris ciuilis exaudire 
+              <lb ed="#B"/>non potuisse et sane id tempus tunc
+              <lb ed="#B"/>erat quo magis defendere quam 
+              <lb ed="#B"/>audire leges oportebat</quote>
+            </p>
+            <p xml:id="bHY6yh-d67900-d1e193">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d67900-Rd1e195">Iohannes solobrienses an<!--line jumps up-->glicus<!--line jumps down--> in policra<lb ed="#B" break="no"/>tione 
+              libro 4</ref> ¶ <ref xml:id="bHY6yh-d67900-Rd1e200">Cycero consul cum 
+              <lb ed="#B"/>in palatio domum uellet emere 
+              <lb ed="#B"/>etc ut 8 titulo proximo</ref> <!--two refs no quote-->
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
