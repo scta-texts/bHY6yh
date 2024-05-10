@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 15</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 15</title>
+               <date when="2024-04-19">April 19, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#C" n="87-v"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d64085"><!-- p3l5-r15 -->
+            <head xml:id="bHY6yh-d64085-Hd1e108">Rubrica 15</head>
+            <head xml:id="bHY6yh-d64085-Hd1e111" type="question-title">De minis</head>
+            <p xml:id="bHY6yh-d64085-d1e114">
+              De minis non satiendis
+              capitulum
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e121">
+              <ref xml:id="bHY6yh-d64085-Rd1e119">SAlomon
+              <lb ed="#C"/>in prouerbiis
+              <lb ed="#C"/>capitulo 14</ref> <quote xml:id="bHY6yh-d64085-Qd1e127">fatuus statim indicat iram suam
+              <lb ed="#C"/>qui autem dissimulat iram callidus est</quote> 
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e135">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d64085-Rd1e136">Cronica de nugis philosophorum capitulo 4 scilice de
+              <lb ed="#C"/>chilone</ref> <quote xml:id="bHY6yh-d64085-Qd1e139">Chilo lacedemoniis qui fuit u<lb ed="#C" break="no"/>nus 
+              de 7 sapiententibus Iubebat non esse minan<lb ed="#C" break="no"/>dum 
+              cuique muliebre namque</quote>
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e150">
+              ¶ <ref xml:id="bHY6yh-d64085-Rd1e154">Oratius
+              <lb ed="#C"/>in poetria</ref> <quote xml:id="bHY6yh-d64085-Qd1e154">nec semper feriet ubicunque mina<lb ed="#C" break="no"/>bitur 
+              arcus</quote>
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e160">
+              ¶ <ref xml:id="bHY6yh-d64085-Rd1e166">Seneca tragediarum in medea
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/>capitulo III</ref> <quote xml:id="bHY6yh-d64085-Qd1e164">Iraque tegitur nocet</quote>
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e170"> 
+              ¶ <ref xml:id="bHY6yh-d64085-Rd1e176">Idem in pro<lb ed="#C" break="no"/>uerbiis </ref>
+              <quote xml:id="bHY6yh-d64085-Qd1e172">Loquax inimicus minus quam tacitur<lb ed="#C" break="no"/>nus 
+              offendit</quote>
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e178">
+              ¶ <ref xml:id="bHY6yh-d64085-Rd1e188">Cassiodorus epistolarum libro 4
+              <lb ed="#C"/>epistola 49</ref> 
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e190">
+              <quote xml:id="bHY6yh-d64085-Qd1e194">Plerunque nimis taciti non<lb ed="#C" break="no"/>nulla 
+              iniusta incommoda patiuntur et eo in acri<lb ed="#C" break="no"/>orem 
+              dolorem prodeunt quo ea qui susti<lb ed="#C" break="no"/>nent 
+              non loquuntur</quote>
+            </p>
+            <p>
+              ¶ Idem epistolarum libro
+              <lb ed="#C"/>epistola 40 plurumque deriutata mi<lb ed="#C" break="no"/>natio 
+              plus efficit quam pena componat
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e204">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d64085-Rd1e218">Versificator fabularum ysopi fabula 26</ref> <quote xml:id="bHY6yh-d64085-Qd1e208">Sepe minus
+              <lb ed="#C"/>faciunt homines qui magna minantur</quote>
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e215">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e225">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d64085-Rd1e243">Heynricus samariensis libro 2</ref> <quote xml:id="bHY6yh-d64085-Qd1e229">Dicta minus
+              <lb ed="#C"/>sint facta magis sis parcus inyminis parcus
+              <lb ed="#C"/>in opprobriis largus ad esse decus</quote>
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e237">
+              [omitted]
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
