@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-04-13">April 13, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+          <pb ed="#K" n="141-v"/>
+          <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d65467"><!-- p3l6-r5 -->
+            <head xml:id="bHY6yh-d65467-Hd1e108">Rubrica 5</head>
+           <head xml:id="bHY6yh-d65467-Hd1e111" type="question-title">De partibus rethorice orationis: uidelicet de prohemio: prologo: 
+             prefatione: narratione: conclusione et epilogo</head>
+            <p xml:id="bHY6yh-d65467-d1e114">
+               De partibus rethorice 
+               <lb ed="#K" n="68"/>orationis scilicet de prohemino prologo pre<lb ed="#K" break="no"/>factione 
+               narratione conclusione et epilogo 5
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e130">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d65467-Rd1e127">Aristotelis retho libro 3 et fi capitulo 
+              <lb ed="#K"/>15</ref> <quote xml:id="bHY6yh-d65467-Qd1e136">necessarie partes rethorice 
+              <lb ed="#K"/>orationis sunt pro<lb ed="#K" break="no"/>positum
+              et persuasio et epilogus</quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e144"> 
+              ¶ <lb ed="#K"/> <ref xml:id="bHY6yh-d65467-Rd1e142">capitulo 16</ref> <quote xml:id="bHY6yh-d65467-Qd1e146">prohemium est principium 
+              <lb ed="#K"/>orationis sicut in poesi 
+                <pb ed="#K" n="142-r"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>prologus et in fistulatione pre<lb ed="#K" break="no"/>ludium
+              omnia enim hec prin<lb ed="#K" break="no"/>cipina 
+              sunt et velut breuiator 
+              <lb ed="#K"/>ad sequens</quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e157">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d65467-Rd1e159">Terentius in phormione capitulo 17</ref> <quote xml:id="bHY6yh-d65467-Qd1e161">nihil est
+              <lb ed="#K"/> <sic>anaulpho</sic> quin male nar<lb ed="#K" break="no"/>rando 
+              possit deprauarier</quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e169">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d65467-Rd1e174">Tullius de oratore libro 2</ref> <quote xml:id="bHY6yh-d65467-Qd1e173">nar<lb ed="#K" break="no"/>ratio 
+              obscura totam obcecat 
+              <lb ed="#K"/>narrationem Si nota res est 
+              <lb ed="#K"/>nec dubium quod gestum sit 
+              <lb ed="#K"/>narrare non oportet nec si
+              <lb ed="#K"/>aduersarius narrauit nisi 
+              <lb ed="#K"/>refellemus ¶ Oportet vt edibus 
+              <lb ed="#K"/>ac templis vestibula et a<lb ed="#K" break="no"/>ditus 
+              sic causis principia 
+              <lb ed="#K"/>proportione rerum proponere ita<lb ed="#K" break="no"/>que 
+              in paruis atque in frequen<lb ed="#K" break="no"/>tibus 
+              causis ab ipsa re 
+              <lb ed="#K"/>est exordiri sepe commodius</quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e194"> 
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d65467-Rd1e199">Idem retho artis veteris libro i
+              <lb ed="#K"/>capitulo 14 et fi</ref> <quote xml:id="bHY6yh-d65467-Qd1e196">conclusio est exitus 
+              <lb ed="#K"/>et determinatio totius orationis</quote>
+            </p>
+            <p xml:id="bHY6yh-d65467-d1e204">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d65467-Rd1e213">lex dige ti de origine iuris
+              <lb ed="#K"/>libro i</ref> <quote xml:id="bHY6yh-d65467-Qd1e208">in foro causas dicentibus 
+              <lb ed="#K"/>nephas vt ita dixerim 
+              <lb ed="#K"/>est nulla  praefatione facta iu<lb ed="#K" break="no"/>dici 
+              rem exponere prefati<lb ed="#K" break="no"/>ones 
+              et libentius nos ad 
+              <lb ed="#K"/>lectionem proposite materie 
+              <lb ed="#K"/>producunt et cum ibi vene<lb ed="#K" break="no"/>rimus 
+              huius euidentiorem 
+              <lb ed="#K"/>prestant intellectum</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
