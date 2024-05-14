@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 11 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 11 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-04-16">April 16, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="144-v"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d66582"><!-- p3l6-r11 -->
+            <head xml:id="bHY6yh-d66582-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-d66582-Hd1e111" type="question-title">De verborum prolatione rethorica</head>
+            <p xml:id="bHY6yh-d66582-d1e114">
+             De breuitate atque 
+             <lb ed="#K" n="28"/>longitudine orationis et partium 
+             <lb ed="#K"/>eius et verborum platone rubrica XI
+            </p>
+             <p xml:id="bHY6yh-d66551-d1e121">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d66551-Rd1e118">Aristo retho libro 3 et fi capitulo 2</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d66551-Qd1e127">non sufficit habere que oportet 
+              <lb ed="#K"/>dicere sed necesse et hoc vt oportet
+              <lb ed="#K"/>dicere</quote>
+            </p>
+            <p xml:id="bHY6yh-d66582-d1e121">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d66582-Rd1e118">Tullius retho artis noue libro 2 capitulo 5</ref> <quote xml:id="bHY6yh-d66582-Qd1e125">fere non
+              <lb ed="#K"/>difficile est inuenire quid 
+              <lb ed="#K"/>sit causae adiumento difficil<lb ed="#K" break="no"/>limum 
+              vero est iuentum 
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>expolire et expedite pro<lb ed="#K" break="no"/>nuntiare</quote>
+            </p>
+            <p xml:id="bHY6yh-d66582-d1e137"> 
+              ¶ <ref xml:id="bHY6yh-d66582-Rd1e135">libro 3 capitulo 6</ref> <quote xml:id="bHY6yh-d66582-Qd1e139">firmam 
+              <lb ed="#K"/>maxime poterimus in dicendo 
+              <lb ed="#K"/>vocem conseruare sed quam maxime 
+              <lb ed="#K"/>sedata et depressa voce prin<lb ed="#K" break="no"/>cipia 
+              dicemus nam leditur 
+              <lb ed="#K"/>arteria si antequam leui 
+              <lb ed="#K"/>voce permulsa est acri cla<lb ed="#K" break="no"/>more 
+              complet et interuallis 
+              <lb ed="#K"/>longioribus vti conuenit 
+              <lb ed="#K"/>recreatur enim spens vox 
+              <lb ed="#K"/>et artarie reticendo ac<lb ed="#K" break="no"/>quiescunt 
+              / Quid insuauius 
+              <lb ed="#K"/>quam clamor in exordio
+              <lb ed="#K"/>cause /Interualla vocem con<lb ed="#K" break="no"/>firmant 
+              eadem sententias conciniores 
+              <lb ed="#K"/>diuisione reddunt et audi<lb ed="#K" break="no"/>tori 
+              spacium cogitandi re<lb ed="#K" break="no"/>linquunt 
+              conseruat vocem 
+              <lb ed="#K"/>continui clamoris remisso 
+              <lb ed="#K"/>et varietas quidem auditorem
+              <lb ed="#K"/>maxime delectat Acuta ex<lb ed="#K" break="no"/>clamatio 
+              fauces fauce vocem vulnerat
+              <lb ed="#K"/>eadem ledit auditorem</quote>
+            </p>
+            <p xml:id="bHY6yh-d66582-d1e180">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d66582-Rd1e182">Idem de oratore libro 2</ref> <quote xml:id="bHY6yh-d66582-Qd1e184">iam illud 
+              <lb ed="#K"/>videmus nequaquam satis esse 
+              <lb ed="#K"/>reperire quid dicas nisi id 
+              <lb ed="#K"/>inuentum tractare possis</quote>
+            </p>
+            <p xml:id="bHY6yh-d66582-d1e192"> 
+              ¶
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d66582-Rd1e194">libro 3 et fina</ref> <quote xml:id="bHY6yh-d66582-Qd1e194">hominum auris vocem 
+              <lb ed="#K"/>natura modulatur Ad vo<lb ed="#K" break="no"/>cem 
+              obtinendam nihil 
+              <lb ed="#K"/>est vtilius quam crebra 
+              <lb ed="#K"/>mutatio Nihil pernitiosius 
+              <lb ed="#K"/>quam effusa sine intermissione 
+              <lb ed="#K"/>continuatio / Quamuis sua<lb ed="#K" break="no"/>ues 
+              graues que sententie cause 
+              <lb ed="#K"/>sint si incondite positis 
+              <lb ed="#K"/>verbis efferantur offendent 
+              <lb ed="#K"/>aures quarum est iuditium 
+                <pb ed="#K" n="145-r"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>superbissimum uoluptati au<lb ed="#K" break="no"/>rium 
+              morigerari debet oratio 
+              <lb ed="#K"/>/ Rerum verborumque indicium 
+              <lb ed="#K"/>prudentia est vocum autem 
+              <lb ed="#K"/>numerum aures sunt iudi<lb ed="#K" break="no"/>ces 
+              et illa ad intelligentiam 
+              <lb ed="#K"/>referuntur hec ad volupta<lb ed="#K" break="no"/>tem
+              in illis ratio inuenit 
+              <lb ed="#K"/>in his sensus artem</quote>
+            </p>
+            <p xml:id="bHY6yh-d66582-d1e224">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d66582-Rd1e229">Idem tusculanarum questionum libro i</ref> <quote xml:id="bHY6yh-d66582-Qd1e228" source="http://scta.info/resource/ctd99a-asdvss-d1e111@26-40">fieri
+              <lb ed="#K"/>potest vt recte quis sentiat 
+              <lb ed="#K"/>et id quod sentit polite 
+              <lb ed="#K"/>eloqui non possit</quote>
+            </p>
+            <p xml:id="bHY6yh-d66582-d1e236">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d66582-Rd1e243">Seneca epistolarum ad lucillum libro 5 epistola 
+              <lb ed="#K"/>xi et fi</ref> <quote xml:id="bHY6yh-d66582-Qd1e240">quemadmodum sapi<lb ed="#K" break="no"/>enti 
+              viro incessus mo<lb ed="#K" break="no"/>destior 
+              conuenit ita oratio 
+              <lb ed="#K"/>praessa non audax</quote>
+            </p>
+            <p xml:id="bHY6yh-d66582-d1e248">
+              / <ref xml:id="bHY6yh-d66582-Rd1e258">libro 19 
+               <lb ed="#K"/>epistola 9</ref> <quote xml:id="bHY6yh-d66582-Qd1e252">occultus animi est</quote>
+            </p>
+            <p xml:id="bHY6yh-d66582-d1e256">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d66582-Rd1e268">Ualerius maximus libro 8 capitulo 19</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d66582-Qd1e260">Eloquentie ornamenta in 
+              <lb ed="#K"/>pronunciatione acta et co<lb ed="#K" break="no"/>nueniente 
+              motu corporis 
+              <lb ed="#K"/>consistunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d66582-d1e269">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d66582-Rd1e283">Martialis cocus libro vndique suscepto capitulo 2</ref> <quote xml:id="bHY6yh-d66582-Qd1e273">Exaltas 
+              <lb ed="#K"/>in lite tuam geormanice 
+              <lb ed="#K"/>vocem Ut furia mentis 
+              <lb ed="#K"/>vox fumosa sonat</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
