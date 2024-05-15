@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 15</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 15</title>
+               <date when="2024-05-15">May 15, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-05-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="105-v"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d76006"><!-- p4l2-r15 -->
+            <head xml:id="bHY6yh-d76006-Hd1e108">Rubrica 15</head>
+            <head xml:id="bHY6yh-d76006-Hd1e111" type="question-title">De fruitione pecunie</head>
+            <p xml:id="bHY6yh-d76006-d1e114">
+              De fruitione pecunie
+              capitulum
+              <ref xml:id="bHY6yh-d76006-Rd1e113">SA<lb ed="#C" break="no"/>lomon 
+              in ecclesiastes capitulo V</ref> <quote xml:id="bHY6yh-d76006-Qd1e122">Omnis homini cui
+              <lb ed="#C"/>dedit deus diuitias at substantiam potestatemque
+              <lb ed="#C"/>ei tribuit ut comedat ex eis ut fruatur
+              <lb ed="#C"/>parte sua et letetur de labore suo hoc est
+              <lb ed="#C"/>donum dei</quote>
+            </p>
+            <p xml:id="bHY6yh-d76006-d1e134">
+              ¶ <ref xml:id="bHY6yh-d76006-Rd1e134">Aristoteles rethoricorum libro I capitulo XII</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d76006-Qd1e138">Diuitem esse est in uti magisquam in pos<lb ed="#C" break="no"/>sidere </quote>
+            </p>
+            <p xml:id="bHY6yh-d76006-d1e144">
+              ¶ <ref xml:id="bHY6yh-d76006-Rd1e146">Seneca de beata uita</ref> <quote xml:id="bHY6yh-d76006-Qd1e148">Diuitie apud
+              <lb ed="#C"/>sapientem uirum in seruitute sunt apud stul<lb ed="#C" break="no"/>tum 
+              in imperio</quote>
+            </p>
+            <p xml:id="bHY6yh-d76006-d1e155">
+              ¶ <ref xml:id="bHY6yh-d76006-Rd1e159">Auctor libro de formulae honeste uite
+              <lb ed="#C"/>capitulo II</ref> <quote xml:id="bHY6yh-d76006-Qd1e159">Non que apud summa</quote>
+            </p>
+            <p xml:id="bHY6yh-d76006-d1e167">
+              ¶ <ref xml:id="bHY6yh-d76006-Rd1e173">Cato capitulo III</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d76006-Qd1e171">Fac sumptum propere etcetera</quote>
+            </p>
+            <p xml:id="bHY6yh-d76006-d1e177">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d76006-d1e187">
+              ¶ <ref xml:id="bHY6yh-d76006-Rd1e197">Versificator fabularum ysopi
+              <lb ed="#C"/>fabula XII</ref> <quote xml:id="bHY6yh-d76006-Qd1e191">Tristior im mensas pauperes vsus
+              <lb ed="#C"/>opes</quote>
+            </p>
+            <p xml:id="bHY6yh-d76006-d1e197">
+              ¶ <ref xml:id="bHY6yh-d76006-Rd1e209">Idem fabula XXVII</ref> <quote xml:id="bHY6yh-d76006-Qd1e201">Pauperius nichil
+              <lb ed="#C"/>est quam misero vsus opum</quote>
+            </p>
+            <p xml:id="bHY6yh-d76006-d1e213">
+              ¶ <ref xml:id="bHY6yh-d76006-Rd1e227">Auctor facetus capitulo 2</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d76006-Qd1e217">Si bene uestitus cui non fit parua suppel<lb ed="#C" break="no"/>lex 
+              Et culte iuuat potibus atque cibis</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
