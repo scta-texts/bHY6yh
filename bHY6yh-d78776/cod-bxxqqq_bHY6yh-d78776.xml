@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 6</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 6</title>
+               <date when="2024-05-18">May 18, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="135-v"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d78776"><!-- p4l3-r6 -->
+            <head xml:id="bHY6yh-d78776-Hd1e108">Rubrica 6</head>
+            <!-- Chris has this as 6 -->
+            <head xml:id="bHY6yh-d78776-Hd1e113" type="question-title">De contemptu seu despectione</head>
+              <p xml:id="bHY6yh-d78776-d1e116">
+                <lb ed="#B"/>De irrisione seu illusione Riburica <sic>7.</sic>
+                <lb ed="#B"/><ref xml:id="bHY6yh-d78776-Rd1e119">IOb ystoria capitulo 12</ref> <quote xml:id="bHY6yh-d78776-Qd1e126">deridetur iusti sim<lb ed="#B" break="no"/>plicitas 
+                lampas contempta apud co<lb ed="#B" break="no"/>gitationes 
+                diuitum parata ad tempus statu<!--line jumps down-->tum</quote>
+            </p>
+            <p xml:id="bHY6yh-d78776-d1e136">
+              <pb ed="#B" n="136-r"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/><ref xml:id="bHY6yh-d78776-Rd1e136">SAlomon in prouerbiis capitulo 3</ref> <quote xml:id="bHY6yh-d78776-Qd1e140">Abhominatio 
+              <lb ed="#B"/>domini est omnis illusor Illusores 
+              <lb ed="#B"/>dominus deludet</quote>
+            </p>
+            <p xml:id="bHY6yh-d78776-d1e149"> 
+              ¶ <ref xml:id="bHY6yh-d78776-Rd1e149">capitulo 9</ref> <quote xml:id="bHY6yh-d78776-Qd1e151">Qui erudit 
+              <lb ed="#B"/>derisores ipse sibi iniuriam facit 
+              <lb ed="#B"/>¶ Noli arguere derisorem ne oderit 
+              <lb ed="#B"/>te</quote>
+            </p>
+            <p xml:id="bHY6yh-d78776-d1e171">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d78776-Rd1e178">YSo<!--line jumps up-->crates in exhortationibus capitulo 2</ref> ¶ <!--line jumps down--><quote xml:id="bHY6yh-d78776-Qd1e175">Inperes <del>erumpnam</del> erumpnam 
+              <lb ed="#B"/>communis enim fortuna et furtum in<lb ed="#B" break="no"/>certum</quote>
+            </p>
+            <p xml:id="bHY6yh-d78776-d1e159">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d78776-Rd1e163">CRonica<!--line jumps up--> de nugis philosophorum capitulo 24<!--line jumps down--> scilicet de bione</ref> <quote xml:id="bHY6yh-d78776-Qd1e163">Bio probat 
+              <lb ed="#B"/>non esse vituperandum senium quod 
+              <lb ed="#B"/>cuncti peroptamus contingere</quote>
+            </p>
+            <p xml:id="bHY6yh-d78776-d1e183">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d78776-Rd1e192">IVuenalis libro I satis 2</ref> <quote xml:id="bHY6yh-d78776-Qd1e187">Loripidem 
+              <lb ed="#B"/>rectus deridet ethyopem albus</quote>
+            </p>
+            <p xml:id="bHY6yh-d78776-d1e193"> 
+              <lb ed="#B"/><ref xml:id="bHY6yh-d78776-Rd1e202">satis 3</ref> <quote xml:id="bHY6yh-d78776-Qd1e195">Nichil habet infelix pauper<lb ed="#B" break="no"/>tas 
+              durius inse Quam quod <del>rigi</del> 
+              <lb ed="#B"/>ridiculos homines facit</quote>
+            </p>
+            <p xml:id="bHY6yh-d78776-d1e203">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d78776-Rd1e222">MArcialis cocus libro vn<!--line jumps up-->dique suscepto<!--line jumps down--> capitulo I</ref> <quote xml:id="bHY6yh-d78776-Qd1e213">Inui<lb ed="#B" break="no"/>dus 
+              irrisor reduirno crimine 
+              <lb ed="#B"/>gaudet ¶ Et semel irrisum ter<lb ed="#B" break="no"/>que 
+              quaterque cupit</quote>
+            </p>
+            <p xml:id="bHY6yh-d78776-d1e222">
+              ¶ <ref xml:id="bHY6yh-d78776-Rd1e238">Capitulo 2</ref> <quote xml:id="bHY6yh-d78776-Qd1e226">Deridens 
+              <lb ed="#B"/>alios non derisus ab illis ¶ vnde 
+              <lb ed="#B"/>alios rides sceuola non facias ¶ 
+              <lb ed="#B"/>Sic rides alium vel si rideris vtrun<lb ed="#B" break="no"/>que
+              ¶ culpa est inaure prius tur<lb ed="#B" break="no"/>pe 
+              sequi sue magis ¶ Ridemus 
+              <lb ed="#B"/>risum de sapiente tuum</quote>
+            </p>
+            <p xml:id="bHY6yh-d78776-d1e243">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d78776-Rd1e260">CAto capitulo I</ref> <quote xml:id="bHY6yh-d78776-Qd1e247">Neminem irriseris ¶ 
+              <lb ed="#B"/>Miserum noli irridere</quote>
+            </p>
+            <p xml:id="bHY6yh-d78776-d1e253"> 
+              ¶ <ref xml:id="bHY6yh-d78776-Rd1e270">Capitulo 5 et 
+              <lb ed="#B"/>finale</ref> <quote xml:id="bHY6yh-d78776-Qd1e255">Cum sapias animo noli irridere<!--line jumps down--> senectam</quote>
+            </p>
+            <p xml:id="bHY6yh-d78776-d1e261">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d78776-Rd1e282">Iohannes solubriensis an<lb ed="#B" break="no"/>glicus 
+              in policratone libro I</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d78776-Qd1e265">Demetrio regi in opprobrium
+              <lb ed="#B"/>puerilis leuitatis talli aurei a 
+              <lb ed="#B"/>rege parthorum dati sunt. eo siqui<lb ed="#B" break="no"/>dem 
+              munere exornanda visa est 
+              <lb ed="#B"/>adolescentia senilis que in maiesta<lb ed="#B" break="no"/>te 
+              regnia leuia commitere minime<!--line jumps down--> verebatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d78776-d1e279">
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/><ref xml:id="bHY6yh-d78776-Rd1e305">IAcobus beneuentanus capitulo 12</ref> <quote xml:id="bHY6yh-d78776-Qd1e283">Risor 
+              <lb ed="#B"/>derisus quilibet esse solet etc.</quote>
+            </p>
+            <p xml:id="bHY6yh-d78776-d1e289">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d78776-Rd1e317">RIcardus Iudex venusinus I libro de 
+              <lb ed="#B"/>pertractatione <unclear>nump</unclear> capitulo 37</ref> ¶ <quote xml:id="bHY6yh-d78776-Qd1e293">Illudens 
+              <lb ed="#B"/>alios sepe relusus abit</quote>
+            </p>
+            <p xml:id="bHY6yh-d78776-d1e302">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d78776-Rd1e333">Prouerbis uulgaris</ref> <quote xml:id="bHY6yh-d78776-Qd1e306">Tegnoso<!--line jumps up--> sta en<!--line jumps down--> ponte 
+              <lb ed="#B"/>ede tuti si fa pompe ¶ Chi a el 
+              <lb ed="#B"/>male sia le <unclear>beffe</unclear> velli scerni</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
