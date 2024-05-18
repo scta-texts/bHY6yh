@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 1</title>
+               <date when="2024-05-18">May 18, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-pu6y7d">Venice 1505</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="212-v"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d97737"><!-- p5l2-r1 -->
+            <head xml:id="bHY6yh-d97737-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d97737-Hd1e111" type="question-title">Unde oriantur bella</head>
+            <p xml:id="bHY6yh-d97737-d1e114">
+               <lb ed="#P"/>Liber secundus Quinte par<lb ed="#P" break="no"/>tis
+               Iste secundus liber 
+               <lb ed="#P"/>Quinte partis et ultime 
+               <lb ed="#P"/>partis tractat de bello / et 
+               <lb ed="#P"/>hostilitate / et de arte bellam 
+               <lb ed="#P"/>di sub his tutulis / et primo
+               <lb ed="#P"/>verum
+            </p>
+            <p xml:id="bHY6yh-d97737-d1e127"><!--combined with above-->
+               Unde oriuntur bella ca<lb ed="#P" break="no"/>pitulo 
+               primum
+            </p>
+            <p xml:id="bHY6yh-d97737-d1e132">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d97737-Rd1e129">PLato in phedrone</ref> <quote xml:id="bHY6yh-d97737-Qd1e136">Propter pecuniarum posse<lb ed="#P" break="no"/>ssionem 
+               uniuersa bella nobis fiunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d97737-d1e145">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d97737-Rd1e144">Aristoteles rethoricorum libro ii capitulo vi</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d97737-Qd1e149">Pugnantes contraria videntur velle.</quote>
+            </p>
+            <p xml:id="bHY6yh-d97737-d1e155">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d97737-Rd1e156">Salustius in cathilinario</ref> <quote xml:id="bHY6yh-d97737-Qd1e159">Imperii et di<lb ed="#P" break="no"/>uitiarum 
+               causa bella fiunt atque certamina 
+               <lb ed="#P"/>omnia inter mortales sunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d97737-d1e167">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d97737-Rd1e170">Tullius philippicorum libro xii et penultimo.</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d97737-Qd1e171">fortitudo dimicare iubet / iustum 
+               <lb ed="#P"/>odium incendit ad confligendum impellit 
+               <pb ed="#P" n="213-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P"/>vocat ad periculum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d97737-d1e181">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d97737-Rd1e186">Ouidius epistolarum xv epistola</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d97737-Qd1e185">Certamen premia magna mouent.</quote>
+            </p>
+            <p xml:id="bHY6yh-d97737-d1e191">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d97737-Rd1e198">Iacobus epistola primo capitulo iiii</ref> <quote xml:id="bHY6yh-d97737-Qd1e195">Unde bella et 
+               <lb ed="#P"/>lites inter vos / nonne hinc exconcupis<lb ed="#P" break="no"/>centiis 
+               vestris que militant in membris vestris.</quote>
+            </p>
+            <p xml:id="bHY6yh-d97737-d1e203">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d97737-Rd1e212">Lucanus libro iii</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d97737-Qd1e207">Certamen mouistis opes.</quote>
+            </p>
+            <p xml:id="bHY6yh-d97737-d1e212">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d97737-Rd1e223">Iacobus beneuentanus capitulo v</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d97737-Qd1e216">Effreni lingua surgere bella solent.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
