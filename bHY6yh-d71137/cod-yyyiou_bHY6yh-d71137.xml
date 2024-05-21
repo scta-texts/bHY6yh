@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10</title>
+               <date when="2024-05-01">May 1, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-05-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="98-v"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d71137"><!-- p4l1-r10 -->
+            <head xml:id="bHY6yh-d71137-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-d71137-Hd1e111" type="question-title">De repentinis seu subitis actibus</head>
+            <p xml:id="bHY6yh-d71137-d1e114">
+              De repentinis seu subitis 
+              actibus capitulum
+            </p>
+            <p xml:id="bHY6yh-d71137-d1e121">
+              <ref xml:id="bHY6yh-d71137-Rd1e118">TUllius
+              <lb ed="#C"/>tusculanarum 
+              <lb ed="#C"/>questionum libro III</ref> <quote xml:id="bHY6yh-d71137-Qd1e125">uidentur omnia repentina grauio<lb ed="#C" break="no"/>ra </quote>
+            </p>
+            <p xml:id="bHY6yh-d71137-d1e133">
+              ¶ <ref xml:id="bHY6yh-d71137-Rd1e133">Seneca epistolarum ad lucillum epistola IX libro X</ref> <quote xml:id="bHY6yh-d71137-Qd1e137">Omnia
+              <lb ed="#C"/>nouitate sunt grauiora</quote>
+            </p>
+            <p xml:id="bHY6yh-d71137-d1e144">
+              ¶ <ref xml:id="bHY6yh-d71137-Rd1e147">Statius the<lb ed="#C" break="no"/>bay 
+              libro X</ref> <quote xml:id="bHY6yh-d71137-Qd1e148">male cuncta ministrat</quote>
+            </p>
+            <p xml:id="bHY6yh-d71137-d1e154">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d71137-d1e164">
+              ¶ <ref xml:id="bHY6yh-d71137-Rd1e171">Boetius
+              <lb ed="#C"/>de consolatione libro II puersa I</ref> <quote xml:id="bHY6yh-d71137-Qd1e168">Omnis subita mu<lb ed="#C" break="no"/>tatio 
+              rerum non sine quodam cum motu
+              <lb ed="#C"/>contingit animorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d71137-d1e176">
+              ¶ <ref xml:id="bHY6yh-d71137-Rd1e185">Cassiodorus libro I epistola 16</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d71137-Qd1e180">Omnia subita probantur incauta</quote>
+            </p>
+            <p xml:id="bHY6yh-d71137-d1e186">
+              ¶ <ref xml:id="bHY6yh-d71137-Rd1e195">Idem Libro
+              <lb ed="#C"/>VIII capitulo XIII</ref> <quote xml:id="bHY6yh-d71137-Qd1e188">Exploranti suspitionem non
+              <lb ed="#C"/>refugit quod repente non prouenerit</quote>
+            </p>
+            <p xml:id="bHY6yh-d71137-d1e196">
+              ¶ <ref xml:id="bHY6yh-d71137-Rd1e209">Mattheus
+              <lb ed="#C"/>vindoniensis parte I capitulo XX</ref> <quote xml:id="bHY6yh-d71137-Qd1e200">Effectus fragiles im<lb ed="#C" break="no"/>petuosa 
+              manus consuenuit habere</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
