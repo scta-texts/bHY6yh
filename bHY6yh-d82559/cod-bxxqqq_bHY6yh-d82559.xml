@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 1</title>
+               <date when="2024-05-24">May 24, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-05-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="142-v"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d82559"><!-- p4l4-r1 -->
+            <head xml:id="bHY6yh-d82559-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d82559-Hd1e111" type="question-title">De delectatione</head>
+            <p xml:id="bHY6yh-d82559-d1e114">
+              <lb ed="#B"/>QVartus liber 
+              <lb ed="#B"/>quarte partis
+              <lb ed="#B"/>tractat de de<lb ed="#B" break="no"/>lectationibus
+              <lb ed="#B"/>et pertinentibus 
+              <lb ed="#B"/>ad eas sub 
+              <lb ed="#B"/>hiis tytulis
+              <lb ed="#B"/>sequentibus 
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e125">
+              <pb ed="#B" n="143-r"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/>De delectatione Rubrica prima
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e130">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d82559-Rd1e127">SAlomon in prouerbiis capitulo 13</ref> <quote xml:id="bHY6yh-d82559-Qd1e136">Spes 
+              <lb ed="#B"/>que differtur affligit animam 
+              <lb ed="#B"/>¶ Desiderium si compleatur delec<lb ed="#B" break="no"/>tat 
+              animam</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e145">
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e145">15 capitulo</ref> <quote xml:id="bHY6yh-d82559-Qd1e149">Lux oculorum le<lb ed="#B" break="no"/>tificat 
+              animam ¶ fama bona in<lb ed="#B" break="no"/>piguat 
+              ossa</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e155"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e155">Idem in ecclesiastico I 11</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d82559-Qd1e157">dulce lumen et delectabile est 
+              <lb ed="#B"/>oculis videre solem</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e171">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d82559-Rd1e176">ARistotiles rethoricorum<!--line jumps up--> libro I ccapitulo 9</ref><!--line jumps down--> <quote xml:id="bHY6yh-d82559-Qd1e175">dicendum 
+              <lb ed="#B"/>est delectationem bonum esse 
+              <lb ed="#B"/>omnia enim animalia appetunt ipsam 
+              <lb ed="#B"/>naturam</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e183"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e188">11 capitulo</ref> <quote xml:id="bHY6yh-d82559-Qd1e185">delectationem omnia 
+              <lb ed="#B"/>persequuntur. et gratia ipsius 
+              <lb ed="#B"/>delectari appetunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e193"> 
+              <ref xml:id="bHY6yh-d82559-Rd1e200"></ref> <quote xml:id="bHY6yh-d82559-Qd1e195">et assue<lb ed="#B" break="no"/>tum 
+              inter delectabilia ¶ Multa 
+              <lb ed="#B"/>enim et eorum que natura non sunt de<lb ed="#B" break="no"/>lectabilia 
+              cum assuefacta fuerint 
+              <lb ed="#B"/>delectabiliter fiunt ¶ Quecumque 
+              <lb ed="#B"/>propter se agunt omnia sunt aut bona 
+              <lb ed="#B"/>aut delectabilia aut apparen<lb ed="#B" break="no"/>tia 
+              delectabilia</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e212"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e221">20 capitulo</ref> <quote xml:id="bHY6yh-d82559-Qd1e214">Concupis<lb ed="#B" break="no"/>centia 
+              est delectabilis appeti<lb ed="#B" break="no"/>tus 
+              ¶ delectari est in pati sensum
+              <lb ed="#B"/>alicuius passionis ¶ Necesse est omnia 
+              <lb ed="#B"/>delectabilia esse aut in sentien<lb ed="#B" break="no"/>do 
+              presentia aut inmemorando facta 
+              <lb ed="#B"/>aut in sperando futura ¶ delecta<lb ed="#B" break="no"/>bile 
+              est saluatum reminisci la<lb ed="#B" break="no"/>borum 
+              et post augustias delec<lb ed="#B" break="no"/>tatur 
+              vir memorans qui mul<lb ed="#B" break="no"/>ta 
+              passus fuerit et qui mul<lb ed="#B" break="no"/>ta 
+              gesserit ¶ Quecumque presentia 
+              <lb ed="#B"/>letificant et sperantes et memo<lb ed="#B" break="no"/>rantes 
+              ut in pluribus. propter quod 
+              <lb ed="#B"/>et irasci delectabile. nullum 
+              <lb ed="#B"/>enim irascitur ei qui videtur
+              <lb ed="#B"/>impotens cruciatum sortiri ne 
+              <lb ed="#B"/>qui hiis qui multum supersunt 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>potentia aut si irascantur 
+              <lb ed="#B"/>mitius ¶ In ploratibus et la<lb ed="#B" break="no"/>mentationibus 
+              inest quedam
+              <lb ed="#B"/>delectatio ¶ Punire delectabile 
+              <lb ed="#B"/>est ¶ vincere delectabile est ¶ 
+              <lb ed="#B"/>diligere delectabile est ¶ In ad<lb ed="#B" break="no"/>miratione 
+              esse delectabile est 
+              <lb ed="#B"/>propter ipsum horari adulationem reci<lb ed="#B" break="no"/>pere 
+              et adulator delectabile 
+              <lb ed="#B"/>est ¶ Quod consuetum est delecta<lb ed="#B" break="no"/>bile 
+              est ¶ Adiscere et imita<lb ed="#B" break="no"/>ri 
+              delectabile est ut ad mul<lb ed="#B" break="no"/>tum 
+              imitari quidem enim est con<lb ed="#B" break="no"/>cupiscere 
+              adiscere. quare <sic>i<lb ed="#B" break="no"/>mitabile</sic> 
+              est concupiscibile. 
+              <lb ed="#B"/>adiscere autem est in id quod secundum 
+              <lb ed="#B"/>naturam constitui ¶ benefacere et 
+              <lb ed="#B"/>bene pati delectabile est <del>ut
+              <lb ed="#B"/>ad multum imitari</del> bene pati 
+              <lb ed="#B"/>quidem enim est adipisci eorum que 
+              <lb ed="#B"/>concupiscunt ¶ Quod secundum naturam 
+              <lb ed="#B"/>est delectabile est ¶ Omnia que 
+              <lb ed="#B"/>eiusdem generis secundum naturam inuicem 
+              <lb ed="#B"/>sunt cognata et similia delecta<lb ed="#B" break="no"/>bilia 
+              sunt. ut in pluribus ut pu<lb ed="#B" break="no"/>ta 
+              homo homini et equus equo 
+              <lb ed="#B"/>et Iuuenis inuueni ¶ Omne 
+              <lb ed="#B"/>simile et cognatum delectabi<lb ed="#B" break="no"/>le 
+              est sibi ¶ principari delecta<lb ed="#B" break="no"/>bilissimum 
+              est <del>sibi</del> ¶ videri sa<lb ed="#B" break="no"/>pientem 
+              esse delectabile est 
+              <lb ed="#B"/>¶ Ludus delectabilium est ¶ omnis 
+              <lb ed="#B"/>remisio et risus delectabi<lb ed="#B" break="no"/>lium 
+              est est ¶ Necesse est risi<lb ed="#B" break="no"/>bilia 
+              delectabilia esse et ho<lb ed="#B" break="no"/>mines 
+              et verba et opera</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e297"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e310">libro 
+              <lb ed="#B"/>2 capitulo 4</ref> <quote xml:id="bHY6yh-d82559-Qd1e299">Causa delectationis con<lb ed="#B" break="no"/>tumeliantibus 
+              est quia putant 
+              <lb ed="#B"/>quod ipsi male agentes exce<lb ed="#B" break="no"/>dant 
+              <pb ed="#B" n="143-v"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/>magis: propter quod et Iuuenes
+              <lb ed="#B"/>et diuites contumeliosi sunt ex<lb ed="#B" break="no"/>cedere 
+              enim putant contumelias in<lb ed="#B" break="no"/>ferentes</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e311"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e326">libro 3 et finali capitulo 3</ref> <quote xml:id="bHY6yh-d82559-Qd1e313">delecta<lb ed="#B" break="no"/>bile 
+              est quod mirabile est</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e319"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e336">capitulo 
+              <lb ed="#B"/>9</ref> <quote xml:id="bHY6yh-d82559-Qd1e321">Indelectabile est et noci<lb ed="#B" break="no"/>bile 
+              quod infinitum est</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e327"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e346">11 capitulo</ref> <quote xml:id="bHY6yh-d82559-Qd1e329">ad<lb ed="#B" break="no"/>discere 
+              quod facile delectabile 
+              <lb ed="#B"/>naturam omnibus est</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e335">
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e358">Idem ethycorum libro 
+              <lb ed="#B"/>I capitulo 4</ref> <quote xml:id="bHY6yh-d82559-Qd1e339">delectari quidem animalium 
+              <lb ed="#B"/>¶ Multis quidem delectabilia ad<lb ed="#B" break="no"/>uersantur 
+              ad inuicem quia non a<lb ed="#B" break="no"/>nimalia 
+              sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e347"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e370">libro 2 capitulo 2</ref> <quote xml:id="bHY6yh-d82559-Qd1e349">Bonum 
+              <lb ed="#B"/>et conferens delectabile videtur</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e356"> 
+              <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d82559-Rd1e381">libro 3 capitulo 8</ref> <quote xml:id="bHY6yh-d82559-Qd1e358">difficilius est tristi<lb ed="#B" break="no"/>tiam 
+              substinere quam a delectabilibus 
+              <lb ed="#B"/>obstinere</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e366"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e394">libro 7 capitulo 13</ref> <quote xml:id="bHY6yh-d82559-Qd1e368">Non contin<lb ed="#B" break="no"/>git 
+              esse optimum delectatione 
+              <lb ed="#B"/>¶ omnis delectatio generatio est in 
+              <lb ed="#B"/>naturam sensibilis ¶ non optimum est 
+              <lb ed="#B"/>delectatio. quia non finis sed ge<lb ed="#B" break="no"/>neratio 
+              est</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e378">
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e410">14 capitulo</ref> <quote xml:id="bHY6yh-d82559-Qd1e382">optimum 
+              <lb ed="#B"/>autem nichil prohibet delectationem 
+              <lb ed="#B"/>aliquam esse</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e388"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e420">15 capitulo et finali</ref> <quote xml:id="bHY6yh-d82559-Qd1e390">Expel<lb ed="#B" break="no"/>let 
+              delectatio tristitiam delecta<lb ed="#B" break="no"/>tio 
+              magis est in quiete quam in mo<lb ed="#B" break="no"/>tu 
+              ¶ Transmutatio autem omnium 
+              <lb ed="#B"/>dulcissimum secundum poetam propter mali<lb ed="#B" break="no"/>tiam 
+              quamdam / quemadmodum enim 
+              <lb ed="#B"/>homo facile transmutabilis m<lb ed="#B" break="no"/>alus 
+              et in alia que indigent 
+              <lb ed="#B"/>transmutatione</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e404"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e438">libro 8 capitulo 4</ref> <quote xml:id="bHY6yh-d82559-Qd1e406">Natura 
+              <lb ed="#B"/>videtur triste fugere appetere autem 
+              <lb ed="#B"/>delectabile ¶ Sine operatione 
+              <lb ed="#B"/>non fit delectatio ¶ Coauget
+              <lb ed="#B"/>operationem propria delectatio ¶ Magis 
+              <lb ed="#B"/>singula iudicant et cercius 
+              <lb ed="#B"/>exquirunt cum delectatione o<lb ed="#B" break="no"/>perantes 
+              propria delectatio confirmat
+              <lb ed="#B"/>operationes et diuturniores et 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>meliores facit</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e425"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e461">Idem magnorum 
+              <lb ed="#B"/>moralium libro 2 capitulo 28</ref> ¶ <quote xml:id="bHY6yh-d82559-Qd1e427">Non est fe<lb ed="#B" break="no"/>licitas 
+              absque delectatione</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e434">
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e475">40 
+              <lb ed="#B"/>capitulo</ref> <quote xml:id="bHY6yh-d82559-Qd1e438">Est et scientia factiua delecta<lb ed="#B" break="no"/>tionis</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e444"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e485">Idem de animalibus libro 7 capitulo I</ref>
+              <lb ed="#B"/><quote xml:id="bHY6yh-d82559-Qd1e446">persequuntur omnia eam que est secundum 
+              <lb ed="#B"/>naturam delectationem</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e454"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e497">Idem politicorum 
+              <lb ed="#B"/>libro I capitulo 5</ref> <quote xml:id="bHY6yh-d82559-Qd1e456">Non idem vnicuique 
+              <lb ed="#B"/>delectabile est secundum naturam sed al<lb ed="#B" break="no"/>tera 
+              alteris</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e464"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e512">libro 2 capitulo 2</ref> <quote xml:id="bHY6yh-d82559-Qd1e466">Largiri 
+              <lb ed="#B"/>et auxiliari amicis <del>et</del> aut 
+              <lb ed="#B"/>extranegis aut alteris delectabi<lb ed="#B" break="no"/>lissimum 
+              est</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e474">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d82559-Rd1e526">TErentius<!--line jumps down--> in andria capitulo 3</ref> <quote xml:id="bHY6yh-d82559-Qd1e478">In<!--line jumps down-->genium est omnium 
+              <lb ed="#B"/>hominum a labore procliue</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e484">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d82559-Rd1e538"><sic>RVlius</sic> rethoricorum artis ueteris 
+              <lb ed="#B"/>libro 2 capitulo 5</ref> <quote xml:id="bHY6yh-d82559-Qd1e488">Que rara et 
+              <lb ed="#B"/>ardua sunt ea experiendo pul<lb ed="#B" break="no"/>cra 
+              et iocunda hominibus videntur</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e503">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d82559-Rd1e559">OVidius de remedio amo<lb ed="#B" break="no"/>ris 
+              libro 2</ref> ¶ <quote xml:id="bHY6yh-d82559-Qd1e507">Rura quoque ob<lb ed="#B" break="no"/>lectant 
+              animos studiumque collen<lb ed="#B" break="no"/>di</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e513">
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e571">Idem de ponto libro 2 epistola 7</ref> ¶ <quote xml:id="bHY6yh-d82559-Qd1e517">Tem<lb ed="#B" break="no"/>pus 
+              in agrorum cultum consumere 
+              <lb ed="#B"/>dulce est</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e523">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d82559-Rd1e583">SEneca<!--line jumps up--> epistolarum ad lucillum<!--line jumps down--> libro 7 epistola 3</ref> <quote xml:id="bHY6yh-d82559-Qd1e527">Esseminat 
+              <lb ed="#B"/>animos amenitas nimia ¶ </quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e533">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d82559-Rd1e595">Idem de transquillitate animi</ref> <quote xml:id="bHY6yh-d82559-Qd1e537">Aliquando 
+              <lb ed="#B"/>insanire iocundum est</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e543">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d82559-Rd1e607">BOetius de consolatione<!--line jumps up--> libro 3<!--line jumps down--> capitulo 2</ref> <quote xml:id="bHY6yh-d82559-Qd1e547">In 
+              <lb ed="#B"/>minimis quoque rebus id 
+              <lb ed="#B"/>appetitur quod habere fruique delec<lb ed="#B" break="no"/>tet 
+              / Eaque de causa diuitias digni<lb ed="#B" break="no"/>tates 
+              regna gloriam volup<lb ed="#B" break="no"/>tates 
+              <lb ed="#B"/>quam desiderant homines 
+              <lb ed="#B"/>quod per hec sibi sufficiam reue<lb ed="#B" break="no"/>rentiamque 
+              potentiam celebrita<lb ed="#B" break="no"/>tem 
+              letitiam credunt esse ven<lb ed="#B" break="no"/>tura</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e564">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d82559-Rd1e630">CAssi<!--line jumps up-->odorus epistolarum libro 2<!--line jumps down--> epistola 39</ref> <quote xml:id="bHY6yh-d82559-Qd1e568">Iuuat videre 
+              <pb ed="#B" n="144-r"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/>secretum</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e575"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e641">libro 3 epistola 52</ref> <quote xml:id="bHY6yh-d82559-Qd1e577">paucos ratio ca<lb ed="#B" break="no"/>pit 
+              aut probabilis oblectat 
+              <lb ed="#B"/>intentio. ad illud potius tur<lb ed="#B" break="no"/>ba 
+              quod ad remissionem cura<lb ed="#B" break="no"/>rum 
+              constat inuentum. Expedit 
+              <lb ed="#B"/>interdum decipere</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e589"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e657">libro 8 epistola 19</ref> <quote xml:id="bHY6yh-d82559-Qd1e591">Na<lb ed="#B" break="no"/>ture 
+              siquidem insitum est ut 
+              <lb ed="#B"/>bonorum copia plus delectet ¶ </quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e599"> 
+              <lb ed="#B"/><ref xml:id="bHY6yh-d82559-Rd1e669">20 epistola</ref> <quote xml:id="bHY6yh-d82559-Qd1e601">Bonum insolitum plus a<lb ed="#B" break="no"/>matur. 
+              sequenti gaudio confert 
+              <lb ed="#B"/>dulcedinem temporum premissa tris<lb ed="#B" break="no"/>titia</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e609"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e681">libro 9 epistola 24</ref> <quote xml:id="bHY6yh-d82559-Qd1e611">dulciter 
+              <lb ed="#B"/>accipitur quod sub aliqua di<lb ed="#B" break="no"/>latione 
+              prestatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e619"> 
+              ¶ <ref xml:id="bHY6yh-d82559-Rd1e694">libro 10 epistola 33</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d82559-Qd1e621">dulcior solet esse gratia post 
+              <lb ed="#B"/>amaritudines expiatas</quote>
+            </p>
+            <p xml:id="bHY6yh-d82559-d1e627">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d82559-Rd1e706">UErsificator esopi fabularum 22 
+              <lb ed="#B"/>fabula</ref> <quote xml:id="bHY6yh-d82559-Qd1e631">Fitque mali gustu dul<lb ed="#B" break="no"/>cius 
+              omne bonum</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
