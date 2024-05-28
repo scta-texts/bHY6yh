@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 3 et 4</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 3 et 4</title>
+               <date when="2024-05-28">May 28, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-05-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="151-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d87868"><!-- p4l5-r3-4 -->
+            <head xml:id="bHY6yh-d87868-Hd1e108">Rubrica 3 et 4</head>
+            <head xml:id="bHY6yh-d87868-Hd1e111" type="question-title">De modis eliciendi alterius voluntatem ad se amandum venero amore; De his que parant hominem libidini veneree</head>
+            <p xml:id="bHY6yh-d87868-d1e114"> 
+              <lb ed="#B"/>De modis aliciendi alterius 
+              <lb ed="#B"/>voluntatem ad se amandum<!--line jumps down--> uenereo amore<!--line jumps down--> Rubrica 3
+            </p>
+            <p xml:id="bHY6yh-d87264-d1e125">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87264-Rd1e118">OVidius sine 
+              <lb ed="#B"/>titulo seu amorum libro I 
+              <lb ed="#B"/>capitulo 5</ref> <quote xml:id="bHY6yh-d87264-Qd1e129">Quid facies hosti que sic 
+              <lb ed="#B"/>excludis amantem</quote>
+            </p>
+            <p xml:id="bHY6yh-d87264-d1e137">
+              ¶ <ref xml:id="bHY6yh-d87264-Rd1e135">capitulo 8</ref> <quote xml:id="bHY6yh-d87264-Qd1e141">Casta est 
+              <lb ed="#B"/>quam nemo rogauit ¶ At si 
+              <lb ed="#B"/>rustititas non uetat ipsa rogat
+              <lb ed="#B"/>¶ Et soror et mater nutrixque 
+              <lb ed="#B"/>carpit amantem ¶ Fit cito per mul<lb ed="#B" break="no"/>tas 
+              preda recita manus ¶ Lingua 
+              <lb ed="#B"/>uiuet mentemque tegas blandi<lb ed="#B" break="no"/>reque 
+              uoce</quote>
+            </p>
+            <p xml:id="bHY6yh-d87264-d1e156">
+              ¶ <ref xml:id="bHY6yh-d87264-Rd1e156">9 capitulo</ref> <quote xml:id="bHY6yh-d87264-Qd1e160">Mars dubius 
+              <lb ed="#B"/>nec certa uenus uictique resur<lb ed="#B" break="no"/>gunt
+              ¶ quosque neges unquam posse 
+              <lb ed="#B"/>iacere cadunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d87264-d1e168">
+              ¶ <ref xml:id="bHY6yh-d87264-Rd1e170">Idem de arte aman<lb ed="#B" break="no"/>di 
+              libro I</ref> <quote xml:id="bHY6yh-d87264-Qd1e172">proximus ad dominam nul<lb ed="#B" break="no"/>lo 
+              prohibente sedeto ¶ Iunge tu<lb ed="#B" break="no"/>um 
+              lateri quam potes usque latus 
+              <lb ed="#B"/>Et bene quod cogit si nolis li<lb ed="#B" break="no"/>nea 
+              iungi ¶ Qua tibi tangenda 
+              <lb ed="#B"/>est lege puella loci ¶ Hic tibi 
+              <lb ed="#B"/>queratur socii sermonis publica 
+              <lb ed="#B"/>verba sonos ¶ vtque fit in gre<lb ed="#B" break="no"/>mium 
+              puluis si forte puelle
+              <lb ed="#B"/>¶ deciderit digitis excutiendus 
+              <lb ed="#B"/>erit ¶ Si nullus erit puluis 
+              <lb ed="#B"/>tamen excute nullum ¶ Quelibet of<lb ed="#B" break="no"/>ficio 
+              causa sit apta tuo ¶ palia si 
+              <lb ed="#B"/>terre nimium demissa iacebunt
+              <lb ed="#B"/>¶ Collige et immunda sedulus 
+              <lb ed="#B"/>offer humo ¶ Parua leue ca<lb ed="#B" break="no"/>piunt 
+              animos. prima tue menti 
+              <lb ed="#B"/>veniat fiducia cunctas ¶ posse 
+              <lb ed="#B"/>capi capies tu modo tende pla<lb ed="#B" break="no"/>gas
+              / femina que iuueni blan<lb ed="#B" break="no"/>de 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>temptata repugnet ¶ Hec 
+              <lb ed="#B"/>quoque quam poteris credere nolle 
+              <lb ed="#B"/>uolet ¶ Conueniat maribus 
+              <lb ed="#B"/>ne quam nos ante rogemus
+              <lb ed="#B"/>¶ Femina, iam partes uicta rogan<lb ed="#B" break="no"/>tis 
+              aget ¶ Ergo age nec du<lb ed="#B" break="no"/>bita 
+              cunctas superare puellas
+              <lb ed="#B"/>¶ vix erit e mille que neget 
+              <lb ed="#B"/>vna tibi ¶ Que dant queque 
+              <lb ed="#B"/>negant gaudent tamen rogate
+              <lb ed="#B"/>¶ vt iam fallaris tuta repulsa 
+              <lb ed="#B"/>tua est ¶ Sed prius ancillam 
+              <lb ed="#B"/>captare nosce puelle<del>am</del> ¶ Cura 
+              <lb ed="#B"/>sit accessus molliet illa tuos
+              <lb ed="#B"/>¶ proxima consiliis domine sit ut 
+              <lb ed="#B"/>illa videto ¶ Ne parum tacitis con<lb ed="#B" break="no"/>scia 
+              fide iocis ¶ Hanc tu polli<lb ed="#B" break="no"/>tis 
+              hanc tu corrumpe precando ¶ 
+              <lb ed="#B"/>Quod petis ex facili si uolet 
+              <lb ed="#B"/>illa feres ¶ Illa leget tempus 
+              <lb ed="#B"/>medicus quoque tempora serua<del>o</del>t
+              <lb ed="#B"/>¶ Quo facilis domine mens sit 
+              <lb ed="#B"/>et apta capi ¶ Mens erit ap<lb ed="#B" break="no"/>ta 
+              capi tunc cum lecissima rerum 
+              <lb ed="#B"/>¶ vt seges impingui luxuria<lb ed="#B" break="no"/>bit 
+              humo ¶ Pectora cum gau<lb ed="#B" break="no"/>dent 
+              nec sunt attrita dolore
+              <lb ed="#B"/>¶ Ipsa patent blanda tunc sub<lb ed="#B" break="no"/>it 
+              arte venus ¶ promittas fa<lb ed="#B" break="no"/>cito 
+              quid enim promittere ledit
+              <lb ed="#B"/>¶ Pollicitis diues quilibet esse 
+              <lb ed="#B"/>potest ¶ Atque non dederis semper 
+              <lb ed="#B"/>videare facturus ¶ Sic dominum 
+              <lb ed="#B"/>sterilis sepe fefellit ager ¶ 
+              <lb ed="#B"/>Sic cum perdiderit non cessat 
+              <lb ed="#B"/>perdere lusor ¶ Et reuocat cupi<lb ed="#B" break="no"/>das 
+              alea sepe manus ¶ Hoc 
+              <lb ed="#B"/>opus hic labor est primo sine 
+              <lb ed="#B"/>munem iungi ¶ Se dederit gra<lb ed="#B" break="no"/>tis 
+              que dedit usque dabit
+              <pb ed="#B" n="152-r"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/>¶ Effugiant uoces. verba mo<lb ed="#B" break="no"/>lesta 
+              tue ¶ Quis nisi mentis 
+              <lb ed="#B"/>inops tenere declamat amice 
+              <lb ed="#B"/>Sit tibi credibilis sermo con<lb ed="#B" break="no"/>suetaque 
+              verba ¶ Blande tamen pre<lb ed="#B" break="no"/>sens 
+              ut uideare loqui ¶ Semper 
+              <lb ed="#B"/>difficiles veniunt ad aratra 
+              <lb ed="#B"/>inuuenci ¶ Tempore lenta pati 
+              <lb ed="#B"/>frena docentur equi ¶ ferreus 
+              <lb ed="#B"/>assiduo consumitur annulus v<lb ed="#B" break="no"/>su
+              ¶ Interit assiduo uomer ad<lb ed="#B" break="no"/>huncus 
+              homo ¶ Quid magis 
+              <lb ed="#B"/>est dux saxo. quid mollues 
+              <lb ed="#B"/>vnda ¶ dura tamen molli saxa 
+              <lb ed="#B"/>cauantur aqua ¶ penolopem 
+              <lb ed="#B"/>ipsam persta modo tempore vinces
+              <lb ed="#B"/>¶ Quod roget illa timet quod non 
+              <lb ed="#B"/>rogat optat ut instes ¶ Inse<lb ed="#B" break="no"/>quere 
+              et uoti postmodum com<lb ed="#B" break="no"/>pos 
+              eris ¶ Mundicie placeant
+              <lb ed="#B"/>careant rubigine dentes ¶ 
+              <lb ed="#B"/>Nec uagus in laxa pes tibi 
+              <lb ed="#B"/>pelle natet ¶ Nec male defor<lb ed="#B" break="no"/>met 
+              rigidos tonsura capil<lb ed="#B" break="no"/>los
+              ¶ Sit coma sit ducta bar<lb ed="#B" break="no"/>ba 
+              resecta manu ¶ vt nil 
+              <lb ed="#B"/>emineat et sint sine sordibus 
+              <lb ed="#B"/>ungues ¶ Inque caua nullus stet 
+              <lb ed="#B"/>tibi nare pilus ¶ Si uox est 
+              <lb ed="#B"/>causata si mollia brachia salta
+              <lb ed="#B"/>¶ Et quacumque potes arte pla<lb ed="#B" break="no"/>ce<del>de</del>re 
+              stude ¶ Audacem sosque 
+              <lb ed="#B"/>venusque iuuant ¶ fac tantum cupi<lb ed="#B" break="no"/>as 
+              sponte desertus eris ¶ Sepe 
+              <lb ed="#B"/>tamen vere cepit simulator ama<lb ed="#B" break="no"/>re
+              ¶ Sepe quod incipiens sinx<lb ed="#B" break="no"/>erat 
+              esse fuit ¶ Blanditiis a<lb ed="#B" break="no"/>nimum 
+              furtim defendere mens 
+              <lb ed="#B"/>sit ¶ vt pendens siquidem ripa 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>subibit aqua ¶ Nec faciem nec 
+              <lb ed="#B"/>te pigeat lauare capillos
+              <lb ed="#B"/>¶ Et teretes digitos exiguum<lb ed="#B" break="no"/>que 
+              pedem ¶ Delectant etiam castas 
+              <lb ed="#B"/>preconia forme ¶ virginibus 
+              <lb ed="#B"/>cure grataque forma sua est
+              <lb ed="#B"/>¶ Nec timide promitte trahunt 
+              <lb ed="#B"/>promissa puellas ¶ Oscula qui 
+              <lb ed="#B"/>sumpsit si non et cetera sumpsit
+              <lb ed="#B"/>¶ Hec quoque que data sunt per<lb ed="#B" break="no"/>dere 
+              dignus erit ¶ vim licet ap<lb ed="#B" break="no"/>pelles 
+              grata est uis illa pu<lb ed="#B" break="no"/>ellis
+              ¶ Quod iuuat inuite se<lb ed="#B" break="no"/>pe 
+              dedisse uolunt ¶ Quecumque 
+              <lb ed="#B"/>est veneris subito uiolata <del>ca</del> 
+              rapina ¶ Gaudet et improbitas 
+              <lb ed="#B"/>instar amoris habet ¶ Atque 
+              <lb ed="#B"/>cum possit cogi non tacta recessit 
+              <lb ed="#B"/>¶ vt simulet uultu gaudia tris<lb ed="#B" break="no"/>tis 
+              erit ¶ Hac nimia est iuueni 
+              <lb ed="#B"/>proprie fiducia forem ¶ Expectet 
+              <lb ed="#B"/>si quis dum prior illa rogat
+              <lb ed="#B"/>¶ vt potiare roga tantum cupit 
+              <lb ed="#B"/>illa rogari ¶ Da <del>causam</del> causam uoti 
+              <lb ed="#B"/>principiumque tui</quote>
+            </p>
+            <p xml:id="bHY6yh-d87264-d1e377"> 
+              ¶ <ref xml:id="bHY6yh-d87264-Rd1e380">libro 2</ref> <quote xml:id="bHY6yh-d87264-Qd1e379">Dextera pre<lb ed="#B" break="no"/>cipue 
+              capit indulgentia men<lb ed="#B" break="no"/>tes 
+              ¶ dulcibus est verbis mal<lb ed="#B" break="no"/>lis 
+              alendus amor ¶ Blandi<lb ed="#B" break="no"/>tias 
+              molles auremque inuuan<lb ed="#B" break="no"/>tia 
+              verba ¶ Affer / Non ego di<lb ed="#B" break="no"/>uitibus 
+              uenio preceptor aman<lb ed="#B" break="no"/>di 
+              ¶ Nil opus est illi qui dabit 
+              <lb ed="#B"/>arte mea ¶ Si nec blanda 
+              <lb ed="#B"/>satis nec erit tibi comes a<lb ed="#B" break="no"/>manti
+              ¶ Perfer et obdura post<lb ed="#B" break="no"/>modum 
+              mitis erit ¶ Amor o<lb ed="#B" break="no"/>dit 
+              inhertos ¶ Erue fastus 
+              <lb ed="#B"/>¶ Curam mansuri quisquis amo<lb ed="#B" break="no"/>ris 
+              habes ¶ dummodo sit diues 
+              <lb ed="#B"/>barbarus ille placet ¶ Aurea 
+              <pb ed="#B" n="152-v"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/>sunt vere nec secula plurimus 
+              <lb ed="#B"/>auro ¶ Venit honos auro con<lb ed="#B" break="no"/>ciliatur 
+              amor ¶ Ipse licet ve<lb ed="#B" break="no"/>nias 
+              comitatus homere ¶ 
+              <lb ed="#B"/>Si nichil attuleris ibis ho<lb ed="#B" break="no"/>mere 
+              foras ¶ At quod eris parte 
+              <lb ed="#B"/>facturus ut vtile <del>scedis</del> cre<lb ed="#B" break="no"/>dis 
+              ¶ Id tua te facito semper 
+              <lb ed="#B"/>amica roget ¶ libertas ali<lb ed="#B" break="no"/>cui 
+              fuerit promissa tuorum ¶ 
+              <lb ed="#B"/>Hanc tamen ad domina fac petat ille 
+              <lb ed="#B"/>tuam ¶ vtilitas tua sit titulus 
+              <lb ed="#B"/>donetur amice ¶ Perde nichil partes 
+              <lb ed="#B"/>illa potentis agat ¶ dum no<lb ed="#B" break="no"/>uus 
+              errat amor uires sibi 
+              <lb ed="#B"/>colligat ¶ Si bene nutrieris 
+              <lb ed="#B"/>tempore firmus erit ¶ da requiem 
+              <lb ed="#B"/>requietus ager bene credita red<lb ed="#B" break="no"/>dit 
+              ¶ Sed mora tuta breuis 
+              <lb ed="#B"/>lentescunt tempore cure ¶ vanescit<lb ed="#B" break="no"/>que 
+              absens et nouus intrat a<lb ed="#B" break="no"/>mor 
+              ¶ Quisquis sapienter ama<lb ed="#B" break="no"/>bit 
+              vincet</quote>
+            </p>
+            <p xml:id="bHY6yh-d87264-d1e445">
+              ¶ <ref xml:id="bHY6yh-d87264-Rd1e452">libro 3</ref> <quote xml:id="bHY6yh-d87264-Qd1e449">Res est blan<lb ed="#B" break="no"/>da 
+              canor discant causatare pu<lb ed="#B" break="no"/>elle 
+              ¶ Pro facie multis uox sua 
+              <lb ed="#B"/>lena fuit ¶ Quis dubicat quin 
+              <lb ed="#B"/>scire velim saltare puellam 
+              <lb ed="#B"/>¶ Mille fac esse iocos. turpe 
+              <lb ed="#B"/>est nescire puellam ¶ ludere lu<lb ed="#B" break="no"/>dendo 
+              sepe paratur amor ¶ 
+              <lb ed="#B"/>Mora semper amantes ¶ Inci<lb ed="#B" break="no"/>tat 
+              exiguum si modo tempus 
+              <lb ed="#B"/>habet ¶ Ha quotiens dubius 
+              <lb ed="#B"/>scriptis exarsit amator ¶ Se<lb ed="#B" break="no"/>pectantem 
+              specta ridenti mol<lb ed="#B" break="no"/>lia 
+              ride ¶ In minet acceptas tu 
+              <lb ed="#B"/>quoque redde notas ¶ Munera 
+              <lb ed="#B"/>det diues ¶ Miscenda est letis 
+              <lb ed="#B"/>rara repulsa iocis ¶ Quod datur 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>exfacili longum male nutrit amo<lb ed="#B" break="no"/>rem 
+              ¶ Munera crede michi capi<lb ed="#B" break="no"/>unt 
+              hominesque deosque ¶ Placatur 
+              <lb ed="#B"/>donis iupiter ipse datis ¶ Quid 
+              <lb ed="#B"/>sapiens faciet stultus quoque 
+              <lb ed="#B"/>munem gaudet</quote>
+            </p>
+            <p xml:id="bHY6yh-d87264-d1e494">
+              ¶ <ref xml:id="bHY6yh-d87264-Rd1e498">Idem de tribus 
+              <lb ed="#B"/>libro 3 epistola 5</ref> ¶ <quote xml:id="bHY6yh-d87264-Qd1e502">occulte siquis ama<lb ed="#B" break="no"/>uit 
+              amet</quote>
+            </p>
+            <p xml:id="bHY6yh-d87264-d1e500">
+              ¶ <ref xml:id="bHY6yh-d87264-Rd1e516">Idem methamorfo<lb ed="#B" break="no"/>sios 
+              libro 9</ref> ¶ <quote xml:id="bHY6yh-d87264-Qd1e504">Tum seruare potes 
+              <lb ed="#B"/>tu perdere solus amates ¶ elige 
+              <lb ed="#B"/>vtrumque facias non hoc inimica 
+              <lb ed="#B"/>precatur ¶ Sed que cum tibi sit 
+              <lb ed="#B"/>iunctissima uinctorem esse ¶ Ex<lb ed="#B" break="no"/>pedit 
+              ut vinculo tecum propriore 
+              <lb ed="#B"/>ligari</quote>
+            </p>
+            <p xml:id="bHY6yh-d87264-d1e516">
+              ¶ <ref xml:id="bHY6yh-d87264-Rd1e535">Idem de medicamine fa<lb ed="#B" break="no"/>ciei</ref>
+              ¶ <quote xml:id="bHY6yh-d87264-Qd1e520">Prima sit in uobis morum tu<lb ed="#B" break="no"/>tela 
+              puelle ¶ Ingenio facile 
+              <lb ed="#B"/>conciliante placent ¶ Certus a<lb ed="#B" break="no"/>mor 
+              morum est</quote>
+            </p>
+            <p xml:id="bHY6yh-d87264-d1e531">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87264-Rd1e551">Qvintilianus<!--line jumps up--> declamationum 14 declamatione</ref><!--line jumps down--> <quote xml:id="bHY6yh-d87264-Qd1e535">diuitiis opus 
+              <lb ed="#B"/>est ne simus in amore minseri 
+              <lb ed="#B"/>et impotentissimi</quote>
+            </p>
+            <p xml:id="bHY6yh-d87264-d1e543">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87264-Rd1e565">SEneca in prouerbiis</ref><!--line jumps up--> <quote xml:id="bHY6yh-d87264-Qd1e547">Blanditia<!--line jumps down--> non imperio 
+              <lb ed="#B"/>fit dulcis venus</quote>
+            </p>
+            <p xml:id="bHY6yh-d87264-d1e553">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87264-Rd1e577">AVctor libelli qui dicitur pam<!--line jumps up-->philus<!--line jumps down--> capitulo 3</ref> <quote xml:id="bHY6yh-d87264-Qd1e557">Gau<lb ed="#B" break="no"/>dia 
+              semper amat et lud<del>r</del>i<lb ed="#B" break="no"/>cra 
+              verba inuuentus ¶ Et iu<lb ed="#B" break="no"/>uenum 
+              mentes hoc in amore tra<lb ed="#B" break="no"/>hunt
+              ¶ Si locus est illi iocundis 
+              <lb ed="#B"/>viribus iusta ¶ Quod vix sperasti 
+              <lb ed="#B"/>iam dabit ipsa tibi ¶ Non sinit 
+              <lb ed="#B"/>interdum pudor illi promere uocum 
+              <lb ed="#B"/>¶ Sed quod habere cupit hoc ma<lb ed="#B" break="no"/>gis 
+              ipsa uetat ¶ pulcrius esse 
+              <lb ed="#B"/>putat imperdere virginitatem 
+              <lb ed="#B"/>¶ Quam dicat deme fac modo 
+              <lb ed="#B"/>uelle tuum ¶ Et famulos fa<lb ed="#B" break="no"/>mulasque 
+              domus sibi ipse loquites
+              <pb ed="#B" n="153-r"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/>/ Allice colloquiis muneribus<lb ed="#B" break="no"/>que 
+              tuis ¶ vt semper referant 
+              <lb ed="#B"/>dete bona verba uicissim
+              <lb ed="#B"/>¶ Et pascant dominam laudibus us<lb ed="#B" break="no"/>quam 
+              tuis ¶ dum dubias dubio men<lb ed="#B" break="no"/>tes 
+              in corpore uersat ¶ An fa<lb ed="#B" break="no"/>ciat 
+              an non nesciat uelle 
+              <lb ed="#B"/>tuum ¶ Tunc illam multo tempta<lb ed="#B" break="no"/>mine 
+              sepe fatiga ¶ vt citius 
+              <lb ed="#B"/>possit uictor amore frui ¶ 
+              <lb ed="#B"/>pellitur hunc animus hominum depel<lb ed="#B" break="no"/>litur 
+              illuc ¶ Sepe labore bre<lb ed="#B" break="no"/>ui 
+              dum manet in dubio ¶ et pla<lb ed="#B" break="no"/>ceat 
+              uobis interpres semper 
+              <lb ed="#B"/>vtrisque
+              ¶ Qui caute referat 
+              <lb ed="#B"/>hoc quod vterque cupit ¶ Emula 
+              <lb ed="#B"/>nam iuuenum diiudicat acta se<lb ed="#B" break="no"/>nectus 
+              ¶ Et simul hos prohiber 
+              <lb ed="#B"/>litigiosa loqui ¶ Incipe sepe 
+              <lb ed="#B"/>melius dedit et dabit omnia tem<lb ed="#B" break="no"/>pus 
+              ¶ Non tibi plus dicam uices 
+              <lb ed="#B"/>studiosus amicam ¶ Inceptumque 
+              <lb ed="#B"/>viis mille patebit opus ¶ </quote>
+            </p>
+            <p xml:id="bHY6yh-d87264-d1e615">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87264-Rd1e641">capitulo 13</ref> <quote xml:id="bHY6yh-d87264-Qd1e619">vsu crescit amor omnis de<lb ed="#B" break="no"/>crescit 
+              et vsus ¶ Omnis et in pas<lb ed="#B" break="no"/>tus 
+              attenuatur amor etcetera</quote>
+            </p>
+            <p xml:id="bHY6yh-d87264-d1e627">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87264-Rd1e655">Avctor libelli qui dicitur facetus 
+              <lb ed="#B"/>capitulo 5</ref> <quote xml:id="bHY6yh-d87264-Qd1e631">hanc firmis oculis 
+              <lb ed="#B"/>ridentibus intueatur ¶ vt <del>quam</del> quia 
+              <lb ed="#B"/>diligitur dulcis amica sciat 
+              <lb ed="#B"/>¶ Nuncia queratur sub qua con<lb ed="#B" break="no"/>fidat 
+              uterque ¶ Que narret cau<lb ed="#B" break="no"/>te 
+              quicquid vtrique placet ¶ Mu<lb ed="#B" break="no"/>neret 
+              hanc inuuenis quo sit 
+              <lb ed="#B"/>super hoc studiosa ¶ Et plus<lb ed="#B" break="no"/>quam 
+              tribuat polliceatur ei ¶ for<lb ed="#B" break="no"/>sitam 
+              in primis dabit aspera ver<lb ed="#B" break="no"/>ba 
+              puella ¶ Sed cito que prius 
+              <lb ed="#B"/>est aspera mollis erit ¶ femina 
+              <lb ed="#B"/>quod prohibet cupit et multe se<lb ed="#B" break="no"/>pe 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>rogari ¶ In probitas vincit 
+              <lb ed="#B"/>pectora frangit amor ¶ Non 
+              <lb ed="#B"/>adeo mentem frigidam tenet ul<lb ed="#B" break="no"/>la 
+              puella ¶ vt si tangatur ri<lb ed="#B" break="no"/>sus 
+              in ore uacet ¶ dulcius ex<lb ed="#B" break="no"/>orans 
+              oscula grata petat ¶ 
+              <lb ed="#B"/>Spondeat et iuret quod nil pe<lb ed="#B" break="no"/>tat 
+              amplius ipse ¶ Nam bene 
+              <lb ed="#B"/>sufficiunt talia dona peti ¶ Si 
+              <lb ed="#B"/>neget illa quidem dare talia 
+              <lb ed="#B"/>forte minando ¶ Hec eadem omnino 
+              <lb ed="#B"/>mitius ipse petat ¶ Expectat 
+              <lb ed="#B"/>potius luctando femina vinci 
+              <lb ed="#B"/>¶ Quam uelit ut meretrix cri<lb ed="#B" break="no"/>mina 
+              sponte pati ¶ Qui que<lb ed="#B" break="no"/>rit 
+              coitum vel uim post oscu<lb ed="#B" break="no"/>la 
+              differt ¶ Rusticus est nun<lb ed="#B" break="no"/>quam 
+              dignus amore magis</quote>
+            </p>
+            <p xml:id="bHY6yh-d87264-d1e684">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87264-Rd1e715">HEnricus samariensis libro I parte 
+              <lb ed="#B"/>2</ref> ¶ <quote xml:id="bHY6yh-d87264-Qd1e688">Si foret ut quondam 
+              <lb ed="#B"/>lucrecia casta crumena ¶ Cum 
+              <lb ed="#B"/>sibi porrigitur cedet auara<!--line jumps down--> tibi</quote>
+            </p>
+            <p xml:id="bHY6yh-d87264-d1e697">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87264-Rd1e729">IAcobus beneuentanus 
+              <lb ed="#B"/>capitulo 50</ref> <quote xml:id="bHY6yh-d87264-Qd1e701">visus et auditus nec<lb ed="#B" break="no"/>non \
+              et tactus amoris ¶ Hoc au<lb ed="#B" break="no"/>ditum 
+              seui semper habere solet</quote>
+            </p>
+            <p>
+              de 
+              <lb ed="#B"/>hiis que parant hominem libidi<!--line jumps down-->ni venere Rubrica 4
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e125">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87868-Rd1e122">SAlomon in pro<lb ed="#B" break="no"/>uerbiis 
+              capitulo 20</ref> <quote xml:id="bHY6yh-d87868-Qd1e131">luxuriosa res 
+              <lb ed="#B"/>vinum</quote> 
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e137">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87868-Rd1e137">Aristo<!--line jumps up-->tiles probleumatum parte<!--line jumps down--> 4 probleumate 5</ref> ¶ <quote xml:id="bHY6yh-d87868-Qd1e143">Corpus 
+              <lb ed="#B"/>quod debet coire oportet intrinse<lb ed="#B" break="no"/>cus 
+              calidum<del>s</del> esse et humidum. dis<lb ed="#B" break="no"/>calciatio 
+              desiccat et frigidat 
+              <lb ed="#B"/>quare siue impossibile est non 
+              <lb ed="#B"/>calidis existentibus pedibus 
+              <lb ed="#B"/>spermaticare siue difficile necesse 
+              <lb ed="#B"/>est non conferens esse ad vsum 
+              <lb ed="#B"/>venerum discalciationem</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e161"> 
+              ¶ <ref xml:id="bHY6yh-d87868-Rd1e162">9 probleum</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d87868-Qd1e163">Non possumus plena existente 
+              <lb ed="#B"/>visica cito coire</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e169"> 
+              ¶ <ref xml:id="bHY6yh-d87868-Rd1e172">11 probleum</ref> <quote xml:id="bHY6yh-d87868-Qd1e171">E<lb ed="#B" break="no"/>quitante 
+              continue luxuriosi magis<!--line jumps down--> fiunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e177"> 
+              <pb ed="#B" n="153-v"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d87868-Rd1e182">26 probleum</ref> <quote xml:id="bHY6yh-d87868-Qd1e179">desiderium coitus et 
+              <lb ed="#B"/>acibis et ab intellectu fit</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e193">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87868-Rd1e203">IEsus filius syrach in ecclesiastico capitulo 9</ref><!--line jumps up--> <quote xml:id="bHY6yh-d87868-Qd1e197">Ex<!--line jumps down--> circum<lb ed="#B" break="no"/>spectione 
+              mulieris concupis<lb ed="#B" break="no"/>centia 
+              quasi exardescit ¶ Speciem 
+              <lb ed="#B"/>mulieris aliene multi admi<lb ed="#B" break="no"/>rati 
+              reprobi facti sunt colloqui<lb ed="#B" break="no"/>um 
+              enim illius quasi ignis exardes<lb ed="#B" break="no"/>cit 
+              etcetera</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e209">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87868-Rd1e221">TEren<!--line jumps up-->tius in <del>enuco</del> eunuco<!--line jumps down--> capitulo 16</ref> ¶ <quote xml:id="bHY6yh-d87868-Qd1e213">Sine cerere et
+              <lb ed="#B"/>libero frigescit venus</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e219">
+              ¶ <ref xml:id="bHY6yh-d87868-Rd1e233">OVidius epistolarum 4 epistola</ref> <quote xml:id="bHY6yh-d87868-Qd1e223">venit a<lb ed="#B" break="no"/>mor 
+              grauis quo seruis 
+              <lb ed="#B"/>urimur intus</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e230">
+              ¶ <ref xml:id="bHY6yh-d87868-Rd1e246">Idem de arte a<lb ed="#B" break="no"/>mandi 
+              libro I</ref> ¶ <quote xml:id="bHY6yh-d87868-Qd1e234">Pectora cum gau<lb ed="#B" break="no"/>dent 
+              nec sunt attrita dolore 
+              <lb ed="#B"/>¶ Ipsa patent. blanda tunc subit 
+              <lb ed="#B"/>arte venus</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e242">
+              ¶ <ref xml:id="bHY6yh-d87868-Rd1e260">libro 2</ref> <quote xml:id="bHY6yh-d87868-Qd1e246">cogis adul<lb ed="#B" break="no"/>terium 
+              dando tempusque locum</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e252">
+              <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d87868-Rd1e272">Idem de remedio amoris libro I</ref> <quote xml:id="bHY6yh-d87868-Qd1e256">Que<lb ed="#B" break="no"/>ritur 
+              egistus quare sit factus 
+              <lb ed="#B"/>adulter ¶ Inpromptu causa est 
+              <lb ed="#B"/>desidiosus erat</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e264">
+              ¶ <ref xml:id="bHY6yh-d87868-Rd1e286">libro 3 et finali</ref> ¶ <quote xml:id="bHY6yh-d87868-Qd1e268">Non 
+              <lb ed="#B"/>facile est taurum uisa retinere 
+              <lb ed="#B"/>inuuenca ¶ Fortis equus vise semper 
+              <lb ed="#B"/>adignit eque ¶ diuitiis alitur 
+              <lb ed="#B"/>luxuriosus amor ¶ vina pa<lb ed="#B" break="no"/>rant 
+              animum veneri nisi pluri<lb ed="#B" break="no"/>ma 
+              summas ¶ Et stupeant mul<lb ed="#B" break="no"/>to 
+              corda sepulta mero etcetera</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e282">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87868-Rd1e306">QVintilianus declamationum I declamatione</ref> <quote xml:id="bHY6yh-d87868-Qd1e286">Ocu<lb ed="#B" break="no"/>li 
+              sunt tota nostra luxuria 
+              <lb ed="#B"/>hii nos cottidie in omnia precipi<lb ed="#B" break="no"/>tant 
+              vicia miratur adamant 
+              <lb ed="#B"/>concupiscunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e296">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87868-Rd1e322">MAtheus<!--line jumps up--> in ewangelio capitulo 5</ref> <quote xml:id="bHY6yh-d87868-Qd1e300">Omnis<!--line jumps down--> qui viderit mu<lb ed="#B" break="no"/>lierem 
+              ad concupiscendum eam 
+              <lb ed="#B"/>iam mechatus est in corde suo</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e309">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87868-Rd1e337">PAulus apostolus in epistola ad ephe<lb ed="#B" break="no"/>sios 
+              capitulo 4</ref> <quote xml:id="bHY6yh-d87868-Qd1e313">Nolite inebriari 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>vino inquo est luxuria</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e319">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87868-Rd1e349">SEneca tragediarum in<!--line jumps up--> octa<!--line jumps down-->uia capitulo 
+              <lb ed="#B"/>10</ref> ¶ <quote xml:id="bHY6yh-d87868-Qd1e323">vis magna mentis blan<lb ed="#B" break="no"/>dus 
+              animi calor. Amor est uiuen<lb ed="#B" break="no"/>ta 
+              gignitur luxu occio</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e333">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87868-Rd1e365">CEcilius firmianus de<!--line jumps up--> beata<!--line jumps down--> vita 
+              <lb ed="#B"/>libro 4</ref> ¶ <quote xml:id="bHY6yh-d87868-Qd1e337">libido aspectu maxime 
+              <lb ed="#B"/>concitatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e343">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87868-Rd1e377">FVlgentius<!--line jumps up--> libro 2 fabula 7</ref> <quote xml:id="bHY6yh-d87868-Qd1e347">libido<!--line jumps down--> <del>quarto</del> quanto
+              <lb ed="#B"/>carni consenserit tanto sur<lb ed="#B" break="no"/>git 
+              iniquior</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e353">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87868-Rd1e389">GRegorius<!--line jumps up--> in pastorali capitulo 28</ref><!--line jumps down--> <quote xml:id="bHY6yh-d87868-Qd1e357">Habent leti ex pro<lb ed="#B" break="no"/>pinquo 
+              luxuriam</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e363">
+              ¶ <ref xml:id="bHY6yh-d87868-Rd1e399">44 capitulo</ref> <quote xml:id="bHY6yh-d87868-Qd1e365">dum 
+              <lb ed="#B"/>sacietate venter extenditur 
+              <lb ed="#B"/>aculei libidinis excitantur Gu<lb ed="#B" break="no"/>le 
+              <lb ed="#B"/>dedicus luxuriam sequitur 
+              <lb ed="#B"/>ad monendi sunt gule dediti. 
+              <lb ed="#B"/>ne in eo quod escarum delectationi 
+              <lb ed="#B"/>incumbant luxurie se mucrone 
+              <lb ed="#B"/>transfigant</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e385">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87868-Rd1e425">CAssiodorus<!--line jumps up--> soliloquiorum libro 2<!--line jumps down--> capitulo 7</ref> <quote xml:id="bHY6yh-d87868-Qd1e389">ciborum saturi<lb ed="#B" break="no"/>tas 
+              luxuriam excitat. ali susci<lb ed="#B" break="no"/>tat 
+              Saturitati libido semper 
+              <lb ed="#B"/>adiuncta est</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e397">
+              ¶ <ref xml:id="bHY6yh-d87868-Rd1e439">capitulo 8</ref> <quote xml:id="bHY6yh-d87868-Qd1e401">vino luxu<lb ed="#B" break="no"/>ria 
+              excitatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e405">
+              ¶ <ref xml:id="bHY6yh-d87868-Rd1e449">9 capitulo</ref> <quote xml:id="bHY6yh-d87868-Qd1e409">oculi prima 
+              <lb ed="#B"/>tela libidinis sunt. visio est prima 
+              <lb ed="#B"/>concupiscentia mulieris ¶ Aspectus 
+              <lb ed="#B"/>amoris iacula mittit ¶ Concupis<lb ed="#B" break="no"/>centia 
+              libidinem nutrit. Ante ig<lb ed="#B" break="no"/>nem 
+              consistens et si ferreus 
+              <lb ed="#B"/>sis aliquando dissolueris ¶ Sepe 
+              <lb ed="#B"/>occasio peccandi voluntatem facit</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e426">
+              <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d87868-Rd1e471">capitulo 10</ref> <quote xml:id="bHY6yh-d87868-Qd1e430">ocio deditos cito luxuria 
+              <lb ed="#B"/>surripit ¶ vacantem luxuria cito 
+              <lb ed="#B"/>preoccupat ¶ Grauius libido <del>v</del> 
+              <lb ed="#B"/>vrit quem ociosum inuenerit</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e440">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87868-Rd1e487">AVctor libelli qui dicitur pamphilus 
+              <lb ed="#B"/>capitulo 13</ref> <quote xml:id="bHY6yh-d87868-Qd1e444">vsu crescit amor omnis</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e450">
+              <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d87868-Rd1e499">capitulo 25</ref> <quote xml:id="bHY6yh-d87868-Qd1e454">Per veneris morem cito vir<lb ed="#B" break="no"/>go 
+              perdit honorem ¶ Igneus 
+              <pb ed="#B" n="154-r"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/>ille furor nescit habere modum
+              <lb ed="#B"/>¶ Non leue pondus habent violen<lb ed="#B" break="no"/>ta 
+              cupidinis arma ¶ Ex requie 
+              <lb ed="#B"/>serpit pestis seuissima luxus
+              <lb ed="#B"/>Armiger et fame prodigus 
+              <lb ed="#B"/>hostis amor</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e469">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87868-Rd1e520">IAcobus bene<!--line jumps up-->uentanus capitulo 50</ref><!--line jumps down--> <quote xml:id="bHY6yh-d87868-Qd1e473">Subuertit men<lb ed="#B" break="no"/>tem 
+              pulcra puella uiri 
+              <lb ed="#B"/>visus et auditus nec non et 
+              <lb ed="#B"/>tactus amoris ¶ Hec auditum 
+              <lb ed="#B"/>seui semper habere solent</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
