@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10</title>
+               <date when="2024-05-19">May 19, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-05-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="137-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d79665"><!-- p4l3-r10 -->
+            <head xml:id="bHY6yh-d79665-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-d79665-Hd1e111" type="question-title">De famulis et domesticis</head>
+            <p xml:id="bHY6yh-d79665-d1e114">
+              <lb ed="#B"/>De famulis et domesticis Rubrica 10
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e119">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d79665-Rd1e116">SAlomon in prouerbiis capitulo 15</ref> <quote xml:id="bHY6yh-d79665-Qd1e125">Contur<lb ed="#B" break="no"/>bat
+              domum suam qui sectatur<!--line jumps down--> auaritiam</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e131">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d79665-Rd1e131">YSocrates in exor<lb ed="#B" break="no"/>tationibus 
+              capitulo 2</ref>  <quote xml:id="bHY6yh-d79665-Qd1e135">esto adherentibus 
+              <lb ed="#B"/>tractabilis non sublimis nam 
+              <lb ed="#B"/>despicientium timorem uix equi<lb ed="#B" break="no"/>dem 
+              tollerabunt serui modum uero 
+              <lb ed="#B"/>tractabilium cuncti ferunt alacri<!--line jumps down-->ter</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e148">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d79665-Rd1e151">IEsus filius syrach in ecclesiastico capitulo 4</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d79665-Qd1e152">Noli esse sicud leo in domo 
+              <lb ed="#B"/>tua euertens domesticos tuos 
+              <lb ed="#B"/>et opprimens subduos tibi</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e160">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d79665-Rd1e165">SEneca epistolarum ad lucillum libro 18 
+              <lb ed="#B"/>epistola 5</ref> <quote xml:id="bHY6yh-d79665-Qd1e164">Timeri tam domi quam fo<lb ed="#B" break="no"/>ris 
+              molestum est tam domi quam fo<lb ed="#B" break="no"/>ris 
+              molestum est tam aseruis quam 
+              <lb ed="#B"/>a liberis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e172"> 
+              ¶ <ref xml:id="bHY6yh-d79665-Rd1e178">Idem de breuitate vite</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d79665-Qd1e174">Eorum miseria est conditio qui nec 
+              <lb ed="#B"/>suis quidem laborant occupationi<lb ed="#B" break="no"/>bus 
+              ad alienum dormiunt come<lb ed="#B" break="no"/>dunt 
+              appetitum</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e186">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d79665-Rd1e197"><sic>Botius</sic> de consola<!--line jumps up-->tione libro 3 capitulo 9</ref> <quote xml:id="bHY6yh-d79665-Qd1e190">Que<!--line jumps down--> pestis est effica<lb ed="#B" break="no"/>cior 
+              ad nocendum quam familiaris 
+              <lb ed="#B"/>inimicus</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e198">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d79665-Rd1e211">BErtrandus<!--line jumps up--> in yconomica capitulo 15</ref> <quote xml:id="bHY6yh-d79665-Qd1e202">fa<!--line jumps down-->mulum alti cordis re<lb ed="#B" break="no"/>pelle 
+              ut futurum inimicum ¶ fa<lb ed="#B" break="no"/>mulum 
+              tuis moribus blandientem 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>repelle ¶ famulum de facili se ue<lb ed="#B" break="no"/>recundantem
+              dilige ut filium</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
