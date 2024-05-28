@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 20</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 20</title>
+               <date when="2024-05-22">May 22, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness> 
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="221-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e00673"><!-- p5l2-r20 -->
+            <head xml:id="bHY6yh-e00673-Hd1e108">Rubrica 20</head>
+            <head xml:id="bHY6yh-e00673-Hd1e111" type="question-title">De audacia timore spe et desperatione et magnanimitate bellatorum</head>
+            <p xml:id="bHY6yh-e00673-d1e114">
+               <lb ed="#P"/>De audacia / et timore / et 
+               <lb ed="#P"/>desperatione / et desperatione / et 
+               <lb ed="#P"/>magnanimitate bellatorum capitulo xx
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e123">
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e120">Salustius in cathilinario</ref> / <quote xml:id="bHY6yh-e00673-Qd1e129">Quanta cuius<lb ed="#P" break="no"/>que 
+               animo audacia natura aut moribus 
+               <lb ed="#P"/>Questa tanta in bello patere solet
+               <lb ed="#P"/>semper in bello his maximum est peri<lb ed="#P" break="no"/>culum 
+               / qui maxime timent audacia 
+               <lb ed="#P"/>promuro habetur necessitudo etiam timi<lb ed="#P" break="no"/>dos
+               fortes facit.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e146">
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e145">Uirgilius eneidos in libro ii in medio</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-e00673-Qd1e150">Una salus victis nullam sperare salutem.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e154">
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e158">Seneca de naturalibus questionibus libro iii</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-e00673-Qd1e162">Nullus pernitiosior hostis est quam quem 
+               <lb ed="#P"/>audacem angustie faciunt longe vio<lb ed="#P" break="no"/>lentius
+               semper ex necessitate quam ex 
+               <lb ed="#P"/>virtute / confligitur aut certe paria 
+               <lb ed="#P"/>pugnatur animus magnus et perditus.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e170">
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e178">Frontinus libro iiii titulo</ref> <quote xml:id="bHY6yh-e00673-Qd1e174">Catulus 
+               <lb ed="#P"/>lelius marcellus cum in manus gallorum 
+               <lb ed="#P"/>imprudens incidisset circunspiciende 
+               <pb ed="#P" n="221-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P"/>Regionis qua euaderet eam equum flectit
+               <lb ed="#P"/>deinde cum omnia esse infesta vidisset de<lb ed="#P" break="no"/>precatus 
+               deos in medios hostes rupit 
+               <lb ed="#P"/>Quibus inopinata audacia percussis 
+               <lb ed="#P"/>ducem quoque eorum trucidauit atque ubi 
+               <lb ed="#P"/>spes salutis ut superfuerat inde optima 
+               <lb ed="#P"/>retulit spolia.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e195">
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e205">Ualerius maximus libro iii titulo de fidu<lb ed="#P" break="no"/>cia 
+               sui</ref> <quote xml:id="bHY6yh-e00673-Qd1e199">Scipio emilianus auiti spiritus 
+               <lb ed="#P"/>egregius successor cum vrbem preuali<lb ed="#P" break="no"/>dam 
+               obsideret suadentibus quibusdam vt 
+               <lb ed="#P"/>circha menia eius ferreos murices 
+               <lb ed="#P"/>spargeret omniaquem vada plumbatis tabulis 
+               <lb ed="#P"/>habentibus clauorum cacumina consterne<lb ed="#P" break="no"/>ret 
+               / ne subita eruptione hostes in pre<lb ed="#P" break="no"/>sidia 
+               nostra impetu facere possent
+               <lb ed="#P"/>respondit non esse eiusdem et capere aliquem 
+               <lb ed="#P"/>velle et timere.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e228">
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e240">Uegetius de re Militari libro primo titulo primo</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-e00673-Qd1e232">Scientia Rei bellice dimicandi 
+               <lb ed="#P"/>nutrit audaciam.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e238"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e250">Ibidem titulo iii</ref> <quote xml:id="bHY6yh-e00673-Qd1e240">Minus mortem timet 
+               <lb ed="#P"/>qui minus delitiarum nouit in vita.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e248"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e266">Ibidem xx titulo</ref> <quote xml:id="bHY6yh-e00673-Qd1e250">necesse est ut acriorem 
+               <lb ed="#P"/>dimicandi sumat audaciam / qui mu<lb ed="#P" break="no"/>nito 
+               capite vel pectore non timet 
+               <lb ed="#P"/>vulnera</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e258">
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e281">Idem libro iii in prohemio</ref> / <quote xml:id="bHY6yh-e00673-Qd1e262">nemo prouocare 
+               <lb ed="#P"/>nemo audet offendere quem intelligit 
+               <lb ed="#P"/>superiorem esse si pugnet.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e271"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e293">Ibidem titulo viiii</ref> <quote xml:id="bHY6yh-e00673-Qd1e273">ad rem pertinet nosce 
+               <lb ed="#P"/>Quos animos aduersarii copie / Quos 
+               <lb ed="#P"/>habeat noster exercitus / Que pars victori<lb ed="#P" break="no"/>am 
+               magis repromittat eius de enim cogi<lb ed="#P" break="no"/>tationibus 
+               virtus augetur aut frangitur.
+               <lb ed="#P"/>Cauendum est ne dubitantem formidan<lb ed="#P" break="no"/>temque 
+               exercitum ad pugnam publicam aliquando 
+               <lb ed="#P"/>producas.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e292"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e316">Ibidem titulo x</ref> <quote xml:id="bHY6yh-e00673-Qd1e294">Qui ante longum tempus aut omnino 
+               <lb ed="#P"/>nunquam viderunt homines vulnerari occi<lb ed="#P" break="no"/>di 
+               cum primum aspexerint perhorrescunt
+               <lb ed="#P"/>et pauore confusi de fuga magis quam 
+               <lb ed="#P"/>de conflictu incipiunt cogitare faci<lb ed="#P" break="no"/>lius 
+               est ad virtutem nouos inbuere 
+               <lb ed="#P"/>quam reuocare preteritos.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e311"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e337">Ibidem titulo xii</ref> <quote xml:id="bHY6yh-e00673-Qd1e313">Ipsa die qua certatu<lb ed="#P" break="no"/>ri 
+               sunt milites quid sentiant diligenter 
+               <lb ed="#P"/>explora nam fiducia vel formido 
+               <lb ed="#P"/>ex vultum verbis incessu moribus 
+               <lb ed="#P"/>cernitur / et noueris te oportere 
+               <lb ed="#P"/>differre si exercitati bellatores me<lb ed="#P" break="no"/>tuunt 
+               dimicare animis pene hominum hoc 
+               <lb ed="#P"/>naturaliter euenit ut trepident cum 
+               <lb ed="#P"/>ad conflictum hostium venerint sine 
+               <pb ed="#P" n="222-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P"/>dubio autem infirmiores sunt quorum men<lb ed="#P" break="no"/>tes 
+               ipse confundit aspectus sed hec re<lb ed="#P" break="no"/>medium 
+               formido lenitur si antequam dimi<lb ed="#P" break="no"/>ces 
+               frequenter exercitum tuum locis 
+               <lb ed="#P"/>tutioribus ordines. vnde et videre 
+               <lb ed="#P"/>hostem et cognoscere consuescant inter<lb ed="#P" break="no"/>dum
+               aude aut aliquid loqui ex occasione 
+               <lb ed="#P"/>aut fugent aut interimant inimicorum 
+               <lb ed="#P"/>mores aduersariorum arma equosque 
+               <lb ed="#P"/>cognoscant nam quae ex vsu sunt non 
+               <lb ed="#P"/>timentur.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e353"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e381">Ibidem xxii titulo</ref> <quote xml:id="bHY6yh-e00673-Qd1e355">Qui congressus recedit 
+               <lb ed="#P"/>ex acie suis fiduciam minuit inimicis 
+               <lb ed="#P"/>addit audaciam.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e363"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e393">Ibidem xxv titulo</ref> <quote xml:id="bHY6yh-e00673-Qd1e365">nunquam exultantibus maius 
+               <lb ed="#P"/>solet coneuenire discrimen quam cum exhibita 
+               <lb ed="#P"/>fortia in formidine commutantur.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e379"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e412">Ibidem xxvi titulo et finali</ref>: <quote xml:id="bHY6yh-e00673-Qd1e381">nunquam ad certamen 
+               <lb ed="#P"/>publicum perduxeris militem nisi cum videris 
+               <lb ed="#P"/>eum sperare victoriam.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e390"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e424">Idem libro iiii titulo xxv</ref> <quote xml:id="bHY6yh-e00673-Qd1e392">Necessitas quedam 
+               <lb ed="#P"/>virtutis est desperatio.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e400"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e437">Idem libro v et finali: titulo primo</ref> <quote xml:id="bHY6yh-e00673-Qd1e402">Nemo bello 
+               <lb ed="#P"/>lacescere aut facere iniuriam audit  
+               <lb ed="#P"/>ei regno vel populo / quem expeditum et 
+               <lb ed="#P"/>promptum ad resistendum vindicandumque 
+               <lb ed="#P"/>cognoscit.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e412">
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e453">Baldo fabula xi</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-e00673-Qd1e416">Hic ope virtutis spes est vbi nulla salutis.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e422">
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e465">Gualterius de castellione libro iiii</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-e00673-Qd1e426">Spes sane resuscitat egrum
+               <lb ed="#P"/>Agmen / et in vultu victoria visa sedere.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00673-d1e434">
+               <lb ed="#P"/><ref xml:id="bHY6yh-e00673-Rd1e479">Gaufridus in poetria capitulo xxx</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-e00673-Qd1e438">Si timor incuruet mentem simulatio 
+               <lb ed="#P"/>vultum / Exigat et clipeo vultus suc<lb ed="#P" break="no"/>curre 
+               timori / Ut si mens timeat 
+               <lb ed="#P"/>facies velit ipsa timeri / Immo magis 
+               <lb ed="#P"/>sperare velis pigeat potentem Uulgari 
+               <lb ed="#P"/>pallere metu / si posse sit artum
+               <lb ed="#P"/>Dilates animum si corpus debile mens 
+               <lb ed="#P"/>sit / fortis et exiguas vires supple<lb ed="#P" break="no"/>re 
+               memento / spe grandii.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
