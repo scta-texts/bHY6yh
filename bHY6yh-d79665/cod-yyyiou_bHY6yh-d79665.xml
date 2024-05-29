@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10</title>
+               <date when="2024-05-23">May 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-05-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="110-r"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d79665"><!-- p4l3-r10 -->
+            <head xml:id="bHY6yh-d79665-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-d79665-Hd1e111" type="question-title">De famulis et domesticis</head>
+            <p xml:id="bHY6yh-d79665-d1e114">
+              De famulis et domesticis
+              capitulum
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e119">
+              <ref xml:id="bHY6yh-d79665-Rd1e116">SA<lb ed="#C" break="no"/>lomon 
+              in prouerbiis capitulo XV</ref> <quote xml:id="bHY6yh-d79665-Qd1e125">qui sectatur
+              <lb ed="#C"/>auaritiam conturbabit domum suam</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e131">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d79665-Rd1e131">Socrates in exhortationibus capitulo II</ref>  <quote xml:id="bHY6yh-d79665-Qd1e135">Esto adheren<lb ed="#C" break="no"/>tibus 
+              tractabilis non sublimis nam des<lb ed="#C" break="no"/>picientium 
+              tumorem uix equidem tolle<lb ed="#C" break="no"/>rabunt 
+              serui modum uero tractabilium cuncti
+              <lb ed="#C"/>ferunt alacriter</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e148">
+              ¶ <ref xml:id="bHY6yh-d79665-Rd1e151">Yesus filius sirach in ecclesiastico capitulo 4</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d79665-Qd1e152">Noli esse sicud leo in domo tua euntens
+              <lb ed="#C"/>domesticos tuos et omines subiectos tibi</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e160">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d79665-Rd1e165">Seneca epistolarum ad lucillum libro 18 epistola
+              <lb ed="#C"/>V</ref> <quote xml:id="bHY6yh-d79665-Qd1e164">Timeri tam domi quam foris molestum
+              <lb ed="#C"/>summa</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e172">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e186">
+              ¶ <ref xml:id="bHY6yh-d79665-Rd1e197">boetius de consolatione libro III capitulo 9</ref> <quote xml:id="bHY6yh-d79665-Qd1e190">que pestis
+              <lb ed="#C"/>est efficacior ad nocendum quam familia<lb ed="#C" break="no"/>ris 
+              inimicus</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e198">
+              <ref xml:id="bHY6yh-d79665-Rd1e211">Bertrandus Yconomica. capitulo 15.</ref> <quote xml:id="bHY6yh-d79665-Qd1e202">Famulum
+              alti cordis repelle: vt futurum inimicum.
+              Famulum tuis moribus blandientem 
+              repelle. Famulum de facili se verecundantem
+              dilige vt filium.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
