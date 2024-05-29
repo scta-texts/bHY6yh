@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 2 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+             <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 2 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-05-04">May 04, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="151-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d69219"><!-- p4l1-r2 -->
+            <head xml:id="bHY6yh-d69219-Hd1e108">Rubrica 2</head>
+            <head xml:id="bHY6yh-d69219-Hd1e111" type="question-title">De medio et extremis</head>
+            <p xml:id="bHY6yh-d69219-d1e114">
+              <lb ed="#K" n="15"/>De medio et extremis 
+              <lb ed="#K"/>Rubrica secundus : : <!--red ink designs-->
+            </p>
+            <p xml:id="bHY6yh-d69219-d1e119">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d69219-Rd1e116">Aristoteles ethicorum libro 2 capitulo 5</ref> /<quote xml:id="bHY6yh-d69219-Qd1e127">Me<lb ed="#K" break="no"/>dium 
+              est quod equaliter 
+              <lb ed="#K"/>distat ab vtroque <sic>extremorum</sic> 
+              <lb ed="#K"/>omnis sciens superabun<lb ed="#K" break="no"/>dantiam
+              et defectum fugit
+              <lb ed="#K"/>medium autem querit ¶
+              <lb ed="#K"/>/ Uirtus medii est con<lb ed="#K" break="no"/>iecturatrix 
+              / Malitie qui<lb ed="#K" break="no"/>dem 
+              est superabundantia 
+              <lb ed="#K"/>et defectus virtutis autem 
+              <lb ed="#K"/>medietas</quote>
+            </p>
+            <p xml:id="bHY6yh-d69219-d1e144"> 
+              ¶ <ref xml:id="bHY6yh-d69219-Rd1e142">capitulo 6</ref> <quote xml:id="bHY6yh-d69219-Qd1e146">Medie<lb ed="#K" break="no"/>tas 
+              est laudanda ex<lb ed="#K" break="no"/>trema 
+              autem non recta 
+              <lb ed="#K"/>nec laudabilia sed vi<lb ed="#K" break="no"/>tuperabilia 
+              sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d69219-d1e155"> 
+              ¶ <ref xml:id="bHY6yh-d69219-Rd1e155">capitulo 7 et fi</ref> 
+              <lb ed="#K"/>/ <quote xml:id="bHY6yh-d69219-Qd1e157">In vno quoque medium 
+              <lb ed="#K"/>accipere difficile est /me<lb ed="#K" break="no"/>dium 
+              attingere summe diffi<lb ed="#K" break="no"/>cile 
+              est</quote>
+            </p>
+            <p xml:id="bHY6yh-d69219-d1e167">
+              ¶ <ref xml:id="bHY6yh-d69219-Rd1e169">libro 4 capitulo 6</ref> /<quote xml:id="bHY6yh-d69219-Qd1e169">Su<lb ed="#K" break="no"/>perabundantie 
+              et defectus 
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>vituperabiles sunt</quote>
+            </p>
+            <p> 
+              <ref xml:id="bHY6yh-d69219-Rd1e182">libro 5 capitulo 3</ref>
+              <lb ed="#K"/>/ <quote xml:id="bHY6yh-d69219-Qd1e186">Equale est medium mai<lb ed="#K" break="no"/>oris 
+              et minoris</quote>
+            </p>
+            <p xml:id="bHY6yh-d69219-d1e183">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d69219-Rd1e193">Idem magnorum moralium libro i capitulo xi</ref> 
+              <lb ed="#K"/>/ <quote xml:id="bHY6yh-d69219-Qd1e187">Medium habere difficile est</quote>
+            </p>
+            <p xml:id="bHY6yh-d69219-d1e193">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d69219-Rd1e203">capitulo 40</ref> /<quote xml:id="bHY6yh-d69219-Qd1e195">Optimum est medium</quote>
+            </p>
+            <p xml:id="bHY6yh-d69219-d1e201">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d69219-Rd1e213">Idem politicorum libro 3 capitulo 9 
+              <lb ed="#K"/>et penul</ref> <quote xml:id="bHY6yh-d69219-Qd1e203">Iustum querentes me<lb ed="#K" break="no"/>dium 
+              querunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d69219-d1e211">
+              ¶ <ref xml:id="bHY6yh-d69219-Rd1e226">libro 4 capitulo 9</ref>  
+              <lb ed="#K"/> / <quote xml:id="bHY6yh-d69219-Qd1e213">Mediocre optimum est
+              <lb ed="#K"/>et quod medium que 
+              <lb ed="#K"/>media optima sunt 
+              <lb ed="#K"/>paucum est quod medium 
+              <lb ed="#K"/>semper</quote>
+            </p>
+            <p xml:id="bHY6yh-d69219-d1e222">
+              ¶ <ref xml:id="bHY6yh-d69219-Rd1e239">libro 5 capitulo 6</ref> <quote xml:id="bHY6yh-d69219-Qd1e224">Quod 
+              <lb ed="#K"/>iustum est equale videtur esse</quote>
+            </p>
+            <p xml:id="bHY6yh-d69219-d1e230">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d69219-Rd1e252">libro 6 capitulo 2</ref> /<quote xml:id="bHY6yh-d69219-Qd1e234">Semper querunt 
+              <lb ed="#K"/>quod iustum et quod e<lb ed="#K" break="no"/>quale 
+              est quam minores 
+              <lb ed="#K"/>sunt preeminentes autem 
+              <lb ed="#K"/>nihil curant</quote>
+            </p>
+            <p xml:id="bHY6yh-d69219-d1e242">
+             ¶ <ref xml:id="bHY6yh-d69219-Rd1e264">libro 8 capitulo 7</ref> 
+             <lb ed="#K"/>/ <quote xml:id="bHY6yh-d69219-Qd1e244">Medium superabundantiarum 
+             <lb ed="#K"/>laudamus et dicimus prosequi 
+             <lb ed="#K"/>oportere</quote>
+            </p>
+            <p xml:id="bHY6yh-d69219-d1e252">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d69219-Rd1e278">Ouidius methamorph libro 2</ref> <quote xml:id="bHY6yh-d69219-Qd1e256">medio tutissimus 
+              <lb ed="#K"/>ibis</quote>
+            </p>
+            <p xml:id="bHY6yh-d69219-d1e262">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d69219-Rd1e290">Seneca tragediarum in hercule etheo capitulo 6</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d69219-Qd1e266">Quisquis medium defugit 
+              <lb ed="#K"/>iter stabili nunquam 
+              <lb ed="#K"/>tramite curret</quote>
+            </p>
+            <p xml:id="bHY6yh-d69219-d1e274">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d69219-Rd1e304">Maximianus</ref> <quote xml:id="bHY6yh-d69219-Qd1e278">maior enim mediis 
+               <lb ed="#K"/>gratia rebus in est</quote>
+            </p>
+            <p xml:id="bHY6yh-d69219-d1e285">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d69219-Rd1e317">Heinricus samariensis libro 2</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d69219-Qd1e289">nec viscosa manus 
+              <lb ed="#K"/>et oleo nec vncta sit vno 
+              <lb ed="#K"/>Interutruque tenens respuat 
+              <lb ed="#K"/>omne nimis:</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
