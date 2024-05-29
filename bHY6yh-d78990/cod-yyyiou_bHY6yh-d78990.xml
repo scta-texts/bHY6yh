@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 8</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 8</title>
+               <date when="2024-05-23">May 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-05-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="109-r"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d78990"><!-- p4l3-r8 -->
+            <head xml:id="bHY6yh-d78990-Hd1e108">Rubrica 8</head>
+            <p xml:id="bHY6yh-d78990-d1e111">
+              De terribilitate
+              et metu
+              capitulum
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e116">
+              <ref xml:id="bHY6yh-d78990-Rd1e113">SAlomon in prouerbiis
+              <lb ed="#C"/>capitulo 15</ref> <quote xml:id="bHY6yh-d78990-Qd1e122">Secura mens
+              <lb ed="#C"/>quasi iugens conuiuium</quote> 
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e128"> 
+              ¶ <ref xml:id="bHY6yh-d78990-Rd1e125">Idem 2 capitulo</ref> <quote xml:id="bHY6yh-d78990-Qd1e130">Si<lb ed="#C" break="no"/>cud 
+              rugitus leonis ita et terror regis
+              <lb ed="#C"/>qui prouocat eum peccat in animam suam</quote>
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e138">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d78990-Rd1e139">Cronica de nugis philosophorum capitulo 4 scilicet de chilone</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d78990-Qd1e142">Chilo lacedemonius qui fuit unus de septem sapiententibus iubebat man<lb ed="#C" break="no"/>suetum 
+              esse ut proximi reuereantur magis<lb ed="#C" break="no"/>quam 
+              timeantur</quote>
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e153">
+              ¶ <ref xml:id="bHY6yh-d78990-Rd1e157">Aristoteles ethicorum libro 3 capitulo 7</ref> <quote xml:id="bHY6yh-d78990-Qd1e157">Ter<lb ed="#C" break="no"/>ribilissimum 
+              est mors</quote>
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e163"> 
+              ¶ <ref xml:id="bHY6yh-d78990-Rd1e167">Idem politicorum libro V capitulo
+              <lb ed="#C"/>III</ref> <quote xml:id="bHY6yh-d78990-Qd1e165">Congregat separatissimos communis timor</quote>
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e173">
+              <ref xml:id="bHY6yh-d78990-Rd1e184">Te<lb ed="#C" break="no"/>rentius 
+              in adelphis capitulo III</ref> <quote xml:id="bHY6yh-d78990-Qd1e177">pudore et liberali<lb ed="#C" break="no"/>tate 
+              liberos retinere satius esse credo quam metu
+              qui imperium credat grauius aut stabilius quid
+              <lb ed="#C"/>summa Male coactus quis suum officium facit
+              <lb ed="#C"/>dum id scitum rei credit tantisperant
+              <lb ed="#C"/>Si sperat fore clam rursum ad ingenium
+              <lb ed="#C"/>redit Ille quid beneficio adiungas ex animo
+              <lb ed="#C"/>facit hoc patrum est potius consulere facere
+              <lb ed="#C"/>filium Sua sponte recte facere quam alieno mo<lb ed="#C" break="no"/>tu </quote>
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e214">
+              ¶ <ref xml:id="bHY6yh-d78990-Rd1e222">Tullius philipicorum libro I</ref> <quote xml:id="bHY6yh-d78990-Qd1e218">Metui et ob id o<lb ed="#C" break="no"/>diosum 
+              esse inuidiosum est detestabile im<lb ed="#C" break="no"/>becillum 
+              caducum</quote>
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e226">
+              ¶ <ref xml:id="bHY6yh-d78990-Rd1e236">Ouidius de fastis
+              <lb ed="#C"/>libro 4</ref> <quote xml:id="bHY6yh-d78990-Qd1e230">Excutitur terrore fides</quote>
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e235">
+              ¶ <ref xml:id="bHY6yh-d78990-Rd1e246">Seneca
+              <lb ed="#C"/>tragediarum in hercule furente capitulo III</ref> <quote xml:id="bHY6yh-d78990-Qd1e239">Opprimit leges ti<lb ed="#C" break="no"/>mor </quote>
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e245">
+              ¶ <ref xml:id="bHY6yh-d78990-Rd1e258">Idem in optauia capitulo X</ref> <quote xml:id="bHY6yh-d78990-Qd1e247">decet cunc<lb ed="#C" break="no"/>ti 
+              cesarem ac plus diligi</quote>
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e253">
+              ¶ <ref xml:id="bHY6yh-d78990-Rd1e270">Idem epistolarum ad
+              <lb ed="#C"/>lucillum libro 18 epistola 15</ref> <quote xml:id="bHY6yh-d78990-Qd1e257">Timeri tam domi quam
+              <lb ed="#C"/>foris molestum est ita a seruis quam a liberis ne<lb ed="#C" break="no"/>mo 
+              potest terribilis esse secure</quote>
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e267">
+              ¶ <ref xml:id="bHY6yh-d78990-Rd1e284">Idem de ira</ref>
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e277">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e287">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d78990-Rd1e313">libro II capitulo VII</ref> <quote xml:id="bHY6yh-d78990-Qd1e291">Colant te serui potuis quam
+              <lb ed="#C"/>timeant qui colitur etiam amatur Nemo
+              <lb ed="#C"/>potest amorem cum timore miscere</quote>
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e302">
+              [omitted]
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e310">
+              ¶ <ref xml:id="bHY6yh-d78990-Rd1e340">Cassiodorus
+              <lb ed="#C"/>epistolarum <!--libro crossed out-->V epistola</ref> <quote xml:id="bHY6yh-d78990-Qd1e314">Solus exhibet hos quos
+              <lb ed="#C"/>fides promissi non retinet</quote>
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e320">
+              ¶ <ref xml:id="bHY6yh-d78990-Rd1e352">Claudianus
+              <lb ed="#C"/>libro III</ref> <quote xml:id="bHY6yh-d78990-Qd1e324">Non odium terrore moues</quote>
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e328">
+              ¶ <ref xml:id="bHY6yh-d78990-Rd1e362">Gregorius
+              <lb ed="#C"/>in pastoralia capitulo 36</ref> <quote xml:id="bHY6yh-d78990-Qd1e332">Bona per se amanda sunt
+              <lb ed="#C"/>et non pruis compellentibus exequenda
+              <lb ed="#C"/>nam quia propterea bona facit quia tor<lb ed="#C" break="no"/>mentorum 
+              mala subfugit uult non esse quod
+              <lb ed="#C"/>metuat ut audacta illicita committat</quote>
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e346">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d78990-Rd1e382">ysydorus in synonima soliloquiorum libro 2 capitulo 40</ref> <quote xml:id="bHY6yh-d78990-Qd1e350">A subditis
+              <lb ed="#C"/>venerari summa</quote>
+            </p>
+            <p xml:id="bHY6yh-d78990-d1e377">
+              ¶ <ref xml:id="bHY6yh-d78990-Rd1e420">Versificator fabularum ysopi 32</ref> <quote xml:id="bHY6yh-d78990-Qd1e381">Cum
+              <lb ed="#C"/>timor in pacto sedit promissa timore aret
+              <lb ed="#C"/>nil fidei uerba timentis habent</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
