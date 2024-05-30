@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 7 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 7 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-05-08">May 08, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="153-r"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d70274"><!-- p4l1-r7 -->
+            <head xml:id="bHY6yh-d70274-Hd1e108">Rubrica 7</head>
+            <head xml:id="bHY6yh-d70274-Hd1e111" type="question-title">De acceptabilitate temporis et loci</head>
+            <p xml:id="bHY6yh-d70274-d1e114">
+             De acceptabi<lb ed="#K" break="no" n="75"/>litate 
+             temporis et sociorum Rubrica septimus
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e121">
+                <pb ed="#K" n="153-v"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>/ <ref xml:id="bHY6yh-d70274-Rd1e118">Salomon in ecclesiastico capitulo 3</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d70274-Qd1e127">omnia tempus habent et suis 
+              <lb ed="#K"/>spaciis transeunt vniuersa 
+              <lb ed="#K"/>sub sole / Tempus flendi 
+              <lb ed="#K"/>et tempus ridendi tempus 
+              <lb ed="#K"/>lugendi et tempus saltan<lb ed="#K" break="no"/>di
+              / Tempus acquirendi et 
+              <lb ed="#K"/>tempus perdendi tempus cus<lb ed="#K" break="no"/>todiendi
+              et tempus abiici<lb ed="#K" break="no"/>endi
+              tempus tacendi et 
+              <lb ed="#K"/>tempus loquendi /Cuncta 
+              <lb ed="#K"/>fecit deus bona in tempore 
+              <lb ed="#K"/>suo</quote> 
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e148">
+              / <ref xml:id="bHY6yh-d70274-Rd1e146">capitulo 8</ref> <quote xml:id="bHY6yh-d70274-Qd1e150">omni negocio 
+              <lb ed="#K"/>tempus est et opportunitas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e157">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d70274-Rd1e159">Oratius in epistolis libro i epistola 
+              <lb ed="#K"/>xi</ref> /<quote xml:id="bHY6yh-d70274-Qd1e161">Tu quancumque deus tibi 
+              <lb ed="#K"/>fortunauerint horam grata 
+              <lb ed="#K"/>sume manu nec dul<lb ed="#K" break="no"/>cia 
+              differim annum</quote>
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e169">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d70274-Rd1e173">Ouidius de remedio amoris 
+              <lb ed="#K"/>libro i</ref> <quote xml:id="bHY6yh-d70274-Qd1e173">temporibus medicina va<lb ed="#K" break="no"/>let: 
+              data tempore prosunt Et 
+              <lb ed="#K"/>data non apto tempore viua 
+              <lb ed="#K"/>nocent /Quam etiam 
+              <lb ed="#K"/>accendas vitia mitesque 
+              <lb ed="#K"/>vitando /Temporibus si non 
+              <lb ed="#K"/>agrediare suis</quote>
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e185">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d70274-Rd1e191">Idem de tristibus libro 6 et fi capitulo i</ref> <quote xml:id="bHY6yh-d70274-Qd1e189">Iudi<lb ed="#K" break="no"/>cis 
+               officium est vt res 
+               <lb ed="#K"/>ita tempora rerum querere
+               <lb ed="#K"/>/ Consilium resque 
+               <lb ed="#K"/>locusque dabunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e197">
+              <!--ommitted-->
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e207">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d70274-Rd1e218">Paulus apostolus epistola 2 ad corinthios 
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>capitulo 6</ref> /<quote xml:id="bHY6yh-d70274-Qd1e211">Ecce tempus accepta<lb ed="#K" break="no"/>bile 
+              ecce dies salutis</quote>
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e219">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d70274-Rd1e233">Seneca tragediarum in medea. 
+              <lb ed="#K"/>capitulo 3</ref> /<quote xml:id="bHY6yh-d70274-Qd1e223">Tempori aptari decet</quote>
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e230">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70274-Rd1e246">lucanus libro i</ref> /<quote xml:id="bHY6yh-d70274-Qd1e234">Tolle moras 
+              <lb ed="#K"/>semper nocuit differre paratis</quote>
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e240">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d70274-Rd1e258">Maximianus</ref> <quote xml:id="bHY6yh-d70274-Qd1e244">non omnibus 
+              <lb ed="#K"/>annis omnia conueniunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e250">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70274-Rd1e270">Marcialis cocus l. vndique 
+              <lb ed="#K"/>suscepto capitulo 5</ref> <quote xml:id="bHY6yh-d70274-Qd1e254">uiuendi recte 
+              <lb ed="#K"/>fatuus procrastinat horam</quote>
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e260">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d70274-Rd1e282">Auctor libro de for hone vite capitulo 2</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d70274-Qd1e264">prout rerumque temporum 
+              <lb ed="#K"/>varietas exigit ita te 
+              <lb ed="#K"/>accomodes tempori nec te in 
+              <lb ed="#K"/>aliquibus mutes sed 
+              <lb ed="#K"/>potius aptes</quote>
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e281">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d70274-Rd1e305">Cato capitulo 3</ref> <quote xml:id="bHY6yh-d70274-Qd1e285">Rem tibi quam noscis ap<lb ed="#K" break="no"/>taui
+              dimittere noli fron<lb ed="#K" break="no"/>te 
+              capillata post hec 
+              <lb ed="#K"/>occasio calua</quote>
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e293"> 
+              ¶ <ref xml:id="bHY6yh-d70274-Rd1e317">capitulo 5 et finali</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d70274-Qd1e295">quam primum rapienda ti<lb ed="#K" break="no"/>bi 
+              occasio prima ne rursus 
+              <lb ed="#K"/>queras que iam neglex<lb ed="#K" break="no"/>eris
+              ante</quote>
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e304">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d70274-Rd1e332">Cassiodorus epistolarum libro 5 epistola 22</ref> <quote xml:id="bHY6yh-d70274-Qd1e308">Ap<lb ed="#K" break="no"/>tum 
+              est omne bonum locis 
+              <lb ed="#K"/>suis: et laudabilia quo<lb ed="#K" break="no"/>que 
+              sordes eunt nisi con<lb ed="#K" break="no"/>grua 
+              sepe potiantur</quote>
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e318">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d70274-Rd1e348">Isydorus in synon sollilo libro 2 capitulo 41</ref> 
+              <lb ed="#K"/>/ <quote xml:id="bHY6yh-d70274-Qd1e322">In bonis dilatio nocet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e328">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d70274-Rd1e360">Iacobus beneuentanus capitulo 
+              <lb ed="#K"/>19</ref>/ <quote xml:id="bHY6yh-d70274-Qd1e332">Si quid permissum 
+                <pb ed="#K" n="154-r"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K"/>fuerit tibi suscipe raptim
+              <lb ed="#K"/>Mens a proposito nam resi<lb ed="#K" break="no"/>lere 
+              potest</quote>
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e340">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d70274-Rd1e374">Auctor libro de moribus medicorum capitulo 15</ref> <quote xml:id="bHY6yh-d70274-Qd1e344">omnia 
+              <lb ed="#K"/>fructificant cum venit ap<lb ed="#K" break="no"/>ta 
+              dies</quote>
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e350">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d70274-Rd1e386">Belinus in speculo vite partis i Extra 4</ref>
+              <lb ed="#K"/>/ <quote xml:id="bHY6yh-d70274-Qd1e354">Tempore cuncta suo quisque 
+              <lb ed="#K"/>peritus agit</quote>
+            </p>
+            <p xml:id="bHY6yh-d70274-d1e360">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d70274-Rd1e398">Prouberia vulgararia</ref> /<quote xml:id="bHY6yh-d70274-Qd1e364">Chi a tempo Aben fare
+              <lb ed="#K"/>non fax deniora che en
+              <lb ed="#K"/>poco tempo dio lauora
+              <lb ed="#K"/>quando dio da porcello
+              <lb ed="#K"/>appareya sachello Saxim 
+              <lb ed="#K"/>uende nauega te na<lb ed="#K" break="no"/>uega 
+              el destro falornio 
+              <lb ed="#K"/>laro / El destro fa putana
+             </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
