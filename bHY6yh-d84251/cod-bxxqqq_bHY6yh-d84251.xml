@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 9</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 9</title>
+               <date when="2024-05-26">May 26, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-05-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="146-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d84251"><!-- p4l4-r9 -->
+            <head xml:id="bHY6yh-d84251-Hd1e108">Rubrica 9</head>
+            <head xml:id="bHY6yh-d84251-Hd1e111" type="question-title">De ludo et requie seu ocio laudabili</head>
+            <p xml:id="bHY6yh-d84251-d1e114">
+              De ludo seu 
+              <lb ed="#B"/>requie seu ocio laudabili Rubrica 9
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e119">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d84251-Rd1e116">ARistotiles ethicorum libro 4 capitulo 9</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d84251-Qd1e125">videtur requies et ludus 
+              <lb ed="#B"/>in vita esse necessarium</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e133"> 
+              ¶ <ref xml:id="bHY6yh-d84251-Rd1e131">libro 10 
+              <lb ed="#B"/>et finali capitulo 5</ref> <quote xml:id="bHY6yh-d84251-Qd1e135">omnia habentia corpora non 
+              <lb ed="#B"/>possunt continue operari</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e142"> 
+              ¶ <ref xml:id="bHY6yh-d84251-Rd1e142">7 capitulo</ref> <quote xml:id="bHY6yh-d84251-Qd1e144">Re<lb ed="#B" break="no"/>quiei 
+              assimulatur ludus. Impo<lb ed="#B" break="no"/>tentes 
+              continue laborare requie 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>indigent Requies fit gratia operatio<lb ed="#B" break="no"/>nis 
+              Speculari possumus continue 
+              <lb ed="#B"/>magis quam operari</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e161"> 
+              ¶ <ref xml:id="bHY6yh-d84251-Rd1e163">Idem politicorum 
+              <lb ed="#B"/>libro 8 capitulo I</ref> <quote xml:id="bHY6yh-d84251-Qd1e163">laborans indige<del>n</del>t 
+              <lb ed="#B"/>requie ludus gratia requiei est</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e171"> 
+              <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d84251-Rd1e178">2 capitulo</ref> <quote xml:id="bHY6yh-d84251-Qd1e173">Requies necessaria delectatio 
+              <lb ed="#B"/>est eius enim que per labores tris<lb ed="#B" break="no"/>titie
+              medicina quedam est</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e181">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d84251-Rd1e192">IEsus filius syrach in ecclesiastico capitulo 11</ref><!--line jumps up--> <quote xml:id="bHY6yh-d84251-Qd1e185">fili<!--line jumps down--> ne in 
+              <lb ed="#B"/>multis sint actus tui et cetera</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e191">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d84251-Rd1e204">TVlius rethoricorum artis veteris 
+              <lb ed="#B"/>libro I</ref> <quote xml:id="bHY6yh-d84251-Qd1e195">Animus defessus audien<lb ed="#B" break="no"/>do 
+              aut admiratione integra<lb ed="#B" break="no"/>tur
+              aut risu nouatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e203"> 
+              ¶ <ref xml:id="bHY6yh-d84251-Rd1e216">Idem 
+              <lb ed="#B"/>de oratore libro I</ref> <quote xml:id="bHY6yh-d84251-Qd1e205">ocii fructus 
+              <lb ed="#B"/>est non contentio animi sed relaxatio</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e212">
+              <lb ed="#B"/><quote xml:id="bHY6yh-d84251-Qd1e216">liber esse non videtur qui non 
+              <lb ed="#B"/>aliquando nichil agit</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e220">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d84251-Rd1e239">OVidius epistolarum<!--line jumps up--> epistola 4</ref> <quote xml:id="bHY6yh-d84251-Qd1e224">Quod ca<!--line jumps down-->ret alterna 
+              <lb ed="#B"/>requie durabile non est ¶ Hec 
+              <lb ed="#B"/><del>rap</del> reparat uires fessaque mem<lb ed="#B" break="no"/>bra 
+              nouat</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e244">
+              ¶ <ref xml:id="bHY6yh-d84251-Rd1e267">Idem de ponto libro 
+              <lb ed="#B"/>I epistola 4</ref> / <quote xml:id="bHY6yh-d84251-Qd1e248">ocia corus alunt animus quoque 
+              <lb ed="#B"/>pascitur illis ¶ In modicus contra 
+              <lb ed="#B"/>carpit vtrumque labor</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e232">
+              ¶ <ref xml:id="bHY6yh-d84251-Rd1e253">Idem de 
+              <lb ed="#B"/>arte amandi libro 2</ref> <quote xml:id="bHY6yh-d84251-Qd1e236">dat requiem 
+              <lb ed="#B"/>requietus ager bene credita red<lb ed="#B" break="no"/>dit
+              ¶ Sed mora tuca breuis 
+              <lb ed="#B"/>lentescunt tempore cure</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e277">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d84251-Rd1e281">SEneca epistolarum ad<!--line jumps up--> lucillum<!--line jumps down--> libro 3 epistola I</ref> ¶ 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d84251-Qd1e283">Exortationibus labor spiritum 
+              <lb ed="#B"/>exhaurit et inhabilem iten<lb ed="#B" break="no"/>tionem 
+              ac studiis acrioribus 
+              <lb ed="#B"/>reddit</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e291">
+              ¶ <ref xml:id="bHY6yh-d84251-Rd1e293">epistola 3</ref> <quote xml:id="bHY6yh-d84251-Qd1e295">Aptari corpus vi<lb ed="#B" break="no"/>ribus 
+              debet nec plus occupa<lb ed="#B" break="no"/>ri 
+              quam cui sufficere possumus</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e267"> 
+              <lb ed="#B"/>¶ <ref xml:id="bHY6yh-d84251-Rd1e306">libro 19 epistola 11 et finali</ref> <quote xml:id="bHY6yh-d84251-Qd1e269">ocium reficit sen<lb ed="#B" break="no"/>sus</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e273">
+              ¶ <ref xml:id="bHY6yh-d84251-Rd1e316">Idem de transquillitate</ref> ¶ <quote xml:id="bHY6yh-d84251-Qd1e277">dan<lb ed="#B" break="no"/>da 
+              est animis remissio meliores 
+              <lb ed="#B"/>acrioresque requieti surgunt 
+              <lb ed="#B"/>¶ Nascitur ex assiduitate labo<lb ed="#B" break="no"/>rum 
+              animorum hebetatio quedam<!--line jumps down--> et languor</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e288">
+              <pb ed="#B" n="146-v"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/><ref xml:id="bHY6yh-d84251-Rd1e332">Lex F in prohemio</ref> <quote xml:id="bHY6yh-d84251-Qd1e292">Quis ludos 
+              <lb ed="#B"/>appellat eos exquibus crimina 
+              <lb ed="#B"/>oriuntur</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e298"> 
+              ¶ <ref xml:id="bHY6yh-d84251-Rd1e342">titulo ad legare acquiliam libro 
+              <lb ed="#B"/>nam ludus</ref> ¶ <quote xml:id="bHY6yh-d84251-Qd1e300">ludus pernitiosus 
+              <lb ed="#B"/>in culpa est</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e306">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d84251-Rd1e355">UAlerius<!--line jumps up--> maximus libro 8 titulo de ocio</ref><!--line jumps down--> ¶ <quote xml:id="bHY6yh-d84251-Qd1e310">Scipio et lelius cla<lb ed="#B" break="no"/>rissimum 
+              par uere amicitie 
+              <lb ed="#B"/>tum amoris vinculo tum etiam 
+              <lb ed="#B"/>omnium virtutum inter se iunctum 
+              <lb ed="#B"/>societate ut actuose vite ter 
+              <lb ed="#B"/>equali gradu exe<del>b</del>quebantur 
+              <lb ed="#B"/>Ita animi quoque remissioni communitur 
+              <lb ed="#B"/>acquiescebant ¶ Constat namque 
+              <lb ed="#B"/>eos baiete et laurenti uagos 
+              <lb ed="#B"/>litoribus conculas lectitasse id<lb ed="#B" break="no"/>que 
+              se p. crassus exsocero suo sce<lb ed="#B" break="no"/>uola 
+              qui gener lebii fuit au<lb ed="#B" break="no"/>disse 
+              sepenumero predicauit ¶ sce<lb ed="#B" break="no"/>uola 
+              optime pila lusisse tradi<lb ed="#B" break="no"/>tur 
+              quia neque ad hoc diuerticulum 
+              <lb ed="#B"/>animum suum forensibus ministeriis 
+              <lb ed="#B"/>fatigatum tranfferre solebat. al<lb ed="#B" break="no"/>ueo 
+              quoque et calculis interdum 
+              <lb ed="#B"/>uacasse diciur cum bene ac diu iu<lb ed="#B" break="no"/>ra 
+              ciuium cerimoniasque deorum or<lb ed="#B" break="no"/>dinasset 
+              ¶ Socrates cui nulla 
+              <lb ed="#B"/>pars sapientie obscurata fuit inter<lb ed="#B" break="no"/>posita 
+              arundine curribus suis 
+              <lb ed="#B"/>cum paruulis filiolis ludens ab
+              <lb ed="#B"/>alciade lusus est</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e357">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d84251-Rd1e408">Avctor libelli de formula<!--line jumps up--> honeste vite capitulo<!--line jumps down--> 2.</ref> ¶ <quote xml:id="bHY6yh-d84251-Qd1e361">Non semper 
+              <lb ed="#B"/>in actu sis sed interdum animo 
+              <lb ed="#B"/>tuo requiem dato</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e369"> 
+              ¶ <ref xml:id="bHY6yh-d84251-Rd1e421">4 capitulo</ref> <quote xml:id="bHY6yh-d84251-Qd1e371">Misce<lb ed="#B" break="no"/>bis 
+              interdum seriis inocos sed tempera<lb ed="#B" break="no"/>tos 
+              et sine detrimento dignita<lb ed="#B" break="no"/>tis 
+              ac verecundie. Quies sine 
+              <lb ed="#B"/>desidia sit</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e381">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d84251-Rd1e437">CAto capitulo 4</ref><!--line jumps up--> <quote xml:id="bHY6yh-d84251-Qd1e385">Interpone tuis in<!--line jumps down-->terdum gaudia curis
+              <lb ed="#B"/>Vt possis animo quemuis suffi<lb ed="#B" break="no"/>rere 
+              laborem</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e394">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d84251-Rd1e451">CAssiodorus<!--line jumps up--> epistolarum libro 5 epistola 10</ref><!--line jumps down--> <quote xml:id="bHY6yh-d84251-Qd1e398">Incerta est vita 
+              <lb ed="#B"/>eorum qui nimia fatigatione las<lb ed="#B" break="no"/>santur</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e406"> 
+              ¶ <ref xml:id="bHY6yh-d84251-Rd1e463">libro 6 epistola 12</ref> <quote xml:id="bHY6yh-d84251-Qd1e408">Interdum 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>assidui labores et ipsas ingra<lb ed="#B" break="no"/>tas 
+              faciunt dignitates</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e414">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d84251-Rd1e475">AVctor libelli qui dicitur<!--line jumps up--> facetus<!--line jumps down--> capitulo 2</ref> ¶ <quote xml:id="bHY6yh-d84251-Qd1e418">Ocia 
+              <lb ed="#B"/>nullus amet nisi sint con<lb ed="#B" break="no"/>iuncta 
+              labori ¶ <del>Nimia</del> / Nam ni<lb ed="#B" break="no"/>mia 
+              requie mortificatur homo</quote>
+            </p>
+            <p xml:id="bHY6yh-d84251-d1e426">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d84251-Rd1e489">GValterius de castellione capitulo I</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d84251-Qd1e430">Nam vehemens studii matie 
+              <lb ed="#B"/>labor afficit artus</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
