@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-05-17">May 17, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+          <pb ed="#K" n="163-r"/>
+          <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d74449"><!-- p4l2-r10 -->
+            <head xml:id="bHY6yh-d74449-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-d74449-Hd1e111" type="question-title">De ludis fortuite amissionis bonorum</head>
+            <p xml:id="bHY6yh-d74449-d1e114">
+              De laudis fortui<lb ed="#K" break="no" n="8"/>te
+              amissionis bonorum 10
+            </p>
+            <p xml:id="bHY6yh-d74449-d1e121">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d74449-Rd1e120">Ouidius de arte amandi 
+              <lb ed="#K"/>libro 3 scilicet taxillorum</ref> /<quote xml:id="bHY6yh-d74449-Qd1e129">Sed minimus labor est 
+              <lb ed="#K"/>sapienter iactibus vti
+              <lb ed="#K"/>maius opus mores com<lb ed="#K" break="no"/>posuisse 
+              suos / Tunc sumus
+              <lb ed="#K"/>incauti studioque operimur 
+              <lb ed="#K"/>in ipso /Nudique prolusus 
+              <lb ed="#K"/>pectora nostra patent
+              <lb ed="#K"/>/ Ita subit deforme malum
+              <lb ed="#K"/>lucrique cupido iurgia et 
+              <lb ed="#K"/>rixe sollicitusque dolor 
+              <lb ed="#K"/>/ Crimina dominatur resonat 
+              <lb ed="#K"/>clamoribus ether In<lb ed="#K" break="no"/>uocat 
+              irratos quod sibi 
+              <lb ed="#K"/>quisque deos / Nulla fides 
+              <lb ed="#K"/>tabula quae non per vota 
+              <lb ed="#K"/>petuntur /Et lachrymis vi<lb ed="#K" break="no"/>di 
+              sepe madere genas</quote> 
+            </p>
+            <p xml:id="bHY6yh-d74449-d1e159">
+                <lb ed="#K"/> /<ref xml:id="bHY6yh-d74449-Rd1e161">Cato capitulo i</ref> <quote xml:id="bHY6yh-d74449-Qd1e163">fuge aleam</quote>
+            </p>
+            <p xml:id="bHY6yh-d74449-d1e168">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d74449-Rd1e172">Iacobus beneuentanus capitulo 7</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d74449-Qd1e172">Qui sequitur bachum 
+              <lb ed="#K"/>taxillos et meretrices
+              <lb ed="#K"/>Infamis semper semper egenus erit</quote>
+            </p>
+            <p xml:id="bHY6yh-d74449-d1e180">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d74449-Rd1e186">capitulo 51</ref> /<quote xml:id="bHY6yh-d74449-Qd1e184">Sunt taxillorum ludum 
+              <lb ed="#K"/>vitare memento nullam 
+              <lb ed="#K"/>iacturam ferre quod inde 
+              <lb ed="#K"/>queas Ludum quemque fuge 
+              <lb ed="#K"/>per que tua perdere possis</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
