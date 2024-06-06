@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 13 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+             <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 13 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-05-17">May 17, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+          <pb ed="#K" n="164-r"/>
+          <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d74864"><!-- p4l2-r13 -->
+            <head xml:id="bHY6yh-d74864-Hd1e108">Rubrica 13</head>
+            <head xml:id="bHY6yh-d74864-Hd1e111" type="question-title">De modo diuitiarum cupiendarum et habendarum</head>
+            <p xml:id="bHY6yh-d74864-d1e114">
+              <lb ed="#K" n="27"/>De modo diuitiarum 
+              <lb ed="#K"/>capiendarum et habendarum Rubrica 13 
+             </p>
+            <p xml:id="bHY6yh-d74864-d1e121">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d74864-Rd1e118">Salomon in prouerbiis capitulo 30</ref> <quote xml:id="bHY6yh-d74864-Qd1e127">Ait 
+              <lb ed="#K"/>salomon domino mendicitatem 
+              <lb ed="#K"/>et diuitias ne des 
+              <lb ed="#K"/>mihi tribue tantum victui 
+              <lb ed="#K"/>meo necessaria ne forte sa<lb ed="#K" break="no"/>turatus 
+              illiciar ad ne<lb ed="#K" break="no"/>gandum: 
+              et dicam quis est 
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>dominus et egestate compulsus 
+              <lb ed="#K"/>furer et periurem nomen
+              <lb ed="#K"/>dei mei</quote>
+            </p>
+            <p xml:id="bHY6yh-d74864-d1e144">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d74864-Rd1e144">Aristoteles ethicorum libro 10 et fina capitulo 7</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d74864-Qd1e148">Contingit moderata 
+              <lb ed="#K"/>possidentes agere que oportet</quote> 
+            </p>
+            <p xml:id="bHY6yh-d74864-d1e157"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d74864-Rd1e157">Idem <sic>pollyticorum</sic> libro 4 capitulo 9</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d74864-Qd1e159">Bene fortuitorum est pos<lb ed="#K" break="no"/>sessio 
+              que media omnium
+              <lb ed="#K"/>facillima enim ratio obe<lb ed="#K" break="no"/>dire
+              In fortunium maximum 
+              <lb ed="#K"/>est politicantes substantiam 
+              <lb ed="#K"/>habere mediam</quote>
+            </p>
+            <p xml:id="bHY6yh-d74864-d1e171">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d74864-Rd1e178">Oratius in epistolis libro i epistola 12</ref> <quote xml:id="bHY6yh-d74864-Qd1e175">pauper enim
+              <lb ed="#K"/>non est cui rerum suppe<lb ed="#K" break="no"/>tit 
+              vsus / Si ventri bene 
+              <lb ed="#K"/>si latius est pedibusque tu<lb ed="#K" break="no"/>is
+              nil diuitie poterunt 
+              <lb ed="#K"/>regales addere maius</quote>
+            </p>
+            <p xml:id="bHY6yh-d74864-d1e185">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d74864-Rd1e194">Seneca de tranquillitate 
+              <lb ed="#K"/>animi</ref> <quote xml:id="bHY6yh-d74864-Qd1e189">optimus pecunie modus 
+              <lb ed="#K"/>est qui nec in paupertatem
+              <lb ed="#K"/>cadit nec procul a pau<lb ed="#K" break="no"/>pertate 
+              recedit</quote>
+            </p>
+            <p xml:id="bHY6yh-d74864-d1e197">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d74864-Rd1e208">Cato capitulo 3</ref> <quote xml:id="bHY6yh-d74864-Qd1e201">Quod nimium est fugito
+              <lb ed="#K"/>paruo gaudere memento
+              <lb ed="#K"/>/ Tuta mage pupis est mo<lb ed="#K" break="no"/>dico 
+              quae flumine fertur</quote>
+            </p>
+            <p xml:id="bHY6yh-d74864-d1e209">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d74864-Rd1e222">prosper sub vlt capitulo</ref> <quote xml:id="bHY6yh-d74864-Qd1e213">contentus 
+              <lb ed="#K"/>modicis vitet sublimis 
+              <lb ed="#K"/>haberi</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
