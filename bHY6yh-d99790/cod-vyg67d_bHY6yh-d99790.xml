@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 15</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 15</title>
+               <date when="2024-06-12">June 12, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-06-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="209-v"/>
+            <cb ed="#O" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d99790"><!-- p5l2-r15 -->
+            <head xml:id="bHY6yh-d99790-Hd1e108">Rubrica 15</head>
+            <head xml:id="bHY6yh-d99790-Hd1e111" type="question-title">De explorationibus et exploratoribus</head>
+            <p xml:id="bHY6yh-d99790-d1e114">
+               De explorati<lb ed="#O" break="no"/>onibus 
+               et exploratoribus. Rubrica. 15.
+            </p>
+            <p xml:id="bHY6yh-d99790-d1e121"> 
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d99790-Rd1e118">FRontinus. libro 1. titulo 2.</ref> <quote xml:id="bHY6yh-d99790-Qd1e131">Scipio afri<lb ed="#O" break="no"/>canus 
+               capta occasione mitten<lb ed="#O" break="no"/>de 
+               ad sophacem legationis cum le<lb ed="#O" break="no"/>lio 
+               seruorum habitu tribunos 
+               <lb ed="#O"/>et centuriones electissimos ire 
+               <cb ed="#O" n="b"/>
+               <lb ed="#O"/>iussit quibus cure esset prospicere 
+               <lb ed="#O"/>regias uires. hii cum liberius castro<lb ed="#O" break="no"/>rum 
+               positionem scrutarentur equum de in<lb ed="#O" break="no"/>dustria 
+               dimissum tanquam fugientem 
+               <lb ed="#O"/>persecuti maximam partem munimen<lb ed="#O" break="no"/>torum 
+               cir cuierunt que cum nunciassent 
+               <lb ed="#O"/>incendio confectum est bellum. ¶ Car<lb ed="#O" break="no"/>taginenses 
+               cum animaduertissent ale<lb ed="#O" break="no"/>xandri 
+               ita magnas opes ut afri<lb ed="#O" break="no"/>ce 
+               quoque immineret unum ex ciuibus uirum 
+               <lb ed="#O"/>atrem nomine amilcarem thodium iu<lb ed="#O" break="no"/>xerunt 
+               simulato exilio ire ad regem omni<lb ed="#O" break="no"/>que
+               studio in amicitiam eius perueniret. 
+               <lb ed="#O"/>Qua is potitus consilia eius no<lb ed="#O" break="no"/>ta 
+               ciuibus suis faciebat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d99790-d1e172"> 
+               <!--paragraph omitted-->
+            </p>
+            <p xml:id="bHY6yh-d99790-d1e196">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d99790-Rd1e202">UEgetius de re militari libro 3. titulo 
+               <lb ed="#O"/>26. et finali.</ref> ¶ <quote xml:id="bHY6yh-d99790-Qd1e200">Difficle uincitur qui 
+               <lb ed="#O"/>uere potest de suis et aduersarii copiis 
+               <lb ed="#O"/>iudicare. ¶ Cum explorator hosti<lb ed="#O" break="no"/>um 
+               latenter oberret in castris omnes 
+               <lb ed="#O"/>ad temptoria sua per diem redire 
+               <lb ed="#O"/>iubeantur et statim deprehendetur 
+               <lb ed="#O"/>explorator.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
