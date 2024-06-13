@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 7</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 7</title>
+               <date when="2024-06-06">June 6, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-06-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="116-r"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d83992"><!-- p4l4-r7 -->
+            <head xml:id="bHY6yh-d83992-Hd1e108">Rubrica 7</head>
+            <head xml:id="bHY6yh-d83992-Hd1e111" type="question-title">De riduculis et vtrapelia</head>
+            <p xml:id="bHY6yh-d83992-d1e114">
+               de riduculis et intrapelia
+               capitulum
+            </p>
+            <p xml:id="bHY6yh-d83992-d1e119">
+               <ref xml:id="bHY6yh-d83992-Rd1e116">CRonica de
+               <lb ed="#C"/>nugis philosophorum capitulo VI scilicet de biante</ref>
+               <lb ed="#C"/><quote xml:id="bHY6yh-d83992-Qd1e127">bias unus de septem sapiententibus nauig<lb ed="#C" break="no"/>ans 
+               cum quibusdam impiis periclitati
+               <lb ed="#C"/>naui ac illis deos inuocantibus scilete in<lb ed="#C" break="no"/>quit 
+               ne sentiant uos hic nauigantes</quote>
+            </p>
+            <p xml:id="bHY6yh-d83992-d1e137">
+               <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d83992-Rd1e137">Aristoteles rethoricorum libro I capitulo 20</ref> <quote xml:id="bHY6yh-d83992-Qd1e141">Omnis remissio
+               <lb ed="#C"/>et risus delectabilium est necesse est re<lb ed="#C" break="no"/>missibilia 
+               delectabilia esse et homines et uer<lb ed="#C" break="no"/>ba 
+               et opera</quote>
+            </p>
+            <p xml:id="bHY6yh-d83992-d1e152"> 
+               ¶ <ref xml:id="bHY6yh-d83992-Rd1e152">Idem Libro 2 capitulo 16</ref> <quote xml:id="bHY6yh-d83992-Qd1e154">Iuuenes
+               <lb ed="#C"/>sunt amatores risus summa</quote>
+            </p>
+            <p xml:id="bHY6yh-d83992-d1e162">
+               ¶ <ref xml:id="bHY6yh-d83992-Rd1e164">Idem ethicorum libro
+               <lb ed="#C"/>4 capitulo 10</ref> <quote xml:id="bHY6yh-d83992-Qd1e164">qui neque ipsi dicunt aliquod ridi<lb ed="#C" break="no"/>culum 
+               et dicentibus malesci sunt aggres<lb ed="#C" break="no"/>tes 
+               et duri uidentur esse moderate autem
+               <lb ed="#C"/>ludentes eutrapelli appellantur</quote>
+            </p>
+            <p xml:id="bHY6yh-d83992-d1e176">
+               <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d83992-Rd1e183">Tullius de oratore libro 2</ref> <quote xml:id="bHY6yh-d83992-Qd1e180">Hec ridentur sola
+               <lb ed="#C"/>uel maxime que notant turpitudinem
+               <lb ed="#C"/>aliquam non turpiter ylaritas beniuolen<lb ed="#C" break="no"/>tiam 
+               conciliat ei per quem concitata est
+               <lb ed="#C"/>Materies ridiculorum omnis est in his uitiis
+               <lb ed="#C"/>que sunt in uitis hominum</quote>
+            </p>
+            <p xml:id="bHY6yh-d83992-d1e194">
+               ¶ <ref xml:id="bHY6yh-d83992-Rd1e203">Valerius
+               <lb ed="#C"/>maximus libro I de neglecta religione</ref>
+               <lb ed="#C"/><quote xml:id="bHY6yh-d83992-Qd1e198">Dionisius genitus siracusis detracto
+               <lb ed="#C"/>Ioui olimphio magnis ponderis aureo
+               <lb ed="#C"/>amictulo quo eum tirampnus hyero
+               <lb ed="#C"/>manubiis carthaginensium ornauerat in<pb ed="#C" n="116-v"/><cb ed="#C" n="a"/><lb ed="#C" break="no"/>iectoque 
+               laneo pallio dixit estate graue
+               <lb ed="#C"/>esse anexum aureum amictulum hyeme
+               <lb ed="#C"/>frigidum laneum autem ad utrumque tempus
+               <lb ed="#C"/>aptius</quote>
+            </p>
+            <p xml:id="bHY6yh-d83992-d1e223"> 
+               <ref xml:id="bHY6yh-d83992-Rd1e235">Idem</ref> <quote xml:id="bHY6yh-d83992-Qd1e225">dyonisius uictas aureas
+               <lb ed="#C"/>et coronas que silantiorum porrectis mani<lb ed="#C" break="no"/>bus 
+               sustinebantur tollebat et eas se ac<lb ed="#C" break="no"/>cipere 
+               non auferre dicebat per quam stul<lb ed="#C" break="no"/>tum 
+               esse augumentando a quibuscunque bona
+               <lb ed="#C"/>precamur ab hys porrigentibus nolle
+               <lb ed="#C"/>sumere</quote>
+            </p>
+            <p xml:id="bHY6yh-d83992-d1e242"> 
+               ¶ <ref xml:id="bHY6yh-d83992-Rd1e256">Idem Libro III titulo de fiducia sui</ref>
+               <lb ed="#C"/><quote xml:id="bHY6yh-d83992-Qd1e244">Spartanus quidam referente quodam
+               <lb ed="#C"/>sagiptis persarum solem obscurari solere
+               <lb ed="#C"/>bene narras inquit in umbra proeliabimur</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
