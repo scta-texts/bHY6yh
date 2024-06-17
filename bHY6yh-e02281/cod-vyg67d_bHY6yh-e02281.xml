@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 30</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 30</title>
+               <date when="2024-06-17">June 17, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="215-v"/>
+            <cb ed="#O" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e02281"><!-- p5l2-r30 -->
+            <head xml:id="bHY6yh-e02281-Hd1e108">Rubrica 30</head>
+            <head xml:id="bHY6yh-e02281-Hd1e111" type="question-title">De turbandis hostibus</head>
+            <p xml:id="bHY6yh-e02281-d1e114">
+               <lb ed="#O"/>De cautelis fligendi hostes ua<lb ed="#O" break="no"/>no 
+               terrore. Rubrica 30
+            </p>
+            <p xml:id="bHY6yh-e02281-d1e121">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-e02281-Rd1e118">UAlerius maxi<!--line bumps up-->mus libro titulo <!--line bumps back down--> strategema<lb ed="#O" break="no"/>tibus.</ref> 
+               ¶ <quote xml:id="bHY6yh-e02281-Qd1e127">Agathocles siracusa<lb ed="#O" break="no"/>rum
+               rex cum urbem eius maiore 
+               <lb ed="#O"/>ex parte carthaginenses occupassent 
+               <lb ed="#O"/>exercitum suum in aphricam transiecit 
+               <lb ed="#O"/>Ut metum metu. Uim. Ui discuteret 
+               <lb ed="#O"/>nec sine effectu nam repentino eius 
+               <lb ed="#O"/>aduentu perculsi peni libenter inco<lb ed="#O" break="no"/>lumitatem 
+               suam salute hostium 
+               <lb ed="#O"/>redimerunt pactique sunt ut in eodem 
+               <lb ed="#O"/>tempore et africa siculis et siculi punicis 
+               <lb ed="#O"/>armis liberarentur.</quote>
+            </p>
+            <p xml:id="bHY6yh-e02281-d1e152">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-e02281-Rd1e156">FRontinus libro. 1. <!--line bumps up--> titulo 3.</ref> ¶ <quote xml:id="bHY6yh-e02281-Qd1e160">Scipio <!--line bumps back down--> manente in 
+               <lb ed="#O"/>ytalia hannibale transmisso 
+               <lb ed="#O"/>in africam exercitu necessitate carta<lb ed="#O" break="no"/>ginensibus 
+               imposuit reuocandi ha<lb ed="#O" break="no"/>nibalem
+               sic a domesticis finibus 
+               <lb ed="#O"/>hostile transtulit bellum.</quote>
+            </p>
+            <p xml:id="bHY6yh-e02281-d1e173">
+               <!--paragraph omitted-->
+            </p>
+            <p xml:id="bHY6yh-e02281-d1e198"> 
+               ¶ <ref xml:id="bHY6yh-e02281-Rd1e201">libro. 3. titulo 
+               <lb ed="#O"/>6.</ref> <quote xml:id="bHY6yh-e02281-Qd1e200">p. Cornelius Scipio intellec<lb ed="#O" break="no"/>ta 
+               difficultate expugnandi deli<lb ed="#O" break="no"/>uinum 
+               quia concursum omnium defen<lb ed="#O" break="no"/>debatur
+               aggredi alia oppida cepit et
+               <lb ed="#O"/>euocatis ad suam defendendam sin<lb ed="#O" break="no"/>gulas 
+               uacuatum auxiliis delini<lb ed="#O" break="no"/>num 
+               cepit</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
