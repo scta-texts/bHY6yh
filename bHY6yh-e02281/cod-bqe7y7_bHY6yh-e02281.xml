@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 30</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 30</title>
+               <date when="2024-05-27">May 27, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness> 
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-05-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="225-v"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e02281"><!-- p5l2-r30 -->
+            <head xml:id="bHY6yh-e02281-Hd1e108">Rubrica 30</head>
+            <head xml:id="bHY6yh-e02281-Hd1e111" type="question-title">De turbandis hostibus</head>
+            <p xml:id="bHY6yh-e02281-d1e114">
+               <lb ed="#P"/>De cautelis inferendi hos<lb ed="#P" break="no"/>tibus
+               occasiones<!--inderendi is dotted out here-->
+               <lb ed="#P"/>recedendi aboppressione capitulo
+               <lb ed="#P"/>xxviiii
+            </p>
+            <p xml:id="bHY6yh-e02281-d1e121">
+               <lb ed="#P"/><ref xml:id="bHY6yh-e02281-Rd1e118">Valerius maximus libro vii titulo stra<lb ed="#P" break="no"/>gematibus</ref> 
+               <quote xml:id="bHY6yh-e02281-Qd1e127">Agatodes siracusarum
+               <pb ed="#P" n="225-r.[02.fs.0000]"/><!--there are two 225-r and 225-v-->
+               <cb ed="#P" n="a"/>
+               <lb ed="#P"/>cum urbem eius maiore ex parte 
+               <lb ed="#P"/>cartaginenses occupassent exercitum 
+               <lb ed="#P"/>suum in africam transiecit ut metum me<lb ed="#P" break="no"/>tu
+               uim ui discuteret / nec sine effec<lb ed="#P" break="no"/>tu 
+               nam eius aduentu percussi peni li<lb ed="#P" break="no"/>benter
+               incolumitatem suam salute hostium 
+               <lb ed="#P"/>dirimerunt pactique sunt ut eodem 
+               <lb ed="#P"/>tempore et affrica siculis et siculi puni<lb ed="#P" break="no"/>cis 
+               armis liberarentur.</quote>
+            </p>
+            <p xml:id="bHY6yh-e02281-d1e152">
+               <lb ed="#P"/><ref xml:id="bHY6yh-e02281-Rd1e156">Frontinus libro primo titulo iii</ref> <quote xml:id="bHY6yh-e02281-Qd1e160">Scipio ma<lb ed="#P" break="no"/>nente
+               in italia anibale transmisso in 
+               <lb ed="#P"/>affricam exercitu necessitate cartagi<lb ed="#P" break="no"/>nensibus 
+               imposuit reuocandi anibalem
+               <lb ed="#P"/>sic a domesticis finibus hostile trans<lb ed="#P" break="no"/>tulit 
+               bellum.</quote>
+            </p>
+            <p xml:id="bHY6yh-e02281-d1e173"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-e02281-Rd1e173">Ibidem titulo viii</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-e02281-Qd1e175">Marcus Curius 
+               <lb ed="#P"/>aduersus sabinos qui ingenti exer<lb ed="#P" break="no"/>citu 
+               conscripto relictis finibus nostros 
+               <lb ed="#P"/>occupauerant occultis itineribus ma<lb ed="#P" break="no"/>numisit 
+               que desolatos agros eorum vi<lb ed="#P" break="no"/>cosque 
+               per diuersa incendit sabini ad ar<lb ed="#P" break="no"/>cen 
+               domesticam recesserunt curioque con<lb ed="#P" break="no"/>tingit 
+               et vacuos infestare hostium 
+               <lb ed="#P"/>fines ut exercitum sine prelio uer<lb ed="#P" break="no"/>tere
+               sparsum cedere.</quote>
+            </p>
+            <p xml:id="bHY6yh-e02281-d1e198"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-e02281-Rd1e201">Idem libro iiii titulo vi</ref> <quote xml:id="bHY6yh-e02281-Qd1e200">publicus corne<lb ed="#P" break="no"/>lius 
+               <lb ed="#P"/>scipio intellecta difficultate expu<lb ed="#P" break="no"/>gnandi 
+               deliuinum quia concursu omnium de<cb ed="#P" n="b"/><lb ed="#P" break="no"/>fendebatur
+               aggredi alia opida cepit
+               <lb ed="#P"/>et uacuatis ad sua defendenda sin<lb ed="#P" break="no"/>gulis 
+               vacuatum auxiliis delium cepit</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
