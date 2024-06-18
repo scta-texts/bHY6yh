@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 31</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 31</title>
+               <date when="2024-05-27">May 27, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness> 
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-05-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="225B-r"/><!--there are two 225-r and 225-v listed: this is 225.r.[02.fs.0000]-->
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e02391"><!-- p5l2-r31 -->
+            <head xml:id="bHY6yh-e02391-Hd1e108">Rubrica 31</head>
+            <head xml:id="bHY6yh-e02391-Hd1e111" type="question-title">De cautelis fugandi hostes vano terrore</head>
+            <p xml:id="bHY6yh-e02391-d1e114">
+               <lb ed="#P"/>De turbandis hostibus capitulo 
+               <lb ed="#P"/>xxx
+            </p>
+            <p xml:id="bHY6yh-e02391-d1e123">
+               <lb ed="#P"/><ref xml:id="bHY6yh-e02391-Rd1e120">Frontinus libro ii titulo iiii</ref> <quote xml:id="bHY6yh-e02391-Qd1e129">Gresus pre<lb ed="#P"/>ualido 
+               hostium equitatui camelorum 
+               <lb ed="#P"/>gregem opposuit quorum nouitate 
+               <lb ed="#P"/>et terrore consternati equi non solum 
+               <lb ed="#P"/>insidentes precipitauerunt sed pedi<lb ed="#P" break="no"/>tum
+               quoque suorum ordines protriuerunt 
+               <lb ed="#P"/>vincendosque hosti tribuerunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-e02391-d1e146"> <!--combined with above-->
+               <quote xml:id="bHY6yh-e02391-Qd1e148">Uolscorum 
+               <lb ed="#P"/>castra cum prope virgulti siluam po<lb ed="#P" break="no"/>sita 
+               essent / camillus ea omnia que con<lb ed="#P" break="no"/>cepta 
+               usque inter valla proferre pote<lb ed="#P" break="no"/>rant 
+               incendit et sic aduersarios cas<lb ed="#P" break="no"/>tris
+               exuit</quote>
+            </p>
+            <p xml:id="bHY6yh-e02391-d1e161"> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-e02391-Qd1e163">hystari contra amilcha<lb ed="#P" break="no"/>rem 
+               boues <sic>vicciculis</sic> uinctos inprima 
+               <lb ed="#P"/>fronte constituerunt vechiculi rede
+               <lb ed="#P"/>sepi et sulfuris plena signo pug<lb ed="#P" break="no"/>ne 
+               dato incenderunt actis deinde 
+               <lb ed="#P"/>in hostem bobus consternatam aciem proru<lb ed="#P" break="no"/>perunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-e02391-d1e177"> 
+               <lb ed="#P"/><ref xml:id="bHY6yh-e02391-Rd1e179">Idem titulo iiii et finali titulo vii</ref> <quote xml:id="bHY6yh-e02391-Qd1e179">anibal 
+               <lb ed="#P"/>regi antioco monstrauit ut in hos<lb ed="#P" break="no"/>tium 
+               classem vascula iacularentur 
+               <lb ed="#P"/>viperis plena / Quare metu perterriti mi<lb ed="#P" break="no"/>lites 
+               a dimicatione / et nauticis mis<pb ed="#P" n="225B-v"/><!--[02.fs.0000]--><cb ed="#P" n="a"/><lb ed="#P" break="no"/>teriis
+               impedirentur sic fecit iam cedente 
+               <lb ed="#P"/>classe sua prusias.</quote>
+            </p>
+            <p xml:id="bHY6yh-e02391-d1e202">
+               OMITTED
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
