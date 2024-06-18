@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 1</title>
+               <date when="2024-05-28">May 28, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-05-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="151-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d87025"><!-- p4l5-r1 -->
+            <head xml:id="bHY6yh-d87025-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d87025-Hd1e111" type="question-title">De venerei amoris laude</head>
+            <p xml:id="bHY6yh-d87025-d1e114">
+              <lb ed="#B"/>QUintus li<lb ed="#B" break="no"/>ber 
+              quar<lb ed="#B" break="no"/>te 
+              partis 
+              <lb ed="#B"/>tractat de 
+              amore ve<lb ed="#B" break="no"/>nero 
+              et e<lb ed="#B" break="no"/>ius 
+              libidi<lb ed="#B" break="no"/>ne 
+              sub hiis 
+              <lb ed="#B"/>tytulis se<lb ed="#B" break="no"/>quentibus
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e123">
+              De veneri Amoris laude Rubrica I
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e130">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87025-Rd1e127">ARistotiles problematum parte 4 pro<lb ed="#B" break="no"/>bleum 15</ref> <quote xml:id="bHY6yh-d87025-Qd1e138">Coire delectabilis<lb ed="#B" break="no"/>simum 
+              est</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e145">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87025-Rd1e145">ORatius<!--line jumps up--> in epistolis</ref> <quote xml:id="bHY6yh-d87025-Qd1e149">Si inuimus<!--line jumps down--> vti censet sine amo<lb ed="#B" break="no"/>re 
+              iocisque ¶ Nil est iocundum 
+              <lb ed="#B"/>uiuas in amore iocisque</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e157">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87025-Rd1e159">Ovidius de remedio<!--line jumps up--> amoris<!--line jumps down--> libro I</ref> <quote xml:id="bHY6yh-d87025-Qd1e161">Si 
+              <lb ed="#B"/>quis amat quod amare iuuat 
+              <lb ed="#B"/>feliciter ardet ¶ Gaudeat et uen<lb ed="#B" break="no"/>to 
+              nauiget ille suo</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e169">
+              ¶ <ref xml:id="bHY6yh-d87025-Rd1e173">Idem de 
+              <lb ed="#B"/>fastis libro 2</ref> ¶ <quote xml:id="bHY6yh-d87025-Qd1e173">Quid genus omne
+              <lb ed="#B"/>creat uolucrum nisi blanda uo<lb ed="#B" break="no"/>luptas
+              ¶ Nec coeunt pecudes si 
+              <lb ed="#B"/>leuis absit amor ¶ Cum mare 
+              <lb ed="#B"/>trux aries cornu decertat et 
+              <lb ed="#B"/>idem ¶ fronte dilecte ledere 
+              <lb ed="#B"/>parcit ouis ¶ deposita sequitur 
+              <lb ed="#B"/>taurus feritate iuuencam</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e187">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87025-Rd1e193">Qvintilianus declamationum 13 declamate</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d87025-Qd1e191">Amor est vnde gaudium 
+              <lb ed="#B"/>vnde venit vite tota letitia</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e199"> 
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87025-Rd1e208">PAulus apostolus epistola ad corinthe<lb ed="#B" break="no"/>os 
+              capitulo 11</ref> <quote xml:id="bHY6yh-d87025-Qd1e203">Mulier gloria est viri</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e217">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87025-Rd1e221">SEneca tragediarum in ypolito 
+              <lb ed="#B"/>capitulo 5</ref> <quote xml:id="bHY6yh-d87025-Qd1e225">Truculentus et siluester 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>et uite inscius ¶ Tristem inuuen<lb ed="#B" break="no"/>tam 
+              venere deserta colis</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e215">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87025-Rd1e236">AVctor libri qui dicitur<!--line jumps up--> facetus<!--line jumps down--> capitulo 4</ref> <quote xml:id="bHY6yh-d87025-Qd1e219">Pec<lb ed="#B" break="no"/>tora 
+              pascit amor sine quo 
+              <lb ed="#B"/>sunt gaudia nulla</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e228">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d87025-Rd1e252">RIcardus iudex ve<!--line jumps up-->nussinus<!--line jumps down--> libro de per<lb ed="#B" break="no"/>tractatione 
+              nuptiarum capitulo 49</ref> <quote xml:id="bHY6yh-d87025-Qd1e232">feminee 
+              <lb ed="#B"/>tactu carnis non dulcior ullus
+              <lb ed="#B"/>¶ Humanis rebus tactus inesse 
+              <lb ed="#B"/>potest</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
