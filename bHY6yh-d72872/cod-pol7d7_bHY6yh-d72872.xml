@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 3 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+             <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 3 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-05-16">May 16, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="159-v"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d72872"><!-- p4l2-r3 -->
+            <head xml:id="bHY6yh-d72872-Hd1e108">Rubrica 3</head>
+            <head xml:id="bHY6yh-d72872-Hd1e111" type="question-title">De lucro et acquisitione diuitiarum</head>
+            <p xml:id="bHY6yh-d72872-d1e114">
+              <lb ed="#K" n="18"/>De lucro et acquisitione diui<lb ed="#K" break="no"/>tiarum
+              Rubrica Tertia :
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e121">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d72872-Rd1e118">Salomon in prouerbiis capitulo 13</ref> <quote xml:id="bHY6yh-d72872-Qd1e127">Substan<lb ed="#K" break="no"/>tia 
+              festinata minuetur 
+              <lb ed="#K"/>que autem paulatim colli<lb ed="#K" break="no"/>gitur 
+              manu multiplicabitur</quote> 
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e137">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d72872-Rd1e135">capitulo 28</ref> /<quote xml:id="bHY6yh-d72872-Qd1e139">Qui festinat ditari 
+              <lb ed="#K"/>non erit innocens</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e146">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d72872-Rd1e146">Idem in ecclesiastia capitulo 3</ref> /<quote xml:id="bHY6yh-d72872-Qd1e148">Tempus ac<lb ed="#K" break="no"/>quirendi 
+              et tempus perdendi</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e154">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d72872-Rd1e158">Cronica de nugis philosophorum 
+              <lb ed="#K"/>capitulo 2 scilicet de thalete</ref> /<quote xml:id="bHY6yh-d72872-Qd1e158">Thales 
+              <lb ed="#K"/>qui primi sapiens nomina<lb ed="#K" break="no"/>tus 
+              est secundum quem et septem 
+              <lb ed="#K"/>sapientes vocati sunt inter<lb ed="#K" break="no"/>rogatus 
+              quid difficillimum
+              <lb ed="#K"/>ait acquirere</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e170">
+              ¶ <ref xml:id="bHY6yh-d72872-Rd1e175">capitulo 6 scilicet de 
+              <lb ed="#K"/>biante</ref> <quote xml:id="bHY6yh-d72872-Qd1e172">bias qui fuit vnus 
+              <lb ed="#K"/>de septem sapientibus quesitus 
+              <lb ed="#K"/>quid faciens homo letatur
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>lucrans ait</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e180">
+               <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d72872-Rd1e189">Aristotelis ethicorum libro 8 capitulo 8 et fi</ref> <quote xml:id="bHY6yh-d72872-Qd1e184">Indigentie 
+               <lb ed="#K"/>auxilium est lucrum</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e190">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d72872-Rd1e199">Idem rethoricum libro 2 capitulo 16</ref> <quote xml:id="bHY6yh-d72872-Qd1e192">senes 
+              <lb ed="#K"/>seruiunt lucro</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e198">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d72872-Rd1e210">Idem polyticorum libro 5 capitulo 2</ref> <quote xml:id="bHY6yh-d72872-Qd1e200">De quibus. 
+              <lb ed="#K"/>desident ciues sunt lucrum 
+              <lb ed="#K"/>et honor</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e209"> 
+              ¶ <ref xml:id="bHY6yh-d72872-Rd1e224">libro 6 capitulo 3</ref> <quote xml:id="bHY6yh-d72872-Qd1e211">multi
+              <lb ed="#K"/>magis appetunt lucrum 
+              <lb ed="#K"/>quam honorem</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e217">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d72872-Rd1e236">Iesus filius sirach in ecclasiastica capitulo 5</ref> <quote xml:id="bHY6yh-d72872-Qd1e221">noli anxius 
+              <lb ed="#K"/>esse in diuitiis iniustis</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e227">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d72872-Rd1e246">capitulo 25</ref> <quote xml:id="bHY6yh-d72872-Qd1e229">Que in inuuentute 
+              <lb ed="#K"/>tua non congregasti quomodo 
+              <lb ed="#K"/>inuenies in senectute tua</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e237">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d72872-Rd1e260">Terentius in adelphis. 
+              <lb ed="#K"/>¶ capitulo 5</ref> <quote xml:id="bHY6yh-d72872-Qd1e241">pecuniam in loco ne<lb ed="#K" break="no"/>gligere 
+              maximum interdum 
+              <lb ed="#K"/>est lucrum</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e247">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d72872-Rd1e272">Oratius in epistolis libro i epistola i</ref> /<quote xml:id="bHY6yh-d72872-Qd1e251">O ciues ciues
+              <lb ed="#K"/>querenda pecunia primum 
+              <lb ed="#K"/>est uirtus post nummos</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e259">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d72872-Rd1e286">Idem in sermonibus libro 2 ser<lb ed="#K" break="no"/>mone 
+              5</ref> <quote xml:id="bHY6yh-d72872-Qd1e263">dixi equidem 
+              <lb ed="#K"/>et dico captes astutus 
+              <lb ed="#K"/>vbique testamenta senum non
+              <lb ed="#K"/>si vafer vnus et alterus
+              <lb ed="#K"/>Insidiatorem proroso 
+              <lb ed="#K"/>fugerit hamo aut spem 
+              <lb ed="#K"/>deponas aut artem illusus 
+              <lb ed="#K"/>omittas</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e276">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d72872-Rd1e305">Ouidius de arte amandi libro 2</ref> <quote xml:id="bHY6yh-d72872-Qd1e280">Credita 
+              <lb ed="#K"/>non sulci semper cum fenore 
+              <lb ed="#K"/>reddunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e286">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d72872-Rd1e317">Seneca tragediarum in hercule etheo capitulo 2</ref> <quote xml:id="bHY6yh-d72872-Qd1e290">Comm<lb ed="#K" break="no"/>oda 
+              cladibus magis 
+              <lb ed="#K"/>magna patent</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e298">
+              <ref xml:id="bHY6yh-d72872-Rd1e331">Idem 
+                <pb ed="#K" n="160-r"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K"/>/ Idem epistolarum ad lucillum libro 3 epistola</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d72872-Qd1e302">Repraesentat opes sapientia</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e308">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d72872-Rd1e341">libro 12 epistola 2 et fi</ref> /<quote xml:id="bHY6yh-d72872-Qd1e310">Ex multis pau<lb ed="#K" break="no"/>pertatibus 
+              diuitie fiunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e322">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d72872-Rd1e359">Lucanus libro i</ref> <quote xml:id="bHY6yh-d72872-Qd1e326">paupertas fugitur 
+              <lb ed="#K"/>totoque accersitur et acquiritur
+              <lb ed="#K"/>orbe</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e332">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d72872-Rd1e372">lex dig ti ad legem falci libro predia</ref> <quote xml:id="bHY6yh-d72872-Qd1e336">perposterum est 
+              <lb ed="#K"/>ante nos locupletes di<lb ed="#K" break="no"/>ci 
+              quam acquisierimus</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e345">
+              ¶ <ref xml:id="bHY6yh-d72872-Rd1e385">ti de re<lb ed="#K" break="no"/>gum
+              iur libro Infrascriptis</ref> <quote xml:id="bHY6yh-d72872-Qd1e347">secundum naturam 
+              <lb ed="#K"/>est commoda cuiusque rei eum
+              <lb ed="#K"/>sequi quem sequuntur incommo<lb ed="#K" break="no"/>da 
+              iure ciuili equum est 
+              <lb ed="#K"/>neminem cum alterius detri<lb ed="#K" break="no"/>mento
+              vel iniuria fieri lo<lb ed="#K" break="no"/>cupletiorem</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e359">
+               <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d72872-Rd1e403">Cassiodorus epistolarum libro 7 epistola 9</ref> <quote xml:id="bHY6yh-d72872-Qd1e363">a paucis acci<lb ed="#K" break="no"/>pit 
+               qui nimium querit</quote>
+            </p>
+            <p xml:id="bHY6yh-d72872-d1e369">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d72872-Rd1e415">prouerb metrice extra ordo libro vag</ref> <quote xml:id="bHY6yh-d72872-Qd1e373">dat galienus 
+              <lb ed="#K"/>opes dat sanctio iustinia<lb ed="#K" break="no"/>na
+              / Ex aliis paleas ex 
+              <lb ed="#K"/>istis collige grana</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
