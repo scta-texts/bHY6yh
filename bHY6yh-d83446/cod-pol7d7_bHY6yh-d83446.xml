@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-06-19">June 19, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#V" n="183-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d83446"><!-- p4l4-r4 -->
+            <head xml:id="bHY6yh-d83446-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-d83446-Hd1e111" type="question-title">De tedio</head>
+            <p xml:id="bHY6yh-d83446-d1e114">
+                <lb ed="#K"/>De tedio. Rubrica. 4
+            </p>
+            <p xml:id="bHY6yh-d83446-d1e119">
+                <pb ed="#K" n="183-v"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/> <ref xml:id="bHY6yh-d83446-Rd1e116">OUidius de ponto: libro 4. et finali. epistola 
+              <lb ed="#K"/>10.</ref> <quote xml:id="bHY6yh-d83446-Qd1e125">Non bene causatantes labor 
+              <lb ed="#K"/>est audire puellas.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d83446-d1e131">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d83446-Rd1e131">Ambrosius de officiis: libro i. capitulo 2.</ref> <quote xml:id="bHY6yh-d83446-Qd1e135">Sermo 
+              <lb ed="#K"/>tediosus iras excitat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d83446-d1e142">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d83446-Rd1e144">Cassiodorus epistolarum: libro 6. epistola 12.</ref> <quote xml:id="bHY6yh-d83446-Qd1e146">Im<lb ed="#K" break="no"/>becillitas 
+              humana raro 
+              <lb ed="#K"/>sustinere solet fastidia</quote>
+            </p>
+            <p xml:id="bHY6yh-d83446-d1e158"> 
+              <ref xml:id="bHY6yh-d83446-Rd1e160">Libro 
+              <lb ed="#K"/>12. et finali. epistola 22.</ref>  <quote xml:id="bHY6yh-d83446-Qd1e160">Melius est 
+              <lb ed="#K"/>debita frugibus soluere quam 
+              <lb ed="#K"/>ementium fastidia sustinem.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
