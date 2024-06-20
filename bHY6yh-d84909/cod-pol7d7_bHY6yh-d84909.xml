@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 11 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 11 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-06-20">June 20, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="186-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d84909"><!-- p4l4-r11 -->
+            <head xml:id="bHY6yh-d84909-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-d84909-Hd1e111" type="question-title">De concupiscentia voluptatum</head>
+            <p xml:id="bHY6yh-d84909-d1e114">
+              De concu<lb ed="#K" break="no"/>piscentia 
+              voluptatum. Rubrica 11.
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e119">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e116">ARistoteles Rethoricorum libro i. capitulo i.</ref> <quote xml:id="bHY6yh-d84909-Qd1e125">Con<lb ed="#K" break="no"/>cupiscentia 
+              est delectabilis 
+              <lb ed="#K"/>appetitus.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e131"> 
+              <ref xml:id="bHY6yh-d84909-Rd1e128">Libro 2. capitulo 26.</ref> <quote xml:id="bHY6yh-d84909-Qd1e133">Iuue<lb ed="#K" break="no"/>nes 
+              sunt concupiscitiui et quales 
+              <lb ed="#K"/>facere <sic>quecuque</sic> concupiscunt. 
+              <lb ed="#K"/>Iuuenes sunt cito satura<lb ed="#K" break="no"/>biles 
+              ad concupiscentias et 
+              <lb ed="#K"/>vehementer quidem concupiscunt: 
+              <lb ed="#K"/> celeriter autem desinunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e155"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e157">Idem polyticorum: libro 2. capitulo 4</ref> <quote xml:id="bHY6yh-d84909-Qd1e157">Infinita est natura
+              <lb ed="#K"/>concupiscentie ad cuius reple<lb ed="#K" break="no"/>tionem 
+              multi viuunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e165"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e169">Idem ethicorum libro 3. epistola 11. et finali.</ref> <quote xml:id="bHY6yh-d84909-Qd1e167">Quemadmodum 
+              <lb ed="#K"/>puerum  oportet secundum preceptum pe<lb ed="#K" break="no"/>dagogi 
+              viuere: sic et concupis<lb ed="#K" break="no"/>cibile 
+              consonare rationi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e177"> 
+              <ref xml:id="bHY6yh-d84909-Rd1e184">libro 7. 
+              <lb ed="#K"/>capitulo 10.</ref> <quote xml:id="bHY6yh-d84909-Qd1e179">Non hominis qui propter delectationem 
+              <lb ed="#K"/>aliquid  operatur est intemptatus 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>siue prauus siue incontinens: 
+              <lb ed="#K"/>sed qui propter turpem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e189"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e198">Idem <sic> topirum:</sic> libro 3.</ref> <quote xml:id="bHY6yh-d84909-Qd1e191">Magis iuuenes quam 
+              <lb ed="#K"/>senes a concupiscentiis mo<lb ed="#K" break="no"/>lestantur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e199"> 
+            <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e214">Idem elenco libro i.</ref> <quote xml:id="bHY6yh-d84909-Qd1e201">Concupiscentia est appetitus 
+            <lb ed="#K"/>delectationis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e207">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e226">Terentius in heautontumerumenon. capitulo 4.</ref> <quote xml:id="bHY6yh-d84909-Qd1e211">Animus vbi semel 
+              <lb ed="#K"/>se cupiditate deuixerit mala: 
+              <lb ed="#K"/>necesse est consilia consequi consimilia.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e220">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e241">Salustius in iugurtino:</ref> <quote xml:id="bHY6yh-d84909-Qd1e224">Natura 
+              <lb ed="#K"/>mortalium praeceps est ad 
+              <lb ed="#K"/>explendam animi cupiditatem. 
+              <lb ed="#K"/>Animo cupienti nihil satis 
+              <lb ed="#K"/>festinatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e232">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e255">Tullius rethoricorum artis veteris libro i. in prohemio:</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d84909-Qd1e236">Ceca ac temeraria est 
+              <lb ed="#K"/>dominatrix animi cupiditas.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e244"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e268">11. capitulo.</ref> <quote xml:id="bHY6yh-d84909-Qd1e246">Genus est nimirum 
+              <lb ed="#K"/>omnium libidinum cupiditas</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e252"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e278">Idem rethoricorum artis noue. libro 2. 
+              <lb ed="#K"/>capitulo 6.</ref> <quote xml:id="bHY6yh-d84909-Qd1e254">Stultitia parit im<lb ed="#K" break="no"/>mensas 
+              cupiditates.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e262"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e291">Idem de fine bonorum et malorum:
+              <lb ed="#K"/>libro i.</ref> <quote xml:id="bHY6yh-d84909-Qd1e264">Cupiditates sunt in<lb ed="#K" break="no"/>saciabiles 
+              Ex cupiditatibus 
+              <lb ed="#K"/>odia desidia discordie se<lb ed="#K" break="no"/>ditiones
+              bella nascuntur. 
+              <lb ed="#K"/>Inanium cupiditatum nec 
+              <lb ed="#K"/>modus vllus nec finis in<lb ed="#K" break="no"/>ueniri 
+              potest.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e276"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e308">Idem tusculanarum questionum libro 3.</ref> <quote xml:id="bHY6yh-d84909-Qd1e278" source="http://scta.info/resource/ctd99a-cuh77a-d1e106@21-36">Animus eger vt ait 
+              <lb ed="#K"/>ennius semper errat: neque pati 
+              <lb ed="#K"/>neque perpeti potest: cupere nunquam 
+              <lb ed="#K"/>desinit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e289"> 
+              <ref xml:id="bHY6yh-d84909-Rd1e324">libro 5. et finali.</ref> <quote xml:id="bHY6yh-d84909-Qd1e291">Stultitia 
+              <lb ed="#K"/>etsi adepta est quod concupiuit: 
+              <lb ed="#K"/>numquam tamen se satis consecutam 
+              <lb ed="#K"/>putat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e299">
+             <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e338">Ouidius de ponto libro 4. et finali. epistola 15. et penultimo.</ref> <quote xml:id="bHY6yh-d84909-Qd1e303">Res immoderata 
+                <pb ed="#K" n="186-v"/>
+                <cb ed="#K" n="a"/>
+             <lb ed="#K" n="1"/>cupido est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e309">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e350">Quintillianus declamationum. 13 declama:</ref> <quote xml:id="bHY6yh-d84909-Qd1e313">Non fouet non 
+              <lb ed="#K"/>nutrit ardorem concupis<lb ed="#K" break="no"/>cendi 
+              vbi frui licet.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e321">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e365">Seneca epistolarum ad lucillum. libro 3. capitulo i.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d84909-Qd1e325">Nos ceca cupiditas nocitura 
+              <lb ed="#K"/>certe nunquam sanatura precipitat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e333"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e377">5. epistola.</ref> <quote xml:id="bHY6yh-d84909-Qd1e335">Altera cupiditas ex 
+              <lb ed="#K"/>fine alterius nascitur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e341"> 
+              <ref xml:id="bHY6yh-d84909-Rd1e387">libro 19. 
+              <lb ed="#K"/>epistola 4.</ref> <quote xml:id="bHY6yh-d84909-Qd1e343">Nemo est cui felicitas 
+              <lb ed="#K"/>sua etiam si cursu eueniat 
+               <lb ed="#K"/>satifaciat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e354">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e404">Idem de clementia:</ref> <quote xml:id="bHY6yh-d84909-Qd1e358">Facit quidem nimis auidos 
+              <lb ed="#K"/>nimia felicitas: neque tam 
+              <lb ed="#K"/>temperate sunt cupiditates vnquam 
+              <lb ed="#K"/>vt in ea quod contingit desinant.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e368"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e418">Idem de breuitate vite</ref> <quote xml:id="bHY6yh-d84909-Qd1e370">Precipitat 
+              <lb ed="#K"/>quisque vitam suam: et futuri
+              <lb ed="#K"/> desiderio laborat praesentium 
+              <lb ed="#K"/>tedio. Maximum viuendi im<lb ed="#K" break="no"/>pedimentum 
+              expectatio que 
+              <lb ed="#K"/>pendet ex crastino.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e380">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e434">Ualerius maximus: libro 7. titulo 2. in fine.</ref> <quote xml:id="bHY6yh-d84909-Qd1e384">
+              <lb ed="#K"/>Turpiter aliquid concupiscere et
+              <lb ed="#K"/>in eo perseueranter morari 
+              <lb ed="#K"/>exitio ea dulcedo est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e392">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e448">Ambrosius de officiis: libro i. capitulo 19.</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d84909-Qd1e396">Quam multos etiam fortes 
+              <lb ed="#K"/>illecebra decepit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e402">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e460">Boetius de consolatione libro 2. capitulo 4.</ref>  <quote xml:id="bHY6yh-d84909-Qd1e406" source="http://scta.info/resource/hy7y6y-d1e59-d1e147@52-59">Quesita
+              <lb ed="#K"/>vorans seua rapacitas 
+              <lb ed="#K"/>alios pandit hyatus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d84909-d1e412">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d84909-Rd1e472">Hugo de sancto victore compendii 
+              <lb ed="#K"/>philosophie. libro i. capitulo 2.</ref> <quote xml:id="bHY6yh-d84909-Qd1e416">Concupiscentia 
+              <lb ed="#K"/>est immoderatus appetitus 
+              <lb ed="#K"/>sensualitatis: excedens modum rationis.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
