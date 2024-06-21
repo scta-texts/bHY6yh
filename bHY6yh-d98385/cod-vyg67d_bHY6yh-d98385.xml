@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5</title>
+               <date when="2024-06-10">June 10, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-06-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="206-v"/>
+            <cb ed="#O" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d98385"><!-- p5l2-r5 -->
+            <head xml:id="bHY6yh-d98385-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-d98385-Hd1e111" type="question-title">De militia et officio et laudibus militum et sacramento eorum</head>
+            <p xml:id="bHY6yh-d98385-d1e114">
+               De militia et officio 
+               <lb ed="#O"/>et laudibus militum et sacramento eorum. 
+               <lb ed="#O"/>Rubrica. 5.
+            </p>
+            <p xml:id="bHY6yh-d98385-d1e121">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d98385-Rd1e118">UEgetius <!--line bumps up--> de re militari libro 2. titulo 5.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-d98385-Qd1e127">Iurant milites omnia 
+               <lb ed="#O"/>se strenue facturos que pre<lb ed="#O" break="no"/>ceperit 
+               imperator nunquam deserturos 
+               <lb ed="#O"/>militiam nec mortem recusaturos 
+               <lb ed="#O"/>pro re publica.</quote>
+            </p>
+            <p xml:id="bHY6yh-d98385-d1e139"> 
+               ¶ <ref xml:id="bHY6yh-d98385-Rd1e137">18. libro.</ref> <quote xml:id="bHY6yh-d98385-Qd1e141">In congruum 
+               <lb ed="#O"/>uideretur imperatoris militem qui ueste 
+               <pb ed="#O" n="207-r"/>
+               <cb ed="#O" n="a"/>
+               <lb ed="#O"/>et annona publica pasceretur uti<lb ed="#O" break="no"/>litatibus 
+               uacare puatis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d98385-d1e150"> 
+               ¶ <ref xml:id="bHY6yh-d98385-Rd1e150">33 titulo
+               <lb ed="#O"/>et penultimo.</ref> <quote xml:id="bHY6yh-d98385-Qd1e152">Miles sacramento lectus ab exercitio 
+               <lb ed="#O"/>armorum uel nouellus uel uetustus 
+               <lb ed="#O"/>cesare non debet cui pugnandum est.
+               <lb ed="#O"/>pro salute propria uel libertate communi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d98385-d1e164"> 
+               <lb ed="#O"/><ref xml:id="bHY6yh-d98385-Rd1e167">ref omitted</ref> ¶ <quote xml:id="bHY6yh-d98385-Qd1e166">Publicis debent utilitatibus insudare 
+               <lb ed="#O"/>qui nomen dedere militie. quid enim 
+               <lb ed="#O"/>agat homo si professo desit officio</quote>
+            </p>
+            <p xml:id="bHY6yh-d98385-d1e176"> 
+               <lb ed="#O"/><ref xml:id="bHY6yh-d98385-Rd1e181">libro 3. titulo 3.</ref> <quote xml:id="bHY6yh-d98385-Qd1e178">Diuitiarum secura non est 
+               <lb ed="#O"/>possessio nisi armorum defensione serue<lb ed="#O" break="no"/>tur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d98385-d1e186"> 
+               ¶ <ref xml:id="bHY6yh-d98385-Rd1e193">10. titulo.</ref> <quote xml:id="bHY6yh-d98385-Qd1e188">Quis dubitat artem bel<lb ed="#O" break="no"/>licam 
+               rebus omnibus esse potiorem
+               <lb ed="#O"/>per quam libertas retinetur et dignitas 
+               <lb ed="#O"/>prouincie propagatur conseruatur 
+               <lb ed="#O"/>imperium.</quote>
+            </p>
+            <p xml:id="bHY6yh-d98385-d1e198">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d98385-Rd1e209">CAssio<!--line bumps up-->dorus epistolarum. libro i. epsitola 16.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-d98385-Qd1e202">Animus ipse in audaciam 
+               <lb ed="#O"/>non potest esse pronus qui diuersa 
+               <lb ed="#O"/>cura fuerit sollicitus hanc meri<lb ed="#O" break="no"/>to 
+               expeditionem nominauere maiores
+               <lb ed="#O"/>quia mens deuota preliis non dicitur 
+               <lb ed="#O"/>aliis cogitationibus occupari. 
+               <lb ed="#O"/>¶ Constat tempore necessitatis illum 
+               <lb ed="#O"/>probari fortissimum uirum qui se per 
+               <lb ed="#O"/>multa non distrahit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d98385-d1e221"> 
+               ¶ <ref xml:id="bHY6yh-d98385-Rd1e232">libro 11. epistola. 37.</ref> 
+               <lb ed="#O"/><quote xml:id="bHY6yh-d98385-Qd1e223">Sub incerta uita militia est.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
