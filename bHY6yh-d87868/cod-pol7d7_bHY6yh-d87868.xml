@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 3 et 4 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 3 et 4 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-06-21">June 21, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="192-v"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d87868"><!-- p4l5-r3-4 -->
+            <head xml:id="bHY6yh-d87868-Hd1e108">Rubrica 3 et 4</head>
+            <head xml:id="bHY6yh-d87868-Hd1e111" type="question-title">De modis eliciendi alterius voluntatem ad se amandum venero amore; De his que parant hominem libidini veneree</head>
+            <p xml:id="bHY6yh-d87868-d1e114"> 
+              <lb ed="#K"/>De modis alliciendi alterius 
+              <lb ed="#K"/>voluntatem ad se a<lb ed="#K" break="no"/>mandum 
+              amore: venereo: et dehis 
+             <lb ed="#K"/>que parant hominem libidini 
+              <lb ed="#K"/>veneneree. Rubrica. 3 et quinta <!--new text-->
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e125">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d87868-Rd1e122">SAlomon in prouerbiis. capitulo 20.</ref> <quote xml:id="bHY6yh-d87868-Qd1e131">Luxuri<lb ed="#K" break="no"/>osa 
+              res vinum.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e137">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d87868-Rd1e137">Aristoteles probleumatum. parte 4 probleumate 5.</ref> <quote xml:id="bHY6yh-d87868-Qd1e143">Corpus 
+              <lb ed="#K"/>quod debet coire oportet intrin<lb ed="#K" break="no"/>secus 
+              calidum esse et humidum. 
+              <lb ed="#K"/>Discalceatio deficcat et in  
+              <lb ed="#K"/>et infrigidat. Quare siue 
+              <lb ed="#K"/>impossibile est non calidis ex<lb ed="#K" break="no"/>istentibus 
+              pedibus spermaticare 
+              <lb ed="#K"/>siue difficile necesse est non
+              <lb ed="#K"/>conferens esse ad vsum venere<lb ed="#K" break="no"/>orum 
+              discalceationem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e161"> 
+              <ref xml:id="bHY6yh-d87868-Rd1e162">problemate.
+              <lb ed="#K"/>9</ref> <quote xml:id="bHY6yh-d87868-Qd1e163">Non possumus plen ex<lb ed="#K" break="no"/>istente 
+              vesica cito coire</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e169"> 
+              <ref xml:id="bHY6yh-d87868-Rd1e172">problemate.
+              <lb ed="#K"/>xi</ref> <quote xml:id="bHY6yh-d87868-Qd1e171">Equitantes continue 
+              <lb ed="#K"/>luxuriosi magis fiunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e177"> 
+              <ref xml:id="bHY6yh-d87868-Rd1e182">problemate.
+              <lb ed="#K"/>26</ref> <quote xml:id="bHY6yh-d87868-Qd1e179">Desiderium coitus 
+              <lb ed="#K"/>et a cibis et ab intellectu fit  </quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e193">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d87868-Rd1e203">Iesus filius sirach. in ecclesiast. capitulo 9.</ref> <quote xml:id="bHY6yh-d87868-Qd1e197">Ex 
+              <lb ed="#K"/>circumspectione mulieris <!--review-->
+              <lb ed="#K"/>concupiscentia quasi exardescit. 
+              <lb ed="#K"/>Speciem mulieris aliene multis 
+              <lb ed="#K"/>admirati reprobi facti sunt: col<lb ed="#K" break="no"/>loquium 
+              enim illius quasi ignis exar<lb ed="#K" break="no"/>descit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e209">
+                <cb ed="#K" n="b"/>
+            <lb ed="#K"/> <ref xml:id="bHY6yh-d87868-Rd1e221">Terentius in eunucho. capitulo 16.</ref> <quote xml:id="bHY6yh-d87868-Qd1e213">Sine cerere et libero 
+            <lb ed="#K"/>frigescit venus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e219">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d87868-Rd1e233">Ouidius epistolarum. 4. epistola.</ref> <quote xml:id="bHY6yh-d87868-Qd1e223">Uenit amor 
+              <lb ed="#K"/>grauius quo serius vrimur 
+              <lb ed="#K"/>intus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e230">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d87868-Rd1e246">Idem de arte amandi: libro i.</ref> <quote xml:id="bHY6yh-d87868-Qd1e234">Pectora cum gaudent nec 
+              <lb ed="#K"/>sunt attrita dolore Ipsa pa<lb ed="#K" break="no"/>tent: 
+              blanda tunc subit arta venus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e242">
+              <ref xml:id="bHY6yh-d87868-Rd1e260">Libro secundo.</ref> <quote xml:id="bHY6yh-d87868-Qd1e246">Cogis adul<lb ed="#K" break="no"/>terium 
+              dando tempusque locumque.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e252">
+             <lb ed="#K"/> <ref xml:id="bHY6yh-d87868-Rd1e272">Idem de remedio amoris: libro i.</ref> <quote xml:id="bHY6yh-d87868-Qd1e256">Queritur egistus 
+             <lb ed="#K"/>quare sit factus adulter Imp<lb ed="#K" break="no"/>romptu 
+             causa est: desidiosus erat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e264">
+             <lb ed="#K"/> <ref xml:id="bHY6yh-d87868-Rd1e286">Libro. 2 et fina.</ref> <quote xml:id="bHY6yh-d87868-Qd1e268">Non facile est taurum 
+             <lb ed="#K"/>visa retinere inuuenca Fortis 
+             <lb ed="#K"/>equus vise semper adignit 
+             <lb ed="#K"/>eque. Diuitiis alitur luxuriosus 
+             <lb ed="#K"/>amor Uina parant animum 
+             <lb ed="#K"/>veneri: uisi plurima sumas
+            <lb ed="#K"/>Et stupeant multo corda 
+            <lb ed="#K"/>sepulta mero.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e282">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d87868-Rd1e306">Quintillianus declamationum. i. declamatione.</ref> <quote xml:id="bHY6yh-d87868-Qd1e286">precipitant vicia: <!--review-->
+              <lb ed="#K"/>miratur: adamant concupiscunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e296">
+               <lb ed="#K"/> <ref xml:id="bHY6yh-d87868-Rd1e322">Mattheus in euangelio. capitulo 5.</ref> <quote xml:id="bHY6yh-d87868-Qd1e300">Omnis 
+               <lb ed="#K"/>qui viderit mulierem ad con<lb ed="#K" break="no"/>cupiscendum 
+               eam iam mecha<lb ed="#K" break="no"/>tus 
+               est in corde suo.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e309">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d87868-Rd1e337">Paulus apostolus: in epistola ad ephesios. capitulo 8.</ref> <quote xml:id="bHY6yh-d87868-Qd1e313">No<lb ed="#K" break="no"/>lite 
+              inebriari vino in quo 
+              <lb ed="#K"/>est luxuria.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e319">
+             <lb ed="#K"/> <ref xml:id="bHY6yh-d87868-Rd1e349">Seneca tragediarum in octauia. capitulo 10.</ref> <quote xml:id="bHY6yh-d87868-Qd1e323">Uis
+             <lb ed="#K"/>magna mentis blandus animi 
+             <lb ed="#K"/>calor Amor est: viuente gig<lb ed="#K" break="no"/>nitur 
+             luxu: ocio Nutritur 
+             <lb ed="#K"/>inter leta fortune bona.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e333">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d87868-Rd1e365">Cecilius firmianus de beata vita: 
+              <lb ed="#K"/>lib. 4</ref> <quote xml:id="bHY6yh-d87868-Qd1e337">Libido aspectu maxime 
+              <lb ed="#K"/>concitatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e343">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d87868-Rd1e377">Fulgentius: libro 2. fabula. 7.</ref> <quote xml:id="bHY6yh-d87868-Qd1e347">Libido quanto carni consenserit: tanto 
+              <lb ed="#K"/>surgit iniquior.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e353">
+                <pb ed="#K" n="193-r"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/> <ref xml:id="bHY6yh-d87868-Rd1e389">Gregorius in pastorali. capitulo 28.</ref> <quote xml:id="bHY6yh-d87868-Qd1e357">Habent 
+              <lb ed="#K"/>leti ex propinquo luxuriam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e363"> 
+              <ref xml:id="bHY6yh-d87868-Rd1e399">44. capitulo.</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d87868-Qd1e365">Dum sacietate venter extenditur 
+              <lb ed="#K"/>aculei libidinis excitantur. 
+              <lb ed="#K"/>Gule deditos luxuria. sequitur. 
+              <lb ed="#K"/>Admonendi sunt gule dediti 
+              <lb ed="#K"/>ne in eo quod escarum delectationi in<lb ed="#K" break="no"/>cumbant 
+              luxurie se mucro<lb ed="#K" break="no"/>ne 
+              tranffigant.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e385">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d87868-Rd1e425">Isydorus solliloquiorum: libro 2. capitulo 7.</ref> <quote xml:id="bHY6yh-d87868-Qd1e389">Ciborum saturitas 
+              <lb ed="#K"/>luxuriam suscitat Saturitati 
+              <lb ed="#K"/>libido semper adiuncta est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e397">
+               <ref xml:id="bHY6yh-d87868-Rd1e439">Capitulo. 8.</ref> 
+               <lb ed="#K"/> <quote xml:id="bHY6yh-d87868-Qd1e401">Uino luxuria excitatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e405">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d87868-Rd1e449">Capitulo. 9.</ref> <quote xml:id="bHY6yh-d87868-Qd1e409">Oculi prima tela libi<lb ed="#K" break="no"/>dinis 
+              sunt Uisio est prima 
+              <lb ed="#K"/>concupiscentia mulieris Aspectus 
+              <lb ed="#K"/>amoris iacula mittit Con<lb ed="#K" break="no"/>cupiscentia 
+              libidinem nutrit 
+              <lb ed="#K"/>Ante ignem consistens et si ferreus
+              <lb ed="#K"/>sis aliquando disolueris Sepe 
+              <lb ed="#K"/>occasio peccandi voluntatem 
+              <lb ed="#K"/>facit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e426">
+              <ref xml:id="bHY6yh-d87868-Rd1e471">Capitulo. 10.</ref> <quote xml:id="bHY6yh-d87868-Qd1e430">Ocio dedito 
+              <lb ed="#K"/>cito luxuria surripit Ua<lb ed="#K" break="no"/>cantem 
+              luxuria cito preoccu<lb ed="#K" break="no"/>pat 
+              Grauius libido vrit quem ociosum inuenerit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e440">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d87868-Rd1e487">pamphylus. capitulo 13.</ref> <quote xml:id="bHY6yh-d87868-Qd1e444">Usu crescit amor 
+              <lb ed="#K"/>omnis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e450">
+              <ref xml:id="bHY6yh-d87868-Rd1e499">Capitulo. 15.</ref>  <quote xml:id="bHY6yh-d87868-Qd1e454">Per veneris morem 
+              <lb ed="#K"/>cito virgo perdit honorem. Ig<lb ed="#K" break="no"/>neus 
+              ille furor nescit habere 
+              <lb ed="#K"/>modum Non leue pondus
+              <lb ed="#K"/>habent violenta cupidinis ar<lb ed="#K" break="no"/>ma.
+              Ex requie serpit pestis 
+              <lb ed="#K"/>seuissima luxus Armiger 
+              <lb ed="#K"/>et fame prodigus hostis amor.</quote>
+            </p>
+            <p xml:id="bHY6yh-d87868-d1e469">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d87868-Rd1e520">Iacobus beneuentanus. capitulo 50.</ref> <quote xml:id="bHY6yh-d87868-Qd1e473">Sub<lb ed="#K" break="no"/>uertit
+              mentem pulchra puella 
+              <lb ed="#K"/>viri. Uisus et auditus necnon
+              <lb ed="#K"/> et tactus amoris Hec auditum seui 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>semper habere solent.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
