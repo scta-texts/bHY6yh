@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 3 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+             <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 3 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-06-23">June 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="197-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d90266"><!-- p4l6-r3 -->
+            <head xml:id="bHY6yh-d90266-Hd1e108">Rubrica 3</head>
+            <head xml:id="bHY6yh-d90266-Hd1e111" type="question-title">De laude matrimonii et eius acceptabilitate</head>
+            <p xml:id="bHY6yh-d90266-d1e114"> 
+               De 
+               <lb ed="#K"/>laude matrimonii et 
+               <lb ed="#K"/>acceptabilitate. Rubrica. 3
+            </p>
+            <p xml:id="bHY6yh-d90266-d1e121">
+             <lb ed="#K"/> <ref xml:id="bHY6yh-d90266-Rd1e118">genesi capitulo 2.</ref> <quote xml:id="bHY6yh-d90266-Qd1e127">Reliquet homo 
+             <lb ed="#K"/>patrem et matrem et adherebit 
+             <lb ed="#K"/>vxori sue: et erunt duo in car<lb ed="#K" break="no"/>ne 
+             vna.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90266-d1e135">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90266-Rd1e134"><sic>Thobie.</sic> capitulo 6.</ref> <quote xml:id="bHY6yh-d90266-Qd1e139">Hi qui coniugium ita suscipiunt vt deum 
+              <lb ed="#K"/>a se sua mente excludant: et 
+              <lb ed="#K"/>sue libidini ita vacent: sicut e<lb ed="#K" break="no"/>quus 
+              et mulus in quibus non est 
+              <lb ed="#K"/>intellectus: habet potestatem diabolus super eos.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90266-d1e152">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90266-Rd1e155">Aristoteles <sic>hyconomicorum</sic> libro i.</ref> <quote xml:id="bHY6yh-d90266-Qd1e156">Communicatio
+              <lb ed="#K"/>femine et masculi natura est 
+              <lb ed="#K"/>maxime.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90266-d1e162">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90266-Rd1e170">Iesus filius sirach in ecclesiastico capitulo 25.</ref> <quote xml:id="bHY6yh-d90266-Qd1e166">Betus qui habitat cum muliere 
+              <lb ed="#K"/>sensata.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90266-d1e172"> 
+              <ref xml:id="bHY6yh-d90266-Rd1e180">26 capitulo.</ref> <quote xml:id="bHY6yh-d90266-Qd1e174">Mulieris bone 
+              <lb ed="#K"/>beatus vir: numerus enim bonorum illius 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>duplex. Gratia super gratiam mulier sancta 
+              <lb ed="#K"/>et pudorata.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90266-d1e184">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90266-Rd1e197">Catullus poeta. capitulo 9.</ref> <quote xml:id="bHY6yh-d90266-Qd1e188">Est ne nouis nuptiis odio 
+              <lb ed="#K"/>venus atque parentum Frustrantur 
+              <lb ed="#K"/>falsis gaudia lachrymulis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90266-d1e196">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90266-Rd1e211">Paulus apostolus: epistola i. ad corinthios. 
+              <lb ed="#K"/>capitulo 7.</ref> <quote xml:id="bHY6yh-d90266-Qd1e200">Bonum est homini mulierem 
+              <lb ed="#K"/>non tangere: propter fornicationem 
+              <lb ed="#K"/>autem vnusquisque suam vxorem 
+              <lb ed="#K"/>habeat: et vnaqueque suum virum 
+              <lb ed="#K"/>habeat. Dico non nuptis et viduis 
+              <lb ed="#K"/>bonum est illis: sic maneant. 
+              <lb ed="#K"/>Quod si non continent nubant. Me<lb ed="#K" break="no"/>lius
+              est enim nubere quam vri. 
+              <lb ed="#K"/>Solutus ab vxore: es noli que<lb ed="#K" break="no"/>rere 
+              vxorem. Si autem acceperis
+            <lb ed="#K"/>vxorem non peccasti.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90266-d1e230"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90266-Rd1e245">Idem epistola ad hebreos. capitulo 13. et finali.</ref> <quote xml:id="bHY6yh-d90266-Qd1e232">Honorabile est 
+              <lb ed="#K"/>connubium in omnibus: et torus 
+              <lb ed="#K"/>immaculatus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90266-d1e241">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90266-Rd1e260">Seneca de remediis fortuitorum 21. et finali.</ref> <quote xml:id="bHY6yh-d90266-Qd1e245">Uxor aduen<lb ed="#K" break="no"/>ticium 
+              bonum est: non est inter. illa 
+              <lb ed="#K"/>que vnicuique semel contingunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90266-d1e253">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90266-Rd1e274">Lex autentico titulo de consulibus. §. 
+              <lb ed="#K"/>alia vero non decorabitur.</ref> <quote xml:id="bHY6yh-d90266-Qd1e257">Uxores 
+              <lb ed="#K"/>coruscantur radiis maritorum.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
