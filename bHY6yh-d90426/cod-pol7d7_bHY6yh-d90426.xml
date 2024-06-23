@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-06-23">May 18, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="197-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d90426"><!-- p4l6-r4 -->
+            <head xml:id="bHY6yh-d90426-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-d90426-Hd1e111" type="question-title">De prouidentia contrahendi matrimonii vel non contrahendi</head>
+            <p xml:id="bHY6yh-d90426-d1e114">
+              <lb ed="#K"/>De prouidentia contrahendi vel 
+              <lb ed="#K"/>non contrahendi matrimonium. Rubrica. 4
+            </p>
+            <p xml:id="bHY6yh-d90426-d1e121">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90426-Rd1e118">CRonica de nugis philosophorum. c. 7 
+              de cleobolo.</ref> <quote xml:id="bHY6yh-d90426-Qd1e129">Cleobolus vnus de septem sapiententibus 
+              <lb ed="#K"/>ait vxorem ducendam ex paribus.
+              <lb ed="#K"/>Nam si ex maioribus ceperis: in<lb ed="#K" break="no"/>quit 
+              duos habebit cognatos</quote>
+            </p>
+            <p xml:id="bHY6yh-d90426-d1e139">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90426-Rd1e139">Aristoteles <sic>hyconomicorum</sic> libro 3. et finali.</ref> <quote xml:id="bHY6yh-d90426-Qd1e143">Oportet nihil 
+              <lb ed="#K"/>omittere curantem ad virtutem vxoris 
+              <lb ed="#K"/>seipsum: vt iuxta posse ex opti<lb ed="#K" break="no"/>mis 
+               prolem posset procreare.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90426-d1e162"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90426-Rd1e157">Iesus filius sirach in ecclesiastico capitulo 7.</ref> <quote xml:id="bHY6yh-d90426-Qd1e164">Trade
+              <lb ed="#K"/>filiam: et grande opus feceris et 
+              <lb ed="#K"/>homini sensato da illam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90426-d1e172">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90426-Rd1e171">Ouidius: epistolarum. epistola 9.</ref> <quote xml:id="bHY6yh-d90426-Qd1e176">Quam male inequiles 
+                  <pb ed="#K" n="197-v"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>veniunt ad aratra iuuenci Tam 
+              <lb ed="#K"/>premitur magno coniuge nupta 
+              <lb ed="#K"/>minor Si qua voles apte <!--review-->
+              <lb ed="#K"/>nube pari.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90426-d1e186">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90426-Rd1e187">Idem de fastis libro 3.</ref> <quote xml:id="bHY6yh-d90426-Qd1e190">Nubere si qua voles quamuis 
+              <lb ed="#K"/>propabitis ambo Differ. ha<lb ed="#K" break="no"/>bent 
+              parue commoda magna more.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90426-d1e198">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90426-Rd1e201">Libro. 5.</ref> <quote xml:id="bHY6yh-d90426-Qd1e202">Mense malum maio nu<lb ed="#K" break="no"/>bere 
+              vulgus ait.</quote>
+          </p>
+          <p xml:id="bHY6yh-d90426-d1e210">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90426-Rd1e213">Seneca de remediis fortuitorum. capitulo 21. et finali.</ref> <quote xml:id="bHY6yh-d90426-Qd1e214">Inueni<lb ed="#K" break="no"/>es 
+              si nihil queris nisi bonam 
+              <lb ed="#K"/>vxorem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90426-d1e222">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90426-Rd1e225"> Cato. capitulo. 4.</ref> <quote xml:id="bHY6yh-d90426-Qd1e226">Uxorem fuge ne ducas sub nomine dotis Nec 
+              <lb ed="#K"/>retinere velis si ceperit esse 
+              <lb ed="#K"/>molesta.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90426-d1e234">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90426-Rd1e240">Bertrandus hyconomica capitulo 27. et finali.</ref> <quote xml:id="bHY6yh-d90426-Qd1e238">Mater remaritari 
+              <lb ed="#K"/>querit: stulte agit. Sed vt peccata 
+              <lb ed="#K"/>sua deploret: vtinam ipsa 
+              <lb ed="#K"/>senex accipiat iuuenem: 
+              <lb ed="#K"/>nam non ipsam: sed sua quesiuit: 
+              <lb ed="#K"/>quibus habitis bibet cum eo do<lb ed="#K" break="no"/>loris 
+              calicem quem optauit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90426-d1e246">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90426-Rd1e265">Iacobus beneuentanus. capitulo 46.</ref> <quote xml:id="bHY6yh-d90426-Qd1e250">Nolo 
+              <lb ed="#K"/>quod vxorem ducas cui non dominari aut quam non possis 
+              <lb ed="#K"/>tibi bene corrigere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90426-d1e258">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90426-Rd1e279">Auctor libro qui incipit astrolabi:</ref> <quote xml:id="bHY6yh-d90426-Qd1e262">Quo fuit. asperior que 
+              <lb ed="#K"/>postea nupsit amanti Tanto 
+              <lb ed="#K"/>gratior est ipsa futura viro.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
