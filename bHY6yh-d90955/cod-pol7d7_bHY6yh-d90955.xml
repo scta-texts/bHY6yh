@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 8 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 8 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-06-23">June 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="198-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d90955"><!-- p4l6-r8 -->
+            <head xml:id="bHY6yh-d90955-Hd1e108">Rubrica 8</head>
+            <head xml:id="bHY6yh-d90955-Hd1e111" type="question-title">De castiate et pudicitia atque impudicitia</head>
+            <p xml:id="bHY6yh-d90955-d1e114">
+              De castitate 
+              <lb ed="#K"/>pudicitia atque impudicitia. Rubrica. 8.
+            </p>
+            <p xml:id="bHY6yh-d90955-d1e121">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90955-Rd1e118">THeophrastus in aureolo 
+              <lb ed="#K"/>tractatu de nuptiis.</ref> <quote xml:id="bHY6yh-d90955-Qd1e127">Illa vere 
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>pudica est dicenda cui licuit
+              <lb ed="#K"/>peccare: sed noluit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90955-d1e135">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90955-Rd1e135">Iesus filius sirach in ecclesiastico capitulo 26.</ref> <quote xml:id="bHY6yh-d90955-Qd1e139">Fornicatio 
+              <lb ed="#K"/>mulieris in extollentia oculorum 
+              <lb ed="#K"/>et in palpebris illius agnoscetur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90955-d1e148">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90955-Rd1e150">Terentius in heautontumerumenon. capitulo 10</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d90955-Qd1e152">Mulier compta faceta hec est meretrix.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90955-d1e158">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90955-Rd1e162">Ouidius sine titulo seu amorum. libro i. capitulo 8.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d90955-Qd1e162">Casta est quam nemo rogauit.
+              <lb ed="#K"/>At si rusticitas non 
+              <lb ed="#K"/>vetat ipsa rogat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90955-d1e170">
+              <ref xml:id="bHY6yh-d90955-Rd1e176">Libro. 3. et finali. 
+              <lb ed="#K"/>capitulo 8.</ref> <quote xml:id="bHY6yh-d90955-Qd1e174">Siqui metu dempto 
+              <lb ed="#K"/>casta est: ea denique casta est
+              <lb ed="#K"/>Que quia non liceat non 
+              <lb ed="#K"/>facit: ipsa facit Ut iam seruans 
+              <lb ed="#K"/>bene corpus: adultera mens est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90955-d1e184">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90955-Rd1e192">Quintilianus declamationum. 2 declamatione.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d90955-Qd1e188">Ego si qua est mihi fides pu<lb ed="#K" break="no"/>dicitiam 
+              in milite etiam laudare 
+              <lb ed="#K"/>erubeseo: feminarum est ista virtus. 
+              <lb ed="#K"/>Aliter mihi laudandus est vir fortis
+              <lb ed="#K"/>idoneus bello: promptus ad 
+              <lb ed="#K"/>pericula praestantis animi.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90955-d1e200">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90955-Rd1e210">Seneca epistolarum ad lucillum. libro 11. capitulo i.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d90955-Qd1e204">Plures pudore peccandi 
+              <lb ed="#K"/>quam bona voluntate prohibiti 
+              <lb ed="#K"/>abstinent.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90955-d1e212">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90955-Rd1e225">Ualerius maximus. libro 2. titulo i.</ref> <quote xml:id="bHY6yh-d90955-Qd1e216">Massilia ciuitas 
+              <lb ed="#K"/>nullum aditum in scenam nu<lb ed="#K" break="no"/>mis
+              dat quorum argumenta
+              <lb ed="#K"/>maiori ex parte stuprationum 
+              <lb ed="#K"/>continent actus talia spectandi 
+              <lb ed="#K"/>consuetudo etiam imitandi li<lb ed="#K" break="no"/>centiam 
+              sumat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90955-d1e229">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90955-Rd1e244">Lex autentici titulo quomodo operet episcopos et caetera. § qui 
+              <lb ed="#K"/>vero eas</ref> <quote xml:id="bHY6yh-d90955-Qd1e233">Pudicitia quam maxime 
+              <lb ed="#K"/>mulieres ornat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90955-d1e241">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90955-Rd1e259">Marcialis cocus epygrammaton libro 4.</ref> <quote xml:id="bHY6yh-d90955-Qd1e245">Tanquam 
+              <lb ed="#K"/>non liceat. nulla puella 
+              <lb ed="#K"/>negat Casta igitur nulla: sunt 
+              <lb ed="#K"/>caste null: equid ergo
+                <pb ed="#K" n="198-v"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>Casta facit: non dat: non tamen 
+              <lb ed="#K"/>illa negat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90955-d1e255">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90955-Rd1e275">Maximianus:</ref> <quote xml:id="bHY6yh-d90955-Qd1e259">Castus amor veneris dicite 
+              <lb ed="#K"/>quando sitit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d90955-d1e265">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d90955-Rd1e287">Montanarius in luna cleri. capitulo 3.</ref> <quote xml:id="bHY6yh-d90955-Qd1e269">Res est difficilis casta
+              <lb ed="#K"/>bene ducere vitam Nulla fere 
+              <lb ed="#K"/>maior quam casta viuere pena.
+              <lb ed="#K"/>Sola namque suum finitur m<lb ed="#K" break="no"/>orte 
+              duellum</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
