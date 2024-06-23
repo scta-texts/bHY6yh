@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 9</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 9</title>
+               <date when="2024-06-23">June 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-06-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#B" n="159-v"/>
+           <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d91136"><!-- p4l6-r9 -->
+            <head xml:id="bHY6yh-d91136-Hd1e108">Rubrica 9</head>
+            <head xml:id="bHY6yh-d91136-Hd1e111" type="question-title">De custodia et indagatione suspecte impudicitie mulieris</head>
+            <p xml:id="bHY6yh-d91136-d1e114">
+              De custodia et indagatione 
+              <lb ed="#B"/>suspecte et impudice mulieris<!--line jumps down--> Rubrica 9
+            </p>
+            <p xml:id="bHY6yh-d91136-d1e121">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d91136-Rd1e122">THobia historia in aureo<lb ed="#B" break="no"/>lo 
+              tractatu de nuptiis</ref> ¶ <quote xml:id="bHY6yh-d91136-Qd1e127">Quid prodest 
+              <lb ed="#B"/>diligens vxoris custodia cum 
+              <lb ed="#B"/>vxor impudica seruari non pos<lb ed="#B" break="no"/>sit 
+              pudica non debeat. Infid<del>i</del>a 
+              <lb ed="#B"/>enim custos castitatis est necessi<lb ed="#B" break="no"/>tas. 
+              Difficile custoditur quod plu<lb ed="#B" break="no"/>res
+              amant. Ad minorem miseriam 
+              <lb ed="#B"/>domini deformis quam formosa seruatur 
+              <lb ed="#B"/>nichil tutum est in quo totius 
+              <lb ed="#B"/>populi uota suspirant. Alius for<lb ed="#B" break="no"/>ma 
+              <del>aliis</del> alius ingenio alius 
+              <lb ed="#B"/>faceciis alius liberalitate so<lb ed="#B" break="no"/>licitat 
+              Aliquo modo expugnatur 
+              <lb ed="#B"/>quod vndique incessitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d91136-d1e152">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d91136-Rd1e156">IEsus filius syrach in ecclesiastico<!--line jumps up--> capitulo 26</ref> <quote xml:id="bHY6yh-d91136-Qd1e156">In<!--line jumps down--> filia non 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>auertente <del>se</del> se firma custodiam 
+              <lb ed="#B"/>ne inuenta occasione utatur se</quote>
+            </p>
+            <p xml:id="bHY6yh-d91136-d1e165">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d91136-Rd1e171">OVidius sine titulo seu amorum libro 3 
+              <lb ed="#B"/>capitulo 4</ref> <quote xml:id="bHY6yh-d91136-Qd1e169">dure vir imposito tenere 
+              <lb ed="#B"/>custode puelle. Nil agis inge<lb ed="#B" break="no"/>nio 
+              queque tuenda suo est ¶ Nec 
+              <lb ed="#B"/>custodiri in uelit ulla potest
+              <lb ed="#B"/>¶ Nec mentem seruare potes li<lb ed="#B" break="no"/>cet 
+              omnia claudas Cui peccare 
+              <lb ed="#B"/>licet peccat minus ipsa potans 
+              <lb ed="#B"/>Semina nequicie languidiosa 
+              <lb ed="#B"/>facit. Desine crede michi uitia 
+              <lb ed="#B"/>irritare vetando. obsequio 
+              <lb ed="#B"/>vinces aptines ipse <del>tibi</del> tuo.
+              <lb ed="#B"/>¶ Nitimur in uetitum cupimus semper<lb ed="#B" break="no"/>que 
+              negata ¶ Centum fronte oculos 
+              <lb ed="#B"/>centum ceruice gerebat. Argus 
+              <lb ed="#B"/>et hos vnus sepe fefellit amor
+              <lb ed="#B"/>Iuuat inconcessa uoluptas Si 
+              <lb ed="#B"/>sapis indulge domine uultusque 
+              <lb ed="#B"/>serenos. Exue nec rigidi iura 
+              <lb ed="#B"/>tuere uiri</quote>
+            </p>
+            <p xml:id="bHY6yh-d91136-d1e203">
+              ¶ <ref xml:id="bHY6yh-d91136-Rd1e211">Idem de arte aman<lb ed="#B" break="no"/>di 
+              libro I circa finem</ref> ¶ <quote xml:id="bHY6yh-d91136-Qd1e207">Heu facinus 
+              <lb ed="#B"/>non est hostis metuendus aman<lb ed="#B" break="no"/>ti
+              ¶ Quos credis fidos effugere 
+              <lb ed="#B"/>tutus eris</quote>
+            </p>
+            <p xml:id="bHY6yh-d91136-d1e215">
+              ¶ <ref xml:id="bHY6yh-d91136-Rd1e225">libro 2 circa finali</ref> <quote xml:id="bHY6yh-d91136-Qd1e219">cogis 
+              <lb ed="#B"/>adulterium dando tempusque lo<lb ed="#B" break="no"/>cumque</quote>
+            </p>
+            <p xml:id="bHY6yh-d91136-d1e225">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d91136-Rd1e237">QVin<!--line jumps up-->tilianus declamationum 14 declamatione</ref><!--line jumpms down--> <quote xml:id="bHY6yh-d91136-Qd1e229">Amat qui querit quod 
+              <lb ed="#B"/>non amatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d91136-d1e235">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d91136-Rd1e250">IVuenalis libro<!--line jumps up--> 2 satyra Ica</ref> / <quote xml:id="bHY6yh-d91136-Qd1e239">Si<!--line jumps down--> quis custodiet 
+              <lb ed="#B"/>ipsos ¶ Custodes casta est et 
+              <lb ed="#B"/>ab ipsis incipit vxor</quote>
+            </p>
+            <p xml:id="bHY6yh-d91136-d1e247">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d91136-Rd1e264">BErtrandus in yconomica<!--line jumps up--> capitulo 10</ref><!--line jumps down--> <quote xml:id="bHY6yh-d91136-Qd1e251">De fe<lb ed="#B" break="no"/>minis 
+              tuis suspectis quid 
+              <lb ed="#B"/>agant ignorantia non scientiam<!--line jumps down--> queras</quote>
+            </p>
+            <p xml:id="bHY6yh-d91136-d1e264">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d91136-Rd1e286">AVctor libelli qui astrola<lb ed="#B" break="no"/>bi</ref>
+              <quote xml:id="bHY6yh-d91136-Qd1e268">nolo uirum doceas vxoris 
+              <pb ed="#B" n="160-r"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/>crimen amare ¶ Quod potius quam 
+              <lb ed="#B"/>fieri grauat hunc ¶ obprobriis 
+              <lb ed="#B"/>aurem propriis dat nemo libenter 
+              <lb ed="#B"/>¶ Nec te nec quequam talia scire 
+              <lb ed="#B"/>uellet ¶ De quo culpasti mulierem 
+              <lb ed="#B"/>cogis amare ¶ Et verum falso 
+              <lb ed="#B"/>crimine sepe struis</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
