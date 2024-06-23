@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 7 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 7 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-06-22">June 22, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="194-r"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d88920"><!-- p4l5-r7 -->
+            <head xml:id="bHY6yh-d88920-Hd1e108">Rubrica 7</head>
+            <head xml:id="bHY6yh-d88920-Hd1e111" type="question-title">De amenitate actionis veneree</head>
+            <p xml:id="bHY6yh-d88920-d1e114">
+             De ame<lb ed="#K" break="no"/>nitate 
+             actionis veneree. Rubrica. 7. 
+            </p>
+            <p xml:id="bHY6yh-d88920-d1e121">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d88920-Rd1e118">OUidius sine timlo: seu amorum: libro i. capitulo 
+              <lb ed="#K"/>4.</ref> 
+            </p>
+            <p xml:id="bHY6yh-d88920-d1e131">
+              <quote xml:id="bHY6yh-d88920-Qd1e135">Illa verecundis lux est 
+              <lb ed="#K"/>praebenda puellis. Qua ti<lb ed="#K" break="no"/>midus 
+              latebras speret habere 
+              <lb ed="#K"/>pudor.</quote>
+            </p>
+            <p xml:id="bHY6yh-d88920-d1e144"> 
+              <ref xml:id="bHY6yh-d88920-Rd1e139">Libro. 3. et finali. capitulo 4.</ref> <quote xml:id="bHY6yh-d88920-Qd1e146">Iuuat 
+              <lb ed="#K"/>inconcessa voluptas</quote>
+            </p>
+            <p xml:id="bHY6yh-d88920-d1e152">
+                <ref xml:id="bHY6yh-d88920-Rd1e151">Capitulo. 13. 
+                <lb ed="#K"/>et penultimo.</ref> <quote xml:id="bHY6yh-d88920-Qd1e156">Est qui nequitiam locus 
+                <lb ed="#K"/>exigat: omnibus illum Delitiis 
+                <lb ed="#K"/>imple: sit procul inde pudo 
+                <lb ed="#K"/>Hinc simul exieris lasciuia protinus omni
+                    <pb ed="#K" n="194-v"/>
+                    <cb ed="#K" n="a"/>
+                <lb ed="#K" n="1"/>Absit. Et in lecto crimina pone tuo.
+                <lb ed="#K"/>Illic nec tunicam tibi sit posuisse 
+                <lb ed="#K"/>pudori Nec femori impositum 
+                <lb ed="#K"/>sustinuisse femur Illic purpure<lb ed="#K" break="no"/>is 
+                condatur lingua labellis 
+                <lb ed="#K"/>Inque modos venerem iste 
+                <lb ed="#K"/>figeret amor Illic nec feroces 
+                <lb ed="#K"/>nec verba inuuancia cessent 
+                <lb ed="#K"/>Spondaque lasciua mobili<lb ed="#K" break="no"/>tate 
+                tremat Indue cum tuni<lb ed="#K" break="no"/>cis
+                metuentem crimina vultum 
+                <lb ed="#K"/>Et pudor obscenum diffiteatur 
+                <lb ed="#K"/>opus.</quote>
+               </p>
+               <p xml:id="bHY6yh-d88920-d1e177">
+                <ref xml:id="bHY6yh-d88920-Rd1e186">Idem de arte amandi: libro i.</ref> <quote xml:id="bHY6yh-d88920-Qd1e181">Utque viro furtiua venus: 
+                <lb ed="#K"/>sic grata puelle.</quote>
+            </p>
+            <p xml:id="bHY6yh-d88920-d1e195">
+              <ref xml:id="bHY6yh-d88920-Rd1e198">Libro secundo.</ref> <quote xml:id="bHY6yh-d88920-Qd1e199">Odi 
+              <lb ed="#K"/>concubitus qui non vtrumque resoluunt.
+              <lb ed="#K"/>Me voces audire iuuat sua 
+              <lb ed="#K"/>gaudia falsas Crede mihi non 
+              <lb ed="#K"/>est <unclear>veneri</unclear> propaganda voluptas
+              <lb ed="#K"/>Sed sensum tarda prospicienda 
+              <lb ed="#K"/>mora est Cum loca reperieris 
+              <lb ed="#K"/>que tangi femina gaudet 
+              <lb ed="#K"/>Non obstet tangas quo minus 
+              <lb ed="#K"/>illa pudor Aspicias oculos 
+              <lb ed="#K"/>tremulo fulgore micantes 
+              <lb ed="#K"/>Ut sola liquida sepe reful<lb ed="#K" break="no"/>get
+              aqua Accedent questus: 
+              <lb ed="#K"/>accedet amabile murmur Et dul<lb ed="#K" break="no"/>ces 
+              gemitus: aptaque verba 
+              <lb ed="#K"/>inoco Sed neque tu dominam velis 
+              <lb ed="#K"/>maioribus vsus Desiue: nec 
+              <lb ed="#K"/>cursus anteat illa tuos.
+              <lb ed="#K"/>At metam pro parte simul: tunc plena 
+              <lb ed="#K"/>voluptas Cum pariter victi fe<lb ed="#K" break="no"/>mina
+              virque iacent Hic tibi 
+              <lb ed="#K"/>seruandus tenor est cum libera 
+              <lb ed="#K"/>dantur Ocia: furtiuum nec timor 
+              <lb ed="#K"/>vrget opus Cum mora non 
+              <lb ed="#K"/>tuta est totis incumbere remis
+              <lb ed="#K"/>Utile: et admisso subdere 
+              <lb ed="#K"/>calcar equi</quote>
+            </p>
+            <p xml:id="bHY6yh-d88920-d1e248">
+              <ref xml:id="bHY6yh-d88920-Rd1e255">Libro. 3. et finali.</ref> <quote xml:id="bHY6yh-d88920-Qd1e252">Que venit 
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>ex tuto minus est accepta voluptas 
+              <lb ed="#K"/>Sentiat ex imis venerem re<lb ed="#K" break="no"/>soluta 
+              medullis Femina: et 
+              <lb ed="#K"/>ex equo res iuuet illa du<lb ed="#K" break="no"/>os 
+              Nec blande voces iocunda<lb ed="#K" break="no"/>que 
+              murmura cessent Nec taceant 
+              <lb ed="#K"/>mediis improba verba iocis.</quote>
+            </p>
+            <p xml:id="bHY6yh-d88920-d1e266">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d88920-Rd1e275">facetus. capitulo 5.</ref> <quote xml:id="bHY6yh-d88920-Qd1e270">Non tunc simpliciter 
+              <lb ed="#K"/>iungantur grata libella Sed 
+              <lb ed="#K"/>teneant longas sua via 
+              <lb ed="#K"/>pressa moras Mobiles in<lb ed="#K" break="no"/>terea 
+              strigat manus vna 
+              <lb ed="#K"/>mammillas Sed femur et venter 
+              <lb ed="#K"/>sentiat inde vicem Sic post<lb ed="#K" break="no"/>quam 
+              ludis fuerit calefactus vterque
+              <lb ed="#K"/>Uestibus eiectis crura leuare
+              <lb ed="#K"/>decet Sed fit furtiuus dulcior omnis 
+              <lb ed="#K"/>amor</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
