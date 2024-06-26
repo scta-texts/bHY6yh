@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 17 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrinaa Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 17 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-06-18">June 18, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="181-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d82362"><!-- p4l3-r17 -->
+            <head xml:id="bHY6yh-d82362-Hd1e108">Rubrica 17</head>
+            <head xml:id="bHY6yh-d82362-Hd1e111" type="question-title">De obsequio et resistentia</head>
+            <p xml:id="bHY6yh-d82362-d1e114">
+              <lb ed="#K" n="3"/>De obsequio et resistentia Rubrica 17
+            </p>
+            <p xml:id="bHY6yh-d82362-d1e119">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d82362-Rd1e116">Terentius in andria capitulo 3</ref> <quote xml:id="bHY6yh-d82362-Qd1e125">hoc 
+              <lb ed="#K"/>tempore obsequium amicos veri<lb ed="#K" break="no"/>tas 
+              odium parit</quote> 
+            </p>
+            <p xml:id="bHY6yh-d82362-d1e133">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d82362-Rd1e132">Ouidius de arte amandi libro 2</ref> <quote xml:id="bHY6yh-d82362-Qd1e137">flecti<lb ed="#K" break="no"/>tur 
+              obsequio curuatus 
+              <lb ed="#K"/>ab arbore ramus franges 
+              <lb ed="#K"/>si vires experiare tuas
+              <lb ed="#K"/>/ Obsequio transnantur aque
+              <lb ed="#K"/>nec vincere possis flumina si 
+              <lb ed="#K"/>contra qua rapit vnda nates 
+              <lb ed="#K"/> <sic>obscquium</sic> tigresque domat
+              <lb ed="#K"/>tumidosque leones</quote>
+            </p>
+            <p xml:id="bHY6yh-d82362-d1e152">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d82362-Rd1e154">Idem de remedio amoris libro i</ref> <quote xml:id="bHY6yh-d82362-Qd1e156">dum 
+              <lb ed="#K"/>furor in cursum est currenti 
+              <lb ed="#K"/>cede furori difficiles adi<lb ed="#K" break="no"/>tus 
+              impetus omnis habet
+              <lb ed="#K"/>/ Stultus ab obliquo qui cum 
+              <lb ed="#K"/>descendere possis pugnat in 
+              <lb ed="#K"/>aduersas ire natator aquas</quote>
+            </p>
+            <p xml:id="bHY6yh-d82362-d1e168">
+              <lb ed="#K"/> /<ref xml:id="bHY6yh-d82362-Rd1e172">Seneca in prouerbiis</ref> <quote xml:id="bHY6yh-d82362-Qd1e172">O bonus animus 
+              <lb ed="#K"/>numquam erranti obsequium 
+              <lb ed="#K"/>accommodat</quote>
+            </p>
+            <p xml:id="bHY6yh-d82362-d1e178">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d82362-Rd1e184">Ualerius maximus libro 7 titulo sapienter dicta 
+              <lb ed="#K"/>aut facta</ref> <quote xml:id="bHY6yh-d82362-Qd1e182">aristoteles calistenem 
+              <lb ed="#K"/>auditorem suum ad alexandrum 
+              <lb ed="#K"/>mittens monuit cum eo aut 
+              <lb ed="#K"/>nunquam aut quam iocundissime 
+              <lb ed="#K"/>loqueretur quo scilicet 
+              <lb ed="#K"/>apud regias aures vel
+              <lb ed="#K"/>silentior tutior vel sermone 
+              <lb ed="#K"/>esset acceptior at illis dum
+              <lb ed="#K"/>alexandrum macedone 
+              <lb ed="#K"/>gaudente in persica salu<lb ed="#K" break="no"/>tatione 
+              obiurgat et ad 
+              <lb ed="#K"/>macedonicos mores in<lb ed="#K" break="no"/>uitum 
+              reuocare beniuole 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>perseuerabat spiritu carere iussus 
+              <lb ed="#K"/>seram neglecti salubris 
+              <lb ed="#K"/>consilii penitentiam egit</quote>
+            </p>
+            <p xml:id="bHY6yh-d82362-d1e212">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d82362-Rd1e220">Cecilius firmianus de beata vita libro 7 
+              <lb ed="#K"/>et finali</ref> <quote xml:id="bHY6yh-d82362-Qd1e216">mores ac vicia regis 
+              <lb ed="#K"/>imitari genus obsequii est</quote>
+            </p>
+            <p xml:id="bHY6yh-d82362-d1e224">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d82362-Rd1e237">prosper sub 34 epigramma</ref> <quote xml:id="bHY6yh-d82362-Qd1e228">equum est 
+              <lb ed="#K"/>seruire regibus et ducibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d82362-d1e234">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d82362-Rd1e249">Cato capitulo 2</ref> <quote xml:id="bHY6yh-d82362-Qd1e238">uincere cum possis 
+              <lb ed="#K"/>interdum cede sodali / Obse<lb ed="#K" break="no"/>quio
+              quoniam dulces retinentur 
+              <lb ed="#K"/>amici</quote>
+            </p>
+            <p xml:id="bHY6yh-d82362-d1e247">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d82362-Rd1e264">Cassiodorus de amincitia capitulo 24</ref> <quote xml:id="bHY6yh-d82362-Qd1e251">obsequium damnabile 
+              <lb ed="#K"/>est quod amicum indulgentio<lb ed="#K" break="no"/>rem
+              viciis facit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d82362-d1e259"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d82362-Rd1e276">Idem epistolarum libro 3 epistola 34</ref> <quote xml:id="bHY6yh-d82362-Qd1e261">libentibus animis obe<lb ed="#K" break="no"/>dite
+              vt fides vestra que iam 
+              <lb ed="#K"/>prioribus monstratur exem<lb ed="#K" break="no"/>plis
+              subsequentibus quoque 
+              <lb ed="#K"/>declaretur inditiis gratius 
+              <lb ed="#K"/>est obsequium quod deuotione 
+              <lb ed="#K"/>perpeti custoditur</quote>
+            </p>
+            <p xml:id="bHY6yh-d82362-d1e275">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d82362-Rd1e297">Isydorus in synonima <sic>solliloquiorum</sic> libro 2 capitulo 44</ref> <quote xml:id="bHY6yh-d82362-Qd1e279">differ ob<lb ed="#K" break="no"/>sequia 
+              nil iuxta mores facientem
+              <lb ed="#K"/>et obsequentem par pena 
+              <lb ed="#K"/>constringit</quote>
+            </p>
+            <p xml:id="bHY6yh-d82362-d1e289">
+              <lb ed="#K"/> /<ref xml:id="bHY6yh-d82362-Rd1e316">Mattheus vindocinensis de hystoria tobie capitulo 31</ref> <quote xml:id="bHY6yh-d82362-Qd1e293">obse<lb ed="#K" break="no"/>quio 
+              refouetur amor</quote>
+            </p>
+           <p>  
+            <lb ed="#K"/> <quote>Explicit liber partis quartis partis Inci<lb ed="#K" break="no"/>pit 
+            quartus liber quartus partis</quote>  
+           </p> 
+         </div>
+      </body>
+   </text>
+</TEI>
