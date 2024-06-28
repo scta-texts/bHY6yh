@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 18 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 18 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-06-21">June 21, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="189-v"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d86760"><!-- p4l4-r18 -->
+            <head xml:id="bHY6yh-d86760-Hd1e108">Rubrica 18</head>
+            <!-- doesn't seem to be in Chris's list -->
+            <head xml:id="bHY6yh-d86760-Hd1e113" type="question-title">De mundana pulchritudine et ornatu humani corporis</head>
+            <p xml:id="bHY6yh-d86760-d1e116">
+              De mundana pulchr<lb ed="#K" break="no" n="30"/>tudine 
+              et ornatu humani corporis Rubrica 18
+            </p>
+            <p xml:id="bHY6yh-d86760-d1e123">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d86760-Rd1e120">Salomon in prouerbiis capitulo 15</ref> <quote xml:id="bHY6yh-d86760-Qd1e129">Cor g<lb ed="#K" break="no"/>audens 
+              exhylarat faciem.</quote>
+            </p>
+            <p xml:id="bHY6yh-d86760-d1e136">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d86760-Rd1e136">Ouidius epistolarum 4 epistola</ref> <quote xml:id="bHY6yh-d86760-Qd1e140">Sint procul 
+              <lb ed="#K"/>a nobis iuuenes vt femina 
+              <lb ed="#K"/>compti fine coli modico 
+              <lb ed="#K"/>forma virilis amat</quote>
+            </p>
+            <p xml:id="bHY6yh-d86760-d1e148">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d86760-Rd1e150">Idem de arte <sic>amadi:</sic> libro i</ref> <quote xml:id="bHY6yh-d86760-Qd1e152">mun<lb ed="#K" break="no"/>dicie 
+              placeant /Careant ru<lb ed="#K" break="no"/>bigine 
+              dentes nec vagus 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>in laxa pes tibi pelle na<lb ed="#K" break="no"/>tet 
+              nec male deformet 
+              <lb ed="#K"/>rigidos tonsura capillos
+              <lb ed="#K"/>/ Sit coma sit tota barba 
+              <lb ed="#K"/>resecta manu Ut nil e<lb ed="#K" break="no"/>mineat
+              et sint sine sordibus 
+              <lb ed="#K"/>vngues Inque caua 
+              <lb ed="#K"/>nullus stet tibi nature 
+              <lb ed="#K"/>pilus nec faciem nec te
+              <lb ed="#K"/>pigeat lauare capillos
+              <lb ed="#K"/>Et teretes digitos exi<lb ed="#K" break="no"/>guumque 
+              pedem</quote>
+            </p>
+            <p xml:id="bHY6yh-d86760-d1e182">
+              ¶ <ref xml:id="bHY6yh-d86760-Rd1e188">libro 3 et finali</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d86760-Qd1e186">Mundiciis capimur Multa<lb ed="#K" break="no"/>que 
+              dum fiunt turpia facta 
+              <lb ed="#K"/>placent Si breuis es sedeas 
+              <lb ed="#K"/>ne stans videare sedere</quote>
+            </p>
+            <p xml:id="bHY6yh-d86760-d1e196">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d86760-Rd1e206">Idem methamorphoseis libro 9</ref> /<quote xml:id="bHY6yh-d86760-Qd1e200">Cupit 
+              <lb ed="#K"/>formosa videri /et si qua 
+              <lb ed="#K"/>est illic formosior inuidet 
+              <lb ed="#K"/>illi</quote>
+            </p>
+            <p xml:id="bHY6yh-d86760-d1e208">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d86760-Rd1e220">Idem de fastis libro i</ref> <quote xml:id="bHY6yh-d86760-Qd1e212">fastus inest pulchris sequiturque superbia formam</quote>
+            </p>
+            <p xml:id="bHY6yh-d86760-d1e220">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d86760-Rd1e234">Idem de medicamine faciei</ref> <quote xml:id="bHY6yh-d86760-Qd1e224">nec 
+              <lb ed="#K"/>tamen indignum sit nobis cura 
+              <lb ed="#K"/>placendi munditia crimina 
+              <lb ed="#K"/>nulla meret /Est etiam pla<lb ed="#K" break="no"/>cuisse 
+              sibi quecumque voluptas
+              <lb ed="#K"/>Uirginibusque cordi grataque
+              <lb ed="#K"/>forma sua est <sic>fformam</sic> 
+              <lb ed="#K"/>populabitur etas et placitus 
+              <lb ed="#K"/>rugis vultus aratus erit</quote>
+            </p>
+            <p xml:id="bHY6yh-d86760-d1e242">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d86760-Rd1e257">Statius achileidos libro i</ref> <quote xml:id="bHY6yh-d86760-Qd1e246">O quantum 
+              <lb ed="#K"/>gaudia forme addunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d86760-d1e252">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d86760-Rd1e269">Marcialis cocus libro vndique suscepto capitulo 3</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d86760-Qd1e256">In tenui panno nulla est 
+              <lb ed="#K"/>facundia peleo Sed cum pur<lb ed="#K" break="no"/>purea 
+              veste parata venit</quote>
+            </p>
+            <p xml:id="bHY6yh-d86760-d1e264">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d86760-Rd1e283">Cato capitulo i</ref> /<quote xml:id="bHY6yh-d86760-Qd1e268">Esto mundus</quote>
+            </p>
+            <p xml:id="bHY6yh-d86760-d1e272">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d86760-Rd1e293">Uersificator fabularum epistola 35 fabula</ref> <quote xml:id="bHY6yh-d86760-Qd1e276">fuscat et extinguit 
+                  <pb ed="#K" n="190-r"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>cordis caligo nitorem corporis</quote>
+            </p>
+            <p xml:id="bHY6yh-d86760-d1e284">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d86760-Rd1e307">pamphylus capitulo 2</ref> /<quote xml:id="bHY6yh-d86760-Qd1e288">Concipit 
+              <lb ed="#K"/>ingentes animos fiducia
+              <lb ed="#K"/>forme inque modum domina 
+              <lb ed="#K"/>non sinit esse suam</quote>
+            </p>
+            <p xml:id="bHY6yh-d86760-d1e296">
+              ¶ <ref xml:id="bHY6yh-d86760-Rd1e321">capitulo 3</ref> <quote xml:id="bHY6yh-d86760-Qd1e300">Est 
+              <lb ed="#K"/>cum letitia pulchrior omnis homo</quote>
+            </p>
+            <p xml:id="bHY6yh-d86760-d1e307">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d86760-Rd1e334">facetus capitulo 2</ref> <quote xml:id="bHY6yh-d86760-Qd1e311">exornet corpus 
+              <lb ed="#K"/>ne contemnatur ab vllo Sit
+              <lb ed="#K"/>bene vestitus cui non sit perua 
+              <lb ed="#K"/>suppellex</quote>
+            </p>
+            <p xml:id="bHY6yh-d86760-d1e319">
+             ¶ <ref xml:id="bHY6yh-d86760-Rd1e348">Capitulo 4</ref> /<quote xml:id="bHY6yh-d86760-Qd1e323">Cesarie 
+             <lb ed="#K"/>longa sit turpis forma 
+             <lb ed="#K"/>virilis ut motus facilis n<lb ed="#K" break="no"/>esciat 
+             esse grauis Uestes non 
+             <lb ed="#K"/>longas iuuenilis diligat 
+             <lb ed="#K"/>etas non natet in caligis 
+             <lb ed="#K"/>vel crus vel pes iuuenilis 
+             <lb ed="#K"/>/ Et subtelaris formet vtrum<lb ed="#K" break="no"/>que 
+             pedem</quote>
+            </p>
+            <p xml:id="bHY6yh-d86760-d1e342">
+              /<ref xml:id="bHY6yh-d86760-Rd1e373">Auctor libelli qui incipit 
+              <lb ed="#K"/>grecorum studia</ref> <quote xml:id="bHY6yh-d86760-Qd1e335">cultu forma
+              <lb ed="#K"/>uncet hac femina dote superbet
+              <lb ed="#K"/>hac placet illa viro plus 
+              <lb ed="#K"/>tamen illa sibi</quote>
+            </p>
+            <p xml:id="bHY6yh-d86760-d1e354">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d86760-Rd1e389">prouerbia metrica extraordinem librorum vagantia</ref> <quote xml:id="bHY6yh-d86760-Qd1e358">uir bene vestitus pro 
+              <lb ed="#K"/>vestibus esse peritus /Creditur 
+              <lb ed="#K"/>a mille quamuis indiota sit 
+              <lb ed="#K"/>ille hunc homines honorant
+              <lb ed="#K"/>quem vestimenta decorant</quote>
+            </p>
+            <p>
+               <lb ed="#K"/> <quote>Explicit liber quintus partis Inci<lb ed="#K" break="no"/>pit 
+               liber quartus partis</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
