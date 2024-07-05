@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-07-05">July 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="212-v"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d99125"><!-- p5l2-r10 -->
+            <head xml:id="bHY6yh-d99125-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-d99125-Hd1e111" type="question-title">De ocio et perpessione bellici operis</head>
+            <p xml:id="bHY6yh-d99125-d1e114">
+              <lb ed="#K" n="79"/> De ocio et perpessione 
+              <lb ed="#K"/>bellici operis. Rubrica. 10
+              </p>
+            <p xml:id="bHY6yh-d99125-d1e121">
+                <lb ed="#K"/> <ref xml:id="bHY6yh-d99125-Rd1e118">ARistoteles polyticorum libro 7 capitulo 11.</ref> <quote xml:id="bHY6yh-d99125-Qd1e129">Plurime 
+                    <pb ed="#K" n="213-r"/>
+                    <cb ed="#K" n="a"/>
+                <lb ed="#K" n="1"/>ciuitatum bellantes quidem saluantur 
+                <lb ed="#K"/>postquam autem  obtinuerunt 
+                <lb ed="#K"/>principatum pareunt. rubiginem 
+                <lb ed="#K"/>enim contrahunt sicut ferrum pacem 
+                <lb ed="#K"/>ducentes.</quote>
+            </p>
+            <p xml:id="bHY6yh-d99125-d1e139">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d99125-Rd1e139">Seneca: epistolarum libro 7. epistola 3.</ref> <quote xml:id="bHY6yh-d99125-Qd1e143">Effeminat animos ame<lb ed="#K" break="no"/>nitas
+              nimia. Nullum laborem
+              <lb ed="#K"/>recusant manus que ad ar<lb ed="#K" break="no"/>ma 
+              ab aratro transferuntur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d99125-d1e154"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d99125-Rd1e154">Idem declamationum. capitulo 2.</ref> <quote xml:id="bHY6yh-d99125-Qd1e156">Mollit vim 
+              <lb ed="#K"/>ocium: ferrum situ rubiginem 
+              <lb ed="#K"/>ducit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d99125-d1e166">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d99125-Rd1e170">Frontinus libro 4. titulo 3.</ref> <quote xml:id="bHY6yh-d99125-Qd1e170">Emilianum scipionem traditur in itinere 
+              <lb ed="#K"/>cum amicis ambulantem 
+              <lb ed="#K"/>accepto pane vesci solitum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d99125-d1e178">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d99125-Rd1e184">Idem et de alexandro macedone: 
+              <lb ed="#K"/>dicitur</ref> <quote xml:id="bHY6yh-d99125-Qd1e182">Massinissam nonage<lb ed="#K" break="no"/>simum 
+              etatis annum agentem 
+              <lb ed="#K"/>meridie ante tabernaculum 
+              <lb ed="#K"/>stantem vel ambulantem capere 
+              <lb ed="#K"/>solitum cibos legimus.</quote>
+            </p>
+            <p xml:id="bHY6yh-d99125-d1e217">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d99125-Rd1e228">Uegetius de re militari libro 2. titulo i.</ref> <quote xml:id="bHY6yh-d99125-Qd1e221">Exercitus ex ipsa 
+              <lb ed="#K"/>re atque opere exercitii nomen 
+              <lb ed="#K"/>accepit vt eo nunquam liceret 
+              <lb ed="#K"/>obliuisci quod vocabitur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d99125-d1e229">
+               <ref xml:id="bHY6yh-d99125-Rd1e242">Libro 3. 
+               <lb ed="#K"/>titulo 9.</ref> <quote xml:id="bHY6yh-d99125-Qd1e233">Pro tyronibus accipiendi 
+               <lb ed="#K"/>sunt qui pugnare longo tempore 
+               <lb ed="#K"/>defierunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d99125-d1e240"> 
+              <ref xml:id="bHY6yh-d99125-Rd1e253">26 titulo. et finali.</ref> <quote xml:id="bHY6yh-d99125-Qd1e242">Exercitus 
+              <lb ed="#K"/>labore proficit ocio consenescit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d99125-d1e194">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d99125-Rd1e202">Ualerius maximus libro 7. titulo sapienter 
+              <lb ed="#K"/>dicta aut facta.</ref> <quote xml:id="bHY6yh-d99125-Qd1e198">Amplius claudius
+              <lb ed="#K"/>crebro solitus erat dicere 
+              <lb ed="#K"/>negocium populo romano melius 
+              <lb ed="#K"/>quam ocium committi: non quod igno<lb ed="#K" break="no"/>raret 
+              quam iocundus tranquil<lb ed="#K" break="no"/>litatis 
+              status esset: sed quod anim<lb ed="#K" break="no"/>aduerteret 
+              prepotentia imperia 
+              <lb ed="#K"/>agitatione rerum: ad virtutem 
+              <lb ed="#K"/>capescendam excitari: nima 
+              <lb ed="#K"/>quiete in desidia dissolui.</quote>
+            </p>
+            <p xml:id="bHY6yh-d99125-d1e248">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d99125-Rd1e266">Cassiodorus: epistolarum. libro 3. epistola i.</ref> <quote xml:id="bHY6yh-d99125-Qd1e252">Populorum 
+              <lb ed="#K"/>ferocium corda longa pace 
+              <lb ed="#K"/>mollescunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d99125-d1e258">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d99125-Rd1e278">facetus. capitulo 10. et finali.</ref> <quote xml:id="bHY6yh-d99125-Qd1e262">Nil valet in bello qui 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>viuit delitiose Nec sine duritia 
+              <lb ed="#K"/>bellica palma datur.</quote>
+          </p>
+            <p xml:id="bHY6yh-d99125-d1e270">
+               <lb ed="#K"/> <ref xml:id="bHY6yh-d99125-Rd1e292">Gualterius de castellione. libro 2.</ref> <quote xml:id="bHY6yh-d99125-Qd1e274">Delitie m<lb ed="#K" break="no"/>olles 
+               gladios et vulnus ab<lb ed="#K" break="no"/>horrent.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
