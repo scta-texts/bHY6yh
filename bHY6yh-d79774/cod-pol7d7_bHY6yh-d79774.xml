@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 11 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 11 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-06-15">June 15, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="175-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d79774"><!-- p4l3-r11 -->
+            <head xml:id="bHY6yh-d79774-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-d79774-Hd1e111" type="question-title">De nobilitate et ignobilitate</head>
+            <p xml:id="bHY6yh-d79774-d1e114">
+              De nobi<lb ed="#K" break="no" n="65"/>litate 
+              et ignobilitate Rubrica XI
+            </p>
+            <p xml:id="bHY6yh-d79774-d1e119">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d79774-Rd1e116">Aristoteles ethicorum libro 4 capitulo 4</ref>  <quote xml:id="bHY6yh-d79774-Qd1e127">No<lb ed="#K" break="no"/>biles 
+              dignisicantur honore</quote>
+            </p>
+            <p xml:id="bHY6yh-d79774-d1e131">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d79774-Rd1e131">Idem rethoricorum libro 2 capitulo 17</ref> /<quote xml:id="bHY6yh-d79774-Qd1e135">Nobi<lb ed="#K" break="no"/>litas
+              est honorabilitas 
+              <lb ed="#K"/>progenitorum Nobile quidem 
+              <lb ed="#K"/>est secundum generis virtutem diffe<lb ed="#K" break="no"/>runt
+              mores his qui nuper 
+              <lb ed="#K"/>possederunt et his qui ab an<lb ed="#K" break="no"/>tiquo
+              in eo quod omnia magis 
+              <lb ed="#K"/>et maiora mala habent nuper 
+              <lb ed="#K"/>ditati est nuper ditatum esse: </quote> 
+            </p>
+            <p xml:id="bHY6yh-d79774-d1e157">
+                    <pb ed="#K" n="175-v"/>
+                    <cb ed="#K" n="a"/>
+                <lb ed="#K" n="1"/> <ref xml:id="bHY6yh-d79774-Rd1e159">Idem <sic>pollyticorum</sic> libro 4 capitulo 7</ref> <quote xml:id="bHY6yh-d79774-Qd1e161">In<lb ed="#K" break="no"/>genuitas 
+                est virtus et di<lb ed="#K" break="no"/>uitie 
+                antique Nobiles 
+                <lb ed="#K"/>esse videntur quibus existunt 
+                <lb ed="#K"/>progenitorum virtus et diuitie
+                <lb ed="#K"/>/ Nobilitas et virtus in paucis est</quote>
+            </p>
+            <p xml:id="bHY6yh-d79774-d1e171">
+                <lb ed="#K"/>/ <ref xml:id="bHY6yh-d79774-Rd1e178">Tullius inuectiua in salustium</ref> 
+                <lb ed="#K"/> <quote xml:id="bHY6yh-d79774-Qd1e175">sacius est me meis rebus 
+                <lb ed="#K"/>gestis florere quam malorum
+                <lb ed="#K"/>opinione niti et ita viuere 
+                <lb ed="#K"/>vt sit posteris mei no<lb ed="#K" break="no"/>bilitatis 
+                initium et virtutis 
+                <lb ed="#K"/>exemplum</quote>
+            </p>
+            <p xml:id="bHY6yh-d79774-d1e185">
+                <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d79774-Rd1e194">Ouidius methamorphis libro 13</ref> <quote xml:id="bHY6yh-d79774-Qd1e189">nam genus et proauos et 
+                <lb ed="#K"/>que non fecimus ipsi Uix 
+                <lb ed="#K"/>ea nosti voco</quote>
+            </p>
+            <p xml:id="bHY6yh-d79774-d1e197"> 
+                <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d79774-Rd1e206">Idem de potesto vel i epistola 9 et per</ref> <quote xml:id="bHY6yh-d79774-Qd1e199">non census 
+                <lb ed="#K"/>nec clarum nomen auorum 
+                <lb ed="#K"/>/ Sed probitas magnos inge<lb ed="#K" break="no"/>niumque 
+                facit</quote>
+            </p>
+            <p xml:id="bHY6yh-d79774-d1e207">
+                <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d79774-Rd1e220">Idem de luco</ref> <quote xml:id="bHY6yh-d79774-Qd1e211">Nobilitas hominis mens 
+                <lb ed="#K"/>et deitatis imago /No<lb ed="#K" break="no"/>bilitas 
+                hominis virtutum clara
+                <lb ed="#K"/>propago /Nobilitas hominis 
+                <lb ed="#K"/>humilem releuare iacentem 
+                / Nobilitas hominis mentem 
+                refrenare furentem nobili<lb ed="#K" break="no"/>tas 
+                hominis nisi turpia nulla ti<lb ed="#K" break="no"/>mere</quote>
+            </p>
+            <p xml:id="bHY6yh-d79774-d1e225">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d79774-Rd1e240">Seneca tragediarum in hercule furente capitulo 3</ref> /<quote xml:id="bHY6yh-d79774-Qd1e229">Qui ge<lb ed="#K" break="no"/>nus 
+              iactat suum: aliena 
+              <lb ed="#K"/>laudat</quote>
+            </p>
+            <p xml:id="bHY6yh-d79774-d1e236">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d79774-Rd1e253">Idem epistolarum ad lucillum libro 5 epistola 10</ref> <quote xml:id="bHY6yh-d79774-Qd1e240">habet ipse hoc optimum 
+              <lb ed="#K"/>generosus animus quod concitatur
+              <lb ed="#K"/>ad honesta neminem ex<lb ed="#K" break="no"/>celsi 
+              ingenii virum humilia 
+              <lb ed="#K"/>delectant et sordida</quote>
+            </p>
+            <p xml:id="bHY6yh-d79774-d1e252"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d79774-Rd1e269">Idem de moribus</ref> <quote xml:id="bHY6yh-d79774-Qd1e254">nobilitas est hominis
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>generosus animus</quote>
+            </p>
+            <p xml:id="bHY6yh-d79774-d1e260">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d79774-Rd1e281">Iuuenalis libro 3 satyra 2</ref> <quote xml:id="bHY6yh-d79774-Qd1e264">Scemata 
+              <lb ed="#K"/>quid faciunt Nobilitas 
+              <lb ed="#K"/>sola est atque vnica virtus 
+              <lb ed="#K"/>miserum est aliene incumbere 
+              <lb ed="#K"/>fame /Malo patri tersit 
+              <lb ed="#K"/>tersites dummodo tu sis ea<lb ed="#K" break="no"/>cide 
+              similis vulcanaque 
+              <lb ed="#K"/>arma capescas / Quam 
+              <lb ed="#K"/>te tersite similem producat 
+              <lb ed="#K"/>achilles</quote>
+            </p>
+            <p xml:id="bHY6yh-d79774-d1e281">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d79774-Rd1e303">Lex auten ti de consulibus § alia vero 
+              <lb ed="#K"/>non decorabitur</ref> <quote xml:id="bHY6yh-d79774-Qd1e285">uxores cor<lb ed="#K" break="no"/>ruscantur 
+              radiis maritorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d79774-d1e293">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d79774-Rd1e318">Ualerius maximus libro 3 capitulo</ref> <quote xml:id="bHY6yh-d79774-Qd1e297">de 
+              <lb ed="#K"/>hiis humili loco natis clari 
+              <lb ed="#K"/>euaserunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d79774-d1e303"> 
+              / <ref xml:id="bHY6yh-d79774-Rd1e330">Tullius hostilii 
+              <lb ed="#K"/>incunabula agreste tugu<lb ed="#K" break="no"/>rium</ref> 
+              / <quote xml:id="bHY6yh-d79774-Qd1e305">Eiusdem adoescentia 
+              <lb ed="#K"/>in pecore pascendo fuit 
+              <lb ed="#K"/>occupata ualidior etas 
+              <lb ed="#K"/>imperium romanum rexit cum 
+              <lb ed="#K"/>duplicanuit senectus ex<lb ed="#K" break="no"/>cellentissimis 
+              ornamentis 
+              <lb ed="#K"/>decorata in altissimo maies<lb ed="#K" break="no"/>tatis 
+              fastigio fulsit uar<lb ed="#K" break="no"/>ro 
+              miro gradu ad consu<lb ed="#K" break="no"/>latum 
+              macelaria patris ta<lb ed="#K" break="no"/>bernacula 
+              conscendit / Socrates 
+              <lb ed="#K"/>non solum hominum consensu veru<lb ed="#K" break="no"/>metiam 
+              appolinis oraculo 
+              <lb ed="#K"/>sapientissimus iudicatus 
+              <lb ed="#K"/>phanarete matre obste<lb ed="#K" break="no"/>trice 
+              et sophonisco patre 
+              <lb ed="#K"/>marmorario genitus 
+              <lb ed="#K"/>ad clarissimum glorie lumen excessit
+              <lb ed="#K"/>/ Euripides quam matrem
+              <lb ed="#K"/>aut quem patrem demosthenes 
+              <lb ed="#K"/>habuerit ipsorum quoque seculo: 
+                  <pb ed="#K" n="176-r"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>ignotum fuit / Alterius autem
+              <lb ed="#K"/>matrem cultelos vendidisse 
+              <lb ed="#K"/>omnium pene doctorum littere 
+              <lb ed="#K"/>loquuntur Sed quid aut illius 
+              <lb ed="#K"/>tragica aut his oratoria 
+              <lb ed="#K"/>vi clarius</quote>
+           </p>
+            <p xml:id="bHY6yh-d79774-d1e382">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d79774-Rd1e386">Boetius de consolatione libro 3 capitulo 7</ref> <quote xml:id="bHY6yh-d79774-Qd1e390" source="http://scta.info/resource/hy7y6y-d1e67-d1e275@119-131">Inest
+              <lb ed="#K"/>dignitas propria virtuti quam 
+              <lb ed="#K"/>protinus in eos quibus fuerit 
+              <lb ed="#K"/>adiuncta transfundit</quote>
+            </p>
+            <p xml:id="bHY6yh-d79774-d1e359"> 
+              <ref xml:id="bHY6yh-d79774-Rd1e400">capitulo xi</ref> 
+              <lb ed="#K"/> /<quote xml:id="bHY6yh-d79774-Qd1e361">Uidetur esse nobilitas que<lb ed="#K" break="no"/>dam 
+              laus de meritis prouentuum 
+              <lb ed="#K"/>proueniens / Siquid est 
+              <lb ed="#K"/>in nobilitate bonum id 
+              <lb ed="#K"/>arbitror esse solum vt
+              <lb ed="#K"/>imposita nobilibus necessi<lb ed="#K" break="no"/>tudo 
+              videatur ne a maio<lb ed="#K" break="no"/>rum 
+              virtute degenerent</quote>
+            </p>
+            <p xml:id="bHY6yh-d79774-d1e375"> 
+              ¶ <ref xml:id="bHY6yh-d79774-Rd1e418">epistola 12</ref> 
+              <lb ed="#K"/> /<quote xml:id="bHY6yh-d79774-Qd1e377">Omne hominum genus in terris 
+              <lb ed="#K"/>simili surget ab ortu Quid 
+              <lb ed="#K"/>genus et proauos strepitis 
+              <lb ed="#K"/>si primordia vestra Auc<lb ed="#K" break="no"/>toremque 
+              deum spectes nullus 
+              <lb ed="#K"/>degener extat ni viciis
+              <lb ed="#K"/>peiora fouens proprium de serat 
+              <lb ed="#K"/>ortum</quote>
+          </p>
+          <p xml:id="bHY6yh-d79774-d1e391">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d79774-Rd1e438">Cassiodorus epistolarum libro<!--no number--> epistola 17</ref> <quote xml:id="bHY6yh-d79774-Qd1e395">tantum quis nobilior 
+              <lb ed="#K"/>erit quantum et moribus pro<lb ed="#K" break="no"/>bis 
+              et luculenta facultate 
+              <lb ed="#K"/>reluxerit</quote>
+        </p>
+        <p xml:id="bHY6yh-d79774-d1e403"> 
+           ¶ <ref xml:id="bHY6yh-d79774-Rd1e453">libro 5 epistola 4</ref> <quote xml:id="bHY6yh-d79774-Qd1e405">dig<lb ed="#K" break="no"/>nitas 
+           nec diuitiis nec 
+           <lb ed="#K"/>solis natalibus inuenitur
+           <lb ed="#K"/>sed tantum eam cum doctrina coniunc<lb ed="#K" break="no"/>ta 
+           potest impetrare prudentia
+           <lb ed="#K"/>hec est indubitata nobilitas 
+           <lb ed="#K"/>que moribus probatur ornata</quote>
+        </p>
+        <p xml:id="bHY6yh-d79774-d1e417"> 
+          <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d79774-Rd1e469">libro 8 epistola 19</ref> /<quote xml:id="bHY6yh-d79774-Qd1e419">Si inueterate 
+              <cb ed="#K" n="b"/>
+          <lb ed="#K"/>et per genus ducte diuitie
+          <lb ed="#K"/>nobiles faciunt multo magis 
+          <lb ed="#K"/>praestantio est cuius origo 
+          <lb ed="#K"/>thesaur prudentie locu<lb ed="#K" break="no"/>plex 
+          inuenitur</quote>
+      </p>
+      <p xml:id="bHY6yh-d79774-d1e431"> 
+           <ref xml:id="bHY6yh-d79774-Rd1e487">libro 9 epistola 8</ref> 
+           <lb ed="#K"/> <quote xml:id="bHY6yh-d79774-Qd1e433">doctrine perfacile est orna<lb ed="#K" break="no"/>re 
+           generosum que etiam ex 
+           <lb ed="#K"/>obscuro nobilem facit</quote>
+      </p>
+      <p xml:id="bHY6yh-d79774-d1e442"> 
+        <lb ed="#K"/>/ <ref xml:id="bHY6yh-d79774-Rd1e499">Epistola 22</ref> <quote xml:id="bHY6yh-d79774-Qd1e444">Habunde cognoscitur 
+        <lb ed="#K"/>quisquis teste fama laudatur.</quote>
+      </p>
+      <p xml:id="bHY6yh-d79774-d1e450">
+          <lb ed="#K"/>/ <ref xml:id="bHY6yh-d79774-Rd1e511">Claudianus libro 4</ref> /<quote xml:id="bHY6yh-d79774-Qd1e454">Asperius 
+          <lb ed="#K"/>nihil est humili cum sur<lb ed="#K" break="no"/>git 
+          in altum</quote>
+      </p>
+      <p xml:id="bHY6yh-d79774-d1e460">
+        <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d79774-Rd1e523">Andreas ad gualterium de amore
+        <lb ed="#K"/>libro i</ref> /<quote xml:id="bHY6yh-d79774-Qd1e464">Sola fuit morum pro<lb ed="#K" break="no"/>bitas
+        que primitus homines no<lb ed="#K" break="no"/>bilitate 
+        distinxit ac generis 
+        <lb ed="#K"/>inducit differentiam Magis 
+        <lb ed="#K"/>ex moribus quam ex sanguine 
+        <lb ed="#K"/>deprehenditur cuiusque nobilitas</quote>
+      </p>
+      <p xml:id="bHY6yh-d79774-d1e481">
+        <lb ed="#K"/> /<ref xml:id="bHY6yh-d79774-Rd1e546">Gualterius de castellione libro i.</ref>
+        <lb ed="#K"/> <quote xml:id="bHY6yh-d79774-Qd1e485">Uirtus non queritur extra non 
+        <lb ed="#K"/>eget externis qui moribus 
+        <lb ed="#K"/>intus abundat Nobilitas 
+        <lb ed="#K"/>sola est animum qua moribus 
+        <lb ed="#K"/>ornat</quote>
+      </p>
+      <p xml:id="bHY6yh-d79774-d1e558">
+         <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d79774-Rd1e562">Mattheus vindocinensis in poetria partis i capitulo 6</ref> <quote xml:id="bHY6yh-d79774-Qd1e566">Uirtus 
+         <lb ed="#K"/>Nobilitat animum qui mira<lb ed="#K" break="no"/>biliter <!--new text-->
+          ornat /Migrat in 
+         <lb ed="#K"/>exilium nobilitatis honor</quote>
+      </p>
+      <p xml:id="bHY6yh-d79774-d1e502">
+        <lb ed="#K"/> <ref xml:id="bHY6yh-d79774-Rd1e577">Heinricus samariensis libro i partis i</ref> 
+        <lb ed="#K"/> <quote xml:id="bHY6yh-d79774-Qd1e506">non presigne genus nec 
+        <lb ed="#K"/>clarum nomen auorum /Sed 
+        <lb ed="#K"/>probitas vera nobilitate viget</quote>
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>
