@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 8 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 8 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-07-04">July 04, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="212-v"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d98929"><!-- p5l2-r8 -->
+            <head xml:id="bHY6yh-d98929-Hd1e108">Rubrica 8</head>
+            <head xml:id="bHY6yh-d98929-Hd1e111" type="question-title">De experientia et vsu bellici exercitii</head>
+            <p xml:id="bHY6yh-d98929-d1e114">
+                De experi<lb ed="#K" break="no" n="28"/>entia et vsu bellici 
+               exercitii. Rubrica. 8.
+            </p>
+            <p xml:id="bHY6yh-d98929-d1e121">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d98929-Rd1e118">SEneca de prouidentia:</ref> <quote xml:id="bHY6yh-d98929-Qd1e125">Ad suspitionem 
+              <lb ed="#K"/>vulneris tyro palescit: audac<lb ed="#K" break="no"/>ter 
+              veteranus cruorem suum 
+              <lb ed="#K"/>spectat: qui scit se sepe vicisse 
+              <lb ed="#K"/>post sanguinem.</quote> 
+            </p>
+            <p xml:id="bHY6yh-d98929-d1e137">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d98929-Rd1e136">Uegetius de re militari libro i. titulo i.</ref> <quote xml:id="bHY6yh-d98929-Qd1e141">Inuenies romanos 
+              <lb ed="#K"/>omnes gentes sola armorum 
+              <lb ed="#K"/>exercitatione vicisse. Nulla enim 
+              <lb ed="#K"/>alia re videmus populum romanum: 
+              <lb ed="#K"/>orbem subegisse terrarum: nisi 
+              <lb ed="#K"/>armorum exercitio disciplina cas<lb ed="#K" break="no"/>trorum 
+              vsuque militie.</quote>
+            </p>
+            <p xml:id="bHY6yh-d98929-d1e161">
+               <ref xml:id="bHY6yh-d98929-Rd1e162">Libro 2. titulo 21</ref> 
+               <lb ed="#K"/> <quote xml:id="bHY6yh-d98929-Qd1e165">Semper in ocio debet fieri quod
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>necessario faciendum videtur in prelio.</quote>
+            </p>
+            <p xml:id="bHY6yh-d98929-d1e171"> 
+              <ref xml:id="bHY6yh-d98929-Rd1e172">22 titulo.</ref> <quote xml:id="bHY6yh-d98929-Qd1e173">Inexercitatus 
+              <lb ed="#K"/>miles semper est tyro Uelocitas 
+              <lb ed="#K"/>vsu ipso acquiritur corporis: et 
+              <lb ed="#K"/>scientia feriendi hostem seque pro<lb ed="#K" break="no"/>tegendi: 
+              presertim si quominus 
+              <lb ed="#K"/>dimicetur. Quemadmodum bene exer<lb ed="#K" break="no"/>citatus 
+              miles prelium cupit:
+              <lb ed="#K"/>ita formidat indoctus. Sci<lb ed="#K" break="no"/>endum 
+              est in pugna vsum amplius 
+              <lb ed="#K"/>prodesse quam vires.</quote>
+            </p>
+            <p xml:id="bHY6yh-d98929-d1e192">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d98929-Rd1e198">Cassiodorus epistolarum. libro i. epistola 39.</ref> <quote xml:id="bHY6yh-d98929-Qd1e196">Ars bellandi 
+              <lb ed="#K"/>si non preluditur cum fuerit necessaria 
+              <lb ed="#K"/>non habetur. Animos subito ad ar<lb ed="#K" break="no"/>ma 
+              non erigunt nisi qui se 
+              <lb ed="#K"/>ad ipsa indoneos premissa exer<lb ed="#K" break="no"/>citatione 
+              confidunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d98929-d1e208"> 
+              <ref xml:id="bHY6yh-d98929-Rd1e214">Libro 3. epistola i.</ref> <quote xml:id="bHY6yh-d98929-Qd1e210">Te<lb ed="#K" break="no"/>rribilis 
+              est hominibus conflictus: 
+              <lb ed="#K"/>sit non sit assiduus: et nisi vsu 
+              <lb ed="#K"/>presumatur concertandi subito 
+              <lb ed="#K"/>fidutia non habetur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d98929-d1e220">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d98929-Rd1e230">facetus. capitulo 10. et finali.</ref> <quote xml:id="bHY6yh-d98929-Qd1e224">Sepius insolito 
+              <lb ed="#K"/>pugna nocere solet.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
