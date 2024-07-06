@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 15 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 15 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-07-05">July 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="214-r"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d99790"><!-- p5l2-r15 -->
+            <head xml:id="bHY6yh-d99790-Hd1e108">Rubrica 15</head>
+            <head xml:id="bHY6yh-d99790-Hd1e111" type="question-title">De explorationibus et exploratoribus</head>
+            <p xml:id="bHY6yh-d99790-d1e114">
+                De explora<lb ed="#K" break="no" n="58"/>tionibus et  
+               exploratoribus. Rubrica. 15.
+            </p>
+            <p xml:id="bHY6yh-d99790-d1e121"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d99790-Rd1e118">FRontinus Libro i. titulo 2.</ref> <quote xml:id="bHY6yh-d99790-Qd1e131">Scipio aphricanus 
+              <lb ed="#K"/>capta occasione mittende ad sypha<lb ed="#K" break="no"/>cem 
+              legationis: cum lelio seruorum 
+              <lb ed="#K"/>habitu tribunos et centuriones 
+              <lb ed="#K"/>electissimos ire iussit: quibus 
+              <lb ed="#K"/>cure esset prospicere regias vi<lb ed="#K" break="no"/>res
+              hi cum liberius castrorum 
+              <lb ed="#K"/>positionem scrutarentur: equum 
+              <lb ed="#K"/>de industria dimissum tanquam fugi<lb ed="#K" break="no"/>entem 
+              persecuti maximam partem 
+              <lb ed="#K"/>munimentorum cir cuierunt. Que 
+              <lb ed="#K"/>cum nunciassent incendio confec<lb ed="#K" break="no"/>tum 
+              est bellum. Carthaginenses 
+              <lb ed="#K"/>cum animaduertissent alexandri 
+              <lb ed="#K"/>ita magnas opes vt aphrice 
+              <lb ed="#K"/>quoque immineret: vnum ex ci<lb ed="#K" break="no"/>uibus 
+              virum acrem nomine 
+              <lb ed="#K"/>amilcarem thodium vixerunt 
+              <lb ed="#K"/>simulato exilio ire ad regem 
+              <lb ed="#K"/>omnique studio in amicitiam 
+              <lb ed="#K"/>eius peruenire. Qua is potitus 
+              <lb ed="#K"/>consilia eius nota ciuibus suis 
+              <lb ed="#K"/>faciebat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d99790-d1e172"> 
+              <ref xml:id="bHY6yh-d99790-Rd1e173">Idem carthaginenses 
+                  <pb ed="#K" n="214-v"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>miserunt qui per speciem legatorum 
+              <lb ed="#K"/>longo tempore rome morarentur:</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d99790-Qd1e174">exciperentque consilia romanorum 
+              <lb ed="#K"/>M cato in hyspaniam: quia ad 
+              <lb ed="#K"/>hostium consilia alia via perue<lb ed="#K" break="no"/>nire 
+              non potuerat iussit 
+              <lb ed="#K"/>trecentos milites simul impetum 
+              <lb ed="#K"/>facere instatione hostium raptum<lb ed="#K" break="no"/>que 
+              vnum ex his in castra 
+              <lb ed="#K"/>perferre incolumen: tortus<lb ed="#K" break="no"/>que 
+              ille omnia suorum archana
+              <lb ed="#K"/>confessus est.</quote>
+            </p>
+            <p xml:id="bHY6yh-d99790-d1e196">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d99790-Rd1e202">Uegetius de re militari libro 3. titulo 26. et finali.</ref> <quote xml:id="bHY6yh-d99790-Qd1e200">Difficle 
+              <lb ed="#K"/>vincitur qui vere potest de suis 
+              <lb ed="#K"/>et aduersarii copiis iudicare. 
+              <lb ed="#K"/>Cum explorator hostium latenter 
+              <lb ed="#K"/>oberret in castris: omnes 
+              <lb ed="#K"/>ad tentoria sua per diem redire 
+              <lb ed="#K"/>iubeantur: et statim depre<lb ed="#K" break="no"/>hendetur 
+              explorator.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
