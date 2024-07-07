@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 8</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 8</title>
+               <date when="2024-06-01">June 1, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-06-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="155-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d89104"><!-- p4l5-r8 -->
+            <head xml:id="bHY6yh-d89104-Hd1e108">Rubrica 8</head>
+            <head xml:id="bHY6yh-d89104-Hd1e111" type="question-title">De meretricio amore</head>
+            <p xml:id="bHY6yh-d89104-d1e114">
+              De meretrico amo<lb ed="#B" break="no"/>re 
+              Rubrica octaua Rubrica 8
+            </p>
+            <p xml:id="bHY6yh-d89104-d1e119">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d89104-Rd1e116">SAlomon in prouerbiis capitulo 5</ref> <quote xml:id="bHY6yh-d89104-Qd1e125">fauus 
+              <lb ed="#B"/>stilans labia meretricis 
+              <lb ed="#B"/>et intidius oleo guttur eius 
+              <lb ed="#B"/>nouissima autem illius amara 
+              <lb ed="#B"/>quasi absinthium et acuta qua<lb ed="#B" break="no"/>si 
+              gladius biceps ¶ vagi sunt 
+              <lb ed="#B"/>gressus meretricis et inuesti<lb ed="#B" break="no"/>gabiles 
+              longe fac ameretrice 
+              <lb ed="#B"/><del>tuam</del> viam tuam et ne appro<lb ed="#B" break="no"/>pinques 
+              foribus domus eius</quote>
+            </p>
+            <p xml:id="bHY6yh-d89104-d1e142">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d89104-Rd1e142">TErentius in eunuco capitulo 22</ref> ¶ 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d89104-Qd1e146">Quomodo adolescentulus 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>Meretricum ingenia est mores 
+              <lb ed="#B"/>posset noscere mature</quote>
+            </p>
+            <p xml:id="bHY6yh-d89104-d1e155"> 
+              ¶ <ref xml:id="bHY6yh-d89104-Rd1e155">capitulo 24</ref>
+              <lb ed="#B"/><quote xml:id="bHY6yh-d89104-Qd1e157">audaciam meretricum specta</quote>
+            </p>
+            <p xml:id="bHY6yh-d89104-d1e163">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d89104-Rd1e167"><del>AVidius</del> sine titulo seu amorum libro I 
+              <lb ed="#B"/>capitulo 10</ref> <quote xml:id="bHY6yh-d89104-Qd1e167">Sola uiro mulier spo<lb ed="#B" break="no"/>liis 
+              exultat ademptis ¶ Sola lo<lb ed="#B" break="no"/>cat 
+              noctes sola locanda uenit 
+              <lb ed="#B"/>¶ et vendit quod vtrumque iuuat 
+              <lb ed="#B"/>quod vter<del>er</del>que patebat ¶ Pro ma<lb ed="#B" break="no"/>le 
+              conducto gratia nulla thora ¶ 
+              <lb ed="#B"/>parcite formose precium pro nocte 
+              <lb ed="#B"/>pacisci ¶ Non habet euentus sor<lb ed="#B" break="no"/>dida 
+              preda bonos</quote>
+            </p>
+            <p xml:id="bHY6yh-d89104-d1e184">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d89104-Rd1e190">QVintilianus declamationum<!--line jumps up--> 13 declamatione</ref> ¶ <quote xml:id="bHY6yh-d89104-Qd1e188">In<!--line jumps down-->uenta credo 
+              <lb ed="#B"/>meretrices ut esset aliquid 
+              <lb ed="#B"/>quod placeret pauperibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d89104-d1e200">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d89104-Rd1e209">Cato capitulo I</ref> <quote xml:id="bHY6yh-d89104-Qd1e204">Meretrices<!--line jumps up--> fuge</quote> 
+            </p>
+            <p xml:id="bHY6yh-d89104-d1e208">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d89104-Rd1e219">UErsificator fabularum esopi<!--line jumps up--> 50 fabula</ref><!--line jumps down--> <quote xml:id="bHY6yh-d89104-Qd1e212">Thaida 
+              <lb ed="#B"/>si quis amat sua se non cre<lb ed="#B" break="no"/>da 
+              amari ¶ Thais amore carens 
+              <lb ed="#B"/>munus amantis amat et cetera</quote>
+            </p>
+            <p xml:id="bHY6yh-d89104-d1e220">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d89104-Rd1e233">Avctor libelli qui dicitur facetus capitulo 5</ref>
+              <lb ed="#B"/><quote xml:id="bHY6yh-d89104-Qd1e224">Si se supponat meretrix 
+              <lb ed="#B"/>non prestat homorem ¶ Non amat 
+              <lb ed="#B"/>id quod agit sed quod habere cu<lb ed="#B" break="no"/>pit</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

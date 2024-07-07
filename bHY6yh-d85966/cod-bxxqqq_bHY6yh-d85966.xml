@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 15</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 15</title>
+               <date when="2024-05-28">May 28, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-05-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="149-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d85966"><!-- p4l4-r15 -->
+            <head xml:id="bHY6yh-d85966-Hd1e108">Rubrica 15</head>
+            <head xml:id="bHY6yh-d85966-Hd1e111" type="question-title">De fame et siti seu ieiunio morali consideratione</head>
+            <p xml:id="bHY6yh-d85966-d1e114">
+              De fama et 
+              <lb ed="#B"/>siti seu Ieiunio morali consi<!--line jumps down-->deratione Rubrica 15
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e121">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d85966-Rd1e118">Iob hystoria capitulo 6</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d85966-Qd1e125">Nunquid ruget onager cum 
+              <lb ed="#B"/>habuerit herbam aut mugit 
+              <lb ed="#B"/>et bos cum ante se presepe plenum<!--line jumps down--> habuerit</quote> 
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e135">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d85966-Rd1e136">OVidius de fastis 
+              <lb ed="#B"/>libro 4</ref> <quote xml:id="bHY6yh-d85966-Qd1e139">Absit iniqua fames</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e144">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d85966-Rd1e147">Qvintilianus 10 declamatione</ref> <quote xml:id="bHY6yh-d85966-Qd1e148">Non habi<lb ed="#B" break="no"/>tant 
+              vna pudor et fames 
+              <lb ed="#B"/>fames aspera uitalia haurit 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>precordia carpit animi tormentum 
+              <lb ed="#B"/>corporis tabes magistra peccan<lb ed="#B" break="no"/>di 
+              durissima necessitatum defor<lb ed="#B" break="no"/>missima 
+              malorum hec ad humile 
+              <lb ed="#B"/>opus nobiles manus mittit 
+              <lb ed="#B"/>hec alienis pedibus <sic>medican<lb ed="#B" break="no"/>tes</sic> 
+              prosternit hec sepe sociorum 
+              <lb ed="#B"/>fidem fregit. hec venena populis 
+              <lb ed="#B"/>publice dedit. hec in paricidi<lb ed="#B" break="no"/>um 
+              pios egit</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e179">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d85966-Rd1e177">Lvcanus libro 3</ref><!--line jumps up--> <quote xml:id="bHY6yh-d85966-Qd1e183">Nescit plebs ie<!--line jumps down-->iuna timere</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e187">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d85966-Rd1e187">Statius thebaidos libro 10</ref> <quote xml:id="bHY6yh-d85966-Qd1e191">Nil 
+              <lb ed="#B"/>non ausa fames</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e195"> 
+              <lb ed="#B"/><ref xml:id="bHY6yh-d85966-Rd1e199">UEgetius de re mi<!--line jumps up-->litari libro 3<!--line jumps down--> titulo 3</ref> <quote xml:id="bHY6yh-d85966-Qd1e210">Ferro 
+              <lb ed="#B"/>sceuior fames est</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e205"> 
+              ¶ <ref xml:id="bHY6yh-d85966-Rd1e215">9 titulo</ref> <quote xml:id="bHY6yh-d85966-Qd1e207">fa<lb ed="#B" break="no"/>mes 
+              ut dicitur intrinsecus pugnat 
+              <lb ed="#B"/>ut vincit sepius sine ferro ¶ </quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e215"> 
+              <lb ed="#B"/><ref xml:id="bHY6yh-d85966-Rd1e227">libro 4 in finem in epilogo</ref> <quote xml:id="bHY6yh-d85966-Qd1e217">Malis emer<lb ed="#B" break="no"/>gentis 
+              inopie potus aut cibi 
+              <lb ed="#B"/>nulla arte succurritur</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e224">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d85966-Rd1e240">CAssiodorus epistolarum libro<!--line jumps up--> <del>10</del> 3 epistola<!--line jumps down--> 40</ref> <quote xml:id="bHY6yh-d85966-Qd1e228">Inva<lb ed="#B" break="no"/>lidus 
+              est siquidem Ieiunus 
+              <lb ed="#B"/>defensor nec <sic>anis</sic> ministrat 
+              <lb ed="#B"/>audaciam cum virtus corporeo 
+              <lb ed="#B"/>fuerit robore destituta</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e238"> 
+              ¶ <ref xml:id="bHY6yh-d85966-Rd1e254">libro 4 epistola 
+              <lb ed="#B"/>5</ref> <quote xml:id="bHY6yh-d85966-Qd1e240">fames totum solet contempnere 
+              <lb ed="#B"/>ut suam necessitatem possit ex<lb ed="#B" break="no"/>plere</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e248"> 
+              ¶ <ref xml:id="bHY6yh-d85966-Rd1e266">12 epistola</ref> <quote xml:id="bHY6yh-d85966-Qd1e250">disciplinam non potest 
+              <lb ed="#B"/>seruare Ieiunus exercitus dum quod de<lb ed="#B" break="no"/>est 
+              semper presumit armatus</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e258">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d85966-Rd1e280">RIcardus Iudex venusinus libro de 
+              <lb ed="#B"/>pertractatione nuptiarum capitulo 28</ref> <quote xml:id="bHY6yh-d85966-Qd1e262">Ieiunus 
+              <lb ed="#B"/>leuiter subitam scandescit ad iram</quote>
+            </p>
+            <p xml:id="bHY6yh-d85966-d1e270">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d85966-Rd1e295">PRouerbia uulgaria</ref> <quote xml:id="bHY6yh-d85966-Qd1e274">Can per fame 
+              <lb ed="#B"/>fa forame</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-05-16">May 16, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#K" n="160-r"/>
+           <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d73148"><!-- p4l2-r4 -->
+            <head xml:id="bHY6yh-d73148-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-d73148-Hd1e111" type="question-title">De lucri acquisitionis honestate consideranda</head>
+            <p xml:id="bHY6yh-d73148-d1e114"> 
+               De lucri 
+               <lb ed="#K" n="24"/>acquisitionis honestate co<lb ed="#K" break="no"/>nsideranda 
+               Rubrica quartus :
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e121">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d73148-Rd1e118">Psalmista 36 psalamus</ref> <quote xml:id="bHY6yh-d73148-Qd1e125">Melius est 
+               <lb ed="#K"/>modicum iusto super diui<lb ed="#K" break="no"/>tias 
+               peccatorum multas</quote> 
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e135">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d73148-Rd1e134">Salomon in prouerbiis capitulo 16</ref> <quote xml:id="bHY6yh-d73148-Qd1e139">Me<lb ed="#K" break="no"/>lius 
+              est parum cum iusticia 
+              <lb ed="#K"/>quam multi fructus cum ini<lb ed="#K" break="no"/>quitate</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e148"> 
+              ¶ <ref xml:id="bHY6yh-d73148-Rd1e147">capitulo 17</ref> <quote xml:id="bHY6yh-d73148-Qd1e150">Melior 
+              <lb ed="#K"/>est bucella sicca cum gau<lb ed="#K" break="no"/>dio 
+              quam domus plena victimis 
+              <lb ed="#K"/>cum iurgio</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e156">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73148-Rd1e159">Socrates in exhortationibus capitulo 2 Ad fi</ref> <quote xml:id="bHY6yh-d73148-Qd1e160">Am<lb ed="#K" break="no"/>plectere 
+              magis iustam 
+              <lb ed="#K"/>penuriam quam iniustas diuitias
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>hec enim iustitia diuitiis 
+              <lb ed="#K"/>potior neminem celeris 
+              <lb ed="#K"/>lucrantem nequiter</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e170">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73148-Rd1e175">Aristotelis pollyticorum libro 6 capitulo 3</ref> <quote xml:id="bHY6yh-d73148-Qd1e174">Multi
+              <lb ed="#K"/>magis appetunt lucrum quam 
+              <lb ed="#K"/>honorem</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e180">
+               <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73148-Rd1e187">Iesus filius sirach in ecclesiastica capitulo 5</ref> <quote xml:id="bHY6yh-d73148-Qd1e184">noli anxius esse in di<lb ed="#K" break="no"/>uitiis 
+               iniustis</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e190">
+              ¶ <ref xml:id="bHY6yh-d73148-Rd1e197">capitulo 13</ref> <quote xml:id="bHY6yh-d73148-Qd1e192">bo<lb ed="#K" break="no"/>na 
+              est substantia cui non 
+              <lb ed="#K"/>est peccatum in conscientia</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e198">
+              <ref xml:id="bHY6yh-d73148-Rd1e209">capitulo 31</ref> 
+              <lb ed="#K"/>/ <quote xml:id="bHY6yh-d73148-Qd1e202">Beatus diues qui inuentus 
+              <lb ed="#K"/>est sine macula</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e209">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73148-Rd1e222">Terentius in adelphis</ref> <quote xml:id="bHY6yh-d73148-Qd1e213">pecuniam in 
+              <lb ed="#K"/>loco negligere maximum 
+              <lb ed="#K"/>interdum est lucrum</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e219">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d73148-Rd1e234">Tullius retho artis noue libro 6 et fi
+              <lb ed="#K"/>capitulo 5</ref> <quote xml:id="bHY6yh-d73148-Qd1e223">due res sunt que 
+              <lb ed="#K"/>possunt homines ad turpe 
+              <lb ed="#K"/>compendium promouere inopia
+              <lb ed="#K"/>atque auaritia</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e233">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73148-Rd1e250">Cassiodorus epistolarum libro 5 capitulo 13</ref> <quote xml:id="bHY6yh-d73148-Qd1e237">pulchrum 
+              <lb ed="#K"/>est commodum feda neglex<lb ed="#K" break="no"/>isse 
+              lucra pecunie</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e245">
+              ¶ <ref xml:id="bHY6yh-d73148-Rd1e262">libro 8
+              <lb ed="#K"/>epistola 20</ref> <quote xml:id="bHY6yh-d73148-Qd1e247">pecunias illas volumus quibus 
+              <lb ed="#K"/>libra iustitie suffragatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e257">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73148-Rd1e278">libro 9 epistola 3</ref> <quote xml:id="bHY6yh-d73148-Qd1e261">Aurum siquidem 
+              <lb ed="#K"/>per bella querere nephas 
+              <lb ed="#K"/>est per maria periculum per
+              <lb ed="#K"/>falsitates opprobrium in sua 
+              <lb ed="#K"/>vero natura iustitia ho<lb ed="#K" break="no"/>nesta 
+              sunt lucra per que 
+              <lb ed="#K"/>nemo leditur / Bene queritur 
+              <lb ed="#K"/>quod a nullis adhuc dominis
+              <lb ed="#K"/>abrogatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e275"> 
+              ¶ <ref xml:id="bHY6yh-d73148-Rd1e296">epistola 14</ref> <quote xml:id="bHY6yh-d73148-Qd1e277">commodum 
+              <lb ed="#K"/>debet esse cum modo 
+              <lb ed="#K"/>nam si mensuram equalitatis 
+              <lb ed="#K"/>excesserit vim sui nominis 
+              <lb ed="#K"/>non habebt</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e286">
+              <ref xml:id="bHY6yh-d73148-Rd1e309">epistola 15</ref> <quote xml:id="bHY6yh-d73148-Qd1e288">illud tantum 
+                  <pb ed="#K" n="160-v"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>vere possumus lucrum dicere 
+              <lb ed="#K"/>quod constat diuina iudicia 
+              <lb ed="#K"/>non punire</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e296"> 
+              ¶ <ref xml:id="bHY6yh-d73148-Rd1e321">libro xi epistola 8</ref> <quote xml:id="bHY6yh-d73148-Qd1e298">quid 
+              <lb ed="#K"/>acquiri putatur vbi bona 
+              <lb ed="#K"/>conscientia perditur aut in qua 
+              <lb ed="#K"/>parte possit homo perficere si in<lb ed="#K" break="no"/>nocentiam 
+              probatus fuerit 
+              <lb ed="#K"/>amisisse</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e308">
+              ¶ <ref xml:id="bHY6yh-d73148-Rd1e338">libro 12 epistola 13</ref> <quote xml:id="bHY6yh-d73148-Qd1e312">ultra 
+              <lb ed="#K"/>omnes crudelitates est di<lb ed="#K" break="no"/>uitem
+              velle fieri de exiguitate men<lb ed="#K" break="no"/>dici 
+              ¶ Amentur honesta lu<lb ed="#K" break="no"/>cra
+              horreantur damnosa 
+              <lb ed="#K"/>compendia</quote>
+            </p>
+            <p xml:id="bHY6yh-d73148-d1e322">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73148-Rd1e354">Iacobus beneuentanus capitulo 46</ref> /<quote xml:id="bHY6yh-d73148-Qd1e326">Est id turpe 
+              <lb ed="#K"/>lucrum quod detestatur hon<lb ed="#K" break="no"/>estas
+              ferre solent dam<lb ed="#K" break="no"/>na 
+              crimine plena lucra</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

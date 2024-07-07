@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 9 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 9 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-05-09">May 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="155-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d70959"><!-- p4l1-r9 -->
+            <head xml:id="bHY6yh-d70959-Hd1e108">Rubrica 9</head>
+            <head xml:id="bHY6yh-d70959-Hd1e111" type="question-title">De serotinis et tempestiuis</head>
+            <p xml:id="bHY6yh-d70959-d1e114">
+              <lb ed="#K" n="19"/>De serotinis et tempestiuis Rubrica 9
+            </p>
+            <p xml:id="bHY6yh-d70959-d1e121">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d70959-Rd1e118">Uirgilius eneid libro 2</ref> <quote xml:id="bHY6yh-d70959-Qd1e127">O 
+              <lb ed="#K"/>socii qua prima prima
+              <lb ed="#K"/>inquit fortuna salutis
+              <lb ed="#K"/>monstrat iter quaque ostendit 
+              <lb ed="#K"/>se dextra sequamur</quote>
+            </p>
+            <p xml:id="bHY6yh-d70959-d1e137">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d70959-Rd1e137">Ouidius de remedio a<lb ed="#K" break="no"/>moris 
+              libro i</ref> <quote xml:id="bHY6yh-d70959-Qd1e141">principiis 
+              <lb ed="#K"/>obsta sero medicina
+              <lb ed="#K"/>paratur / Cum mala pro<lb ed="#K" break="no"/>longas 
+              conualuere mo<lb ed="#K" break="no"/>ras 
+              Uidi ego quod primo 
+              <lb ed="#K"/>fuerat sanabile vulnus 
+              <lb ed="#K"/>dilatum longe dampna 
+              <lb ed="#K"/>tullisse mora</quote>
+            </p>
+            <p xml:id="bHY6yh-d70959-d1e154">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d70959-Rd1e156">Quintilianus declamationum 6 declam</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d70959-Qd1e158">pleraque sera pro nullis sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d70959-d1e168">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d70959-Rd1e172">Seneca tragediarum inueste
+              <lb ed="#K"/>capitulo 5</ref> /<quote xml:id="bHY6yh-d70959-Qd1e172">Serum est cauendi 
+              <lb ed="#K"/>tempus in mediis malis</quote>
+            </p>
+            <p xml:id="bHY6yh-d70959-d1e178">
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d70959-Rd1e184">In argumentation capitulo 4</ref> /<quote xml:id="bHY6yh-d70959-Qd1e182">Se<lb ed="#K" break="no"/>ra 
+              nunquam est ad bonos 
+              <lb ed="#K"/>mores via</quote>
+            </p>
+            <p xml:id="bHY6yh-d70959-d1e188">
+              <!--ommitted--> 
+            </p>
+            <p xml:id="bHY6yh-d70959-d1e194">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d70959-Rd1e202">Lucanus libro i</ref> <quote xml:id="bHY6yh-d70959-Qd1e198">tolle moras semper 
+              <lb ed="#K"/>nocuit differre paratis</quote>
+            </p>
+            <p xml:id="bHY6yh-d70959-d1e204">
+                <lb ed="#K"/> <ref xml:id="bHY6yh-d70959-Rd1e216">Iuuenalis libro i saty 
+                <lb ed="#K"/>i</ref> /<quote xml:id="bHY6yh-d70959-Qd1e208">Animante tuba galea<lb ed="#K" break="no"/>tum 
+                sero duelli penitet</quote>
+            </p>
+            <p xml:id="bHY6yh-d70959-d1e215">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d70959-Rd1e227">Cato capitulo 3</ref> /<quote xml:id="bHY6yh-d70959-Qd1e219">Rem tibi quam 
+              <lb ed="#K"/>noscis aptam dimittere 
+              <lb ed="#K"/>noli vel ut sepe fronte</quote> 
+            </p>
+            <p xml:id="bHY6yh-d70959-d1e227">
+              <!--ommitted-->
+            </p>
+            <p xml:id="bHY6yh-d70959-d1e237">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d70959-Rd1e253">Gregorius in pastorali
+              <lb ed="#K"/>capitulo 40</ref> /<quote xml:id="bHY6yh-d70959-Qd1e241">Sepe dum oportune 
+              <lb ed="#K"/>agere que possumus no<lb ed="#K" break="no"/>lumus 
+               paulo post cum 
+               <lb ed="#K"/>volumus non valemus</quote>
+            </p>
+            <p xml:id="bHY6yh-d70959-d1e249">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d70959-Rd1e267">Baldo 34</ref> <quote xml:id="bHY6yh-d70959-Qd1e253">fabula que est 
+              <lb ed="#K"/>antepenul iam nimis est 
+              <lb ed="#K"/>serum post sumpta pericula
+              <lb ed="#K"/>rerum presumptiuarum stultum 
+              <lb ed="#K"/>piguisse suarum</quote>
+            </p>
+            <p xml:id="bHY6yh-d70959-d1e261">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d70959-Rd1e281">Montenarius in luna cleri capitulo 95</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d70959-Qd1e265">Utilius fero quam numquam 
+              <lb ed="#K"/>relinquitur ertor</quote>
+            </p>
+            <p xml:id="bHY6yh-d70959-d1e271">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d70959-Rd1e293">Prouerb vulgar</ref> <quote xml:id="bHY6yh-d70959-Qd1e275">el seno de drio 
+              <lb ed="#K"/>val pocho el can non 
+              <lb ed="#K"/>noa sel non alaqua 
+              <lb ed="#K"/>ala coa El mato non fa 
+              <lb ed="#K"/>pato seno com so dap<lb ed="#K" break="no"/>no
+              fato:</quote> 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

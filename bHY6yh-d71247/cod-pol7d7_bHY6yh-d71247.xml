@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 11 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+             <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 11 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-05-09">May 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#K" n="155-v"/>
+           <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d71247"><!-- p4l1-r11 -->
+            <head xml:id="bHY6yh-d71247-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-d71247-Hd1e111" type="question-title">De sufficientia satietate et insatietate</head>
+            <p xml:id="bHY6yh-d71247-d1e114">
+                 De suf<lb ed="#K" break="no" n="17"/>fieientia 
+                 facietate et 
+                 <lb ed="#K"/>insacietate Rubrica xi
+            </p>
+            <p xml:id="bHY6yh-d71247-d1e121">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d71247-Rd1e122">Salomon in prouerbiis capitulo 27</ref> / <quote xml:id="bHY6yh-d71247-Qd1e127">In<lb ed="#K" break="no"/>fernus 
+              et perditio non 
+              <lb ed="#K"/>replebuntur similiter et o<lb ed="#K" break="no"/>culi 
+              hominum insaciabiles</quote>
+            </p>
+            <p xml:id="bHY6yh-d71247-d1e135"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d71247-Rd1e137">capitulo 30</ref> / <quote xml:id="bHY6yh-d71247-Qd1e137">Tria sunt insa<lb ed="#K" break="no"/>turabilia 
+              et quartum quod 
+              <lb ed="#K"/>nunqua dicit sufficit 
+              <lb ed="#K"/>/ Infernus et os vulue 
+              <lb ed="#K"/>et terraque nunquam saci<lb ed="#K" break="no"/>atur 
+              aqua ignis vero 
+              <lb ed="#K"/>nunquam dicit sufficit</quote>
+            </p>
+            <p xml:id="bHY6yh-d71247-d1e150"> 
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d71247-Rd1e154">Idem in ecclesiastica capitulo i</ref> / <quote xml:id="bHY6yh-d71247-Qd1e152">Non 
+              <lb ed="#K"/>saturatur oculus visu
+              <lb ed="#K"/>nec auris impletur auditu</quote>
+            </p>
+            <p xml:id="bHY6yh-d71247-d1e184">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d71247-Rd1e196">Socrates in exhortationibus capitulo 2</ref>
+              <lb ed="#K"/>/ <quote xml:id="bHY6yh-d71247-Qd1e188">Satietas omnium mala.</quote>
+            </p>
+             <p xml:id="bHY6yh-d71247-d1e158">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d71247-Rd1e166">Aristoteles retho libro 2 capitulo 26</ref> 
+              <lb ed="#K"/>/ <quote xml:id="bHY6yh-d71247-Qd1e162">Iuuenes sunt cito saturabiles 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>ad concupiscentias et veheme<lb ed="#K" break="no"/>nter 
+              quidem concupiscunt 
+              <lb ed="#K"/>celeriter autem desinunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d71247-d1e172"> 
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d71247-Rd1e180">Idem politicorum libro 2 capitulo 4</ref> 
+              <lb ed="#K"/>/ <quote xml:id="bHY6yh-d71247-Qd1e174">Infinita est natura con<lb ed="#K" break="no"/>cupiscentie 
+              ad cuius repleti<lb ed="#K" break="no"/>onem 
+              multi viuunt ¶
+              <lb ed="#K"/>malitia hominum irrepleb<lb ed="#K" break="no"/>ilis 
+              est</quote>
+            </p>
+            <p xml:id="bHY6yh-d71247-d1e194">
+               <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d71247-Rd1e208">Tullius tusculanarum questionum libro 5 et fi</ref> <quote xml:id="bHY6yh-d71247-Qd1e198" source="http://scta.info/resource/ctd99a-enbhy7-d1e300@3-14">Stu<lb ed="#K" break="no"/>ltitia 
+               et si adepta est 
+               <lb ed="#K"/>quod concupiuit numquam 
+               <lb ed="#K"/>tamen se satis consecutam 
+               <lb ed="#K"/>putat</quote>
+            </p>
+            <p xml:id="bHY6yh-d71247-d1e206">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d71247-Rd1e222">Idem de fine bonorum et malorum
+              <lb ed="#K"/>libro i</ref>/ <quote xml:id="bHY6yh-d71247-Qd1e210">Cupiditates sunt 
+              <lb ed="#K"/>insaciabiles Ignauium 
+              <lb ed="#K"/>cupiditatum nec modus 
+              <lb ed="#K"/>vllus nec finis inueniri potest</quote>
+            </p>
+            <p xml:id="bHY6yh-d71247-d1e221">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d71247-Rd1e239">Seneca de consolatione</ref> / <quote xml:id="bHY6yh-d71247-Qd1e225">Cupi<lb ed="#K" break="no"/>ditati 
+              nihil satis est
+              <lb ed="#K"/>etiam parum quicquid 
+              <lb ed="#K"/>desiderio quod non ex ino<lb ed="#K" break="no"/>pia
+              sed vitio nascitur 
+              <lb ed="#K"/>congesseris non finis erit 
+              <lb ed="#K"/>cupiditas sed gradus</quote>
+            </p>
+            <p xml:id="bHY6yh-d71247-d1e237">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d71247-Rd1e255">Idem epistolarum ad lucillum
+              <lb ed="#K"/>libro 10 epistola 4</ref> <quote xml:id="bHY6yh-d71247-Qd1e239">nemo est 
+              <lb ed="#K"/>cui felicitas sua etiam
+              <lb ed="#K"/>si cursu eueniat satisfaciat</quote>
+            </p>
+            <p xml:id="bHY6yh-d71247-d1e247">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d71247-Rd1e270">Boetius de consolatione libro 2 capitulo 9</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d71247-Qd1e251" source="http://scta.info/resource/hy7y6y-d1e59-d1e239@310-328">paucis minimisque natura 
+              <lb ed="#K"/>contenta est cuius sacie<lb ed="#K" break="no"/>tatem 
+              si superfluus vrgere 
+              <lb ed="#K"/>velis aut iniocundum 
+              <lb ed="#K"/>quod infuderis fiet aut 
+                <pb ed="#K" n="156-r"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K"/>noxium</quote>
+            </p>
+            <p xml:id="bHY6yh-d71247-d1e261">
+               ¶ <ref xml:id="bHY6yh-d71247-Rd1e286">libro 3 capitulo 5</ref> <quote xml:id="bHY6yh-d71247-Qd1e265">nature 
+               <lb ed="#K"/>minimum auaritie nihil 
+               <lb ed="#K"/>satis est</quote>
+            </p>
+            <p xml:id="bHY6yh-d71247-d1e271">
+               <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d71247-Rd1e298">Cassiodorus epistolarum libro xi epistola 2</ref> <quote xml:id="bHY6yh-d71247-Qd1e275">unus
+              <lb ed="#K"/>satiare non valet omnium vota</quote>
+            </p>
+            <p xml:id="bHY6yh-d71247-d1e281">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d71247-Rd1e310">epistola 3</ref>/ <quote xml:id="bHY6yh-d71247-Qd1e285">Arduum est quidem 
+              <lb ed="#K"/>multorum desideriis satisfacere</quote>
+            </p>
+            <p>
+              <lb ed="#K"/> <quote>Explicit liber partis quartis partis Incipit secundus</quote>  
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

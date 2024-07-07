@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 1</title>
+               <date when="2024-06-07">June 7, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-06-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="205-v"/>
+            <cb ed="#O" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d97737"><!-- p5l2-r1 -->
+            <head xml:id="bHY6yh-d97737-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d97737-Hd1e111" type="question-title">Unde oriantur bella</head>
+            <p xml:id="bHY6yh-d97737-d1e114">
+               <lb ed="#O"/>SEcundus 
+               <lb ed="#O"/>liber quin<lb ed="#O" break="no"/>te 
+               partis
+               <lb ed="#O"/>tractat 
+               <lb ed="#O"/>de bello 
+               <lb ed="#O"/>et hosti<lb ed="#O" break="no"/>litate
+               et de arte 
+               <lb ed="#O"/>bellandi sub his titulis sequitibus 
+            </p>
+            <p xml:id="bHY6yh-d97737-d1e127">
+               <lb ed="#O"/>Unde oriuntur bella. Rubrica 1.
+            </p>
+            <p xml:id="bHY6yh-d97737-d1e132">
+               <lb ed="#O"/><ref xml:id="bHY6yh-d97737-Rd1e129">PLato. in phedrone.</ref> <quote xml:id="bHY6yh-d97737-Qd1e136">propter
+               <lb ed="#O"/>pecuniarum possessionem uniuersa 
+               <lb ed="#O"/>bella nobis fiunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d97737-d1e145">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d97737-Rd1e144">ARistoteles <!--line bumps up--> rethoricorum libro 2. capitulo 6.</ref> ¶ <quote xml:id="bHY6yh-d97737-Qd1e149">Pu<!--line bumps back down-->gnantes contraria uiden<lb ed="#O" break="no"/>tur 
+               uelle.</quote>
+            </p>
+            <p xml:id="bHY6yh-d97737-d1e155">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d97737-Rd1e156">SAlustius <!--line bumps up--> in catilinario</ref> <quote xml:id="bHY6yh-d97737-Qd1e159">Im<!--line bumps back down-->perii et diuitiarum 
+               <lb ed="#O"/>causa bella atque certamina omnia 
+               <lb ed="#O"/>inter mortales sunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-d97737-d1e167">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d97737-Rd1e170">TUllius philipicorum <!--line bumps up--> libro 12. et penultimo.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-d97737-Qd1e171">Fortitudo 
+               <lb ed="#O"/>dimicare iubet. Iustum odium 
+               <lb ed="#O"/>incendit ad confligendum impel<lb ed="#O" break="no"/>lit 
+               uocat ad periculum.</quote>
+            </p>
+            <p xml:id="bHY6yh-d97737-d1e181">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d97737-Rd1e186">OUidius epistolarum. <!--line bumps up--> 15. epistola.</ref> <quote xml:id="bHY6yh-d97737-Qd1e185">Certa<!--line bumps back down-->men premia 
+               <lb ed="#O"/>magna mouent.</quote>
+            </p>
+            <p xml:id="bHY6yh-d97737-d1e191">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d97737-Rd1e198">IAcobus apostolus. capitulo <!--line bumps up--> 1 et 4.</ref> ¶ <quote xml:id="bHY6yh-d97737-Qd1e195">Unde <!--line bumps back down--> bella et li<lb ed="#O" break="no"/>tes 
+               inter uos nonne hinc ex 
+               <lb ed="#O"/>concupiscentiis uestris que militant 
+               <lb ed="#O"/>in membris uestris.</quote>
+            </p>
+            <p xml:id="bHY6yh-d97737-d1e203">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d97737-Rd1e212">LUcanus. libro 3.</ref> <!--line bumps up--> <quote xml:id="bHY6yh-d97737-Qd1e207">Certamen moui<!--line bumps back down-->stis opes.</quote>
+            </p>
+            <p xml:id="bHY6yh-d97737-d1e212">
+               <!--line bumps down-->
+               <lb ed="#O"/><ref xml:id="bHY6yh-d97737-Rd1e223">IAcobus beneuentanus. <!--line bumps up--> capitulo 5.</ref> <quote xml:id="bHY6yh-d97737-Qd1e216">E<!--line bumps back down-->ffreni 
+               <lb ed="#O"/>lingua surgere bella solent.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

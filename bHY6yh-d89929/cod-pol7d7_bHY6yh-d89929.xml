@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 1 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-06-22">June 22, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="196-v"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d89929"><!-- p4l6-r1 -->
+            <head xml:id="bHY6yh-d89929-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d89929-Hd1e111" type="question-title">De laudibus mulierum et acceptabilitate earum</head>
+            <p xml:id="bHY6yh-d89929-d1e114">
+               <lb ed="#K" n="13"/>SExtus et vltimus liber quarte partis 
+               <lb ed="#K"/>tractat de conuictu viri 
+               <lb ed="#K"/>et mulieris sub his titul 
+            </p>
+            <p xml:id="bHY6yh-d89929-d1e123">
+             <lb ed="#K"/>De laudibus mulierum et ac<lb ed="#K" break="no"/>ceptabilitate 
+             earum Rubrica prima
+          </p>
+          <p xml:id="bHY6yh-d89929-d1e130">
+            <lb ed="#K"/>/ <ref xml:id="bHY6yh-d89929-Rd1e127">Genesi capitulo 13</ref> <quote xml:id="bHY6yh-d89929-Qd1e134">dixit dominus mulieri
+            <lb ed="#K"/>In dolore paries filios et sub 
+            <lb ed="#K"/>viri potestate eris et ipse
+            <lb ed="#K"/>dominabitur tibi</quote> 
+          </p>
+          <p xml:id="bHY6yh-d89929-d1e145">
+            <lb ed="#K"/>/ <ref xml:id="bHY6yh-d89929-Rd1e144">Aristoteles de hystoria animalium libro 8 capitulo i</ref> <quote xml:id="bHY6yh-d89929-Qd1e149">Mulier 
+            <lb ed="#K"/>viro misericordior est Minus 
+            <lb ed="#K"/>sunt iracunda femella omnia masculinis 
+            <lb ed="#K"/>excepta vrsa et pardolo</quote>
+            </p>
+            <p xml:id="bHY6yh-d89929-d1e159">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d89929-Rd1e160">Iesus filius sirach in ecclesistico capitulo 36</ref> <quote xml:id="bHY6yh-d89929-Qd1e163">Ubi
+              <lb ed="#K"/>non est seps diripitur pos<lb ed="#K" break="no"/>sessio
+              et vbi non est mulier 
+              <lb ed="#K"/>gemescit eger</quote>
+            </p>
+            <p xml:id="bHY6yh-d89929-d1e171">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d89929-Rd1e174">Paulus apostolus in epistola i ad corinthios capitulo xi</ref> <quote xml:id="bHY6yh-d89929-Qd1e175">mulier 
+              <lb ed="#K"/>gloria est viri non est creatus vir 
+              <lb ed="#K"/>propter mulierem sed mulier propter 
+              <lb ed="#K"/>virum</quote>
+            </p>
+            <p xml:id="bHY6yh-d89929-d1e189">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d89929-Rd1e195">Lex codice titulo qui potiores in pignore habeantur libro assiduis</ref> <quote xml:id="bHY6yh-d89929-Qd1e193">Quis 
+              <lb ed="#K"/>mulieres non miseretur propter
+              <lb ed="#K"/>obsequia que maritis 
+              <lb ed="#K"/>prestant propter partus periculum 
+              <lb ed="#K"/>et ipsam liberorum procreationem</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
