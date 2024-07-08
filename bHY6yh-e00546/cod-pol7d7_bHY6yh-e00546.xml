@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 19 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 19 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-07-07">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="216-r"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e00546"><!-- p5l2-r19 -->
+            <head xml:id="bHY6yh-e00546-Hd1e108">Rubrica 19</head>
+            <head xml:id="bHY6yh-e00546-Hd1e111" type="question-title">De modis artificiosis preliandi</head>
+            <p xml:id="bHY6yh-e00546-d1e114">
+               De modis 
+               <lb ed="#K" n="79"/>artificiosis preliandi. Rubrica. 19.
+            </p>
+            <p xml:id="bHY6yh-e00546-d1e121">
+                <pb ed="#K" n="216-v"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/> <ref xml:id="bHY6yh-e00546-Rd1e118">TUllius tusculanarum questionum. libro 2.</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-e00546-Qd1e125" source="http://scta.info/resource/ctd99a-bac77a-d1e360@48-55">Profunda voce omne corpus 
+              <lb ed="#K"/>incenditur venitque plaga vehementior.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00546-d1e135">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-e00546-Rd1e135">Uegetius de re militari libro i. titulo 9.</ref> <quote xml:id="bHY6yh-e00546-Qd1e139">In ipso conflic<lb ed="#K" break="no"/>tum 
+              dimicatione telorum bella<lb ed="#K" break="no"/>tor 
+              cum cursu saltumque veniens 
+              <lb ed="#K"/>aduersatii perstringit oculos 
+              <lb ed="#K"/>mentesque deterret: priusque pla<lb ed="#K" break="no"/>gam 
+              infligit quam ille ad cauen<lb ed="#K" break="no"/>dum 
+              vel ad resistendum certe se 
+              <lb ed="#K"/>praeparet.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00546-d1e154"> 
+              <ref xml:id="bHY6yh-e00546-Rd1e154">12. titulo.</ref> <quote xml:id="bHY6yh-e00546-Qd1e156">Cesim pugnan<lb ed="#K" break="no"/>tes 
+              non solum facile vincere: sed 
+              <lb ed="#K"/>derisere romani Cesura enim 
+              <lb ed="#K"/>quouis impetu venit: non 
+              <lb ed="#K"/>frequenter interfecit: Cum et ar<lb ed="#K" break="no"/>mis 
+              vitalia defendantur et 
+              <lb ed="#K"/>ossibus at contra puncturas duras 
+              <lb ed="#K"/>vncias ad acta mortalis est
+              <lb ed="#K"/>necesse est enim vitalia pe<lb ed="#K" break="no"/>netret 
+              quicquid immergitur 
+              <lb ed="#K"/>Deinde cum cesura inseritur 
+              <lb ed="#K"/>brachium dextrum latusque nu<lb ed="#K" break="no"/>datur
+              punctura vero recto corpore 
+              <lb ed="#K"/>infertur: et aduersarium sau<lb ed="#K" break="no"/>tiat 
+               antequam videat.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00546-d1e181"> 
+              <ref xml:id="bHY6yh-e00546-Rd1e183">Libro 3. 
+              <lb ed="#K"/>titulo 14.</ref> <quote xml:id="bHY6yh-e00546-Qd1e183">Uehementius cum saltu 
+              <lb ed="#K"/>cursu tela mittuntur.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00546-d1e189"> 
+             <ref xml:id="bHY6yh-e00546-Rd1e193">15. titulo.</ref> 
+             <lb ed="#K"/> <quote xml:id="bHY6yh-e00546-Qd1e191">Magis expedit vt confertim
+             <lb ed="#K"/>pugnent quam longius separa<lb ed="#K" break="no"/>tim: 
+             nam si nimium fuerit aci<lb ed="#K" break="no"/>es 
+             atteus nuata cito ab 
+             <lb ed="#K"/>aduersariis facta impressione di<lb ed="#K" break="no"/>rumpitur 
+             et nullum potest 
+             <lb ed="#K"/>postea esse remedium.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00546-d1e210"> 
+             <ref xml:id="bHY6yh-e00546-Rd1e216">18 titulo.</ref> 
+             <lb ed="#K"/> <quote xml:id="bHY6yh-e00546-Qd1e212">Imperitorum est vel ignauorum 
+             <lb ed="#K"/>vociferare de longe cum hos<lb ed="#K" break="no"/>tes 
+            magis terreantur si cum 
+            <lb ed="#K"/>telorum ictu clamoris terror 
+            <lb ed="#K"/>accesserit.</quote>
+            </p>
+            <p xml:id="bHY6yh-e00546-d1e222"> 
+              <ref xml:id="bHY6yh-e00546-Rd1e230">26 titulo et finali.</ref> <quote xml:id="bHY6yh-e00546-Qd1e224">Qui
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>dispersis suis inconsulte se<lb ed="#K" break="no"/>quitur: 
+              quam ipse acceperat ad<lb ed="#K" break="no"/>uersario 
+              vult dare victoriam.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
