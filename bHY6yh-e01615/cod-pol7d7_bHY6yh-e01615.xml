@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 26 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 26 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-07-10">July 10, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="219-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e01615"><!-- p5l2-r26 -->
+            <head xml:id="bHY6yh-e01615-Hd1e108">Rubrica 26</head>
+           <head xml:id="bHY6yh-e01615-Hd1e111" type="question-title">De infidelitate suorum eminentium dissimulanda et caute corrigenda</head>
+              <p xml:id="bHY6yh-e01615-d1e114">
+                <lb ed="K" n="1"/>De infidelitate suorum emi<lb ed="K" break="no"/>nentium 
+                dissimulanda et 
+                <lb ed="K"/>caute corrigenda. Rubrica. 26.
+            </p>
+            <p xml:id="bHY6yh-e01615-d1e123">
+               <lb ed="K"/> <ref xml:id="bHY6yh-e01615-Rd1e126">FRontinus. Libro 3 titulo 16.</ref> <quote xml:id="bHY6yh-e01615-Qd1e138">L Mar<lb ed="K" break="no"/>cellus 
+               cognito consilio bar<lb ed="K" break="no"/>teinolani 
+               qui corrumpere 
+               <lb ed="K"/>populares studebant et hanni<lb ed="K" break="no"/>bali 
+               gratificabant quod illius 
+               <lb ed="K"/>beneficio curatus inter canenses 
+               <lb ed="K"/>saucius: et ex captiuitate 
+               <lb ed="K"/>remissus ad suos erat
+              <lb ed="K"/>qui interficere edes ne suppli<lb ed="K" break="no"/>cio
+              eius reliquos concitaret 
+              <lb ed="K"/>nolanos non audebat: accer<lb ed="K" break="no"/>situm 
+              ad se allocutus est dicens
+              <lb ed="K"/>fortissimum eum militem quod 
+              <lb ed="K"/>ante ignorasset hortatusque est 
+              <lb ed="K"/>vt secum moraretur: et super
+              <lb ed="K"/>verborum honorem equum quoq<lb ed="K" break="no"/>ue 
+              ei donauit. Qua benignitate 
+              <lb ed="K"/>non illius tantum fidem sed 
+              <lb ed="K"/>etiam popularium qui ex illo pen<lb ed="K" break="no"/>debant
+              sibi obligauit.</quote>
+            </p>
+            <p xml:id="bHY6yh-e01615-d1e170"> 
+              <ref xml:id="bHY6yh-e01615-Rd1e168">Libro 
+              <lb ed="K"/>4. et finali. titulo 7. et finali.</ref> <quote xml:id="bHY6yh-e01615-Qd1e172">O Maximus 
+              <lb ed="K"/>tranfugere ad hostes volentem 
+              <lb ed="K"/>stantem tabilium nobilem 
+              <lb ed="K"/>clare opere equitem vocari 
+              <lb ed="K"/>ad se iussit: eique se excusauit 
+              <lb ed="K"/>qui inuidia commilitonum vir<lb ed="K" break="no"/>tutes 
+              illius ad inde tempus ig<lb ed="K" break="no"/>norasset 
+              Tum donato ei equo 
+              <lb ed="K"/>pecuniam insuper largitus
+              <lb ed="K"/>obtinuit vt quem ex conscientia 
+              <lb ed="K"/>trepidum accersierat: letum 
+              <lb ed="K"/>admitteret: et ex dubio in 
+              <lb ed="K"/>reliquum non minus sidelem 
+              <lb ed="K"/>quam fortem haberet equitem.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
