@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 21 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+             <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 21 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-07-09">July 09, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="217-v"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e01025"><!-- p5l2-r21 -->
+            <head xml:id="bHY6yh-e01025-Hd1e108">Rubrica 21</head>
+            <head xml:id="bHY6yh-e01025-Hd1e111" type="question-title">De aduersis occultandis hostibus</head>
+            <p xml:id="bHY6yh-e01025-d1e114">
+              De ad<lb ed="#K" break="no" n="11"/>uersis 
+              occultandis hostibus. Rubrica. 21.
+            </p>
+            <p xml:id="bHY6yh-e01025-d1e121">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-e01025-Rd1e118">FRontinus. Libro 2. titulo 7.</ref> <quote xml:id="bHY6yh-e01025-Qd1e127">Quintus sertorius 
+              <lb ed="#K"/>cum acie decertaret barbarum 
+              <lb ed="#K"/>qui ei nunciauerat <sic>hircule<lb ed="#K" break="no"/>gium</sic> 
+              periisse pugione traiecit
+              <lb ed="#K"/>ne in aliorum notitiam per<lb ed="#K" break="no"/>ferret: 
+              et ob hoc animi suorum 
+              <lb ed="#K"/>infirmarentur.</quote> 
+            </p>
+            <p xml:id="bHY6yh-e01025-d1e141"> 
+              <!--no ref-->/<ref xml:id="bHY6yh-e01025-Rd1e144"> </ref> <quote xml:id="bHY6yh-e01025-Qd1e143">Elabiates at<lb ed="#K" break="no"/>heniensis 
+              cum abidenis pre<lb ed="#K" break="no"/>lio 
+              vrgeretur: subitoque magno 
+              <lb ed="#K"/>cursu tristem animaduertisset 
+              <lb ed="#K"/>aduentare taberarium prohib<lb ed="#K" break="no"/>uit 
+              palam dicere quid afferret: de<lb ed="#K" break="no"/>inde 
+              secreto sciscitatus a farnabendo <!--review-->
+              <lb ed="#K"/>regio prefecto classem 
+              <lb ed="#K"/>suam oppugnari celatis hostibus 
+              <lb ed="#K"/>et militibus prelium finit ac
+              <lb ed="#K"/>protinus ad eripiendam classem 
+              <lb ed="#K"/>ducto exercitu opem tulit su<lb ed="#K" break="no"/>is.</quote>
+        </p>
+        <p xml:id="bHY6yh-e01025-d1e163"> 
+            <ref xml:id="bHY6yh-e01025-Rd1e170"> </ref> <quote xml:id="bHY6yh-e01025-Qd1e165">T. Labienius post pharsa<lb ed="#K" break="no"/>licam 
+            pugnam cum victis partibus
+            <lb ed="#K"/>duratium refugisset: miscuit 
+            <lb ed="#K"/>vera falsis et non celato exitu 
+            <lb ed="#K"/>pugne equatam partium fortunam 
+            <lb ed="#K"/>graui vulnere cesaris finxit: 
+            <lb ed="#K"/>et hac simulatione reliquis pom<lb ed="#K" break="no"/>peiarum 
+            partium fiduciam fecit </quote>
+          </p>
+          <p xml:id="bHY6yh-e01025-d1e182">
+            <lb ed="#K"/> <ref xml:id="bHY6yh-e01025-Rd1e196">10 titulo.</ref> <quote xml:id="bHY6yh-e01025-Qd1e186">Todius in hyspania cum 
+            <lb ed="#K"/>acerrimo prelio conflixisset quod 
+            <lb ed="#K"/>vix dirimerat magno numero 
+            <lb ed="#K"/>vtrimque ceso: complura suorum 
+            <lb ed="#K"/>corpora interempta nocte 
+                <cb ed="#K" n="b"/>
+            <lb ed="#K"/>sepelienda curauit Hyspani 
+            <lb ed="#K"/>postero die ad simile officium 
+            <lb ed="#K"/>progressi: quia plures ex ipsorum 
+            <lb ed="#K"/>numero quam ex romanis cesos 
+            <lb ed="#K"/>repererant victos se esse secundum
+            <lb ed="#K"/>eam dinumerationem ar<lb ed="#K" break="no"/>gumentati
+            ad conditiones im<lb ed="#K" break="no"/>peratoris 
+            descenderunt.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
