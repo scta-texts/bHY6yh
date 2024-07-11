@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 27 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 27 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-07-10">July 10, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="219-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e01705"><!-- p5l2-r27 -->
+            <head xml:id="bHY6yh-e01705-Hd1e108">Rubrica 27</head>
+           <head xml:id="bHY6yh-e01705-Hd1e111" type="question-title">De temerario furore suorum eminentium caute mitigando vel remouendo</head>
+              <p xml:id="bHY6yh-e01705-d1e114">
+                <lb ed="#K"/>De temerario furore suorum 
+                <lb ed="#K"/>eminentium caute mitigandum 
+                <lb ed="#K"/>vel remouendum. Rubrica. 27.
+            </p>
+            <p xml:id="bHY6yh-e01705-d1e123">
+               <lb ed="#K"/> <ref xml:id="bHY6yh-e01705-Rd1e120">FRontinus Libro i. titulo 8.</ref> <quote xml:id="bHY6yh-e01705-Qd1e124">Coriolanus 
+               <lb ed="#K"/>cum ignominiam damnationis 
+               <lb ed="#K"/>sue bello vlcisceretur popula<lb ed="#K" break="no"/>tionem 
+               patritiorum magnorum 
+                  <cb ed="#K" n="b"/>
+               <lb ed="#K"/>inhibuit deustis vastatisque 
+               <lb ed="#K"/>plebeiorum: vt discordiam mo<lb ed="#K" break="no"/>ueret 
+               qua consensus romanorum 
+               <lb ed="#K"/>distingueret.</quote>
+            </p>
+            <p xml:id="bHY6yh-e01705-d1e143"> 
+              <ref xml:id="bHY6yh-e01705-Rd1e143"><!--no ref--></ref> <quote xml:id="bHY6yh-e01705-Qd1e145">Hannibal fabium 
+              <lb ed="#K"/>cui nec virtute neque arte bellandi 
+              <lb ed="#K"/>par erat vt in familia distin<lb ed="#K" break="no"/>gueret 
+              agens eius abstinuit 
+              <lb ed="#K"/>ceteros populatus. Contra ille ne 
+              <lb ed="#K"/>suspecta ciuibus fides esset magni<lb ed="#K" break="no"/>tudine 
+              animi effecit publicatis 
+              <lb ed="#K"/>possessionibus suis.</quote>
+            </p>
+            <p xml:id="bHY6yh-e01705-d1e165">
+                <ref xml:id="bHY6yh-e01705-Rd1e163"><!--no ref--></ref> <quote xml:id="bHY6yh-e01705-Qd1e167">Legati romanorum
+                <lb ed="#K"/>cum missi essent ad antiochum 
+                <lb ed="#K"/>regem qui se cum hannibalem 
+                <lb ed="#K"/>viciis iam carthaginensibus 
+                <lb ed="#K"/>habebat consiliumque aduersus romanos 
+                <lb ed="#K"/>instruebat crebris cum ha<lb ed="#K" break="no"/>nnibalem 
+                colloquiis effecerunt 
+                <lb ed="#K"/>vt is regi fieret suspectus.
+                <lb ed="#K"/>cui gratissimus aliquando erat et 
+                <lb ed="#K"/>vtilis propter calliditatem et peritiam 
+                <lb ed="#K"/>bellandi Quintus sertorius cum 
+                <lb ed="#K"/>barbaro rege traciorum rationis 
+                <lb ed="#K"/>indocili eodem consilio vsus est:
+                <lb ed="#K"/>nam cum intercepte fuissent 
+                <lb ed="#K"/>epistole eius ad regios amicos scripte 
+                <lb ed="#K"/>in omnes eos rex animaduertit 
+                <lb ed="#K"/>spoliatusque consiliis amicos 
+                <lb ed="#K"/>postea parare non potuit.</quote>
+            </p>
+            <p xml:id="bHY6yh-e01705-d1e193"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-e01705-Rd1e204">Libro 3. titulo 6.</ref> <quote xml:id="bHY6yh-e01705-Qd1e195">Cleominus atheniensis 
+              <lb ed="#K"/>trecenos qui presidium craterum 
+              <lb ed="#K"/>tenebant aggressus. tela quedam 
+              <lb ed="#K"/>in quibus scriptum erat venisse 
+              <lb ed="#K"/>se ad liberandam. eorum rem 
+              <lb ed="#K"/>publicam inter muros iecit et 
+              <lb ed="#K"/>eodem tempore captiuos quosdam
+              <lb ed="#K"/>conciliatos sibi remisit: qui craterum 
+              <lb ed="#K"/>detractarent: per hoc consilium sedi<lb ed="#K" break="no"/>tione 
+              intestinaria apud ob<lb ed="#K" break="no"/>sessos 
+              conciliata admoto exercitu 
+              <lb ed="#K"/>potitus est ciuitate.</quote>
+            </p>
+            <p xml:id="bHY6yh-e01705-d1e218"> 
+              <ref xml:id="bHY6yh-e01705-Rd1e231">Titulo 16.</ref> <quote xml:id="bHY6yh-e01705-Qd1e220">Ha<lb ed="#K" break="no"/>nnibala 
+              transfugis vltus est 
+              <lb ed="#K"/>nam cum aliquos ex militibus 
+                  <pb ed="#K" n="219-v"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>suis sciret transisse proxima nocte
+              <lb ed="#K"/>nec ignoraret exploratores 
+              <lb ed="#K"/>hostium in castris suis esse 
+              <lb ed="#K"/>palam pronunciauit retulerunt 
+              <lb ed="#K"/>transfugas vocari solertissimos 
+              <lb ed="#K"/>milites: qui ipsius iussu exi<lb ed="#K" break="no"/>erunt 
+              ad excipienda hostium 
+              <lb ed="#K"/>consilia: auditisque pronunciauit: 
+              <lb ed="#K"/>retulerunt exploratores ad 
+              <lb ed="#K"/>suos. Tunc comprehensi a romanis 
+              <lb ed="#K"/>transfuge amputatis manibus 
+              <lb ed="#K"/>remissi sunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-e01705-d1e245">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-e01705-Rd1e264">Uegetius de re militari libro 3. titulo 10.</ref> <quote xml:id="bHY6yh-e01705-Qd1e249">Inter hostes dis<lb ed="#K" break="no"/>cordiarum 
+              scire serere causas sa<lb ed="#K" break="no"/>pietis 
+              est ducis.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
