@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 31 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+             <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 31 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-07-12">July 12, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="220-v"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e02391"><!-- p5l2-r31 -->
+            <head xml:id="bHY6yh-e02391-Hd1e108">Rubrica 31</head>
+            <head xml:id="bHY6yh-e02391-Hd1e111" type="question-title">De cautelis fugandi hostes vano terrore</head>
+            <p xml:id="bHY6yh-e02391-d1e114">
+                De 
+                <lb ed="#K" n="63"/>cautelis inferendis hosti<lb ed="#K" break="no"/>bus 
+                veras occasiones re<lb ed="#K" break="no"/>cedendi 
+                ab <!--new text--> et
+                <lb ed="#K"/>oppressione. Rubrica 31
+            </p>
+            <p xml:id="bHY6yh-e02391-d1e123">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-e02391-Rd1e120">FRontinus. Libro. 2 titulo 4.</ref> <quote xml:id="bHY6yh-e02391-Qd1e129">Cresus pre<lb ed="#K" break="no"/>ualido 
+              hostium equitatui 
+              <lb ed="#K"/>camelorum gregem opposuit: 
+              <lb ed="#K"/>quorum nouitate et terrore 
+              <lb ed="#K"/>consternati equi non solum in<lb ed="#K" break="no"/>sidentes 
+              precipitauerunt
+              <lb ed="#K"/>sed peditum quoque suorum or<lb ed="#K" break="no"/>dines 
+              protriuerunt vincendosque 
+              <lb ed="#K"/>hosti prebuerunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-e02391-d1e146"> 
+              <ref xml:id="bHY6yh-e02391-Rd1e144"><!--no ref--></ref> <quote xml:id="bHY6yh-e02391-Qd1e148">Uolscorum 
+              <lb ed="#K"/>castra cum prope virgulti sil<lb ed="#K" break="no"/>uam 
+              posita essent camilus 
+              <lb ed="#K"/>ea omnia que conceptum ignem 
+              <lb ed="#K"/>vsque in vallem proferre poterant 
+                  <pb ed="#K" n="221-r"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>incendit: et sic aduersarios 
+              <lb ed="#K"/>exuit castris.</quote>
+            </p>
+            <p xml:id="bHY6yh-e02391-d1e161"> 
+              <ref xml:id="bHY6yh-e02391-Rd1e161"><!--no ref--></ref> <quote xml:id="bHY6yh-e02391-Qd1e163">Hyspani 
+              <lb ed="#K"/>contra amilcarem boues ve<lb ed="#K" break="no"/>hiculis 
+              aduinctos prima 
+              <lb ed="#K"/>fronte constituerunt vehicula<lb ed="#K" break="no"/>que 
+              rede sepi et sulphuris 
+              <lb ed="#K"/>plena signo pugne dato 
+              <lb ed="#K"/>incenderunt. actis deinde 
+              <lb ed="#K"/>in hostem bobus consternatam 
+              <lb ed="#K"/>aciem proruperunt.</quote>
+            </p>
+            <p xml:id="bHY6yh-e02391-d1e177"> 
+                <ref xml:id="bHY6yh-e02391-Rd1e179">Libro 4. et 
+                <lb ed="#K"/>finali. titulo 7.</ref> <quote xml:id="bHY6yh-e02391-Qd1e179">Hannibal regi anti<lb ed="#K" break="no"/>ocho 
+                monstrauit vt in hostium 
+                <lb ed="#K"/>classem vascula iacula<lb ed="#K" break="no"/>rentur 
+                viperis plena quare
+                <lb ed="#K"/>metu perterriti milites 
+                <lb ed="#K"/>a dimicatione et nauticis 
+                <lb ed="#K"/>ministeriis impedirentur. Sic fe<lb ed="#K" break="no"/>cit 
+                iam cedente classe sua 
+                <lb ed="#K"/>prusias.</quote>
+            </p>
+            <p xml:id="bHY6yh-e02391-d1e202">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-e02391-Rd1e209">Uegetius: de re militari. libro 3. titulo 18.</ref> <quote xml:id="bHY6yh-e02391-Qd1e206">Pars victorie est in<lb ed="#K" break="no"/>imicum 
+              turbare antequam dimices</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
