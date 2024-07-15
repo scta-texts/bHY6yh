@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 37 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 37 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-07-15">July 15, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="225-r"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e04012"><!-- p5l2-r37 -->
+            <head xml:id="bHY6yh-e04012-Hd1e108">Rubrica 37</head>
+            <head xml:id="bHY6yh-e04012-Hd1e111" type="question-title">De simulationibus habendis ad decipiendum hostes</head>
+            <p xml:id="bHY6yh-e04012-d1e114">
+              <lb ed="#K" n="61"/>De simulationibus habendis ad 
+              <lb ed="#K"/>decipiendum hostes. Rubrica. 37.
+            </p>
+            <p xml:id="bHY6yh-e04012-d1e121">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-e04012-Rd1e118">FRontinus. Libro i. titulo 4.</ref> <quote xml:id="bHY6yh-e04012-Qd1e127"><sic>Egesila</sic>us <sic>la<lb ed="#K" break="no"/>cedemonius</sic> 
+              cum <sic>preda</sic>onustus 
+              <lb ed="#K"/>cum <sic>frigiam</sic> rediret insequereturque 
+              <lb ed="#K"/>hostes et ad locorum opportunitatem 
+              <lb ed="#K"/>lacesserent: agmen eius ordinem 
+              <lb ed="#K"/>captiuorum ab vtroque latere exercitus 
+              <lb ed="#K"/>sui applicuit Quibus dum parcitur 
+              <lb ed="#K"/>ab hoste spacium transeundi ha<lb ed="#K" break="no"/>buerunt 
+              <sic>lacedemonii.</sic></quote> 
+            </p>
+            <p xml:id="bHY6yh-e04012-d1e146"> 
+              <ref xml:id="bHY6yh-e04012-Rd1e143"><!--no ref--></ref> <quote xml:id="bHY6yh-e04012-Qd1e148">Idem 
+              <lb ed="#K"/>tenentibus angustias thebanis 
+              <lb ed="#K"/>per quas transire  habebat flexit 
+              <lb ed="#K"/>iter: quasi thebas contenderet
+              <lb ed="#K"/>exterritis thebanis digressisque 
+              <lb ed="#K"/>ad tutanda menia repetitum 
+              <lb ed="#K"/>iter quo destinauerat emersus 
+              <lb ed="#K"/>est nullo obstante.</quote>
+            </p>
+            <p xml:id="bHY6yh-e04012-d1e170"> 
+                <ref xml:id="bHY6yh-e04012-Rd1e169">Titulo 5.</ref> <quote xml:id="bHY6yh-e04012-Qd1e172">Cressus
+                <lb ed="#K"/>cum aluei vado transire non 
+                <lb ed="#K"/>posset neque nauium aut pontis 
+                <lb ed="#K"/>faciendi copiam haberet fossa su<lb ed="#K" break="no"/>periori 
+                parte post castra de<lb ed="#K" break="no"/>ducta 
+                  <pb ed="#K" n="225-v"/>
+                  <cb ed="#K" n="a"/>
+                alueum fluminis a tergo 
+                <lb ed="#K"/>exercitus sui reddidit.</quote>
+            </p>
+            <p xml:id="bHY6yh-e04012-d1e186"> 
+                <ref xml:id="bHY6yh-e04012-Rd1e187"></ref> <quote xml:id="bHY6yh-e04012-Qd1e188">Hyrculeus 
+                <lb ed="#K"/>legatus sertorii cum in hyspania 
+                <lb ed="#K"/>inter duos montes abrutos 
+                <lb ed="#K"/>longus et angustum iter in<lb ed="#K" break="no"/>gressus 
+                paucas: duceret cohor<lb ed="#K" break="no"/>tes
+                comperissetque ingentem manum 
+                <lb ed="#K"/>hostium aduenire: fossam transuersam 
+                <lb ed="#K"/>inter montes pressit vallumque 
+                <lb ed="#K"/>materia extructum incendit
+                <lb ed="#K"/>atque ita intercluso hoste euasit.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
