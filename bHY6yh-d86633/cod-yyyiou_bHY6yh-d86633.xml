@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 17</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 17</title>
+               <date when="2024-06-18">June 18, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-06-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="120-r"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d86633"><!-- p4l4-r17 -->
+            <head xml:id="bHY6yh-d86633-Hd1e108">Rubrica 17</head> 
+            <!-- this doesn't seem to be in Chris's list -->
+    <head xml:id="bHY6yh-d86633-Hd1e113" type="question-title">De conuiuiis.</head>
+    <p xml:id="bHY6yh-d86633-d1e116">                        
+               De conuiuiis capitulum
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e121">
+               <ref xml:id="bHY6yh-d86633-Rd1e118">Ihesus filius
+               <lb ed="#C"/>sirach in ecclesiastico capitulo 30</ref> <quote xml:id="bHY6yh-d86633-Qd1e127">Splendidum
+               <lb ed="#C"/>cor hominis in epulis epule enim illius dili<lb ed="#C" break="no"/>gentes 
+               fiunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e140">
+               ¶ <ref xml:id="bHY6yh-d86633-Rd1e136">Seneca epistolarum ad lucillum
+               <lb ed="#C"/>libro III capitulo 5</ref> <quote xml:id="bHY6yh-d86633-Qd1e146">Ante circumspiciendum est cum
+               <lb ed="#C"/>quibus edas summa</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e152">
+               ¶ <ref xml:id="bHY6yh-d86633-Rd1e150">Valerius maximus libro 2 titulo de in<lb ed="#C" break="no"/>stitutis 
+               antiquis</ref> <quote xml:id="bHY6yh-d86633-Qd1e156">Conuiuium solenne maiores
+               <lb ed="#C"/>instituerunt uide summa</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e175">
+               ¶ <ref xml:id="bHY6yh-d86633-Rd1e176">Macrobius saturnaliorum
+               <lb ed="#C"/>libro 3 in prohemio</ref> <quote xml:id="bHY6yh-d86633-Qd1e179">Solet cibus cum sumitur ta<lb ed="#C" break="no"/>citos 
+               potus facere loquaces</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e187">
+               [omitted]
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e197">
+               [omitted]
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e205">
+               ¶ <ref xml:id="bHY6yh-d86633-Rd1e213">Cato capitulo 3</ref>
+               <cb ed="#C" n="b"/>
+               <lb ed="#C"/><quote xml:id="bHY6yh-d86633-Qd1e209">Inter conuiuas etcetaera</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e218">
+               ¶ <ref xml:id="bHY6yh-d86633-Rd1e228">Versificator fabularium ysopi fabula
+               <lb ed="#C"/>22</ref> <quote xml:id="bHY6yh-d86633-Qd1e222">In tenui mensa satis est immensa uoluptas
+               <lb ed="#C"/>Nobilitat que uiles frons generosa dapes
+               <lb ed="#C"/>Emendet conditque cibos clementia uultus
+               <lb ed="#C"/>Conuiuam saciat plus dape frontis honor
+               <lb ed="#C"/>Tristitior immensas pauperat usus opes</quote>
+            </p>
+            <p>
+               <lb ed="#C"/>¶ Gaulfredus in poetrai quod patet misera placet
+               <lb ed="#C"/>nouitate decorum Et coardore civus per<lb ed="#C" break="no"/>tio 
+               conditus et arte potus tam uino sa<lb ed="#C" break="no"/>pidiis 
+               quam nectare una moribus insigneris
+               ueste facentia dandi et uultus dantis du<lb ed="#C" break="no"/>plex 
+               exstat gloria mense
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
