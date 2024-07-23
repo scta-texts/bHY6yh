@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 9 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+             <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 9 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-07-23">July 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="233-v"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e08472"><!-- p5l3-r9 -->
+            <head xml:id="bHY6yh-e08472-Hd1e108">Rubrica 9</head>
+            <head xml:id="bHY6yh-e08472-Hd1e111" type="question-title">De miserabilibus personis</head>
+        <p xml:id="bHY6yh-e08472-d1e114">
+            De misera<lb ed="#K" break="no" n="39"/>bilibus 
+            personis. Rubrica. 9
+        </p>
+        <p xml:id="bHY6yh-e08472-d1e119">
+           <lb ed="#K"/> <ref xml:id="bHY6yh-e08472-Rd1e116">PSalmista. 9. psalmus</ref> <quote xml:id="bHY6yh-e08472-Qd1e118">Patientia paupe<lb ed="#K" break="no"/>rum 
+           non peribit in finem.</quote>
+        </p>
+        <p xml:id="bHY6yh-e08472-d1e128"> 
+          <lb ed="#K"/> <ref xml:id="bHY6yh-e08472-Rd1e128">36. psalmus.</ref> <quote xml:id="bHY6yh-e08472-Qd1e130">Cum ceciderit iustus 
+              <cb ed="#K" n="b"/>
+          <lb ed="#K"/>non collidetur: quia dominus supponit 
+          <lb ed="#K"/>manum suam.</quote>
+        </p>
+        <p xml:id="bHY6yh-e08472-d1e139"> 
+          <ref xml:id="bHY6yh-e08472-Rd1e141">102. psalmus.</ref> <quote xml:id="bHY6yh-e08472-Qd1e141">Faci<lb ed="#K" break="no"/>entem 
+          est misericordias dominus et iu<lb ed="#K" break="no"/>dicium
+          omnibus iniuriam patien<lb ed="#K" break="no"/>tibus.</quote>
+        </p>
+        <p xml:id="bHY6yh-e08472-d1e149"> 
+          <ref xml:id="bHY6yh-e08472-Rd1e153">146. psalmus.</ref> <quote xml:id="bHY6yh-e08472-Qd1e151">Qui semi<lb ed="#K" break="no"/>ant 
+          in lachrymis in exultatione 
+          <lb ed="#K"/>metent.</quote>
+        </p>
+        <p xml:id="bHY6yh-e08472-d1e163">
+            <ref xml:id="bHY6yh-e08472-Rd1e169">160. psalmus</ref> <quote xml:id="bHY6yh-e08472-Qd1e165">Faciet dominus 
+            <lb ed="#K"/>iudicium inopis: et vindictam 
+            <lb ed="#K"/>pauperum.</quote>
+        </p>
+        <p xml:id="bHY6yh-e08472-d1e171"> 
+            <ref xml:id="bHY6yh-e08472-Rd1e179">166. psalmus.</ref> <quote xml:id="bHY6yh-e08472-Qd1e173">Deus facit 
+            <lb ed="#K"/>et iudicium iniuriam pati<lb ed="#K" break="no"/>entibus
+            Dominus  soluit compeditos 
+            <lb ed="#K"/>Dominus illuminat cecos. Dominus eri<lb ed="#K" break="no"/>git 
+            elisos. Dominus custodit 
+            <lb ed="#K"/>aduenas: pupillum et vid<lb ed="#K" break="no"/>uam 
+            suscipiet et 
+            <lb ed="#K"/></quote> <!--new text-->
+        </p>
+        <p xml:id="bHY6yh-e08472-d1e185">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-e08472-Rd1e197">Salomon in prouerbiis. capitulo 22.</ref> <quote xml:id="bHY6yh-e08472-Qd1e189">Non facies violentiam 
+          <lb ed="#K"/>pauperi: quia pauper est: ne<lb ed="#K" break="no"/>que 
+          conteres egenum in porta 
+          <lb ed="#K"/>quia dominus iudicabit causam eius.</quote>
+        </p>
+        <p xml:id="bHY6yh-e08472-d1e197">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-e08472-Rd1e211">Ouidius de ponto. libro 3. epistola 6.</ref> <quote xml:id="bHY6yh-e08472-Qd1e201">Cre<lb ed="#K" break="no"/>de 
+          mihi miseros celestia numina 
+          <lb ed="#K"/>praemunt Nec semper lesos et sine 
+          <lb ed="#K"/>fine premunt.</quote>
+        </p>
+         </div>
+      </body>
+   </text>
+</TEI>
