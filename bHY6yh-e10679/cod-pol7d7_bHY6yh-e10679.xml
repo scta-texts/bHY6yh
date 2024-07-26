@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 7 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+             <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 7 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-07-25">July 25, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="237-v"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e10679"><!-- p5l4-r7 -->
+            <head xml:id="bHY6yh-e10679-Hd1e108">Rubrica 7</head>
+            <head xml:id="bHY6yh-e10679-Hd1e111" type="question-title">Quid mors non sit metuenda</head>
+          <p xml:id="bHY6yh-e10679-d1e114">
+            <lb ed="#K" n="49"/>Quod mors non sit metuenda. Rubrica. 7
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e139">
+            <lb ed="#K"/> <ref xml:id="bHY6yh-e10679-Rd1e139">Iesus filius sirach: in ecclesiastico. capitulo 41.</ref> <quote xml:id="bHY6yh-e10679-Qd1e143">Noli 
+            <lb ed="#K"/>metuere iudicium mortis.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e150">
+            <lb ed="#K"/> <ref xml:id="bHY6yh-e10679-Rd1e152">Tullius tusculanarum questionum libro i. in finali.</ref> 
+            <lb ed="#K"/> <quote xml:id="bHY6yh-e10679-Qd1e154" source="http://scta.info/resource/ctd99a-asdvss-d1e514@3-14">Teneamus vt nihil cen<lb ed="#K" break="no"/>seamus 
+            esse malum quod fit 
+            <lb ed="#K"/>a natura datum omnibus.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e162"> 
+            <ref xml:id="bHY6yh-e10679-Rd1e164">libro
+            <lb ed="#K"/>2.</ref> <quote xml:id="bHY6yh-e10679-Qd1e164" source="http://scta.info/resource/ctd99a-bac77a-d1e95@68-109">Qui id quod vitari non 
+            <lb ed="#K"/>potest metuit: is viuere 
+            <lb ed="#K"/>animo quieto nullo modo potest
+            <lb ed="#K"/>Qui mortem non timet 
+            <lb ed="#K"/>magnum is presidium sibi ad 
+            <lb ed="#K"/>beatam vitam comparat.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e174">
+            <lb ed="#K"/> <ref xml:id="bHY6yh-e10679-Rd1e180">Ouidius epistolarum. 10. epistola.</ref> <quote xml:id="bHY6yh-e10679-Qd1e178">Occurrunt animo 
+            <lb ed="#K"/>pereundi mille figure Mors<lb ed="#K" break="no"/>que
+             minus pene quam mora
+            <lb ed="#K"/>mortis habet</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e186">
+            <lb ed="#K"/> <ref xml:id="bHY6yh-e10679-Rd1e194">Quintilianus declamationum. 3. declamatione.</ref> <quote xml:id="bHY6yh-e10679-Qd1e190">Quisquis
+            <lb ed="#K"/>honestis operatus artibus
+            <lb ed="#K"/>sciat quis finis quae vera 
+            <lb ed="#K"/>felicitas: numquam sibi vide<lb ed="#K" break="no"/>bitur 
+            praematura mortem per<lb ed="#K" break="no"/>iturus 
+            Lucis causas ad animum mentem<lb ed="#K" break="no"/>que 
+            referentium neminem quottidie 
+            <lb ed="#K"/>vita non saciat. Illa existi<lb ed="#K" break="no"/>memus 
+            propter que fatigamus 
+            <lb ed="#K"/>votis deos propter que breuem 
+            <lb ed="#K"/>querimur etatem. Nempe sunt 
+            <lb ed="#K"/>vanitas: cupido luxuria: 
+            <lb ed="#K"/>libido. Non pudet propter hec 
+            <lb ed="#K"/>ferre debilitates luctus spacia 
+                <pb ed="#K" n="238-r"/>
+                <cb ed="#K" n="a"/>
+            <lb ed="#K" n="1"/>morborum: et cum liceat eua<lb ed="#K" break="no"/>dere 
+            male pati. Finge tibi ve<lb ed="#K" break="no"/>lut 
+            ipsam proclamare naturam 
+            <lb ed="#K"/>Receptus es in hoc pulcherrimum 
+            <lb ed="#K"/>mundi rerumque consortium: et
+            <lb ed="#K"/>per succedentium vices in or<lb ed="#K" break="no"/>dinem 
+            mortalitatis natus 
+            <lb ed="#K"/>bona nostra vidisti: admite 
+            <lb ed="#K"/>posteros: cede venientibus
+            <lb ed="#K"/>Nescis te quanto diutius vix<lb ed="#K" break="no"/>eris
+            tanto magis impatientiam 
+            <lb ed="#K"/>parare quantumlibet prorogentur tempora 
+            <lb ed="#K"/>iungantur etates Non potest non 
+            <lb ed="#K"/>exitu perire miseri qui mo<lb ed="#K" break="no"/>ritur 
+            inuitus. Omnis nos 
+            <lb ed="#K"/>hora per tacitos fallentesque 
+            <lb ed="#K"/>cursus applicat fato: et in 
+            <lb ed="#K"/>hac turpissima perpetuitatis 
+            <lb ed="#K"/>cogitatione destricti: per exigua 
+            <lb ed="#K"/>festinantis eui momenta pre<lb ed="#K" break="no"/>morimur 
+            Faciamus potius 
+            <lb ed="#K"/>de fine remedium et de necessitate 
+            <lb ed="#K"/>solatium. Exceamus sponte: 
+            <lb ed="#K"/>consilio pleni: securitatis gra<lb ed="#K" break="no"/>tias 
+            agentes. Solus vixit 
+            <lb ed="#K"/>quo aduoluit qui mori 
+            <lb ed="#K"/>via vult Infirme prorsus te<lb ed="#K" break="no"/>nereque
+            mentis est vt numere<lb ed="#K" break="no"/>tis 
+            annos.</quote> 
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e261">
+            <lb ed="#K"/> <ref xml:id="bHY6yh-e10679-Rd1e270">Seneca: epistolarum ad lucillum. libro 5. capitulo i.</ref> <quote xml:id="bHY6yh-e10679-Qd1e265">Uita cum  
+            <lb ed="#K"/>expectatione mortis data 
+            <lb ed="#K"/>est: ad hanc itur. quam ideo ti<lb ed="#K" break="no"/>mere 
+            dementis est: quia certa 
+            <lb ed="#K"/>expectantur dubia metuuntur.
+            <lb ed="#K"/>Puto fortiorem esse qui in ipsa 
+            <lb ed="#K"/>morte est quam qui contra morte
+            <lb ed="#K"/>mors enim admota etiam 
+            <lb ed="#K"/>imperitis animum dedit non vitandi 
+            <lb ed="#K"/>ineuitabilia.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e282"> 
+            <ref xml:id="bHY6yh-e10679-Rd1e291">libro 7. epistola 8.</ref> <quote xml:id="bHY6yh-e10679-Qd1e284">Bene 
+            <lb ed="#K"/>mori est libenter mori.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e289">
+            <ref xml:id="bHY6yh-e10679-Rd1e300">libro 
+            <lb ed="#K"/>20. et finali. epistola 4.</ref> <quote xml:id="bHY6yh-e10679-Qd1e291">Nullum animal ad 
+                <cb ed="#K" n="b"/>
+            <lb ed="#K"/>vitam prodit sine motu mortis.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e299"> 
+            <lb ed="#K"/> <ref xml:id="bHY6yh-e10679-Rd1e313">Idem declamationum. libro 3. capitulo 5.</ref> <quote xml:id="bHY6yh-e10679-Qd1e301">Crudelius 
+            <lb ed="#K"/>est quam mori semper mortem 
+            <lb ed="#K"/>timere.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e307"> 
+            <lb ed="#K"/> <ref xml:id="bHY6yh-e10679-Rd1e323">Idem de remediis fortuitorum. capitulo i.</ref> <quote xml:id="bHY6yh-e10679-Qd1e309">Omnium qua horremus exitus 
+            <lb ed="#K"/>spectat ad mortem.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e317"> 
+              <ref xml:id="bHY6yh-e10679-Rd1e336">2. capitulo.</ref> <quote xml:id="bHY6yh-e10679-Qd1e319">Mors 
+              <lb ed="#K"/>est hominis natura non pena. 
+              <lb ed="#K"/>Stultum est timere quod vitare 
+              <lb ed="#K"/>non possis.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e327"> 
+              <ref xml:id="bHY6yh-e10679-Rd1e348">4. capitulo.</ref> <quote xml:id="bHY6yh-e10679-Qd1e329">Undecumque ad 
+              <lb ed="#K"/>inferos vna via est. Nulla 
+              <lb ed="#K"/>est aliena patria mortuo.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e335"> 
+            <lb ed="#K"/> <ref xml:id="bHY6yh-e10679-Rd1e358">21. capitulo. et finali.</ref> <quote xml:id="bHY6yh-e10679-Qd1e337">Mors exilium luctus 
+            <lb ed="#K"/>dolor non sunt suprplicia: sed 
+            <lb ed="#K"/>tributa viuendi.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e346">
+            <lb ed="#K"/> <ref xml:id="bHY6yh-e10679-Rd1e373">Lucanus. libro 8.</ref> <quote xml:id="bHY6yh-e10679-Qd1e350">Mors vltima pena est Nec metu<lb ed="#K" break="no"/>enda 
+            viris.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e356">
+              <lb ed="#K"/>  <ref xml:id="bHY6yh-e10679-Rd1e385">Plinius de naturali hystoria. libro 7. capitulo 54.</ref> <quote xml:id="bHY6yh-e10679-Qd1e360">Natura nihil
+              <lb ed="#K"/>hominibus breuitate vite 
+              <lb ed="#K"/>praestitit melius: hebescunt sensus 
+              <lb ed="#K"/>membra torquentur: praemoritur 
+              <lb ed="#K"/>visus: auditus: incessus: dentes 
+              <lb ed="#K"/>etiam ad ciborum instrumenta 
+              <lb ed="#K"/>et tamen vite hoc tempus adnumeratur.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e372">
+            <lb ed="#K"/> <ref xml:id="bHY6yh-e10679-Rd1e403">Iuuenalis. libro 4. satyra i.</ref> <quote xml:id="bHY6yh-e10679-Qd1e376">Fron<lb ed="#K" break="no"/>tem 
+            posce animum mortis 
+            <lb ed="#K"/>terrore carentem.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e382">
+            <lb ed="#K"/> <ref xml:id="bHY6yh-e10679-Rd1e415">Marcialis cocus libro vndique suscepto. capitulo 3.</ref> <quote xml:id="bHY6yh-e10679-Qd1e386">Mortis 
+            <lb ed="#K"/>pale timor tibi vite commoda 
+            <lb ed="#K"/>tollit Nam moreris viuens 
+            <lb ed="#K"/>dum metuendo peris.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e394">
+            <ref xml:id="bHY6yh-e10679-Rd1e429"><!--no ref--></ref> <quote xml:id="bHY6yh-e10679-Qd1e398">Inter
+            <lb ed="#K"/>nature ponas si munera mortem 
+            <lb ed="#K"/>pnas Te de morte metus 
+            <lb ed="#K"/>solicitare nequit.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e404">
+            <lb ed="#K"/> <ref xml:id="bHY6yh-e10679-Rd1e441">Auctor libelli de formula honeste vite. capitulo 3.</ref> <quote xml:id="bHY6yh-e10679-Qd1e408">Magnum 
+            <lb ed="#K"/>animi bonum est non tremere: 
+            <lb ed="#K"/>sed constare sibi: et finem huius 
+            <lb ed="#K"/>vite intrepidus expectare.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e417">
+             <lb ed="#K"/> <ref xml:id="bHY6yh-e10679-Rd1e456">Cato. capitulo 2.</ref> <quote xml:id="bHY6yh-e10679-Qd1e421">Qui metuit 
+             <lb ed="#K"/>mortem quod viuit perdit 
+             <lb ed="#K"/>id ipsum. Linque metum 
+             <lb ed="#K"/>leti nam stultum est tempore 
+                <pb ed="#K" n="238-v"/>
+                <cb ed="#K" n="a"/>
+             <lb ed="#K" n="1"/>in omni Dum mortem metuas 
+             <lb ed="#K"/>amittere gaudia vite.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e429">
+           <ref xml:id="bHY6yh-e10679-Rd1e470">Capitulo. 4.</ref> <quote xml:id="bHY6yh-e10679-Qd1e433">Fac 
+           <lb ed="#K"/>tibi pro penis mortem non 
+           <lb ed="#K"/>esse timendam Que bona 
+           <lb ed="#K"/>si non est finis tamen illa ma<lb ed="#K" break="no"/>lorum 
+           est.</quote>
+          </p>
+          <p xml:id="bHY6yh-e10679-d1e441">
+            <lb ed="#K"/> <ref xml:id="bHY6yh-e10679-Rd1e484">Boetius de consolatione. libro 2. capitulo 7.</ref> <quote xml:id="bHY6yh-e10679-Qd1e445" source="http://scta.info/resource/hy7y6y-d1e59-d1e221@128-133">Continuus timor non 
+            <lb ed="#K"/>sinit esse felicem.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
