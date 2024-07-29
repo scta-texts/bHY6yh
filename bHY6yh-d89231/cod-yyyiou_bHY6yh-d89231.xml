@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 9</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 9</title>
+               <date when="2024-06-21">June 21, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-06-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="123-v"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d89231"><!-- p4l5-r9 -->
+            <head xml:id="bHY6yh-d89231-Hd1e108">Rubrica 9</head>
+            <head xml:id="bHY6yh-d89231-Hd1e111" type="question-title">De incestuoso et nephario coitu</head>
+            <p xml:id="bHY6yh-d89231-d1e114">
+               de incestuoso coitu
+               et nephario
+            </p>
+            <p xml:id="bHY6yh-d89231-d1e121">
+               <ref xml:id="bHY6yh-d89231-Rd1e118">IN leuitico
+               <lb ed="#C"/>capitulo 16</ref> <quote xml:id="bHY6yh-d89231-Qd1e125">Cum
+               <lb ed="#C"/>masculo non misceberis coitu femine<lb ed="#C" break="no"/>o 
+               quia abhominatio est</quote>
+            </p>
+            <p xml:id="bHY6yh-d89231-d1e135"> 
+               ¶ <ref xml:id="bHY6yh-d89231-Rd1e132">Idem 26
+               <lb ed="#C"/>capitulo</ref> <quote xml:id="bHY6yh-d89231-Qd1e137">qui dormierit cum masculo femineo
+               <lb ed="#C"/>coitu utrique operati sunt nephas et
+               <lb ed="#C"/>morte moriantur qui supra uxorem filiam
+               <lb ed="#C"/>duxerit matrem eius scelus operatus
+               <lb ed="#C"/>est uiuus ardebit cum eis qui cum
+               <lb ed="#C"/>iumenco et pecore coierit morte mori<lb ed="#C" break="no"/>atur 
+               pecus quoque occidite Mulier que
+               <lb ed="#C"/>succubuerit alicui iumento simul interficietur
+               <lb ed="#C"/>cum eo</quote>
+            </p>
+            <p xml:id="bHY6yh-d89231-d1e159">
+               ¶ <ref xml:id="bHY6yh-d89231-Rd1e160">Moyses in deuteronomio capitulo 27</ref> <quote xml:id="bHY6yh-d89231-Qd1e163">Ma<lb ed="#C" break="no"/>ledictus 
+               qui dormierit cum uxore patris
+               <lb ed="#C"/>sui Maledictus qui dormierit cum socru
+               <lb ed="#C"/>sua</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

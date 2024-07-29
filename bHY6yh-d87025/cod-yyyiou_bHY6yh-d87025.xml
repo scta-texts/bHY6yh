@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#alasdairwsliter">Alasdair W. Sliter</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 1</title>
+               <date when="2024-06-19">June 19, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-06-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="120-v"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d87025"><!-- p4l5-r1 -->
+            <head xml:id="bHY6yh-d87025-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d87025-Hd1e111" type="question-title">De venerei amoris laude</head>
+            <p xml:id="bHY6yh-d87025-d1e114">
+               Incipit liber quintus quarte partis
+               in quo tractat de bona amoris laudat
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e123">
+               De uenerei et uenerei amore capitulum
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e130">
+               <ref xml:id="bHY6yh-d87025-Rd1e127">ARistoteles libro problemate
+               <lb ed="#C"/>15.</ref> <quote xml:id="bHY6yh-d87025-Qd1e138">Coire delectabilissi<lb ed="#C" break="no"/>mum 
+               est</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e145">
+               ¶ <ref xml:id="bHY6yh-d87025-Rd1e145">Oratius in epistolis
+               <lb ed="#C"/>libro I epistola 6</ref> <quote xml:id="bHY6yh-d87025-Qd1e149">Si uieimus sine amor iocis<lb ed="#C" break="no"/>que 
+               Nichil est iocundum uiuas in amore
+               <lb ed="#C"/>iocisque</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e157">
+               ¶ <ref xml:id="bHY6yh-d87025-Rd1e159">Ouidius de remedio amoris libro
+               <lb ed="#C"/>I</ref> <quote xml:id="bHY6yh-d87025-Qd1e161">Si quis amat quod amare iuuat feli<cb ed="#C" n="b"/><lb ed="#C" break="no"/>citer 
+               ardet Gaudeat et uento nauiget
+               <lb ed="#C"/>ille suo</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e169">
+               ¶ <ref xml:id="bHY6yh-d87025-Rd1e173">Idem de fastis libro II</ref> <quote xml:id="bHY6yh-d87025-Qd1e173">quid ge<lb ed="#C" break="no"/>nus 
+               omne creat uolucrum ubi blan<lb ed="#C" break="no"/>da 
+               uoluptas nec coeunt pecudes si le<lb ed="#C" break="no"/>uis 
+               absit amor Cum mare trux aries
+               <lb ed="#C"/>cornu delectat Et idem frontem dulcet
+               <lb ed="#C"/>ledere <!--'cupit' crossed out--> parcit ouis Deposita sequitur
+               <lb ed="#C"/>taurus feritate iuuencam</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e187">
+               ¶ <ref xml:id="bHY6yh-d87025-Rd1e193">Quintilianus
+               <lb ed="#C"/>declamationum XIII</ref> <quote xml:id="bHY6yh-d87025-Qd1e191">Amor est unde gaudium
+               <lb ed="#C"/>unde uenit uenit tota letitia</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e199">
+               ¶ <ref xml:id="bHY6yh-d87025-Rd1e208">paulus
+               <lb ed="#C"/>primo corinthios XI</ref> <quote xml:id="bHY6yh-d87025-Qd1e203">Mulier gloria est uiri</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e217">
+               ¶ <ref xml:id="bHY6yh-d87025-Rd1e221">Seneca
+               <lb ed="#C"/>tragediarum in ypoliticorum capitulo V</ref> <quote xml:id="bHY6yh-d87025-Qd1e225">Truculentus et fil<lb ed="#C" break="no"/>uester 
+               et uite inscius tristem inuuentam
+               <lb ed="#C"/>uenere deserta colis</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e215">
+               ¶ <ref xml:id="bHY6yh-d87025-Rd1e236">Auctor facetus</ref> <quote xml:id="bHY6yh-d87025-Qd1e219">Pecto<lb ed="#C" break="no"/>ra 
+               pascit amor sine quo sunt gaudia
+               <lb ed="#C"/>nulla</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e228">
+               ¶ <ref xml:id="bHY6yh-d87025-Rd1e252">Ricardus iudex uenusinus libro de pertractatione
+               <lb ed="#C"/>nuptiarum capitulo 49</ref> <quote xml:id="bHY6yh-d87025-Qd1e232">feminee carnis tactu
+               <lb ed="#C"/>non dulcior ullus humanis rebus
+               <lb ed="#C"/>tactus inesse potest</quote>
+            </p>
+            <p>
+               Troianus guido hic est
+               <lb ed="#C"/>ille gustus tanta seducens amenitate
+               <lb ed="#C"/>miseros amator quid cum plus diligitur plurimus
+               <lb ed="#C"/>appetitur quem odire non potest sto<lb ed="#C" break="no"/>chus 
+               saturnatus
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e249">
+               <ref xml:id="bHY6yh-d87025-Rd1e276">Ouidius
+               <lb ed="#C"/>epistolarum epistola IIII</ref> <quote xml:id="bHY6yh-d87025-Qd1e253">Sit nunquam que
+               <lb ed="#C"/>te spernere possit ames</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e259">
+               ¶ <ref xml:id="bHY6yh-d87025-Rd1e288">Idem sine titulo
+               <lb ed="#C"/>capitulo 4</ref> <quote xml:id="bHY6yh-d87025-Qd1e263">Felix qui quod amat defendere for<lb ed="#C" break="no"/>titer 
+               audet</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e269">
+               ¶ <ref xml:id="bHY6yh-d87025-Rd1e300">Idem Libro 8 capitulo IX</ref> <quote xml:id="bHY6yh-d87025-Qd1e273">que bello
+               <lb ed="#C"/>est habilis ueneri quoque conuenit etas Tur<lb ed="#C" break="no"/>pe 
+               senes miles turpe senilis amor</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e281">
+               [omitted]
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e291">
+               ¶ <ref xml:id="bHY6yh-d87025-Rd1e327">Idem
+               <lb ed="#C"/>de arte amandi</ref> <quote xml:id="bHY6yh-d87025-Qd1e295">principio quad amare
+               <lb ed="#C"/>uelis reperire labora dum licet et loris
+               <lb ed="#C"/>passim potes ire solutis Elige cui dicas
+               <lb ed="#C"/>tu mihi sola places querenda est oculis ap<lb ed="#C" break="no"/>ta 
+               puella tuis nocte latent mende uitio<lb ed="#C" break="no"/>que 
+               ignoscitur omni Consule de geminis
+               <lb ed="#C"/>detincta murice lana Consule de
+               <pb ed="#C" n="121-r"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C"/>de facile corporibus que die O quantum est
+               <lb ed="#C"/>est vni placere uiro</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e319">
+               ¶ <ref xml:id="bHY6yh-d87025-Rd1e356">Auctor facetus capitulo 5</ref> <quote xml:id="bHY6yh-d87025-Qd1e323">Dul<lb ed="#C" break="no"/>cis 
+               amor uidue mollit quoque corda super<lb ed="#C" break="no"/>ba 
+               que melius cunctis et sapienter amat
+               <lb ed="#C"/>prouidus imprimis oculis sibi querit amandam Eli<lb ed="#C" break="no"/>gat 
+               e multis que placet una sibi dilig<lb ed="#C" break="no"/>at 
+               equalem uel paulo se meliorem non
+               <lb ed="#C"/>cito sepe ruit que super astra uolat Dili<lb ed="#C" break="no"/>gat 
+               hunc mulier qui caute nouit ama<lb ed="#C" break="no"/>re </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
