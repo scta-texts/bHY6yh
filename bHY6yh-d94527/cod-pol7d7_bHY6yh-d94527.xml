@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 7 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 7 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-06-29">June 29, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="204-v"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d94527"><!-- p5l1-r7 -->
+            <head xml:id="bHY6yh-d94527-Hd1e108">Rubrica 7</head>
+            <head xml:id="bHY6yh-d94527-Hd1e111" type="question-title">De mansuetudine: ira et furore</head>
+            <p xml:id="bHY6yh-d94527-d1e114">
+                <lb ed="#K" n="69"/>De masuetudinc ira et 
+                <lb ed="#K"/>furore Rubrica septima
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e119">
+                <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e116">Iob hystoria capitulo 5</ref> <quote xml:id="bHY6yh-d94527-Qd1e123">uirum stultum 
+                <lb ed="#K"/>interficit iracundia</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e129">
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e128">capitulo 36</ref> 
+              <lb ed="#K"/> / <quote xml:id="bHY6yh-d94527-Qd1e133">Non te superet vt aliquem 
+              <lb ed="#K"/>opprimas</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e140">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e141">psalmista 4 psalmus</ref> <quote xml:id="bHY6yh-d94527-Qd1e144">Irascimini et nolite peccare</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e150"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d94527-Rd1e151">psalmus 36</ref> <quote xml:id="bHY6yh-d94527-Qd1e152">desine ab ira et derelinque 
+              <lb ed="#K"/>furorem / Mansueti habitabunt 
+              <lb ed="#K"/>terram et delectabuntur in multitudine 
+              <lb ed="#K"/>pacis</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e160">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e165">Salomon in prouerbiis capitulo 3</ref> / <quote xml:id="bHY6yh-d94527-Qd1e164">Mansuetis dominus gratiam dabit</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e170"> 
+                  <pb ed="#K" n="205-r"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e175">Capitulo 12</ref> <quote xml:id="bHY6yh-d94527-Qd1e172">fatuus statim vindicat 
+              <lb ed="#K"/>iram suam qui autem dissimulat 
+              <lb ed="#K"/>in iuriam callidus est</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e180"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e187">capitulo 15</ref> <quote xml:id="bHY6yh-d94527-Qd1e182">re<lb ed="#K" break="no"/>sponsio 
+               mollis frangit iram sermo 
+               <lb ed="#K"/>durus suscitat furorem</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e190"> 
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e199">capitulo 16</ref> 
+              <lb ed="#K"/> / <quote xml:id="bHY6yh-d94527-Qd1e192">Indignatio regis nuncius mor<lb ed="#K" break="no"/>tis
+              et vir sapiens placabit
+              <lb ed="#K"/>/ In hylaritate vultus regis vita</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e201"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e212">capitulo 18</ref> / <quote xml:id="bHY6yh-d94527-Qd1e203">Spiritum ad irascendum facilem 
+              <lb ed="#K"/>quis poterit sustinere:</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e209">
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e224">capitulo 22</ref> / <quote xml:id="bHY6yh-d94527-Qd1e213">Noli 
+              <lb ed="#K"/>esse amicus homini iracundo neque 
+              <lb ed="#K"/>ambules cum viro furioso ne 
+              <lb ed="#K"/>forte discas semitas eius et su<lb ed="#K" break="no"/>mas 
+              scandalum anime tue</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e223"> 
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e238">25 capitulo</ref>
+              <lb ed="#K"/>  <quote xml:id="bHY6yh-d94527-Qd1e225">lingua mollis frangit duritiam.</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e231"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d94527-Rd1e248">capitulo 26</ref> <quote xml:id="bHY6yh-d94527-Qd1e233">Qui imponit stulto si<lb ed="#K" break="no"/>lentium
+              iras mitigat homo ira<lb ed="#K" break="no"/>cundus 
+              suscitat rixas</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e241"> 
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e260">capitulo 27</ref> 
+              <lb ed="#K"/>/ <quote xml:id="bHY6yh-d94527-Qd1e243">Ira non habet misericordiam nec 
+              <lb ed="#K"/>erumpens furor et impetum con<lb ed="#K" break="no"/>citati 
+              spiritus ferre quis poterit</quote>
+          </p>
+          <p xml:id="bHY6yh-d94527-d1e251">
+             <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e272">capitulo 29</ref> <quote xml:id="bHY6yh-d94527-Qd1e253">uir iracundus prouocat 
+             <lb ed="#K"/>rixas et qui ad indignandum facilis 
+             <lb ed="#K"/>est erit ad peccata procliuior</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e262"> 
+            ¶ <ref xml:id="bHY6yh-d94527-Rd1e291">30. 
+             <lb ed="#K"/>capitulo et penultimo</ref> <quote xml:id="bHY6yh-d94527-Qd1e264">qui prouocat iras perducit 
+             <lb ed="#K"/>discordias</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e272">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d94527-Rd1e304">Idem in ecclesiaste capitulo 7</ref> <quote xml:id="bHY6yh-d94527-Qd1e274">nesiis velox ad irascendum Ira in fine 
+              <lb ed="#K"/>stulti requiescit</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e282">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d94527-Rd1e316">Cronica de nugis philosophorum capitulo 4 scilicet de chilone</ref> <quote xml:id="bHY6yh-d94527-Qd1e286">Chilo 
+              <lb ed="#K"/>vnus de septem iubebat ire dominari</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e294">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e331">Aristoteles rethoricorum libro i capitulo 20</ref> <quote xml:id="bHY6yh-d94527-Qd1e298">Quecunque
+              <lb ed="#K"/>presentia letificant et sperantes et 
+              <lb ed="#K"/>memorantes / vt in pluribus propter quod 
+              <lb ed="#K"/>et irasci delectabile nullus enim 
+              <lb ed="#K"/>irascitur ei qui videtur impotens 
+              <lb ed="#K"/>cruciatum sortiri neque hiis qui 
+              <lb ed="#K"/>multum supersunt potentia aut si iras<lb ed="#K" break="no"/>catur 
+              mitius irati tristantur ve<lb ed="#K" break="no"/>hementer 
+              non punientes sperantes
+              <lb ed="#K"/>autem gaudent</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e310"> 
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e356">libro 2 capitulo 8</ref> <quote xml:id="bHY6yh-d94527-Qd1e312">Infirmi 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>egentes amantes sitientes et non 
+              <lb ed="#K"/>assequentes iracundi sunt et facile 
+              <lb ed="#K"/>commobiles</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e322"> 
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e370">capitulo 5</ref> <quote xml:id="bHY6yh-d94527-Qd1e324">Irasci contrarium 
+              <lb ed="#K"/>est ei quod est <!--mitescre crossed out included twice--> mitescere
+              <lb ed="#K"/>et ira mansuetudini mansuetudo 
+              <lb ed="#K"/>est destitutio et quietatio ire ad 
+              <lb ed="#K"/>confitentes iuste flagellari quie<lb ed="#K" break="no"/>tamur
+              ab ira / Ad humilitates ces<lb ed="#K" break="no"/>sat 
+              ira Impossibile est simul 
+              <lb ed="#K"/>timere et irasci / Quietat iram 
+              <lb ed="#K"/>tempus quietat autem et alterius 
+              <lb ed="#K"/>ira maior et ab alio recepta 
+              <lb ed="#K"/>punitio prius <sic>ffilocrates</sic> dicente 
+              <lb ed="#K"/>quodam irato populo / Cur non respon<lb ed="#K" break="no"/>des
+              nondum ait sed tunc cum alium 
+              <lb ed="#K"/>videro criminatum mites enim fient 
+              <lb ed="#K"/>cum in alios iram expenderint
+              <lb ed="#K"/>non fit ab ira iustum</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e354"> 
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e405">capitulo 6</ref> <quote xml:id="bHY6yh-d94527-Qd1e356">factiua 
+              <lb ed="#K"/>inimicitie est ira / Iratus tristatur
+              <lb ed="#K"/>odiens autem non</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e362"> 
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e415">capitulo 8</ref> <quote xml:id="bHY6yh-d94527-Qd1e364">Ausiuum 
+              <lb ed="#K"/>est ira iniusta pati ire 
+              <lb ed="#K"/>factiuum est</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e371">
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e427">capitulo 16</ref> <quote xml:id="bHY6yh-d94527-Qd1e375">Iuuenes sunt 
+              <lb ed="#K"/>animosi et acute ire et quales 
+              <lb ed="#K"/>assequi impetu et minores sunt 
+              <lb ed="#K"/>ire / Nullus iratus timet</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e383"> 
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e439">Idem <sic>etichorum</sic> libro 3 capitulo 8</ref> <quote xml:id="bHY6yh-d94527-Qd1e385">impetuosissimus est fu<lb ed="#K" break="no"/>ror 
+              ad pericula irati quidem dolent
+              <lb ed="#K"/>punientes autem delectantur</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e393">
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e456">libro 4
+              <lb ed="#K"/>capitulo 6</ref> / <quote xml:id="bHY6yh-d94527-Qd1e397">Mansuetudo est medietas 
+              <lb ed="#K"/>contra iras / Qui quidem in 
+              <lb ed="#K"/>omnibus et quoniam et quanto tempore laudatur
+              <lb ed="#K"/>mansuetus autem iste vtique erit
+              <lb ed="#K"/>si quidem mansuetudo laudatur
+              <lb ed="#K"/>vult enim mansuetus imperturbatus 
+              <lb ed="#K"/>esse et non duci ad passionem
+              <lb ed="#K"/>sed secundum quod ratio or dinabit non 
+              <lb ed="#K"/>irasci in quibus opem videtur
+              <lb ed="#K"/>insipientis esse Iracundi velociter 
+              <lb ed="#K"/>irascuntur et quibus non oportem et magis<lb ed="#K" break="no"/>quam 
+              oportet quiescunt autem velociter :
+                  <pb ed="#K" n="205-v"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>punitio quietat impetum ire
+              <lb ed="#K"/>delectationem pro tristitia facientes</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e431"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e494">libro 7 capitulo 6</ref> <quote xml:id="bHY6yh-d94527-Qd1e433">Ira consequitur rationem 
+              <lb ed="#K"/>aliqualiter</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e439"> 
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e505">Idem magnorum moralium libro i capitulo 41</ref> <quote xml:id="bHY6yh-d94527-Qd1e441">neque deficiens 
+              <lb ed="#K"/>ira neque superabundans laudabile</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e516">
+                <!--ommitted-->
+            </p>
+           <p xml:id="bHY6yh-d94527-d1e451"> 
+             <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e527">Idem <sic>hyco</sic>nomicorum libro i</ref> <quote xml:id="bHY6yh-d94527-Qd1e453">Iracundi non bene subiiciuntur</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e460">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e542">Idem polyticorum libro 5 capitulo 7</ref> <quote xml:id="bHY6yh-d94527-Qd1e464">Ira<lb ed="#K" break="no"/>torum 
+              fere plurimi punitionis 
+              <lb ed="#K"/>gratia insurgunt ira cumtristi<lb ed="#K" break="no"/>tia 
+              ad est</quote>
+            </p> 
+            <p xml:id="bHY6yh-d94527-d1e472"> 
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e554">Idem de hystoriis animalium libro 8 capitulo i</ref> <quote xml:id="bHY6yh-d94527-Qd1e474">minus sunt ira<lb ed="#K" break="no"/>cuda 
+              femella omnia mascu<lb ed="#K" break="no"/>linis 
+              excepta vrsa et pardolo</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e482"> 
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e567">Idem topicorum libro 4</ref> <quote xml:id="bHY6yh-d94527-Qd1e484">qui irascitur 
+              <lb ed="#K"/>contristatur priore in eo tristitia 
+              <lb ed="#K"/>facta non enim ira tristitie sed 
+              <lb ed="#K"/>tristitia ire est causa</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e494"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d94527-Rd1e583">Idem elementorum libro i</ref> <quote xml:id="bHY6yh-d94527-Qd1e496">Conturbati minus possunt 
+              <lb ed="#K"/>obseruare omnes</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e502">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e596">Iesus filius sirach in ecclesiastico capitulo 8</ref> <quote xml:id="bHY6yh-d94527-Qd1e506">Cum iracundo non 
+              <lb ed="#K"/>facias rixam</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e512"> 
+              // <ref xml:id="bHY6yh-d94527-Rd1e606">capitulo 25</ref> <quote xml:id="bHY6yh-d94527-Qd1e514">non est
+              <lb ed="#K"/>ira super iram mulieris</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e521"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e616">capitulo 28</ref> <quote xml:id="bHY6yh-d94527-Qd1e523">homo iracundus incendit litem</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e529"> 
+               <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e626">capitulo 30</ref> <quote xml:id="bHY6yh-d94527-Qd1e531">zelus et iracnndia 
+               <lb ed="#K"/>minuunt dies</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e537">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e638">Terentius in hecyra capitulo 8</ref> <quote xml:id="bHY6yh-d94527-Qd1e541">pueri inter sese
+              <lb ed="#K"/>quam pro leuibus noxiis iras 
+              <lb ed="#K"/>gerunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e647">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d94527-Rd1e651">Salustius in catilinario</ref> <quote xml:id="bHY6yh-d94527-Qd1e653">Que apud alios
+              <lb ed="#K"/>iracundia dicitur ea in imperio super<lb ed="#K" break="no"/>bia 
+              atque crudelitas appellatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e661">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e665">Uirgilius eneide libro 5 parum vl<lb ed="#K" break="no"/>tra 
+              medium</ref> <quote xml:id="bHY6yh-d94527-Qd1e669">uim suscitat ira</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e558">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e676">Oratius in epistolis 2 epistola</ref> /<quote xml:id="bHY6yh-d94527-Qd1e562">Ira 
+              <lb ed="#K"/>furor breuis est animum rege qui 
+              <lb ed="#K"/>ubi paret Imperat hunc 
+              <lb ed="#K"/>frenis hunc tu compesce cathenis</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e570">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e690">Tullius tusculanarum questionum libro 3</ref> <quote xml:id="bHY6yh-d94527-Qd1e574" source="http://scta.info/resource/ctd99a-cuh77a-d1e193@26-29">numque
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>sapiens irascitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e580"> 
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e700">libro 4</ref> <quote xml:id="bHY6yh-d94527-Qd1e582">Ira est 
+              <lb ed="#K"/>libido puniendi eum qui
+              <lb ed="#K"/>videatur lesisse iniuria Animus 
+              <lb ed="#K"/>pro turbatus et concitatus cohibere
+              <lb ed="#K"/>se non potest nec quo loco vult 
+              <lb ed="#K"/>insistere</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e593"> 
+              <!--ommitted-->
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e603"> 
+              <lb ed="#K"/>/  <ref xml:id="bHY6yh-d94527-Rd1e728">Idem de oratore libro 2</ref> <quote xml:id="bHY6yh-d94527-Qd1e605">habet et voluntatem nocendi 
+              <lb ed="#K"/>iracundia</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e611">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e740">Ouidius epistolarum 3 epistola</ref> <quote xml:id="bHY6yh-d94527-Qd1e615">uince animos iramque tuam 
+              <lb ed="#K"/>qui cetera vincis</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e621"> 
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e750">epistola 7</ref> <quote xml:id="bHY6yh-d94527-Qd1e623">flen<lb ed="#K" break="no"/>do 
+              diffundimus iram</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e635">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e769">Idem sine titulo siue amorum libro i capitulo 8</ref> <quote xml:id="bHY6yh-d94527-Qd1e639">sed nunquam 
+              <lb ed="#K"/>dederis spaciosum tempus in iram 
+              <lb ed="#K"/>Sepe simultates ira mora<lb ed="#K" break="no"/>ta 
+              facit</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e649">
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e783">libro 2 capitulo 12</ref> <quote xml:id="bHY6yh-d94527-Qd1e651">Cadit 
+              <lb ed="#K"/>ira metu</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e656">
+            <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e793">Idem de arte amandi libro i</ref> <quote xml:id="bHY6yh-d94527-Qd1e660">ut fragilis glacies 
+            <lb ed="#K"/>interit ira mora</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e666">
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e806">libro 3 et finali</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d94527-Qd1e670">pertinet ad faciem rabidos 
+              <lb ed="#K"/>compescere mores Candida 
+              <lb ed="#K"/>pax homines trux decet 
+              <lb ed="#K"/>ira feras ora tument ira 
+              <lb ed="#K"/>nigrescunt sanguine vene
+              <lb ed="#K"/>lumina gorgoneo seuius ig<lb ed="#K" break="no"/>ne 
+              micant</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e682">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e824">Idem de remedio amoris libro i</ref> <quote xml:id="bHY6yh-d94527-Qd1e686">dum furor in cursu est currenti 
+              <lb ed="#K"/>cede furori</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e692">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e836">Idem de tristibus libro 3 capitulo 6</ref> <quote xml:id="bHY6yh-d94527-Qd1e696">Quo quisquam est maior 
+              <lb ed="#K"/>magis est placabilis ire
+              <lb ed="#K"/>/ Et faciles motus mens 
+              <lb ed="#K"/>generosa capit</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e704">
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e850">epistola 12</ref> <quote xml:id="bHY6yh-d94527-Qd1e708">omne trahit 
+              <lb ed="#K"/>secum cesaris ira malum</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e714">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d94527-Rd1e862">Idem <unclear>methamor</unclear> libro i</ref> <quote xml:id="bHY6yh-d94527-Qd1e718">seua 
+              <lb ed="#K"/>cupidinis ira subest</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e725"> 
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e875">libro 13</ref> <quote xml:id="bHY6yh-d94527-Qd1e727">facit 
+              <lb ed="#K"/>ira potentem</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e733"> 
+             <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e886">Idem de fastis libro 5</ref> <quote xml:id="bHY6yh-d94527-Qd1e735">Iustum preterit ira modum</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e741">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d94527-Rd1e898">Mattheus in euangelio capitulo 5</ref> <quote xml:id="bHY6yh-d94527-Qd1e745">omnis
+              <lb ed="#K"/>qui irascitur fratri suo reus 
+              <lb ed="#K"/>erit iudicio</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e751">
+               <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e910">Iacobus apostolus epistola vnica capitulo 3</ref> / <quote xml:id="bHY6yh-d94527-Qd1e755">Sit omnis homo
+               <lb ed="#K"/>velox ad audiendum tardus :
+                  <pb ed="#K" n="206-r"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>ad loquendum et tardus ad iram</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e763">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d94527-Rd1e924">paulus apostolus in epistola ad ephesios 
+              <lb ed="#K"/>¶ capitulo 3</ref> <quote xml:id="bHY6yh-d94527-Qd1e767">Sol non occidat super iracun<lb ed="#K" break="no"/>diam
+              vestram</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e775">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e939">Seneca de ira libro i</ref> <quote xml:id="bHY6yh-d94527-Qd1e779">Ira in temeritatem prona est
+              <lb ed="#K"/>et pericula dum inferre vult: non 
+              <lb ed="#K"/>timet</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e788"> 
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e951">libro 2</ref> <quote xml:id="bHY6yh-d94527-Qd1e790">nunquam iracundia 
+              <lb ed="#K"/>admittenda est aliquando simulanda
+              <lb ed="#K"/>fortiora solidaque natura ingenia 
+              <lb ed="#K"/>antequam disciplina molliatur 
+              <lb ed="#K"/>prona in iram sunt nihil magis 
+              <lb ed="#K"/>facit iracundos quam educatio
+              <lb ed="#K"/>mollis et blanda Maximum 
+              <lb ed="#K"/>remedium ire mora est Quid
+              <lb ed="#K"/>est gloriosius quam iram in amicitiam 
+              <lb ed="#K"/>commutare</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e807"> 
+              / <ref xml:id="bHY6yh-d94527-Rd1e973">libro 3</ref> / <quote xml:id="bHY6yh-d94527-Qd1e809">Cetera vitia im<lb ed="#K" break="no"/>pellunt 
+              animos ira precipitat
+              <lb ed="#K"/>/ Animus affectus nimis offenditur</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e817">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e988">Idem epistolarum ad lucillum libro 3 epistola 4</ref> <quote xml:id="bHY6yh-d94527-Qd1e821">Im<lb ed="#K" break="no"/>modica 
+              ira gignit insaniam
+              <lb ed="#K"/>/ Ingentis ire exitus furor est</quote>
+          </p>
+          <p xml:id="bHY6yh-d94527-d1e998">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e1000">libro 19 epistola 8</ref> <quote xml:id="bHY6yh-d94527-Qd1e1002">Iracundi hominis ira<lb ed="#K" break="no"/>cunda 
+              oratio est</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e835"> 
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e1014">Idem tragediarum in hercule furente capitulo 3</ref> <quote xml:id="bHY6yh-d94527-Qd1e837">Arma non 
+              <lb ed="#K"/>seruant modum nec temperari facile 
+              <lb ed="#K"/>nec reprimi potest / Stricti ensis 
+              <lb ed="#K"/>ira</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e849"> 
+              <ref xml:id="bHY6yh-d94527-Rd1e1031">In thieste capitulo 7</ref> / <quote xml:id="bHY6yh-d94527-Qd1e851">Ira cum
+              <lb ed="#K"/>magnis agitata causis gram 
+              <lb ed="#K"/>rumpit generatque bellum</quote>
+          </p>
+          <p xml:id="bHY6yh-d94527-d1e1041">
+            <lb ed="#K"/> <ref xml:id="bHY6yh-d94527-Rd1e1045">hyppolito capitulo 2</ref> <quote xml:id="bHY6yh-d94527-Qd1e1047">furor cogit semper 
+            <lb ed="#K"/>peiora Siste furibundum impetum</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e863">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e1058">capitulo 7</ref> <quote xml:id="bHY6yh-d94527-Qd1e867">Quid sinat inausum 
+              <lb ed="#K"/>femine praeceps furor</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e874">
+              <ref xml:id="bHY6yh-d94527-Rd1e1070">In troas capitulo 4</ref>
+              <lb ed="#K"/>/ <quote xml:id="bHY6yh-d94527-Qd1e878">Iuuenile vicium est regere non 
+              <lb ed="#K"/>posse impetum</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e884">
+               ¶ <ref xml:id="bHY6yh-d94527-Rd1e1082">capitulo 7</ref> <quote xml:id="bHY6yh-d94527-Qd1e888">dabit 
+               <lb ed="#K"/>ira vires</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e892">
+               ¶ <ref xml:id="bHY6yh-d94527-Rd1e1092">In medea capiutlo 3</ref> 
+               <lb ed="#K"/> <quote xml:id="bHY6yh-d94527-Qd1e896">Ira que tegitur nocet</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e900">
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e1102">capitulo 7</ref> <quote xml:id="bHY6yh-d94527-Qd1e904">grauis 
+              <lb ed="#K"/>ira regum est semper</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e908">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e1112">Idem in prouerbiis</ref> <quote xml:id="bHY6yh-d94527-Qd1e912">fulmen est vbi cum potestate 
+              <lb ed="#K"/>habitat iracundia Iratus etiam 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>facinus consilium putat</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e920">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d94527-Rd1e1127">lucanus libro 4</ref> / <quote xml:id="bHY6yh-d94527-Qd1e924">Timeatque furentes Et morti 
+              <lb ed="#K"/>faciles animos</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e931"> 
+              / <ref xml:id="bHY6yh-d94527-Rd1e1137">libro 7</ref> <quote xml:id="bHY6yh-d94527-Qd1e933">frenosque fu<lb ed="#K" break="no"/>rentibus 
+              ira laxat</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e939">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d94527-Rd1e1149">Ualerius maximus libro 9 titulo de ira</ref> <quote xml:id="bHY6yh-d94527-Qd1e943">Semiramis 
+              <lb ed="#K"/>assyriorum regina cum ei circa cultum
+              <lb ed="#K"/>capitis sui occupate nunciatum 
+              <lb ed="#K"/>esset babyloniam defecisse altera 
+              <lb ed="#K"/>parte crinium adhuc soluta 
+              <lb ed="#K"/>protinus ad eam expugnandam 
+              <lb ed="#K"/>eucurrit nec prius decorem 
+              <lb ed="#K"/>capillorum in ordinem quam tantam 
+              <lb ed="#K"/>vrbem in potestatem redegit 
+              <lb ed="#K"/>/ Quo circa statua est in babi<lb ed="#K" break="no"/>lone 
+              posita illo habitum quo
+              <lb ed="#K"/>adulti omnem exigendam celeritate 
+              <lb ed="#K"/>precipiti tetendit</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e966">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d94527-Rd1e1178">lex <sic>fforum</sic> ¶ capitulo ad legem iuliam de adulteriis libro si adul<lb ed="#K" break="no"/>terium 
+              cum incestu C imperatores</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d94527-Qd1e970">difficilimum est iustum dolorem temperare</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e978"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e1191">Titulo de regulis iuris libro quicquid 
+              <lb ed="#K"/>et de diuortiis libro 3</ref> <quote xml:id="bHY6yh-d94527-Qd1e980">Quicquid calore 
+              <lb ed="#K"/>iracundie vel sit vel dicitur non 
+              <lb ed="#K"/>prius ratum est quam si perseuerantia 
+              <lb ed="#K"/>apparuerit iudicium animi fuisse</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e992">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e1210">Marcialis cocus libro vndique suscepto capitulo 3</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d94527-Qd1e996">Ira mouet gladium</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1002">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e1223">Auctor libelli de formula honeste vite capitulo 4</ref> <quote xml:id="bHY6yh-d94527-Qd1e1006">Ad iram 
+              <lb ed="#K"/>sis tardus</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1013">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e1235">Cecilius firmianus de beata vita libro 4</ref> <quote xml:id="bHY6yh-d94527-Qd1e1017">Tres
+              <lb ed="#K"/>sunt affectus qui homines in omnia 
+              <lb ed="#K"/>facinora precipites agunt ira 
+              <lb ed="#K"/>cupiditas libido</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1031">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e1255">Augustinus in epigrammatibus prosperi epigramma 93</ref> <quote xml:id="bHY6yh-d94527-Qd1e1035">nulli irascenti 
+              <lb ed="#K"/>sua ira videtur iniusta Ab 
+              <lb ed="#K"/>omni indignatione cito redeundum
+              <lb ed="#K"/>est ad mansuetudinis lenitatem 
+              <lb ed="#K"/>nam pertinax motus facile in 
+              <lb ed="#K"/>eius odium transit cui non cele<lb ed="#K" break="no"/>riter 
+              ignoscitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1049">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d94527-Rd1e1276">prudentius de psicomachia capitulo 4</ref> <quote xml:id="bHY6yh-d94527-Qd1e1053">Ipsa sibi 
+                  <pb ed="#K" n="206-v"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>est hostis vesania seque furendo 
+              <lb ed="#K"/>interimit moriturque suis ira 
+              <lb ed="#K"/>ignea telis</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1061">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d94527-Rd1e1290">fulgentius libro 2 fabula 14</ref> <quote xml:id="bHY6yh-d94527-Qd1e1065">furor etiam sapientibus aliquando 
+              <lb ed="#K"/>subrepit / Omnis sapientia integritate 
+              <lb ed="#K"/>morum suorum contra furiam vir<lb ed="#K" break="no"/>tute 
+              animi vendicat / Omnis sapiens 
+              <lb ed="#K"/>furorem suum in corde celat</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1077">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e1308">Cato capitulo i</ref> <quote xml:id="bHY6yh-d94527-Qd1e1081">Noli irasci ab re
+              <lb ed="#K"/>Ira te tempera</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1087"> 
+              // <ref xml:id="bHY6yh-d94527-Rd1e1319">capitulo 2</ref> <quote xml:id="bHY6yh-d94527-Qd1e1089">ira odium 
+              <lb ed="#K"/>generat concordia nutrit amorem</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1096">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e1331">capitulo 3</ref> <quote xml:id="bHY6yh-d94527-Qd1e1100">iratus de re incerta contendere 
+              <lb ed="#K"/>noli Impedit ira animum ne 
+              <lb ed="#K"/>possit cernere verum</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1108">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e1345">Cassiodorus epistolarum libro 3 epistola i</ref> <quote xml:id="bHY6yh-d94527-Qd1e1112">Indignatio ceca est
+              <lb ed="#K"/> <sic>ffuror</sic> instantiam plerumque precipitat</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1120"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e1357">Epistola xi</ref> <quote xml:id="bHY6yh-d94527-Qd1e1122">Iracunda contemne</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1126"> 
+             ¶ <ref xml:id="bHY6yh-d94527-Rd1e1365">libro 4
+             <lb ed="#K"/>epistola 10</ref> <quote xml:id="bHY6yh-d94527-Qd1e1128">Iniquum quippe nimis 
+             <lb ed="#K"/>est quod delectat iratum / furen<lb ed="#K" break="no"/>tes 
+             iusta non sentiunt rerum tempe<lb ed="#K" break="no"/>rantiam 
+             non requirunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1140"> 
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e1382">libro 6 epsitola 9</ref> 
+              <lb ed="#K"/>/ <quote xml:id="bHY6yh-d94527-Qd1e1142">Iracundus luminum feruore 
+              <lb ed="#K"/>declaratur</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1148"> 
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e1393">libro 10 epistola xi</ref>  <quote xml:id="bHY6yh-d94527-Qd1e1150">Iram vince</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1157"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e1404">libro xi epistola 8</ref> <quote xml:id="bHY6yh-d94527-Qd1e1159">grauius semper irascitur 
+              <lb ed="#K"/>qui contra propositum commouetur</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1165">
+               <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e1416">libro 12 et finali epistola i</ref> <quote xml:id="bHY6yh-d94527-Qd1e1169">Quam periculosum 
+               <lb ed="#K"/>est pati iudicem rationabiliter 
+               <lb ed="#K"/>iratum et illum de fortunis 
+               <lb ed="#K"/>tuis decernere quod te constat grauitur 
+               <lb ed="#K"/>imitasse</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1179"> 
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e1430">Idem de amicitia capitulo 24</ref> <quote xml:id="bHY6yh-d94527-Qd1e1181">Ira procul absit cum qua nihil 
+              <lb ed="#K"/>considerate nihil recte fieri potest 
+              <lb ed="#K"/>/ Qui sequitur sue mentis 
+              <lb ed="#K"/>impetum et non rationem vix 
+              <lb ed="#K"/>aut nunquam in corripiendo 
+              <lb ed="#K"/>proficiunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1193">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d94527-Rd1e1448">Gregorius in pastorali capitulo 28</ref> <quote xml:id="bHY6yh-d94527-Qd1e1197">habet tristis ex propinquo iram</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1203"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d94527-Rd1e1458">capitulo 41</ref> <quote xml:id="bHY6yh-d94527-Qd1e1205">nonnumquam mansueti 
+              <lb ed="#K"/>cum presunt vicinum et quasi iuxta 
+              <lb ed="#K"/>positum torporem defidie pa<lb ed="#K" break="no"/>tiuntur
+              et plerumque nimia :
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>resolutione lenitatis vltra quam 
+              <lb ed="#K"/>necesse est vigore districtionis e<lb ed="#K" break="no"/>molliunt 
+              / Iracundi cum regiminum 
+              <lb ed="#K"/>loca percipiunt quo impellente 
+              <lb ed="#K"/>ira in mentis vesaniam deuolu<lb ed="#K" break="no"/>untur 
+              eo etiam subditorum 
+              <lb ed="#K"/>vitam dissipata quietis tran<lb ed="#K" break="no"/>quillitate 
+              confundunt Amplec<lb ed="#K" break="no"/>tantur
+              mansueti sollicitudinem
+              <lb ed="#K"/>damnent iracundi perturbationem
+              <lb ed="#K"/>Menti furore ebrie omne rectum 
+              <lb ed="#K"/>quod dicitur peruersum videtur</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1237">
+               <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e1497">Isydorus solliloquiorum libro 2 capitulo 21</ref> / <quote xml:id="bHY6yh-d94527-Qd1e1241">Refrena 
+               <lb ed="#K"/>iracundie impetus Si non
+              <lb ed="#K"/>potes iram vitare vel tem<lb ed="#K" break="no"/>pera 
+              Irascentem patientia delinire
+              <lb ed="#K"/>blandimento iracundiam furentis 
+              <lb ed="#K"/>dissolue</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1254">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e1515">Bernardus in libro de improbatione <sic>viciorum</sic> capitulo 4</ref> <quote xml:id="bHY6yh-d94527-Qd1e1258">Te tua precipitant 
+              <lb ed="#K"/>si non caueris ab ira / Sepius 
+              <lb ed="#K"/>iratur placidus reticendo co<lb ed="#K" break="no"/>artat
+              / Mansuetudo fera flec<lb ed="#K" break="no"/>tit 
+              sine verbere mentem</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1268">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e1534">Gualterius de castellione libro i</ref> <quote xml:id="bHY6yh-d94527-Qd1e1272">Mansuesce 
+              <lb ed="#K"/>rogatus uindictam differ do<lb ed="#K" break="no"/>nec 
+              pertranseat ira</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1280">
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e1548">libro 10 et finali</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d94527-Qd1e1284">Immemor ira sui est et quo rapit
+              <lb ed="#K"/>impetus illuc ebria discurrit
+              <lb ed="#K"/>et se sociosque flagellat</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1292">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d94527-Rd1e1562">Mattheus vindocinensis in poetria parte 2 capitulo 3</ref> 
+              <lb ed="#K"/>/ <quote xml:id="bHY6yh-d94527-Qd1e1296">Ira patet vultus <!--vultus is crossed out--> exteriore 
+              <lb ed="#K"/>nota</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1302"> 
+              ¶ <ref xml:id="bHY6yh-d94527-Rd1e1572">capitulo 4</ref> <quote xml:id="bHY6yh-d94527-Qd1e1304">Intimat Ira no<lb ed="#K" break="no"/>cens 
+              exitiale nephas</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1310">
+              <ref xml:id="bHY6yh-d94527-Rd1e1585">capitulo 8</ref> <quote xml:id="bHY6yh-d94527-Qd1e1314">ira mouet lites lis 
+              <lb ed="#K"/>prelia prelia mortem</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1593">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e1597">Gaufridus in poetria capitulo 107</ref> <quote xml:id="bHY6yh-d94527-Qd1e1599">ira genus
+              <lb ed="#K"/>flamme materque furoris ab 
+              <lb ed="#K"/>ipso felle trahens oritur cor 
+              <lb ed="#K"/>et interiora venenat</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1607">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e1611">Ricardus  / Iudex venuxinus libro de pertractione 
+              <lb ed="#K"/>nuptiarum capitulo 28</ref> <quote xml:id="bHY6yh-d94527-Qd1e1615">Ieiunus leniter 
+                  <pb ed="#K" n="207-r"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>subitam scandescit ad inram.</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1332">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d94527-Rd1e1622">Auctor libelli qui incipit astrolabi</ref>  <quote xml:id="bHY6yh-d94527-Qd1e1336">accensas 
+              <lb ed="#K"/>mollis responsio mitigat iras
+              <lb ed="#K"/>/ Auget eas potius dura creatque 
+              <lb ed="#K"/>nouas Ira potentis erit quasi 
+              <lb ed="#K"/>fulgoris ictus habenda Sicut 
+              <lb ed="#K"/>hic est sic est illa cauenda</quote>
+            </p>
+            <p xml:id="bHY6yh-d94527-d1e1348">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d94527-Rd1e1640">prouerbia vulgaria</ref> <quote xml:id="bHY6yh-d94527-Qd1e1352">Chi piegora 
+              <lb ed="#K"/>se fa louo el manduga :</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
