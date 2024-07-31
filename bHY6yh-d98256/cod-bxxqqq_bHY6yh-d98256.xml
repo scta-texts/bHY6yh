@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4</title>
+               <date when="2024-07-05">July 5, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="173-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d98256"><!-- p5l2-r4 -->
+            <head xml:id="bHY6yh-d98256-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-d98256-Hd1e111" type="question-title">De eis que prius et potius agenda sunt quam prelium</head>
+            <p xml:id="bHY6yh-d98256-d1e114">
+              De <del>eius</del> eis que prius et 
+              <lb ed="#B"/>potius agenda sunt quam bellum Rubrica<!--line jumps down--> 4
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e121">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d98256-Rd1e118">TErentius in eunucho capitulo 18</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-d98256-Qd1e127">omnia prius consilio experiri quam 
+              <lb ed="#B"/>armis sapientem decet</quote> 
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e135">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d98256-Rd1e135">UAlerius maximus libro 7<!--line jumps up--> titulo</ref> <quote xml:id="bHY6yh-d98256-Qd1e139">sapi<!--line jumps down-->enter dicta 
+              <lb ed="#B"/>aut facta ¶ Scipio affricanus 
+              <lb ed="#B"/>negat aliter cum hoste confli<lb ed="#B" break="no"/>gere 
+              debere quam aut si occasio 
+              <lb ed="#B"/>obuenisset aut necessitas in<!--line jumps down-->cidisset</quote>
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e150">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d98256-Rd1e152">UEgetius de re mi<lb ed="#B" break="no"/>litari 
+              libro 3 titulo 9</ref> <quote xml:id="bHY6yh-d98256-Qd1e154">omnia ante co<lb ed="#B" break="no"/>gitanda. 
+              ante temperanda ante 
+              <lb ed="#B"/>facienda sunt quam ad ultimum ve<lb ed="#B" break="no"/>niatur 
+              abruptum ¶ Boni emim duces 
+              <lb ed="#B"/>non aperto prelio in quo est commune 
+              <lb ed="#B"/>periculum sed ex ccculto semper attemp<lb ed="#B" break="no"/>tant 
+              ut integris suis quantum 
+              <lb ed="#B"/>possunt hostes interimant certe 
+              <lb ed="#B"/>uel terreant</quote>
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e171"> 
+              ¶ <ref xml:id="bHY6yh-d98256-Rd1e175">26 titulo et finali</ref> <quote xml:id="bHY6yh-d98256-Qd1e173">In<lb ed="#B" break="no"/>opia 
+              aut superuenientibus aut 
+              <lb ed="#B"/>terrore melius est hostem 
+              <lb ed="#B"/>domare quam prelio in quo amplius 
+              <lb ed="#B"/>solet fortuna potestatis habere 
+              <lb ed="#B"/>quam virtus Boni duces publi<lb ed="#B" break="no"/>co 
+              certamine nunquam nisi ex occa<lb ed="#B" break="no"/>sione 
+              aut nimia necessitate 
+              <lb ed="#B"/>confligunt ¶ Magna dispositio 
+              <lb ed="#B"/>est hostem fame magis ur<lb ed="#B" break="no"/>gere 
+              quam ferro</quote>
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e198">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d98256-Rd1e207">CAssiodorus<!--line jumps up--> epistolarum libro 3 epsitola<!--line jumps down--> I</ref> <quote xml:id="bHY6yh-d98256-Qd1e202">Tunc solum 
+              <lb ed="#B"/>vtile est ad arma concurrere 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>cum locum apud aduersarium iusti<lb ed="#B" break="no"/>tia 
+              non potest inuenire</quote>
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e212">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d98256-Rd1e223">BAldo 14 fabula</ref> <quote xml:id="bHY6yh-d98256-Qd1e216">cautius<!--line jumps up--> est astu<!--line jumps down--> quam se de<lb ed="#B" break="no"/>fendere 
+              fastu</quote>
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e222">
+              <lb ed="#B"/><ref xml:id="bHY6yh-d98256-Rd1e235">RIcardus Iudex<!--line jumps up--> venusinus libelli<!--line jumps down--> de pertractione nuptiarum 
+              <lb ed="#B"/>capitulo 42</ref> <quote xml:id="bHY6yh-d98256-Qd1e226">Euentus pugne dubius 
+              <lb ed="#B"/>uictoria belli ¶ De populo ni<lb ed="#B" break="no"/>mio 
+              non uenit ymo deo</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
