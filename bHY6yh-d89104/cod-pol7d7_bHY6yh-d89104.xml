@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 8 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 8 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-06-22">June 22, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="194-v"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d89104"><!-- p4l5-r8 -->
+            <head xml:id="bHY6yh-d89104-Hd1e108">Rubrica 8</head>
+            <head xml:id="bHY6yh-d89104-Hd1e111" type="question-title">De meretricio amore</head>
+            <p xml:id="bHY6yh-d89104-d1e114">
+               De meretrico amore Rubrica 8
+            </p>
+            <p xml:id="bHY6yh-d89104-d1e119">
+              <lb ed="#K" n="60"/>¶ <ref xml:id="bHY6yh-d89104-Rd1e116">Salomon in prouerbiis capitulo 5</ref> <quote xml:id="bHY6yh-d89104-Qd1e125">fauus 
+              <lb ed="#K"/>stillans labia meretricis et 
+              <lb ed="#K"/>nitidius oleo guttur eius
+              <lb ed="#K"/>/ Nouissima autem illius amara 
+              <lb ed="#K"/>quasi absinthium et acuta quasi 
+              <lb ed="#K"/>gladius biceps Uagi sunt 
+              <lb ed="#K"/>gressus meretricis et inuestiga<lb ed="#K" break="no"/>biles 
+              longe faca meretrice 
+              <lb ed="#K"/>viam tuam et ne appropinques 
+              <lb ed="#K"/>foribus domus eius</quote>
+            </p>
+            <p xml:id="bHY6yh-d89104-d1e142">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d89104-Rd1e142">Terentius in eunucho capitulo 22</ref> <quote xml:id="bHY6yh-d89104-Qd1e146">quomodo
+              <lb ed="#K"/>adolescentulus meretricum in<lb ed="#K" break="no"/>genia 
+              posset noscere 
+              <lb ed="#K"/>mature</quote>
+            </p>
+            <p xml:id="bHY6yh-d89104-d1e155"> 
+              / <ref xml:id="bHY6yh-d89104-Rd1e155">capitulo 24</ref> <quote xml:id="bHY6yh-d89104-Qd1e157">Audaciam 
+              <lb ed="#K"/>meretricum specta</quote>
+            </p>
+            <p xml:id="bHY6yh-d89104-d1e163">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d89104-Rd1e167">Ouidius sine titulo libro i capitulo 10</ref> <quote xml:id="bHY6yh-d89104-Qd1e167">Sola viro mulier 
+              <lb ed="#K"/>spoliis exultat ademptis
+              <lb ed="#K"/>Sola locat noctes sola 
+              <lb ed="#K"/>locanda venit /Et vendit quod 
+              <lb ed="#K"/>vtrumque iuuat quod vterque petebat 
+              <lb ed="#K"/>pro male conducto gratia nulla 
+              <lb ed="#K"/>thoro Parcite formose precium 
+              <lb ed="#K"/>pro nocte pacisci /Non habet euentus 
+              <lb ed="#K"/>sordida preda bonos:</quote>
+            </p>
+           <p xml:id="bHY6yh-d89104-d1e184">
+             <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d89104-Rd1e190">Quintilianus declamationum 13 declamationr</ref> 
+             <lb ed="#K"/> <quote xml:id="bHY6yh-d89104-Qd1e188">inuentas credo meretrices vt 
+             <lb ed="#K"/>esset aliquid quod liceret amare
+            <lb ed="#K"/>pauperibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d89104-d1e200">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d89104-Rd1e209">Cato capitulo i</ref> <quote xml:id="bHY6yh-d89104-Qd1e204">meretrices fuge</quote>
+            </p>
+            <p xml:id="bHY6yh-d89104-d1e208">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d89104-Rd1e219">Uersificator fabularum</ref> <quote xml:id="bHY6yh-d89104-Qd1e212">thaida si quis amat sua se non 
+              <lb ed="#K"/>credat amari /Thais amore 
+              <lb ed="#K"/>carens munus amantis amat</quote>
+            </p>
+            <p xml:id="bHY6yh-d89104-d1e220">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d89104-Rd1e233">Auctor libelli qui dicitur facetus capitulo 5</ref> /<quote xml:id="bHY6yh-d89104-Qd1e224">Si 
+              <lb ed="#K"/>se supponat meretrix non 
+              <lb ed="#K"/>praestat amorem non amat 
+              <lb ed="#K"/>id quod agit sed quod habere cupit</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
