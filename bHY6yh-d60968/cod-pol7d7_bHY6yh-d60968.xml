@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 1 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-03-08">March 8, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="132-r"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d60968"><!-- p3l5-r1 -->
+            <head xml:id="bHY6yh-d60968-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d60968-Hd1e111" type="question-title">De taciturnitate et loquacitate</head>
+            <p xml:id="bHY6yh-d60968-d1e114">
+              <lb ed="#K" n="56"/>Quintus liber tertie partis tractat 
+              <lb ed="#K"/>de prudentia taciturnitatis 
+              <lb ed="#K"/>sub his titulis sequentibus 
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e127">
+              <lb ed="#K"/>De taciturnitate et loquacitate Rubrica Prima
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e134">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d60968-Rd1e134">Iob hystoria capitulo 2</ref> /<quote xml:id="bHY6yh-d60968-Qd1e138">Conceptum
+              <lb ed="#K"/>sermonem retinere quis possit</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e147">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d60968-Rd1e149">Psalsta psalmus 161</ref> <quote xml:id="bHY6yh-d60968-Qd1e151">oratio dauid 
+              <lb ed="#K"/>pone domine custodiam ori 
+              <lb ed="#K"/>meo et hostium circunstantie 
+              <lb ed="#K"/>labiis</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e159">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d60968-Rd1e165">Salomon In prouerb capitulo 10</ref> <quote xml:id="bHY6yh-d60968-Qd1e163">In multiloquio non deerit 
+              <lb ed="#K"/>peccatum qui autem moderabitur 
+              <lb ed="#K"/>labia sua prudentissimus est</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e171"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d60968-Rd1e177">capitulo 13</ref> <quote xml:id="bHY6yh-d60968-Qd1e173">Qui custodit os suum 
+              <lb ed="#K"/>custodit animam suam qui 
+              <lb ed="#K"/>autem inconsideratus est ad lo<lb ed="#K" break="no"/>quendum
+              sentiet mala</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e183"> 
+              ¶ <ref xml:id="bHY6yh-d60968-Rd1e192">capitulo 17</ref> 
+              <lb ed="#K"/> / <quote xml:id="bHY6yh-d60968-Qd1e185">Stultus quoque si tacuerit 
+              <lb ed="#K"/>sapiens reputabitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e191"> 
+              / <ref xml:id="bHY6yh-d60968-Rd1e202">capitulo 18</ref> <quote xml:id="bHY6yh-d60968-Qd1e193">os 
+              <lb ed="#K"/>stulti atritio eius</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e199"> 
+              <ref xml:id="bHY6yh-d60968-Rd1e212">capitulo 21</ref> <quote xml:id="bHY6yh-d60968-Qd1e201">Qui 
+                <pb ed="#K" n="132v"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>custodit os suum et linguam 
+              <lb ed="#K"/>suam ab angustiis 
+              <lb ed="#K"/>animam suam</quote>
+          </p>
+          <p xml:id="bHY6yh-d60968-d1e221">
+            / <ref xml:id="bHY6yh-d60968-Rd1e225">capitulo 25</ref> <quote xml:id="bHY6yh-d60968-Qd1e227">Sicut 
+            <lb ed="#K"/>vrbs patens et absque mu<lb ed="#K" break="no"/>rorum
+            habitu ita vir qui 
+            <lb ed="#K"/>non potest in loquendo cohibere 
+            <lb ed="#K"/>spiritum suum</quote>
+          </p>
+          <p xml:id="bHY6yh-d60968-d1e214"> 
+              ¶ <ref xml:id="bHY6yh-d60968-Rd1e237">capitulo 29</ref> <quote xml:id="bHY6yh-d60968-Qd1e216">totum spir<lb ed="#K" break="no"/>itum
+              profert stultus sapiens 
+              <lb ed="#K"/>differt et reseruat in posterum</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e224"> 
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d60968-Rd1e249">Idem in ecclesiastica capitulo 5</ref> <quote xml:id="bHY6yh-d60968-Qd1e226">In multis 
+              <lb ed="#K"/>sermonibus inuenitur stul<lb ed="#K" break="no"/>titia</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e232"> 
+              <ref xml:id="bHY6yh-d60968-Rd1e259">capitulo 10</ref> <quote xml:id="bHY6yh-d60968-Qd1e234">sultus verba mul<lb ed="#K" break="no"/>tiplicat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e240">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d60968-Rd1e272">Cronica de nugis philosophorum capitulo 4 scilicet de chilone</ref> 
+              <lb ed="#K"/><quote xml:id="bHY6yh-d60968-Qd1e244">Chilon lacedemoniis qui 
+              <lb ed="#K"/>fuit vnus de septem sapiententibus 
+              <lb ed="#K"/>videbat dominari lingue et 
+              <lb ed="#K"/>presertim in conuiuio</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e254"> 
+              <ref xml:id="bHY6yh-d60968-Rd1e287">capitulo 7 scilicet 
+              <lb ed="#K"/>de cleobolo</ref> / <quote xml:id="bHY6yh-d60968-Qd1e256">Cleobolus vnus 
+              <lb ed="#K"/>de septem sapiententibus consulebat
+              <lb ed="#K"/>diligere magis audire quam loqui</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e264">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d60968-Rd1e303">Idem cleobolus ait</ref> <quote xml:id="bHY6yh-d60968-Qd1e268">in co<lb ed="#K" break="no"/>nciuitas 
+              pro maiori parte hominibus 
+              <lb ed="#K"/>verborum multitudo</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e275">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d60968-Rd1e315">Iesus filius sirach in ecclesiastica capitulo 9</ref> <quote xml:id="bHY6yh-d60968-Qd1e279">terribilis 
+              <lb ed="#K"/>est in ciuitate sua homo linguosus</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e285">
+               <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d60968-Rd1e327">capitulo 19</ref> /<quote xml:id="bHY6yh-d60968-Qd1e289">Qui odit loquacitatem 
+               <lb ed="#K"/>extinguit malitiam</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e295"> 
+              / <ref xml:id="bHY6yh-d60968-Rd1e337">capitulo 20</ref> 
+              <lb ed="#K"/>/ <quote xml:id="bHY6yh-d60968-Qd1e297">Est tacens qui inuenitur 
+              <lb ed="#K"/>sapiens odibilis est qui procax 
+              <lb ed="#K"/>est ad loquendum qui multis ver<lb ed="#K" break="no"/>bis 
+              ledit animam suam</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e307"> 
+              ¶ <ref xml:id="bHY6yh-d60968-Rd1e351">capitulo 21</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d60968-Qd1e309">tacitus et sensatus honorabitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e313">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d60968-Rd1e361">capitulo 28</ref> <quote xml:id="bHY6yh-d60968-Qd1e317">ori tuo facito hostia 
+              <lb ed="#K"/>et seras auribus tuis</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e327"> 
+              <ref xml:id="bHY6yh-d60968-Rd1e376">capitulo  32</ref>
+              <lb ed="#K"/> /<quote xml:id="bHY6yh-d60968-Qd1e329">Audi tacens et pro reuerentia ac<lb ed="#K" break="no"/>cedet 
+              tibi bona gratia Ado<lb ed="#K" break="no"/>lescens 
+              loquere in tua causa 
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>vix in multis esto quasi inscius
+              <lb ed="#K"/>et audi tacens simul et 
+              <lb ed="#K"/>querens ubi sunt senes non 
+              <lb ed="#K"/>multum loquaris</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e342">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d60968-Rd1e394">Quintillianus declamationum libro 17 et fi declama</ref> 
+              <lb ed="#K"/>/ <quote xml:id="bHY6yh-d60968-Qd1e346">Ex omnibus quibus humana 
+              <lb ed="#K"/>pectora senis grauioribus<lb ed="#K" break="no"/>que 
+              complectuntur affectibus nullam 
+              <lb ed="#K"/>difficiliorem quam silentii credo 
+              <lb ed="#K"/>virtutem promptissimo sermone 
+              <lb ed="#K"/>deliquimus facile</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e360">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d60968-Rd1e415">Iacobus apostolus epistola i capitulo i</ref> <quote xml:id="bHY6yh-d60968-Qd1e364">Sit omnis homo 
+              <lb ed="#K"/>velox ad audiendum tardus 
+              <lb ed="#K"/>antem ad loquendum et tardus 
+              <lb ed="#K"/>ad iram</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e372">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d60968-Rd1e429">Seneca epistolarum ad lucillum libro 5 capitulo xi et fi</ref> <quote xml:id="bHY6yh-d60968-Qd1e376">tar<lb ed="#K" break="no"/>diloquum 
+              esse te iubeo</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e382"> 
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d60968-Rd1e440">Idem declamationum seu ciuilis causarum
+              <lb ed="#K"/>libro 3 capitulo 8</ref> <quote xml:id="bHY6yh-d60968-Qd1e384">Impari dolori 
+              <lb ed="#K"/>silentium non potest</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e392"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d60968-Rd1e453">Idem de moribus</ref> <quote xml:id="bHY6yh-d60968-Qd1e394">In hoc incumbe 
+              <lb ed="#K"/>vt libentius audias quam 
+              <lb ed="#K"/>loquaris / Auribus frequentius
+              <lb ed="#K"/>vtere quam lingua / Qui nes<lb ed="#K" break="no"/>cit 
+              tacere nescit loqui</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e404">
+              <lb ed="#K"/> / <ref xml:id="bHY6yh-d60968-Rd1e471">Idem in prouerbiis</ref> <quote xml:id="bHY6yh-d60968-Qd1e408">loquax inimicus 
+              <lb ed="#K"/>minus quam taciturnus offendit</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e415">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d60968-Rd1e483">Martialis cocus libro vndique 
+              <lb ed="#K"/>suscepto capitulo 2</ref> <quote xml:id="bHY6yh-d60968-Qd1e419">pauca loqui 
+              <lb ed="#K"/>moneo sed non omnino silere.</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e425">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d60968-Rd1e495">Auctor libro de forma honeste vite capitulo 4</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d60968-Qd1e429">rari sermonis esto sed 
+              <lb ed="#K"/>loquatium patiens</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e435">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d60968-Rd1e507">Ambrosius de officiis libro i capitulo 2</ref> /<quote xml:id="bHY6yh-d60968-Qd1e439">Carum est 
+              <lb ed="#K"/>tacere quemquam cum sibi loqui 
+              <lb ed="#K"/>nihil prosit</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e445">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d60968-Rd1e519">Macrobius saturnaliorum libro 3 in prohemio</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d60968-Qd1e449">Solet cibus cum sumitur 
+              <lb ed="#K"/>tacitos efficere potus loquaces
+                <pb ed="#K" n="133r"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>philosophus non minus pro tempore tacen<lb ed="#K" break="no"/>do 
+              quam loquendo philosophatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e461"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d60968-Rd1e536">30 quodne seu probleumate</ref> /<quote xml:id="bHY6yh-d60968-Qd1e463">Sac<lb ed="#K" break="no"/>ius 
+              est alienis abstinere quam 
+              <lb ed="#K"/>minus non proferre</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e469">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d60968-Rd1e549">Cato capitulo 2</ref> <quote xml:id="bHY6yh-d60968-Qd1e473">Uirtutem primam pu<lb ed="#K" break="no"/>to 
+              compescere linguam / Proximus 
+              <lb ed="#K"/>ille deo qui scit ratione tacere</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e482">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d60968-Rd1e563">Boetius de consatione libro 2 capitulo 13</ref> 
+              <lb ed="#K"/> / <quote xml:id="bHY6yh-d60968-Qd1e486">Cum quidam adorsus esset 
+              <lb ed="#K"/>quendam hominem contumeliis 
+              <lb ed="#K"/>qui non ad vere virtutis vsum 
+              <lb ed="#K"/>sed ad superbiam gloriam falsum 
+              <lb ed="#K"/>sibi philosophi nomem induerat 
+              <lb ed="#K"/>adiecissetque sciturum an ille 
+              <lb ed="#K"/>philosophus esset si quidem illatas 
+              <lb ed="#K"/>iniurias leuiter patienter<lb ed="#K" break="no"/>que 
+              tollerasset ille patientiam 
+              <lb ed="#K"/>paulisper assumpsit Accepta<lb ed="#K" break="no"/>que 
+              contumelia velut in<lb ed="#K" break="no"/>sultans
+              iam tandem inquit
+              <lb ed="#K"/>Intelligis me esse philosophum tum 
+              <lb ed="#K"/>ille nimium mordaciter 
+              <lb ed="#K"/>Intellexeram inquit si 
+              <lb ed="#K"/>tacuisses</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e518">
+              <lb ed="#K"/> / <ref xml:id="bHY6yh-d60968-Rd1e601">Cassiodorus epistolarum libro 10 epistola 4</ref> <quote xml:id="bHY6yh-d60968-Qd1e522">hec est rega<lb ed="#K" break="no"/>lis 
+              proculdubio virtus ce<lb ed="#K" break="no"/>lerius 
+              necessaria sentire et tar<lb ed="#K" break="no"/>dius 
+              in verba prorumpore</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e530">
+              <lb ed="#K"/> /<ref xml:id="bHY6yh-d60968-Rd1e615">Gregorius in pastorali capitulo 39</ref> <quote xml:id="bHY6yh-d60968-Qd1e534">ple<lb ed="#K" break="no"/>rumque 
+              nimis taciti cum non 
+              <lb ed="#K"/>nulla iniusta patiuntu eo in 
+              <lb ed="#K"/>acriorem dolorem prodeunt 
+              <lb ed="#K"/>quo ea qui sustinent non lo<lb ed="#K" break="no"/>quuntur
+              Qui linguam non re<lb ed="#K" break="no"/>frenat 
+              concordiam dissipat</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e546">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d60968-Rd1e633">Isydorus soliloquiorum libro 2 capitulo 31</ref> / <quote xml:id="bHY6yh-d60968-Qd1e550">Sint
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>verba tua pauca / Tolle verbo<lb ed="#K" break="no"/>sitatem 
+              sermonis superflui mul<lb ed="#K" break="no"/>tiloquium 
+              non effugiet cul<lb ed="#K" break="no"/>pam
+              linguosus homo imperitus 
+              <lb ed="#K"/>est / Sapiens vero paucis vtitur 
+              <lb ed="#K"/>verbis</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e562"> 
+              / <ref xml:id="bHY6yh-d60968-Rd1e649">Breuem sermonem scientia facit</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d60968-Qd1e564">loqui multum stultitia est</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e572"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d60968-Rd1e663">capitulo 43</ref> <quote xml:id="bHY6yh-d60968-Qd1e574">plus diligit audire quam 
+              <lb ed="#K"/>docere</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e581">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d60968-Rd1e675">facetus capitulo 2</ref> <quote xml:id="bHY6yh-d60968-Qd1e585">pauca loquendum qui vult vrbanus haberi
+              <lb ed="#K"/>/ nec prorsus taceat sed meditata 
+              <lb ed="#K"/>ferat</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e593">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d60968-Rd1e689">Mattheus vindocinensis in poetria partis 
+              <lb ed="#K"/>2</ref> <quote xml:id="bHY6yh-d60968-Qd1e597">lingua loquax reticenda 
+              <lb ed="#K"/>refert eliminat edit</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e603">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d60968-Rd1e701">Iacobus beneuentanus capitulo 5</ref> <quote xml:id="bHY6yh-d60968-Qd1e607">lingua 
+              <lb ed="#K"/>loquax odium parit et facit 
+              <lb ed="#K"/>tibi litem Efreni lingua sur<lb ed="#K" break="no"/>gere 
+              bella solent per linguam 
+              <lb ed="#K"/>multi iam periere viri</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e617">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d60968-Rd1e717">Aristotelis l. qui incipit astrolabi:</ref> 
+              <lb ed="#K"/> / <quote xml:id="bHY6yh-d60968-Qd1e621">Copia verborum vbi non est 
+              <lb ed="#K"/>copia sensus / Constat et 
+              <lb ed="#K"/>errantem multiplicare vias 
+              <lb ed="#K"/>preualet in lingua quoniam est 
+              <lb ed="#K"/>fortis in armis / Nullus in 
+              <lb ed="#K"/>hac pugna plus meretrice 
+              <lb ed="#K"/>potest</quote>
+            </p>
+            <p xml:id="bHY6yh-d60968-d1e633">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d60968-Rd1e735">prouerbia vulgaria</ref> /<quote xml:id="bHY6yh-d60968-Qd1e637">Chi troppo parla spesso falla
+              <lb ed="#K"/>Mal fa uela chi non ha de bisog<lb ed="#K" break="no"/>no
+              ala longna nuti el 
+              <lb ed="#K"/>fren parla poco edi ben</quote> <!--new text-->
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
