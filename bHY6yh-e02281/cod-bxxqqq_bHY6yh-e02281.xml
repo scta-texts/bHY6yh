@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 30</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 30</title>
+               <date when="2024-07-13">July 13, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-13" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="183-r"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e02281"><!-- p5l2-r30 -->
+            <head xml:id="bHY6yh-e02281-Hd1e108">Rubrica 30</head>
+            <head xml:id="bHY6yh-e02281-Hd1e111" type="question-title">De turbandis hostibus</head>
+            <p xml:id="bHY6yh-e02281-d1e114">
+              De cautelis fligendi 
+              <lb ed="#B"/>hostes vano terrore Rubrica 30
+            </p>
+            <p xml:id="bHY6yh-e02281-d1e121">
+              <pb ed="#B" n="183-v"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/><ref xml:id="bHY6yh-e02281-Rd1e118">UAlerius maximus libro 7 titulo stra<lb ed="#B" break="no"/>gematibus</ref> 
+              ¶ <quote xml:id="bHY6yh-e02281-Qd1e127">Agatodes 
+              <lb ed="#B"/>syracusanorum rex / cum urbem 
+              <lb ed="#B"/>eius maiore ex parte cartagi<lb ed="#B" break="no"/>nenses 
+              occupassent exercitum 
+              <lb ed="#B"/>suum in affricam transiecit ut 
+              <lb ed="#B"/>metum metu vim vi discuteret 
+              <lb ed="#B"/>nec sine effectu nam repentino 
+              <lb ed="#B"/>eius aduentu perculsi peni 
+              <lb ed="#B"/>libenter incolumitatem suam 
+              <lb ed="#B"/>salute hostium redimerunt pac<lb ed="#B" break="no"/>tique 
+              sunt ut in eodem tempore et af<lb ed="#B" break="no"/>frica 
+              siculis et siculi puni<lb ed="#B" break="no"/>cis 
+              armis liberarentur</quote>
+            </p>
+            <p xml:id="bHY6yh-e02281-d1e152">
+              <lb ed="#B"/><ref xml:id="bHY6yh-e02281-Rd1e156">FRontinus libro I titulo 3</ref> <quote xml:id="bHY6yh-e02281-Qd1e160">Scipio 
+              <lb ed="#B"/>manente in ytalia haniba<lb ed="#B" break="no"/>le 
+              transmisso in affricam exercitu 
+              <lb ed="#B"/>necessitatem cartaginensibus 
+              <lb ed="#B"/>impo suit reuocandi haniba<lb ed="#B" break="no"/>lem 
+              sic a domesticis finibus 
+              <lb ed="#B"/>hostile transtulit bellum</quote>
+            </p>
+            <p xml:id="bHY6yh-e02281-d1e173"> 
+              ¶ <ref xml:id="bHY6yh-e02281-Rd1e173">titulo 8</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-e02281-Qd1e175">M. curius aduersus sabinos 
+              <lb ed="#B"/>qui ingenti exercitu conscripto relic<lb ed="#B" break="no"/>tis 
+              finibus suis nostros occu<lb ed="#B" break="no"/>pauerant 
+              occultis ytineribus 
+              <lb ed="#B"/>manum misit que desolatos 
+              <lb ed="#B"/>agros eorum uicosque per diuer<lb ed="#B" break="no"/>sa 
+              incendit sabini ad arcen<lb ed="#B" break="no"/>dam 
+              domesticam uastitatem 
+              <lb ed="#B"/>recesserunt curio contingit et ua<lb ed="#B" break="no"/>cuo 
+              infestare hostium fines 
+              <lb ed="#B"/>et exercitum sine prelio auertere 
+              <lb ed="#B"/>sparsumque cedere</quote>
+            </p>
+            <p xml:id="bHY6yh-e02281-d1e198"> 
+              ¶ <ref xml:id="bHY6yh-e02281-Rd1e201">libro 3 titulo 6</ref> <quote xml:id="bHY6yh-e02281-Qd1e200">P. 
+              <lb ed="#B"/>cornelius scipio intellecta diffi<lb ed="#B" break="no"/>cultate 
+              expugnandi deliuin<lb ed="#B" break="no"/>um 
+              quia concursum homnium defende<lb ed="#B" break="no"/>batur 
+              aggredi alia opida 
+              <lb ed="#B"/>cepit et euocatis ad sua. de<lb ed="#B" break="no"/>fendendam 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>singulis uacuatum 
+              <lb ed="#B"/>auxiliis <sic>deliuinum</sic> cepit</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

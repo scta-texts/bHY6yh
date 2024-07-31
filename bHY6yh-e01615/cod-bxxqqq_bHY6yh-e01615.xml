@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 26</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 26</title>
+               <date when="2024-07-11">July 11, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="181-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e01615"><!-- p5l2-r26 -->
+            <head xml:id="bHY6yh-e01615-Hd1e108">Rubrica 26</head>
+           <head xml:id="bHY6yh-e01615-Hd1e111" type="question-title">De infidelitate suorum eminentium dissimulanda et caute corrigenda</head>
+            <p xml:id="bHY6yh-e01615-d1e114">
+              De infidelitate suorum 
+              <lb ed="#B"/>eminentium eutanda et cau<lb ed="#B" break="no"/>te 
+              corrigenda Rubrica 26
+            </p>
+            <p xml:id="bHY6yh-e01615-d1e123">
+              <lb ed="#B"/><ref xml:id="bHY6yh-e01615-Rd1e126">FRontinus libro 3 titulo 16</ref> / <quote xml:id="bHY6yh-e01615-Qd1e138">M. Mar<lb ed="#B" break="no"/>cellus 
+              congnito consilio bar<lb ed="#B" break="no"/>tei 
+              nolani / qui corrumpere ad de<lb ed="#B" break="no"/>fectionem 
+              populares studebat et ha<lb ed="#B" break="no"/>nibali 
+              gratificabant quod illius 
+              <lb ed="#B"/>beneficio curatus inter canenses 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>saucius et ex captiuitate remis<lb ed="#B" break="no"/>sus 
+              ad suos erat qui interficere 
+              <lb ed="#B"/>ne supplicio eius reliquos con<lb ed="#B" break="no"/>citaret 
+              nolanos non audebat 
+              <lb ed="#B"/>arcessitum adse allocutus est 
+              <lb ed="#B"/>dicens fortissimum eum militem 
+              <lb ed="#B"/>quod ante ignorasset ortatusque. 
+              <lb ed="#B"/>ut secum moraretur et super verbo 
+              <lb ed="#B"/>honorem equum quoque ei dona<lb ed="#B" break="no"/>uit 
+              qua benignitate non illius 
+              <lb ed="#B"/>tantum fidem. sed etiam popularium qui 
+              <lb ed="#B"/>ex illo pendebant sibi obliga<lb ed="#B" break="no"/>uit</quote>
+            </p>
+            <p xml:id="bHY6yh-e01615-d1e170"> 
+              ¶ <ref xml:id="bHY6yh-e01615-Rd1e168">libro 4 et finali titulo 7 et finali</ref> <quote xml:id="bHY6yh-e01615-Qd1e172">Q. 
+              <lb ed="#B"/>maximus transfugere ad hostes vo<lb ed="#B" break="no"/>lentem 
+              stantem stabilium nobilem 
+              <lb ed="#B"/>clare opere equitem uocari <!--insert in right margin-->ad<!--insert ended--> se 
+              <lb ed="#B"/>iussit eique se excusauit qui 
+              <lb ed="#B"/>inuidia comilitonum virtutes illius 
+              <lb ed="#B"/>ad id tempus ignorasset tum dona<lb ed="#B" break="no"/>to 
+              ei eque pecuniam in super ei 
+              <lb ed="#B"/>largitus obtinuit ut quem 
+              <lb ed="#B"/>ex conscientia trepidente censierat le<lb ed="#B" break="no"/>tum 
+              <sic>dmitteret</sic> et ex dubio in 
+              <lb ed="#B"/>reliquum nonmando fidelem 
+              <lb ed="#B"/>quam fortem haberet equitem</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-06-29">June 29, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="203-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d93625"><!-- p5l1-r5 -->
+            <head xml:id="bHY6yh-d93625-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-d93625-Hd1e111" type="question-title">De spe et desperatione</head>
+            <p xml:id="bHY6yh-d93625-d1e114">
+              <lb ed="#K" n="29"/>De spe et desperatione rubrica quinta
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e119">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e116">Salomon in prouerbiis capitulo 13</ref> <quote xml:id="bHY6yh-d93625-Qd1e125">Spes quae
+              <lb ed="#K"/>differtur affligat animam</quote> 
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e131"> 
+              ¶ <ref xml:id="bHY6yh-d93625-Rd1e129">capitulo 
+              <lb ed="#K"/>27</ref> <quote xml:id="bHY6yh-d93625-Qd1e133">ne glorieris in crastinum ig<lb ed="#K" break="no"/>norans 
+              quid superuentura 
+              <lb ed="#K"/>pariat dies</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e142">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e144">Regum libro 2 capitulo 2</ref> <quote xml:id="bHY6yh-d93625-Qd1e146">An ignoras quod periculosa sit 
+              <lb ed="#K"/>desperatio</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e152">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e156">Aristoteles rethoricorum libro i capitulo 20</ref> <quote xml:id="bHY6yh-d93625-Qd1e156">Speranti consequitur fantasia 
+              <lb ed="#K"/>aliqua eius quod sperat</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e162"> 
+              ¶ <ref xml:id="bHY6yh-d93625-Rd1e166">libro 2 capitulo 
+              <lb ed="#K"/>16</ref> <quote xml:id="bHY6yh-d93625-Qd1e164">Iuuenes bone spei sunt
+              <lb ed="#K"/>Iuuenes propterea quod nondum in multis 
+              <lb ed="#K"/>repulsam passi sunt viuunt 
+              <lb ed="#K"/>secundum plurima spei / Spes quidem 
+              <lb ed="#K"/>futuri est memoria autem preteriti 
+              <lb ed="#K"/>/ Iuuenibus autem  quidem 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>quod futurum multum preteritum autem
+              <lb ed="#K"/>breue Iuuenes facile seducti<lb ed="#K" break="no"/>biles 
+              sunt: sperant enim facile
+              <lb ed="#K"/>/ Senes difficilis spei sunt propter 
+              <lb ed="#K"/>experientiam plura enim eorum que 
+              <lb ed="#K"/>fiunt mala sunt eueniunt enim
+              <lb ed="#K"/>multa indeterius</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e187">
+             <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e196">Iesus filius sirach in ecclesiastico capitulo 22</ref> <quote xml:id="bHY6yh-d93625-Qd1e191">Ad amicum 
+             <lb ed="#K"/>et si produxeris gladium ne de<lb ed="#K" break="no"/>speres 
+             est enim regressus ad amicum</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e199">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d93625-Rd1e210">Oratius in epistolis libro i epistola 4</ref> <quote xml:id="bHY6yh-d93625-Qd1e203">grata 
+              <lb ed="#K"/>superueniet que non sperabitur 
+              <lb ed="#K"/>hora</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e209">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e222">Tullius inuectiuarum in catilinam libro 4 et finali</ref>  <quote xml:id="bHY6yh-d93625-Qd1e213">Spes so<lb ed="#K" break="no"/>la 
+              hominem in miseriis consolari 
+              <lb ed="#K"/>solet</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e220">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e235">Ouidius epistolarum 2 epistola</ref> <quote xml:id="bHY6yh-d93625-Qd1e224">Quecumque ex merito spes venit equa venit</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e230">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d93625-Rd1e247">Epistola 16</ref> <quote xml:id="bHY6yh-d93625-Qd1e234">fallitur augurio spes 
+              <lb ed="#K"/>bona sepe suo</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e240">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e259">Idem methamorphoseum libro i</ref> <quote xml:id="bHY6yh-d93625-Qd1e244">Spes tamen in dubio est</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e250">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e271">libro 9</ref> <quote xml:id="bHY6yh-d93625-Qd1e254">spes
+              <lb ed="#K"/>est que cupiarspes est qui pascat amantem</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e260">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e283">Idem de ponto libro 3 epistola 7 et antepenultimo</ref> / <quote xml:id="bHY6yh-d93625-Qd1e264">Spem 
+              <lb ed="#K"/>iuuat amplecti que non iuuat 
+              <lb ed="#K"/>irrita semper Et fieri cupias si qua 
+              <lb ed="#K"/>futura putes</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e272">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e297">Quintilianus delcamationum 7 declamatione</ref> <quote xml:id="bHY6yh-d93625-Qd1e276">nihil magis interesse 
+              <lb ed="#K"/>hominum puto quam vt spes pro 
+              <lb ed="#K"/>homine tam longa quam vita sit</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e285">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e312">Seneca epistolarum ad lucillum libro 2 epistola 3</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d93625-Qd1e289">Spes incerti boni nomen est</quote> 
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e320">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e322">libro 12 epistola 2 et finali</ref> <quote xml:id="bHY6yh-d93625-Qd1e324">diuitie insolentiam 
+              <lb ed="#K"/>dant nihil est aliud insolentia 
+              <lb ed="#K"/>quam spes false magnitudinis</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e299"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e334">libro 18 epistola i</ref> / <quote xml:id="bHY6yh-d93625-Qd1e301">O quanta dementia est 
+              <lb ed="#K"/>spes longas inchoantium</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e313"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d93625-Rd1e350">Idem declamationum libro 5 capitulo i</ref> <quote xml:id="bHY6yh-d93625-Qd1e315">spes vl<lb ed="#K" break="no"/>timum 
+              est aduersarum rerum solatium</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e321"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d93625-Rd1e360">libro 9 capitulo 6 et finali</ref> / <quote xml:id="bHY6yh-d93625-Qd1e323">Concitatissima est 
+              <lb ed="#K"/>rabies in desperatione</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e331"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d93625-Rd1e373">Idem de breuitate vite</ref> / <quote xml:id="bHY6yh-d93625-Qd1e333">Spes spem excitat 
+              <lb ed="#K"/>ambitionem / Ambitio: </quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e339">
+                  <pb ed="#K" n="203-v"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/> <ref xml:id="bHY6yh-d93625-Rd1e386">lucanus libro i</ref> / <quote xml:id="bHY6yh-d93625-Qd1e343">Spes saltem trepi<lb ed="#K" break="no"/>das 
+               mentes leuat</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e350">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e398">Ualerius maximus libro 6 titulo 9 et finali</ref> / <quote xml:id="bHY6yh-d93625-Qd1e354">Stultum est 
+              <lb ed="#K"/>perpetue infelicitati se damnare 
+              <lb ed="#K"/>spemque ex incerto recte 
+              <lb ed="#K"/>fouetur interdum certam in desperationem 
+              <lb ed="#K"/>conuertere</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e364">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e414">Statius thebaidos libro 2</ref> <quote xml:id="bHY6yh-d93625-Qd1e368">non grauior mortalibus addita 
+              <lb ed="#K"/>cura spe vbi longa venit</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e374">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d93625-Rd1e426">Uegetius de re militari libro 3 titulo 10</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d93625-Qd1e378">nemo desperet fieri posse que 
+              <lb ed="#K"/>facta sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e384"> 
+              ¶ <ref xml:id="bHY6yh-d93625-Rd1e436">libro 3 titulo 23</ref> <quote xml:id="bHY6yh-d93625-Qd1e386">ex desperatione 
+              <lb ed="#K"/>crescit audacia et cum spei 
+              <lb ed="#K"/>nihil est sumit arma formido</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e394">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e451">Augustinus in epigrammatibus prosperi epigramma 86</ref> 
+              <lb ed="#K"/>/ <quote xml:id="bHY6yh-d93625-Qd1e398">Non est desperandum de malis sed 
+              <lb ed="#K"/>pro ipsis vt boni fiant potius 
+              <lb ed="#K"/>supplicandum quia numerus sanctorum semper 
+              <lb ed="#K"/>est auctus de numero impiorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e410">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e471">Cato capitulo 3</ref> <quote xml:id="bHY6yh-d93625-Qd1e414">Spem retine spes 
+              <lb ed="#K"/>vna hominem nec morte 
+              <lb ed="#K"/>reliquit</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e421">
+              ¶ <ref xml:id="bHY6yh-d93625-Rd1e483">capitulo 5 et finali</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d93625-Qd1e425">in aduersis melius sperare memento</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e431">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e495">Boetius libro diuisionum</ref> / <quote xml:id="bHY6yh-d93625-Qd1e435">Quis non 
+              <lb ed="#K"/>videat plurimum ad bonarum artium 
+              <lb ed="#K"/>defectum valere / Si apud mentes
+              <lb ed="#K"/>hominum numquam sit desperatio discendi</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e445">
+                <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e511">Cassiodorus epistolarum libro 4 epistola 25</ref> <quote xml:id="bHY6yh-d93625-Qd1e449">In ipsis
+                <lb ed="#K"/>conatibus egra languescunt que 
+                <lb ed="#K"/>meritorum presumptionibus non inuuantur</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e457">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e525">Isydorus in synonima soliloquiorum libro i capitulo</ref> <quote xml:id="bHY6yh-d93625-Qd1e461">desperatio 
+              <lb ed="#K"/>auget peccatum</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e467">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e540">Uersificator fabularum espistola 29 fabula</ref> <quote xml:id="bHY6yh-d93625-Qd1e471">Sic timeat quicumque timet 
+              <lb ed="#K"/>ne molle timoris / Spe ca<lb ed="#K" break="no"/>reat 
+              grauis est spe fugiente 
+              <lb ed="#K"/>timor  Speret qui metuit mori<lb ed="#K" break="no"/>turos 
+              viuere vidi / Spe duce
+              <lb ed="#K"/>victuros spe moriente mori</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e483">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e559">Pamphylus capitulo i</ref> / <quote xml:id="bHY6yh-d93625-Qd1e487">Spes reficit dominum 
+              <lb ed="#K"/>fallit et ipsa suum</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e494">
+              ¶ <ref xml:id="bHY6yh-d93625-Rd1e571">capitulo 13</ref> <quote xml:id="bHY6yh-d93625-Qd1e498">obsti<lb ed="#K" break="no"/>tit 
+              interdum factis fortuna virorum 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>propositumque suo non sinit esse loco</quote> 
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e512">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e592">capitulo 36</ref> <quote xml:id="bHY6yh-d93625-Qd1e516">desperare nocet votum 
+              <lb ed="#K"/>labor</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e600">
+              <ref xml:id="bHY6yh-d93625-Rd1e604"> <!--ommitted--> </ref> <quote xml:id="bHY6yh-d93625-Qd1e608">omnis habetur Crescit 
+              <lb ed="#K"/>principio spes tamen ipsa bono</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e528">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d93625-Rd1e618">Baldo fabula xi</ref> <quote xml:id="bHY6yh-d93625-Qd1e532">hic ope virtutis 
+              <lb ed="#K"/>spes est vbi nulla salutis</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e538">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d93625-Rd1e630">Gualterius de castellione libro 7</ref> / <quote xml:id="bHY6yh-d93625-Qd1e542">Spes 
+              <lb ed="#K"/>in dubiis semper comes optima 
+              <lb ed="#K"/>rebus</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e548">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e643">Iacobus beneuentanus capitulo 56</ref> / <quote xml:id="bHY6yh-d93625-Qd1e552">Spes bona mortales fallere sepe 
+              <lb ed="#K"/>solet</quote>
+            </p>
+            <p xml:id="bHY6yh-d93625-d1e558">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d93625-Rd1e655">Auctor libelli de moribus medicorum capitulo xi</ref> <quote xml:id="bHY6yh-d93625-Qd1e562">Spes mulios de<lb ed="#K" break="no"/>cipit
+              atque hec eadem reficit
+              <lb ed="#K"/>implet et euacuat</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
