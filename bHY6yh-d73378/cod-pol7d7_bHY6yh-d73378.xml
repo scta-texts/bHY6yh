@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-05-16">May 16, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="160-v"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d73378"><!-- p4l2-r5 -->
+            <head xml:id="bHY6yh-d73378-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-d73378-Hd1e111" type="question-title">De rapina et furto et quacunque ablatione alieni</head>
+            <p xml:id="bHY6yh-d73378-d1e114">
+                <lb ed="#K" n="18"/>de rapina et furto et quacunque
+                <lb ed="#K"/>ablatione alieni rubrica quinta
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e121">
+                <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73378-Rd1e118">Exodo capitulo 20</ref> <quote xml:id="bHY6yh-d73378-Qd1e125">non furtum 
+                <lb ed="#K"/>facies</quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e133">
+                ¶ <ref xml:id="bHY6yh-d73378-Rd1e130">capitulo 21</ref> /<quote xml:id="bHY6yh-d73378-Qd1e135">Qui furatus 
+                <lb ed="#K"/>fuerit hominem et vendide<lb ed="#K" break="no"/>rit 
+                eum conuictus noxe
+                <lb ed="#K"/>morte moriatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e144">
+                ¶ <ref xml:id="bHY6yh-d73378-Rd1e143">capitulo 22</ref> 
+                <lb ed="#K"/>/ <quote xml:id="bHY6yh-d73378-Qd1e146">Si effringens fur domum 
+                <lb ed="#K"/>siue suffodiens fuerit 
+                <lb ed="#K"/>inuentus et accepto vul<lb ed="#K" break="no"/>nere 
+                mortuus fuerit per<lb ed="#K" break="no"/>cussor
+                non erit reus san<lb ed="#K" break="no"/>guinis
+                quod si orto fecit 
+                <lb ed="#K"/>sole hoc homicidium perpe<lb ed="#K" break="no"/>tratum 
+                et ipse morietur</quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e158">
+                <lb ed="#K"/> <ref xml:id="bHY6yh-d73378-Rd1e161">Moyses / In deuteronomio capitulo 19</ref> 
+                <lb ed="#K"/> <quote xml:id="bHY6yh-d73378-Qd1e162">Non assumes nec transferes 
+                <lb ed="#K"/>terminos proximi tui quos
+                <lb ed="#K"/>fixerunt priores in possessione 
+                <lb ed="#K"/>tua</quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e170">
+                <ref xml:id="bHY6yh-d73378-Rd1e175">capitulo 23</ref> / <quote xml:id="bHY6yh-d73378-Qd1e174">Ingressus vi<lb ed="#K" break="no"/>neam 
+                  <cb ed="#K" n="b"/>
+                <lb ed="#K"/>proximi tui comede 
+                <lb ed="#K"/>vuas quantum tibi pla<lb ed="#K" break="no"/>cuerit 
+                foris autem ne 
+                <lb ed="#K"/>efferas tecum</quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e182">
+                <ref xml:id="bHY6yh-d73378-Rd1e187">capitulo 24</ref> / <quote xml:id="bHY6yh-d73378-Qd1e184">Si 
+                <lb ed="#K"/>intraueris segetem amici 
+                <lb ed="#K"/>rui frange spicas et ma<lb ed="#K" break="no"/>nu
+                conteras falce autem 
+                <lb ed="#K"/>non metas</quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e192">
+                ¶ <ref xml:id="bHY6yh-d73378-Rd1e199">capitulo 27</ref> <quote xml:id="bHY6yh-d73378-Qd1e194">Male<lb ed="#K" break="no"/>dictus 
+                qui transfert
+                <lb ed="#K"/>proximi sui</quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e200">
+                <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73378-Rd1e211">Psalmista psalmus 61</ref> <quote xml:id="bHY6yh-d73378-Qd1e204">Rapinas nolite concupiscere</quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e211">
+                <lb ed="#K"/> <ref xml:id="bHY6yh-d73378-Rd1e224">Salomon in prouerbiis capitulo</ref> / <quote xml:id="bHY6yh-d73378-Qd1e215">Ne 
+                <lb ed="#K"/>transgrediaris terminos antiquos 
+                <lb ed="#K"/>quos posuerunt patres 
+                <lb ed="#K"/>tui </quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e229">
+                <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73378-Rd1e244">Ysaias propheta capitulo 33</ref> <quote xml:id="bHY6yh-d73378-Qd1e233">Ue qui predaris nonne 
+                <lb ed="#K"/>et ipse predaberis</quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e239">
+                <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73378-Rd1e256">Abacuch propheta capitulo 2</ref> <quote xml:id="bHY6yh-d73378-Qd1e243">ue ei qui 
+                <lb ed="#K"/>multiplicat non sua Ue 
+                <lb ed="#K"/>ei qui congregat aua<lb ed="#K" break="no"/>ritiam 
+                malam domui sue</quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e251">
+                <lb ed="#K"/>/ <ref xml:id="bHY6yh-d73378-Rd1e270">Ouidius sine titulo seu 
+                <lb ed="#K"/>amorum libro i capitulo 10</ref> <quote xml:id="bHY6yh-d73378-Qd1e255">Non 
+                <lb ed="#K"/>habet euentus sordida prae<lb ed="#K" break="no"/>da 
+                bonos</quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e261">
+                <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73378-Rd1e282">Lucas in euangel capitulo 3</ref> <quote xml:id="bHY6yh-d73378-Qd1e265">neminem concutiatis 
+                <lb ed="#K"/>neque calumniam facietis 
+                <lb ed="#K"/>et contenti esto te stipen<lb ed="#K" break="no"/>diis 
+                vestris</quote>
+            </p>
+            <p>
+                <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73378-Rd1e293">Seneca epistolarum ad lucillum libro 14 epistola 2</ref> <quote xml:id="bHY6yh-d73378-Qd1e298">nulli 
+                <lb ed="#K"/>cui rapina feliciter cessit
+                <lb ed="#K"/>gaudium rapti durauit 
+                <lb ed="#K"/>in posterum</quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e279">
+                <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73378-Rd1e308"> <sic>llex</sic> Cod ti finium regum libro si constiterit</ref> <quote xml:id="bHY6yh-d73378-Qd1e283">quisque 
+                <lb ed="#K"/>contentus suo rem non 
+                <lb ed="#K"/>expectat iur alieni:</quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e290">
+                  <pb ed="#K" n="161-r"/>
+                  <cb ed="#K" n="a"/>
+                <lb ed="#K"/> <ref xml:id="bHY6yh-d73378-Rd1e321">fulgentius libro i fabula 9</ref> <quote xml:id="bHY6yh-d73378-Qd1e294">omnis 
+                <lb ed="#K"/>rapina arida est et ste<lb ed="#K" break="no"/>rilis 
+                omnis rapina ad e<lb ed="#K" break="no"/>uolandum 
+                est celerrima</quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e302">
+                <lb ed="#K"/>/ <ref xml:id="bHY6yh-d73378-Rd1e335">Cato epistola i</ref> / <quote xml:id="bHY6yh-d73378-Qd1e306">Alienum noli 
+                <lb ed="#K"/>concupiscere</quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e310">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73378-Rd1e345">Cassiodorus epistolarum libro 12 et fi</ref> <quote xml:id="bHY6yh-d73378-Qd1e314">piaculum est 
+              <lb ed="#K"/>talibus rapere qui nesci<lb ed="#K" break="no"/>unt
+              aliena fraudare</quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e322">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d73378-Rd1e359">Uersificator 47 fabularum</ref> <quote xml:id="bHY6yh-d73378-Qd1e326">uiuere de 
+              <lb ed="#K"/>rapto vitam rapit inuidus 
+              <lb ed="#K"/>instans / Alterius damnis 
+              <lb ed="#K"/>in sua damna reddit</quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e334">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d73378-Rd1e373">Auctor libro de moribus medicorum capitulo 
+              <lb ed="#K"/>27 et fi</ref>/ <quote xml:id="bHY6yh-d73378-Qd1e338">Stare diu ne<lb ed="#K" break="no"/>quent
+              quae mala parate
+              <lb ed="#K"/>vides</quote>
+            </p>
+            <p xml:id="bHY6yh-d73378-d1e344">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73378-Rd1e386">Prouerb vulgar</ref> /<quote xml:id="bHY6yh-d73378-Qd1e348">Cam per fama fa forame M<lb ed="#K" break="no"/>assara 
+              dura fa fameia 
+              <lb ed="#K"/>fura</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
