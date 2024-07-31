@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 6 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 6 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-05-16">May 16, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="161-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d73627"><!-- p4l2-r6 -->
+            <head xml:id="bHY6yh-d73627-Hd1e108">Rubrica 6</head>
+            <head xml:id="bHY6yh-d73627-Hd1e111" type="question-title">De rebus propriis communibus et alienis</head>
+            <p xml:id="bHY6yh-d73627-d1e114">
+              / De rebus propriis co<lb ed="#K" n="21" break="no"/>mmunibus et 
+              alienis rubrica sexta
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e121">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73627-Rd1e120">Cronica de nugis philo sophorum
+              <lb ed="#K"/>capitulo 6 scilicet de biante</ref> <quote xml:id="bHY6yh-d73627-Qd1e129">bias vnus 
+              <lb ed="#K"/>de septem sapientibus quesitus 
+              <lb ed="#K"/>quid dulce mortalibus
+              <lb ed="#K"/>ait proprium</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e137">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73627-Rd1e139">Aristoteles <sic>polliticorum</sic> libro i capitulo 8</ref> <quote xml:id="bHY6yh-d73627-Qd1e141">prauum
+              <lb ed="#K"/>vtique videbitur esse plu<lb ed="#K" break="no"/>res 
+              principatum eumdem 
+              <lb ed="#K"/>principari</quote> 
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e150">
+              ¶ <ref xml:id="bHY6yh-d73627-Rd1e155">libro 2 capitulo i</ref> <quote xml:id="bHY6yh-d73627-Qd1e152">minime 
+              <lb ed="#K"/>cura sortitur quod pluri<lb ed="#K" break="no"/>morum 
+              commune est de 
+              <lb ed="#K"/>propriis autem maxime 
+              <lb ed="#K"/>curant omnes de communibus
+              <lb ed="#K"/>autem minus duo sunt que 
+              <lb ed="#K"/>faciunt sollicite curare
+              <lb ed="#K"/>homines et diligere proprium et 
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>dilectum</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e166">
+             ¶ <ref xml:id="bHY6yh-d73627-Rd1e173">capitulo 2</ref> <quote xml:id="bHY6yh-d73627-Qd1e168">quidem enim diuise 
+              <lb ed="#K"/>litigia ad inuicem non 
+              <lb ed="#K"/>faciunt /Communicantes 
+              <lb ed="#K"/>multo magis dissidentes 
+              <lb ed="#K"/>videmus quam separatim 
+              <lb ed="#K"/>substantias habentes</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e182">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d73627-Rd1e191">Idem <sic>yconomicorum</sic> libro i
+              <lb ed="#K"/>circa fi</ref> <quote xml:id="bHY6yh-d73627-Qd1e184">Nemo curat similiter 
+              <lb ed="#K"/>aliena et propria /Quidam 
+              <lb ed="#K"/>interrogatus quid magis 
+              <lb ed="#K"/>rus impinguat oculus 
+              <lb ed="#K"/>domini inquit libius inter<lb ed="#K" break="no"/>rogatus 
+              quaale stercus op<lb ed="#K" break="no"/>timum 
+              vestigia ¶ ait domini</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e198">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d73627-Rd1e213">Idem retho libro 3 et fina capitulo 
+              <lb ed="#K"/>14</ref> <quote xml:id="bHY6yh-d73627-Qd1e200">conspicabile magis est 
+              <lb ed="#K"/>quod proprium est negotium 
+              <lb ed="#K"/>eo quod alienum</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e208">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73627-Rd1e228">Iesus filius sirach in ecclesiastico capitulo 33</ref> /<quote xml:id="bHY6yh-d73627-Qd1e212">Non
+              <lb ed="#K"/>dederis aliis possessiones 
+              <lb ed="#K"/>tuas ne forte peniteat 
+              <lb ed="#K"/>te et depreceris pro illis
+              <lb ed="#K"/>dum adhuc superes et as<lb ed="#K" break="no"/>piras 
+              non immutabit 
+              <lb ed="#K"/>te omnis caro  /Melius 
+              <lb ed="#K"/>est enim vt filii tui te 
+              <lb ed="#K"/>rogent quam te respicere 
+              <lb ed="#K"/>in manus filiorum tuorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e226">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d73627-Rd1e248">Tullius de officiis libro i capitulo 13</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d73627-Qd1e230">difficilis est cura rerum 
+              <lb ed="#K"/>alienarum</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e237">
+               <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73627-Rd1e261">Ouidius de arte amandi libro 3 et fi</ref> <quote xml:id="bHY6yh-d73627-Qd1e241">non
+              <lb ed="#K"/>bene cum sociis regna venusque 
+              <lb ed="#K"/>manent</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e247">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73627-Rd1e273">Lucanus libro i</ref> <quote xml:id="bHY6yh-d73627-Qd1e251">Nulla fides regni sociis omnis<lb ed="#K" break="no"/>que 
+              potestas Impatiens con<lb ed="#K" break="no"/>sortis 
+              erit</quote> 
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e257">
+                /<ref xml:id="bHY6yh-d73627-Rd1e285">Plinius
+                  <pb ed="#K" n="161-v"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>plinius de naturali hysto
+              <lb ed="#K"/>libro 12 capitulo 19</ref> <quote xml:id="bHY6yh-d73627-Qd1e261">Mortalibus 
+              <lb ed="#K"/>suarum rerum sacietas est 
+              <lb ed="#K"/>alienarumque auiditas</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e263">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d73627-Rd1e299">lex <sic>fforma</sic> ti de seruitutibus vrba pre<lb ed="#K" break="no"/>diorum
+              libro in re coni</ref> <quote xml:id="bHY6yh-d73627-Qd1e267">propter 
+              <lb ed="#K"/>imensas contentiones 
+              <lb ed="#K"/>plerumque res ad diuisionem 
+              <lb ed="#K"/>peruenit</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e275">
+              ¶ <ref xml:id="bHY6yh-d73627-Rd1e312">Ti de legatis ii libro cum 
+              <lb ed="#K"/>pater § dulcissimis</ref> /<quote xml:id="bHY6yh-d73627-Qd1e277">Communio
+              <lb ed="#K"/>solet excitare discordias</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e285">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73627-Rd1e325">ti si a parente quis manu<lb ed="#K" break="no"/>missus 
+              sit libro 2</ref> /<quote xml:id="bHY6yh-d73627-Qd1e289">Iniquum 
+              <lb ed="#K"/>est ingenuis hominibus 
+              <lb ed="#K"/>non esse liberam rerum suarum 
+              <lb ed="#K"/>alienationem</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e297"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73627-Rd1e341">lex cod ti de iudeis libro Nemo</ref> <quote xml:id="bHY6yh-d73627-Qd1e299">ius<lb ed="#K" break="no"/>tum 
+              est sua cuique commit<lb ed="#K" break="no"/>tere</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e306"> 
+              <ref xml:id="bHY6yh-d73627-Rd1e351">ti mandati libro in re man<lb ed="#K" break="no"/>data</ref> 
+              <quote xml:id="bHY6yh-d73627-Qd1e308">sue quisque rei mo<lb ed="#K" break="no"/>derator 
+              atque arbiter est</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e316"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73627-Rd1e364">ti de contrahenda emp
+              <lb ed="#K"/>et vendi libro dudum</ref> <quote xml:id="bHY6yh-d73627-Qd1e318">grauis 
+              <lb ed="#K"/>videtur iniuria vt homines
+              <lb ed="#K"/>de rebus suis facem aliquid 
+              <lb ed="#K"/>cogantur inuiti</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e326">
+                ¶ <ref xml:id="bHY6yh-d73627-Rd1e379">libro 10 
+                <lb ed="#K"/>ti quoniam et quibus debetur quarta 
+                <lb ed="#K"/>pars etc libro 2</ref> <quote xml:id="bHY6yh-d73627-Qd1e330">naturale vicium 
+                <lb ed="#K"/>est negligi quod communiter 
+                <lb ed="#K"/>possidetur</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e336">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73627-Rd1e391">Paladius de agricultura capitulo 6</ref> <quote xml:id="bHY6yh-d73627-Qd1e342">presentia domini 
+              <lb ed="#K"/>profectus est agri</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e349">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73627-Rd1e403">Cassiodorus epistolarum libro i epistola 21</ref> <quote xml:id="bHY6yh-d73627-Qd1e355">uni<lb ed="#K" break="no"/>cuique 
+              patria sua carior est</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e359">
+              <lb ed="#K"/> /<ref xml:id="bHY6yh-d73627-Rd1e416">Aesopus fabularum 56</ref> /<quote xml:id="bHY6yh-d73627-Qd1e363">Res tua 
+                <cb ed="#K" n="b"/>
+              <lb ed="#K"/>te reperit argum res altera 
+              <lb ed="#K"/>cecum</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e376">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73627-Rd1e434">Ricardus iudex venuxinus libro de pertractatione 
+              <lb ed="#K"/>nuptis 28 capitulo</ref> /<quote xml:id="bHY6yh-d73627-Qd1e380">Insipiens 
+              <lb ed="#K"/>aliena colit propriumque re<lb ed="#K" break="no"/>linquit 
+              plus alios quam 
+              <lb ed="#K"/>se quis nisi stultus amat
+              <lb ed="#K"/>Quam nostrum melius dicitur 
+              <lb ed="#K"/>esse meum</quote>
+            </p>
+            <p xml:id="bHY6yh-d73627-d1e392">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d73627-Rd1e453">prouerb vulgar</ref> /<quote xml:id="bHY6yh-d73627-Qd1e396">Elo e meio me cha nostro
+              <lb ed="#K"/>Meio e cum altrum partir 
+              <lb ed="#K"/>cha sol perdere /Molino 
+              <lb ed="#K"/>de consorte va liga con strope</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
