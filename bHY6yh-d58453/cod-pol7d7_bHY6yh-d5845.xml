@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Rubrica 1</title>
+           <author ref="#per-c7y65a">Geremia da Montagnone</author>
+           <respStmt>
+              <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           <respStmt>
+              <name>Katrina Van Der Ahe</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+        </titleStmt>
+        <editionStmt>
+           <edition n="0.0.0-dev">
+              <title>Rubrica 1 [Krakow, lat 700 III Transcription]</title>
+              <date when="2024-02-16">February 16, 2024</date>
+           </edition>
+        </editionStmt>
+        <publicationStmt>
+           <authority>SCTA</authority>
+           <availability status="free">
+              <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+              </p>
+           </availability>
+        </publicationStmt>
+        <sourceDesc>
+           <listWit>
+              <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+           </listWit>
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+        <editorialDecl>
+           <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+      guidelines for a diplomatic edition.</p>
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc status="draft">
+        <listChange>
+           <change when="2021-05-18" status="draft" n="0.0.0">
+              <p>Created file for the first time.</p>
+           </change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+     <front>
+        <div xml:id="starts-on">
+           <pb ed="#K" n="127-r"/>
+           <cb ed="#K" n="a"/>
+        </div>
+     </front>
+     <body>
+        <div xml:id="bHY6yh-d58453"><!-- p3l4-r1 -->
+           <head xml:id="bHY6yh-d58453-Hd1e108">Rubrica 1</head>
+           <head xml:id="bHY6yh-d58453-Hd1e111" type="question-title">De vtilitate seu proficuo</head>
+           <p xml:id="bHY6yh-d58453-d1e114">
+             <lb ed="#K" n="18"/>Quartus liber tertie partis trac<lb ed="#K" break="no"/>tat
+             de prudentia operan<lb ed="#K" break="no"/>di
+             et his que pertinent
+             <lb ed="#K"/>ad eam sub his titulis     
+             <lb ed="#K"/>de vtilitate seu proficuo rubrica 1
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e121">
+             <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d58453-Rd1e127">Isaias propheta capitulo 1</ref> <quote xml:id="bHY6yh-d58453-Qd1e125">omnes
+             <lb ed="#K"/>appetunt munera sequuntur
+             <lb ed="#K"/>et retributiones</quote>
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e133">
+             <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d58453-Rd1e141">Aristotelis ethicorum libro 8 capitulo 1</ref> <quote xml:id="bHY6yh-d58453-Qd1e137">diuitie sunt
+             <lb ed="#K"/>vtilium</quote>
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e144">
+             <ref xml:id="bHY6yh-d58453-Rd1e152">libro 4 capitulo 2</ref> <quote xml:id="bHY6yh-d58453-Qd1e146">uidebitur
+             <lb ed="#K"/>vtile esse per quod fit bo<lb ed="#K" break="no"/>num
+             aliquod uel delectatio
+             <lb ed="#K"/>quare amabilia erunt
+             <lb ed="#K"/>et bonum et delectatio</quote>
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e154">
+             <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d58453-Rd1e164">Idem rethor libro 2 capitulo 16</ref> <quote xml:id="bHY6yh-d58453-Qd1e156">Iuuenes
+             <lb ed="#K"/>eligunt agere honesta quam
+             <lb ed="#K"/>conferentia quod conferens
+             <lb ed="#K"/>est ipsi bonum est hon<lb ed="#K" break="no"/>estum
+             autem simpliciter bonum est</quote>
+         </p>
+         <p xml:id="bHY6yh-d58453-d1e181">
+           <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d58453-Rd1e183">libro 3 et fi capitulo 18</ref> <quote xml:id="bHY6yh-d58453-Qd1e188">prudentis in eo
+             <cb ed="#K" n="b"/>
+           <lb ed="#K"/>quod est proficuum prosequi
+           <lb ed="#K"/>boni autem in eo quod est
+           <lb ed="#K"/>honestum</quote>
+         </p>
+         <p xml:id="bHY6yh-d58453-d1e175">
+           <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d58453-Rd1e198">Tullius de officiis libro i capitulo 53</ref> <quote xml:id="bHY6yh-d58453-Qd1e179">omnis actio vacare
+           <lb ed="#K"/>debet temeritate et negligentia
+           <lb ed="#K"/>nec vero agere aliquid cuius
+           <lb ed="#K"/>non possit causam probabilem
+           <lb ed="#K"/>reddere</quote>
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e189">
+             ¶ <ref xml:id="bHY6yh-d58453-Rd1e213">libro 2 capitulo 20</ref> <quote xml:id="bHY6yh-d58453-Qd1e191">omnes
+             <lb ed="#K"/>expetimus vtilitatem ad
+             <lb ed="#K"/>eamque rapimur nec facile
+             <lb ed="#K"/>aliter vllo modo possumus nam
+             <lb ed="#K"/>quis est qui vtilia fugiat
+             <lb ed="#K"/>aut quis est qui non eam stu<lb ed="#K" break="no"/>diosissime
+             prosequatur</quote>
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e226"> 
+             <lb ed="#K"/> ¶<ref xml:id="bHY6yh-d58453-Rd1e226">Idem rethor artis veteris</ref> <!--no quote>-->
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e205">
+             <ref xml:id="bHY6yh-d58453-Rd1e236">libro 2 capitulo xi</ref>
+             <lb ed="#K"/> <quote xml:id="bHY6yh-d58453-Qd1e207">utilitatis due partes esse vi<lb ed="#K" break="no"/>dentur
+             incolumitas et po<lb ed="#K" break="no"/>tentia</quote>
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e213">
+             <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d58453-Rd1e247">Idem de oratore libro 2</ref> /<quote xml:id="bHY6yh-d58453-Qd1e215">Nemo presertim est in clara
+             <lb ed="#K"/>ciuitate quin putet ex<lb ed="#K" break="no"/>petendam
+             maxime digni<lb ed="#K" break="no"/>tatem
+             sed vincit vtilitas
+             <lb ed="#K"/>plerumque cum subest ille
+             <lb ed="#K"/>timor ea neglecta ne
+             <lb ed="#K"/>dignitatem quidem posse re<lb ed="#K" break="no"/>tineri</quote>
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e230">
+             <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d58453-Rd1e268">Quintilianus declamationum 9 declama</ref> <quote xml:id="bHY6yh-d58453-Qd1e234">labori oportet
+             <lb ed="#K"/>incumbere vbi promittitur
+             <lb ed="#K"/>/ <sic>Stulta</sic> tua est que spem non habem</quote>
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e242">
+             <lb ed="#K"/>/ <ref xml:id="bHY6yh-d58453-Rd1e285">Seneca de beneficiis libro 7 et fi</ref>
+             <lb ed="#K"/> <quote xml:id="bHY6yh-d58453-Qd1e246">solet plus prodesse si pauca
+             <lb ed="#K"/>precepta sapientie teneas sed
+             <lb ed="#K"/>illa in promptu et in vsu sint
+             <lb ed="#K"/>quam si multa quidem didiceris
+             <lb ed="#K"/>sed illa non habeas ad ma<lb ed="#K" break="no"/>num</quote>
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e258">
+             <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d58453-Rd1e301">Idem de ira libro 3</ref> <quote xml:id="bHY6yh-d58453-Qd1e260">non expedit omnia videre omnia audire</quote>
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e266">
+             <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d58453-Rd1e313">Lucanus libro 8</ref> <quote xml:id="bHY6yh-d58453-Qd1e270">dat penas
+               <pb ed="#K" n="127-v"/>
+               <cb ed="#K" n="a"/>
+             <lb ed="#K" n="1"/>laudata fides cum sustinet
+             <lb ed="#K"/>inquid Quod fortuna premit
+             <lb ed="#K"/>/ Cole felices miseros fuge
+             <lb ed="#K"/>aduersis non deesse decet sed
+             <lb ed="#K"/>leta secutos nulla fides
+             <lb ed="#K"/>vnquam miseros eligit a<lb ed="#K" break="no"/>micos</quote>
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e282">
+             <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d58453-Rd1e331">Lex dige ti familie herciscum libro 3</ref> /<quote xml:id="bHY6yh-d58453-Qd1e286">Se solutio et execu<lb ed="#K" break="no"/>tio
+             precium non minima inco<lb ed="#K" break="no"/>mmoda
+             habet</quote>
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e294">
+             <ref xml:id="bHY6yh-d58453-Rd1e344">ti delegatis
+             <lb ed="#K"/>il libro si cui fundus</ref> <quote xml:id="bHY6yh-d58453-Qd1e296">sepe con<lb ed="#K" break="no"/>fines
+             fundos et supra estima<lb ed="#K" break="no"/>tionem
+             iustam interest nostra
+             <lb ed="#K"/>acquirere</quote>
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e300">
+             <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d58453-Rd1e359"> <sic>ffulgentius</sic> nutologiarum in prohemio</ref> <quote xml:id="bHY6yh-d58453-Qd1e302">ubi
+             <lb ed="#K"/>emolumentum deest negocii
+             <lb ed="#K"/>causa cessat inquiri.</quote>
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e311">
+             <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d58453-Rd1e373">Cato capitulo 2</ref> <quote xml:id="bHY6yh-d58453-Qd1e315">Que nocitura tenes
+             <lb ed="#K"/>quamuis int cara relinque.
+             <lb ed="#K"/>Utilitas opibus preponi tem<lb ed="#K" break="no"/>pore
+             debet</quote>
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e323">
+             ¶ <ref xml:id="bHY6yh-d58453-Rd1e385">capitulo 5 et fi</ref> <quote xml:id="bHY6yh-d58453-Qd1e325">res
+             <lb ed="#K"/>age quae prosunt rursus
+             <lb ed="#K"/>virare memento In quibus
+             <lb ed="#K"/>error inest nec spes est
+             <lb ed="#K"/>certa laboris</quote>
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e339">
+             <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d58453-Rd1e405">Uersificator fabularum espistola fabula 28</ref> <quote xml:id="bHY6yh-d58453-Qd1e343">nullus am<lb ed="#K" break="no"/>orem
+             ordurat nisi fructus
+             <lb ed="#K"/>seruet amorem/ Quilibet est
+             <lb ed="#K"/>tanti munera quanta facit</quote>
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e351">
+             <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d58453-Rd1e419">pamphylus capitulo 83</ref> /<quote xml:id="bHY6yh-d58453-Qd1e355">Quis
+             <lb ed="#K"/>non menti inops sua se<lb ed="#K" break="no"/>mina
+             mandet arene / Cum
+             <lb ed="#K"/>mercede labor gratior esse
+             <lb ed="#K"/>solet</quote>
+           </p>
+           <p xml:id="bHY6yh-d58453-d1e363">
+             <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d58453-Rd1e434">Gaufridus poetria capitulo 80</ref> <quote xml:id="bHY6yh-d58453-Qd1e367">Quis sanus ad vtile
+             <lb ed="#K"/>torpet</quote>
+           </p>
+        </div>
+     </body>
+  </text>
+</TEI>
+
