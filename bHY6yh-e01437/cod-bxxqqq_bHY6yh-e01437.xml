@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 24</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 24</title>
+               <date when="2024-07-11">July 11, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="181-r"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e01437"><!-- p5l2-r24 -->
+            <head xml:id="bHY6yh-e01437-Hd1e108">Rubrica 24</head>
+            <head xml:id="bHY6yh-e01437-Hd1e111" type="question-title">De suis cohercendis ad pugnam</head>
+            <p xml:id="bHY6yh-e01437-d1e114">
+              <lb ed="#B"/>De suis cohercendis ad pugnam<!--line jummps down--> Rubrica 24
+            </p>
+            <p xml:id="bHY6yh-e01437-d1e121">
+              <lb ed="#B"/><ref xml:id="bHY6yh-e01437-Rd1e118">FRontinus libro 2 titulo 8</ref> <quote xml:id="bHY6yh-e01437-Qd1e129">Q.
+              <lb ed="#B"/>Atilius consul bello sauinico ex
+              <lb ed="#B"/>acie <del>f</del> refugientibus in castra 
+              <lb ed="#B"/>militibus aciem opposuit suorum 
+              <lb ed="#B"/>Affirmans secum et bonis ciui<lb ed="#B" break="no"/>bus 
+              dimicaturos eos nisi cum 
+              <lb ed="#B"/>hostibus maluissent</quote>
+            </p>
+            <p xml:id="bHY6yh-e01437-d1e141"> 
+              ¶ <ref xml:id="bHY6yh-e01437-Rd1e139"><!--no ref--></ref> <quote xml:id="bHY6yh-e01437-Qd1e143">Philippus 
+              <lb ed="#B"/>ueritus ne impetum sitarum sui <del>sci</del> 
+              <lb ed="#B"/>sustinerent fidelissimos equitum 
+              <lb ed="#B"/>a tergo posuit precepitque ne quem 
+              <lb ed="#B"/>commilitonum ex acie fugere pate<lb ed="#B" break="no"/>rentur 
+              perseuerantius ab euntes 
+              <lb ed="#B"/>trucidarent qua denunciatione 
+              <lb ed="#B"/>cum fecisset ut est timidissimi mal<lb ed="#B" break="no"/>lent 
+              ab hostibus quam a suis inter<lb ed="#B" break="no"/>fici 
+              victoria acquisiuit</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
