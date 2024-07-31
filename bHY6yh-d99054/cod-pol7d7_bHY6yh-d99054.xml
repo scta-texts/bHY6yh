@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 9 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrna Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 9 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-07-04">July 04, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="212-v"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d99054"><!-- p5l2-r9 -->
+            <head xml:id="bHY6yh-d99054-Hd1e108">Rubrica 9</head>
+            <head xml:id="bHY6yh-d99054-Hd1e111" type="question-title">De velocitate atque pigritia bellatorum</head>
+            <p xml:id="bHY6yh-d99054-d1e114">
+               De velo<lb ed="#K" break="no" n="65"/>citate 
+               atque pigritia bellatorum 9
+            </p>
+            <p xml:id="bHY6yh-d99054-d1e123">
+              <lb ed="#K"/> / <ref xml:id="bHY6yh-d99054-Rd1e120">lucanus libro i</ref> <quote xml:id="bHY6yh-d99054-Qd1e127">dum trepidant nullo 
+              <lb ed="#K"/>firmante robore partes Tolle
+              <lb ed="#K"/>moras semper nocuit differ<lb ed="#K" break="no"/>re 
+              paratis</quote>
+            </p>
+            <p xml:id="bHY6yh-d99054-d1e137">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d99054-Rd1e136">frontinus in prohemino</ref> <quote xml:id="bHY6yh-d99054-Qd1e141">Occupatis velocitante con<lb ed="#K" break="no"/>suli 
+              oportet</quote>
+            </p>
+            <p xml:id="bHY6yh-d99054-d1e148">
+              <lb ed="#K"/> / <ref xml:id="bHY6yh-d99054-Rd1e149">Uegetius de re militari libro i capitulo 4</ref> <quote xml:id="bHY6yh-d99054-Qd1e152">uelocitas est 
+              <lb ed="#K"/>que percepto exercitio strenuum 
+              <lb ed="#K"/>efficit bellatorem</quote>
+            </p>
+            <p xml:id="bHY6yh-d99054-d1e160"> 
+              ¶ <ref xml:id="bHY6yh-d99054-Rd1e161">libro 2 capitulo 22</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d99054-Qd1e162">uelocitas vsu ipso acquiritur 
+              <lb ed="#K"/>corporis</quote>
+            </p>
+            <p xml:id="bHY6yh-d99054-d1e168"> 
+              ¶ <ref xml:id="bHY6yh-d99054-Rd1e171">libro 5 et finali capitulo i</ref> <quote xml:id="bHY6yh-d99054-Qd1e170">in rebus 
+              <lb ed="#K"/>bellicis celeritas amplius 
+              <lb ed="#K"/>solet prodesse quam virtus</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

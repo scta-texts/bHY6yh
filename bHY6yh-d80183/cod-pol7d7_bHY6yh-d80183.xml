@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 12 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 12 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-06-15">June 15, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="176-r"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d80183"><!-- p4l3-r12 -->
+            <head xml:id="bHY6yh-d80183-Hd1e108">Rubrica 12</head>
+            <head xml:id="bHY6yh-d80183-Hd1e111" type="question-title">De preciositate et vilitate</head>
+            <p xml:id="bHY6yh-d80183-d1e114">
+             <lb ed="#K" n="72"/>De preciositate et vilitate rubrica 12
+            </p>
+            <p xml:id="bHY6yh-d80183-d1e119">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d80183-Rd1e116">Seneca in epistolis ad lucillum libro
+              <lb ed="#K"/>8 epistola 2 et pe</ref> <quote xml:id="bHY6yh-d80183-Qd1e125">uile videtur
+                <pb ed="#K" n="176-v"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>/ Quicquid patet</quote>
+            </p>
+            <p xml:id="bHY6yh-d80183-d1e131">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d80183-Rd1e131">Uegetius de re militari libro 3 capitulo 26 
+              <lb ed="#K"/>et finali</ref> <quote xml:id="bHY6yh-d80183-Qd1e135">usitata vilescunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d80183-d1e141">
+                <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d80183-Rd1e145">Marcialis cocus libro vndique suscepto capitulo 3</ref> <quote xml:id="bHY6yh-d80183-Qd1e145">ui<lb ed="#K" break="no"/>lia 
+                diuitibus notum est ple<lb ed="#K" break="no"/>rumque 
+                placere non quod sint vi<lb ed="#K" break="no"/>lia
+                sed quia rara line sic 
+                <lb ed="#K"/>plerumque praemit praeciosa freq<lb ed="#K" break="no"/>uentior 
+                vsus</quote>
+            </p>
+            <p xml:id="bHY6yh-d80183-d1e150">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d80183-Rd1e161">prosper sub 66 emp</ref> <quote xml:id="bHY6yh-d80183-Qd1e154">ultro oblatorum vilius 
+              <lb ed="#K"/>est precium</quote>
+            </p>
+            <p xml:id="bHY6yh-d80183-d1e160">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d80183-Rd1e173">Uersificator fabularum epistola fabula 22</ref> <quote xml:id="bHY6yh-d80183-Qd1e164">omne boni precium 
+              <lb ed="#K"/>nimio vilescit in vsu</quote>
+            </p>
+            <p xml:id="bHY6yh-d80183-d1e170">
+                <lb ed="#K"/>/ <ref xml:id="bHY6yh-d80183-Rd1e188">Andreas ad gualterium de 
+                <lb ed="#K"/>amore libro i</ref> <quote xml:id="bHY6yh-d80183-Qd1e174">Uilius res ve<lb ed="#K" break="no"/>nalitati 
+                exposita comparatur
+                <lb ed="#K"/>quam si venditor ab emptore 
+                <lb ed="#K"/>rogetur</quote>
+            </p>
+            <p xml:id="bHY6yh-d80183-d1e182">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d80183-Rd1e202">Heinricus samariensis libro i partis i</ref> <quote xml:id="bHY6yh-d80183-Qd1e186">omne quod est cre<lb ed="#K" break="no"/>brum 
+              nimio vilescit in vsu 
+              <lb ed="#K"/>/ Omne quod est rarum carius esse solet</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

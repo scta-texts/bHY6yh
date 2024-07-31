@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 16 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 16 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-07-06">July 06, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="214-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d99899"><!-- p5l2-r16 -->
+            <head xml:id="bHY6yh-d99899-Hd1e108">Rubrica 16</head>
+            <head xml:id="bHY6yh-d99899-Hd1e111" type="question-title">De occultandis consiliis initis contra hostes</head>
+            <p xml:id="bHY6yh-d99899-d1e114">
+               De oc<lb ed="#K" break="no" n="22"/>cultandis confiliis inimicis 
+               <lb ed="#K"/>contra hostes rubrica 16 : <!--more slightly unclear marks at the end of this line-->
+            </p>
+            <p xml:id="bHY6yh-d99899-d1e121">
+              <lb ed="#K"/> / <ref xml:id="bHY6yh-d99899-Rd1e118">frontinus libro i capitulo i</ref> <quote xml:id="bHY6yh-d99899-Qd1e127">portius cato
+              <lb ed="#K"/>deuictas a se ciuitates hys<lb ed="#K" break="no"/>panie 
+              existimabat in tempore 
+              <lb ed="#K"/>rebellaturas fiducia murorum 
+              <lb ed="#K"/>scripsit itaque singulis vt dirum<lb ed="#K" break="no"/>perent 
+              monimenta minatus 
+              <lb ed="#K"/>bellum nisi confestim obtemperassent
+              <lb ed="#K"/>epistolasque vniuersis ciuitatibus 
+              <lb ed="#K"/>eodem die reddi iussit vna<lb ed="#K" break="no"/>queque 
+              vrbium sibi soli credit 
+              <lb ed="#K"/>imperatum / Contumaces conspiratio 
+              <lb ed="#K"/>potuit facere si omnibus idem 
+              <lb ed="#K"/>dennuciari votum fuisset
+              <lb ed="#K"/>Tarquinius superbus patri prin<lb ed="#K" break="no"/>cipes 
+              sabinorum interficiendos 
+              <lb ed="#K"/>arbitratus quia hoc nemini 
+              <lb ed="#K"/>volebat commissum nihil
+              <lb ed="#K"/>nuncio respondit qui ad eum a 
+              <lb ed="#K"/>filio erat missus tamen virga 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>eminentia papauerum capita 
+              <lb ed="#K"/>cum forte in orto ambularet
+              <lb ed="#K"/>decussit nuncius sine responso 
+              <lb ed="#K"/>reuersus renunciauit adolescen<lb ed="#K" break="no"/>ti 
+              tarquinio quid agentem patrem 
+              <lb ed="#K"/>vidisset ille intellectus idem 
+              <lb ed="#K"/>esse eminentibus faciendum 
+              <lb ed="#K"/>M licnius crassus percunctan<lb ed="#K" break="no"/>ti 
+              quo tempore moturus esset 
+              <lb ed="#K"/>castra respondit vereris ne tu<lb ed="#K" break="no"/>bam 
+              non audias</quote> 
+            </p>
+            <p xml:id="bHY6yh-d99899-d1e172">
+              <lb ed="#K"/> / <ref xml:id="bHY6yh-d99899-Rd1e177">Uegetius de re militari libro 3 capitulo 6</ref> <quote xml:id="bHY6yh-d99899-Qd1e182">Cautele caput
+              <lb ed="#K"/>est vt ad que loca vel quibus 
+              <lb ed="#K"/>itineribus fit profecturus 
+              <lb ed="#K"/>exercitus ignoretur tutissimum 
+              <lb ed="#K"/>namque in expeditionibus
+              <lb ed="#K"/>creditur facienda nesciri Se<lb ed="#K" break="no"/>curum 
+              iter agitur quod agendum
+              <lb ed="#K"/>hostes minime suspicantur</quote>
+            </p>
+            <p xml:id="bHY6yh-d99899-d1e197"> 
+                <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d99899-Rd1e197">26 capitulo et finali</ref> <quote xml:id="bHY6yh-d99899-Qd1e199">nulla consilia sunt 
+                <lb ed="#K"/>melioraquam illa que ig<lb ed="#K" break="no"/>norauerit 
+                aduersarius antequam 
+                <lb ed="#K"/>facias / Cum consilium tuum congo<lb ed="#K" break="no"/>ueris 
+                aduersariis proditum 
+                <lb ed="#K"/>dispositionem mutare te conuenit
+                <lb ed="#K"/>quid fieri debeat tractato cum 
+                <lb ed="#K"/>multis quod vero facturus sis 
+                <lb ed="#K"/>cum paucissimis vel potius ipse 
+                <lb ed="#K"/>tecum Quo genere depugna<lb ed="#K" break="no"/>turus 
+                sis nesciant hostes
+                <lb ed="#K"/>ne aliquibus remediis re<lb ed="#K" break="no"/>sistere
+                moliantur</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

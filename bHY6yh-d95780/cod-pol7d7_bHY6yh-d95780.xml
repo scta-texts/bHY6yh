@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 8 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 8 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-06-30">June 30, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="207-r"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d95780"><!-- p5l1-r8 -->
+            <head xml:id="bHY6yh-d95780-Hd1e108">Rubrica 8</head>
+            <head xml:id="bHY6yh-d95780-Hd1e111" type="question-title">De vindicta et clementia seu remissione proprie iniuri</head>
+            <p xml:id="bHY6yh-d95780-d1e114">
+              <lb ed="#K" n="10"/>De vindicta et clementia seu
+              <lb ed="#K"/>remissione proprie iniurie 8
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e121">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d95780-Rd1e118">leuitico capitulo 9</ref> <quote xml:id="bHY6yh-d95780-Qd1e127">Non queras vltionem: 
+              <lb ed="#K"/>nec memoreris iniurie ciuium tuorum</quote> 
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e135">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d95780-Rd1e140">Salomon in prouerbiis capitulo xi</ref> <quote xml:id="bHY6yh-d95780-Qd1e145">clementia
+              <lb ed="#K"/>preparat vitam</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e152"> 
+              ¶ <ref xml:id="bHY6yh-d95780-Rd1e152">capitulo 16</ref> <quote xml:id="bHY6yh-d95780-Qd1e154">clementia 
+              <lb ed="#K"/>regis quasi hymber serotinus</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e160"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d95780-Rd1e162">capitulo 20</ref> <quote xml:id="bHY6yh-d95780-Qd1e162">ne dicas reddant ma<lb ed="#K" break="no"/>lum 
+              pro malo expecta dominum 
+              <lb ed="#K"/>et liberabit te / Roboratur 
+              <lb ed="#K"/>clementia tronus regis</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e170">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d95780-Rd1e176">Aristoteles rethoricorum libro i capitulo 20</ref> <quote xml:id="bHY6yh-d95780-Qd1e174">punire 
+              <lb ed="#K"/>delectabile est</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e180">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d95780-Rd1e188">Iesus filius sirach in ecclesiastico capitulo 10</ref> <quote xml:id="bHY6yh-d95780-Qd1e184">omnis iniurie proximi 
+              <lb ed="#K"/>tui ne memineris</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e190">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d95780-Rd1e200">Terentius in eunucho capitulo</ref> / <quote xml:id="bHY6yh-d95780-Qd1e194">Malo 
+              <lb ed="#K"/>ego nos prospicere quam vlcisci 
+              <lb ed="#K"/>accepta iniuria</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e200"> 
+              / <ref xml:id="bHY6yh-d95780-Rd1e210">In adelphis
+              <lb ed="#K"/>capitulo 23</ref> <quote xml:id="bHY6yh-d95780-Qd1e215">Re ipsa repi facilitate 
+              <lb ed="#K"/>nihil esse homini melius: neque 
+              <lb ed="#K"/>clementia</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e211">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d95780-Rd1e226">Tullius rethoricorum artis veteris libro 2 capitulo 9</ref> <quote xml:id="bHY6yh-d95780-Qd1e222">Uindicatio est 
+              <lb ed="#K"/>per quam vix aut iniuria et omnino 
+              <lb ed="#K"/>omne quod offuturum est defendendo 
+              <lb ed="#K"/>aut vlciscendo propulsatur / Cle<lb ed="#K" break="no"/>mentia 
+              est per quam animi temere 
+              <lb ed="#K"/>in odium alicuius inuectionis
+              <lb ed="#K"/>concitati comitate retinentur</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e229"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d95780-Rd1e244">capitulo 12</ref> <quote xml:id="bHY6yh-d95780-Qd1e231"> <sic>is</sic> qui imprudentes lese<lb ed="#K" break="no"/>runt 
+              ignosci conuenit</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e237"> 
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d95780-Rd1e254">Idem de officiis libro i capitulo 41</ref> <quote xml:id="bHY6yh-d95780-Qd1e239">nihil laudabilius
+              <lb ed="#K"/>nihil magno et preclaro viro 
+              <lb ed="#K"/>dignius placabilitate atque 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>clementia</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e249"> 
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d95780-Rd1e270">Idem in oratione pro quinto ligario</ref> <quote xml:id="bHY6yh-d95780-Qd1e251">homines ad deos 
+              <lb ed="#K"/>nulla propius accedunt quam 
+              <lb ed="#K"/>salutem hominibus dando nihil 
+              <lb ed="#K"/>habet neque fortuna maius quam vt 
+              <lb ed="#K"/>possis nec natura melius 
+              <lb ed="#K"/>quam vt velis conseruare quam 
+              <lb ed="#K"/>plurimos</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e265">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d95780-Rd1e291">Quidius de tristibus epistola vnica</ref> / <quote xml:id="bHY6yh-d95780-Qd1e269">Si quotiens peccant
+              <lb ed="#K"/>homines fulmina mittat 
+              <lb ed="#K"/>Iuppiter exiguo tempore solus erit</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e277">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d95780-Rd1e305">libro 3 epistola 5</ref> <quote xml:id="bHY6yh-d95780-Qd1e281">Quo quisquam est maior 
+              <lb ed="#K"/>magis est placabilis ire Et 
+              <lb ed="#K"/>faciles motus mens generosa 
+              <lb ed="#K"/>capit / Corpora magnanimo 
+              <lb ed="#K"/>satis est prostrasse leoni pugna
+              <lb ed="#K"/>suu finem cum iacet hostis habet
+              <lb ed="#K"/>/ At lupus et turpes instant 
+              <lb ed="#K"/>morientibus vrsi / Et quecumque 
+              <lb ed="#K"/>minor nobilitate fera</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e299">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d95780-Rd1e328">Quintilianus declamationum 8 declamatione</ref> <quote xml:id="bHY6yh-d95780-Qd1e303">hec
+              <lb ed="#K"/>est celebranda virtus huius animi 
+              <lb ed="#K"/>suscipienda moderatio vincere 
+              <lb ed="#K"/>iram et inter simutlates quoque 
+              <lb ed="#K"/>meminisse hominis Semper odi<lb ed="#K" break="no"/>orum 
+              casus est / Et dum simulta<lb ed="#K" break="no"/>tes
+              nihil aliud habent quam 
+              <lb ed="#K"/>nocendi cupiditatem speciosa 
+              <lb ed="#K"/>in melius animi mutatio est 
+              <lb ed="#K"/>cum exempli honore</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e326">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d95780-Rd1e359">Seneca de clementia</ref> ¶ <quote xml:id="bHY6yh-d95780-Qd1e330">nullum clementia ex omnibus 
+              <lb ed="#K"/>magis quam regem et principem 
+              <lb ed="#K"/>decet Magni animi proprium est 
+              <lb ed="#K"/>iniurias atque offensiones sper<lb ed="#K" break="no"/>nere: 
+              despicere humili loco positis
+              <lb ed="#K"/>exercere manum <!--manum included twice one is crossed out--> litigare
+              <lb ed="#K"/>in iram procurare atque morem 
+              <lb ed="#K"/>sue ire gerere / Clementia non 
+              <lb ed="#K"/>tantum honestiores sed tutiores 
+              <lb ed="#K"/>praestat ornamentum enim imperatorum est 
+              <lb ed="#K"/>et certa salus Clementer vo<lb ed="#K" break="no"/>cabo 
+              non in alieno dolore :
+                  <pb ed="#K" n="207-v"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>facilem sed eum qui cum suis sti<lb ed="#K" break="no"/>mulis 
+              exagitetur non profilit
+              <lb ed="#K"/>/ Clementia est temperantia animi 
+              <lb ed="#K"/>in potestate vlciscendi uel leuitas 
+              <lb ed="#K"/>superioris aduersus inferiorem dici 
+              <lb ed="#K"/>etiam potest inclinatio animi ad le<lb ed="#K" break="no"/>nitatem
+              in pena exigenda At<lb ed="#K" break="no"/>que 
+              hoc homines intelligunt cle<lb ed="#K" break="no"/>mentiam 
+              esse que se flectat citra
+              <lb ed="#K"/>id quod merito constitui posset</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e368"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d95780-Rd1e401">Idem de ira libro</ref> / <quote xml:id="bHY6yh-d95780-Qd1e370">Sepe satius 
+              <lb ed="#K"/>est dissimulare quam vlcisci 
+              <lb ed="#K"/>iniuriam</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e378"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d95780-Rd1e414">Idem tragediarum in hercule furente capitulo xi et finali</ref> / <quote xml:id="bHY6yh-d95780-Qd1e380">Sepe vindicta of<lb ed="#K" break="no"/>fuit</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e386">
+              ¶ <ref xml:id="bHY6yh-d95780-Rd1e427">In thebaide capitulo 5 et finali</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d95780-Qd1e390">Qui vult amari languida 
+              <lb ed="#K"/>regnat manu</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e396">
+              / <ref xml:id="bHY6yh-d95780-Rd1e439">In <sic>agamenone</sic> 
+              <lb ed="#K"/>capitulo 4</ref>  <quote xml:id="bHY6yh-d95780-Qd1e400">det ille veniam facile 
+              <lb ed="#K"/>cui est opus venia 
+              <lb ed="#K"/>/ Idem de septem liberalibus artibus / Clementia 
+              <lb ed="#K"/>alieno sanguini tanquam suo 
+              <lb ed="#K"/>parcit et scit non hominis esse 
+              <lb ed="#K"/>homine prodigo vtendum</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e413">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d95780-Rd1e461">Ualerius maximus libro 5 titulo de humani<lb ed="#K" break="no"/>tate
+              aut clementia</ref> <quote xml:id="bHY6yh-d95780-Qd1e417">lelius 
+              <lb ed="#K"/>cornelius consul primo punico 
+              <lb ed="#K"/>bello cum helbiam opidum cepis<lb ed="#K" break="no"/>set 
+              pro quo fortissime dimicans 
+              <lb ed="#K"/>Arrio dux carthaginensium occi<lb ed="#K" break="no"/>derat 
+              corpus eius ettabernaculo 
+              <lb ed="#K"/>suo amplo funere extulit nec 
+              <lb ed="#K"/>dubitauit hostis exequias 
+              <lb ed="#K"/>ipse celebrare tunc demum vic<lb ed="#K" break="no"/>toriam 
+              et apud deos et apud 
+              <lb ed="#K"/>homines minimum inuidie 
+              <lb ed="#K"/>habituram credens quando plurimum humanitatis 
+              <lb ed="#K"/>habuisset ¶ Lucius paulus 
+              <lb ed="#K"/>cum persem parui temporis memento 
+              <lb ed="#K"/>captiuum ex acie adduci au<lb ed="#K" break="no"/>disset
+              occurrit ei romani imperii 
+              <lb ed="#K"/>decoratus ornamentis cona<lb ed="#K" break="no"/>tumque 
+              ad genua procumbere dextera 
+                  <cb ed="#K" n="b"/>
+             <lb ed="#K"/>manum alleuauit et greco sermone 
+             <lb ed="#K"/>ad spem exhortatus est / Introductum 
+             <lb ed="#K"/>etiam in <sic>terber</sic>naculum lateri suo 
+             <lb ed="#K"/>proximum in concilio sedere fecit
+             <lb ed="#K"/>nec honore mense indignum 
+             <lb ed="#K"/>iudicauit piscistratus tyrannus
+            <lb ed="#K"/>atheniensium cum adolescens
+            <lb ed="#K"/>quidam amore filie eius virginis 
+            <lb ed="#K"/>accensus in publico obuiam 
+            <lb ed="#K"/>sibi factam osculatus esset hor<lb ed="#K" break="no"/>tante 
+            vxore vt ab eo capitale 
+            <lb ed="#K"/>supplicium sumeret respondit si eos 
+            <lb ed="#K"/>qui nos amant interficiemus
+            <lb ed="#K"/>quid his faciemus quibus 
+            <lb ed="#K"/>odio sumus</quote>
+          </p>
+          <p xml:id="bHY6yh-d95780-d1e479">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d95780-Rd1e532">Statius thebaydos libro 6</ref> <quote xml:id="bHY6yh-d95780-Qd1e483">pulchrum est vitam donare 
+              <lb ed="#K"/>minori</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e489"> 
+              ¶ <ref xml:id="bHY6yh-d95780-Rd1e542">libro 8</ref> <quote xml:id="bHY6yh-d95780-Qd1e491">Si decidat hostis
+              <lb ed="#K"/>ire supra satis est vitamque 
+              <lb ed="#K"/>relinquere victo</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e499">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d95780-Rd1e556">frontinus libro titulo xi</ref> <quote xml:id="bHY6yh-d95780-Qd1e503">scipio <sic>aphricanus</sic> in 
+              <lb ed="#K"/>hyspania cum inter captiuas 
+              <lb ed="#K"/>eximie forme virgo alias 
+              <lb ed="#K"/>et nobilis ad eum perducta 
+              <lb ed="#K"/>Insuperque aurum quod parentes 
+              <lb ed="#K"/>eius redempturi captiuam domum 
+              <lb ed="#K"/>scipioni attulerant eidem sponso 
+              <lb ed="#K"/>pro nuptiali munere dedit 
+              <lb ed="#K"/>Qua multiplici gratia: vniuersa 
+              <lb ed="#K"/>gens victa imperio populi romani 
+              <lb ed="#K"/>accessit</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e526">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d95780-Rd1e587">Auctor libelli de formula honeste vite capitulo 3</ref> <quote xml:id="bHY6yh-d95780-Qd1e530">scito hoc magnum et 
+              <lb ed="#K"/>honestum genus vindicte esse
+              <lb ed="#K"/>ignoscere</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e538"> 
+              ¶ <ref xml:id="bHY6yh-d95780-Rd1e599">capitulo 8</ref> <quote xml:id="bHY6yh-d95780-Qd1e540">esto vltor cle<lb ed="#K" break="no"/>mens
+              seuitie detestator</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e547">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d95780-Rd1e612">prosper sub 38 epigramma</ref> <quote xml:id="bHY6yh-d95780-Qd1e551">det peccatori 
+              <lb ed="#K"/>veniam peccator et equa conciliet 
+              <lb ed="#K"/>dominum conditione sibi</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e559">
+              ¶ <ref xml:id="bHY6yh-d95780-Rd1e626">Sub 39
+              <lb ed="#K"/>epigramma</ref> <quote xml:id="bHY6yh-d95780-Qd1e563">Offensas sibimet par<lb ed="#K" break="no"/>centia 
+              corda remittant nam 
+              <lb ed="#K"/>nemo est qui non indigeat venia</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e571">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d95780-Rd1e640">Sub capitulo vltimo</ref> <quote xml:id="bHY6yh-d95780-Qd1e575">uindictam lesus nesciat 
+              <lb ed="#K"/>exigere :</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e581">
+                <pb ed="#K" n="208-r"/>
+                <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>/ <ref xml:id="bHY6yh-d95780-Rd1e652">Cassiodorus epistolarum libro i epistola 30</ref> <quote xml:id="bHY6yh-d95780-Qd1e585">Quid
+              <lb ed="#K"/>discrepat a peccante qui se excessu 
+              <lb ed="#K"/>nititur vindicare</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e593"> 
+             ¶ <ref xml:id="bHY6yh-d95780-Rd1e664">libro 2 epistola 9</ref> <quote xml:id="bHY6yh-d95780-Qd1e595">benigni 
+              <lb ed="#K"/>principis est ad clementie commodum 
+              <lb ed="#K"/>tranfilire terminos equitatis</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e603"> 
+              <ref xml:id="bHY6yh-d95780-Rd1e676">Libro 
+              <lb ed="#K"/>xi et penultimo epistolia 41 et finali</ref> <quote xml:id="bHY6yh-d95780-Qd1e605">ex remissione
+              <lb ed="#K"/>suauissimos fructus legimus
+              <lb ed="#K"/>et remittendo aliis nobis parcimus
+              <lb ed="#K"/>/ Tu indulgentia patrona es 
+              <lb ed="#K"/>humani generis tum afflictis rebus
+              <lb ed="#K"/>medica singularis / Quis tuo 
+              <lb ed="#K"/>non egeat munere cum sit pec<lb ed="#K" break="no"/>care 
+              commune ab vniuersis necessario 
+              <lb ed="#K"/>peteris quando sub te spes vite sumitur 
+              <lb ed="#K"/>que sub iustitia non habetur 
+              <lb ed="#K"/>Ocium tibi clemens actus in<lb ed="#K" break="no"/>ducit</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e631">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d95780-Rd1e708">Isydorus solliloquiorum libro 2 capitulo 21</ref> <quote xml:id="bHY6yh-d95780-Qd1e635">disce mala ferre potius quam 
+              <lb ed="#K"/>referre magna est virtus si non 
+              <lb ed="#K"/>ledis a quo lesus est uince 
+              <lb ed="#K"/>nequitiam lenitate uince 
+              <lb ed="#K"/>malitiam bonitate</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e647"> 
+              ¶ <ref xml:id="bHY6yh-d95780-Rd1e724">capitulo 23</ref> <quote xml:id="bHY6yh-d95780-Qd1e649">pe<lb ed="#K" break="no"/>tenti 
+              tibi veniam libenter indulge
+              <lb ed="#K"/>/ Aliene nequitie non serues dolorem</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e655">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d95780-Rd1e736">capitulo 49</ref> <quote xml:id="bHY6yh-d95780-Qd1e659">Ita clemens esto in 
+              <lb ed="#K"/>alienis delictis sicut in tuis 
+              <lb ed="#K"/>nec quemquam districtius quam te iudices</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e665">
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d95780-Rd1e748">Gualterius de castellione libro i</ref> <quote xml:id="bHY6yh-d95780-Qd1e669">In<lb ed="#K" break="no"/>stabile 
+              est regnum quod non 
+              <lb ed="#K"/>clementia firmat</quote>
+            </p>
+            <p xml:id="bHY6yh-d95780-d1e675">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d95780-Rd1e760">Auctor libelli qui incipit astrolabi</ref> <quote xml:id="bHY6yh-d95780-Qd1e679">parcere subiectis et 
+              <lb ed="#K"/>debellare superbos hec est in 
+              <lb ed="#K"/>summis gloria summa viris</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

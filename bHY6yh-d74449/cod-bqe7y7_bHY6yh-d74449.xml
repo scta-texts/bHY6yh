@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10</title>
+               <date when="2024-02-23">February 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness> 
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-02-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#P" n="93-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d74449"><!-- p4l2-r10 -->
+            <head xml:id="bHY6yh-d74449-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-d74449-Hd1e111" type="question-title">De ludis fortuite amissionis bonorum</head>
+            <p xml:id="bHY6yh-d74449-d1e114">
+               <lb ed="#P"/>De ludis fortuite amissionis bo<lb ed="#P" break="no"/>norum
+               capitulum x
+            </p>
+            <p xml:id="bHY6yh-d74449-d1e121">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74449-Rd1e120">Ouidius de arte amandi libro iii</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d74449-Qd1e129">Sed minimus labor est sapienter viributi
+               <lb ed="#P"/>Maius opus mores composuisse suos
+               <lb ed="#P"/>Tunc sumus incauti / studioque operimur ipso
+               <lb ed="#P"/>undique proluxus pectora nostra patent
+               <lb ed="#P"/>Ita subit deforme malum lucrique cupido
+               <lb ed="#P"/>Iurgiaque et rixe sollicitusque timor
+               <lb ed="#P"/>Crimina mictunitur / resonat clamoribus ether
+               <lb ed="#P"/>Inuocat irratosque sibi quisque deos.
+               <lb ed="#P"/>Nulla fides tabulis quae non per vota petuntur.
+               <lb ed="#P"/>Et lachrimis vidi sepe madere genas</quote> 
+            </p>
+            <p xml:id="bHY6yh-d74449-d1e159">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74449-Rd1e161">Cato capitulo primo</ref> <quote xml:id="bHY6yh-d74449-Qd1e163">Fuge iracume diam</quote>
+            </p>
+            <p xml:id="bHY6yh-d74449-d1e168">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74449-Rd1e172">Iacobus beneuentanus capitulo vii</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d74449-Qd1e172">Qui sequitur bachum et cetera vide super capitulo proximum</quote>
+            </p>
+            <p xml:id="bHY6yh-d74449-d1e180">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d74449-Rd1e186">Idem capitulo li</ref>
+               <lb ed="#P"/><quote xml:id="bHY6yh-d74449-Qd1e184">Sic taxillorum ludum vitare memento.
+               <lb ed="#P"/>ullam iacturam ferreque inde queas.
+               <lb ed="#P"/>Ludum quemque fuge per que tua perdere possis</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
