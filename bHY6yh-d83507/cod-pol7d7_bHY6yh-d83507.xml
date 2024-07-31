@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-06-19">June 19, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="183-v"/>
+            <cb ed="#K" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d83507"><!-- p4l4-r5 -->
+            <head xml:id="bHY6yh-d83507-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-d83507-Hd1e111" type="question-title">De gaudio petulantia et letitia</head>
+            <p xml:id="bHY6yh-d83507-d1e114">
+              De 
+              <lb ed="#K" n="12"/>gaudio petulantia et letitia Rubrica 5
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e119">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e116">Salomon in prouerbiis capitulo 15</ref> /<quote xml:id="bHY6yh-d83507-Qd1e125">Congau<lb ed="#K" break="no"/>dens 
+              exhilarat faciem lux 
+              <lb ed="#K"/>oculorum letificat animam
+              <lb ed="#K"/>Fama bona impinguat ossa</quote> 
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e135"> 
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d83507-Rd1e135">Idem in ecclesiaste capitulo 3</ref> <quote xml:id="bHY6yh-d83507-Qd1e137">cognoui quod 
+              <lb ed="#K"/>non esset melius nisi letari 
+              <lb ed="#K"/>et facere bene in vita sua</quote>
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e146"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d83507-Rd1e146">capitulo 5</ref> <quote xml:id="bHY6yh-d83507-Qd1e148">hoc itaque mihi visum
+              <lb ed="#K"/>est bonum vt comedat quis et bi<lb ed="#K" break="no"/>bat 
+              et fruatur letitia ex la<lb ed="#K" break="no"/>bore 
+              suo quo laborauit ipse
+              <lb ed="#K"/>sub sole</quote>
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e158"> 
+              ¶ <ref xml:id="bHY6yh-d83507-Rd1e160">capitulo 8</ref> <quote xml:id="bHY6yh-d83507-Qd1e160">Ait salomon
+              <lb ed="#K"/>laudaui letitiam quod non 
+              <lb ed="#K"/>esset homini bonum sub sole 
+              <lb ed="#K"/>nisi quod comederet et biberet
+              <lb ed="#K"/>atque gauderet et hoc solum 
+              <lb ed="#K"/>secum afferet de labore suo
+              <lb ed="#K"/>in diebus vite quos dedit 
+              <lb ed="#K"/>deus sub sole</quote>
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e172">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e178">Cronica de nugis philosophorum capitulo 6 scilicet de biante</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d83507-Qd1e176">bias vnus de septem sapiententibus 
+              <lb ed="#K"/>quesitus quid faciens homo 
+              <lb ed="#K"/>letatur lucrans Ait</quote>
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e184">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e192">Socrates in exhortationibus capitulo 2 ad finali</ref>
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d83507-Qd1e188">letare quidem in bonis contingentibus
+              <lb ed="#K"/>nec non tristare mediocriter 
+                  <cb ed="#K" n="b"/>
+              <lb ed="#K"/>in accidentibus malis fiat 
+              <lb ed="#K"/>autem aliis in neutro manifestus</quote>
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e198">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e208">Aristoteles ethicorum libro i capitulo 4</ref> <quote xml:id="bHY6yh-d83507-Qd1e202">nullus 
+              <lb ed="#K"/>est bonus qui non gaudet 
+              <lb ed="#K"/>bonis operationibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e208"> 
+              ¶ <ref xml:id="bHY6yh-d83507-Rd1e218">libro 7 capitulo 15 <!--included on this line but crossed out-->
+              <lb ed="#K"/>15 et finali</ref> <quote xml:id="bHY6yh-d83507-Qd1e210">omnes gaudent ali<lb ed="#K" break="no"/>qualitur 
+              et pulmentis et vino 
+              <lb ed="#K"/>et venereis</quote>
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e219"> 
+              ¶ <ref xml:id="bHY6yh-d83507-Rd1e232">libro 10 et finali capitulo i</ref> 
+              <lb ed="#K"/> <quote xml:id="bHY6yh-d83507-Qd1e221">uidetur ad moris virtutem ma<lb ed="#K" break="no"/>ximum 
+              esse gaudere quibus oportet 
+              et odire quae oporte odire</quote>
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e229"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e244">Idem rethoricorum libro i capitulo 20</ref> <quote xml:id="bHY6yh-d83507-Qd1e231">Quecunque presentia 
+              <lb ed="#K"/>letificant et sperantes et 
+              <lb ed="#K"/>memorantes vt in pluribus 
+              <lb ed="#K"/>Irati sperantes gaudent</quote>
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e241"> 
+              <lb ed="#K"/> <ref xml:id="bHY6yh-d83507-Rd1e259">libro 2 capitulo 6</ref> <quote xml:id="bHY6yh-d83507-Qd1e243">factis his quae volunt 
+              <lb ed="#K"/>gaudent omnes</quote>
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e249"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e269">Idem topicorum libro 3</ref> /<quote xml:id="bHY6yh-d83507-Qd1e251">Magis amamus 
+              <lb ed="#K"/>cum habemus quod non est fa<lb ed="#K" break="no"/>cile 
+              sumere</quote>
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e259">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e284">Iesus filius sirach in ecclesiastico capitulo 30</ref> /<quote xml:id="bHY6yh-d83507-Qd1e263">Non est oblectatio 
+              <lb ed="#K"/>super cordis gaudium /Iocunditas 
+              <lb ed="#K"/>cordis hoc est vita hominis 
+              <lb ed="#K"/>/ Exultatio viri est longeuitas</quote>
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e273"> 
+                <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e298">capitulo 40</ref> <quote xml:id="bHY6yh-d83507-Qd1e275">uinum et musica le<lb ed="#K" break="no"/>tificant 
+                cor et super vtramque di<lb ed="#K" break="no"/>lectio 
+                sapientie <sic>ffacultates</sic> et 
+                <lb ed="#K"/>victus exhilarant cor</quote>
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e284">
+               <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e313">Oratius in epistolis libro i epistola 19</ref> 
+               <lb ed="#K"/> <quote xml:id="bHY6yh-d83507-Qd1e288">Oderunt hylares tristem tristique 
+               <lb ed="#K"/>iocosos</quote>
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e300">
+                <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e331">Tullius tusculanarum questionum libro 4</ref> /<quote xml:id="bHY6yh-d83507-Qd1e304" source="http://scta.info/resource/ctd99a-dnbh66-d1e392@58-69">Eodem vicio est 
+                <lb ed="#K"/>effusio animi in letitia quo 
+                <lb ed="#K"/>in dolore contractio</quote>
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e312"> 
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e344">Idem de senectute</ref> <quote xml:id="bHY6yh-d83507-Qd1e314">Conscientia bene acte 
+              <lb ed="#K"/>vite multorumque beneficiorum recordatio 
+              <lb ed="#K"/>iocundissima est</quote>
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e322">
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e358">Idem in ortensio</ref> <quote xml:id="bHY6yh-d83507-Qd1e326">Indagatio rerum tum
+              <lb ed="#K"/>maximarum tum etiam occultissimarum
+                  <pb ed="#K" n="184-r"/>
+                  <cb ed="#K" n="a"/>
+              <lb ed="#K" n="1"/>habet oblectationem</quote>
+            </p>
+            <p xml:id="bHY6yh-d83507-d1e334">  
+              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e372">Ouidius de arte amandi libro i</ref> <quote xml:id="bHY6yh-d83507-Qd1e338">uina parant 
+              <lb ed="#K"/>animos faciuntque calcaribus 
+              <lb ed="#K"/>aptos /Cura fugit multo 
+              <lb ed="#K"/>diluiturque mero tunc veni<lb ed="#K" break="no"/>unt 
+              risus tunc pauper corn<lb ed="#K" break="no"/>ua 
+              sumit tunc dolor et curae
+              <lb ed="#K"/>rugaque frontis abit /Tunc
+              aperit mentes euo rarissima
+              <lb ed="#K"/>nostro</quote>
+          </p>
+          <p xml:id="bHY6yh-d83507-d1e350">
+           <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e390">Quintillianus declamationum 5 declamatione</ref> <quote xml:id="bHY6yh-d83507-Qd1e354">non debet dolere quippiam 
+           <lb ed="#K"/>qui potest gloriari /Simplicitas 
+           <lb ed="#K"/>artes excutiente deo</quote>
+        </p>
+        <p xml:id="bHY6yh-d83507-d1e365">
+          <lb ed="#K"/>  <ref xml:id="bHY6yh-d83507-Rd1e407">Paulus apostolus in epistola /Ad romanos capitulo 12</ref>
+          <lb ed="#K"/> /<quote xml:id="bHY6yh-d83507-Qd1e369">Gaudete cum gaudentibus 
+          <lb ed="#K"/>flete cum flentibus</quote>
+        </p>
+        <p xml:id="bHY6yh-d83507-d1e375">
+          <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e419">Seneca tragediarum in hercule furente capitulo 2</ref> 
+          <lb ed="#K"/> <quote xml:id="bHY6yh-d83507-Qd1e379">dum fata sinunt uiuite leti
+          <lb ed="#K"/>properat cursu uita citato vo<lb ed="#K" break="no"/>lucrique
+          die rota precipitis 
+          <lb ed="#K"/>vertitur anni</quote>
+        </p>
+        <p xml:id="bHY6yh-d83507-d1e391">
+          <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e438">Idem epistolarum ad lucillum libro 13 epistola 103</ref> <quote xml:id="bHY6yh-d83507-Qd1e395">naturale est mali 
+          <lb ed="#K"/>sui fine gaudere</quote>
+        </p>
+        <p xml:id="bHY6yh-d83507-d1e401">
+          <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e450">Idem de tranquillitate animi</ref> <quote xml:id="bHY6yh-d83507-Qd1e405">nihil eque oblectat 
+          <lb ed="#K"/>animum quam amicitia fidelis et 
+          <lb ed="#K"/>dulcis</quote>
+        </p>
+        <p xml:id="bHY6yh-d83507-d1e411">
+          <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e462">Ualerius maximus libro 4 titulo 2</ref> <quote xml:id="bHY6yh-d83507-Qd1e415">sicut placidum m<lb ed="#K" break="no"/>are 
+          ex asperso caelumque ex 
+          <lb ed="#K"/>nubilo serenum hylarim aspec<lb ed="#K" break="no"/>tu 
+          sentitur fic bellum pace
+          <lb ed="#K"/>mutatum plurimum gaudii 
+          <lb ed="#K"/>affert</quote>
+        </p>
+        <p xml:id="bHY6yh-d83507-d1e425">
+          <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e478">Statius alchilendos libro i</ref> <quote xml:id="bHY6yh-d83507-Qd1e429">dant gaudia vires /O 
+          <lb ed="#K"/>quantum gaudia forme addunt</quote>
+        </p>
+        <p xml:id="bHY6yh-d83507-d1e436">
+          <lb ed="#K"/>/ <ref xml:id="bHY6yh-d83507-Rd1e491">Cassiodorus epistolarum libro 4 epistolarum 20</ref> <quote xml:id="bHY6yh-d83507-Qd1e440">bonum 
+          <lb ed="#K"/>insolitum plus amatur /Sequenti 
+          <lb ed="#K"/>gaudio confert dulcedinem 
+          <lb ed="#K"/>temporum premissa tristitia</quote>
+        </p>
+        <p xml:id="bHY6yh-d83507-d1e450"> 
+          <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e505">libro 9 epistola .</ref> <quote xml:id="bHY6yh-d83507-Qd1e452">naturalis siquidem 
+              <cb ed="#K" n="b"/>
+          <lb ed="#K"/>cura est egris dare letitiam 
+          <lb ed="#K"/>nam fac inualidum gaudere sa<lb ed="#K" break="no"/>natus 
+          est</quote>
+        </p>
+        <p xml:id="bHY6yh-d83507-d1e462"> 
+          ¶ <ref xml:id="bHY6yh-d83507-Rd1e527">libro xi epistola 18</ref> <quote xml:id="bHY6yh-d83507-Qd1e464">piaculum 
+          <lb ed="#K"/>quoddam est inter tristes velle 
+          <lb ed="#K"/>gaudere et humanitatis refugit 
+          <lb ed="#K"/>affectum qui dolorem non sequitur 
+          <lb ed="#K"/>alienum</quote>
+        </p>
+        <p xml:id="bHY6yh-d83507-d1e515">
+          ¶ <ref xml:id="bHY6yh-d83507-Rd1e517">libro 12 et finali epistola 16</ref> 
+          <lb ed="#K"/> /<quote xml:id="bHY6yh-d83507-Qd1e522">Rex letus optatur ab omnibus</quote>
+        </p>  
+        <p xml:id="bHY6yh-d83507-d1e474">
+          <lb ed="#K"/> <ref xml:id="bHY6yh-d83507-Rd1e544">pamphylus capitulo 3</ref> <quote xml:id="bHY6yh-d83507-Qd1e478">gaudia semper 
+          <lb ed="#K"/>amat et ludicra verba inuuentus
+          <lb ed="#K"/>Est cum letitia pulchrior omnis
+          <lb ed="#K"/>homo</quote>
+        </p>
+        <p xml:id="bHY6yh-d83507-d1e496">
+          ¶ <ref xml:id="bHY6yh-d83507-Rd1e562">capitulo 31</ref> <quote xml:id="bHY6yh-d83507-Qd1e500">Estque serena 
+          <lb ed="#K"/>dies post longos gratior
+          <lb ed="#K"/> <sic>ynbres</sic> /Est post triste m<lb ed="#K" break="no"/>alum 
+          gratior alta quies</quote>
+      </p>
+      <p xml:id="bHY6yh-d83507-d1e509">
+        <lb ed="#K"/> <ref xml:id="bHY6yh-d83507-Rd1e577">facetus capitulo 4</ref> /<quote xml:id="bHY6yh-d83507-Qd1e513">Mente quidem 
+        <lb ed="#K"/>leta decoratur florida vita sed 
+        <lb ed="#K"/>per tristitiam fit cito quisque miser</quote>
+      </p>
+      <p xml:id="bHY6yh-d83507-d1e521">
+        <lb ed="#K"/> <ref xml:id="bHY6yh-d83507-Rd1e591">hugo de sancto victore in didas<lb ed="#K" break="no"/>calo 
+        libro 2 capitulo</ref> <quote xml:id="bHY6yh-d83507-Qd1e525">letitia animus re<lb ed="#K" break="no"/>paratur</quote>
+      </p>
+      <p xml:id="bHY6yh-d83507-d1e531">
+        <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e603">Ricardus iudex venusinus libro de pertractatione nuptiarum</ref> <quote xml:id="bHY6yh-d83507-Qd1e535">letior 
+        <lb ed="#K"/>omnis homo postquam manducat habetur</quote>
+      </p>
+      <p xml:id="bHY6yh-d83507-d1e541">
+        <lb ed="#K"/>¶ <ref xml:id="bHY6yh-d83507-Rd1e616">Prouerbia vulgaria</ref> /<quote xml:id="bHY6yh-d83507-Qd1e545">Caura per norbo 
+        <lb ed="#K"/>se scaue za el corno</quote>
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

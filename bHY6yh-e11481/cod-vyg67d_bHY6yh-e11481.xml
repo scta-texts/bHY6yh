@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 11</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 11</title>
+               <date when="2024-06-27">June 27, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-06-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="230-v"/>
+            <cb ed="#O" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e11481"><!-- p5l4-r11 -->
+            <head xml:id="bHY6yh-e11481-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-e11481-Hd1e111" type="question-title">De sepultura</head>
+          <p xml:id="bHY6yh-e11481-d1e114">
+             De se<lb ed="#O" break="no"/>pultura. 
+             Rubrica. 11
+          </p>
+          <p xml:id="bHY6yh-e11481-d1e119">
+             <!--line bumps down-->
+             <lb ed="#O"/><ref xml:id="bHY6yh-e11481-Rd1e116">QUintilianus. de<!--line bumps up-->clamationum. 5. declamatione.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-e11481-Qd1e127">Ad operiendum fe<lb ed="#O" break="no"/>ditatem 
+             subtrahendamque dolo<lb ed="#O" break="no"/>rum 
+             materiam mortui uiuentium causa 
+             <lb ed="#O"/>sepelliuntur.</quote> 
+          </p>
+          <p xml:id="bHY6yh-e11481-d1e135">
+             <!--line bumps down-->
+             <lb ed="#O"/><ref xml:id="bHY6yh-e11481-Rd1e135">SEneca <!--line bumps up--> de remediis fortuitorum. capitulo 4.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-e11481-Qd1e139">nulla est aliena patria mortuo.</quote>
+          </p>
+          <p xml:id="bHY6yh-e11481-d1e146">
+             <lb ed="#O"/><ref xml:id="bHY6yh-e11481-Rd1e149">capitulo 6.</ref> <quote xml:id="bHY6yh-e11481-Qd1e150">Si nichil sentio non pertinet 
+             <lb ed="#O"/>ad me iactura corporis insepulcro. 
+             <lb ed="#O"/>Si sentino hominis sepultura tormentum 
+             <lb ed="#O"/>est. ¶ Non defunctorum causa sed uiuorum 
+             <lb ed="#O"/>inuenta est sepultura ut corpora 
+             <pb ed="#O" n="231-r"/>
+             <cb ed="#O" n="a"/>
+             <lb ed="#O"/>et uisu et odore feda amoueren<lb ed="#O" break="no"/>tur.</quote>
+          </p>
+          <p><!--add xml tag-->
+             <!--paragraph omitted-->
+          </p>
+          <p xml:id="bHY6yh-e11481-d1e169">
+             <!--paragraph omitted-->
+          </p>
+          <p>
+             <!--final paragraph, needs proper xml tags-->
+             <lb ed="#O"/>¶ Deo ¶ Grans ¶ Amen. 
+          </p>
+         </div>
+      </body>
+   </text>
+</TEI>

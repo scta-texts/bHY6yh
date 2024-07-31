@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 11</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 11</title>
+               <date when="2024-06-24">June 24, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness> 
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="248-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e11481"><!-- p5l4-r11 -->
+            <head xml:id="bHY6yh-e11481-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-e11481-Hd1e111" type="question-title">De sepultura</head>
+            <p xml:id="bHY6yh-e11481-d1e114">
+               <lb ed="#P"/>De sepultura capitulum xi
+            </p>
+            <p xml:id="bHY6yh-e11481-d1e119">
+               <lb ed="#P"/><ref xml:id="bHY6yh-e11481-Rd1e116">Quintilianus declamationum v declamatione</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-e11481-Qd1e127">Ad operiendum feditatem subtrahendamque 
+               <lb ed="#P"/>dolori materiam mortui viuentium causa 
+               <lb ed="#P"/>sepeliuntur.</quote> 
+            </p>
+            <p xml:id="bHY6yh-e11481-d1e135">
+               <lb ed="#P"/><ref xml:id="bHY6yh-e11481-Rd1e135">Seneca de remediis fortuitorum capitulo 
+               <lb ed="#P"/>iiii</ref> <quote xml:id="bHY6yh-e11481-Qd1e139">Nulla est aliena patria mortuo.</quote>
+            </p>
+            <p xml:id="bHY6yh-e11481-d1e146">
+               <lb ed="#P"/><ref xml:id="bHY6yh-e11481-Rd1e149">Ibidem capitulo vi</ref> <quote xml:id="bHY6yh-e11481-Qd1e150">Si nihil sentio non per<lb ed="#P" break="no"/>tinet 
+               ad me iactura corporis insepul<lb ed="#P" break="no"/>ti
+               Si sentino omnis sepultura tormen<lb ed="#P" break="no"/>tum 
+               est / non defunctorum causa sed viuorum 
+               <lb ed="#P"/>inuenta est sepultura ut corpora 
+               <lb ed="#P"/>et visu / et odore feda amouerentur.</quote>
+            </p>
+            <p>
+               <lb ed="#P"/><ref>Lucanus libro vii</ref>: 
+               <lb ed="#P"/><quote>Libera fortuna mors capit omnia tellus 
+               <lb ed="#P"/>Que genuit celo tegitur que non habent urnam</quote>
+            </p>
+            <p>
+               <lb ed="#P"/>Finis <!--Finis!!-->
+            </p>
+            <p xml:id="bHY6yh-e11481-d1e169">
+               OMITTEd
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

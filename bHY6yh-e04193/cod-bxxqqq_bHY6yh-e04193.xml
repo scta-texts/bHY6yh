@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 39 et 40</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 39 et 40</title>
+               <date when="2024-07-22">July 22, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="188-v"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e04193"><!-- p5l2-r39-40 -->
+            <head xml:id="bHY6yh-e04193-Hd1e108">Rubrica 39 et 40</head>
+            <head xml:id="bHY6yh-e04193-Hd1e111" type="question-title">De cautelis tute recedendi ab hostibus sine conflictu; De diuersis documentis bellice artis</head>
+            <p xml:id="bHY6yh-e04193-d1e114">
+              De cautelis 
+              <lb ed="#B"/>tute recedendi ab hostibus 
+              <lb ed="#B"/>sine conflictu et diuersis docu<lb ed="#B" break="no"/>mentis 
+              artis bellice Rubrica 39
+            </p>
+            <p xml:id="bHY6yh-e04193-d1e125">
+              <lb ed="#B"/><ref xml:id="bHY6yh-e04193-Rd1e122">UEgetius de re militari libro I titulo 
+              <lb ed="#B"/>9</ref> ¶ <quote xml:id="bHY6yh-e04193-Qd1e131">Nichil in itinere eque 
+              <lb ed="#B"/>custodiendum est quam ut omnes 
+              <lb ed="#B"/>milites incedendi ordinem 
+              <lb ed="#B"/>seruent. quod aliter non potest fieri 
+              <lb ed="#B"/>nisi ut exercitio ambulare et 
+              <lb ed="#B"/>equaliter discant. periculum 
+              <lb ed="#B"/>enim ab hostibus semper grauissi<lb ed="#B" break="no"/>mum 
+              sustinet diuisus et inor<lb ed="#B" break="no"/>dinatus 
+              exercitus / </quote>
+            </p>
+            <p xml:id="bHY6yh-e04193-d1e154"> 
+              <ref xml:id="bHY6yh-e04193-Rd1e152">libro 2 titulo 2</ref> <quote xml:id="bHY6yh-e04193-Qd1e156">Ne<lb ed="#B" break="no"/>cesse 
+              tardius ad uictoriam per<lb ed="#B" break="no"/>uenide 
+              qui discrepatur antequam 
+              <lb ed="#B"/>dimicent</quote>
+            </p>
+            <p xml:id="bHY6yh-e04193-d1e165"> 
+              ¶ <ref xml:id="bHY6yh-e04193-Rd1e165">libro 3 titulo 5</ref> <quote xml:id="bHY6yh-e04193-Qd1e167">Inter reli<lb ed="#B" break="no"/>qua 
+              nichil magis ad uicto<lb ed="#B" break="no"/>riam 
+              proficit quam monitis obtempera<lb ed="#B" break="no"/>re 
+              signorum</quote>
+            </p>
+            <p xml:id="bHY6yh-e04193-d1e175"> 
+              ¶ <ref xml:id="bHY6yh-e04193-Rd1e177">titulo 6</ref> <quote xml:id="bHY6yh-e04193-Qd1e177">In itinere 
+              <lb ed="#B"/>minus armatus minusque at<lb ed="#B" break="no"/>tentus
+              est miles et superuentus 
+              <pb ed="#B" n="189-r"/>
+              <cb ed="#B" n="a"/>
+              <lb ed="#B"/>impetu vel fraude sub sese re<lb ed="#B" break="no"/>pente 
+              turbatur Ideo omni cura omnique 
+              <lb ed="#B"/>diligentia prouidere dux debet 
+              <lb ed="#B"/>ne proficiscens patiatur incursum 
+              <lb ed="#B"/>uel facile ac sine dampno 
+              <lb ed="#B"/>repellet illatum</quote>
+            </p>
+            <p xml:id="bHY6yh-e04193-d1e194"> 
+              <ref xml:id="bHY6yh-e04193-Rd1e198"><!--no ref--></ref> <quote xml:id="bHY6yh-e04193-Qd1e196">In campis pa<lb ed="#B" break="no"/>tentibus 
+              equites magis so<lb ed="#B" break="no"/>lent 
+              impugnare quam pedites 
+              <lb ed="#B"/>at uero in locis siluestribus vel 
+              <lb ed="#B"/>montuosis pedestres magis 
+              <lb ed="#B"/>formidande sunt copie</quote>
+            </p>
+            <p xml:id="bHY6yh-e04193-d1e208"> 
+              ¶ <ref xml:id="bHY6yh-e04193-Rd1e214">titulo 9</ref> <quote xml:id="bHY6yh-e04193-Qd1e210">Si 
+              <lb ed="#B"/>equitatum<del>us</del> gaudemus campos 
+              <lb ed="#B"/>debemus optare. si peditibus 
+              <lb ed="#B"/>loca eligere angusta fossis 
+              <lb ed="#B"/>paludibus uel arboribus impe<lb ed="#B" break="no"/>dita 
+              et aliquotiens montuosa</quote>
+            </p>
+            <p xml:id="bHY6yh-e04193-d1e220">
+              <lb ed="#B"/>¶ <ref xml:id="bHY6yh-e04193-Rd1e230">titulo 11</ref> <quote xml:id="bHY6yh-e04193-Qd1e224">veteribus seculis mos fuit 
+              <lb ed="#B"/>parco cibo curatos milites 
+              <lb ed="#B"/>ad certamen educere ut auda<lb ed="#B" break="no"/>ciores 
+              sumptum esce redderentur 
+              <lb ed="#B"/>et longiore conflictu non fati<lb ed="#B" break="no"/>garentur 
+              inedia</quote>
+            </p>
+            <p xml:id="bHY6yh-e04193-d1e234">
+              ¶ <ref xml:id="bHY6yh-e04193-Rd1e246">26 titulo et finali</ref> 
+              <lb ed="#B"/><quote xml:id="bHY6yh-e04193-Qd1e238">In sollicitandis suscipiendisque 
+              <lb ed="#B"/>hostibus si cum fide ueniant 
+              <lb ed="#B"/>magna fiducia est qui ad<lb ed="#B" break="no"/>uersarium 
+              amplius stagunt trans<lb ed="#B" break="no"/>fuge 
+              quam perempti. Qui confi<lb ed="#B" break="no"/>dit 
+              equitatu aptiora loca que<lb ed="#B" break="no"/>rat 
+              equitatibus et rem magis 
+              <lb ed="#B"/>per equites quam per pedites gerat 
+              <lb ed="#B"/>qui confidit pedestribus copiis 
+              <lb ed="#B"/>altiora per pedites gerat</quote>
+            </p>
+            <p xml:id="bHY6yh-e04193-d1e260">
+              <lb ed="#B"/><ref xml:id="bHY6yh-e04193-Rd1e274">Gualterius de castellione libro 
+              <lb ed="#B"/>2</ref> <quote xml:id="bHY6yh-e04193-Qd1e264">Gladio qui parcit in 
+              <lb ed="#B"/>hostem / Ipse sibi est hostis 
+              <lb ed="#B"/>vitam qui prorogat hosti ¶ De<lb ed="#B" break="no"/>rogat 
+              ille sue. non clementia 
+              <lb ed="#B"/>bello hostibus esse pium</quote>
+            </p>
+            <p xml:id="bHY6yh-e04193-d1e276">
+              ¶ <ref xml:id="bHY6yh-e04193-Rd1e292">libro 
+              <lb ed="#B"/>7</ref> <quote xml:id="bHY6yh-e04193-Qd1e280">Tutior ut maneas hostis 
+              <lb ed="#B"/>nil est quod in hoste despicias 
+              <cb ed="#B" n="b"/>
+              <lb ed="#B"/>tute sit quem neglexeris ille
+              <lb ed="#B"/>¶ Fortior hoc ipso multoque 
+              <lb ed="#B"/>valentior hostis /</quote> <!--311.xml-->
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
