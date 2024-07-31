@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+              <name>Alicia Koepke</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 1</title>
+               <date when="2024-06-26">June 26, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="O" n="cod-vyg67d">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 8175</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-06-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#O" n="227-r"/>
+            <cb ed="#O" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e09342"><!-- p5l4-r1 -->
+            <head xml:id="bHY6yh-e09342-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-e09342-Hd1e111" type="question-title">De laboriositate et uanitate uite</head>
+          <p xml:id="bHY6yh-e09342-d1e114">
+             <lb ed="#O"/>QUartus et 
+             <lb ed="#O"/>ultimus 
+             <lb ed="#O"/>liber quinte
+             <lb ed="#O"/>partis trac<lb ed="#O" break="no"/>tat 
+             de mo<lb ed="#O" break="no"/>rali 
+             consi<lb ed="#O" break="no"/>deratione 
+             uite et 
+             <lb ed="#O"/>mortis sub hiis titulis sequamtibus.
+             <lb ed="#O"/>De laboriositate et uanitate ui<lb ed="#O" break="no"/>te. 
+             Rubrica. 1.
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e121">
+             <!--line bumps down-->
+             <lb ed="#O"/><ref xml:id="bHY6yh-e09342-Rd1e118">IOb. capitulo 5.</ref> <!--line bumps up--> <quote xml:id="bHY6yh-e09342-Qd1e125">Homo ad laborem nasci<!--line bumps back down-->tur.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e131"> 
+             ¶ <ref xml:id="bHY6yh-e09342-Rd1e128">capitulo 7.</ref> <quote xml:id="bHY6yh-e09342-Qd1e133">Militia 
+             <lb ed="#O"/>est uita hominis super terram et 
+             <lb ed="#O"/>sicut dies mercennarii dies eius.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e142"> 
+             ¶ <ref xml:id="bHY6yh-e09342-Rd1e141">8. 
+             <lb ed="#O"/>capitulo.</ref> <quote xml:id="bHY6yh-e09342-Qd1e144">Sicut umbra dies nostri sunt 
+             <cb ed="#O" n="b"/>
+             <lb ed="#O"/>super terram.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e150"> 
+             ¶ <ref xml:id="bHY6yh-e09342-Rd1e151">13. capitulo.</ref> <quote xml:id="bHY6yh-e09342-Qd1e152">Homo natus de mu<lb ed="#O" break="no"/>liere 
+             breui uiuens tempore repletus 
+             <lb ed="#O"/>multis miseriis qui quasi flos egre<lb ed="#O" break="no"/>ditur 
+             et conteritur et fugit ue<lb ed="#O" break="no"/>lud 
+             umbra et numquam in eodem 
+             <lb ed="#O"/>statum permanet.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e164">
+             <!--line bumps down-->
+             <lb ed="#O"/><ref xml:id="bHY6yh-e09342-Rd1e169">IN genesi. capitulo 3.</ref> <!--line bumps up--> <quote xml:id="bHY6yh-e09342-Qd1e168">In sudore uultus <!--line bumps back down--> tui uesceris pa<lb ed="#O" break="no"/>ne 
+             <lb ed="#O"/>tuo donec reuertaris in 
+             <lb ed="#O"/>terram de qua sumptus es quia 
+             <lb ed="#O"/>puluis es et in puluerem reuerteris.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e178">
+             <lb ed="#O"/><ref xml:id="bHY6yh-e09342-Rd1e185">PAralipomenon. libro 1. capitulo 28. 
+             <lb ed="#O"/>et penultimo.</ref> ¶ <quote xml:id="bHY6yh-e09342-Qd1e182">Dies nostri quasi umbra 
+             <lb ed="#O"/>super terram et nulla est mora.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e188">
+             <lb ed="#O"/><ref xml:id="bHY6yh-e09342-Rd1e197">Psalmista. 38. pslamus.</ref> <quote xml:id="bHY6yh-e09342-Qd1e192">Uniuersa 
+             <lb ed="#O"/>uanitas omnis homo uiuens.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e198">
+             <lb ed="#O"/><ref xml:id="bHY6yh-e09342-Rd1e209">SAlomon in ecclesiaste. capitulo 1.</ref> <quote xml:id="bHY6yh-e09342-Qd1e202">Qui addit 
+             <lb ed="#O"/>scientiam addit et laborem.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e209"> 
+             ¶ <ref xml:id="bHY6yh-e09342-Rd1e220">2. 
+             <lb ed="#O"/>capitulo</ref> <quote xml:id="bHY6yh-e09342-Qd1e211">Ait salomon cum me conuertissem 
+             <lb ed="#O"/>ad uniuersa opera que fecerunt manus 
+             <lb ed="#O"/>mee et ad labores in quibus frustra
+             sudaueram uidi in omnibus uanita<lb ed="#O" break="no"/>tem 
+             et afflictionem animi et nichil per<lb ed="#O" break="no"/>manere 
+             sub sole. ¶ Ait salomodo
+             <lb ed="#O"/>moritur doctus pariter et indoc<lb ed="#O" break="no"/>tus 
+             similiter et idcirco teduit me uite 
+             <lb ed="#O"/>mee. uidentem mala esse Uni<lb ed="#O" break="no"/>uersa 
+             subsole et cuncta uanitatem 
+             <lb ed="#O"/>atque afflictionem spiritus. ¶ Cuncti 
+             <lb ed="#O"/>dies hominis doloribus et erumpnis 
+             <lb ed="#O"/>pleni sunt nec per noctem mente re<lb ed="#O" break="no"/>quiescet.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e234"> 
+             ¶ <ref xml:id="bHY6yh-e09342-Rd1e247">3. capitulo</ref> <quote xml:id="bHY6yh-e09342-Qd1e236">Cuncta scilicet animalia 
+             <lb ed="#O"/>subiacent uanitati et omnia pergunt 
+             <lb ed="#O"/>ad unum locum de terra facta sunt 
+             <lb ed="#O"/>et in terram reuertuntur paritur.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e246"> 
+             <!--paragraph omitted-->
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e260">
+             <!--paragraph omitted-->
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e276">
+             <lb ed="#O"/><ref xml:id="bHY6yh-e09342-Rd1e297">QUintilianus declamationum. 5. declamatione.</ref> 
+             <pb ed="#O" n="227-v"/>
+             <cb ed="#O" n="a"/>
+             <lb ed="#O"/><quote xml:id="bHY6yh-e09342-Qd1e280">In hac asperrima conditione fragi<lb ed="#O" break="no"/>litatis 
+             humane nemo pene mor<lb ed="#O" break="no"/>talium 
+             impune uiuit.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e288">
+             <lb ed="#O"/><ref xml:id="bHY6yh-e09342-Rd1e311">SEneca tragediarum in ypolito. capitulo 9.</ref>
+             <quote xml:id="bHY6yh-e09342-Qd1e292">Ouita fallax abditos sen<lb ed="#O" break="no"/>sus 
+             geris animaque pulcram turpibus 
+             <lb ed="#O"/>faciem induis.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e301">
+             ¶ <ref xml:id="bHY6yh-e09342-Rd1e326">In hercule etheo. 
+             <lb ed="#O"/>capitulo 8.</ref> <quote xml:id="bHY6yh-e09342-Qd1e305">Mors sola portus dabitur erump<lb ed="#O" break="no"/>nis.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e311">
+             ¶ <ref xml:id="bHY6yh-e09342-Rd1e338">Idem de consolatione ad marciam</ref> 
+             <lb ed="#O"/><quote xml:id="bHY6yh-e09342-Qd1e315">plena et infesta uariis casibus ui<lb ed="#O" break="no"/>ta 
+             est. Aliquibus nulla longa pax 
+             <lb ed="#O"/>inducie sunt. ¶ Nichil tam fallax 
+             <lb ed="#O"/>ut uita humana nichil tam insi<lb ed="#O" break="no"/>diosum.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e325"> 
+             ¶ <ref xml:id="bHY6yh-e09342-Rd1e352">Idem de consolatione ad pa<lb ed="#O" break="no"/>ulinum</ref> 
+             <quote xml:id="bHY6yh-e09342-Qd1e327">Omnis uita supplicium 
+             <lb ed="#O"/>est.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e333">
+             ¶ <ref xml:id="bHY6yh-e09342-Rd1e365">Idem de remediis fortuitorum. 
+             <lb ed="#O"/>capitulo 2.</ref> <quote xml:id="bHY6yh-e09342-Qd1e337">Peregrinatio est uita hoc cum mul<lb ed="#O" break="no"/>tum 
+             ambulaueris demum redeun<lb ed="#O" break="no"/>dum 
+             est.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e345"> 
+             ¶ <ref xml:id="bHY6yh-e09342-Rd1e377">21. capitulo. et finali.</ref> <quote xml:id="bHY6yh-e09342-Qd1e347">Mors exilium
+             <lb ed="#O"/>luctus dolor non sunt supplici<lb ed="#O" break="no"/>a 
+             sed tributa uiuendi. ¶ Neminem 
+             <lb ed="#O"/>illesum fata transmutant.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e355">
+             <lb ed="#O"/><ref xml:id="bHY6yh-e09342-Rd1e391">MAximianus</ref> <quote xml:id="bHY6yh-e09342-Qd1e359">iam nichil est totum 
+             <lb ed="#O"/>quod uiximus omnia secum. Tempus prete<lb ed="#O" break="no"/>riens 
+             horaque summa trahit.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e368">
+             <lb ed="#O"/><ref xml:id="bHY6yh-e09342-Rd1e406">PRosper sub. 82. epigramma.</ref> <quote xml:id="bHY6yh-e09342-Qd1e372">Instant ter<lb ed="#O" break="no"/>renis 
+             infesta pericula rebus. Fer<lb ed="#O" break="no"/>uent 
+             prodampnis prelia perque lucris.
+             <lb ed="#O"/>Et nichil est inter carnalia uo<lb ed="#O" break="no"/>ta 
+             quietum. Nec pax solicitis nec 
+             <lb ed="#O"/>modus est cupidis.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e384">
+             <!--line bumps down-->
+             <lb ed="#O"/><ref xml:id="bHY6yh-e09342-Rd1e424">Isidorus solliloquiorum <!--line bumps up--> libro 1. capitulo 4.</ref> <quote xml:id="bHY6yh-e09342-Qd1e388">Uita <!--line bumps back down--> ista lacrimis 
+             <lb ed="#O"/>plena est. Uita insta a fletibus 
+             <lb ed="#O"/>inchoat. ¶ Flentes proicimur mi<lb ed="#O" break="no"/>seram 
+             in hanc uitam.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e396">
+             <cb ed="#O" n="b"/>
+             <lb ed="#O"/><ref xml:id="bHY6yh-e09342-Rd1e438">BErnardus. libro de improbatione Uic. 
+             <lb ed="#O"/>capitulo 9. et finali.</ref> <quote xml:id="bHY6yh-e09342-Qd1e400">Omnia que cernis 
+             <lb ed="#O"/>uanarum gaudia rerum. Umbra 
+             <lb ed="#O"/>uelut tenuis ueloci fine recedunt.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e408">
+             <lb ed="#O"/><ref xml:id="bHY6yh-e09342-Rd1e453">MAtheus uindocinensis de hystoria 
+             <lb ed="#O"/>tobie. capitulo 40.</ref> <quote xml:id="bHY6yh-e09342-Qd1e412">Est hac ualle gra<lb ed="#O" break="no"/>uis 
+             cursus uia lubrica iugis. An<lb ed="#O" break="no"/>xietas 
+             temptus mobile uita breuis.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e420">
+             <lb ed="#O"/>¶ <ref xml:id="bHY6yh-e09342-Rd1e468">capitulo. 56.</ref> <quote xml:id="bHY6yh-e09342-Qd1e424">Est hec uita breuis lubri<lb ed="#O" break="no"/>ca 
+             pena dolor.</quote>
+          </p>
+          <p xml:id="bHY6yh-e09342-d1e430">
+             <!--line bumps down-->
+             <lb ed="#O"/><ref xml:id="bHY6yh-e09342-Rd1e480">PRouerbia me<!--line bumps up-->tricum extraordinem librorum uagantia.</ref> <!--line bumps back down--> <quote xml:id="bHY6yh-e09342-Qd1e434">Quod ualet argentum 
+             <lb ed="#O"/>quid annis uiuere centum.
+             <lb ed="#O"/>Post miserum funus puluis et umbra 
+             <lb ed="#O"/>sumus.</quote> 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
