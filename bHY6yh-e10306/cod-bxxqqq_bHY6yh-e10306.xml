@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4</title>
+               <date when="2024-08-05">August 5, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="200-r"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e10306"><!-- p5l4-r4 -->
+            <head xml:id="bHY6yh-e10306-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-e10306-Hd1e111" type="question-title">De incertitudine hore mortis et multiplicitate occasionis mortis</head>
+          <p xml:id="bHY6yh-e10306-d1e114">
+            De incerti<lb ed="#B" break="no"/>tudine 
+            hore mortis et mul<lb ed="#B" break="no"/>tiplicitate 
+            occasionis mortis<!--line jumps down--> Rubrica 4
+          </p>
+          <p xml:id="bHY6yh-e10306-d1e121">
+            <lb ed="#B"/><ref xml:id="bHY6yh-e10306-Rd1e118">SAlomon in ecclesiastico capitulo 9</ref> <quote xml:id="bHY6yh-e10306-Qd1e127">Nes<lb ed="#B" break="no"/>cit 
+            homo finem suum. sed sicut pisces 
+            <lb ed="#B"/>capiuntur hamo. et sicud aues 
+            <lb ed="#B"/>com prehenduntur laqueo sic capi<lb ed="#B" break="no"/>untur 
+            homines in tempore malo cum eis 
+            <pb ed="#B" n="200-v"/>
+            <cb ed="#B" n="a"/>
+            <lb ed="#B"/>ex timplo superuenerit</quote> 
+          </p>
+          <p xml:id="bHY6yh-e10306-d1e141">
+            <lb ed="#B"/><ref xml:id="bHY6yh-e10306-Rd1e141">ORatius in odis libro<!--line jumps up--> 2 capitulo 6</ref> <quote xml:id="bHY6yh-e10306-Qd1e145">Quis<!--line jumps down--> scit an ad<lb ed="#B" break="no"/>diciant 
+            hodierne crastina 
+            <lb ed="#B"/>uite ¶ Tempora dii superi</quote>
+          </p>
+          <p xml:id="bHY6yh-e10306-d1e154">
+            <lb ed="#B"/><ref xml:id="bHY6yh-e10306-Rd1e156">SEneca tragediarum in<!--line jumps up--> <sic>thebai<!--line jumps down-->da</sic> capitulo I</ref>
+            <lb ed="#B"/><quote xml:id="bHY6yh-e10306-Qd1e158">vbique mors est ¶ Eripere vi<lb ed="#B" break="no"/>tam 
+            nemo non homini potest. at ne<lb ed="#B" break="no"/>mo 
+            mortem ¶ nulle ad hanc 
+            <lb ed="#B"/>additus patent</quote>
+          </p>
+          <p xml:id="bHY6yh-e10306-d1e168"> 
+            ¶ <ref xml:id="bHY6yh-e10306-Rd1e170">Idem epistolarum ad 
+            <lb ed="#B"/>lucillum libro 4 epistola 5</ref> <quote xml:id="bHY6yh-e10306-Qd1e170">Incertum est quo 
+            <lb ed="#B"/>te mors expectet Itaque tu illam 
+            <lb ed="#B"/>omni loco expecta</quote>
+          </p>
+          <p xml:id="bHY6yh-e10306-d1e178">
+            ¶ <ref xml:id="bHY6yh-e10306-Rd1e185">Idem declamationum libro <del>3</del> 
+            <lb ed="#B"/>7 capitulo I</ref> <quote xml:id="bHY6yh-e10306-Qd1e182">Multas rerum natura mor<lb ed="#B" break="no"/>tis 
+            uias aperuit</quote>
+          </p>
+          <p xml:id="bHY6yh-e10306-d1e188">
+            <lb ed="#B"/><ref xml:id="bHY6yh-e10306-Rd1e197">LVcanus libro 3</ref> <quote xml:id="bHY6yh-e10306-Qd1e192">Mille<!--line jumps up--> modis in<!--line jumps down-->ter leti 
+            <lb ed="#B"/>mors vna timori est</quote>
+          </p>
+          <p xml:id="bHY6yh-e10306-d1e198">
+            <lb ed="#B"/><ref xml:id="bHY6yh-e10306-Rd1e209">STatius <sic>thebaidos</sic> libro 6</ref><!--line jumps up--> <quote xml:id="bHY6yh-e10306-Qd1e202">Ma<!--line jumps down-->met 
+            <lb ed="#B"/>ingens copia leti</quote>
+          </p>
+          <p xml:id="bHY6yh-e10306-d1e208">
+            <lb ed="#B"/><ref xml:id="bHY6yh-e10306-Rd1e221">PRosper sub vltimo capitulo</ref><!--line jumps up--> <quote xml:id="bHY6yh-e10306-Qd1e212">Ferro pes<!--line jumps down-->te fame 
+            <lb ed="#B"/>vinclis algore calore ¶ 
+            <lb ed="#B"/>Mille modis miseros mors ra<lb ed="#B" break="no"/>pit 
+            vna homines</quote>
+          </p>
+          <p xml:id="bHY6yh-e10306-d1e227">
+            <lb ed="#B"/><ref xml:id="bHY6yh-e10306-Rd1e236">CAto capitulo 5 et finali</ref><!--line jumps up--> <quote xml:id="bHY6yh-e10306-Qd1e231">Tempora lon<!--line jumps down-->ga tii noli 
+            <lb ed="#B"/>promittere uite / quocumque ingre<lb ed="#B" break="no"/>deris 
+            sequitur mors corporis vm<!--line jumps down-->bra</quote>
+          </p>
+          <p xml:id="bHY6yh-e10306-d1e248">
+            <lb ed="#B"/><ref xml:id="bHY6yh-e10306-Rd1e252">YSidorus soliloquiorum libro I capitulo 10</ref> 
+            <lb ed="#B"/><quote xml:id="bHY6yh-e10306-Qd1e254">Quanti dum mori non existi<lb ed="#B" break="no"/>mant 
+            <del>ais</del> auferuntur ¶ Quan<lb ed="#B" break="no"/>ti 
+            ad mortem subito rapiuntur</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
