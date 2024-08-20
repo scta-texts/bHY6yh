@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 12 [Krakow, lat 700 III Transcription]</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Katrina Van Der Ahe </name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 12 et 13 [Krakow, lat 700 III Transcription]</title>
+               <date when="2024-03-27">March 27, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#K" n="137-r"/>
+            <cb ed="#K" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d63588"><!-- p3l5-r12 -->
+            <head xml:id="bHY6yh-d63588-Hd1e108">Rubrica 12</head>
+            <head xml:id="bHY6yh-d63588-Hd1e111" type="question-title">De locutione et auditione inhonestarum actionum</head>
+            <p xml:id="bHY6yh-d63588-d1e114">
+              <lb ed="#K" n="55"/>De locutione et auditione inhonestarum 
+              <lb ed="#K"/>actionum et benigna ac placabili locutione de 
+              <lb ed="#K"/>aspera vel rigida /et de verbis malignis ac conuiciis 12 et 13
+            </p>
+            <p xml:id="bHY6yh-d63588-d1e123">
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d63588-Rd1e120">Psalmista 31 psalmus</ref> /<quote xml:id="bHY6yh-d63588-Qd1e127">Quorum os male<lb ed="#K" break="no"/>dictione 
+              et amaritudine 
+              <lb ed="#K"/>plenum est veloces pedes 
+              <lb ed="#K"/>eorum ad effundendum sanguinem</quote>
+            </p>
+            <p xml:id="bHY6yh-d63588-d1e141"> 
+              <lb ed="#K"/>/ <ref xml:id="bHY6yh-d63588-Rd1e136">psalmus 33</ref> <quote xml:id="bHY6yh-d63588-Qd1e143">Quis est homo quae
+              <lb ed="#K"/>vult vitam diligit dies 
+              <lb ed="#K"/>videre bonos prohibe linguam 
+              <lb ed="#K"/>tuam a malo et labia tua 
+              <lb ed="#K"/>ne loquantur dolum</quote>
+            </p>
+            <p xml:id="bHY6yh-d63588-d1e154"> 
+             ¶ <ref xml:id="bHY6yh-d63588-Rd1e151">psalmus ixi</ref> 
+             <lb ed="#K"/> <quote xml:id="bHY6yh-d63588-Qd1e156">Ab auditione mala non time<lb ed="#K" break="no"/>bit 
+             iustus</quote>
+            </p>
+            <p xml:id="bHY6yh-d63588-d1e162"> 
+              / <ref xml:id="bHY6yh-d63588-Rd1e161">psalmus 160</ref> <quote xml:id="bHY6yh-d63588-Qd1e164">Uir ling<lb ed="#K" break="no"/>uosus 
+              non dirigetur in terram</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
