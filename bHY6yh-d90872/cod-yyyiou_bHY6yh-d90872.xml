@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 7</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 7</title>
+               <date when="2024-09-10">September 10, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="126-r"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d90872"><!-- p4l6-r7 -->
+            <head xml:id="bHY6yh-d90872-Hd1e108">Rubrica 7</head>
+            <head xml:id="bHY6yh-d90872-Hd1e111" type="question-title">De adulterio</head>
+            <p xml:id="bHY6yh-d90872-d1e114">
+              De<!--line jumps down--> adul<!--line jumps down-->terio 
+            </p>
+            <p xml:id="bHY6yh-d90872-d1e119">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d90872-Rd1e116">IN exodo capitulo 20</ref> <quote xml:id="bHY6yh-d90872-Qd1e123">Non <unclear>deston<lb ed="#C" break="no"/>rabis</unclear>
+              uxorem proximi</quote>
+            </p>
+            <p xml:id="bHY6yh-d90872-d1e131">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d90872-Rd1e130">In leuitico capitulo 18</ref> <quote xml:id="bHY6yh-d90872-Qd1e135">Cum uxore, proximi 
+              <lb ed="#C"/>tui non coibis</quote>
+            </p>
+            <p xml:id="bHY6yh-d90872-d1e142">
+              ¶ <ref xml:id="bHY6yh-d90872-Rd1e143">In deuteronomio capitulo 22</ref> <quote xml:id="bHY6yh-d90872-Qd1e146">Si 
+              <lb ed="#C"/>dormierit quis cum uxore alterius i adul<lb ed="#C" break="no"/>ter 
+              et adultera</quote>
+            </p>
+            <p xml:id="bHY6yh-d90872-d1e154"> 
+              <ref xml:id="bHY6yh-d90872-Rd1e155"></ref> <quote xml:id="bHY6yh-d90872-Qd1e156"></quote>
+            </p>
+            <p>
+              <ref>Yesus filius sirach in ecclesiastico 
+              <lb ed="#C"/>27 capitulo</ref> <quote>opaledictus quidormenit cum
+              uxore proximisiu</quote>
+            </p>
+            <p xml:id="bHY6yh-d90872-d1e162">
+              ¶ <ref xml:id="bHY6yh-d90872-Rd1e167">Idem capitulo 41</ref> <quote xml:id="bHY6yh-d90872-Qd1e166">Non 
+              <lb ed="#C"/>respicias mulierem alieni uiri</quote>
+            </p>
+            <p xml:id="bHY6yh-d90872-d1e172">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d90872-Rd1e179">Paulus ad ebreos 13 capitulo et finali</ref> <quote xml:id="bHY6yh-d90872-Qd1e176">fornicatores 
+              <lb ed="#C"/>et adulteros iudicabit deus</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
