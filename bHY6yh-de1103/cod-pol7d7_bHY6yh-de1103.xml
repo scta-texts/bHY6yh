@@ -1,152 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Rubrica 5 [Krakow, lat 700 III Transcription]</title>
-            <author ref="#per-c7y65a">Geremia da Montagnone</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <name>Katrina Vander Ahe</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Rubrica 5</title>
-               <date when="2022-05-20">May 20, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-              <witness  xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc> 
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-05-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="8-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="bHY6yh-de1103"><!-- p1l1-r5 -->
-            <head xml:id="bHY6yh-de1103-Hd1e108">Rubrica 5</head>
-            <head xml:id="bHY6yh-de1103-Hd1e111" type="question-title">De retributione Dei</head>
-            <p xml:id="bHY6yh-de1103-d1e114">
-               De retributione dei Rubrica. 5.
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 5 [Krakow, lat 700 III Transcription]</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Katrina Vander Ahe</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 5</title>
+          <date when="2022-05-20">May 20, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
           </p>
-            <p xml:id="bHY6yh-de1103-d1e119">
-            <lb ed="#K" n="13"/> ¶<ref xml:id="bHY6yh-de1103-Rd1e116">Iob hystoria 34 capitulo</ref> <quote xml:id="bHY6yh-de1103-Qd1e121" source="http://scta.info/resource/iob34_11@1-10">Opus hominis 
-            <lb ed="#K"/>reddet ei deus et iustitcia iustitia viam 
-            <lb ed="#K"/>singulorum restituet</quote>
-            </p>
-            <p xml:id="bHY6yh-de1103-d1e131">
-            <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de1103-Rd1e132">In genesi capitulo 4</ref> <quote xml:id="bHY6yh-de1103-Qd1e135" source="http://scta.info/resource/gen4_7@1-5">Nonne si bene
-            <lb ed="#K"/>egeris recipies</quote>
-            </p>
-            <p xml:id="bHY6yh-de1103-d1e142">
-              <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de1103-Rd1e145">Psalmista psalmus 61</ref> <quote xml:id="bHY6yh-de1103-Qd1e146" source="http://scta.info/resource/ps61_13@11-12">Deus reddet vni<lb ed="#K" break="no"/>cuique
-              iuxta opera sua</quote>
-            </p>
-            <p xml:id="bHY6yh-de1103-d1e152">
-             /<ref xml:id="bHY6yh-de1103-Rd1e157">149 psalmus</ref> 
-             <lb ed="#K"/> <quote xml:id="bHY6yh-de1103-Qd1e154">Dominus iustus concidet ceruices peccatorum</quote>
-            </p>
-            <p xml:id="bHY6yh-de1103-d1e160">
-              <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de1103-Rd1e171">Salomon in prouer capitulo 16</ref> <quote xml:id="bHY6yh-de1103-Qd1e164" source="http://scta.info/resource/prov16_7@1-11">Cum 
-              <lb ed="#K"/>placuerint domino viae hominis 
-              <lb ed="#K"/>inimicos quoque suos conuertet ad pa
-              <lb ed="#K"/>cem</quote>
-            </p>
-            <p xml:id="bHY6yh-de1103-d1e176">
-             <lb ed="#K"/> /<ref xml:id="bHY6yh-de1103-Rd1e189">Idem in ecclesiaste capitulo 9</ref> <quote xml:id="bHY6yh-de1103-Qd1e178" source="http://scta.info/resource/qoh9_18@8-14">Qui invno 
-             <lb ed="#K"/>peccauerit multa bona perdet</quote>
-            </p>
-            <p xml:id="bHY6yh-de1103-d1e184">
-             <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de1103-Rd1e201">Regum libro i capitulo 26</ref> <quote xml:id="bHY6yh-de1103-Qd1e188" source="http://scta.info/resource/Isam26_23@3-9">Deus retribu<lb ed="#K" break="no"/>et 
-             vnicuique secundum iustitiam suam</quote>
-            </p>
-            <p xml:id="bHY6yh-de1103-d1e194">
-              <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de1103-Qd1e198">hieremias propheta in libro prophetiarum capitulo 32</ref>
-              <lb ed="#K"/> <quote xml:id="bHY6yh-de1103-Qd1e207" source="http://scta.info/resource/ier32_19@7-25">oculi dei apti sunt super omnes 
-              <lb ed="#K"/>vias filiorum et secundum fructum adi<lb ed="#K" break="no"/>nuentionis 
-              eius</quote>
-            </p>
-            <p xml:id="bHY6yh-de1103-d1e215">
-               <ref xml:id="bHY6yh-de1103-Rd1e235">Iesus filius sirach 
-               <lb ed="#K"/>in ecclesiastico capitulo 1</ref> <quote xml:id="bHY6yh-de1103-Qd1e219">deus prebet 
-               <lb ed="#K"/>sahientiam diligentibus se/ </quote> 
-            </p>
-            <p xml:id="bHY6yh-de1103-d1e225">
-                <lb ed="#K"/> <ref xml:id="bHY6yh-de1103-Rd1e247">18 capitulo</ref> <quote xml:id="bHY6yh-de1103-Qd1e227" source="http://scta.info/resource/sir18_22@13-17">Merces dei manet in eternum</quote>
-            </p>
-            <p xml:id="bHY6yh-de1103-d1e233">
-              <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de1103-Rd1e261">Mattheus in euangelio 16 capitulo</ref> <quote xml:id="bHY6yh-de1103-Qd1e237" source="http://scta.info/resource/mt16_27@1-19">Filius 
-              <lb ed="#K"/>hominis venturus est in gloria prasturis 
-              <lb ed="#K"/>sui cum angelu suis et tunc red<lb ed="#K" break="no"/>det 
-              vnicuique secundum opera eius</quote> 
-            </p>
-            <p xml:id="bHY6yh-de1103-d1e251"> 
-              Ommitted 
-            </p>
-            <p xml:id="bHY6yh-de1103-d1e262">
-              <lb ed="#K"/> <ref xml:id="bHY6yh-de1103-Rd1e289">Ioannes in apoc capitulo 2</ref> <quote xml:id="bHY6yh-de1103-Qd1e266" source="http://scta.info/resource/ap2_23@19-24">ait deus 
-              <lb ed="#K"/>dabo vnicuique vestrum secundum opera sua</quote>
-            </p>
-            <p xml:id="bHY6yh-de1103-d1e272">
-                <pb ed="#K" n="8-v"/>
-                <cb ed="#K" n="a"/>
-        <lb ed="#K" n="1"/> <ref xml:id="bHY6yh-de1103-Rd1e299">22 capitulo et fi</ref> <quote xml:id="bHY6yh-de1103-Qd1e274" source="http://scta.info/resource/ap22_12@2-13">ait deus venio cito et 
-        <lb ed="#K"/>merces mea mecum est reddere 
-        <lb ed="#K"/>vnicuique secundum opera sua</quote>
-            </p>
-            <p xml:id="bHY6yh-de1103-d1e282">    
-              <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de1103-Rd1e314">Paulus apostolus epistola i ad corinth 
-              <lb ed="#K"/>capitulo 3</ref> <quote xml:id="bHY6yh-de1103-Qd1e286" source="http://scta.info/resource/Icor3_8@9-16">Unus quisque propriam mercedem 
-              <lb ed="#K"/>accipiet secundum suum laborem</quote>
-            </p>
-            <p xml:id="bHY6yh-de1103-d1e294">
-              /<ref xml:id="bHY6yh-de1103-Rd1e328">13 c</ref> 
-              <lb ed="#K"/> <quote xml:id="bHY6yh-de1103-Qd1e296">Siquis ignorat ignorabitur</quote>
-            </p>
-            <p xml:id="bHY6yh-de1103-d1e300">
-              <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de1103-Rd1e338">Idem epstola ad ephe capitulo 6 et fi</ref> <quote xml:id="bHY6yh-de1103-Qd1e302" source="http://scta.info/resource/eph6_8@3-10">Unusquisque 
-              <lb ed="#K"/>quodcumque bonum fecerit hoc percipiet 
-              <lb ed="#K"/>a domino</quote>
-            </p>
-            <p xml:id="bHY6yh-de1103-d1e310">
-              <lb ed="#K"/> <ref xml:id="bHY6yh-de1103-Rd1e353">Cassiodorns epistolarum libro 10 capitulo 16</ref>  
-              <lb ed="#K"/> <quote xml:id="bHY6yh-de1103-Qd1e314">Remunerator est bonorum omnium deus</quote> 
-            </p>
-         </div>
-      </body>
-   </text>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc> 
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="8-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-de1103"><!-- p1l1-r5 -->
+        <head xml:id="bHY6yh-de1103-Hd1e108">Rubrica 5</head>
+        <head xml:id="bHY6yh-de1103-Hd1e111" type="question-title">De retributione Dei</head>
+        <p xml:id="bHY6yh-de1103-d1e114">
+          <lb ed="#K" n="51"/>De retributione dei Rubrica. 5.
+        </p>
+        <p xml:id="bHY6yh-de1103-d1e119">
+          <lb ed="#K" n="52"/> ¶ <ref xml:id="bHY6yh-de1103-Rd1e116">Iob hystoria 34 capitulo</ref> <quote xml:id="bHY6yh-de1103-Qd1e121">Opus hominis 
+            <lb ed="#K" n="53"/>reddet ei deus et iustitcia iustitia viam 
+            <lb ed="#K" n="54"/>singulorum restituet</quote>
+        </p>
+        <p xml:id="bHY6yh-de1103-d1e131">
+          <lb ed="#K" n="55"/> ¶ <ref xml:id="bHY6yh-de1103-Rd1e132">In genesi capitulo 4</ref> <quote xml:id="bHY6yh-de1103-Qd1e135">Nonne si bene
+            <lb ed="#K" n="56"/>egeris recipies</quote>
+        </p>
+        <p xml:id="bHY6yh-de1103-d1e142">
+          <lb ed="#K" n="57"/> ¶ <ref xml:id="bHY6yh-de1103-Rd1e145">Psalmista psalmus 61</ref> <quote xml:id="bHY6yh-de1103-Qd1e146">Deus reddet vni<lb ed="#K" break="no" n="58"/>cuique
+            iuxta opera sua</quote>
+        </p>
+        <p xml:id="bHY6yh-de1103-d1e152">
+          / <ref xml:id="bHY6yh-de1103-Rd1e157">149 psalmus</ref> 
+          <lb ed="#K" n="59"/> <quote xml:id="bHY6yh-de1103-Qd1e154">Dominus iustus concidet ceruices peccatorum</quote>
+        </p>
+        <p xml:id="bHY6yh-de1103-d1e160">
+          <lb ed="#K" n="60"/> ¶ <ref xml:id="bHY6yh-de1103-Rd1e171">Salomon in prouer capitulo 16</ref> <quote xml:id="bHY6yh-de1103-Qd1e164">Cum 
+          <lb ed="#K" n="61"/>placuerint domino viae hominis 
+          <lb ed="#K" n="62"/>inimicos quoque suos conuertet ad pa
+          <lb ed="#K" n="63"/>cem</quote>
+        </p>
+        <p xml:id="bHY6yh-de1103-d1e176">
+          <lb ed="#K" n="64"/> / <ref xml:id="bHY6yh-de1103-Rd1e189">Idem in ecclesiaste capitulo 9</ref> <quote xml:id="bHY6yh-de1103-Qd1e178">Qui invno 
+            <lb ed="#K" n="65"/>peccauerit multa bona perdet</quote>
+        </p>
+        <p xml:id="bHY6yh-de1103-d1e184">
+          <lb ed="#K" n="66"/> ¶ <ref xml:id="bHY6yh-de1103-Rd1e201">Regum libro i capitulo 26</ref> <quote xml:id="bHY6yh-de1103-Qd1e188">Deus retribu<lb ed="#K" break="no" n="67"/>et 
+            vnicuique secundum iustitiam suam</quote>
+        </p>
+        <p xml:id="bHY6yh-de1103-d1e194">
+          <lb ed="#K" n="68"/> ¶ <ref xml:id="bHY6yh-de1103-Qd1e198">hieremias propheta in libro prophetiarum capitulo 32</ref>
+          <lb ed="#K" n="69"/> <quote xml:id="bHY6yh-de1103-Qd1e207">oculi dei apti sunt super omnes 
+            <lb ed="#K" n="70"/>vias filiorum et secundum fructum adi<lb ed="#K" break="no" n="71"/>nuentionis 
+            eius</quote>
+        </p>
+        <p xml:id="bHY6yh-de1103-d1e215">
+          <ref xml:id="bHY6yh-de1103-Rd1e235">Iesus filius sirach 
+          <lb ed="#K" n="72"/>in ecclesiastico capitulo 1</ref> <quote xml:id="bHY6yh-de1103-Qd1e219">deus prebet 
+          <lb ed="#K" n="73"/>sahientiam diligentibus se/ </quote> 
+        </p>
+        <p xml:id="bHY6yh-de1103-d1e225">
+          <lb ed="#K" n="74"/> <ref xml:id="bHY6yh-de1103-Rd1e247">18 capitulo</ref> <quote xml:id="bHY6yh-de1103-Qd1e227">Merces dei manet in eternum</quote>
+        </p>
+        <p xml:id="bHY6yh-de1103-d1e233">
+          <lb ed="#K" n="75"/> ¶ <ref xml:id="bHY6yh-de1103-Rd1e261">Mattheus in euangelio 16 capitulo</ref> <quote xml:id="bHY6yh-de1103-Qd1e237">Filius 
+          <lb ed="#K" n="76"/>hominis venturus est in gloria prasturis 
+          <lb ed="#K" n="77"/>sui cum angelu suis et tunc red<lb ed="#K" break="no" n="78"/>det 
+          vnicuique secundum opera eius</quote> 
+        </p>
+        <p xml:id="bHY6yh-de1103-d1e251"> 
+          Ommitted 
+        </p>
+        <p xml:id="bHY6yh-de1103-d1e262">
+          <lb ed="#K" n="79"/> <ref xml:id="bHY6yh-de1103-Rd1e289">Ioannes in apoc capitulo 2</ref> <quote xml:id="bHY6yh-de1103-Qd1e266">ait deus 
+            <lb ed="#K" n="80"/>dabo vnicuique vestrum secundum opera sua</quote>
+        </p>
+        <p xml:id="bHY6yh-de1103-d1e272">
+          <pb ed="#K" n="8-v"/>
+          <cb ed="#K" n="a"/>
+          <lb ed="#K" n="1"/> <ref xml:id="bHY6yh-de1103-Rd1e299">22 capitulo et fi</ref> <quote xml:id="bHY6yh-de1103-Qd1e274">ait deus venio cito et 
+          <lb ed="#K" n="2"/>merces mea mecum est reddere 
+          <lb ed="#K" n="3"/>vnicuique secundum opera sua</quote>
+        </p>
+        <p xml:id="bHY6yh-de1103-d1e282">    
+          <lb ed="#K" n="4"/> ¶ <ref xml:id="bHY6yh-de1103-Rd1e314">Paulus apostolus epistola i ad corinth 
+          <lb ed="#K" n="5"/>capitulo 3</ref> <quote xml:id="bHY6yh-de1103-Qd1e286">Unus quisque propriam mercedem 
+          <lb ed="#K" n="6"/>accipiet secundum suum laborem</quote>
+        </p>
+        <p xml:id="bHY6yh-de1103-d1e294">
+          / <ref xml:id="bHY6yh-de1103-Rd1e328">13 c</ref> 
+          <lb ed="#K" n="7"/> <quote xml:id="bHY6yh-de1103-Qd1e296">Siquis ignorat ignorabitur</quote>
+        </p>
+        <p xml:id="bHY6yh-de1103-d1e300">
+          <lb ed="#K" n="8"/> ¶ <ref xml:id="bHY6yh-de1103-Rd1e338">Idem epstola ad ephe capitulo 6 et fi</ref> <quote xml:id="bHY6yh-de1103-Qd1e302">Unusquisque 
+          <lb ed="#K" n="9"/>quodcumque bonum fecerit hoc percipiet 
+          <lb ed="#K" n="10"/>a domino</quote>
+        </p>
+        <p xml:id="bHY6yh-de1103-d1e310">
+          <lb ed="#K" n="11"/> <ref xml:id="bHY6yh-de1103-Rd1e353">Cassiodorns epistolarum libro 10 capitulo 16</ref>  
+          <lb ed="#K" n="12"/> <quote xml:id="bHY6yh-de1103-Qd1e314">Remunerator est bonorum omnium deus</quote> 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
