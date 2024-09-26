@@ -1,98 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Rubrica 16 [Krakow, lat 700 III Transcription]</title>
-            <author ref="#per-c7y65a">Geremia da Montagnone</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-             <respStmt>
-               <name>Katrina Vander Ahe</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Rubrica 16 [Krakow, lat 700 III Transcription]</title>
-               <date when="2022-05-30">May 30, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-05-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#K" n="13-v"/>
-            <cb ed="#K" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="bHY6yh-de4483"><!-- p1l1-r16 -->
-            <head xml:id="bHY6yh-de4483-Hd1e108">Rubrica 16</head>
-            <head xml:id="bHY6yh-de4483-Hd1e111" type="question-title">De ieiunii religione</head>
-            <p xml:id="bHY6yh-de4483-d1e114">
-              <lb ed="#K"/>De ieiunii religione 16
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 16 [Krakow, lat 700 III Transcription]</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Katrina Vander Ahe</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 16 [Krakow, lat 700 III Transcription]</title>
+          <date when="2022-05-30">May 30, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
           </p>
-            <p xml:id="bHY6yh-de4483-d1e119">
-              <lb ed="#K"/> <ref xml:id="bHY6yh-de4483-Rd1e116">Mattheus in euans capitulo 15</ref> /<quote xml:id="bHY6yh-de4483-Qd1e125" source="http://scta.info/resource/mt15_11@1-15">Non 
-              <lb ed="#K"/>quod intrat in os coinquinat hominem 
-              <lb ed="#K"/>sed quod procedit ex ore hoc coinquinat hominem</quote>
-            </p>
-            <p xml:id="bHY6yh-de4483-d1e133">
-                <lb ed="#K"/> <ref xml:id="bHY6yh-de4483-Rd1e132">Paulus apostolus epistola ad roma capitula 14</ref> <quote xml:id="bHY6yh-de4483-Qd1e137" source="http://scta.info/resource/rom14_3@1-14 http://scta.info/resource/rom14_6@6-25">Is qui
-                <lb ed="#K"/>manducat non manducantem 
-                <lb ed="#K"/>non spernat et qui non iudicet non  
-                <lb ed="#K"/>et qui manducat domino 
-                <lb ed="#K"/>non manducat et gratias agit 
-                <lb ed="#K"/>deo</quote>
-            </p>
-            <p xml:id="bHY6yh-de4483-d1e152">
-                /<ref xml:id="bHY6yh-de4483-Rd1e151">Idem ad corin capitulo 9</ref> <quote xml:id="bHY6yh-de4483-Qd1e154" source="http://scta.info/resource/Icor9_4@1-7">Numquid non
-                <lb ed="#K"/>habemus potestatem manducandi 
-                <lb ed="#K"/>et bibendi</quote>
-            </p>
-            <p xml:id="bHY6yh-de4483-d1e160">
-              <lb ed="#K"/>/ <ref xml:id="bHY6yh-de4483-Rd1e163">Gregorius in pastro capitulo 44</ref> <quote xml:id="bHY6yh-de4483-Qd1e164">Admonendi sunt abstinentes 
-              <lb ed="#K"/>ut nouerint quia tunc placen<lb ed="#K" break="no"/>tem 
-              deo abstinentia offerunt 
-              <lb ed="#K"/>cum ea qui sibi de alimentis sub<lb ed="#K" break="no"/>trahunt 
-              indigentibus largiuntur 
-              <lb ed="#K"/>non deo sed sibi quisque ieunat 
-              <lb ed="#K"/>si ea que sibi ad tempus subtra<lb ed="#K" break="no"/>hit 
-              sed ventri post of<lb ed="#K" break="no"/>ferenda 
-              custodit/</quote>
-            </p>
-         </div>
-      </body>
-   </text>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#K" n="13-v"/>
+        <cb ed="#K" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-de4483"><!-- p1l1-r16 -->
+        <head xml:id="bHY6yh-de4483-Hd1e108">Rubrica 16</head>
+        <head xml:id="bHY6yh-de4483-Hd1e111" type="question-title">De ieiunii religione</head>
+        <p xml:id="bHY6yh-de4483-d1e114">
+          De ieiunii religione 16
+        </p>
+        <p xml:id="bHY6yh-de4483-d1e119">
+          <lb ed="#K" n="52"/> <ref xml:id="bHY6yh-de4483-Rd1e116">Mattheus in euans capitulo 15</ref> /<quote xml:id="bHY6yh-de4483-Qd1e125">Non 
+            <lb ed="#K" n="53"/>quod intrat in os coinquinat hominem 
+            <lb ed="#K" n="54"/>sed quod procedit ex ore hoc coinquinat hominem</quote>
+        </p>
+        <p xml:id="bHY6yh-de4483-d1e133">
+          <lb ed="#K" n="55"/> <ref xml:id="bHY6yh-de4483-Rd1e132">Paulus apostolus epistola ad roma capitula 14</ref> <quote xml:id="bHY6yh-de4483-Qd1e137">Is qui
+            <lb ed="#K" n="56"/>manducat non manducantem 
+            <lb ed="#K" n="57"/>non spernat et qui non manducat
+            <lb ed="#K" n="58"/>manducationem non iudicet
+            <lb ed="#K" n="59"/>et qui manducat domino man<lb ed="#K" n="60" break="no"/>ducat
+            gratias enim agat deo 
+            <lb ed="#K" n="61"/>et qui non manducat domino
+            <lb ed="#K" n="62"/>non manducat et gratias agit 
+            <lb ed="#K" n="63"/>deo</quote>
+        </p>
+        <p xml:id="bHY6yh-de4483-d1e152">
+          / <ref xml:id="bHY6yh-de4483-Rd1e151">Idem ad cor capitulo 9</ref> <quote xml:id="bHY6yh-de4483-Qd1e154">Numquid non
+            <lb ed="#K" n="64"/>habemus potestatem manducandi 
+            <lb ed="#K" n="65"/>et bibendi</quote>
+        </p>
+        <p xml:id="bHY6yh-de4483-d1e160">
+          <lb ed="#K" n="66"/>/ <ref xml:id="bHY6yh-de4483-Rd1e163">Gregorius in pastro capitulo 44</ref> <quote xml:id="bHY6yh-de4483-Qd1e164">Admonendi sunt abstinentes 
+            <lb ed="#K" n="67"/>ut nouerint quia tunc placen<lb ed="#K" break="no" n="68"/>tem 
+            deo abstinentia offerunt 
+            <lb ed="#K" n="69"/>cum ea qui sibi de alimentis sub<lb ed="#K" break="no" n="70"/>trahunt 
+            indigentibus largiuntur 
+            <lb ed="#K" n="71"/>non deo sed sibi quisque ieunat 
+            <lb ed="#K" n="72"/>si ea que sibi ad tempus subtra<lb ed="#K" break="no" n="73"/>hit 
+            sed ventri post of<lb ed="#K" break="no" n="74"/>ferenda 
+            custodit</quote> /
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

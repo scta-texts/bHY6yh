@@ -1,465 +1,466 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Rubrica 19 [Krakow, lat 700 III Transcription]</title>
-            <author ref="#per-c7y65a">Geremia da Montagnone</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <name>Katrina Vander Ahe</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Rubrica 19 [Krakow, lat 700 III Transcription]</title>
-               <date when="2022-05-31">May 31, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-05-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#K" n="14-r"/>
-            <cb ed="#K" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="bHY6yh-de4793"><!-- p1l1-r19 -->
-            <head xml:id="bHY6yh-de4793-Hd1e108">Rubrica 19</head>
-            <head xml:id="bHY6yh-de4793-Hd1e111" type="question-title">De charitate religiosa hominis ad proximum</head>
-            <p xml:id="bHY6yh-de4793-d1e114">
-              De car<lb ed="#K" break="no"/>itate 
-              religiosa hominus ad proximum rubrica 19
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 19 [Krakow, lat 700 III Transcription]</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Katrina Vander Ahe</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 19 [Krakow, lat 700 III Transcription]</title>
+          <date when="2022-05-31">May 31, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#K" n="14-r"/>
+        <cb ed="#K" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-de4793"><!-- p1l1-r19 -->
+        <head xml:id="bHY6yh-de4793-Hd1e108">Rubrica 19</head>
+        <head xml:id="bHY6yh-de4793-Hd1e111" type="question-title">De charitate religiosa hominis ad proximum</head>
+        <p xml:id="bHY6yh-de4793-d1e114">
+          De <sic>car<lb ed="#K" break="no" n="52"/>caritate</sic> 
+          religiosa hominis ad proximum rubrica 19
         </p>
-            <p xml:id="bHY6yh-de4793-d1e121">
-              <lb ed="#K" n="12"/> <ref xml:id="bHY6yh-de4793-Rd1e118">In exodo capitulo 2</ref> /<quote xml:id="bHY6yh-de4793-Qd1e125">non loquaris 
-              <lb ed="#K"/>contra proximum tuum falsum testimonium 
-              <lb ed="#K"/>neque concupsces domum proximi 
-              <lb ed="#K"/>tui nec desiderabis uxorem 
-              <lb ed="#K"/>eius non seruum non ancillam 
-              <lb ed="#K"/>non assuuam non bouem non omen 
-              <lb ed="#K"/>et omnia quae illius sunt</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e139">
-              /<ref xml:id="bHY6yh-de4793-Rd1e138">Idem
-              <lb ed="#K"/>21 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e143">Siquis per industriam 
-              <lb ed="#K"/>occiderit proximum suum et 
-              <lb ed="#K"/>parvi in sidias ab altari vie ele<lb ed="#K" break="no"/>ves 
+        <p xml:id="bHY6yh-de4793-d1e121">
+          <lb ed="#K" n="53"/> <ref xml:id="bHY6yh-de4793-Rd1e118">In exodo capitulo 2</ref> / <quote xml:id="bHY6yh-de4793-Qd1e125">non loquaris 
+            <lb ed="#K" n="54"/>contra proximum tuum falsum testimonium 
+            <lb ed="#K" n="55"/>neque concupisces domum proximi 
+            <lb ed="#K" n="56"/>tui nec desiderabis uxorem 
+            <lb ed="#K" n="57"/>eius non seruum non ancillam 
+            <lb ed="#K" n="58"/>non asinum non bouem non omen 
+            <lb ed="#K" n="59"/>et omnia quae illius sunt</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e139">
+          /<ref xml:id="bHY6yh-de4793-Rd1e138">Idem
+            <lb ed="#K" n="60"/>21 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e143">Siquis per industriam 
+              <lb ed="#K" n="61"/>occiderit proximum suum et 
+              <lb ed="#K" n="62"/>per insidias ab altare me ele<lb ed="#K" break="no" n="63"/>ves 
               cum non moriatur</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e152">
-              /<ref xml:id="bHY6yh-de4793-Rd1e151">Idem 
-              <lb ed="#K"/>22 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e154">Aduenam non contristabis 
-              <lb ed="#K"/>neque affliges eum vidue et 
-              <lb ed="#K"/>pupillo non nocebis si leseriti 
-              <lb ed="#K"/>eos vociferbauntur ad me et 
-              <lb ed="#K"/>ego audiam clamorem eorum 
-              <lb ed="#K"/>et indignabitur furor meus 
-              <lb ed="#K"/>percutiamque vos gladio et erunt 
-              <lb ed="#K"/>vxores vestre vidue et filii 
-              <lb ed="#K"/>vestri pupilli</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-xxx765">
-              /<ref xml:id="bHY6yh-de4793-Rd1e166">Idem 22</ref> <quote xml:id="bHY6yh-de4793-Qxx166">pauperis 
-              <lb ed="#K"/>misereberis in negocio peregrino 
-              <lb ed="#K"/>molestus non eris</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e173">
-              <lb ed="#K"/> <ref xml:id="bHY6yh-de4793-Rd1e178">In leuitico 19 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e177">Cum messu<lb ed="#K" break="no"/>eris 
-              segetes terre tue non 
-              <lb ed="#K"/>tondebis vsque ad solum super faciem terre 
-              <lb ed="#K"/>nec remanentes spicas col<lb ed="#K" break="no"/>liges 
-              neque in vinea tua 
-              <lb ed="#K"/>racemos et grana decide<lb ed="#K" break="no"/>ntia 
-              congregabis sed pauperibus 
-              <lb ed="#K"/>et pereginis carpenda
-              <lb ed="#K"/>dimittes</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e191">
-              <quote xml:id="bHY6yh-de4793-Qd1e193">non mentiemini nec 
-                  <pb ed="#K" n="14-v"/>
-                  <cb ed="#K" n="a"/>
-              <lb ed="#K" n="1"/>decipiet vnusquisque proximum 
-              <lb ed="#K"/>suum /non facies calumniam 
-              <lb ed="#K"/>proximo tuo nec vi opprimes eum 
-              <lb ed="#K"/>non maledices surdo nec 
-              <lb ed="#K"/>coram ceco pones offen<lb ed="#K" break="no"/>diculum 
-              /Si habitauerit aduena in 
-              <lb ed="#K"/>terra vestra et moratus fuerit inter 
-              <lb ed="#K"/>vos ne exprobretis ei /Sed 
-              <lb ed="#K"/>sit inter vos quasi indigena</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e210">
-              <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de4793-Rd1e219">Moyses in deut capitulo 19</ref> <quote xml:id="bHY6yh-de4793-Qd1e214">non 
-              <lb ed="#K"/>assumes et transseres terminos 
-              <lb ed="#K"/>proximi tui quos fixerunt 
-              <lb ed="#K"/>priores in possessione tua</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e222">
-              <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de4793-Rd1e231">Idem 23 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e224">Non feneraberis fratri tuo ad 
-              <lb ed="#K"/>vsuram fruges pecuniam necque 
-              <lb ed="#K"/>fruges necque quamlibet aliam rem sed 
-              <lb ed="#K"/>alieno/ fratri autem tuo absque vsura 
-              <lb ed="#K"/>id quod indiget comodabis vt 
-              <lb ed="#K"/>benedicat tibi dominus deus tuus 
-              <lb ed="#K"/>in omnitempore tuo</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e238">
-                /<ref xml:id="bHY6yh-de4793-Rd1e249">Idem 116 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e240">Ingressus 
-                <lb ed="#K"/>vineam proximi tui comede v<lb ed="#K" break="no"/>uas 
-                quantum tibi placuerit soris 
-                <lb ed="#K"/>autem ne efferas tecum non essem ab</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e249">
-              /<ref xml:id="bHY6yh-de4793-Rd1e262">Idem 
-              <lb ed="#K"/>24 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e251">Si intraueris segetem pro<lb ed="#K" break="no"/>ximim 
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e152">
+          /<ref xml:id="bHY6yh-de4793-Rd1e151">Idem 
+            <lb ed="#K" n="64"/>22 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e154">Aduenam non contristabis 
+              <lb ed="#K" n="65"/>neque affliges eum vidue et 
+              <lb ed="#K" n="66"/>pupillo non nocebis si <unclear>leseris</unclear> 
+              <lb ed="#K" n="67"/>eos vociferabunt ad me et 
+              <lb ed="#K" n="68"/>ego audiam clamorem eorum 
+              <lb ed="#K" n="69"/>et indignabitur furor meus 
+              <lb ed="#K" n="70"/>percutiamque vos gladio et erunt 
+              <lb ed="#K" n="71"/>vxores vestre vidue et filii 
+              <lb ed="#K" n="72"/>vestri pupilli</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-xxx765">
+          /<ref xml:id="bHY6yh-de4793-Rd1e166">Idem 22</ref> <quote xml:id="bHY6yh-de4793-Qxx166">pauperis 
+            <lb ed="#K" n="73"/>misereberis in negocio peregrino 
+            <lb ed="#K" n="74"/>molestus non eris</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e173">
+          <lb ed="#K" n="75"/> <ref xml:id="bHY6yh-de4793-Rd1e178">In leuitico 19 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e177">Cum messu<lb ed="#K" break="no" n="76"/>eris 
+            segetes terre tue non 
+            <lb ed="#K" n="77"/>tondebis vsque ad solum super faciem terre 
+            <lb ed="#K" n="78"/>nec remanentes spicas col<lb ed="#K" break="no" n="79"/>liges 
+            neque in vinea tua 
+            <lb ed="#K" n="80"/>racemos et grana decide<lb ed="#K" break="no" n="81"/>ntia 
+            congregabis sed pauperibus 
+            <lb ed="#K" n="82"/>et pereginis carpenda
+            <lb ed="#K" n="83"/>dimittes</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e191">
+          <quote xml:id="bHY6yh-de4793-Qd1e193">non mentiemini nec 
+            <pb ed="#K" n="14-v"/>
+            <cb ed="#K" n="a"/>
+            <lb ed="#K" n="1"/>decipiet vnusquisque proximum 
+            <lb ed="#K" n="2"/>suum /non facies calumniam 
+            <lb ed="#K" n="3"/>proximo tuo nec vi opprimes eum 
+            <lb ed="#K" n="4"/>non maledices surdo nec 
+            <lb ed="#K" n="5"/>coram ceco pones offen<lb ed="#K" break="no" n="6"/>diculum 
+            /Si habitauerit aduena in 
+            <lb ed="#K" n="7"/>terra vestra et moratus fuerit inter 
+            <lb ed="#K" n="8"/>vos ne exprobretis ei /Sed 
+            <lb ed="#K" n="9"/>sit inter vos quasi indigena</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e210">
+          <lb ed="#K" n="10"/> ¶<ref xml:id="bHY6yh-de4793-Rd1e219">Moyses in deut capitulo 19</ref> <quote xml:id="bHY6yh-de4793-Qd1e214">non 
+            <lb ed="#K" n="11"/>assumes et transseres terminos 
+            <lb ed="#K" n="12"/>proximi tui quos fixerunt 
+            <lb ed="#K" n="13"/>priores in possessione tua</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e222">
+          <lb ed="#K" n="14"/> ¶<ref xml:id="bHY6yh-de4793-Rd1e231">Idem 23 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e224">Non feneraberis fratri tuo ad 
+            <lb ed="#K" n="15"/>vsuram fruges pecuniam necque 
+            <lb ed="#K" n="16"/>fruges necque quamlibet aliam rem sed 
+            <lb ed="#K" n="17"/>alieno/ fratri autem tuo absque vsura 
+            <lb ed="#K" n="18"/>id quod indiget comodabis vt 
+            <lb ed="#K" n="19"/>benedicat tibi dominus deus tuus 
+            <lb ed="#K" n="20"/>in omnitempore tuo</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e238">
+          /<ref xml:id="bHY6yh-de4793-Rd1e249">Idem 116 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e240">Ingressus 
+            <lb ed="#K" n="21"/>vineam proximi tui comede v<lb ed="#K" break="no" n="22"/>uas 
+            quantum tibi placuerit soris 
+            <lb ed="#K" n="23"/>autem ne efferas tecum non essem ab</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e249">
+          /<ref xml:id="bHY6yh-de4793-Rd1e262">Idem 
+            <lb ed="#K" n="24"/>24 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e251">Si intraueris segetem pro<lb ed="#K" break="no" n="25"/>ximim 
               tui nec amicitum frange 
-              <lb ed="#K"/>spicas et manu grateres/ falce autem 
-              <lb ed="#K"/>non metes /cum repetes a proximo 
-              <lb ed="#K"/>tuo rem aliquam quam debet tibi non 
-              <lb ed="#K"/>igredieris domum eius vt 
-              <lb ed="#K"/>pignus auferas sed stabis
-              <lb ed="#K"/>foris et ille tibi proferet quod ha<lb ed="#K" break="no"/>buerit</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e265">
-             /<ref xml:id="bHY6yh-de4793-Rd1e280">Idem 37 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e267">Maledictus 
-              <lb ed="#K"/>qui transfferet terminos proximi sui 
-              <lb ed="#K"/>maledictus qui errare facit cecos 
-              <lb ed="#K"/>in itinere/ Maledictus qui peruertit 
-              <lb ed="#K"/>iudicium ad uene et pupilli</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e284">
-               <lb ed="#K"/> <ref xml:id="bHY6yh-de4793-Rd1e302">Salomon in prouer 10 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e288">Uniuer<lb ed="#K" break="no"/>sa 
-               delicta aperit charitas</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e294">
-              /<ref xml:id="bHY6yh-de4793-Rd1e312">Idem 
-              <lb ed="#K"/>14 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e296">qui despicit proximum suum 
-              <lb ed="#K"/>peccat</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e302">
-              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-de4793-Rd1e324">Tobie sic hyostori capitulo 4 </ref>  <quote xml:id="bHY6yh-de4793-Qd1e306">quod ab alio odis fieri tbi vi<lb ed="#K" break="no"/>de 
-              ne alteri tu aliquando facias</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e312">
-                  <cb ed="#K" n="b"/>
-              <lb ed="#K" n="1"/> <ref xml:id="bHY6yh-de4793-Rd1e336">Iesus filius sirach in eccl capitulo 
-              <lb ed="#K"/>29</ref> /<quote xml:id="bHY6yh-de4793-Qd1e316">noli fenerare proximo tibi in tempore 
-              <lb ed="#K"/>necessitatis illius multi non causa 
-              <lb ed="#K"/>nequitie non fenerati sunt sed 
-              <lb ed="#K"/>fraudari gratis timuerunt 
-              <lb ed="#K"/>uir bonus fidem facit proximo suo</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e329">
-              <lb ed="#K"/> <ref xml:id="bHY6yh-de4793-Rd1e355">Tullius in oratione pro quinto ligario</ref>
-              <lb ed="#K"/> <quote xml:id="bHY6yh-de4793-Qd1e333">homines ad deos nulla re propius 
-              <lb ed="#K"/>accedunt/ quam salutem hominibus 
-              <lb ed="#K"/>dando</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e341">
-              <lb ed="#K"/>¶ <ref xml:id="bHY6yh-de4793-Rd1e369">Matthaeus in euangel capitulo 7</ref> /<quote xml:id="bHY6yh-de4793-Qd1e345"> Omnis qui irascitur fratri suo reus 
-              <lb ed="#K"/>erit iudicio</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e351">
-              /<ref xml:id="bHY6yh-de4793-Rd1e379">Idem capitulo 7</ref> <quote xml:id="bHY6yh-de4793-Qd1e353">Quid 
-              <lb ed="#K"/>vides festucam in oclo fratris 
-              <lb ed="#K"/>tui/ et trabem in oculo tuo non 
-              <lb ed="#K"/>vides/ aut quod dicis fratri tuo 
-              <lb ed="#K"/>fratur sine eiiciam festucam de oculo 
-              <lb ed="#K"/>tuo est hypocrita Eiice trabem <!--est to et are crossed out within the text-->
-              <lb ed="#K"/>de oculo et hypocrita eicce
-              <lb ed="#K"/>primum tu de oculo tuo et tunc 
-              <lb ed="#K"/>iudes eiicem festucam de oculo 
-              <lb ed="#K"/>fratris tui</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e367">
-              /<ref xml:id="bHY6yh-de4793-Rd1e397">Idem dicit lucas capitulo 6</ref> 
-              <lb ed="#K"/> <quote xml:id="bHY6yh-de4793-Qd1e369">Omnia quaecumque vultis ut faciant
-              <lb ed="#K"/>vobis homines facite vos illis 
-              <lb ed="#K"/>sunibr</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e377">
-              <lb ed="#K"/> /<ref xml:id="bHY6yh-de4793-Rd1e410">Idem lucas 6 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e379">Ubi 
-              <lb ed="#K"/>sunt duo vel tres congregati 
-              <lb ed="#K"/>in nomine meo ibi sum in me<lb ed="#K" break="no"/>dio 
-              eorum</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e387">
-              /<ref xml:id="bHY6yh-de4793-Rd1e422">22 capitulo ait iesus</ref> <quote xml:id="bHY6yh-de4793-Qd1e389">di<lb ed="#K" break="no"/>lige 
-              dominum deum tuum ex toto 
-              <lb ed="#K"/>corde tuo et ex tota anima tua 
-              <lb ed="#K"/>et ex tota mente tua hoc est 
-              <lb ed="#K"/>primum et maximum mandatum secundum 
-              <lb ed="#K"/>autem est simile huic et diliges 
-              <lb ed="#K"/>promum tuum sicut teipsum in 
-              <lb ed="#K"/>his duobus mandatis tota lex 
-              <lb ed="#K"/>pendet et prophete</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e404">
-             <lb ed="#K"/> <ref xml:id="bHY6yh-de4793-Rd1e443">Marcus in euang capitulo 9</ref> <quote xml:id="bHY6yh-de4793-Qd1e408">pacem habete intur vos</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e412">
-              <lb ed="#K"/> <ref xml:id="bHY6yh-de4793-Rd1e453">Lucas in euang capitulo 6</ref> <quote xml:id="bHY6yh-de4793-Qd1e416">Mutuum 
-              <lb ed="#K"/>date nihil inde sperantes 
-              <lb ed="#K"/>et erit merces vestra multa et 
-              <lb ed="#K"/>eritis filii altissimi quia ipse 
-              <lb ed="#K"/>benignus est super ingratos et 
-              <lb ed="#K"/>malos date et dabitur vobis</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e426">
-                  <pb ed="#K" n="15-r"/>
-                  <cb ed="#K" n="a"/>
-               <lb ed="#K" n="1"/> ¶<ref xml:id="bHY6yh-de4793-Rd1e469">Ioannes in euangelio capitulo 3</ref> <quote xml:id="bHY6yh-de4793-Qd1e430">Uos voca<lb ed="#K" break="no"/>tis
-              me magister et domine et bene dici<lb ed="#K" break="no"/>tis 
-              sum etenim si ergo ego laui 
-              <lb ed="#K"/>pedes vestros magister et dominus et <!--et and the second dominus are crossed out within the text-->
-              <lb ed="#K"/>dominus et vos debetis aler alterius 
-              <lb ed="#K"/>lauare pedes/ exemplum enim 
-              <lb ed="#K"/>dedi vt quemadmodum ego feci
-              <lb ed="#K"/>vobis ita et vos faciatis man<lb ed="#K" break="no"/>datum 
-              <lb ed="#K"/>nouum do vobis vt diliga<lb ed="#K" break="no"/>tis 
-              inuicem sicut dilexi diligatis nobis</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e457">  
-                  /<ref xml:id="bHY6yh-de4793-Rd1e500">Idem 
-                  <lb ed="#K"/>14 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e459">Pacem relinquo vobis pa<lb ed="#K" break="no"/>cem 
-                  meam do vobis</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e465"> 
-              /<ref xml:id="bHY6yh-de4793-Rd1e510">Idem 15 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e467">Ma<lb ed="#K" break="no"/>iorem 
-              dilectionem nemo est ut
-              <lb ed="#K"/>animam suam quis ponat pro 
-              <lb ed="#K"/>amicis suis</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e475"> 
-              /<quote xml:id="bHY6yh-de4793-Qd1e477">ait iesus hec 
-              <lb ed="#K"/>mando vobis ut diligatis in<lb ed="#K" break="no"/>uicem
-              sicut difeibi vobis</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e484">
-             <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de4793-Rd1e536">Iacobus apostolus epistola in capitulo 4</ref> <quote>minibus 
-             <lb ed="#K"/>honorate/ fratis timitate dili<lb ed="#K" break="no"/>gite</quote> 
-             /<quote xml:id="bHY6yh-de4793-Qd1e488">Nolite de trahere alterutrum</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e494">
-               <lb ed="#K"/> <ref xml:id="bHY6yh-de4793-Rd1e548">Petrus apostolus i capitulo 2</ref> <quote xml:id="bHY6yh-de4793-Qd1e498">Omnes ho<lb ed="#K" break="no"/>norate 
-               frater nitatem diligite</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e504"> 
-              <lb ed="#K"/> <ref xml:id="bHY6yh-de4793-Rd1e558">Idem capitulo 4</ref> <quote xml:id="bHY6yh-de4793-Qd1e506">caritas operit mu<lb ed="#K" break="no"/>ltitudinem 
-              peccatorum</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e512">
-              <lb ed="#K"/> ¶ <ref xml:id="bHY6yh-de4793-Rd1e570">Iohannes epistola i capitulo 2</ref> /<quote xml:id="bHY6yh-de4793-Qd1e516">diligit Qui diligit 
-              <lb ed="#K"/>fratrem suum in lumine manet 
-              <lb ed="#K"/>et scandalum in eo non est 
-              <lb ed="#K"/>Qui autem odit fratrem suum 
-              <lb ed="#K"/>in tenebris est/ et in tenebris 
-              <lb ed="#K"/>ambulat et nescit quo
-              <lb ed="#K"/>eat quoniam tenebre obcecaue<lb ed="#K" break="no"/>runt 
-              oculos eius</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e528">
-              /<ref xml:id="bHY6yh-de4793-Rd1e588">Idem capitulo 3</ref> <quote xml:id="bHY6yh-de4793-Qd1e532">Qui 
-              <lb ed="#K"/>habuerit substantiam mundi 
-              <lb ed="#K"/>et viderit fratrem suum necessitatem 
-              <lb ed="#K"/>habere et clauserit viscera sua 
-              <lb ed="#K"/>ab eo quodo charitas dei manet 
-              <lb ed="#K"/>in eo</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e542"> 
-              /<quote xml:id="bHY6yh-de4793-Qd1e544">fiiloli non diligamus 
-              <lb ed="#K"/>verbo neque lingua sed opere et
-              <lb ed="#K"/>veritate</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e551"> 
-              /<ref xml:id="bHY6yh-de4793-Rd1e613">Idem capitulo 4</ref> <quote xml:id="bHY6yh-de4793-Qd1e553">Diligams
-                <cb ed="#K" n="b"/>
-              <lb ed="#K"/>inuicem quoniam caritas ex deo 
-              <lb ed="#K"/>est et omnis qui diligit fratrem 
-              <lb ed="#K"/>ex deo natus est et cognoscit deum
-              <lb ed="#K"/>quoniam deus charitas est</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e563">
-                <lb ed="#K"/> /<quote xml:id="bHY6yh-de4793-Qd1e565">Si dilig<lb ed="#K" break="no"/>amus 
-                inuicem deus in nobis 
-                <lb ed="#K"/>manet et charitas eius in 
-                <lb ed="#K"/>nobis perfecta est</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e573"> 
-              /<quote xml:id="bHY6yh-de4793-Qd1e575">Idem deus 
-              <lb ed="#K"/>caritas est et qui manet in 
-              <lb ed="#K"/>caritate in deo manet et deus 
-              <lb ed="#K"/>in eo</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e583"> 
-              /<quote xml:id="bHY6yh-de4793-Qd1e585">Idem siquis dixerit di<lb ed="#K" break="no"/>ligo 
-              deum et fratrem suum oderit 
-              <lb ed="#K"/>mendax est</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e591">  
-              <lb ed="#K"/> /<quote xml:id="bHY6yh-de4793-Qd1e593">Hoc mandatum habemus 
-              <lb ed="#K"/>a deo vt qui diligit deum dili<lb ed="#K" break="no"/>gat 
-              et fratrem suum</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e601">
-             <lb ed="#K"/> <ref xml:id="bHY6yh-de4793-Rd1e673">Paulus apapostolus epstola ad Romanos capitulo 17</ref> <quote xml:id="bHY6yh-de4793-Qd1e605">sicut in vno cor<lb ed="#K" break="no"/>pore 
-             multa membra habemus omnia 
-             <lb ed="#K"/>autem membra non eundem auctum 
-             <lb ed="#K"/>habent sic ita multi vnum corpus 
-             <lb ed="#K"/>sumus in christo siguli autem 
-             <lb ed="#K"/>alterius membra</quote> 
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e618"> 
-              /<ref xml:id="bHY6yh-de4793-Rd1e691">Idem 13 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e620">Qui
-              <lb ed="#K"/>diligit proximum suum legem impleuit 
-              <lb ed="#K"/>nam non adulterabis non occides 
-              <lb ed="#K"/>non furaberis non falsum testimonium 
-              <lb ed="#K"/>dices non concupisces rem proximi 
-              <lb ed="#K"/>tui et si quid aliud est mandatum in 
-              <lb ed="#K"/>hoc verbo instauratur</quote>
-            </p>
-              <p xml:id="bHY6yh-de4793-d1e634"> /<ref xml:id="bHY6yh-de4793-Rd1e709">Idem 15 capitulo et ante<lb ed="#K" break="no"/>pe</ref> <!--et antepe is crossed out within the text-->
-              <quote xml:id="bHY6yh-de4793-Qd1e636">Unusquisque vestrum proxio 
-              <lb ed="#K"/>placeat suo in bono</quote>     
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e644">
-              / <ref>Idem apostolus corinthios
-              <lb ed="#K"/>13 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e648">Si lingis hominum loquar 
-              <lb ed="#K"/>et angelorum charitatem autem non habeam 
-              <lb ed="#K"/>factus sum velut es sonans aut 
-              <lb ed="#K"/>cymbalum tinniens</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e660"> 
-              /<quote xml:id="bHY6yh-de4793-Qd1e662">Caritas pa<lb ed="#K" break="no"/>tiens 
-              est benigna est cari<lb ed="#K" break="no"/>tas 
-              non emulatur/ non agit perpe<lb ed="#K" break="no"/>ram 
-              non inflatur non est am<lb ed="#K" break="no"/>bitiosa 
-              non querit que a sua sunt 
-              <lb ed="#K"/>non irritatur non cogitat 
-              <lb ed="#K"/>malum non gaudet super 
-                  <pb ed="#K" n="15-v"/>
-                  <cb ed="#K" n="a"/>
-              <lb ed="#K" n="1"/>iniquitatem congaudet autem veritati 
-              <lb ed="#K"/>omnia suffert omnia credit omnia 
-              <lb ed="#K"/>sperat omnia sustiet</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e679">  
-              <quote xml:id="bHY6yh-de4793-Qd1e681">Maior 
-              <lb ed="#K"/>fide et spe est caritas</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e687"> 
-              /<ref xml:id="bHY6yh-de4793-Rd1e770">Idem 16 capitulo</ref> 
-              <lb ed="#K"/> <quote xml:id="bHY6yh-de4793-Qd1e689">Omnia vestra in caritate fiant</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e696"> 
-              /<ref xml:id="bHY6yh-de4793-Rd1e781">Idem apostolus epstola ad galathas capitulo 6 et finali</ref> <quote xml:id="bHY6yh-de4793-Qd1e698">Alter alterius 
-              <lb ed="#K"/>onera portate</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e704"> 
-              /<quote xml:id="bHY6yh-de4793-Qd1e706">Operemur bonum 
-              <lb ed="#K"/>ad omnes maxime autem
-              <lb ed="#K"/>ad domesticos fidei</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e714"> 
-              /<ref xml:id="bHY6yh-de4793-Rd1e804">Idem 
-              <lb ed="#K"/>ad epstola capitulo 4</ref> <quote xml:id="bHY6yh-de4793-Qd1e716">Lo quimini 
-              <lb ed="#K"/>veritatem vnusquisque cum proximo suo q<lb ed="#K" break="no"/>uoniam 
+              <lb ed="#K" n="26"/>spicas et manu grateres/ falce autem 
+              <lb ed="#K" n="27"/>non metes /cum repetes a proximo 
+              <lb ed="#K" n="28"/>tuo rem aliquam quam debet tibi non 
+              <lb ed="#K" n="29"/>igredieris domum eius vt 
+              <lb ed="#K" n="30"/>pignus auferas sed stabis
+              <lb ed="#K" n="31"/>foris et ille tibi proferet quod ha<lb ed="#K" break="no" n="32"/>buerit</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e265">
+          /<ref xml:id="bHY6yh-de4793-Rd1e280">Idem 37 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e267">Maledictus 
+            <lb ed="#K" n="33"/>qui transfferet terminos proximi sui 
+            <lb ed="#K" n="34"/>maledictus qui errare facit cecos 
+            <lb ed="#K" n="35"/>in itinere/ Maledictus qui peruertit 
+            <lb ed="#K" n="36"/>iudicium ad uene et pupilli</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e284">
+          <lb ed="#K" n="37"/> <ref xml:id="bHY6yh-de4793-Rd1e302">Salomon in prouer 10 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e288">Uniuer<lb ed="#K" break="no" n="38"/>sa 
+            delicta aperit charitas</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e294">
+          /<ref xml:id="bHY6yh-de4793-Rd1e312">Idem 
+            <lb ed="#K" n="39"/>14 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e296">qui despicit proximum suum 
+              <lb ed="#K" n="40"/>peccat</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e302">
+          <lb ed="#K" n="41"/>¶ <ref xml:id="bHY6yh-de4793-Rd1e324">Tobie sic hyostori capitulo 4 </ref>  <quote xml:id="bHY6yh-de4793-Qd1e306">quod ab alio odis fieri tbi vi<lb ed="#K" break="no" n="42"/>de 
+            ne alteri tu aliquando facias</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e312">
+          <cb ed="#K" n="b"/>
+          <lb ed="#K" n="43"/> <ref xml:id="bHY6yh-de4793-Rd1e336">Iesus filius sirach in eccl capitulo 
+            <lb ed="#K" n="44"/>29</ref> /<quote xml:id="bHY6yh-de4793-Qd1e316">noli fenerare proximo tibi in tempore 
+              <lb ed="#K" n="45"/>necessitatis illius multi non causa 
+              <lb ed="#K" n="46"/>nequitie non fenerati sunt sed 
+              <lb ed="#K" n="47"/>fraudari gratis timuerunt 
+              <lb ed="#K" n="48"/>uir bonus fidem facit proximo suo</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e329">
+          <lb ed="#K" n="49"/> <ref xml:id="bHY6yh-de4793-Rd1e355">Tullius in oratione pro quinto ligario</ref>
+          <lb ed="#K" n="50"/> <quote xml:id="bHY6yh-de4793-Qd1e333">homines ad deos nulla re propius 
+            <lb ed="#K" n="51"/>accedunt/ quam salutem hominibus 
+            <lb ed="#K" n="52"/>dando</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e341">
+          <lb ed="#K" n="53"/>¶ <ref xml:id="bHY6yh-de4793-Rd1e369">Matthaeus in euangel capitulo 7</ref> /<quote xml:id="bHY6yh-de4793-Qd1e345"> Omnis qui irascitur fratri suo reus 
+            <lb ed="#K" n="54"/>erit iudicio</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e351">
+          /<ref xml:id="bHY6yh-de4793-Rd1e379">Idem capitulo 7</ref> <quote xml:id="bHY6yh-de4793-Qd1e353">Quid 
+            <lb ed="#K" n="55"/>vides festucam in oclo fratris 
+            <lb ed="#K" n="56"/>tui/ et trabem in oculo tuo non 
+            <lb ed="#K" n="57"/>vides/ aut quod dicis fratri tuo 
+            <lb ed="#K" n="58"/>fratur sine eiiciam festucam de oculo 
+            <lb ed="#K" n="59"/>tuo est hypocrita Eiice trabem <!--est to et are crossed out within the text-->
+            <lb ed="#K" n="60"/>de oculo et hypocrita eicce
+            <lb ed="#K" n="61"/>primum tu de oculo tuo et tunc 
+            <lb ed="#K" n="62"/>iudes eiicem festucam de oculo 
+            <lb ed="#K" n="63"/>fratris tui</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e367">
+          / <ref xml:id="bHY6yh-de4793-Rd1e397">Idem dicit lucas capitulo 6</ref> 
+          <lb ed="#K" n="64"/> <quote xml:id="bHY6yh-de4793-Qd1e369">Omnia quaecumque vultis ut faciant
+            <lb ed="#K" n="65"/>vobis homines facite vos illis 
+            <lb ed="#K" n="66"/><unclear>similiter</unclear></quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e377">
+          / <ref xml:id="bHY6yh-de4793-Rd1e410">Idem lucas 6 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e379">Ubi 
+            <lb ed="#K" n="67"/>sunt duo vel tres congregati 
+            <lb ed="#K" n="68"/>in nomine meo ibi sum in me<lb ed="#K" break="no" n="69"/>dio 
+            eorum</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e387">
+          / <ref xml:id="bHY6yh-de4793-Rd1e422">22 capitulo ait iesus</ref> <quote xml:id="bHY6yh-de4793-Qd1e389">di<lb ed="#K" break="no" n="70"/>lige 
+            dominum deum tuum ex toto 
+            <lb ed="#K" n="71"/>corde tuo et ex tota anima tua 
+            <lb ed="#K" n="72"/>et ex tota mente tua hoc est 
+            <lb ed="#K" n="73"/>primum et maximum mandatum secundum 
+            <lb ed="#K" n="74"/>autem est simile huic et diliges 
+            <lb ed="#K" n="75"/>promum tuum sicut teipsum in 
+            <lb ed="#K" n="76"/>his duobus mandatis tota lex 
+            <lb ed="#K" n="77"/>pendet et prophete</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e404">
+          <lb ed="#K" n="78"/> <ref xml:id="bHY6yh-de4793-Rd1e443">Marcus in euang capitulo 9</ref> <quote xml:id="bHY6yh-de4793-Qd1e408">pacem habete intur vos</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e412">
+          <lb ed="#K" n="79"/> <ref xml:id="bHY6yh-de4793-Rd1e453">Lucas in euang capitulo 6</ref> <quote xml:id="bHY6yh-de4793-Qd1e416">Mutuum 
+            <lb ed="#K" n="80"/>date nihil inde sperantes 
+            <lb ed="#K" n="81"/>et erit merces vestra multa et 
+            <lb ed="#K" n="82"/>eritis filii altissimi quia ipse 
+            <lb ed="#K" n="83"/>benignus est super ingratos et 
+            <lb ed="#K" n="84"/>malos date et dabitur vobis</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e426">
+          <pb ed="#K" n="15-r"/>
+          <cb ed="#K" n="a"/>
+          <lb ed="#K" n="1"/> ¶<ref xml:id="bHY6yh-de4793-Rd1e469">Ioannes in euangelio capitulo 3</ref> <quote xml:id="bHY6yh-de4793-Qd1e430">Uos voca<lb ed="#K" break="no" n="2"/>tis
+            me magister et domine et bene dici<lb ed="#K" break="no" n="3"/>tis 
+            sum etenim si ergo ego laui 
+            <lb ed="#K" n="4"/>pedes vestros magister et dominus et <!--et and the second dominus are crossed out within the text-->
+            <lb ed="#K" n="5"/>dominus et vos debetis aler alterius 
+            <lb ed="#K" n="6"/>lauare pedes/ exemplum enim 
+            <lb ed="#K" n="7"/>dedi vt quemadmodum ego feci
+            <lb ed="#K" n="8"/>vobis ita et vos faciatis man<lb ed="#K" break="no" n="9"/>datum 
+            nouum do vobis vt diliga<lb ed="#K" break="no" n="10"/>tis 
+            inuicem sicut dilexi diligatis nobis</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e457">  
+          / <ref xml:id="bHY6yh-de4793-Rd1e500">Idem 
+            <lb ed="#K" n="11"/>14 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e459">Pacem relinquo vobis pa<lb ed="#K" break="no" n="12"/>cem 
+              meam do vobis</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e465"> 
+          / <ref xml:id="bHY6yh-de4793-Rd1e510">Idem 15 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e467">Ma<lb ed="#K" break="no" n="13"/>iorem 
+            dilectionem nemo est ut
+            <lb ed="#K" n="14"/>animam suam quis ponat pro 
+            <lb ed="#K" n="15"/>amicis suis</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e475"> 
+          / <quote xml:id="bHY6yh-de4793-Qd1e477">ait iesus hec 
+            <lb ed="#K" n="16"/>mando vobis ut diligatis in<lb ed="#K" break="no" n="17"/>uicem
+            sicut difeibi vobis</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e484">
+          <lb ed="#K" n="18"/> ¶<ref xml:id="bHY6yh-de4793-Rd1e536">Iacobus apostolus epistola in capitulo 4</ref> <quote>minibus 
+            <lb ed="#K" n="19"/>honorate/ fratis timitate dili<lb ed="#K" break="no" n="20"/>gite</quote> 
+          /<quote xml:id="bHY6yh-de4793-Qd1e488">Nolite de trahere alterutrum</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e494">
+          <lb ed="#K" n="21"/> <ref xml:id="bHY6yh-de4793-Rd1e548">Petrus apostolus i capitulo 2</ref> <quote xml:id="bHY6yh-de4793-Qd1e498">Omnes ho<lb ed="#K" break="no" n="22"/>norate 
+            frater nitatem diligite</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e504"> 
+          <lb ed="#K" n="23"/> <ref xml:id="bHY6yh-de4793-Rd1e558">Idem capitulo 4</ref> <quote xml:id="bHY6yh-de4793-Qd1e506">caritas operit mu<lb ed="#K" break="no" n="24"/>ltitudinem 
+            peccatorum</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e512">
+          <lb ed="#K" n="25"/> ¶ <ref xml:id="bHY6yh-de4793-Rd1e570">Iohannes epistola i capitulo 2</ref> /<quote xml:id="bHY6yh-de4793-Qd1e516">diligit Qui diligit 
+            <lb ed="#K" n="26"/>fratrem suum in lumine manet 
+            <lb ed="#K" n="27"/>et scandalum in eo non est 
+            <lb ed="#K" n="28"/>Qui autem odit fratrem suum 
+            <lb ed="#K" n="29"/>in tenebris est/ et in tenebris 
+            <lb ed="#K" n="30"/>ambulat et nescit quo
+            <lb ed="#K" n="31"/>eat quoniam tenebre obcecaue<lb ed="#K" break="no" n="32"/>runt 
+            oculos eius</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e528">
+          / <ref xml:id="bHY6yh-de4793-Rd1e588">Idem capitulo 3</ref> <quote xml:id="bHY6yh-de4793-Qd1e532">Qui 
+            <lb ed="#K" n="33"/>habuerit substantiam mundi 
+            <lb ed="#K" n="34"/>et viderit fratrem suum necessitatem 
+            <lb ed="#K" n="35"/>habere et clauserit viscera sua 
+            <lb ed="#K" n="36"/>ab eo quodo charitas dei manet 
+            <lb ed="#K" n="37"/>in eo</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e542"> 
+          / <quote xml:id="bHY6yh-de4793-Qd1e544">fiiloli non diligamus 
+            <lb ed="#K" n="38"/>verbo neque lingua sed opere et
+            <lb ed="#K" n="39"/>veritate</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e551"> 
+          / <ref xml:id="bHY6yh-de4793-Rd1e613">Idem capitulo 4</ref> <quote xml:id="bHY6yh-de4793-Qd1e553">Diligams
+            <cb ed="#K" n="b"/>
+            <lb ed="#K" n="40"/>inuicem quoniam caritas ex deo 
+            <lb ed="#K" n="41"/>est et omnis qui diligit fratrem 
+            <lb ed="#K" n="42"/>ex deo natus est et cognoscit deum
+            <lb ed="#K" n="43"/>quoniam deus charitas est</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e563">
+          / <quote xml:id="bHY6yh-de4793-Qd1e565">Si dilig<lb ed="#K" break="no" n="44"/>amus 
+            inuicem deus in nobis 
+            <lb ed="#K" n="45"/>manet et charitas eius in 
+            <lb ed="#K" n="46"/>nobis perfecta est</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e573"> 
+          / <quote xml:id="bHY6yh-de4793-Qd1e575">Idem deus 
+            <lb ed="#K" n="47"/>caritas est et qui manet in 
+            <lb ed="#K" n="48"/>caritate in deo manet et deus 
+            <lb ed="#K" n="49"/>in eo</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e583"> 
+          / <quote xml:id="bHY6yh-de4793-Qd1e585">Idem siquis dixerit di<lb ed="#K" break="no" n="50"/>ligo 
+            deum et fratrem suum oderit 
+            <lb ed="#K" n="51"/>mendax est</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e591">  
+          / <quote xml:id="bHY6yh-de4793-Qd1e593">Hoc mandatum habemus 
+            <lb ed="#K" n="52"/>a deo vt qui diligit deum dili<lb ed="#K" break="no" n="53"/>gat 
+            et fratrem suum</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e601">
+          <lb ed="#K" n="54"/> <ref xml:id="bHY6yh-de4793-Rd1e673">paulus ad romanos</ref> <quote xml:id="bHY6yh-de4793-Qd1e605">in vno cor<lb ed="#K" break="no" n="55"/>pore 
+            multa membra habemus / omnia 
+            <lb ed="#K" n="56"/>autem membra non eundem auctum 
+            <lb ed="#K" n="57"/>habent sic ita multi vnum corpus 
+            <lb ed="#K" n="58"/>sumus in christo singuli autem alter 
+            <lb ed="#K" n="59"/>alterius membra</quote> 
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e618"> 
+          / <ref xml:id="bHY6yh-de4793-Rd1e691">Idem 13 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e620">Qui
+            <lb ed="#K" n="60"/>diligit proximum suum legem impleuit 
+            <lb ed="#K" n="61"/>nam non adulterabis non occides 
+            <lb ed="#K" n="62"/>non furaberis non falsum testimonium 
+            <lb ed="#K" n="63"/>dices non concupisces rem proximi 
+            <lb ed="#K" n="64"/>tui et si quid aliud est mandatum in 
+            <lb ed="#K" n="65"/>hoc verbo instauratur</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e634"> 
+          / <ref xml:id="bHY6yh-de4793-Rd1e709">Idem 15 capitulo et ante<lb ed="#K" break="no" n="66"/>pe</ref> <!--et antepe is crossed out within the text-->
+          <quote xml:id="bHY6yh-de4793-Qd1e636">unusquisque vestrum proximo 
+            <lb ed="#K" n="67"/>placeat suo in bono</quote>     
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e644">
+          / <ref>Idem ad corinthios
+          <lb ed="#K" n="68"/>13 capitulo</ref> <quote xml:id="bHY6yh-de4793-Qd1e648">Si lingis hominum loquar 
+          <lb ed="#K" n="69"/>et angelorum caritatem autem non habeam 
+          <lb ed="#K" n="70"/>factus sum velud es sonans aut 
+          <lb ed="#K" n="71"/>cymbalum tinniens</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e660"> 
+          / <quote xml:id="bHY6yh-de4793-Qd1e662">Caritas pa<lb ed="#K" break="no" n="72"/>tiens 
+            est benigna est caritas 
+            <lb ed="#K" n="73"/>non emulatur / non agit perpe<lb ed="#K" break="no" n="74"/>ram 
+            non inflatur non est am<lb ed="#K" break="no" n="75"/>bitiosa 
+            non querit que a sua sunt 
+            <lb ed="#K" n="76"/>non irritatur non cogitat 
+            <lb ed="#K" n="77"/>malum non gaudet super 
+            <pb ed="#K" n="15-v"/>
+            <cb ed="#K" n="a"/>
+            <lb ed="#K" n="1"/>iniquitatem congaudet autem veritati 
+            <lb ed="#K" n="2"/>omnia suffert omnia credit omnia 
+            <lb ed="#K" n="3"/>sperat omnia sustiet</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e679">  
+          <quote xml:id="bHY6yh-de4793-Qd1e681">Maior 
+            <lb ed="#K" n="4"/>fide et spe est caritas</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e687"> 
+          / <ref xml:id="bHY6yh-de4793-Rd1e770">Idem 16 capitulo</ref> 
+          <lb ed="#K" n="5"/> <quote xml:id="bHY6yh-de4793-Qd1e689">Omnia vestra in caritate fiant</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e696"> 
+          <lb ed="#K" n="6"/> <ref xml:id="bHY6yh-de4793-Rd1e781">Idem ad galathas capitulo 6 et finali</ref> <quote xml:id="bHY6yh-de4793-Qd1e698">alter alterius 
+            <lb ed="#K" n="7"/>onera portate</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e704"> 
+          / <quote xml:id="bHY6yh-de4793-Qd1e706">operemur bonum 
+            <lb ed="#K" n="8"/>ad omnes / <del>autem</del> maxime autem
+            <lb ed="#K" n="9"/>ad domesticos fidei</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e714"> 
+          / <ref xml:id="bHY6yh-de4793-Rd1e804">idem 
+            <lb ed="#K" n="10"/>ad ephe capitulo 4</ref> <quote xml:id="bHY6yh-de4793-Qd1e716">loquimini veritatem 
+              <lb ed="#K" n="11"/>vnusquisque cum proximo suo / quo<lb ed="#K" break="no" n="12"/>niam 
               sumus inuicem membra</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e724">  
-              <lb ed="#K"/> <quote xml:id="bHY6yh-de4793-Qd1e726">omnis amari tudo et 
-              <lb ed="#K"/>ira et indignatio et clamor et blas<lb ed="#K" break="no"/>phemia 
-              tolletur a vobis cum 
-              <lb ed="#K"/>omni malitia/ Estote autem in<lb ed="#K" break="no"/>uicem 
-              benigni misericordes 
-              <lb ed="#K"/>donantes inuicem</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e738">  
-              /<ref xml:id="bHY6yh-de4793-Rd1e832">Idem ad 
-              <lb ed="#K"/>collossenses capitulo 3 pe</ref> <quote xml:id="bHY6yh-de4793-Qd1e740">Nolite men<lb ed="#K" break="no"/>tiri 
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e724">  
+          <lb ed="#K" n="13"/> <quote xml:id="bHY6yh-de4793-Qd1e726">omnis amaritudo et ira et 
+            <lb ed="#K" n="14"/>indignatio et clamor et blas<lb ed="#K" break="no" n="15"/>phemia 
+            tolletur a vobis cum 
+            <lb ed="#K" n="16"/>omni malitia / Estote ergo in<lb ed="#K" break="no" n="17"/>uicem 
+            benigni misericordes 
+            <lb ed="#K" n="18"/>donantes inuicem</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e738">  
+          / <ref xml:id="bHY6yh-de4793-Rd1e832">Idem ad 
+            <lb ed="#K" n="19"/>collocenses capitulo 3 pe</ref> / <quote xml:id="bHY6yh-de4793-Qd1e740">nolite men<lb ed="#K" break="no" n="20"/>tiri 
               inuicem</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e746"> 
-              <quote xml:id="bHY6yh-de4793-Qd1e748">caritatem habete 
-              <lb ed="#K"/>quod est vinculum perfectionis</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e755"> 
-                <quote xml:id="bHY6yh-de4793-Qd1e757">pax opi exu<lb ed="#K" break="no"/>ltet 
-                in cordibus vestris in qua 
-                <lb ed="#K"/>vocati estis in vno corpore</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e765"> 
-                /<ref xml:id="bHY6yh-de4793-Rd1e865">Idem 
-                ad timotheum capitulo 5</ref> <quote xml:id="bHY6yh-de4793-Qd1e767">Si quis suorum et 
-                <lb ed="#K"/>maxime domesticorum curam 
-                <lb ed="#K"/>non habet fidem negauit et 
-                <lb ed="#K"/>est infideli deterior</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e777"> 
-                /<ref xml:id="bHY6yh-de4793-Rd1e880">Idem ad 
-                <lb ed="#K"/>hebreos 12 capitulo</ref> 
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e785"> 
-                <quote xml:id="bHY6yh-de4793-Qd1e787">Pacem sequi mini cum 
-                <lb ed="#K"/>omnibus et sanctimoniam sine qua 
-                <lb ed="#K"/>nemo videbit deum</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e795"> 
-                /<ref xml:id="bHY6yh-de4793-Rd1e902">Idem capitulo 13 
-                <lb ed="#K"/>et fi</ref> <quote xml:id="bHY6yh-de4793-Qd1e797">beneficentie et communicationis nolite 
-                <lb ed="#K"/>obliuisci talibus enim hostiis pro<lb ed="#K" break="no"/>meretur 
-                deus</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e805"> 
-                <lb ed="#K"/> /<ref xml:id="bHY6yh-de4793-Rd1e916">Auctor de formula hone vite</ref> <quote xml:id="bHY6yh-de4793-Qd1e809">Am abis deum 
-                <lb ed="#K"/>si illum in hoc imnitaberis 
-                <lb ed="#K"/>ut valis omnibus prodesse nulli 
-                <lb ed="#K"/>nocere / et tunc te iustum virum ap<lb ed="#K" break="no"/>pellabunt 
-                omnes sequenitur venera<lb ed="#K" break="no"/>buntur
-                et diligent sicque merito ius<lb ed="#K" break="no"/>tus 
-                appellaberis</quote>
-            </p>
-            <p xml:id="bHY6yh-de4793-d1e822">
-                <cb ed="#K" n="b"/>
-              <lb ed="#K" break="no"/> <ref xml:id="bHY6yh-de4793-Rd1e935">Cassiodorus de caritate dei
-              <lb ed="#K"/>capitulo 29</ref> <quote xml:id="bHY6yh-de4793-Qd1e826">Omnium bonorum radix est 
-              <lb ed="#K"/>caritas</quote>
-            </p>
-         </div>
-      </body>
-   </text>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e746"> 
+          / <quote xml:id="bHY6yh-de4793-Qd1e748">caritatem habete 
+            <lb ed="#K" n="21"/>quod est vinculum perfectionis</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e755"> 
+          <quote xml:id="bHY6yh-de4793-Qd1e757">pax opi exu<lb ed="#K" break="no" n="22"/>ltet 
+            in cordibus vestris in qua 
+            <lb ed="#K" n="23"/>vocati estis in vno corpore</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e765"> 
+          / <ref xml:id="bHY6yh-de4793-Rd1e865">Idem 
+            <lb ed="#K" n="24"/>ad timotheum capitulo 5</ref> <quote xml:id="bHY6yh-de4793-Qd1e767">Si quis suorum et 
+              <lb ed="#K" n="25"/>maxime domesticorum curam 
+              <lb ed="#K" n="26"/>non habet fidem negauit et 
+              <lb ed="#K" n="27"/>est infideli deterior</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e777"> 
+          / <ref xml:id="bHY6yh-de4793-Rd1e880">Idem ad 
+            <lb ed="#K" n="28"/>ebre 12 capitulo</ref> 
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e785"> 
+          <quote xml:id="bHY6yh-de4793-Qd1e787">Pacem sequi mini cum 
+            <lb ed="#K" n="29"/>omnibus et sanctimoniam sine qua 
+            <lb ed="#K" n="30"/>nemo videbit deum</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e795"> 
+          / <ref xml:id="bHY6yh-de4793-Rd1e902">Idem capitulo 13 
+            <lb ed="#K" n="31"/>et fi</ref> <quote xml:id="bHY6yh-de4793-Qd1e797">beneficentie et communicationis nolite 
+            <lb ed="#K" n="32"/>obliuisci talibus enim hostiis pro<lb ed="#K" break="no" n="33"/>meretur 
+            deus</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e805"> 
+          <lb ed="#K" n="34"/><ref xml:id="bHY6yh-de4793-Rd1e916">auctor de <!-- bump up -->formula honeste <!-- bump down --> vite</ref> <quote xml:id="bHY6yh-de4793-Qd1e809">amabis deum 
+            <lb ed="#K" n="35"/>sicut illum in hoc immicaberis 
+            <lb ed="#K" n="36"/>ut vel omnibus prodesse nulli 
+            <lb ed="#K" n="37"/>vocere / et tunc te iustum virum ap<lb ed="#K" break="no" n="38"/>pellabunt 
+            omnes sequentur venera<lb ed="#K" break="no" n="39"/>buntur
+            et diligent / sicque merito ius<lb ed="#K" break="no" n="40"/>tus 
+            appellaberis</quote>
+        </p>
+        <p xml:id="bHY6yh-de4793-d1e822">
+          <cb ed="#K" n="b"/>
+          <lb ed="#K" break="no" n="41"/> <ref xml:id="bHY6yh-de4793-Rd1e935">Cassiodorus de caritate dei
+            <lb ed="#K" n="42"/>capitulo 29</ref> <quote xml:id="bHY6yh-de4793-Qd1e826">Omnium bonorum radix est 
+              <lb ed="#K" n="43"/>caritas</quote>
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
