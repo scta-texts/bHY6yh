@@ -1,294 +1,292 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Rubrica 10 [Krakow, lat 700 III Transcription]</title>
-            <author ref="#per-c7y65a">Geremia da Montagnone</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <name>Katrina Vander Ahe</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Rubrica 10 [Krakow, lat 700 III Transcription]</title>
-               <date when="2022-05-26">May 26, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-05-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#K" n="10-r"/>
-            <cb ed="#K" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="bHY6yh-de2539"><!-- p1l1-r10 -->
-            <head xml:id="bHY6yh-de2539-Hd1e108">Rubrica 10</head>
-            <head xml:id="bHY6yh-de2539-Hd1e111" type="question-title">De charitate hominis ad deum</head>
-            <p xml:id="bHY6yh-de2539-d1e114">
-                <lb ed="#K"/>De charitate hominis ad deum Rubrica 10
-              </p>
-            <p xml:id="bHY6yh-de2539-d1e119">
-               <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de2539-Rd1e116">In exodo capitulo 10</ref> <quote xml:id="bHY6yh-de2539-Qd1e123" source="http://scta.info/resource/ex20_5@6-26 http://scta.info/resource/ex20_6@1-13">Ego sum deus 
-               <lb ed="#K"/>fortis et zelotes visitans in
-                  <pb ed="#K" n="10-v"/>
-                  <cb ed="#K" n="a"/>
-               <lb ed="#K" n="1" />iquitatem patrum in filios in tertiam 
-               <lb ed="#K"/>et quartam generationem eorum qui 
-               <lb ed="#K"/>oderunt me et faciens minsericordiam in milia 
-               <lb ed="#K"/>his qui diligunt me et custo<lb ed="#K" break="no"/>diunt 
-               precep a mea</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e140">
-               <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de2539-Rd1e139">In leuico capitulo 4</ref> <quote xml:id="bHY6yh-de2539-Qd1e144">Qui maledix<lb ed="#K" break="no"/>erit 
-               et blasphemauerit nomen 
-               <lb ed="#K"/>domini morte moriatur lapidibus app<lb ed="#K" break="no"/>rimet 
-               eum omnis multitudo populi</quote> 
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e153">
-               <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de2539-Rd1e154">Moyses in deuterono capitulo 6</ref> <quote xml:id="bHY6yh-de2539-Qd1e157" source="http://scta.info/resource/deut6_5@1-18">Dili<lb ed="#K" break="no"/>ges 
-               deum tuum ex toto cor<lb ed="#K" break="no"/>detuo 
-               et ex tota anima tua et ex 
-               <lb ed="#K"/>tota fortitudine tua</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e165">
-                <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de2539-Rd1e168">Psalmista 33 psalmus</ref> <quote xml:id="bHY6yh-de2539-Qd1e169" source="http://scta.info/resource/ps33_9@1-7">Gustate et vide<lb ed="#K" break="no"/>te 
-                quoniam suauis est dominus</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e175">
-              /<ref xml:id="bHY6yh-de2539-Rd1e178">36 
-              <lb ed="#K"/>psalmus</ref> <quote xml:id="bHY6yh-de2539-Qd1e177" source="http://scta.info/resource/ps36_4@1-9">delectare in domino et dabit ti<lb ed="#K" break="no"/>bi 
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 10 [Krakow, lat 700 III Transcription]</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Katrina Vander Ahe</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 10 [Krakow, lat 700 III Transcription]</title>
+          <date when="2022-05-26">May 26, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#K" n="10-r"/>
+        <cb ed="#K" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-de2539"><!-- p1l1-r10 -->
+        <head xml:id="bHY6yh-de2539-Hd1e108">Rubrica 10</head>
+        <head xml:id="bHY6yh-de2539-Hd1e111" type="question-title">De charitate hominis ad deum</head>
+        <p xml:id="bHY6yh-de2539-d1e114">
+          <lb ed="#K" n="83"/>De caritate hominis ad deum Rubrica 10
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e119">
+          <lb ed="#K" n="84"/> ¶ <ref xml:id="bHY6yh-de2539-Rd1e116">In exodo capitulo 10</ref> <quote xml:id="bHY6yh-de2539-Qd1e123" source="http://scta.info/resource/ex20_5@6-26 http://scta.info/resource/ex20_6@1-13">Ego sum deus 
+            <lb ed="#K" n="85"/>fortis et zelotes visitans in<pb ed="#K" n="10-v"/><cb ed="#K" n="a"/><lb ed="#K" n="1" break="no"/>iquitatem 
+            patrum in filios in tertiam 
+            <lb ed="#K" n="2"/>et quartam generationem eorum qui 
+            <lb ed="#K" n="3"/>oderunt me et faciens misericordiam in milia 
+            <lb ed="#K" n="4"/>his qui diligunt me et custo<lb ed="#K" break="no" n="5"/>diunt 
+            precepta mea</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e140">
+          <lb ed="#K" n="6"/> ¶ <ref xml:id="bHY6yh-de2539-Rd1e139">In leuitico capitulo 4</ref> <quote xml:id="bHY6yh-de2539-Qd1e144">Qui maledix<lb ed="#K" break="no" n="7"/>erit 
+            et blasphemauerit nomen 
+            <lb ed="#K" n="8"/>domini morte moriatur lapidibus app<lb ed="#K" break="no" n="9"/>rimet 
+            eum omnis multitudo populi</quote> 
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e153">
+          <lb ed="#K" n="10"/> ¶ <ref xml:id="bHY6yh-de2539-Rd1e154">Moyses in deuteronimo capitulo 6</ref> <quote xml:id="bHY6yh-de2539-Qd1e157" source="http://scta.info/resource/deut6_5@1-18">Dili<lb ed="#K" break="no" n="11"/>ges 
+            deum tuum ex toto cor<lb ed="#K" break="no" n="12"/>de 
+            tuo et ex tota anima tua et ex 
+            <lb ed="#K" n="13"/>tota fortitudine tua</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e165">
+          <lb ed="#K" n="14"/> ¶ <ref xml:id="bHY6yh-de2539-Rd1e168">Psalmista 33 psalmus</ref> <quote xml:id="bHY6yh-de2539-Qd1e169" source="http://scta.info/resource/ps33_9@1-7">Gustate et vide<lb ed="#K" break="no" n="15"/>te 
+            quoniam suauis est dominus</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e175">
+          /<ref xml:id="bHY6yh-de2539-Rd1e178">36 
+            <lb ed="#K" n="16"/>psalmus</ref> <quote xml:id="bHY6yh-de2539-Qd1e177" source="http://scta.info/resource/ps36_4@1-9">delectare in domino et dabit ti<lb ed="#K" break="no" n="17"/>bi 
               petitiones cordis tui</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e183">
-              <quote xml:id="bHY6yh-de2539-Qd1e185" source="http://scta.info/resource/ps36_5@1-8 http://scta.info/resource/ps36_7@1-6">Re<lb ed="#K" break="no"/>uela
-              domino viam tuam et spera 
-              <lb ed="#K"/>in eo Subditus esto domino 
-              <lb ed="#K"/>et ora eum apud dum gressus 
-              <lb ed="#K"/>hominus dirigentur et viam eius 
-              <lb ed="#K"/>volet cum ceciderit non colli<lb ed="#K" break="no"/>detur 
-              quia dominus supponit manum 
-              <lb ed="#K"/>suam</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e197">
-               /<ref xml:id="bHY6yh-de2539-Rd1e204">49 psalmus</ref> <quote xml:id="bHY6yh-de2539-Qd1e201" source="http://scta.info/resource/ps49_14@1-4">Imola deo sa<lb ed="#K" break="no"/>crificium 
-               laudis</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e205">
-                /<ref xml:id="bHY6yh-de2539-Rd1e212">54 psalmus</ref> <quote xml:id="bHY6yh-de2539-Qd1e207" source="http://scta.info/resource/ps54_23@1-9">Iacta 
-                <lb ed="#K"/>in deus curam tuam et ipse 
-                <lb ed="#K"/>te enutriet</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e216">
-                /<ref xml:id="bHY6yh-de2539-Rd1e226">166 psalmus</ref> <quote xml:id="bHY6yh-de2539-Qd1e218" source="http://scta.info/resource/ps96_10@1-5">Qui di<lb ed="#K" break="no"/>ligitis 
-                dominum odite malum</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e224">
-              /<ref xml:id="bHY6yh-de2539-Rd1e236">137</ref>
-              <lb ed="#K"/> <quote xml:id="bHY6yh-de2539-Qd1e226" source="http://scta.info/resource/ps118_60@1-10">Paratus sum et non sum turbatus 
-              <lb ed="#K"/>ut custodiam mandata tua</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e232">
-              /<lb ed="#K"/> <ref xml:id="bHY6yh-de2539-Rd1e246">149 psalmus</ref> <quote xml:id="bHY6yh-de2539-Qd1e234" source="http://scta.info/resource/ps118_165@1-10">Pax multa diligenti<lb ed="#K" break="no"/>bus 
-              legem tuam et non est illis 
-              <lb ed="#K"/>scandalum</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e242">
-                <quote xml:id="bHY6yh-de2539-Qd1e244"> <ref xml:id="bHY6yh-de2539-Rd1e261" source="http://scta.info/resource/ps144_20@1-9">176 psalmus</ref>Custo<lb ed="#K" break="no"/>dit
-                dominus omnes diligentes se 
-                <lb ed="#K"/>et omnes peccatores disperdet</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e252">
-               ¶<lb ed="#K"/> <ref xml:id="bHY6yh-de2539-Rd1e273">Regum libro i capitulo 2</ref> <quote xml:id="bHY6yh-de2539-Qd1e256" source="http://scta.info/resource/Isam2_30@32-42">Quicumque ho<lb ed="#K" break="no"/>norificauerit 
-               me glorificabo 
-               <lb ed="#K"/>eum qui autem contemnunt me 
-               <lb ed="#K"/>erunt ignobiles</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e270">
-              <ref xml:id="bHY6yh-de2539-Rd1e293">capitulo 4 omnibus
-              <lb ed="#K"/>Tobie hysto</ref> <quote xml:id="bHY6yh-de2539-Qd1e274" source="http://scta.info/resource/tob4_6@1-9">diebus
-                  <cb ed="#K" n="b"/>
-               <lb ed="#K" n="1"/>vite tue in mente habe dominum</quote> 
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e281">
-                <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de2539-Rd1e306">Iesus filius sirach in ecclesiastico capitulo i</ref> 
-                <lb ed="#K"/> <quote xml:id="bHY6yh-de2539-Qd1e285" source= "http://scta.info/resource/sir1_14@1-4 http://scta.info/resource/sir3_4@1-15">Deus prebet sapientiam diligentibus 
-                <lb ed="#K"/>se ¶ Dilectio dei honorabilis sapientia 
-                <lb ed="#K"/>qui diligit deum exorabit 
-                <lb ed="#K"/>pro peccatis et continebit se ab illis
-                <lb ed="#K"/>et in oratione dierum exaudietur</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e297">
-                <lb ed="#K"/> <ref xml:id="bHY6yh-de2539-Rd1e324">Mattheus in euangelio capitulo 6</ref> <quote xml:id="bHY6yh-de2539-Qd1e301" source="http://scta.info/resource/mt6_24@20-25">Non 
-                <lb ed="#K"/>potestis deo seruire et mamone</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e307">
-                <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de2539-Rd1e334">Idem lucas 16 capitulo</ref> <quote xml:id="bHY6yh-de2539-Qd1e309" source="http://scta.info/resource/mt10_37@1-24">Qui a<lb ed="#K" break="no"/>mat 
-                patrem et matrem plus 
-                <lb ed="#K"/>quam me non est me dignus 
-                <lb ed="#K"/>et amat filium aut filiam supra 
-                <lb ed="#K"/>me noum est dignus</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e319">
-                /<ref xml:id="bHY6yh-de2539-Rd1e349">capitulo
-                <lb ed="#K"/>12</ref> <quote xml:id="bHY6yh-de2539-Qd1e321" source="http://scta.info/resource/mt12_30@1-7 http://scta.info/resource/mt18_20@1-15">Qui non est mecum contra
-                <lb ed="#K"/>me est ubi sunt duo ueltres 
-                <lb ed="#K"/>congregati in nomine meo ego 
-                <lb ed="#K"/>sum in medio eorum</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e331">
-                  /<ref xml:id="bHY6yh-de2539-Rd1e363">capitulo 19</ref> 
-                  <lb ed="#K"/> <quote xml:id="bHY6yh-de2539-Qd1e333" source="http://scta.info/resource/mt19_29@2-28">Omnis qui reliquerit domum 
-                  <lb ed="#K"/>uel fratres aut sorores aut pa<lb ed="#K" break="no"/>trem 
-                  aut vxorem aut matrem aut 
-                  <lb ed="#K"/>filios aut agros propter nomen 
-                  <lb ed="#K"/>meum centuplum accipiet et 
-                  <lb ed="#K"/>vitam eternam possidebit</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e345">
-                ¶<ref xml:id="bHY6yh-de2539-Rd1e379">Idem 
-                <lb ed="#K"/>lucas in euangelio capitulo 18</ref> 
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e354">
-                <ref xml:id="bHY6yh-de2539-Rd1e388">capitulo 22</ref> <quote xml:id="bHY6yh-de2539-Qd1e356" source="http://scta.info/resource/mt22_37@4-21 http://scta.info/resource/mt22_38@1-6 http://scta.info/resource/mt22_39@1-11 http://scta.info/resource/mt22_40@1-9">Dili<lb ed="#K" break="no"/>ges 
-                deum ex toto corde tuo 
-                <lb ed="#K"/>et ex tota anima tua et ex tota
-                <lb ed="#K"/>mente tua hoc est primum et maximum 
-                <lb ed="#K"/>mandatum secundum autem simile est 
-                <lb ed="#K"/>huic Et diliges proximum tuum 
-                <lb ed="#K"/>sicut teipsum tn his duo<lb ed="#K" break="no"/>bus 
-                mandatis tota lex pendet 
-                <lb ed="#K"/>et prophete</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e370">
-                <ref xml:id="bHY6yh-de2539-Rd1e408">Icius capitulo 14 Si di 
-                ¶<lb ed="#K"/>Ioannes diguit</ref> <quote xml:id="bHY6yh-de2539-Qd1e374" source="http://scta.info/resource/io14_15@1-6 http://scta.info/resource/io14_21@1-29">me mandata 
-                <lb ed="#K"/>mea seruate qui habet manda<lb ed="#K" break="no"/>ta 
-                mea et seruat ea ille est 
-                <lb ed="#K"/>qui diligit me qui diligit 
-                <lb ed="#K"/>me diligitur a patre meo et 
-                <lb ed="#K"/>ego diligam eum et manifesta<lb ed="#K" break="no"/>bo 
-                ei me ipsum</quote>
-            </p>   
-            <p xml:id="bHY6yh-de2539-d1e386">
-               /<quote xml:id="bHY6yh-de2539-Qd1e390" source="http://scta.info/resource/io14_23@1-26 http://scta.info/resource/io14_24@1-8 http://scta.info/resource/io14_27@15-20 http://scta.info/resource/io14_28@1-19">Iesus dixit 
-               <lb ed="#K"/>Siquis diligit me sermonem 
-                  <pb ed="#K" n="11-r"/>
-                  <cb ed="#K" n="a"/>
-               <lb ed="#K" n="1"/>meum seruabit et pater meus di<lb ed="#K" break="no"/>liget 
-               eum et ad eum veniemus et 
-              <lb ed="#K"/>mansionem apud eum faciemus 
-              <lb ed="#K"/>Qui non diligit me sermones 
-              <lb ed="#K"/>meos non seruat /Ait isesus discipulis 
-              <lb ed="#K"/>quoniam ascendere appropinquabat non 
-              <lb ed="#K"/>turbetur cor vestrum neque for<lb ed="#K" break="no"/>midet 
-              <lb ed="#K"/>Audiuistis quia dixi  
-              <lb ed="#K"/>vado et venio ad vos si di<lb ed="#K" break="no"/>ligeretis 
-              me gauderetis vtique quia 
-              <lb ed="#K"/>vado ad patrem</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e411">
-              ¶ <ref xml:id="bHY6yh-de2539-Rd1e455">17 capitulo</ref> <quote xml:id="bHY6yh-de2539-Qd1e415" source="http://scta.info/resource/io15_4@1-27 http://scta.info/resource/io15_5@1-23 http://scta.info/resource/io15_6@1-21 http://scta.info/resource/io15_7@1-16 http://scta.info/resource/io15_10@1-8">Ait iesus 
-               <lb ed="#K"/>discipulis suis manete in me et 
-               <lb ed="#K"/>ego in vobis Sicut palmes non 
-               <lb ed="#K"/>potest facere fructum a semet ipso nisi 
-               <lb ed="#K"/>manserit in vite sic nec vos nisi 
-               <lb ed="#K"/>in me manseritis Ego sum vitis vos 
-               <lb ed="#K"/>autem palmites qui manet in me 
-               <lb ed="#K"/>et ego in eum hic fert fructum 
-               <lb ed="#K"/>multum quia sine me nihil potestis 
-               <lb ed="#K"/>facere si quis in me non manserit 
-               <lb ed="#K"/>mittetur foras sicut palmes 
-               <lb ed="#K"/>et arescet et colligent eum et in ignem 
-               <lb ed="#K"/>mittent et ardet si manseritis in 
-               <lb ed="#K"/>me et verba mea in vobis man<lb ed="#K" break="no"/>serint 
-               quodcumque volueritis 
-               <lb ed="#K"/>petetis et fiet vobis ait iesus 
-               <lb ed="#K"/>Si precepta mea seruaueritis mane<lb ed="#K" break="no"/>bitis 
-               in dilectione mea</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e449">
-              omitted 
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e468">
-                <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de2539-Rd1e510">Iohannes apostolus epistola vnica capitulo 
-                <lb ed="#K"/>2</ref> <quote xml:id="bHY6yh-de2539-Qd1e472" source="http://scta.info/resource/Iio4_20@1-12 http://scta.info/resource/Iio4_21@2-14 ">Siquis dixerit diligo deum 
-                <lb ed="#K"/>et fratrem suum oderit mendax est 
-                <lb ed="#K"/>hoc mandatum habemus a deo ut 
-                <lb ed="#K"/>qui diligit deum diligat et si eorum patrem 
-                <lb ed="#K"/>suum</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e484">
-              <ref xml:id="bHY6yh-de2539-Rd1e527">capitulo 5 et fi</ref> <quote xml:id="bHY6yh-de2539-Qd1e486" source="http://scta.info/resource/Iio5_3@1-9">hec est charitas dei
-              <lb ed="#K"/>ut mandata eius custodiamus</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e492"> 
-                <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de2539-Rd1e539">Paulus apostolus ad romanos capitulo 8</ref> 
-                <lb ed="#K"/> <quote xml:id="bHY6yh-de2539-Qd1e496" source="http://scta.info/resource/rom8_28@4-9">diligentibus deum omnia cooperan<lb ed="#K" break="no"/>tur 
-                in bonum</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e504">
-                ¶<ref xml:id="bHY6yh-de2539-Rd1e552">Idem apostolus epistola i 
-                <lb ed="#K"/>ad corinthios capitulo 10</ref> <quote xml:id="bHY6yh-de2539-Qd1e514" source="http://scta.info/resource/Icor10_21@1-9">Non potestis mensae 
-                <lb ed="#K"/>domini participes esse et mense 
-                <lb ed="#K"/>de moniorum</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e522">
-              <lb ed="#K"/> <ref xml:id="bHY6yh-de2539-Rd1e567">Idem epistola ad thy capitulo i</ref>
-              <lb ed="#K"/> <quote>Quicunque totam legem obseruauerit offenderit 
-              <lb ed="#K"/>autem in uno factus omnium est reus exempla de re indestereat</quote> 
-              <lb ed="#K"/> <ref>Iohannes evangelista epistola prima capitulo 4</ref>
-                  <cb ed="#K" n="b"/>
-              <lb ed="#K" n="1"/> <quote xml:id="bHY6yh-de2539-Qd1e524" source="http://scta.info/resource/Itim1_5@1-15">finis precepti est charitas 
-              <lb ed="#K"/>de corde puro et conscientia pura et fide non 
-              <lb ed="#K"/>ficta</quote>
-            </p>
-            <p xml:id="bHY6yh-de2539-d1e533">
-                ¶<ref xml:id="bHY6yh-de2539-Rd1e582">Auctor li de for ho<lb ed="#K" break="no"/>min 
-                vite capitulo 5</ref> /<quote xml:id="bHY6yh-de2539-Qd1e537">amabis deum 
-                <lb ed="#K"/>si illum in hoc imitaberis 
-                <lb ed="#K"/>ut velis omnibus prodesse nulli nocere
-                <lb ed="#K"/>et tunc te iustum virum appellabunt 
-                <lb ed="#K"/>omnes sequentur venerabuntur et di<lb ed="#K" break="no"/>ligent 
-                sicque merito iustus 
-                <lb ed="#K"/>appellaberis</quote>
-            </p>
-         </div>
-      </body>
-   </text>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e183">
+          <quote xml:id="bHY6yh-de2539-Qd1e185" source="http://scta.info/resource/ps36_5@1-8 http://scta.info/resource/ps36_7@1-6">Re<lb ed="#K" break="no" n="18"/>uela
+            domino viam tuam et spera 
+            <lb ed="#K" n="19"/>in eo Subditus esto domino 
+            <lb ed="#K" n="20"/>et ora eum apud dum gressus 
+            <lb ed="#K" n="21"/>hominus dirigentur et viam eius 
+            <lb ed="#K" n="22"/>volet cum ceciderit non colli<lb ed="#K" break="no" n="23"/>detur 
+            quia dominus supponit manum 
+            <lb ed="#K" n="24"/>suam</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e197">
+          /<ref xml:id="bHY6yh-de2539-Rd1e204">49 psalmus</ref> <quote xml:id="bHY6yh-de2539-Qd1e201" source="http://scta.info/resource/ps49_14@1-4">Imola deo sa<lb ed="#K" break="no" n="25"/>crificium 
+            laudis</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e205">
+          /<ref xml:id="bHY6yh-de2539-Rd1e212">54 psalmus</ref> <quote xml:id="bHY6yh-de2539-Qd1e207" source="http://scta.info/resource/ps54_23@1-9">Iacta 
+            <lb ed="#K" n="26"/>in deus curam tuam et ipse 
+            <lb ed="#K" n="27"/>te enutriet</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e216">
+          /<ref xml:id="bHY6yh-de2539-Rd1e226">166 psalmus</ref> <quote xml:id="bHY6yh-de2539-Qd1e218" source="http://scta.info/resource/ps96_10@1-5">Qui di<lb ed="#K" break="no" n="28"/>ligitis 
+            dominum odite malum</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e224">
+          /<ref xml:id="bHY6yh-de2539-Rd1e236">137</ref>
+          <lb ed="#K" n="29"/> <quote xml:id="bHY6yh-de2539-Qd1e226" source="http://scta.info/resource/ps118_60@1-10">Paratus sum et non sum turbatus 
+            <lb ed="#K" n="30"/>ut custodiam mandata tua</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e232">
+          /<lb ed="#K" n="31"/> <ref xml:id="bHY6yh-de2539-Rd1e246">149 psalmus</ref> <quote xml:id="bHY6yh-de2539-Qd1e234" source="http://scta.info/resource/ps118_165@1-10">Pax multa diligenti<lb ed="#K" break="no" n="32"/>bus 
+            legem tuam et non est illis 
+            <lb ed="#K" n="33"/>scandalum</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e242">
+          <quote xml:id="bHY6yh-de2539-Qd1e244"> <ref xml:id="bHY6yh-de2539-Rd1e261" source="http://scta.info/resource/ps144_20@1-9">176 psalmus</ref>Custo<lb ed="#K" break="no" n="34"/>dit
+            dominus omnes diligentes se 
+            <lb ed="#K" n="35"/>et omnes peccatores disperdet</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e252">
+          ¶ <lb ed="#K" n="36"/> <ref xml:id="bHY6yh-de2539-Rd1e273">Regum libro i capitulo 2</ref> <quote xml:id="bHY6yh-de2539-Qd1e256" source="http://scta.info/resource/Isam2_30@32-42">Quicumque ho<lb ed="#K" break="no" n="37"/>norificauerit 
+            me glorificabo 
+            <lb ed="#K" n="38"/>eum qui autem contemnunt me 
+            <lb ed="#K" n="39"/>erunt ignobiles</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e270">
+          <ref xml:id="bHY6yh-de2539-Rd1e293">capitulo 4 omnibus
+            <lb ed="#K" n="40"/>Tobie hysto</ref> <quote xml:id="bHY6yh-de2539-Qd1e274" source="http://scta.info/resource/tob4_6@1-9">diebus
+              <cb ed="#K" n="b"/>
+              <lb ed="#K" n="41"/>vite tue in mente habe dominum</quote> 
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e281">
+          <lb ed="#K" n="42"/> ¶ <ref xml:id="bHY6yh-de2539-Rd1e306">Iesus filius sirach in ecclesiastico capitulo i</ref> 
+          <lb ed="#K" n="43"/> <quote xml:id="bHY6yh-de2539-Qd1e285" source="http://scta.info/resource/sir1_14@1-4 http://scta.info/resource/sir3_4@1-15">Deus prebet sapientiam diligentibus 
+            <lb ed="#K" n="44"/>se ¶ Dilectio dei honorabilis sapientia 
+            <lb ed="#K" n="45"/>qui diligit deum exorabit 
+            <lb ed="#K" n="46"/>pro peccatis et continebit se ab illis
+            <lb ed="#K" n="47"/>et in oratione dierum exaudietur</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e297">
+          <lb ed="#K" n="48"/> <ref xml:id="bHY6yh-de2539-Rd1e324">Mattheus in euangelio capitulo 6</ref> <quote xml:id="bHY6yh-de2539-Qd1e301" source="http://scta.info/resource/mt6_24@20-25">Non 
+            <lb ed="#K" n="49"/>potestis deo seruire et mamone</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e307">
+          <lb ed="#K" n="50"/> ¶ <ref xml:id="bHY6yh-de2539-Rd1e334">Idem lucas 16 capitulo</ref> <quote xml:id="bHY6yh-de2539-Qd1e309" source="http://scta.info/resource/mt10_37@1-24">Qui a<lb ed="#K" break="no" n="51"/>mat 
+            patrem et matrem plus 
+            <lb ed="#K" n="52"/>quam me non est me dignus 
+            <lb ed="#K" n="53"/>et amat filium aut filiam supra 
+            <lb ed="#K" n="54"/>me noum est dignus</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e319">
+          /<ref xml:id="bHY6yh-de2539-Rd1e349">capitulo
+            <lb ed="#K" n="55"/>12</ref> <quote xml:id="bHY6yh-de2539-Qd1e321" source="http://scta.info/resource/mt12_30@1-7 http://scta.info/resource/mt18_20@1-15">Qui non est mecum contra
+              <lb ed="#K" n="56"/>me est ubi sunt duo ueltres 
+              <lb ed="#K" n="57"/>congregati in nomine meo ego 
+              <lb ed="#K" n="58"/>sum in medio eorum</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e331">
+          /<ref xml:id="bHY6yh-de2539-Rd1e363">capitulo 19</ref> 
+          <lb ed="#K" n="59"/> <quote xml:id="bHY6yh-de2539-Qd1e333" source="http://scta.info/resource/mt19_29@2-28">Omnis qui reliquerit domum 
+            <lb ed="#K" n="60"/>uel fratres aut sorores aut pa<lb ed="#K" break="no" n="61"/>trem 
+            aut vxorem aut matrem aut 
+            <lb ed="#K" n="62"/>filios aut agros propter nomen 
+            <lb ed="#K" n="63"/>meum centuplum accipiet et 
+            <lb ed="#K" n="64"/>vitam eternam possidebit</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e345">
+          ¶ <ref xml:id="bHY6yh-de2539-Rd1e379">Idem 
+            <lb ed="#K" n="65"/>lucas in euangelio capitulo 18</ref> 
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e354">
+          <ref xml:id="bHY6yh-de2539-Rd1e388">capitulo 22</ref> <quote xml:id="bHY6yh-de2539-Qd1e356" source="http://scta.info/resource/mt22_37@4-21 http://scta.info/resource/mt22_38@1-6 http://scta.info/resource/mt22_39@1-11 http://scta.info/resource/mt22_40@1-9">Dili<lb ed="#K" break="no" n="66"/>ges 
+            deum ex toto corde tuo 
+            <lb ed="#K" n="67"/>et ex tota anima tua et ex tota
+            <lb ed="#K" n="68"/>mente tua hoc est primum et maximum 
+            <lb ed="#K" n="69"/>mandatum secundum autem simile est 
+            <lb ed="#K" n="70"/>huic Et diliges proximum tuum 
+            <lb ed="#K" n="71"/>sicut teipsum tn his duo<lb ed="#K" break="no" n="72"/>bus 
+            mandatis tota lex pendet 
+            <lb ed="#K" n="73"/>et prophete</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e370">
+          <ref xml:id="bHY6yh-de2539-Rd1e408">Icius capitulo 14 Si di 
+            ¶ <lb ed="#K" n="74"/>Ioannes diguit</ref> <quote xml:id="bHY6yh-de2539-Qd1e374" source="http://scta.info/resource/io14_15@1-6 http://scta.info/resource/io14_21@1-29">me mandata 
+              <lb ed="#K" n="75"/>mea seruate qui habet manda<lb ed="#K" break="no" n="76"/>ta 
+              mea et seruat ea ille est 
+              <lb ed="#K" n="77"/>qui diligit me qui diligit 
+              <lb ed="#K" n="78"/>me diligitur a patre meo et 
+              <lb ed="#K" n="79"/>ego diligam eum et manifesta<lb ed="#K" break="no" n="80"/>bo 
+              ei me ipsum</quote>
+        </p>   
+        <p xml:id="bHY6yh-de2539-d1e386">
+          /<quote xml:id="bHY6yh-de2539-Qd1e390" source="http://scta.info/resource/io14_23@1-26 http://scta.info/resource/io14_24@1-8 http://scta.info/resource/io14_27@15-20 http://scta.info/resource/io14_28@1-19">Iesus dixit 
+            <lb ed="#K" n="81"/>Siquis diligit me sermonem 
+            <pb ed="#K" n="11-r"/>
+            <cb ed="#K" n="a"/>
+            <lb ed="#K" n="1"/>meum seruabit et pater meus di<lb ed="#K" break="no" n="2"/>liget 
+            eum et ad eum veniemus et 
+            <lb ed="#K" n="3"/>mansionem apud eum faciemus 
+            <lb ed="#K" n="4"/>Qui non diligit me sermones 
+            <lb ed="#K" n="5"/>meos non seruat /Ait isesus discipulis 
+            <lb ed="#K" n="6"/>quoniam ascendere appropinquabat non 
+            <lb ed="#K" n="7"/>turbetur cor vestrum neque for<lb ed="#K" break="no" n="8"/>midet 
+            Audiuistis quia dixi  
+            <lb ed="#K" n="9"/>vado et venio ad vos si di<lb ed="#K" break="no" n="10"/>ligeretis 
+            me gauderetis vtique quia 
+            <lb ed="#K" n="11"/>vado ad patrem</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e411">
+          ¶ <ref xml:id="bHY6yh-de2539-Rd1e455">17 capitulo</ref> <quote xml:id="bHY6yh-de2539-Qd1e415" source="http://scta.info/resource/io15_4@1-27 http://scta.info/resource/io15_5@1-23 http://scta.info/resource/io15_6@1-21 http://scta.info/resource/io15_7@1-16 http://scta.info/resource/io15_10@1-8">Ait iesus 
+            <lb ed="#K" n="12"/>discipulis suis manete in me et 
+            <lb ed="#K" n="13"/>ego in vobis Sicut palmes non 
+            <lb ed="#K" n="14"/>potest facere fructum a semet ipso nisi 
+            <lb ed="#K" n="15"/>manserit in vite sic nec vos nisi 
+            <lb ed="#K" n="16"/>in me manseritis Ego sum vitis vos 
+            <lb ed="#K" n="17"/>autem palmites qui manet in me 
+            <lb ed="#K" n="18"/>et ego in eum hic fert fructum 
+            <lb ed="#K" n="19"/>multum quia sine me nihil potestis 
+            <lb ed="#K" n="20"/>facere si quis in me non manserit 
+            <lb ed="#K" n="21"/>mittetur foras sicut palmes 
+            <lb ed="#K" n="22"/>et arescet et colligent eum et in ignem 
+            <lb ed="#K" n="23"/>mittent et ardet si manseritis in 
+            <lb ed="#K" n="24"/>me et verba mea in vobis man<lb ed="#K" break="no" n="25"/>serint 
+            quodcumque volueritis 
+            <lb ed="#K" n="26"/>petetis et fiet vobis ait iesus 
+            <lb ed="#K" n="27"/>Si precepta mea seruaueritis mane<lb ed="#K" break="no" n="28"/>bitis 
+            in dilectione mea</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e449">
+          omitted 
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e468">
+          <lb ed="#K" n="29"/> ¶ <ref xml:id="bHY6yh-de2539-Rd1e510">Iohannes apostolus epistola vnica capitulo 
+            <lb ed="#K" n="30"/>2</ref> <quote xml:id="bHY6yh-de2539-Qd1e472" source="http://scta.info/resource/Iio4_20@1-12 http://scta.info/resource/Iio4_21@2-14 ">Siquis dixerit diligo deum 
+              <lb ed="#K" n="31"/>et fratrem suum oderit mendax est 
+              <lb ed="#K" n="32"/>hoc mandatum habemus a deo ut 
+              <lb ed="#K" n="33"/>qui diligit deum diligat et si eorum patrem 
+              <lb ed="#K" n="34"/>suum</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e484">
+          <ref xml:id="bHY6yh-de2539-Rd1e527">capitulo 5 et fi</ref> <quote xml:id="bHY6yh-de2539-Qd1e486" source="http://scta.info/resource/Iio5_3@1-9">hec est charitas dei
+            <lb ed="#K" n="35"/>ut mandata eius custodiamus</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e492"> 
+          <lb ed="#K" n="36"/> ¶ <ref xml:id="bHY6yh-de2539-Rd1e539">Paulus apostolus ad romanos capitulo 8</ref> 
+          <lb ed="#K" n="37"/> <quote xml:id="bHY6yh-de2539-Qd1e496" source="http://scta.info/resource/rom8_28@4-9">diligentibus deum omnia cooperan<lb ed="#K" break="no" n="38"/>tur 
+            in bonum</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e504">
+          ¶ <ref xml:id="bHY6yh-de2539-Rd1e552">Idem apostolus epistola i 
+            <lb ed="#K" n="39"/>ad corinthios capitulo 10</ref> <quote xml:id="bHY6yh-de2539-Qd1e514" source="http://scta.info/resource/Icor10_21@1-9">Non potestis mensae 
+              <lb ed="#K" n="40"/>domini participes esse et mense 
+              <lb ed="#K" n="41"/>daemoniorum</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e522">
+          <ref xml:id="bHY6yh-de2539-Rd1e567">Idem epistola ad thy capitulo i</ref>
+          <lb ed="#K" n="42"/> <quote>Quicunque totam legem obseruauerit offenderit 
+            <lb ed="#K" n="43"/>autem in uno factus omnium est reus exempla de re indestereat</quote> 
+          <lb ed="#K" n="44"/> <ref>Iohannes evangelista epistola prima capitulo 4</ref>
+          <cb ed="#K" n="b"/>
+          <lb ed="#K" n="45"/> <quote xml:id="bHY6yh-de2539-Qd1e524" source="http://scta.info/resource/Itim1_5@1-15">finis precepti est charitas 
+            <lb ed="#K" n="46"/>de corde puro et conscientia pura et fide non 
+            <lb ed="#K" n="47"/>ficta</quote>
+        </p>
+        <p xml:id="bHY6yh-de2539-d1e533">
+          ¶ <ref xml:id="bHY6yh-de2539-Rd1e582">Auctor li de for ho<lb ed="#K" break="no" n="48"/>min 
+            vite capitulo 5</ref> /<quote xml:id="bHY6yh-de2539-Qd1e537">amabis deum 
+              <lb ed="#K" n="49"/>si illum in hoc imitaberis 
+              <lb ed="#K" n="50"/>ut velis omnibus prodesse nulli nocere
+              <lb ed="#K" n="51"/>et tunc te iustum virum appellabunt 
+              <lb ed="#K" n="52"/>omnes sequentur venerabuntur et di<lb ed="#K" break="no" n="53"/>ligent 
+              sicque merito iustus 
+              <lb ed="#K" n="54"/>appellaberis</quote>
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

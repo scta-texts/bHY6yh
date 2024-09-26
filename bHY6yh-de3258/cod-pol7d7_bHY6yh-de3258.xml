@@ -1,242 +1,244 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Rubrica 12 [Krakow, lat 700 III Transcription]</title>
-            <author ref="#per-c7y65a">Geremia da Montagnone</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <name>Katrina Vander Ahe</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Rubrica 12 [Krakow, lat 700 III Transcription]</title>
-               <date when="2022-05-27">May 27, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-05-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#K" n="11-v"/>
-            <cb ed="#K" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="bHY6yh-de3258">
-           <lb ed="#K"/> <head xml:id="bHY6yh-de3258-Hd1e111" type="question-title">De timore dei/rubrica 12</head>
-            <p xml:id="bHY6yh-de3258-d1e114">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 12 [Krakow, lat 700 III Transcription]</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Katrina Vander Ahe</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 12 [Krakow, lat 700 III Transcription]</title>
+          <date when="2022-05-27">May 27, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
           </p>
-            <p xml:id="bHY6yh-de3258-d1e119">
-               <lb ed="#K" n="15"/> ¶<ref xml:id="bHY6yh-de3258-Rd1e116">Iob hystoria capitulo 28</ref> <quote xml:id="bHY6yh-de3258-Qd1e123" source="http://scta.info/resource/iob28_28@5-9">Timor
-               <lb ed="#K"/>domini ipse est sapientia</quote> 
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e129">
-               <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de3258-Rd1e128">Moyses in deuteronomio capitulo 6</ref> <quote xml:id="bHY6yh-de3258-Qd1e133" source="http://scta.info/resource/deut6_2@2-12">Timeas dominum 
-               <lb ed="#K"/>deum tuum et custodias man<lb ed="#K" break="no"/>data 
-               et precepta eius</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e142">
-                  <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de3258-Rd1e144">psalmista 2 pslamus</ref> <quote xml:id="bHY6yh-de3258-Qd1e146" source="http://scta.info/resource/ps2_11@1-9">seruite domino timore 
-                  <lb ed="#K"/>et exultate ei cum tremore</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e152"> 
-                <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de3258-Rd1e154">psalmus 24</ref> <quote xml:id="bHY6yh-de3258-Qd1e154" source="http://scta.info/resource/ps24_14@1-5">Firmamentum est dominus 
-                <lb ed="#K"/>timentibus eum</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e160"> 
-                  /<ref xml:id="bHY6yh-de3258-Rd1e164">psalmus 32</ref> <quote xml:id="bHY6yh-de3258-Qd1e162" source="http://scta.info/resource/sir34_19@1-5">Oculi 
-                  <lb ed="#K"/>domini super timentes eum</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e168"> 
-                  /<ref xml:id="bHY6yh-de3258-Rd1e173">88 psalmus</ref> 
-                  <lb ed="#K"/> <quote xml:id="bHY6yh-de3258-Qd1e170" source="http://scta.info/resource/ps84_10@2-6">prope timentes deum salutare 
-                  <lb ed="#K"/>ipsius</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e176">
-                /<ref xml:id="bHY6yh-de3258-Rd1e183">psalmus 102</ref> <quote xml:id="bHY6yh-de3258-Qd1e178" source="http://scta.info/resource/ps102_17@1-12">Misericordia domini 
-                <lb ed="#K"/>ab eterno et vsque in eternum super 
-                <lb ed="#K"/>timentes eum</quote> 
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e186">
-                /<quote xml:id="bHY6yh-de3258-Qd1e188" source="http://scta.info/resource/ps110_10@1-4">Idem 110 Initium 
-                <lb ed="#K"/>sapientie timor domini</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e195">
-                <ref xml:id="bHY6yh-de3258-Rd1e204">Idem ¶ capitulo xi 
-                <lb ed="#K"/>psalmus</ref> /<quote xml:id="bHY6yh-de3258-Qd1e197" source="http://scta.info/resource/ps111_1@6-10">Beatus vir qui timet dominum
-                <lb ed="#K"/>in inaudit eius ualet mimmimum</quote> 
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e203">
-              <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de3258-Rd1e214">Idem 148 psalmus</ref> <quote xml:id="bHY6yh-de3258-Qd1e205" source="http://scta.info/resource/ps127_1@3-12">Beati omnes qui ti<lb ed="#K" break="no"/>ment
-              dominum qui ambulant in 
-              <lb ed="#K"/>viis eius</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e211">
-                ¶<ref xml:id="bHY6yh-de3258-Rd1e224">Idem 164</ref> <quote xml:id="bHY6yh-de3258-Qd1e213" source="http://scta.info/resource/ps144_19@1-12">volun<lb ed="#K" break="no"/>tatem 
-                timentium se faciet dominum 
-                <lb ed="#K"/>et depcationem eorum exaudiet 
-                <lb ed="#K"/>et saluos faciet eos</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e221">
-                ¶<ref xml:id="bHY6yh-de3258-Rd1e236">Idem 
-                <lb ed="#K"/>167</ref> <quote xml:id="bHY6yh-de3258-Qd1e223" source="http://scta.info/resource/ps146_11@1-6">Beneplacitum est domino super 
-                <lb ed="#K"/>timentes eum et et instus qui super <!--this should be double checked-->
-                <lb ed="#K"/>super minam eius</quote> 
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e229">
-                  <pb ed="#K" n="12-r"/>
-                  <cb ed="#K" n="a"/>
-               <lb ed="#K" n="1"/> <ref xml:id="bHY6yh-de3258-Rd1e248">Salomon in prouerb capitulo 3</ref> <quote xml:id="bHY6yh-de3258-Qd1e233" source="http://scta.info/resource/prov3_7@7-12">Time deum
-               <lb ed="#K"/>et recede a malo</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e239">
-                /<quote xml:id="bHY6yh-de3258-Qd1e241" source="http://scta.info/resource/prov8_13@1-14">timor domini 
-                <lb ed="#K"/>odit malum arrogantiam et super<lb ed="#K" break="no"/>biam 
-                et viam prauam et os bilingue 
-                <lb ed="#K"/>detestatur</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e250">
-                /<ref xml:id="bHY6yh-de3258-Rd1e269">Idem capitulo 15</ref> <quote xml:id="bHY6yh-de3258-Qd1e252" source="http://scta.info/resource/prov15_33@1-4">Timor 
-                <lb ed="#K"/>domini disciplia sapiente</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e256">
-                <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de3258-Rd1e279">Idem 16 capitulo</ref> <quote xml:id="bHY6yh-de3258-Qd1e260" source="http://scta.info/resource/prov16_6@8-12">Timore domini declinatur 
-                <lb ed="#K"/>a malo</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e264">
-                ¶<ref xml:id="bHY6yh-de3258-Rd1e287">Idem 24 capitulo</ref> <quote xml:id="bHY6yh-de3258-Qd1e266" source="http://scta.info/resource/prov24_21@1-6">Time dominum 
-                <lb ed="#K"/>fili mi et regem</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e272">
-                  /<ref xml:id="bHY6yh-de3258-Rd1e297">Idem in ecclesiastico 
-                  <lb ed="#K"/>capitulo</ref> <quote xml:id="bHY6yh-de3258-Qd1e274" source="http://scta.info/resource/sir34_16@1-5">Qui timet dominum nihil 
-                  <lb ed="#K"/>negligit</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e280">
-                /<ref xml:id="bHY6yh-de3258-Rd1e310">Idem 12 capitulo et fi</ref> <quote xml:id="bHY6yh-de3258-Qd1e284" source="http://scta.info/resource/qoh12_13@6-16">De<lb ed="#K" break="no"/>um 
-                time et mandatum eius obserua 
-                <lb ed="#K"/>hoc est enim omnis homo multa</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e290">
-                <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de3258-Rd1e322">Tobie hysto capitulo 4</ref> <quote xml:id="bHY6yh-de3258-Qd1e294" source="http://scta.info/resource/tob4_23@10-23">bona 
-                <lb ed="#K"/>habebimus si timuerimus deum et 
-                <lb ed="#K"/>recesserimus ab omni peccato et 
-                <lb ed="#K"/>fecerimus bene exhortationibus</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e303">
-              <lb ed="#K"/> /<ref xml:id="bHY6yh-de3258-Rd1e335">Socrates circa princi 
-              <lb ed="#K"/>capitulo 2</ref> <quote xml:id="bHY6yh-de3258-Qd1e305">Deum quidem verere</quote> <!--check this-->
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e311">
-                <lb ed="#K"/> <ref xml:id="bHY6yh-de3258-Rd1e348">Iesus filius sirach in eccle capitulo i</ref> 
-                <lb ed="#K"/> <quote xml:id="bHY6yh-de3258-Qd1e315" source="http://scta.info/resource/sir1_11@1-10 http://scta.info/resource/sir1_12@1-12">Timor domini gloria et gloratio 
-                <lb ed="#K"/>et letitia et corona exultationis timor 
-                <lb ed="#K"/>domini delectabit cor et dabit 
-                <lb ed="#K"/>letitiam et gaudium et longitudinem 
-                <lb ed="#K"/>dinem dierum</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e325">
-                /<quote xml:id="bHY6yh-de3258-Qd1e327" source="http://scta.info/resource/sir1_13@1-12">Idem timenti deum
-                <lb ed="#K"/>bene erit in extremis et in
-                <lb ed="#K"/>die defunctionis suc benedicetur</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e335">
-                  <lb ed="#K"/> ¶<quote xml:id="bHY6yh-de3258-Qd1e337" source="http://scta.info/resource/sir1_17@1-4 http://scta.info/resource/sir1_18@1-5">Idem timor domini scientiae religi<lb ed="#K" break="no"/>ositas 
-                  custodiet et iustifi<lb ed="#K" break="no"/>cabit 
-                  <lb ed="#K"/>cor</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e343">
-                ¶<quote xml:id="bHY6yh-de3258-Qd1e345" source="http://scta.info/resource/sir1_19@1-10">Idem timenti de<lb ed="#K" break="no"/>um 
-                bene erit et in diebus consummationis 
-                <lb ed="#K"/>illius benedicetur</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e359">
-              ¶<quote xml:id="bHY6yh-de3258-Qd1e361" source="http://scta.info/resource/sir1_22@1-9">Idem coro<lb ed="#K" break="no"/>na 
-              sapientiae timor domini replens 
-              <lb ed="#K"/>deus pacem et saluti fructum</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e368">
-                  ¶ <lb ed="#K"/> <quote xml:id="bHY6yh-de3258-Qd1e370" source="http://scta.info/resource/sir1_27@1-4">Idem timor domini expellit peccatum</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e376">
-                <lb ed="#K"/> ¶<ref>Idem capitulo 3</ref> <quote xml:id="bHY6yh-de3258-Qd1e378" source="http://scta.info/resource/sir3_8@1-14">Qui timet dominum hono<lb ed="#K" break="no"/>rat 
-                parentes et quisi dominis fu<lb ed="#K" break="no"/>iet 
-                is qui se genuerunt</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e384">
-                <lb ed="#K"/>  ¶<ref xml:id="bHY6yh-de3258-Rd1e421">Idem capitulo 7</ref> <quote xml:id="bHY6yh-de3258-Qd1e386" source="http://scta.info/resource/sir7_31@1-10">In tota anima tua 
-                <lb ed="#K"/>time deum et sacerdotes illius 
-                 <cb ed="#K" n="b"/>
-                 sa<lb ed="#K" n="1" break="no"/>crifica</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e394">
-                /<ref xml:id="bHY6yh-de3258-Rd1e434">Idem 33 capitulo</ref> <quote xml:id="bHY6yh-de3258-Qd1e396" source="http://scta.info/resource/sir33_1@1-15">Timenti 
-                <lb ed="#K"/>deum non occurrent mala sed 
-                <lb ed="#K"/>in tentatione illum deus confuat et li<lb ed="#K" break="no"/>berat 
-                a malis</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e404">
-                /<ref xml:id="bHY6yh-de3258-Rd1e446">Idem 34 capitulo</ref> <quote xml:id="bHY6yh-de3258-Qd1e406" source="http://scta.info/resource/sir25_16@1-5">Timor 
-                dei initium dilectionis eius</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e412">
-                <lb ed="#K"/> <ref xml:id="bHY6yh-de3258-Rd1e458">lucas in euange 12 capitulo</ref> <quote xml:id="bHY6yh-de3258-Qd1e416" source="http://scta.info/resource/lc12_5@6-15">Timete 
-                <lb ed="#K"/>eum qui post quam occiderit habet 
-                <lb ed="#K"/>potantem mittere in gehenam</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e423">
-                <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de3258-Rd1e471">Petrus apostolus epistola i</ref> <quote xml:id="bHY6yh-de3258-Qd1e427" source="http://scta.info/resource/Ipetr2_17@5-6">Deum timete</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e431">
-              <lb ed="#K"/> ¶<ref xml:id="bHY6yh-de3258-Rd1e481">Augustinus in epigramatibus prospi epistola  
-              <lb ed="#K"/>71</ref> <quote xml:id="bHY6yh-de3258-Qd1e435">Deus sic timendus est ut ab 
-              <lb ed="#K"/>ipo fugiatur ad ipsum</quote>
-            </p>
-            <p xml:id="bHY6yh-de3258-d1e441">
-                <ref xml:id="bHY6yh-de3258-Rd1e492">libro 9 epistola
-                ¶ Cassiodorus epistolarum 27</ref> <quote xml:id="bHY6yh-de3258-Qd1e445">Semper 
-                <lb ed="#K"/>bene geritur si celestis metus 
-                <lb ed="#K"/>humanis moribus apponitur 
-                <lb ed="#K"/>hinc etenim virtutum omnium sumitur 
-                <lb ed="#K"/>agnitio hinc sapientia veritatis sa<lb ed="#K" break="no"/>pore 
-                conditur</quote>
-            </p>
-         </div>
-      </body>
-   </text>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="K" n="cod-pol7d7">Krakow, Biblioteka Jagiellonska, MS lat. 700 III (CC.VIII.25)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#K" n="11-v"/>
+        <cb ed="#K" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-de3258">
+        <head xml:id="bHY6yh-de3258-Hd1e108">Rubrica 12</head>
+        <head xml:id="bHY6yh-de3258-Hd1e111" type="question-title">De timore Dei</head>
+        <p xml:id="bHY6yh-de3258-d1e114">
+          <lb ed="#K" n="55"/> De timore dei / rubrica 12
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e119">
+          <lb ed="#K" n="56"/> ¶ <ref xml:id="bHY6yh-de3258-Rd1e116">Iob hystoria capitulo 28</ref> <quote xml:id="bHY6yh-de3258-Qd1e123">Timor
+            <lb ed="#K" n="57"/>domini ipse est sapientia</quote> 
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e129">
+          <lb ed="#K" n="58"/> ¶ <ref xml:id="bHY6yh-de3258-Rd1e128">Moyses in deuteronomio capitulo 6</ref> <quote xml:id="bHY6yh-de3258-Qd1e133">Timeas dominum 
+            <lb ed="#K" n="59"/>deum tuum et custodias man<lb ed="#K" break="no" n="60"/>data 
+            et precepta eius</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e142">
+          <lb ed="#K" n="61"/> ¶ <ref xml:id="bHY6yh-de3258-Rd1e144">psalmista 2 pslamus</ref> <quote xml:id="bHY6yh-de3258-Qd1e146">seruite domino timore 
+            <lb ed="#K" n="62"/>et exultate ei cum tremore</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e152"> 
+          <lb ed="#K" n="63"/> ¶ <ref xml:id="bHY6yh-de3258-Rd1e154">psalmus 24</ref> <quote xml:id="bHY6yh-de3258-Qd1e154">Firmamentum est dominus 
+            <lb ed="#K" n="64"/>timentibus eum</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e160"> 
+          /<ref xml:id="bHY6yh-de3258-Rd1e164">psalmus 32</ref> <quote xml:id="bHY6yh-de3258-Qd1e162">Oculi 
+            <lb ed="#K" n="65"/>domini super timentes eum</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e168"> 
+          /<ref xml:id="bHY6yh-de3258-Rd1e173">88 psalmus</ref> 
+          <lb ed="#K" n="66"/> <quote xml:id="bHY6yh-de3258-Qd1e170">prope timentes deum salutare 
+            <lb ed="#K" n="67"/>ipsius</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e176">
+          /<ref xml:id="bHY6yh-de3258-Rd1e183">psalmus 102</ref> <quote xml:id="bHY6yh-de3258-Qd1e178">Misericordia domini 
+            <lb ed="#K" n="68"/>ab eterno et vsque in eternum super 
+            <lb ed="#K" n="69"/>timentes eum</quote> 
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e186">
+          /<quote xml:id="bHY6yh-de3258-Qd1e188">Idem 110 Initium 
+            <lb ed="#K" n="70"/>sapientie timor domini</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e195">
+          <ref xml:id="bHY6yh-de3258-Rd1e204">Idem ¶ capitulo xi 
+            <lb ed="#K" n="71"/>psalmus</ref> /<quote xml:id="bHY6yh-de3258-Qd1e197">Beatus vir qui timet dominum
+              <lb ed="#K" n="72"/>in inaudit eius ualet mimmimum</quote> 
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e203">
+          <lb ed="#K" n="73"/> ¶ <ref xml:id="bHY6yh-de3258-Rd1e214">Idem 148 psalmus</ref> <quote xml:id="bHY6yh-de3258-Qd1e205">Beati omnes qui ti<lb ed="#K" break="no" n="74"/>ment
+            dominum qui ambulant in 
+            <lb ed="#K" n="75"/>viis eius</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e211">
+          ¶ <ref xml:id="bHY6yh-de3258-Rd1e224">Idem 164</ref> <quote xml:id="bHY6yh-de3258-Qd1e213">volun<lb ed="#K" break="no" n="76"/>tatem 
+            timentium se faciet dominum 
+            <lb ed="#K" n="77"/>et depcationem eorum exaudiet 
+            <lb ed="#K" n="78"/>et saluos faciet eos</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e221">
+          ¶ <ref xml:id="bHY6yh-de3258-Rd1e236">Idem 
+            <lb ed="#K" n="79"/>167</ref> <quote xml:id="bHY6yh-de3258-Qd1e223">Beneplacitum est domino super 
+              <lb ed="#K" n="80"/>timentes eum et et instus qui super <!--this should be double checked-->
+              <lb ed="#K" n="81"/>super minam eius</quote> 
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e229">
+          <pb ed="#K" n="12-r"/>
+          <cb ed="#K" n="a"/>
+          <lb ed="#K" n="1"/> <ref xml:id="bHY6yh-de3258-Rd1e248">Salomon in prouerb capitulo 3</ref> <quote xml:id="bHY6yh-de3258-Qd1e233">Time deum
+            <lb ed="#K" n="2"/>et recede a malo</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e239">
+          /<quote xml:id="bHY6yh-de3258-Qd1e241">timor domini 
+            <lb ed="#K" n="3"/>odit malum arrogantiam et super<lb ed="#K" break="no" n="4"/>biam 
+            et viam prauam et os bilingue 
+            <lb ed="#K" n="5"/>detestatur</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e250">
+          /<ref xml:id="bHY6yh-de3258-Rd1e269">Idem capitulo 15</ref> <quote xml:id="bHY6yh-de3258-Qd1e252">Timor 
+            <lb ed="#K" n="6"/>domini disciplia sapiente</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e256">
+          <lb ed="#K" n="7"/> ¶ <ref xml:id="bHY6yh-de3258-Rd1e279">Idem 16 capitulo</ref> <quote xml:id="bHY6yh-de3258-Qd1e260">Timore domini declinatur 
+            <lb ed="#K" n="8"/>a malo</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e264">
+          ¶ <ref xml:id="bHY6yh-de3258-Rd1e287">Idem 24 capitulo</ref> <quote xml:id="bHY6yh-de3258-Qd1e266">Time dominum 
+            <lb ed="#K" n="9"/>fili mi et regem</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e272">
+          /<ref xml:id="bHY6yh-de3258-Rd1e297">Idem in ecclesiastico 
+            <lb ed="#K" n="10"/>capitulo</ref> <quote xml:id="bHY6yh-de3258-Qd1e274">Qui timet dominum nihil 
+              <lb ed="#K" n="11"/>negligit</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e280">
+          /<ref xml:id="bHY6yh-de3258-Rd1e310">Idem 12 capitulo et fi</ref> <quote xml:id="bHY6yh-de3258-Qd1e284">De<lb ed="#K" break="no" n="12"/>um 
+            time et mandatum eius obserua 
+            <lb ed="#K" n="13"/>hoc est enim omnis homo multa</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e290">
+          <lb ed="#K" n="14"/> ¶ <ref xml:id="bHY6yh-de3258-Rd1e322">Tobie hysto capitulo 4</ref> <quote xml:id="bHY6yh-de3258-Qd1e294">bona 
+            <lb ed="#K" n="15"/>habebimus si timuerimus deum et 
+            <lb ed="#K" n="16"/>recesserimus ab omni peccato et 
+            <lb ed="#K" n="17"/>fecerimus bene exhortationibus</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e303">
+          <lb ed="#K" n="18"/> /<ref xml:id="bHY6yh-de3258-Rd1e335">Socrates circa princi 
+            <lb ed="#K" n="19"/>capitulo 2</ref> <quote xml:id="bHY6yh-de3258-Qd1e305">Deum quidem verere</quote> <!--check this-->
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e311">
+          <lb ed="#K" n="20"/> <ref xml:id="bHY6yh-de3258-Rd1e348">Iesus filius sirach in eccle capitulo i</ref> 
+          <lb ed="#K" n="21"/> <quote xml:id="bHY6yh-de3258-Qd1e315">Timor domini gloria et gloratio 
+            <lb ed="#K" n="22"/>et letitia et corona exultationis timor 
+            <lb ed="#K" n="23"/>domini delectabit cor et dabit 
+            <lb ed="#K" n="24"/>letitiam et gaudium et longitudinem 
+            <lb ed="#K" n="25"/>dinem dierum</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e325">
+          /<quote xml:id="bHY6yh-de3258-Qd1e327">Idem timenti deum
+            <lb ed="#K" n="26"/>bene erit in extremis et in
+            <lb ed="#K" n="27"/>die defunctionis suc benedicetur</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e335">
+          <lb ed="#K" n="28"/> ¶ <quote xml:id="bHY6yh-de3258-Qd1e337">Idem timor domini scientiae religi<lb ed="#K" break="no" n="29"/>ositas 
+            custodiet et iustifi<lb ed="#K" break="no" n="30"/>cabit 
+            cor</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e343">
+          ¶ <quote xml:id="bHY6yh-de3258-Qd1e345">Idem timenti de<lb ed="#K" break="no" n="31"/>um 
+            bene erit et in diebus consummationis 
+            <lb ed="#K" n="32"/>illius benedicetur</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e359">
+          ¶ <quote xml:id="bHY6yh-de3258-Qd1e361">Idem coro<lb ed="#K" break="no" n="33"/>na 
+            sapientiae timor domini replens 
+            <lb ed="#K" n="34"/>deus pacem et saluti fructum</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e368">
+          ¶ <lb ed="#K" n="35"/> <quote xml:id="bHY6yh-de3258-Qd1e370">Idem timor domini expellit peccatum</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e376">
+          <lb ed="#K" n="36"/> ¶ <ref>Idem capitulo 3</ref> <quote xml:id="bHY6yh-de3258-Qd1e378">Qui timet dominum hono<lb ed="#K" break="no" n="37"/>rat 
+            parentes et quisi dominis fu<lb ed="#K" break="no" n="38"/>iet 
+            is qui se genuerunt</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e384">
+          <lb ed="#K" n="39"/>  ¶ <ref xml:id="bHY6yh-de3258-Rd1e421">Idem capitulo 7</ref> <quote xml:id="bHY6yh-de3258-Qd1e386">In tota anima tua 
+            <lb ed="#K" n="40"/>time deum et sacerdotes illius 
+            <cb ed="#K" n="b"/>
+            sa<lb ed="#K" n="41" break="no"/>crifica</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e394">
+          / <ref xml:id="bHY6yh-de3258-Rd1e434">Idem 33 capitulo</ref> <quote xml:id="bHY6yh-de3258-Qd1e396">Timenti 
+            <lb ed="#K" n="42"/>deum non occurrent mala sed 
+            <lb ed="#K" n="43"/>in tentatione illum deus confuat et li<lb ed="#K" break="no" n="44"/>berat 
+            a malis</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e404">
+          / <ref xml:id="bHY6yh-de3258-Rd1e446">Idem 34 capitulo</ref> <quote xml:id="bHY6yh-de3258-Qd1e406">Timor 
+            <lb ed="#K" n="45"/>dei initium dilectionis eius</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e412">
+          <lb ed="#K" n="46"/> <ref xml:id="bHY6yh-de3258-Rd1e458">lucas in euange 12 capitulo</ref> <quote xml:id="bHY6yh-de3258-Qd1e416">Timete 
+            <lb ed="#K" n="47"/>eum qui post quam occiderit habet 
+            <lb ed="#K" n="48"/>potantem mittere in gehenam</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e423">
+          <lb ed="#K" n="49"/> ¶ <ref xml:id="bHY6yh-de3258-Rd1e471">Petrus apostolus epistola i</ref> <quote xml:id="bHY6yh-de3258-Qd1e427">Deum timete</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e431">
+          <lb ed="#K" n="50"/> ¶ <ref xml:id="bHY6yh-de3258-Rd1e481">Augustinus in epigramatibus prospi epistola  
+            <lb ed="#K" n="51"/>71</ref> <quote xml:id="bHY6yh-de3258-Qd1e435">Deus sic timendus est ut ab 
+              <lb ed="#K" n="52"/>ipso fugiatur ad ipsum</quote>
+        </p>
+        <p xml:id="bHY6yh-de3258-d1e441">
+          <ref xml:id="bHY6yh-de3258-Rd1e492">libro 9 epistola
+            <lb ed="#K" n="53"/>¶ Cassiodorus epistolarum 27</ref> <quote xml:id="bHY6yh-de3258-Qd1e445">Semper 
+              <lb ed="#K" n="54"/>bene geritur si celestis metus 
+              <lb ed="#K" n="55"/>humanis moribus apponitur 
+              <lb ed="#K" n="56"/>hinc etenim virtutum omnium sumitur 
+              <lb ed="#K" n="57"/>agnitio hinc sapientia veritatis sa<lb ed="#K" break="no" n="58"/>pore 
+              conditur</quote>
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
