@@ -1,505 +1,506 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Rubrica 6 [Pal. lat. 402 Transcription]</title>
-                <author ref="#per-c7y65a">Geremia da Montagnone</author>
-                <respStmt>
-                    <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-                    <resp>Transcription Editor</resp>
-                    <resp>TEI Encoder</resp>
-                </respStmt>
-                <respStmt>
-                    <name>Erin Kurian</name>
-                    <resp>Transcription Editor</resp>
-                    <resp>TEI Encoder</resp>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition n="0.0.0-dev">
-                    <title>Rubrica 6</title>
-                    <date when="2022-02-20">February 20, 2022</date>
-                </edition>
-            </editionStmt>
-            <publicationStmt>
-                <authority>SCTA</authority>
-                <availability status="free">
-                    <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-                    </p>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness xml:id="P" n="cod-bqe7y7">Pal. lat. 402</witness>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-            <editorialDecl>
-                <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-                    guidelines for a diplomatic edition.</p>
-            </editorialDecl>
-        </encodingDesc>
-        <revisionDesc status="draft">
-            <listChange>
-                <change when="2022-02-20" status="draft" n="0.0.0">
-                    <p>Created file for the first time.</p>
-                </change>
-            </listChange>
-        </revisionDesc>
-    </teiHeader>
-    <text xml:lang="la">
-        <front>
-            <div xml:id="starts-on">
-                <pb ed="#P" n="2-v"/>
-                <cb ed="#P" n="a"/>
-            </div>
-        </front>
-        <body>
-            <div xml:id="bHY6yh-de1319">
-                <head xml:id="bHY6yh-de1319-Hd1e108">Rubrica 6 [Pal. lat. 402 Transcription]</head>
-                <head xml:id="bHY6yh-de1319-Hd1e111" type="question-title">De iustitia et iudicio Dei</head>
-                <p xml:id="bHY6yh-de1319-d1e114">
-                    <lb ed="#P"/>De iustitia. et iudicio dei. ca. sextum
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e119">
-                    <lb ed="#P"/> <ref xml:id="bHY6yh-de1319-Rd1e116">Iob ystoria. ca. v.</ref> <quote xml:id="bHY6yh-de1319-Qd1e123">deus ponit humiles in subli
-                    <lb ed="#P" break="no"/>me: et merentes erigit sospintate.</quote> 
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e131">
-                    <lb ed="#P"/> <quote xml:id="bHY6yh-de1319-Qd1e133" source="http://scta.info/resource/iob5_12@2-11">Ibidem deus dissipat cogitationes malignorum 
-                    <lb ed="#P"/>ne possint ad implere manus eorum 
-                    <lb ed="#P"/>quod ceperat.</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e142"> 
-                    OMITTED
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e152">
-                    <lb ed="#P"/> <ref xml:id="bHY6yh-de1319-Rd1e151">Ibidem xxxiiii. ca</ref> <quote xml:id="bHY6yh-de1319-Qd1e154" source="http://scta.info/resource/iob34_11@1-10">opus hominus reddet 
-                    <lb ed="#P"/>ei deus. et iuxta vias singulorum restituet</quote> 
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e160">
-                    <lb ed="#P"/> <quote xml:id="bHY6yh-de1319-Qd1e162" source="http://scta.info/resource/iob34_30@2-8">Ibidem deus regnare facit ypocritam propter 
-                    <lb ed="#P"/>peccata populi</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e168">
-                    <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e175">In genesi. iiii. ca. </ref> <quote xml:id="bHY6yh-de1319-Qd1e172" source="http://scta.info/resource/gen4_7@1-13">si bene egeris recipies
-                    <lb ed="#P"/>si autem male statim in foribus peccatum 
-                    <lb ed="#P"/>aderit</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e178"> 
-                    <lb ed="#P"/> <ref xml:id="bHY6yh-de1319-Rd1e187">Psalimista. pslamus. v.</ref> <quote xml:id="bHY6yh-de1319-Qd1e182" source="http://scta.info/resource/ps5_5@6-11">non deus volens iniquita 
-                    <lb ed="#P" break="no"/>tem tu es</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e186"> 
-                    <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e197">Idem psalmus. vii.</ref> <quote xml:id="bHY6yh-de1319-Qd1e190" source="http://scta.info/resource/ps7_12@4-6">deus iudex iustus fortis 
-                    <lb ed="#P"/>et patiens</quote>
-                </p>
-                <cb ed="#P" n="b"/>
-                <p xml:id="bHY6yh-de1319-d1e195">
-                   <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e208">Idem xviii. psalmus.</ref> <quote xml:id="bHY6yh-de1319-Qd1e199" source="http://scta.info/resource/ps18_10@8-13 http://scta.info/resource/ps18_11@1-13">Iudicia domini vere iustificata 
-                   <lb ed="#P"/>in semet ipsa desiderabilia super aurum et lapi
-                   <lb ed="#P" break="no"/>dem <unclear>petiosum</unclear></quote>
-                </p>  
-                <p xml:id="bHY6yh-de1319-d1e229">  
-                    <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e255">Idem. Ixxxxi.</ref> <quote xml:id="bHY6yh-de1319-Qd1e233" source="http://scta.info/resource/ps91_16@5-14">Rectus dominus deus noster: et non 
-                    <lb ed="#P"/>est iniquitas in eo</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e239"> 
-                    <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e265">Idem cii.</ref> <quote xml:id="bHY6yh-de1319-Qd1e241" source="http://scta.info/resource/ps102_6@1-8">Faciens misericordias dominus est. et iu
-                    <lb ed="#P" break="no"/>dicium omnibus iniuriam patientibus</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e249"> 
-                   <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e278">Idem. cxlvi.</ref> <quote xml:id="bHY6yh-de1319-Qd1e251" source="http://scta.info/resource/ps118_137@2-8">Iustus es domine: et rectum iudici
-                   <lb ed="#P" break="no"/>um tuum</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e258"> <!--This starts on the same line as previous.-->
-                    <ref xml:id="bHY6yh-de1319-Rd1e288">Idem cxlviii.</ref> <quote xml:id="bHY6yh-de1319-Qd1e260">Dominus Iustus conci
-                    <lb ed="#P" break="no"/>det ceruices peccatorum</quote> 
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e266"> 
-                   <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e300">Idem. cxl.</ref> <quote xml:id="bHY6yh-de1319-Qd1e268" source="http://scta.info/resource/ps139_13@3-9">Faciet dominus Iudicium inopis: et 
-                   <lb ed="#P"/>vindictam pauperum</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e274">  
-                   <lb ed="#P"/> <ref xml:id="bHY6yh-de1319-Rd1e312">Idem cxliii. dauid</ref>  <quote xml:id="bHY6yh-de1319-Qd1e278" source="http://scta.info/resource/ps142_2@2-16">non intres in iudicio cum ser
-                   <lb ed="#P" break="no"/>uo tuo domine quia non iustificabitur tuo omnis homo
-                   <lb ed="#P"/>viuens</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e286"> 
-                    <lb ed="#P"/> <ref xml:id="bHY6yh-de1319-Rd1e324">Idem. cxlv.</ref> <quote xml:id="bHY6yh-de1319-Qd1e288" source="http://scta.info/resource/ps144_17@1-12">dominus iustus in omnibus viis suis
-                     <lb ed="#P"/>et scanctus in omnibus operibus suis.</quote> 
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e294">
-                    <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e338">Idem. clxvi.</ref> <quote xml:id="bHY6yh-de1319-Qd1e298">dominus faciet Iudicium in iniuriam 
-                    <lb ed="#P"/>patientibus</quote> 
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e302"> 
-                    <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e351">Salomon in puer. ca. v.</ref> <quote xml:id="bHY6yh-de1319-Qd1e306" source="http://scta.info/resource/prov5_21@1-9">respicit dominus vias ho
-                    <lb ed="#P" break="no"/>minis: et omnes gressus eius considerat</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e315"> 
-                    <lb ed="#P"/> <ref xml:id="bHY6yh-de1319-Rd1e363">Ibidem xi. ca.</ref> <quote xml:id="bHY6yh-de1319-Qd1e317" source="http://scta.info/resource/prov11_4@1-11">non proderunt diuitie in die 
-                    <lb ed="#P"/>vltionis Iustitia autem liberabit a morte</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e323"> 
-                    <lb ed="#P"/> <ref xml:id="bHY6yh-de1319-Rd1e373">Ibidem. xv. ca.</ref> <quote xml:id="bHY6yh-de1319-Qd1e325" source="http://scta.info/resource/prov15_3@1-9">in omni loco oculi domini contem
-                    <lb ed="#P" break="no"/>plantur bonos et malos.</quote> <quote xml:id="bHY6yh-de1319-Qd1e335" source="http://scta.info/resource/prov15_11@1-10">Infernus et perditio 
-                    <lb ed="#P"/>coram domino quanto magis corda filiorum</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e341"> 
-                   <lb ed="#P"/> <ref xml:id="bHY6yh-de1319-Rd1e394">Ibidem</ref> <quote xml:id="bHY6yh-de1319-Qd1e343" source="http://scta.info/resource/prov16_2@1-5">omnes viae bonorum patent oculis domini
-                   <lb ed="#P"/>ominum saluartoris</quote>
-                </p> 
-                <p xml:id="bHY6yh-de1319-d1e349"> 
-                   <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e408">Ibidem xii. ca.</ref> <quote xml:id="bHY6yh-de1319-Qd1e351" source="http://scta.info/resource/prov22_22@1-12 http://scta.info/resource/prov22_23@1-5">non facies violentiam hominum pa
-                   <lb ed="#P" break="no"/>uperi: quia dominus iudicabit causam eius</quote>
-                </p> 
-                <p xml:id="bHY6yh-de1319-d1e361"> 
-                    <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e424">Ibidem xxiii</ref> <quote xml:id="bHY6yh-de1319-Qd1e363" source="http://scta.info/resource/prov29_26@6-10">a domino iudicium egreditur singulorum</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e370"> 
-                   <lb ed="#P"/> <ref xml:id="bHY6yh-de1319-Rd1e434">Idem in ecclisiatica. iv.</ref> <quote xml:id="bHY6yh-de1319-Qd1e372" source="http://scta.info/resource/qoh3_17@6-9">Iustum et impium iu
-                   <lb ed="#P" break="no"/>dicabit</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e378"> 
-                   <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e444">Ibidem. xii et fi.</ref> <quote xml:id="bHY6yh-de1319-Qd1e380" source="http://scta.info/resource/qoh12_14@2-16">Cuncta que fiunt adducet 
-                   <lb ed="#P"/>dominus pro ertato siue bonum siue malum 
-                    <lb ed="#P"/>fuerit</quote> 
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e388">
-                   <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e460">Regum. primo. ca. xxxvi. et. xxvi.</ref> <quote xml:id="bHY6yh-de1319-Qd1e392" source="http://scta.info/resource/Isam26_23/critical@3-9">deus retribuet
-                     <pb ed="#P" n="3-r"/>
-                     <cb ed="#P" n="a"/>
-                   <lb ed="#P"/>vnicuique secundum iustitiam suam</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e398">
-                    <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e473">Paralipomenon libro. ii. ca. xviiii.</ref> <quote xml:id="bHY6yh-de1319-Qd1e402" source="http://scta.info/resource/IIchr19_7@10-23">Non est
-                    <lb ed="#P"/>apud deum iniquitas: nec personarum acceptio
-                    <lb ed="#P"/>nec cupido munerum.</quote> 
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e410">
-                    <lb ed="#P"/> <ref xml:id="bHY6yh-de1319-Rd1e489">Isaias. ca. xxi.</ref> <quote xml:id="bHY6yh-de1319-Qd1e414" source="http://scta.info/resource/is31_2@12-20">Consurget deus contra domum 
-                    <lb ed="#P"/>pessimorum: et contra auxilium operantium iniquitatem</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e422">
-                    <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e503"><unclear>Ihieremias</unclear> in libro prophetiarum. ca. xxiiii</ref><quote xml:id="bHY6yh-de1319-Qd1e426" source="http://scta.info/resource/ier23_2@24-32">Ego 
-                    <lb ed="#P"/>visitabo supra vos malitiam studiorum ves
-                    <lb ed="#P" break="no"/>trorum ait domiuns. </quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e435"> 
-                   <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e515">Idem xxviiii. ca.</ref> <quote xml:id="bHY6yh-de1319-Qd1e437" source="http://scta.info/resource/ier29_23@27-33">Ego sum iudex et testis 
-                   <lb ed="#P"/>dicit dominus</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e443"> 
-                    OMITTED 
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e455">
-                    <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e541">Ezechiel propheta. ca. xviii.</ref> <quote xml:id="bHY6yh-de1319-Qd1e459" source="http://scta.info/resource/ez18_26@1-20 http://scta.info/resource/ez18_27@1-20">Cum auerterit 
-                    <lb ed="#P"/>se iustus a iustitia sua et fecerit iniquitatem
-                    <lb ed="#P"/>et morietur in eis: in iniustitia sua: quam opera
-                    <lb ed="#P" break="no"/>tus est morietur. Et cum auerterit se ius
-                    <lb ed="#P" break="no"/>tus ab iniquitate sua: quam operatus est: et 
-                    <lb ed="#P"/>fecerit iudicium: et iustitiam ipse animam suam 
-                    <lb ed="#P"/>viuificabit unumquemque iuxta vias suas
-                    <lb ed="#P"/>Iudicabo ait dominus</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e486"> 
-                    <lb ed="#P"/> <ref xml:id="bHY6yh-de1319-Rd1e575">Ibidem xxxiiii. ca.</ref> <quote xml:id="bHY6yh-de1319-Qd1e488" source="http://scta.info/resource/ez33_12@10-32">Iustitia iusti non libe
-                    <lb ed="#P" break="no"/>rabit eum in quacumque die peccauerit et 
-                    <lb ed="#P"/>impietas non nocebit ei in quacumque die 
-                    <lb ed="#P"/>conuersus fuerit ab impietate sua</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e498">
-                    <lb ed="#P"/> <ref xml:id="bHY6yh-de1319-Rd1e591">Yesus Filius Syrach. in ecclesiaco. ca. vii.</ref> <quote xml:id="bHY6yh-de1319-Qd1e502" source="http://scta.info/resource/sir7_5@1-10">
-                    <lb ed="#P"/>Non te iustifices ante deum: quoniam est
-                    <lb ed="#P"/>agnitor cordis</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e511"> 
-                    <lb ed="#P"/> <ref xml:id="bHY6yh-de1319-Rd1e603">Ibidem. ca. xv.</ref> <quote xml:id="bHY6yh-de1319-Qd1e513" source="http://scta.info/resource/sir15_14@1-12">deus ab initio constituit ho
-                    <lb ed="#P" break="no"/>minem: et reliquit illum in manibus consilii 
-                    <lb ed="#P"/>sui</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e519"> <!--Paragraph begins within previous-->
-                    <quote xml:id="bHY6yh-de1319-Qd1e523" source="http://scta.info/resource/sir15_15@1-5 http://scta.info/resource/sir15_16@1-6">adiecit mandata: et praecepta sua:
-                    <lb ed="#P"/>si volueris mandata: et precepta suate 
-                    <lb ed="#P"/>confuabunt.</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e529"> <!--Paragraph begins within previous-->
-                    <quote xml:id="bHY6yh-de1319-Qd1e531" source="http://scta.info/resource/sir15_17@1-11 http://scta.info/resource/sir15_18@1-13"> Apposuit tibi aquam et ignem
-                    <lb ed="#P"/>ad quod volueris appone manum tuam: ante 
-                    <lb ed="#P"/>hominem vita: et mors bonum quod placuerit 
-                    <lb ed="#P"/>ei dabitur illi</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e541">
-                    <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e640">Quidius in metamorphorisis libro xiii</ref> <quote xml:id="bHY6yh-de1319-Qd1e545">
-                    <lb ed="#P"/>Aspiciunt oculus superi mortalia iustis.</quote>
-                </p>
-                <cb ed="#P" n="b"/>
-                <p xml:id="bHY6yh-de1319-d1e551">
-                   <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e652">Marcus in euangelio. ca. iiii.</ref> <quote xml:id="bHY6yh-de1319-Qd1e555">In qua mensura 
-                   <lb ed="#P"/>mensi fueritis metietur et vobis</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e561"> 
-                    <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e662">Ibidem. ca. xii.</ref><quote xml:id="bHY6yh-de1319-Qd1e563">Omni cui multum datum est 
-                    <lb ed="#P"/>multum quaretur ab eo.</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e570">
-                   <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e674">Paulus ad Romanos. ca. secundum.</ref><quote xml:id="bHY6yh-de1319-Qd1e574" source="http://scta.info/resource/rom2_11@1-7">Non est personarum 
-                   <lb ed="#P"/>acceptio apud deum</quote>
-                </p> 
-                <p xml:id="bHY6yh-de1319-d1e684">
-                    <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e688">Idem ad ephesios. ca. fi.</ref> <quote xml:id="bHY6yh-de1319-Qd1e690" source="http://scta.info/resource/rom14_12@2-8 http://scta.info/resource/rom14_13@1-15">Unusquisque vestrum 
-                    <lb ed="#P"/>pro se rationem reddet deo: non ergo amplius 
-                    <lb ed="#P"/>inuicem iudicemus sed hic iudicare
-                    <lb ed="#P"/>magis ne ponatis offendieulum fratri
-                    <lb ed="#P"/>vel scandalum</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e591">
-                   <lb ed="#P"/><quote xml:id="bHY6yh-de1319-Qd1e595">Lex autem. titur. de monachis. §. hinc a nobis. Qua
-                   <lb ed="#P" break="no"/>tum ad dei cultum non est masculus neque 
-                   <lb ed="#P"/>femia neque liber neque seruus omnes 
-                   <lb ed="#P"/>enim in christo mercedem percipiunt</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e605">
-                    <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e723">Auctor libri de formula. honeste vite
-                    <lb ed="#P"/>ca. vi. et fi. quod est epilogus</ref> <quote xml:id="bHY6yh-de1319-Qd1e609">in regno dei 
-                    <lb ed="#P"/>non est distinctio: quis esset in seculo laycus 
-                    <lb ed="#P"/>aut clericus diues: aut pauper iunior 
-                    <lb ed="#P"/>aut senior seruus aut dominus sed vnusquisque 
-                    <lb ed="#P"/>secundum meritum boni operis perpetuo coronabitur gloria</quote>
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e623">  
-                    <lb ed="#P"/><ref xml:id="bHY6yh-de1319-Rd1e744">Augustinus in epigramatibus prosperi: iii. epygramate</ref> <quote xml:id="bHY6yh-de1319-Qd1e627">
-                    <lb ed="#P"/>nullo modo iudicia hominum sunt
-                    <lb ed="#P"/>comparanda iudicia dei quem non est 
-                    <lb ed="#P"/>dubitandum esse iustum etiam quando facit: quod 
-                    <lb ed="#P"/>hominibus videatur iniustum.</quote>
-                </p> 
-                <!--Everything from here is added content - different from the original-->
-                <p>
-                    <lb ed="#P"/><ref>Tullius officiorum libro. primo. ca.</ref> <quote>Iustitia
-                    <lb ed="#P"/>est virtus conseruatrix humanae socie
-                    <lb ed="#P" break="no"/>tatis: et communis utilitatis</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><ref>Lex insti. de Iusti. et in primo. et. ff. eo. l.
-                    <lb ed="#P"/>iustitia.</ref> <quote>Iustitia est constas et perpetua
-                    <lb ed="#P"/>voluntas: uis suum unicuique tribuens</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><ref>Tullius officiorum. l. primo. ca.</ref> <quote>Iustitia
-                    <lb ed="#P"/>est habitus communi utilitate seruata suam uni
-                    <lb ed="#P" break ="no"/>cuique tribunes dignitatem</quote>
-                </p>
-                <p>
-                    <ref>Auctor <!--There is a large space here-->Nemo iustus esse. a. iiii</ref>
-                </p>
-                <p>
-                    <pb ed="#P" n="3-v"/>
-                    <cb ed="#P" n="a"/>
-                    <lb ed="#P"/><quote>potest qui mortem: qui dolorrem: qui exilium: qui 
-                    <lb ed="#P"/>egestatem timet: qut qui ea quae sunt contra
-                    <lb ed="#P" break="no"/>ria equitati ante ponit</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><quote>Idem iustitia est hominum domina et regina vir
-                    <lb ed="#P" break="no"/>tutum nihil est honestum quod iustitia vo
-                    <lb ed="#P" break="no"/>cat</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><quote>Tullius <!--Large space here-->omnibus quidem 
-                    <lb ed="#P"/>simpliciter necessaria est iustitia cuius tanta est 
-                    <lb ed="#P"/>virtus: ut ne illis: qui maleficiis: et 
-                    <lb ed="#P"/>scelere pascuntur possint secundum illa pericula 
-                    <lb ed="#P"/>iustitiae substetari</quote>
-                </p>
-                <p>
-                     <lb ed="#P"/><ref>Cato sententia quae remota est a iustitia. ca</ref>
-                     <lb ed="#P"/><quote>liditas potius quam sapientia est appellanda
-                     <lb ed="#P"/>simpliciter</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><ref>Augustius de ciuitate dei libro. iiii.</ref> <quote>hoc 
-                    <lb ed="#P"/>verissimum est sine summa iustitia rempublicam
-                    <lb ed="#P"/>regi non posse</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><ref>Ibidem</ref> <quote>remota Iustitica quid sunt regna nisi la
-                    <lb ed="#P" break="no"/>trocinia</quote>  
-                </p>
-                <p>
-                    <lb ed="#P"/><quote>Auctor<!--There is a large space here-->Iustitica est splendor 
-                    <lb ed="#P"/>magis ex qua nobiles suis boni uiri nomina-
-                    <lb ed="#P" break="no"/>ntur</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><ref>Tullius officiorum libro. primo. ca.</ref> <quote>fundamentum 
-                    <lb ed="#P"/>Iustitiae ne cui noccat deinde ut communi
-                    <lb ed="#P"/>ut communi utilitati seruiant</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><ref>Ambrosius de officiis libro. primo ca.</ref> <quote>Ius
-                    <lb ed="#P" break="no"/>tus communia habet pro suis: et sua pro omnibus</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><ref>Idem prima</ref> <quote>iustitia est in deo secunda 
-                    <lb ed="#P"/>in patria. tertia in parentibus. Quarta in homini
-                    <lb ed="#P" break="no"/>bus singularibus</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><ref>Tullius de officiis libro. primo. ca. xviii.</ref> <quote>totius
-                    <lb ed="#P" break="no"/>autem iustitiae nulla capitalior est quam eorum 
-                    <lb ed="#P"/>qui cum maxime fallunt id agunt: ut 
-                    <lb ed="#P"/>viri boni esse uideantur</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><ref>Ibidem</ref> <quote>super omnia ueritas est colenda: quae 
-                    <lb ed="#P"/>sola deo homines proximos facit</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><quote>Cassiodorus bonum est verum si non ali
-                    <cb ed="#P" n="b"/>
-                    <lb ed="#P" break="no"/>ud misecatur aduersum</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><ref>Seneca.</ref> <quote>Oratio eius qui ueritati operam datur in
-                    <lb ed="#P" break="no"/>composita et simplex debet esse.</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><ref>Lex.</ref> <quote>Vtilius scandalum nasci
-                    <lb ed="#P"/>permictitur quae ueritas relinquatur. Testimonium 
-                    <lb ed="#P"/>veritati nd amicitiae reddas</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><quote>Seneca cunctis esto benignius nemini 
-                    <lb ed="#P"/>blandus, paucus familiaris, omnibus 
-                    <lb ed="#P"/>equus. Idem senior est iudicio quam sermone, 
-                    <lb ed="#P"/>vita quam vultu.</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><ref>Ymago yustitiae posita est a Cryspo. os.</ref> <quote>et
-                    <lb ed="#P"/>oculos iustitiae: uultum que serenis: ac re
-                    <lb ed="#P" break="no"/>uerendis coloribus depinxit. Forma uirgina
-                    <lb ed="#P" break="no"/>li / aspectu uehementi, et formidabili lumi
-                    <lb ed="#P" break="no"/>nibus oculorum acerbis: nec humilibus: nec 
-                    <lb ed="#P"/>attractis / sed reuerendam credam tristiciae digni
-                    <lb ed="#P" break="no"/>tatem. Quisquis ergo hanc sectari desideras. time 
-                    <lb ed="#P"/>deum primus / et ama / ut ameris a deo. Si conti
-                    <lb ed="#P" break="no"/>gerit fideliter mendacio redimi non menti
-                    <lb ed="#P" break="no"/>eris sed potius excusabis: quia ubi honesta 
-                    <lb ed="#P"/>causa est Iustus secreta non pandit. tacenda 
-                    <lb ed="#P"/>enim / tacet / loquenda loquitur, huinc si studere cura
-                    <lb ed="#P" break="no"/>ueris letus: et intrepidus / cursus tui finem 
-                    <lb ed="#P"/>expectas prospiciens tristia huiusmodi, yllaris  
-                    <lb ed="#P"/>tumultuosa quietus extrema securus Iustitia 
-                    <lb ed="#P"/>cum mediocritate regenda est, nisi ductu 
-                    <lb ed="#P"/>iungatur leui in moram semper ad immitationem 
-                    <lb ed="#P"/>negligentia/ subsequatur dum neque de magnis 
-                    <lb ed="#P"/>neque de minimis errantium uiciis corrigen 
-                    <lb ed="#P"/>dis curam geris sed licentiam peccandi</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><ref>Tullius de officiis libro. ca.</ref> <quote>ne dis
-                    <lb ed="#P" break="no"/>putes cum eo: qui nequit confiteri sanctam ue
-                    <lb ed="#P" break="no"/>ritatem</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><ref>Valeruis Maximus libro vi. ca. v.</ref> <quote>Camillo 
-                    <lb ed="#P"/>consule fallischos obsidente. Magister ludi 
-                    <lb ed="#P"/>plurimos: et nobilissimos pueros, velut
-                    <pb ed="#P" n="4-r"/>
-                    <cb ed="#P" n="a"/>
-                    <lb ed="#P"/>vagandi gratia adductos in castra Romanorum 
-                    <lb ed="#P"/>perduxit / quibus interceptis non erat dubium 
-                    <lb ed="#P"/>quin fallisci deposita pertinacia belli gerendi 
-                    <lb ed="#P"/>tradituri se nostro imperatori essent. Ea re 
-                    <lb ed="#P"/>cognita senatus censuit ut pueri captum 
-                    <lb ed="#P"/>magistrum virgis cedentes in patriam remitterentur 
-                    <lb ed="#P"/>Qua iustitia animi eorum falliscorum sunt capti 
-                    <lb ed="#P"/>Quorum <sic>menia</sic><!--moenia--> expugnari non poterant nam fal
-                    <lb ed="#P" break="no"/>lisci benificio magisquam armis uicti portas 
-                    <lb ed="#P"/>Romanis aperuerunt.</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><ref>Idem libro vi. ca. v.</ref> <quote>Thimocharis a brachiensis  
-                    <lb ed="#P"/>Fabricio consuli pollicitus est se <sic>pirrum</sic><!--Pyrrm--> ve
-                    <lb ed="#P" break="no"/>neno per filium suum qui potionibus suis preerat 
-                    <lb ed="#P"/>necaturum. Ea res cum ad senatum esset delata
-                    <lb ed="#P"/>missis legatis <sic>pirrum</sic><!--Pyrrm--> monuit: ut aduersus 
-                    <lb ed="#P"/>huius generis veneni insidias cautius se 
-                    <lb ed="#P"/>gereret memor urbem Romam a filio Martis 
-                    <lb ed="#P"/>conditam arbis bella: et non veneno gerere de
-                    <lb ed="#P" break="no"/>bere. Timocaris autem nomen tacuit Utroque
-                    <lb ed="#P"/>modo equitatem amplexus: nec hostem malo exemplo 
-                    <lb ed="#P"/>tollere: nec eum qui bene paratus fuerat prodere</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><ref>Idem eodem libro. et capitulo.</ref> <quote>In extremis cum salu
-                    <lb ed="#P" break="no"/>berrimo consilio themistocles migrare atheni
-                    <lb ed="#P" break="no"/>enses coegisset xersesque rege: et exeratu eius
-                    <lb ed="#P"/>e <sic>grecia</sic> pulsus ruinas patriae in pristinum ha
-                    <lb ed="#P" break="no"/>bitum reformaret: et opes occultis ordinatio
-                    <lb ed="#P" break="no"/>nibus ad principatum <sic>greciae</sic> capescendum 
-                    <lb ed="#P"/>inuictaret in conctione dixit habere rem in con
-                    <lb ed="#P" break="no"/>etione sua prouisam qua si fortuna perduci adef
-                    <lb ed="#P" break="no"/>fectum passa esset nihil maius aut potentius 
-                    <lb ed="#P"/>atheniensi populo futurum: sed eam rem vulgari 
-                    <lb ed="#P"/>non oportere: Postulauit que ut aliquis sibi illam 
-                    <lb ed="#P"/>tacite exponeret daretur: datus est aristodes 
-                    <lb ed="#P"/>qui postquam cognouit lacedemoniorum classe: quae
-                    <lb ed="#P"/>tota apud Githeum portum subducta erat
-                    <cb ed="#P" n="b"/>
-                    <lb ed="#P"/>velle incendere ut ea consumpta dominatio 
-                    <lb ed="#P"/>cederet atheniensibus processit ad ciues 
-                    <lb ed="#P"/>et retulit themistodem ut vtile consilium 
-                    <lb ed="#P"/>Ita minime Iustum animo uoluere: e ues
-                    <lb ed="#P" break="no"/>tigio uniuersa conctio quod iustum non uidetur
-                    <lb ed="#P"/>non expedire proclamauit.</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/><ref>Idem eodem libro. et capitulo.</ref> <quote>Talentus Rex
-                    <lb ed="#P" break="no"/>vrbe loicensium a se salubrimis: et uti
-                    <lb ed="#P" break="no"/>limus rationibus cum legibus munita
-                    <lb ed="#P"/>filius eius crimine adulterii damna
-                    <lb ed="#P" break="no"/>tus secundum ius ipsum ab ipso constitutum utroque
-                    <lb ed="#P"/>oculo carere deberet. Et cum tota ciuitas 
-                    <lb ed="#P"/>in honorem patris necessitatem <sic>pene</sic><!--poenae--> adolescen
-                    <lb ed="#P" break="no"/>tulo remitteret aliquandiu repugnauit. 
-                    <lb ed="#P"/>ad ultimum precibus populi talentus uictus
-                    <lb ed="#P"/>suo prius deinde filii oculo eruto usum 
-                    <lb ed="#P"/>videndi utrique reliquit. Ita debitum supli
-                    <lb ed="#P" break="no"/>ciis modum legi tradidit equitatis mira
-                    <lb ed="#P" break="no"/>bilis temperamento se inter misericordem 
-                    <lb ed="#P"/>patrem: et legis iustum factorem partiturus</quote>
-                </p>
-                <p>
-                    <lb ed="#P"/>Idem eodem libro et capitulo. Sed aliquantulum ca
-                    <lb ed="#P" break="no"/>runde ducis tirii insulae abscisor summa 
-                    <lb ed="#P"/>iustitia ad uim cruorem-que seditiones ciui
-                    <lb ed="#P" break="no"/>um placauerunt lege cauenda ut siquis eas 
-                    <lb ed="#P"/>conciones cum ferro intrasset continuo inter
-                    <lb ed="#P" break="no"/>ficerent: Interiecto deinde tempore elonginquo 
-                    <lb ed="#P"/>rure gladio cinctus domum repetens su
-                    <lb ed="#P" break="no"/>bita indicta concione sic armatus in eam 
-                    <lb ed="#P"/>processit ab eoque: qui proxime extiterat solutae
-                    <lb ed="#P"/>legis suae admonitus inquit ego illam sa
-                    <lb ed="#P" break="no"/>nam protinus ferro quod habebat districto 
-                    <lb ed="#P"/>incubuit. Quamuis liceret culpam dissi
-                    <lb ed="#P" break="no"/>mulare: uel errorem defendere penam 
-                    <lb ed="#P"/>tamen representare maluit ne qua fraus 
-                    <lb ed="#P"/>iustitiae fieret
-                </p>
-                <p xml:id="bHY6yh-de1319-d1e646"><!--Document picks back up here-->
-                    <pb ed="#P" n="4-v"/>
-                    <cb ed="#P" n="a"/>
-                    <lb ed="#P"/> <ref xml:id="bHY6yh-de1319-Rd1e770">Boetius de consolatione. libro. iiii. ca. viiii.
-                    <lb ed="#P"/>in fine:</ref> <quote xml:id="bHY6yh-de1319-Qd1e650">Quamuis eam causare dispositionem
-                    <lb ed="#P"/>ignores tamen quia bonus mundum rector 
-                    <lb ed="#P"/>temperat recte fieri cuncta ne dubites</quote>
-                </p>
-            </div>
-        </body>
-    </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 6 [Pal. lat. 402 Transcription]</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Erin Kurian</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 6</title>
+          <date when="2022-02-20">February 20, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-bqe7y7">Pal. lat. 402</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-02-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="2-v"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-de1319">
+        <head xml:id="bHY6yh-de1319-Hd1e108">Rubrica 6 [Pal. lat. 402 Transcription]</head>
+        <head xml:id="bHY6yh-de1319-Hd1e111" type="question-title">De iustitia et iudicio Dei</head>
+        <p xml:id="bHY6yh-de1319-d1e114">
+          <lb ed="#P" n="19"/>De iustitia. et iudicio dei. ca. sextum
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e119">
+          <lb ed="#P" n="20"/> <ref xml:id="bHY6yh-de1319-Rd1e116">Iob ystoria. ca. v.</ref> <quote xml:id="bHY6yh-de1319-Qd1e123">deus ponit humiles in subli
+            <lb ed="#P" break="no" n="21"/>me: et merentes erigit sospintate.</quote> 
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e131">
+          <lb ed="#P" n="22"/> <quote xml:id="bHY6yh-de1319-Qd1e133">Ibidem deus dissipat cogitationes malignorum 
+            <lb ed="#P" n="23"/>ne possint ad implere manus eorum 
+            <lb ed="#P" n="24"/>quod ceperat.</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e142"> 
+          <lb ed="#P" n="25"/>Ibidem <quote xml:id="bHY6yh-de1319-Qd1e144">dominus deus adprehendit sapientes 
+            <lb ed="#P" n="26"/>in astutia eorum et consilium dissipat pravorum</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e152">
+          <lb ed="#P" n="27"/> <ref xml:id="bHY6yh-de1319-Rd1e151">Ibidem xxxiiii. ca</ref> <quote xml:id="bHY6yh-de1319-Qd1e154">opus <del rend="strikethrough">dominis</del> hominis reddet 
+            <lb ed="#P" n="28"/>ei deus. et iuxta vias singulorum restituet</quote> 
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e160">
+          <lb ed="#P" n="29"/> Ibidem  <quote xml:id="bHY6yh-de1319-Qd1e162">deus regnare facit ypocritam propter 
+            <lb ed="#P" n="30"/>peccata populi</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e168">
+          <lb ed="#P" n="31"/><ref xml:id="bHY6yh-de1319-Rd1e175">In genesi. iiii. ca. </ref> <quote xml:id="bHY6yh-de1319-Qd1e172">si bene egeris recipies
+            <lb ed="#P" n="32"/>si autem male statim in foribus peccatum 
+            <lb ed="#P" n="33"/>aderit</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e178"> 
+          <lb ed="#P" n="34"/> <ref xml:id="bHY6yh-de1319-Rd1e187">Psalimista. psalmus. v.</ref> <quote xml:id="bHY6yh-de1319-Qd1e182">non deus volens iniquita 
+            <lb ed="#P" break="no" n="35"/>tem tu es</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e186"> 
+          <lb ed="#P" n="36"/><ref xml:id="bHY6yh-de1319-Rd1e197">Idem psalmus. vii.</ref> <quote xml:id="bHY6yh-de1319-Qd1e190">deus iudex iustus fortis 
+            <lb ed="#P" n="37"/>et patiens</quote>
+        </p>
+        <cb ed="#P" n="b"/>
+        <p xml:id="bHY6yh-de1319-d1e195">
+          <lb ed="#P" n="38"/><ref xml:id="bHY6yh-de1319-Rd1e208">Idem xviii. psalmus.</ref> <quote xml:id="bHY6yh-de1319-Qd1e199">Iudicia domini vere iustificata 
+            <lb ed="#P" n="39"/>in semet ipsa desiderabilia super aurum et lapi
+            <lb ed="#P" break="no" n="40"/>dem <unclear>petiosum</unclear></quote>
+        </p>  
+        <p xml:id="bHY6yh-de1319-d1e229">  
+          <lb ed="#P" n="41"/><ref xml:id="bHY6yh-de1319-Rd1e255">Idem. Ixxxxi.</ref> <quote xml:id="bHY6yh-de1319-Qd1e233">Rectus dominus deus noster: et non 
+            <lb ed="#P" n="42"/>est iniquitas in eo</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e239"> 
+          <lb ed="#P" n="43"/><ref xml:id="bHY6yh-de1319-Rd1e265">Idem cii.</ref> <quote xml:id="bHY6yh-de1319-Qd1e241">Faciens misericordias dominus est. et iu
+            <lb ed="#P" break="no" n="44"/>dicium omnibus iniuriam patientibus</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e249"> 
+          <lb ed="#P" n="45"/><ref xml:id="bHY6yh-de1319-Rd1e278">Idem. cxlvi.</ref> <quote xml:id="bHY6yh-de1319-Qd1e251">Iustus es domine: et rectum iudici
+            <lb ed="#P" break="no" n="46"/>um tuum</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e258"> <!--This starts on the same line as previous.-->
+          <ref xml:id="bHY6yh-de1319-Rd1e288">Idem cxlviii.</ref> <quote xml:id="bHY6yh-de1319-Qd1e260">Dominus Iustus conci
+            <lb ed="#P" break="no" n="47"/>det ceruices peccatorum</quote> 
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e266"> 
+          <lb ed="#P" n="48"/><ref xml:id="bHY6yh-de1319-Rd1e300">Idem. cxl.</ref> <quote xml:id="bHY6yh-de1319-Qd1e268">Faciet dominus Iudicium inopis: et 
+            <lb ed="#P" n="49"/>vindictam pauperum</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e274">  
+          <lb ed="#P" n="50"/> <ref xml:id="bHY6yh-de1319-Rd1e312">Idem cxliii. dauid</ref>  <quote xml:id="bHY6yh-de1319-Qd1e278">non intres in iudicio cum ser
+            <lb ed="#P" break="no" n="51"/>uo tuo domine quia non iustificabitur tuo omnis homo
+            <lb ed="#P" n="52"/>viuens</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e286"> 
+          <lb ed="#P" n="53"/> <ref xml:id="bHY6yh-de1319-Rd1e324">Idem. cxlv.</ref> <quote xml:id="bHY6yh-de1319-Qd1e288">dominus iustus in omnibus viis suis
+            <lb ed="#P" n="54"/>et scanctus in omnibus operibus suis.</quote> 
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e294">
+          <lb ed="#P" n="55"/><ref xml:id="bHY6yh-de1319-Rd1e338">Idem. clxvi.</ref> <quote xml:id="bHY6yh-de1319-Qd1e298">dominus faciet Iudicium in iniuriam 
+            <lb ed="#P" n="56"/>patientibus</quote> 
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e302"> 
+          <lb ed="#P" n="57"/><ref xml:id="bHY6yh-de1319-Rd1e351">Salomon in puer. ca. v.</ref> <quote xml:id="bHY6yh-de1319-Qd1e306">respicit dominus vias ho
+            <lb ed="#P" break="no" n="58"/>minis: et omnes gressus eius considerat</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e315"> 
+          <lb ed="#P" n="59"/> <ref xml:id="bHY6yh-de1319-Rd1e363">Ibidem xi. ca.</ref> <quote xml:id="bHY6yh-de1319-Qd1e317">non proderunt diuitie in die 
+            <lb ed="#P" n="60"/>vltionis Iustitia autem liberabit a morte</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e323"> 
+          <lb ed="#P" n="61"/> <ref xml:id="bHY6yh-de1319-Rd1e373">Ibidem. xv. ca.</ref> <quote xml:id="bHY6yh-de1319-Qd1e325">in omni loco oculi domini contem
+            <lb ed="#P" break="no" n="62"/>plantur bonos et malos.</quote> <quote xml:id="bHY6yh-de1319-Qd1e335">Infernus et perditio 
+              <lb ed="#P" n="63"/>coram domino quanto magis corda filiorum</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e341"> 
+          <lb ed="#P" n="64"/> <ref xml:id="bHY6yh-de1319-Rd1e394">Ibidem</ref> <quote xml:id="bHY6yh-de1319-Qd1e343">omnes viae bonorum patent oculis domini
+            <lb ed="#P" n="65"/>ominum saluartoris</quote>
+        </p> 
+        <p xml:id="bHY6yh-de1319-d1e349"> 
+          <lb ed="#P" n="66"/><ref xml:id="bHY6yh-de1319-Rd1e408">Ibidem xii. ca.</ref> <quote xml:id="bHY6yh-de1319-Qd1e351">non facies violentiam hominum pa
+            <lb ed="#P" break="no" n="67"/>uperi: quia dominus iudicabit causam eius</quote>
+        </p> 
+        <p xml:id="bHY6yh-de1319-d1e361"> 
+          <lb ed="#P" n="68"/><ref xml:id="bHY6yh-de1319-Rd1e424">Ibidem xxiii</ref> <quote xml:id="bHY6yh-de1319-Qd1e363">a domino iudicium egreditur singulorum</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e370"> 
+          <lb ed="#P" n="69"/> <ref xml:id="bHY6yh-de1319-Rd1e434">Idem in ecclisiatica. iv.</ref> <quote xml:id="bHY6yh-de1319-Qd1e372">Iustum et impium iu
+            <lb ed="#P" break="no" n="70"/>dicabit</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e378"> 
+          <lb ed="#P" n="71"/><ref xml:id="bHY6yh-de1319-Rd1e444">Ibidem. xii et fi.</ref> <quote xml:id="bHY6yh-de1319-Qd1e380">Cuncta que fiunt adducet 
+            <lb ed="#P" n="72"/>dominus pro ertato siue bonum siue malum 
+            <lb ed="#P" n="73"/>fuerit</quote> 
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e388">
+          <lb ed="#P" n="74"/><ref xml:id="bHY6yh-de1319-Rd1e460">Regum. primo. ca. xxxvi. et. xxvi.</ref> <quote xml:id="bHY6yh-de1319-Qd1e392">deus retribuet
+            <pb ed="#P" n="3-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#P" n="1"/>vnicuique secundum iustitiam suam</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e398">
+          <lb ed="#P" n="2"/><ref xml:id="bHY6yh-de1319-Rd1e473">Paralipomenon libro. ii. ca. xviiii.</ref> <quote xml:id="bHY6yh-de1319-Qd1e402">Non est
+            <lb ed="#P" n="3"/>apud deum iniquitas: nec personarum acceptio
+            <lb ed="#P" n="4"/>nec cupido munerum.</quote> 
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e410">
+          <lb ed="#P" n="5"/> <ref xml:id="bHY6yh-de1319-Rd1e489">Isaias. ca. xxi.</ref> <quote xml:id="bHY6yh-de1319-Qd1e414">Consurget deus contra domum 
+            <lb ed="#P" n="6"/>pessimorum: et contra auxilium operantium iniquitatem</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e422">
+          <lb ed="#P" n="7"/><ref xml:id="bHY6yh-de1319-Rd1e503"><unclear>Ihieremias</unclear> in libro prophetiarum. ca. xxiiii</ref><quote xml:id="bHY6yh-de1319-Qd1e426">Ego 
+            <lb ed="#P" n="8"/>visitabo supra vos malitiam studiorum ves
+            <lb ed="#P" break="no" n="9"/>trorum ait domiuns. </quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e435"> 
+          <lb ed="#P" n="10"/><ref xml:id="bHY6yh-de1319-Rd1e515">Idem xxviiii. ca.</ref> <quote xml:id="bHY6yh-de1319-Qd1e437">Ego sum iudex et testis 
+            <lb ed="#P" n="11"/>dicit dominus</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e443"> 
+          OMITTED 
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e455">
+          <lb ed="#P" n="12"/><ref xml:id="bHY6yh-de1319-Rd1e541">Ezechiel propheta. ca. xviii.</ref> <quote xml:id="bHY6yh-de1319-Qd1e459">Cum auerterit 
+            <lb ed="#P" n="13"/>se iustus a iustitia sua et fecerit iniquitatem
+            <lb ed="#P" n="14"/>et morietur in eis: in iniustitia sua: quam opera
+            <lb ed="#P" break="no" n="15"/>tus est morietur. Et cum auerterit se ius
+            <lb ed="#P" break="no" n="16"/>tus ab iniquitate sua: quam operatus est: et 
+            <lb ed="#P" n="17"/>fecerit iudicium: et iustitiam ipse animam suam 
+            <lb ed="#P" n="18"/>viuificabit unumquemque iuxta vias suas
+            <lb ed="#P" n="19"/>Iudicabo ait dominus</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e486"> 
+          <lb ed="#P" n="20"/> <ref xml:id="bHY6yh-de1319-Rd1e575">Ibidem xxxiiii. ca.</ref> <quote xml:id="bHY6yh-de1319-Qd1e488">Iustitia iusti non libe
+            <lb ed="#P" break="no" n="21"/>rabit eum in quacumque die peccauerit et 
+            <lb ed="#P" n="22"/>impietas non nocebit ei in quacumque die 
+            <lb ed="#P" n="23"/>conuersus fuerit ab impietate sua</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e498">
+          <lb ed="#P" n="24"/> <ref xml:id="bHY6yh-de1319-Rd1e591">Yesus Filius Syrach. in ecclesiaco. ca. vii.</ref> <quote xml:id="bHY6yh-de1319-Qd1e502">
+            <lb ed="#P" n="25"/>Non te iustifices ante deum: quoniam est
+            <lb ed="#P" n="26"/>agnitor cordis</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e511"> 
+          <lb ed="#P" n="27"/> <ref xml:id="bHY6yh-de1319-Rd1e603">Ibidem. ca. xv.</ref> <quote xml:id="bHY6yh-de1319-Qd1e513">deus ab initio constituit ho
+            <lb ed="#P" break="no" n="28"/>minem: et reliquit illum in manibus consilii 
+            <lb ed="#P" n="29"/>sui</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e519"> <!--Paragraph begins within previous-->
+          <quote xml:id="bHY6yh-de1319-Qd1e523">adiecit mandata: et praecepta sua:
+            <lb ed="#P" n="30"/>si volueris mandata: et precepta suate 
+            <lb ed="#P" n="31"/>confuabunt.</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e529"> <!--Paragraph begins within previous-->
+          <quote xml:id="bHY6yh-de1319-Qd1e531"> Apposuit tibi aquam et ignem
+            <lb ed="#P" n="32"/>ad quod volueris appone manum tuam: ante 
+            <lb ed="#P" n="33"/>hominem vita: et mors bonum quod placuerit 
+            <lb ed="#P" n="34"/>ei dabitur illi</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e541">
+          <lb ed="#P" n="35"/><ref xml:id="bHY6yh-de1319-Rd1e640">Quidius in metamorphorisis libro xiii</ref> <quote xml:id="bHY6yh-de1319-Qd1e545">
+            <lb ed="#P" n="36"/>Aspiciunt oculus superi mortalia iustis.</quote>
+        </p>
+        <cb ed="#P" n="b"/>
+        <p xml:id="bHY6yh-de1319-d1e551">
+          <lb ed="#P" n="37"/><ref xml:id="bHY6yh-de1319-Rd1e652">Marcus in euangelio. ca. iiii.</ref> <quote xml:id="bHY6yh-de1319-Qd1e555">In qua mensura 
+            <lb ed="#P" n="38"/>mensi fueritis metietur et vobis</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e561"> 
+          <lb ed="#P" n="39"/><ref xml:id="bHY6yh-de1319-Rd1e662">Ibidem. ca. xii.</ref><quote xml:id="bHY6yh-de1319-Qd1e563">Omni cui multum datum est 
+            <lb ed="#P" n="40"/>multum quaretur ab eo.</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e570">
+          <lb ed="#P" n="41"/><ref xml:id="bHY6yh-de1319-Rd1e674">Paulus ad Romanos. ca. secundum.</ref><quote xml:id="bHY6yh-de1319-Qd1e574">Non est personarum 
+            <lb ed="#P" n="42"/>acceptio apud deum</quote>
+        </p> 
+        <p xml:id="bHY6yh-de1319-d1e684">
+          <lb ed="#P" n="43"/><ref xml:id="bHY6yh-de1319-Rd1e688">Idem ad ephesios. ca. fi.</ref> <quote xml:id="bHY6yh-de1319-Qd1e690">Unusquisque vestrum 
+            <lb ed="#P" n="44"/>pro se rationem reddet deo: non ergo amplius 
+            <lb ed="#P" n="45"/>inuicem iudicemus sed hic iudicare
+            <lb ed="#P" n="46"/>magis ne ponatis offendieulum fratri
+            <lb ed="#P" n="47"/>vel scandalum</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e591">
+          <lb ed="#P" n="48"/><quote xml:id="bHY6yh-de1319-Qd1e595">Lex autem. titur. de monachis. §. hinc a nobis. Qua
+            <lb ed="#P" break="no" n="49"/>tum ad dei cultum non est masculus neque 
+            <lb ed="#P" n="50"/>femia neque liber neque seruus omnes 
+            <lb ed="#P" n="51"/>enim in christo mercedem percipiunt</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e605">
+          <lb ed="#P" n="52"/><ref xml:id="bHY6yh-de1319-Rd1e723">Auctor libri de formula. honeste vite
+            <lb ed="#P" n="53"/>ca. vi. et fi. quod est epilogus</ref> <quote xml:id="bHY6yh-de1319-Qd1e609">in regno dei 
+              <lb ed="#P" n="54"/>non est distinctio: quis esset in seculo laycus 
+              <lb ed="#P" n="55"/>aut clericus diues: aut pauper iunior 
+              <lb ed="#P" n="56"/>aut senior seruus aut dominus sed vnusquisque 
+              <lb ed="#P" n="57"/>secundum meritum boni operis perpetuo coronabitur gloria</quote>
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e623">  
+          <lb ed="#P" n="58"/><ref xml:id="bHY6yh-de1319-Rd1e744">Augustinus in epigramatibus prosperi: iii. epygramate</ref> <quote xml:id="bHY6yh-de1319-Qd1e627">
+            <lb ed="#P" n="59"/>nullo modo iudicia hominum sunt
+            <lb ed="#P" n="60"/>comparanda iudicia dei quem non est 
+            <lb ed="#P" n="61"/>dubitandum esse iustum etiam quando facit: quod 
+            <lb ed="#P" n="62"/>hominibus videatur iniustum.</quote>
+        </p> 
+        <!--Everything from here is added content - different from the original-->
+        <p>
+          <lb ed="#P" n="63"/><ref>Tullius officiorum libro. primo. ca.</ref> <quote>Iustitia
+            <lb ed="#P" n="64"/>est virtus conseruatrix humanae socie
+            <lb ed="#P" break="no" n="65"/>tatis: et communis utilitatis</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="66"/><ref>Lex insti. de Iusti. et in primo. et. ff. eo. l.
+            <lb ed="#P" n="67"/>iustitia.</ref> <quote>Iustitia est constas et perpetua
+              <lb ed="#P" n="68"/>voluntas: uis suum unicuique tribuens</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="69"/><ref>Tullius officiorum. l. primo. ca.</ref> <quote>Iustitia
+            <lb ed="#P" n="70"/>est habitus communi utilitate seruata suam uni
+            <lb ed="#P" break="no" n="71"/>cuique tribunes dignitatem</quote>
+        </p>
+        <p>
+          <lb ed="#P" break="no" n="72"/><ref>Auctor <!--There is a large space here-->Nemo iustus esse. a. iiii</ref>
+        </p>
+        <p>
+          <pb ed="#P" n="3-v"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/><quote>potest qui mortem: qui dolorrem: qui exilium: qui 
+            <lb ed="#P" n="2"/>egestatem timet: qut qui ea quae sunt contra
+            <lb ed="#P" break="no" n="3"/>ria equitati ante ponit</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="4"/><quote>Idem iustitia est hominum domina et regina vir
+            <lb ed="#P" break="no" n="5"/>tutum nihil est honestum quod iustitia vo
+            <lb ed="#P" break="no" n="6"/>cat</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="7"/><quote>Tullius <!--Large space here-->omnibus quidem 
+            <lb ed="#P" n="8"/>simpliciter necessaria est iustitia cuius tanta est 
+            <lb ed="#P" n="9"/>virtus: ut ne illis: qui maleficiis: et 
+            <lb ed="#P" n="10"/>scelere pascuntur possint secundum illa pericula 
+            <lb ed="#P" n="11"/>iustitiae substetari</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="12"/><ref>Cato sententia quae remota est a iustitia. ca</ref>
+          <lb ed="#P" n="13"/><quote>liditas potius quam sapientia est appellanda
+            <lb ed="#P" n="14"/>simpliciter</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="15"/><ref>Augustius de ciuitate dei libro. iiii.</ref> <quote>hoc 
+            <lb ed="#P" n="16"/>verissimum est sine summa iustitia rempublicam
+            <lb ed="#P" n="17"/>regi non posse</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="18"/><ref>Ibidem</ref> <quote>remota Iustitica quid sunt regna nisi la
+            <lb ed="#P" break="no" n="19"/>trocinia</quote>  
+        </p>
+        <p>
+          <lb ed="#P" n="20"/><quote>Auctor<!--There is a large space here-->Iustitica est splendor 
+            <lb ed="#P" n="21"/>magis ex qua nobiles suis boni uiri nomina-
+            <lb ed="#P" break="no" n="22"/>ntur</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="23"/><ref>Tullius officiorum libro. primo. ca.</ref> <quote>fundamentum 
+            <lb ed="#P" n="24"/>Iustitiae ne cui noccat deinde ut communi
+            <lb ed="#P" n="25"/>ut communi utilitati seruiant</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="26"/><ref>Ambrosius de officiis libro. primo ca.</ref> <quote>Ius
+            <lb ed="#P" break="no" n="27"/>tus communia habet pro suis: et sua pro omnibus</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="28"/><ref>Idem prima</ref> <quote>iustitia est in deo secunda 
+            <lb ed="#P" n="29"/>in patria. tertia in parentibus. Quarta in homini
+            <lb ed="#P" break="no" n="30"/>bus singularibus</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="31"/><ref>Tullius de officiis libro. primo. ca. xviii.</ref> <quote>totius
+            <lb ed="#P" break="no" n="32"/>autem iustitiae nulla capitalior est quam eorum 
+            <lb ed="#P" n="33"/>qui cum maxime fallunt id agunt: ut 
+            <lb ed="#P" n="34"/>viri boni esse uideantur</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="35"/><ref>Ibidem</ref> <quote>super omnia ueritas est colenda: quae 
+            <lb ed="#P" n="36"/>sola deo homines proximos facit</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="37"/><quote>Cassiodorus bonum est verum si non ali
+            <cb ed="#P" n="b"/>
+            <lb ed="#P" break="no" n="38"/>ud misecatur aduersum</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="39"/><ref>Seneca.</ref> <quote>Oratio eius qui ueritati operam datur in
+            <lb ed="#P" break="no" n="40"/>composita et simplex debet esse.</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="41"/><ref>Lex.</ref> <quote>Vtilius scandalum nasci
+            <lb ed="#P" n="42"/>permictitur quae ueritas relinquatur. Testimonium 
+            <lb ed="#P" n="43"/>veritati nd amicitiae reddas</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="44"/><quote>Seneca cunctis esto benignius nemini 
+            <lb ed="#P" n="45"/>blandus, paucus familiaris, omnibus 
+            <lb ed="#P" n="46"/>equus. Idem senior est iudicio quam sermone, 
+            <lb ed="#P" n="47"/>vita quam vultu.</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="48"/><ref>Ymago yustitiae posita est a Cryspo. os.</ref> <quote>et
+            <lb ed="#P" n="49"/>oculos iustitiae: uultum que serenis: ac re
+            <lb ed="#P" break="no" n="50"/>uerendis coloribus depinxit. Forma uirgina
+            <lb ed="#P" break="no" n="51"/>li / aspectu uehementi, et formidabili lumi
+            <lb ed="#P" break="no" n="52"/>nibus oculorum acerbis: nec humilibus: nec 
+            <lb ed="#P" n="53"/>attractis / sed reuerendam credam tristiciae digni
+            <lb ed="#P" break="no" n="54"/>tatem. Quisquis ergo hanc sectari desideras. time 
+            <lb ed="#P" n="55"/>deum primus / et ama / ut ameris a deo. Si conti
+            <lb ed="#P" break="no" n="56"/>gerit fideliter mendacio redimi non menti
+            <lb ed="#P" break="no" n="57"/>eris sed potius excusabis: quia ubi honesta 
+            <lb ed="#P" n="58"/>causa est Iustus secreta non pandit. tacenda 
+            <lb ed="#P" n="59"/>enim / tacet / loquenda loquitur, huinc si studere cura
+            <lb ed="#P" break="no" n="60"/>ueris letus: et intrepidus / cursus tui finem 
+            <lb ed="#P" n="61"/>expectas prospiciens tristia huiusmodi, yllaris  
+            <lb ed="#P" n="62"/>tumultuosa quietus extrema securus Iustitia 
+            <lb ed="#P" n="63"/>cum mediocritate regenda est, nisi ductu 
+            <lb ed="#P" n="64"/>iungatur leui in moram semper ad immitationem 
+            <lb ed="#P" n="65"/>negligentia/ subsequatur dum neque de magnis 
+            <lb ed="#P" n="66"/>neque de minimis errantium uiciis corrigen 
+            <lb ed="#P" n="67"/>dis curam geris sed licentiam peccandi</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="68"/><ref>Tullius de officiis libro. ca.</ref> <quote>ne dis
+            <lb ed="#P" break="no" n="69"/>putes cum eo: qui nequit confiteri sanctam ue
+            <lb ed="#P" break="no" n="70"/>ritatem</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="71"/><ref>Valeruis Maximus libro vi. ca. v.</ref> <quote>Camillo 
+            <lb ed="#P" n="72"/>consule fallischos obsidente. Magister ludi 
+            <lb ed="#P" n="73"/>plurimos: et nobilissimos pueros, velut
+            <pb ed="#P" n="4-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#P" n="1"/>vagandi gratia adductos in castra Romanorum 
+            <lb ed="#P" n="2"/>perduxit / quibus interceptis non erat dubium 
+            <lb ed="#P" n="3"/>quin fallisci deposita pertinacia belli gerendi 
+            <lb ed="#P" n="4"/>tradituri se nostro imperatori essent. Ea re 
+            <lb ed="#P" n="5"/>cognita senatus censuit ut pueri captum 
+            <lb ed="#P" n="6"/>magistrum virgis cedentes in patriam remitterentur 
+            <lb ed="#P" n="7"/>Qua iustitia animi eorum falliscorum sunt capti 
+            <lb ed="#P" n="8"/>Quorum <sic>menia</sic><!--moenia--> expugnari non poterant nam fal
+            <lb ed="#P" break="no" n="9"/>lisci benificio magisquam armis uicti portas 
+            <lb ed="#P" n="10"/>Romanis aperuerunt.</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="11"/><ref>Idem libro vi. ca. v.</ref> <quote>Thimocharis a brachiensis  
+            <lb ed="#P" n="12"/>Fabricio consuli pollicitus est se <sic>pirrum</sic><!--Pyrrm--> ve
+            <lb ed="#P" break="no" n="13"/>neno per filium suum qui potionibus suis preerat 
+            <lb ed="#P" n="14"/>necaturum. Ea res cum ad senatum esset delata
+            <lb ed="#P" n="15"/>missis legatis <sic>pirrum</sic><!--Pyrrm--> monuit: ut aduersus 
+            <lb ed="#P" n="16"/>huius generis veneni insidias cautius se 
+            <lb ed="#P" n="17"/>gereret memor urbem Romam a filio Martis 
+            <lb ed="#P" n="18"/>conditam arbis bella: et non veneno gerere de
+            <lb ed="#P" break="no" n="19"/>bere. Timocaris autem nomen tacuit Utroque
+            <lb ed="#P" n="20"/>modo equitatem amplexus: nec hostem malo exemplo 
+            <lb ed="#P" n="21"/>tollere: nec eum qui bene paratus fuerat prodere</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="22"/><ref>Idem eodem libro. et capitulo.</ref> <quote>In extremis cum salu
+            <lb ed="#P" break="no" n="23"/>berrimo consilio themistocles migrare atheni
+            <lb ed="#P" break="no" n="24"/>enses coegisset xersesque rege: et exeratu eius
+            <lb ed="#P" n="25"/>e <sic>grecia</sic> pulsus ruinas patriae in pristinum ha
+            <lb ed="#P" break="no" n="26"/>bitum reformaret: et opes occultis ordinatio
+            <lb ed="#P" break="no" n="27"/>nibus ad principatum <sic>greciae</sic> capescendum 
+            <lb ed="#P" n="28"/>inuictaret in conctione dixit habere rem in con
+            <lb ed="#P" break="no" n="29"/>etione sua prouisam qua si fortuna perduci adef
+            <lb ed="#P" break="no" n="30"/>fectum passa esset nihil maius aut potentius 
+            <lb ed="#P" n="31"/>atheniensi populo futurum: sed eam rem vulgari 
+            <lb ed="#P" n="32"/>non oportere: Postulauit que ut aliquis sibi illam 
+            <lb ed="#P" n="33"/>tacite exponeret daretur: datus est aristodes 
+            <lb ed="#P" n="34"/>qui postquam cognouit lacedemoniorum classe: quae
+            <lb ed="#P" n="35"/>tota apud Githeum portum subducta erat
+            <cb ed="#P" n="b"/>
+            <lb ed="#P" n="36"/>velle incendere ut ea consumpta dominatio 
+            <lb ed="#P" n="37"/>cederet atheniensibus processit ad ciues 
+            <lb ed="#P" n="38"/>et retulit themistodem ut vtile consilium 
+            <lb ed="#P" n="39"/>Ita minime Iustum animo uoluere: e ues
+            <lb ed="#P" break="no" n="40"/>tigio uniuersa conctio quod iustum non uidetur
+            <lb ed="#P" n="41"/>non expedire proclamauit.</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="42"/><ref>Idem eodem libro. et capitulo.</ref> <quote>Talentus Rex
+            <lb ed="#P" break="no" n="43"/>vrbe loicensium a se salubrimis: et uti
+            <lb ed="#P" break="no" n="44"/>limus rationibus cum legibus munita
+            <lb ed="#P" n="45"/>filius eius crimine adulterii damna
+            <lb ed="#P" break="no" n="46"/>tus secundum ius ipsum ab ipso constitutum utroque
+            <lb ed="#P" n="47"/>oculo carere deberet. Et cum tota ciuitas 
+            <lb ed="#P" n="48"/>in honorem patris necessitatem <sic>pene</sic><!--poenae--> adolescen
+            <lb ed="#P" break="no" n="49"/>tulo remitteret aliquandiu repugnauit. 
+            <lb ed="#P" n="50"/>ad ultimum precibus populi talentus uictus
+            <lb ed="#P" n="51"/>suo prius deinde filii oculo eruto usum 
+            <lb ed="#P" n="52"/>videndi utrique reliquit. Ita debitum supli
+            <lb ed="#P" break="no" n="53"/>ciis modum legi tradidit equitatis mira
+            <lb ed="#P" break="no" n="54"/>bilis temperamento se inter misericordem 
+            <lb ed="#P" n="55"/>patrem: et legis iustum factorem partiturus</quote>
+        </p>
+        <p>
+          <lb ed="#P" n="56"/>Idem eodem libro et capitulo. Sed aliquantulum ca
+          <lb ed="#P" break="no" n="57"/>runde ducis tirii insulae abscisor summa 
+          <lb ed="#P" n="58"/>iustitia ad uim cruorem-que seditiones ciui
+          <lb ed="#P" break="no" n="59"/>um placauerunt lege cauenda ut siquis eas 
+          <lb ed="#P" n="60"/>conciones cum ferro intrasset continuo inter
+          <lb ed="#P" break="no" n="61"/>ficerent: Interiecto deinde tempore elonginquo 
+          <lb ed="#P" n="62"/>rure gladio cinctus domum repetens su
+          <lb ed="#P" break="no" n="63"/>bita indicta concione sic armatus in eam 
+          <lb ed="#P" n="64"/>processit ab eoque: qui proxime extiterat solutae
+          <lb ed="#P" n="65"/>legis suae admonitus inquit ego illam sa
+          <lb ed="#P" break="no" n="66"/>nam protinus ferro quod habebat districto 
+          <lb ed="#P" n="67"/>incubuit. Quamuis liceret culpam dissi
+          <lb ed="#P" break="no" n="68"/>mulare: uel errorem defendere penam 
+          <lb ed="#P" n="69"/>tamen representare maluit ne qua fraus 
+          <lb ed="#P" n="70"/>iustitiae fieret
+        </p>
+        <p xml:id="bHY6yh-de1319-d1e646"><!--Document picks back up here-->
+          <pb ed="#P" n="4-v"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/> <ref xml:id="bHY6yh-de1319-Rd1e770">Boetius de consolatione. libro. iiii. ca. viiii.
+            <lb ed="#P" n="2"/>in fine:</ref> <quote xml:id="bHY6yh-de1319-Qd1e650">Quamuis eam causare dispositionem
+              <lb ed="#P" n="3"/>ignores tamen quia bonus mundum rector 
+              <lb ed="#P" n="4"/>temperat recte fieri cuncta ne dubites</quote>
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
