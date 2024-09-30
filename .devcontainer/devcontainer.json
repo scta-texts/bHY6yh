@@ -8,13 +8,20 @@
 		"formulahendry.auto-close-tag",
 		"formulahendry.auto-rename-tag",
 		"Compulim.compulim-vscode-closetag",
-		"DotJoshJohnson.xml"
+		"DotJoshJohnson.xml",
+	      	"streetsidesoftware.code-spell-checker",
+    		"streetsidesoftware.code-spell-checker-latin"
 	],
       "settings": {
         "editor.tabSize": 2,
         "editor.renderWhitespace": "all",
         "editor.insertSpaces": true,
-        "editor.detectIndentation": false
+        "editor.detectIndentation": false,
+        "cSpellExt_latin.enable": true,
+        "cSpell.language": "en,la",
+        "cSpell.enableFiletypes": [
+          "xml"
+        ]
       }
     }
   }
