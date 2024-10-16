@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rubrica 4</title>
+        <author ref="#per-c7y65a">Geremia da Montagnone</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rubrica 4</title>
+          <date when="2024-10-16">October 16, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="135-r"/>
+        <cb ed="#C" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="bHY6yh-d24815"><!-- p2l2-r4 -->
+        <head xml:id="bHY6yh-d24815-Hd1e108">Rubrica 4</head>
+        <head xml:id="bHY6yh-d24815-Hd1e111" type="question-title">De adulatione: blandimento et assentione</head>
+        <p xml:id="bHY6yh-d24815-d1e114">
+          De ad<!--line jumps down-->ulatione<!--line jumps down--> et blan<!--line jumps down-->dicis
+        </p>
+        <p xml:id="bHY6yh-d24815-d1e121">
+          <lb ed="#C"/><ref xml:id="bHY6yh-d24815-Rd1e126">SAlomon in prouerbiis capitulo I</ref> <quote xml:id="bHY6yh-d24815-Qd1e127">Si 
+          <lb ed="#C"/>te lactauerint peccatores 
+          <lb ed="#C"/>non acquiescas eis</quote>
+        </p>
+        <p xml:id="bHY6yh-d24815-d1e133"> /
+          ¶ <ref xml:id="bHY6yh-d24815-Rd1e139">Idem 27 
+          <lb ed="#C"/>capitulo</ref> <quote xml:id="bHY6yh-d24815-Qd1e135">Meliora sunt uulnera diligentis quam <del>i</del> 
+          fraudulenta oscula blandientis</quote>
+        </p>
+        <p xml:id="bHY6yh-d24815-d1e144">
+          ¶ <ref xml:id="bHY6yh-d24815-Rd1e155">So<lb ed="#C" break="no"/>crates 
+          in exortation capitulo I</ref> <quote xml:id="bHY6yh-d24815-Qd1e148">Odi blandientes tam<lb ed="#C" break="no"/>quam 
+          decipientes nam utique commissarii 
+          <lb ed="#C"/>facti iniuriantur commissis</quote>
+        </p>
+        <p xml:id="bHY6yh-d24815-d1e156">
+          ¶ <ref xml:id="bHY6yh-d24815-Rd1e169">Aristoteles rethoricorum 
+          <lb ed="#C"/>libro I capitulo XX</ref> <quote xml:id="bHY6yh-d24815-Qd1e160">Adulationem recipere et adula<lb ed="#C" break="no"/>tio 
+          detestabile est apparens amicus adula<lb ed="#C" break="no"/>tor 
+          est ¶ Idem libro 2 capitulo IX Laudare presen<lb ed="#C" break="no"/>tem 
+          adulatoris est</quote>
+        </p>
+        <p xml:id="bHY6yh-d24815-d1e172"> /
+          ¶ <ref xml:id="bHY6yh-d24815-Rd1e185">Idem ethicorum libro 4 
+          <lb ed="#C"/>capitulo 4</ref> <quote xml:id="bHY6yh-d24815-Qd1e174">Omnes blanditores obsequio<lb ed="#C" break="no"/>si 
+          seruiles et humiles sunt</quote>
+        </p>
+        <p xml:id="bHY6yh-d24815-d1e182"> 
+          ¶ <ref xml:id="bHY6yh-d24815-Rd1e197">Ibidem libro 8 
+          <lb ed="#C"/>capitulo V</ref> <quote xml:id="bHY6yh-d24815-Qd1e184">Amatores adulatoris multi sunt</quote>
+        </p>
+        <p xml:id="bHY6yh-d24815-d1e190"> 
+          <cb ed="#C" n="b"/>
+          <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d24815-Rd1e207">Idem magnorum moralium libro I capitulo LI</ref> <quote xml:id="bHY6yh-d24815-Qd1e192">Adulator 
+          <lb ed="#C"/>est plus decentibus et existentibus addici<lb ed="#C" break="no"/>ens</quote>
+        </p>
+        <p xml:id="bHY6yh-d24815-d1e200">
+          ¶ <ref xml:id="bHY6yh-d24815-Rd1e220">Terentius in prima comedia scilicet in 
+          <lb ed="#C"/>andria capitulo 3</ref> <quote xml:id="bHY6yh-d24815-Qd1e204">hoc tempore obsequium sunt 
+          <lb ed="#C"/>amiosi eternum et spei quorum quidem hoc 
+          <lb ed="#C"/>non tamen hoc audere facit et necetima 
+          <lb ed="#C"/>iratus ullus tamet spare bonum ali<lb ed="#C" break="no"/>quod 
+          auxibile est</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
