@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 11</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 11</title>
+               <date when="2024-10-20">October 20, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="136-v"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d97288"><!-- p5l1-r11 -->
+            <head xml:id="bHY6yh-d97288-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-d97288-Hd1e111" type="question-title">De audacia</head>
+            <p xml:id="bHY6yh-d97288-d1e114">
+              <unclear>inidi<!--line jumps down-->oriumtur bella</unclear>
+            </p>
+            <p xml:id="bHY6yh-d97288-d1e119">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d97288-Rd1e116">PLato in menone ultra me<lb ed="#C" break="no"/>dium</ref>
+              <quote xml:id="bHY6yh-d97288-Qd1e120">quotiens absque 
+              <lb ed="#C"/>mente audeat homo leditur quo<lb ed="#C" break="no"/>tiens 
+              uero cum mente proficitur</quote> 
+            </p>
+            <p xml:id="bHY6yh-d97288-d1e130">
+              ¶ <ref xml:id="bHY6yh-d97288-Rd1e132">Aristoteles 
+              <lb ed="#C"/>rethoricorum libro 2 capitulo VIII</ref> <quote xml:id="bHY6yh-d97288-Qd1e134">Auxibile contrarium 
+              <lb ed="#C"/>est timendo quare est spes contra fantasiaque 
+              <lb ed="#C"/>salutarium aut prose existentium Auxiui 
+              <lb ed="#C"/>sunt quo sepe inciderunt periculis et euase<lb ed="#C" break="no"/>runt 
+              auxiuum est ira</quote>
+            </p>
+            <p xml:id="bHY6yh-d97288-d1e147">
+              ¶  <ref xml:id="bHY6yh-d97288-Rd1e149">Idem 16 capitulo libro 4</ref> 
+              <lb ed="#C"/>¶  <quote xml:id="bHY6yh-d97288-Qd1e149">Iuuenes anxiores</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
