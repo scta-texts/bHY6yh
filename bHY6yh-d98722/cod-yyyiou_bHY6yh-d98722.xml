@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 7</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 7</title>
+               <date when="2024-10-29">October 29, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-10-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="137-v"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d98722"><!-- p5l2-r7 -->
+            <head xml:id="bHY6yh-d98722-Hd1e108">Rubrica 7</head>
+            <head xml:id="bHY6yh-d98722-Hd1e111" type="question-title">De peritia atque imperitia bellice operationis</head>
+            <p xml:id="bHY6yh-d98722-d1e114">
+              de sciam siue<!--line jumps down--> <sic>peritia</sic><unclear>reri</unclear> bel<!--line jumps down-->lice capitum
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e121">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d98722-Rd1e118">QVintilianus sed a 
+              declamatione</ref> 
+              <lb ed="#C"/><quote xml:id="bHY6yh-d98722-Qd1e129">Principes nos facit seueritas Insti<lb ed="#C" break="no"/>tutorum 
+              ordo militie amor quidam 
+              <lb ed="#C"/>laborum et quotidiana exercitatione 
+              <lb ed="#C"/>belli meditatio itaque plura pene 
+              <lb ed="#C"/>moribus quam uiribus uicimus</quote> 
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e141">
+              ¶ <ref xml:id="bHY6yh-d98722-Rd1e141">Statius 
+              <lb ed="#C"/>thebaydo libro 8</ref> <quote xml:id="bHY6yh-d98722-Qd1e145">Sepe que ignari pere<lb ed="#C" break="no"/>untque 
+              caduntque</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e152">
+              ¶ <ref xml:id="bHY6yh-d98722-Rd1e154">Frontinus libro 4 titulo 2</ref> 
+              <lb ed="#C"/><quote xml:id="bHY6yh-d98722-Qd1e156">Domicius corbulo duabus legionibus 
+              <lb ed="#C"/>et paucissis auxiliis disciplina cor<lb ed="#C" break="no"/>rectis 
+              parthos substrauit Alexan<lb ed="#C" break="no"/>der 
+              macedo quadraginta milibus hominum 
+              <pb ed="#C" n="138-r"/>
+              <cb ed="#C" n="a"/>
+              <lb ed="#C"/>iam inde a philippo patre discipline
+              <lb ed="#C"/>assuefactis orbem terrarum eggressus 
+              <lb ed="#C"/>innumeras hostium copias superauit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e177">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d98722-Rd1e181">Vegetius de re militari in prohemio</ref> <quote xml:id="bHY6yh-d98722-Qd1e181">in omni prelio 
+              <lb ed="#C"/>non tam multitudo et uirtus quam ars et 
+              <lb ed="#C"/>exercitium solent praestare uictoriam</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e189"> 
+              ¶ <ref xml:id="bHY6yh-d98722-Rd1e193">Idem 
+              <lb ed="#C"/>XI titulo</ref> <quote xml:id="bHY6yh-d98722-Qd1e191">Scientiam rei bellice dimicandi 
+              <lb ed="#C"/>nutrit audaciam in certamine bellorum
+              <lb ed="#C"/>exercitata paucitas semper potior est uic<lb ed="#C" break="no"/>toriam 
+              rudis et indocta rustiticas expo<lb ed="#C" break="no"/>sita
+              ad sedem</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e208"> 
+              ¶ <ref xml:id="bHY6yh-d98722-Rd1e213">Idem 4 titulo</ref> <quote xml:id="bHY6yh-d98722-Qd1e210"></quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e218"> 
+              <ref xml:id="bHY6yh-d98722-Rd1e225"></ref> <quote xml:id="bHY6yh-d98722-Qd1e220">Nichil 
+              <lb ed="#C"/>firmius neque felicius neque laudabilius 
+              <lb ed="#C"/>est Republica in qua habundant milites eru<lb ed="#C" break="no"/>diti 
+              in aliis rebus sicud ait cato siquid 
+              <lb ed="#C"/>erratum est potest corrigi postmodum 
+              <lb ed="#C"/>preliorum uero delicta non  non recipiunt emen<lb ed="#C" break="no"/>dationem 
+              cum pena statim sequatur 
+              <lb ed="#C"/>errorem nam aut confestim pereunt 
+              <lb ed="#C"/>aut in fugam uersi uictoribus ultra pares 
+              <lb ed="#C"/>esse non audent</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e243"> 
+              ¶ <ref xml:id="bHY6yh-d98722-Rd1e252">Idem 28 titulo et finali</ref> 
+              <lb ed="#C"/><quote xml:id="bHY6yh-d98722-Qd1e245">u<lb ed="#C" break="no"/>tilius 
+              constat erudire suos quam alienos 
+              <lb ed="#C"/>mercede conducere</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e254"> 
+              ¶ <ref xml:id="bHY6yh-d98722-Rd1e265">Idem libro 2 titulo 22</ref> 
+              <lb ed="#C"/><quote xml:id="bHY6yh-d98722-Qd1e256">Si doctrina cesset armorum nil paganus 
+              <lb ed="#C"/>distat a milite</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e262"> 
+              ¶ <ref xml:id="bHY6yh-d98722-Rd1e275">Idem libro 3 in prohemio</ref> 
+              <lb ed="#C"/><quote xml:id="bHY6yh-d98722-Qd1e264">qui uictoriam cupit milites imbuat 
+              <lb ed="#C"/>diligenter qui secundas optat euentus 
+              <lb ed="#C"/>dimicet</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
