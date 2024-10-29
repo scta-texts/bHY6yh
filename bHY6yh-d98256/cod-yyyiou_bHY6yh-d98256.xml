@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4</title>
+               <date when="2021-05-18">October 29, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-10-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="125-v"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d98256"><!-- p5l2-r4 -->
+            <head xml:id="bHY6yh-d98256-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-d98256-Hd1e111" type="question-title">De eis que prius et potius agenda sunt quam prelium</head>
+            <p xml:id="bHY6yh-d98256-d1e114">
+              De hiis que prius et cogitanda<!--line jumps down--> et agenda sunt <unclear>antebellum</unclear><!--line jumps down--> in de prouidentia capitulo
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e121">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d98256-Rd1e118">TEren<lb ed="#C" break="no"/>tius 
+              <lb ed="#C"/>capitulo 18</ref> <quote xml:id="bHY6yh-d98256-Qd1e127">Omnia parent experiri quam armis sa<lb ed="#C" break="no"/>piente 
+              decet</quote> 
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e135">
+              ¶ <ref xml:id="bHY6yh-d98256-Rd1e135">Valerius maximus libro 7 titulo</ref> 
+              <lb ed="#C"/><quote xml:id="bHY6yh-d98256-Qd1e139">sapienter dicta aut facta Scipio affricanus 
+              <lb ed="#C"/>negat aliter cum hoste confligere debeo quam 
+              <lb ed="#C"/>si aut occasio obuenisset aut necessitas 
+              <lb ed="#C"/>incidisset</quote>
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e150">
+              ¶ <ref xml:id="bHY6yh-d98256-Rd1e152">Vegetius de re militari libro 3 titulo 
+              <lb ed="#C"/>9</ref> <quote xml:id="bHY6yh-d98256-Qd1e154">Omnia ante agitanda anteque temptanda 
+              <lb ed="#C"/>quam ante facienda sunt quam ad ultimum 
+              <lb ed="#C"/>ueniatur obrutum boni emim duces non 
+              <lb ed="#C"/>aperto prelio in quo est commune periculum sed 
+              <lb ed="#C"/>occulto semper <sic>attant</sic> ut integris suis 
+              <lb ed="#C"/>quantum possunt hostes interuemant 
+              <lb ed="#C"/>uel certe deterrtant</quote>
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e171"> 
+              ¶ <ref xml:id="bHY6yh-d98256-Rd1e175">Idem 26 capitulo et finali</ref> 
+              <lb ed="#C"/>¶ <quote xml:id="bHY6yh-d98256-Qd1e173">Inopia aut superuentibus aut terrore 
+              <lb ed="#C"/>melius est hostem domare quam prelio in 
+              <lb ed="#C"/>quo amplius solet fortuna potestatis ha<lb ed="#C" break="no"/>bere 
+              quam uirtutes boni duces publico 
+              <lb ed="#C"/>certamine nunquam nisi occasione aut necessita<lb ed="#C" break="no"/>te 
+              confligunt magna dispositio est 
+              <lb ed="#C"/>hostem magis famen urgere quam ferro</quote>
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e198">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d98256-Rd1e207">Cassiodorus epistolarum libro III epsitola I</ref> <quote xml:id="bHY6yh-d98256-Qd1e202">Tunc so<lb ed="#C" break="no"/>lum 
+              utile est ad arma concurrere etc.</quote>
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e212">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d98256-Rd1e223">Baldo 13 fabula</ref> <quote xml:id="bHY6yh-d98256-Qd1e216">Cautius est hastu quam se de<lb ed="#C" break="no"/>fendere 
+              fastu</quote>
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e222">
+              ¶ <ref xml:id="bHY6yh-d98256-Rd1e235">Ricardus III venusinus capitulo 42</ref> 
+              <lb ed="#C"/><quote xml:id="bHY6yh-d98256-Qd1e226">Euentus pugne dubius uictoria de po<lb ed="#C" break="no"/>pulo 
+              nimio non uenit vnno deo.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
