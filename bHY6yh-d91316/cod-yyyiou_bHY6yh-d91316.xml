@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10</title>
+               <date when="2024-09-14">September 14, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-09-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="126-v"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d91316"><!-- p4l6-r10 -->
+            <head xml:id="bHY6yh-d91316-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-d91316-Hd1e111" type="question-title">De molestia vxorum et dissuasione vxorationis</head>
+            <p xml:id="bHY6yh-d91316-d1e114">
+              De molestia et dissuasione <!--line jumps down--> usu ut astorationis capitulis
+            </p>
+            <p xml:id="bHY6yh-d91316-d1e121">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d91316-Rd1e118">SAlo<lb ed="#C" break="no"/>mon 
+              in prouerbiis capitulo 21</ref> <quote xml:id="bHY6yh-d91316-Qd1e127">Melius est habita<lb ed="#C" break="no"/>re 
+              in terra deserta quam cum muliere rixosa 
+              <lb ed="#C"/>et iracunda</quote> 
+            </p>
+            <p xml:id="bHY6yh-d91316-d1e135">
+              ¶ <ref xml:id="bHY6yh-d91316-Rd1e135">Theofrastus <unclear>uetio etc.</unclear> </ref> <quote xml:id="bHY6yh-d91316-Qd1e139">m 
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/>proximo</quote>
+            </p>
+            <p xml:id="bHY6yh-d91316-d1e157">
+              ¶ <ref xml:id="bHY6yh-d91316-Rd1e159">Aristotiles yconomicorum libro III et finali</ref> 
+              <lb ed="#C"/><quote xml:id="bHY6yh-d91316-Qd1e161">Aduersitates nolunt communicare non optime 
+              <lb ed="#C"/>mulierum</quote>
+            </p>
+            <p xml:id="bHY6yh-d91316-d1e167">
+              ¶ <ref xml:id="bHY6yh-d91316-Rd1e174">Yesus filius sirach. in ecclesiastico capitulo 25</ref> <quote xml:id="bHY6yh-d91316-Qd1e171">Mulier 
+              <lb ed="#C"/>si primatum habeat contria erit uiro suo</quote>
+            </p>
+            <p xml:id="bHY6yh-d91316-d1e177">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d91316-Rd1e186">Terentius in <unclear>ethna</unclear> capitulo V</ref> <quote xml:id="bHY6yh-d91316-Qd1e181">Uno animo omnes socrus 
+              <lb ed="#C"/>oderunt nurus uiris aduersas Eque stu<lb ed="#C" break="no"/>dium 
+              est similis pertinacia est in eo denique omnes 
+              <lb ed="#C"/>mihi uidentur ludo docte ad malitiam</quote>
+            </p>
+            <p xml:id="bHY6yh-d91316-d1e191">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d91316-Rd1e202">Quintilianus in declamationum</ref> <quote xml:id="bHY6yh-d91316-Qd1e195">facinus quod bonos 
+              <lb ed="#C"/>priuignos nouerce facilius decipiunt ne 
+              <lb ed="#C"/>leuius oderunt notum hoc a uulgare faci<lb ed="#C" break="no"/>nus 
+              est quod plerumque contraliberos armantur 
+              <lb ed="#C"/>uxores et sequentium matrimoniorum 
+              <lb ed="#C"/>non aliunde quam de dampno effectus est 
+              <lb ed="#C"/>genus infirmissime serutatis est senes 
+              <lb ed="#C"/>maritus et uxore caritatis ardorem flagran<lb ed="#C" break="no"/>tius 
+              frigidis concipisatuus affectibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d91316-d1e214">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d91316-Rd1e230">Iuuenalis libro 2 satira unica</ref> | <quote xml:id="bHY6yh-d91316-Qd1e218">Semper 
+              <lb ed="#C"/>habet lites alternaque iurgia lectus in quo nup<lb ed="#C" break="no"/>ta 
+              iacet minime dormitur in illo</quote>
+            </p>
+            <p xml:id="bHY6yh-d91316-d1e226">
+              ¶ <ref xml:id="bHY6yh-d91316-Rd1e244">Ful<lb ed="#C" break="no"/>gentius 
+              michologiarum libro I fabula 21 et finali</ref> <quote xml:id="bHY6yh-d91316-Qd1e230">Sicud 
+              <lb ed="#C"/>nichil benigna supinus coniuge itaque 
+              <lb ed="#C"/>infesta crudelius muliere</quote>
+            </p>
+            <p xml:id="bHY6yh-d91316-d1e238">
+              ¶ <ref xml:id="bHY6yh-d91316-Rd1e259">Cato capitulo 2</ref> 
+              <lb ed="#C"/><quote xml:id="bHY6yh-d91316-Qd1e242">Nil temere uxori etc.</quote>
+            </p>
+            <p xml:id="bHY6yh-d91316-d1e249">
+              ¶ <ref xml:id="bHY6yh-d91316-Rd1e277">Andreas capellanus domino 
+              <lb ed="#C"/>pape Innocenti libro 4 de disuasione uxoris</ref> 
+              <lb ed="#C"/><quote xml:id="bHY6yh-d91316-Qd1e253">Si mulieri anchoram alligaueris sirti<lb ed="#C" break="no"/>bus 
+              latentibus illuderis O felix uita 
+              <lb ed="#C"/>mortalium si eam non corrumperent con<lb ed="#C" break="no"/>tubernia 
+              mulierum quas cohitui tantum 
+              <lb ed="#C"/>necessarias dicimus ut ex filis silem natura arti<lb ed="#C" break="no"/>fice 
+              producamus</quote>
+            </p>
+            <p xml:id="bHY6yh-d91316-d1e270"> 
+              <ref xml:id="bHY6yh-d91316-Rd1e298">uiue philsophie cum uxori</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-d91316-Qd1e272">si casta fuerit superbia non deerit Si di<lb ed="#C" break="no"/>ues 
+              si nobilis coniugem aspernabitur et 
+              <lb ed="#C"/>forsam plerumque suspitio commictatur 
+              <lb ed="#C"/>Si turpis numquam lectus murmuratione 
+              carebit Si incesta rubescet facies in 
+              <lb ed="#C"/>pudore eo frequenter accidit quod ux<lb ed="#C" break="no"/>ore 
+              <pb ed="#C" n="127-r"/>
+              <cb ed="#C" n="a"/>
+              <lb ed="#C"/>contenta contempnitur deus et inde 
+              <lb ed="#C"/>nascatur iniuria unde debuit prodire con<lb ed="#C" break="no"/>cordia 
+              libertas si adimitur si nunquam tibi fe<lb ed="#C" break="no"/>mina 
+              societur nec tuus esse poteris quia 
+              <lb ed="#C"/>quo fugias non habebis si iuuenem senex
+              <lb ed="#C"/>duxerit contempneris Si senex seni con<lb ed="#C" break="no"/>iungitur 
+              uoluptatis amor non sequitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d91316-d1e302">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d91316-Rd1e333"><sic>Riccardus</sic> iudex venusinus de pertract<lb ed="#C" break="no"/>atione 
+              nuptiarum capitulo L</ref> <quote xml:id="bHY6yh-d91316-Qd1e306">Est mulier lin<lb ed="#C" break="no"/>guosa 
+              uiro pars mortis amare nocte 
+              <lb ed="#C"/>que die mouis morte fatigat eam Cum 
+              <lb ed="#C"/>bene prandere potare quiescere secum
+              <lb ed="#C"/>optat tunc ipsa iurgia seua parat
+              <lb ed="#C"/>non mare turbatum fertar pugnare ca<lb ed="#C" break="no"/>rina 
+              Ferte quam mulier litigiosa uirum</quote>
+            </p>
+            <p xml:id="bHY6yh-d91316-d1e325">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d91316-Rd1e359">Bertrandus in yconomica capitulo X</ref> <quote xml:id="bHY6yh-d91316-Qd1e329">Dolorem de mala 
+              <lb ed="#C"/>uxore tunc mitigabis quando audies de 
+              <lb ed="#C"/>uxoribus alienis</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
