@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Rubrica 1</title>
+           <author ref="#per-c7y65a">Geremia da Montagnone</author>
+           <respStmt>
+              <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           <respStmt>
+              <name ref="erinkurian">Erin Kurian</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           </titleStmt>
+           <editionStmt>
+              <edition n="0.0.0-dev">
+                 <title>Rubrica 1</title>
+                 <date when="2024-10-28">October 28, 2024</date>
+              </edition>
+           </editionStmt>
+           <publicationStmt>
+              <authority>SCTA</authority>
+              <availability status="free">
+                 <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                 </p>
+              </availability>
+           </publicationStmt>
+           <sourceDesc>
+           <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+           </listWit>
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+        <editorialDecl>
+           <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+      guidelines for a diplomatic edition.</p>
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc status="draft">
+        <listChange>
+           <change when="2024-10-28" status="draft" n="0.0.0">
+              <p>Created file for the first time.</p>
+           </change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+     <front>
+        <div xml:id="starts-on">
+           <pb ed="#Ka" n="75-r"/>
+           <cb ed="#Ka" n="b"/>
+        </div>
+     </front>
+      <body>
+         <div xml:id="bHY6yh-d35529"><!-- p2l5-r1 -->
+            <head xml:id="bHY6yh-d35529-Hd1e108">Rubrica 1</head>
+           <head xml:id="bHY6yh-d35529-Hd1e111" type="question-title">De petitionibus et rogationibus beneficiorum: et exauditionibus vel de negationibus</head>
+            <p xml:id="bHY6yh-d35529-d1e114">
+              <lb ed="#Ka"/>Quintus liber secunde partis
+              <lb ed="#Ka"/>tractat de beneficiis subhiis 
+              <lb ed="#Ka"/>titulis sequentibus
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e123">
+              de 
+              <lb ed="#Ka"/>petitionibus et rogationibus be<lb ed="#Ka" break="no"/>neficiorum 
+              et exauditionibus uel 
+              <lb ed="#Ka"/>de negationibus rubrica prima
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e134">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d35529-Rd1e130">SOcrates in exortationibus 
+              <lb ed="#Ka"/>capitulo 2</ref> // <quote xml:id="bHY6yh-d35529-Qd1e142">Sic quidem elon<lb ed="#Ka" break="no"/>gantius 
+              uteriis amicis si minime 
+              <lb ed="#Ka"/>praestoles eorum praeces et ultro si cum 
+              <lb ed="#Ka"/>exigit tempus auxilieris</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e151">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d35529-Rd1e150">Aristotiles rethoricorum libro 2 capitulo 6</ref> <quote xml:id="bHY6yh-d35529-Qd1e155">factiua
+              <pb ed="#Ka" n="75-v"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>amicitie est gratia et non requisitum 
+              <lb ed="#Ka"/>facere</quote> //
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e161">
+              <ref xml:id="bHY6yh-d35529-Rd1e162">Salustuius in cacilmario</ref> <quote xml:id="bHY6yh-d35529-Qd1e165">au<lb ed="#Ka" break="no"/>xilium 
+              ab omnibus petas etiam ab in<lb ed="#Ka" break="no"/>firmis</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e171">
+              <ref xml:id="bHY6yh-d35529-Rd1e174">Oratius in sermonibus
+              <lb ed="#Ka"/>libro 1 sermonium 3</ref> // <quote xml:id="bHY6yh-d35529-Qd1e175">Omnibus hoc vitium est 
+              <lb ed="#Ka"/>cautoribus inter amicos ut non dispo<lb ed="#Ka" break="no"/>nant 
+              animum causatare rogati 
+              <lb ed="#Ka"/>In uisi numquam desistant</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e183">
+              <ref xml:id="bHY6yh-d35529-Rd1e188">Tulius de 
+              <lb ed="#Ka"/>amicitia</ref> <quote xml:id="bHY6yh-d35529-Qd1e187">hec lex in amicitia sanc<lb ed="#Ka" break="no"/>tiatur 
+              ut neque rogemus res tur<lb ed="#Ka" break="no"/>pes 
+              neque rogatu faciamus</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e201">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d35529-Rd1e208">Ouidius epistolarum 7 epistola</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d35529-Qd1e205">perdere verba leue est</quote> //
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e211">
+              <ref xml:id="bHY6yh-d35529-Rd1e218">Idem sine 
+              <lb ed="#Ka"/>titulo seu amorum libro 3 et finale capitulo 11</ref> <quote xml:id="bHY6yh-d35529-Qd1e213">desine 
+              <lb ed="#Ka"/>blandicias et verba potentia quondam 
+              <lb ed="#Ka"/>perdere non ego sum stultus ut ante 
+              <lb ed="#Ka"/>fui</quote> //
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e224">
+              <ref xml:id="bHY6yh-d35529-Rd1e235">Idem de arte amandi libro 1</ref> // 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d35529-Qd1e228">flectitur eratus uoce rogante deus</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e234">
+              <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d35529-Rd1e246">Idem metha morphoseos libro 8</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d35529-Qd1e238">Ingnauis praecibus fortuna uiuat</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e244">
+              <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d35529-Rd1e255">libro 9</ref> <quote xml:id="bHY6yh-d35529-Qd1e246">Id pete quod fas est</quote> //
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e252">
+              <ref xml:id="bHY6yh-d35529-Rd1e264">Idem de 
+              <lb ed="#Ka"/>ponto libro 2 epistola 9</ref> // <quote xml:id="bHY6yh-d35529-Qd1e254">Conspicitur nunquam 
+              <lb ed="#Ka"/>meliore potentia causa // Quam 
+              <lb ed="#Ka"/>quotiens uarias non finit esse preces</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e262">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d35529-Rd1e277">Seneca tragediarum in ypolito capitulo 6</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d35529-Qd1e266">Qui timidus rogat docet negare</quote> 
+              <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d35529-Rd1e283">Idem de beneficiis libro 2</ref> // <quote xml:id="bHY6yh-d35529-Qd1e274">Si con<lb ed="#Ka" break="no"/>tingit 
+              interuenire plura rogantis
+              <lb ed="#Ka"/>verba interdicenda sunt ne rogati 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>videamus sed certiores facti statim 
+              <lb ed="#Ka"/>promittamus facturosque nos antequam 
+              <lb ed="#Ka"/>interpellemur ipsa festinatione approbemus</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e283">
+              <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d35529-Rd1e302">Idem declementa libro 2 capitulo 7</ref> <quote xml:id="bHY6yh-d35529-Qd1e285">nemo 
+              <lb ed="#Ka"/>fortiter negantem interum rogauit</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e294">
+              <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d35529-Rd1e316">Idem in prouerbiis</ref> <quote xml:id="bHY6yh-d35529-Qd1e296">Minus decipitur 
+              <lb ed="#Ka"/>cui negatur celeriter // Negandi causa 
+              <lb ed="#Ka"/>auaro numquam defficit</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e304">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d35529-Rd1e330">Ualerius maximus libro 6 titulo</ref> <quote xml:id="bHY6yh-d35529-Qd1e308">grauius
+              <lb ed="#Ka"/>dicta aut facta publius rutilius 
+              <lb ed="#Ka"/>cum amici cuiusdam in iuste roga<lb ed="#Ka" break="no"/>cioni 
+              resisteret ac 18 per summam indig<lb ed="#Ka" break="no"/>nationem 
+              dixisset quid go opus 
+              <lb ed="#Ka"/>est michi amicitia tua si quod rogo 
+              <lb ed="#Ka"/>non facias ymo quid michi tua 
+              <lb ed="#Ka"/>si propter te aliquid inhoneste fac<lb ed="#Ka" break="no"/>turus 
+              sum</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e325">
+              <ref xml:id="bHY6yh-d35529-Rd1e351">libro 7 titulo</ref> <quote xml:id="bHY6yh-d35529-Qd1e327">sapienter 
+              <lb ed="#Ka"/>dicta aut facta 
+              <lb ed="#Ka"/>Socrates humane sapientie quasi quod<lb ed="#Ka" break="no"/>dam 
+              terrestre oraculum nichil ultra 
+              <lb ed="#Ka"/>petendum adiis immortalibus 
+              <lb ed="#Ka"/>arbitrabatur quam ut bona tribu<lb ed="#Ka" break="no"/>erent 
+              quia hii demum scirent quid 
+              <lb ed="#Ka"/>vnicuique esset utile / titulo cautis dicta 
+              <lb ed="#Ka"/>aut facta alexander cum ad excidi<lb ed="#Ka" break="no"/>um 
+              lancass ne urbis summo 
+              <lb ed="#Ka"/>studio ferreretur progressumque 
+              <lb ed="#Ka"/>extra menia a maximenem prae<pb ed="#Ka" n="76-r"/><cb ed="#Ka" n="a"/><lb ed="#Ka"/>ceptorem 
+              suum vidisset quia manifes<lb ed="#Ka" break="no"/>tum 
+              erant futurum ut praeces suas ire 
+              <lb ed="#Ka"/>eius opponeret non facturum se quod petis<lb ed="#Ka" break="no"/>set 
+              iurauit Tunc maximens peto 
+              <lb ed="#Ka"/>inquit ut lasancum dirruas / hec 
+              <lb ed="#Ka"/>uelocitas sagittatis opidum ue<lb ed="#Ka" break="no"/>tusta 
+              nobilitate inclitum exitio 
+              <lb ed="#Ka"/>cui destinatum erat subtraxit</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e361">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d35529-Rd1e393">Prosper sub <del>19</del> 91 epigramate</ref> <quote xml:id="bHY6yh-d35529-Qd1e365">Eum deus
+              <lb ed="#Ka"/>effectum praecibus nos praestat iniquis</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e377">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d35529-Rd1e410">Macrobius saturnaliorum libro 2 capitulo 18
+              <lb ed="#Ka"/>ex auctoritate publii</ref> <quote xml:id="bHY6yh-d35529-Qd1e381">pars beneficii est 
+              <lb ed="#Ka"/>quod petitur si cito neges</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e389">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d35529-Rd1e425">Cato capitulo 2</ref> <quote xml:id="bHY6yh-d35529-Qd1e393">Quod iustum est pe<lb ed="#Ka" break="no"/>tito 
+              uel quod uideatur honestum nam 
+              <lb ed="#Ka"/>stultum est petere quod possit iure ne<lb ed="#Ka" break="no"/>gari</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e402">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d35529-Rd1e440">Cassiodorus epistolarum libro 2 epistola 30</ref> // 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d35529-Qd1e406">Cur illud trademus annuere vnde 
+              <lb ed="#Ka"/>nulla possumus dampna sentire</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e414">
+              <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d35529-Rd1e452">libro 3 epistola 43</ref> <quote xml:id="bHY6yh-d35529-Qd1e416">Supplicationem praecedit 
+              <lb ed="#Ka"/>humanitas</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e422">
+              <ref xml:id="bHY6yh-d35529-Rd1e462">libro 4 epistola 5</ref> <quote xml:id="bHY6yh-d35529-Qd1e424">donare videtur 
+              <lb ed="#Ka"/>qui vendit rogatus</quote> //
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e430">
+              <ref xml:id="bHY6yh-d35529-Rd1e472">24</ref> <quote xml:id="bHY6yh-d35529-Qd1e432">vocis 
+              <lb ed="#Ka"/>iusta poscentium tribuat effectus</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e438">
+              <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d35529-Rd1e482">26 epistola</ref> <quote xml:id="bHY6yh-d35529-Qd1e440">ipsa est perfecta pietas que 
+              <lb ed="#Ka"/>antequem flectatur precibus nouit 
+              <lb ed="#Ka"/>considerare fatigatos</quote> //
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e448">
+              <ref xml:id="bHY6yh-d35529-Rd1e493">Idem de 
+              <lb ed="#Ka"/>amicitia capitulo 22</ref> <quote xml:id="bHY6yh-d35529-Qd1e450">uenerosus animus 
+              <lb ed="#Ka"/>nil magis erubescit quam petere</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e459">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d35529-Rd1e509">Baldo 11 fabularum</ref> // <quote xml:id="bHY6yh-d35529-Qd1e463">blandimenta 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>praecum uertunt in candida ceteum</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e469">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d35529-Rd1e520">Gvalterius de castellione libro 6</ref> // 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d35529-Qd1e473">Repulsam ex merito patitur qui post<lb ed="#Ka" break="no"/>ulat 
+              // ulterius  quam promouerunt 
+              <lb ed="#Ka"/>spes quam meritum non praeuenit a<lb ed="#Ka" break="no"/>spe 
+              deuiat et verum dat ei presumptio 
+              <lb ed="#Ka"/>nomen</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e483">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d35529-Rd1e536">Matheus vindocenenser de hystoria 
+              <lb ed="#Ka"/>thobye capitulo 31</ref> // <quote xml:id="bHY6yh-d35529-Qd1e487">Sepe repulsa iuuat 
+              <lb ed="#Ka"/>nocet impetrare repulsa // liberat 
+              <lb ed="#Ka"/>arbitrium munera sumpta ligant</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e495">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d35529-Rd1e549">capitulo 39</ref> <quote xml:id="bHY6yh-d35529-Qd1e499">Est rogo vox miseri nox 
+              <lb ed="#Ka"/>inportuna pudoris // prodiga 
+              <lb ed="#Ka"/>meroris plena fauoris agens
+              <lb ed="#Ka"/>ligare rogata roganti si poteris</quote>
+            </p>
+            <p xml:id="bHY6yh-d35529-d1e509">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d35529-Rd1e565">Prouerbium vulgare metricum extra<lb ed="#Ka" break="no"/>ordinem 
+              libro vagis</ref> // <quote xml:id="bHY6yh-d35529-Qd1e513">Est orare ducum 
+              <lb ed="#Ka"/>species uiolenta iubendi et quasi 
+              <lb ed="#Ka"/>nudato supplicat ense potens</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
