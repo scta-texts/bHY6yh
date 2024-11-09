@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 13</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 13</title>
+               <date when="2024-11-03">November 3, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-11-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="138-r"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d99598"><!-- p5l2-r13 -->
+            <head xml:id="bHY6yh-d99598-Hd1e108">Rubrica 13</head>
+            <head xml:id="bHY6yh-d99598-Hd1e111" type="question-title">De munitione et custodia locorum</head>
+            <p xml:id="bHY6yh-d99598-d1e114">
+            </p>
+            <p xml:id="bHY6yh-d99598-d1e119">
+                <ref xml:id="bHY6yh-d99598-Rd1e116"></ref> <quote xml:id="bHY6yh-d99598-Qd1e125"></quote> 
+            </p>
+            <p xml:id="bHY6yh-d99598-d1e150"> 
+              <ref xml:id="bHY6yh-d99598-Rd1e148"></ref> <quote xml:id="bHY6yh-d99598-Qd1e152">qui aduentum hostium odore pre<lb ed="#C" break="no"/>sentiant 
+              latratus quoque testentur anseres
+              <lb ed="#C"/>quoque non minora solertia nocturnos 
+              <lb ed="#C"/>superuentus clamoribus indicant nam 
+              <lb ed="#C"/>ingressi capitolinam arcem gallici seno<lb ed="#C" break="no"/>nes 
+              romanum euertissent mira diligentia 
+              <lb ed="#C"/>siue fortuna uiros qui vniuersum orbem 
+              <lb ed="#C"/>erant iuxuri subiugo auis vna serua<lb ed="#C" break="no"/>uit</quote>
+            </p>
+            <p xml:id="bHY6yh-d99598-d1e178"> 
+              ¶ <ref xml:id="bHY6yh-d99598-Rd1e178">Idem ultimo titulo qui est epilogus</ref> 
+              <lb ed="#C"/><quote xml:id="bHY6yh-d99598-Qd1e180">Solertissime caueatur nequando aut potius 
+              <lb ed="#C"/>in opia emergatur aut cibi quibus malis 
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/>nulla arte succurritur Ideoque intra mu<lb ed="#C" break="no"/>ros 
+              tanto plura condendi sunt quanto 
+              <lb ed="#C"/>satis clausure tempus in obsidentium con<lb ed="#C" break="no"/>sistere 
+              uoluptate</quote>
+            </p>
+            <p xml:id="bHY6yh-d99598-d1e201">
+              ¶ <ref xml:id="bHY6yh-d99598-Rd1e205">Cassiodorus epistolarum 
+              <lb ed="#C"/>libro I epistola 16</ref> <quote xml:id="bHY6yh-d99598-Qd1e205">Male constructio loci tibi 
+              <lb ed="#C"/>queritur quando iam pericula formidan<lb ed="#C" break="no"/>tur</quote>
+            </p>
+            <p xml:id="bHY6yh-d99598-d1e213"> 
+              ¶ <ref xml:id="bHY6yh-d99598-Rd1e217">Idem libro III epistola 99</ref> <quote xml:id="bHY6yh-d99598-Qd1e215">munitio semper 
+              <lb ed="#C"/>captanda est ocio quia tibi male queritur 
+              <lb ed="#C"/>quoniam necessaria iudicatur</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
