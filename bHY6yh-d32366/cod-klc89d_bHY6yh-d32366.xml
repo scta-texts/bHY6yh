@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Rubrica 1</title>
+           <author ref="#per-c7y65a">Geremia da Montagnone</author>
+           <respStmt>
+              <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           <respStmt>
+              <name ref="erinkurian">Erin Kurian</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           </titleStmt>
+           <editionStmt>
+              <edition n="0.0.0-dev">
+                 <title>Rubrica 1</title>
+                 <date when="2024-10-17">October 17, 2024</date>
+              </edition>
+           </editionStmt>
+           <publicationStmt>
+              <authority>SCTA</authority>
+              <availability status="free">
+                 <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                 </p>
+              </availability>
+           </publicationStmt>
+           <sourceDesc>
+           <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+           </listWit>
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+        <editorialDecl>
+           <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+      guidelines for a diplomatic edition.</p>
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc status="draft">
+        <listChange>
+           <change when="2024-10-17" status="draft" n="0.0.0">
+              <p>Created file for the first time.</p>
+           </change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+     <front>
+        <div xml:id="starts-on">
+           <pb ed="#Ka" n="68-v"/>
+           <cb ed="#Ka" n="a"/>
+        </div>
+     </front>
+      <body>
+         <div xml:id="bHY6yh-d32366"><!-- p2l4-r1 -->
+            <head xml:id="bHY6yh-d32366-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d32366-Hd1e111" type="question-title">De odio</head>
+            <p xml:id="bHY6yh-d32366-d1e114">
+              <lb ed="#Ka"/>¶ O bartus liber secunde partis 
+              <lb ed="#Ka"/>tractat de odio discordie 
+              <lb ed="#Ka"/>et pace sub hiis titulis sequen<cb ed="#Ka" n="b"/><lb ed="#Ka"/>tibus
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e125">
+              de odio rubrica
+              <lb ed="#Ka"/>primo
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e130">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d32366-Rd1e127">SAlomon in prouerbiis capitulo 10</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d32366-Qd1e134">Odium suscitat rixas</quote>
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e141">
+              <quote xml:id="bHY6yh-d32366-Qd1e145">26 capitulo 
+              <lb ed="#Ka"/>Qui operit odium fraudulenter reuela<lb ed="#Ka" break="no"/>bitur 
+              malitia eius inconsilio</quote>
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e151">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d32366-Rd1e149">Aristotiles ethoricorum libro 2 capitulo 21</ref> // <quote xml:id="bHY6yh-d32366-Qd1e155">Non oportem
+              <lb ed="#Ka"/>amare tanquam oditurum sed magis 
+              <lb ed="#Ka"/>odrce tamquam amaturum</quote>
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e163">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d32366-Rd1e163">Iesus filius syrach in ecclestiastico capitulo 9</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d32366-Qd1e167">Temerarius in verbo <sic>in verbo</sic>suo 
+              <lb ed="#Ka"/>odibilis erit</quote>
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e173">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d32366-Rd1e175">Terentius in andria 
+              <lb ed="#Ka"/>capitulo 3</ref> <quote xml:id="bHY6yh-d32366-Qd1e177">veritas odium parit</quote>
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e183">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d32366-Rd1e187">Tulius tusculanarum questionum libro 4</ref> // <quote xml:id="bHY6yh-d32366-Qd1e187">O<lb ed="#Ka" break="no"/>dium
+              est ira inueterata</quote> //
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e193">
+              <ref xml:id="bHY6yh-d32366-Rd1e199">Ouidius 
+              <lb ed="#Ka"/>sine titulo siue amorum libro 1 capitulo 8</ref> // <quote xml:id="bHY6yh-d32366-Qd1e197">Sepe 
+              <lb ed="#Ka"/>simultates ira morata facit</quote>
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e204">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d32366-Rd1e212">Quintilianus declamatione <del>2</del>1 declama</ref> <quote xml:id="bHY6yh-d32366-Qd1e208">odium omne 
+              <lb ed="#Ka"/>adurunt oculi et hunc in pectoribus 
+              <lb ed="#Ka"/>humanis furentem lumina accendunt 
+              <lb ed="#Ka"/>// nec leuis animo accedit insania 
+              <lb ed="#Ka"/>quotiens quem ex ecraris aspicias</quote>
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e220">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d32366-Rd1e228">14 declama</ref> <quote xml:id="bHY6yh-d32366-Qd1e222">odia plerumque ex in anibus 
+              <lb ed="#Ka"/>causis oboriuntur</quote> //
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e228">
+              <ref xml:id="bHY6yh-d32366-Rd1e239">12 declam</ref> <quote xml:id="bHY6yh-d32366-Qd1e230">non adeo 
+              <lb ed="#Ka"/>desunt odioris cause ut iam rara 
+              <lb ed="#Ka"/>simultas sit et ut videatur aliquis 
+              <lb ed="#Ka"/>nichil magis quam malos odisse</quote> //
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e240">
+              <ref xml:id="bHY6yh-d32366-Rd1e253">14 
+              <lb ed="#Ka"/>declam</ref> <quote xml:id="bHY6yh-d32366-Qd1e242">omnia facinora nisi fallor cau<lb ed="#Ka" break="no"/>sas 
+              vel de cupiditate vel de simultati<lb ed="#Ka" break="no"/>bus 
+              trahunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e250">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d32366-Rd1e267">Iohannes apostolus et euangelica epistola 1ta capitulo 1</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d32366-Qd1e254">Qui odit suum fratrem in tenebris 
+              <lb ed="#Ka"/>ambulat et nescit quo uadat quoniam 
+              <pb ed="#Ka" n="69-r"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>tenebre obscurauerunt oculos eius</quote>
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e271">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d32366-Rd1e288">Iuuenalis libro 5 et finale satis 3 et penultimo</ref> <quote xml:id="bHY6yh-d32366-Qd1e275">Inter 
+              <lb ed="#Ka"/>finitimos uetus tamquam antiqua simul<lb ed="#Ka" break="no"/>tas
+              in mortale odium nunquam sanabile 
+              <lb ed="#Ka"/>uulnus</quote>
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e284">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d32366-Rd1e302">Claudianus libro 3</ref> <quote xml:id="bHY6yh-d32366-Qd1e288">Non odium terore 
+              <lb ed="#Ka"/>moues</quote> //
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e294">
+              <ref xml:id="bHY6yh-d32366-Rd1e313">Fulgentius mitologiarum 
+              <lb ed="#Ka"/>libro 1 fabula 6</ref> <quote xml:id="bHY6yh-d32366-Qd1e298">mortalium iurgiorum 
+              <lb ed="#Ka"/>ternario conflantur statu 1 natua<lb ed="#Ka" break="no"/>li 
+              causali accidentali // naturale est odium 
+              <lb ed="#Ka"/>ut canium et luporum hominum et ser<lb ed="#Ka" break="no"/>pentium 
+              / casuale est ut amoris ze<lb ed="#Ka" break="no"/>lus 
+              atque inuidie accidens ut hominum 
+              <lb ed="#Ka"/>aut proptur commestiones ut Iumentis</quote>
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e317">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d32366-Rd1e337">Boetius de consolatione libro 4 capitulo 7</ref> //
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d32366-Qd1e321">bonos quis nisi stultissimus oderit</quote>
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e327">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d32366-Rd1e347">Idem topicorum libro 3</ref> <quote xml:id="bHY6yh-d32366-Qd1e329">ex arrogantia 
+              <lb ed="#Ka"/>fit quisque odiosus</quote> //
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e335">
+              <ref xml:id="bHY6yh-d32366-Rd1e360">Idem in musi<lb ed="#Ka" break="no"/>ca 
+              <lb ed="#Ka"/>libro 1 capitulo 1</ref> <quote xml:id="bHY6yh-d32366-Qd1e339">odia est dissimilitudo atque 
+              <lb ed="#Ka"/>contraria</quote> //
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e345">
+              <ref xml:id="bHY6yh-d32366-Rd1e372">Cassiodorus epistolarum libro 10
+              <lb ed="#Ka"/>epistola ii</ref> // 
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e354">
+              <quote xml:id="bHY6yh-d32366-Qd1e358">de elatione odium concitatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e362">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d32366-Rd1e391">Isydorus soliloquiorum libro 2 capitulo 13</ref> <quote xml:id="bHY6yh-d32366-Qd1e366">alie<lb ed="#Ka" break="no"/>ne
+              nequitie non serues dolorem 
+              <lb ed="#Ka"/>// odium a regno dei seperat hominem</quote>
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e374">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d32366-Rd1e403">45 capitulo</ref> <quote xml:id="bHY6yh-d32366-Qd1e376">odium timor generat</quote>
+            </p>
+            <p xml:id="bHY6yh-d32366-d1e380">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d32366-Rd1e413">Andreas ad gualterium libro 3</ref> <quote xml:id="bHY6yh-d32366-Qd1e384">nullus 
+              <lb ed="#Ka"/>tanto dilectionis alicui uel amicitie 
+              <lb ed="#Ka"/>uinculo colligat si cognouerit 
+              <lb ed="#Ka"/>ipsum pro sue uxoris uel filie uel propin<lb ed="#Ka" break="no"/>que 
+              instantur esse amore solicitum 
+              <lb ed="#Ka"/>qui statim contra ipsum non incipiat 
+              <lb ed="#Ka"/>odii leueore moueri et indignationis 
+              <lb ed="#Ka"/>uenena concipere</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

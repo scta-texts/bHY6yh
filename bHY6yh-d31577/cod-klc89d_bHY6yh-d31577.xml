@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 12</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="erinkurian">Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition n="0.0.0-dev">
+                  <title>Rubrica 12</title>
+                  <date when="2024-10-09">October 9, 2024</date>
+               </edition>
+            </editionStmt>
+            <publicationStmt>
+               <authority>SCTA</authority>
+               <availability status="free">
+                  <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                  </p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-10-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="66-v"/>
+            <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d31577"><!-- p2l3-r12 -->
+            <head xml:id="bHY6yh-d31577-Hd1e108">Rubrica 12</head>
+            <head xml:id="bHY6yh-d31577-Hd1e111" type="question-title">De conseruandis et retinendis amicis</head>
+            <p xml:id="bHY6yh-d31577-d1e114">
+               <lb ed="#Ka"/>de conseruandis et retinendis 
+               <lb ed="#Ka"/>amicis rubrica 12
+            </p>
+            <p xml:id="bHY6yh-d31577-d1e119">
+               <cb ed="#Ka" n="b"/>
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d31577-Rd1e115">SAlomon in prouerbiis capitulo 27</ref> <quote xml:id="bHY6yh-d31577-Qd1e125">amicum 
+               <lb ed="#Ka"/>tuum et patris tui ne dimiseris</quote> 
+            </p>
+            <p xml:id="bHY6yh-d31577-d1e131">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d31577-Rd1e129">Socrates in exhortationibus 1</ref> <quote xml:id="bHY6yh-d31577-Qd1e135">decet 
+               <lb ed="#Ka"/>matos sic substantie sic etiam dilectio<lb ed="#Ka" break="no"/>nis 
+               paterne esse heredes</quote>
+            </p>
+            <p xml:id="bHY6yh-d31577-d1e144">
+               OMITTED
+            </p>
+            <p xml:id="bHY6yh-d31577-d1e152">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d31577-Rd1e149">Aristotiles libro 2 capitulo 11 rethoricorum</ref> <quote xml:id="bHY6yh-d31577-Qd1e154">Separari 
+               <lb ed="#Ka"/>ab amicis et consuetis miserabile 
+               <lb ed="#Ka"/>confusio debilitas erbatio</quote>
+            </p>
+            <p xml:id="bHY6yh-d31577-d1e162">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d31577-Rd1e165">Iesus filius syrach in ecclesiastico capitulo 9</ref> <quote xml:id="bHY6yh-d31577-Qd1e166">ne 
+               <lb ed="#Ka"/>derelinqueris amicum antiquum 
+               <lb ed="#Ka"/>nouus in non erit similis</quote> // <!--there is a weird symbol in the middle of this reference-->
+            </p>
+            <p xml:id="bHY6yh-d31577-d1e174">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d31577-Rd1e177">22 capitulo 9</ref> // <quote xml:id="bHY6yh-d31577-Qd1e176">Qui conuiciatur amico dissol<lb ed="#Ka" break="no"/>uit 
+               amicitiam
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d31577-Rd1e185">Seneca epistolarum ad lucillum libro 7 epistola 5</ref> 
+               <lb ed="#Ka"/>amicus animo possidendus est</quote>
+            </p>
+            <p xml:id="bHY6yh-d31577-d1e186">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d31577-Rd1e195">Martialis cocus libro vndique suscepto 
+               <lb ed="#Ka"/>capitulo 2</ref> <quote xml:id="bHY6yh-d31577-Qd1e190">prudenti probe consilio retinendus 
+               <lb ed="#Ka"/>amicus // Quem sero acquiris sed 
+               <lb ed="#Ka"/>cito perdis eum frangis amicitiam 
+               <lb ed="#Ka"/>dum tardare ledis amicum 
+               <lb ed="#Ka"/>Insidias socio frangis amicum</quote>
+            </p>
+            <p xml:id="bHY6yh-d31577-d1e207">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d31577-Rd1e216">Auctor liber qui dicitur facetus capitulo 
+               <lb ed="#Ka"/>7</ref> // <quote xml:id="bHY6yh-d31577-Qd1e211">Queritur euentu socius tamen 
+               <lb ed="#Ka"/>arte tenetur Res leuis est querere sed 
+               <lb ed="#Ka"/>retinere labor</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
