@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 13</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 13</title>
+               <date when="2024-11-16">November 16, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-11-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="139-v"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d99598"><!-- p5l2-r13 -->
+            <head xml:id="bHY6yh-d99598-Hd1e108">Rubrica 13</head>
+            <head xml:id="bHY6yh-d99598-Hd1e111" type="question-title">De munitione et custodia locorum</head>
+            <p xml:id="bHY6yh-d99598-d1e114">
+              de custodi<!--line jumps down-->a <unclear>ueliugilia</unclear>
+            </p>
+            <p xml:id="bHY6yh-d99598-d1e119">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d99598-Rd1e116">FRontinus libro III capitulo 12</ref> 
+              <lb ed="#C"/><quote xml:id="bHY6yh-d99598-Qd1e125">Alcibiades athenis 
+              <lb ed="#C"/>ciuitate sua lacedemoniis obsessa 
+              <lb ed="#C"/>ueritum negligentiam uulgi denunci<lb ed="#C" break="no"/>auit 
+              hiis qui institutionibus erant ut 
+              <lb ed="#C"/>obseruarent lumen quod nocte ostensu<lb ed="#C" break="no"/>rus 
+              erat ex arce et ad conspectus eius 
+              <lb ed="#C"/>ipsi quoque lumina attollerent quo mun<lb ed="#C" break="no"/>ere 
+              qui cessat ponam passurus dum 
+              <lb ed="#C"/>sollicite expectaretur signum ducis 
+              <lb ed="#C"/>per uigilatum ab omnibus et suspecte 
+              <lb ed="#C"/>noctis periculum euitatum est</quote> 
+            </p>
+            <p xml:id="bHY6yh-d99598-d1e150"> 
+              ¶  <ref xml:id="bHY6yh-d99598-Rd1e148">Idem libro 
+              <lb ed="#C"/>4 titulo 26</ref> <quote xml:id="bHY6yh-d99598-Qd1e152">Usus inuenit ut acerrimi can<lb ed="#C" break="no"/>es 
+              et sagacissimi in turribus nutriantur</quote> 
+            </p>
+            <p xml:id="bHY6yh-d99598-d1e178"> 
+            </p>
+            <p xml:id="bHY6yh-d99598-d1e201">
+            </p>
+            <p xml:id="bHY6yh-d99598-d1e213"> 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
