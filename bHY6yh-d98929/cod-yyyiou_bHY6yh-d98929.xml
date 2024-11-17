@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 8</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 8</title>
+               <date when="2024-11-10">November 10, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-11-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="138-v"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d98929"><!-- p5l2-r8 -->
+            <head xml:id="bHY6yh-d98929-Hd1e108">Rubrica 8</head>
+            <head xml:id="bHY6yh-d98929-Hd1e111" type="question-title">De experientia et vsu bellici exercitii</head>
+            <p xml:id="bHY6yh-d98929-d1e114">
+              de experientia<!--line jumps down--> bellici operis
+            </p>
+            <p xml:id="bHY6yh-d98929-d1e121">
+              <lb ed="#C"/><ref xml:id="bHY6yh-d98929-Rd1e118">SEneca de proui<lb ed="#C" break="no"/>dentia</ref> 
+              <quote xml:id="bHY6yh-d98929-Qd1e125">Ad sus<lb ed="#C" break="no"/>pitionem uulneris tiro pallescit Aud<lb ed="#C" break="no"/>acter 
+              ueteranus cruorem suum spectat qui 
+              <lb ed="#C"/>scit se sepe uicisse post sanguinem</quote> 
+            </p>
+            <p xml:id="bHY6yh-d98929-d1e137">
+              ¶ <ref xml:id="bHY6yh-d98929-Rd1e136">Vegetius 
+              <lb ed="#C"/>de re militari libro I titulo I</ref> <quote xml:id="bHY6yh-d98929-Qd1e141">Inuenes romanos 
+              <lb ed="#C"/>omnes gentes sola armorum exercitatione 
+              <lb ed="#C"/>uicisse nulla enim alia re uidemus populum Romanum 
+              <lb ed="#C"/>orbem <sic>subuigasse</sic> terrarum nisi armorum 
+              <lb ed="#C"/>exercitio disciplina castrorum usuque 
+              <lb ed="#C"/>militie</quote>
+            </p>
+            <p xml:id="bHY6yh-d98929-d1e161">
+              ¶ <ref xml:id="bHY6yh-d98929-Rd1e162">Idem libro 2 titulo 21</ref> <quote xml:id="bHY6yh-d98929-Qd1e165">Sepe in ocio 
+              <lb ed="#C"/>debet fieri etc.</quote>
+            </p>
+            <p xml:id="bHY6yh-d98929-d1e171"> 
+              ¶ <ref xml:id="bHY6yh-d98929-Rd1e172">Idem 22 titulo</ref> <quote xml:id="bHY6yh-d98929-Qd1e173">Inexercitatus 
+              <lb ed="#C"/>miles semper est tiro uelocitas ipso vsu 
+              <lb ed="#C"/>acquiritur corporis et scientia feriendi hos<lb ed="#C" break="no"/>tem 
+              seque protegendi presertim si cominus 
+              <lb ed="#C"/>dimicetur quemadmodum bene exercita<lb ed="#C" break="no"/>tus 
+              miles prelium cupit ita formidat 
+              <lb ed="#C"/>indoctus Sciendum est in pugna usum
+              <lb ed="#C"/>plius prodesse quam uires</quote>
+            </p>
+            <p xml:id="bHY6yh-d98929-d1e192">
+              ¶ <ref xml:id="bHY6yh-d98929-Rd1e198">Cassiodorus epistolarum 
+              <lb ed="#C"/>libro I epistola 39</ref> <quote xml:id="bHY6yh-d98929-Qd1e196">Ars bellandi si non prelu<lb ed="#C" break="no"/>ditur 
+              cum fuerit <sic>neccesaria</sic> non habetur animos 
+              <pb ed="#C" n="139-r"/>
+              <cb ed="#C" n="a"/>
+              <lb ed="#C"/>subito uider etc.</quote>
+            </p>
+            <p xml:id="bHY6yh-d98929-d1e208"> 
+              ¶ <ref xml:id="bHY6yh-d98929-Rd1e214">Idem libro III epistola 7</ref>
+              <lb ed="#C"/>¶ <quote xml:id="bHY6yh-d98929-Qd1e210">Terribilis est hominibus inflictus si non sit 
+              <lb ed="#C"/>assiduus ut nisi vsu presumatur concertandi 
+              <lb ed="#C"/>subito fidutia non habetur</quote>
+            </p>
+            <p xml:id="bHY6yh-d98929-d1e220">
+              ¶ <ref xml:id="bHY6yh-d98929-Rd1e230">Auctor 
+              <lb ed="#C"/>facetus capitulo X et finali</ref> <quote xml:id="bHY6yh-d98929-Qd1e224">Sepius insolito pugna 
+              <lb ed="#C"/>nocere solet.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
