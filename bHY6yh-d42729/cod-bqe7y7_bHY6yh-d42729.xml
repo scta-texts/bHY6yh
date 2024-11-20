@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 7</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 7</title>
+               <date when="2024-11-13">November 13, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness>  
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-11-13" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="86-v"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d42729"><!-- p2l6-r7 -->
+            <head xml:id="bHY6yh-d42729-Hd1e108">Rubrica 7</head>
+            <head xml:id="bHY6yh-d42729-Hd1e111" type="question-title">De licentia facultate et regularitate</head>
+            <p xml:id="bHY6yh-d42729-d1e114">
+               <lb ed="#P"/>De licentia facultate et 
+               <lb ed="#P"/>regularitate capitulum vii 
+            </p>
+            <p xml:id="bHY6yh-d42729-d1e119">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d42729-Rd1e115">Terentius in eautontumerumenon capitulo ix</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d42729-Qd1e127">deteriores omnes sumus licentia</quote> 
+            </p>
+            <p xml:id="bHY6yh-d42729-d1e131">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d42729-Rd1e130">Persius. v. satura</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d42729-Qd1e135">Apposita in tortos extendit regula mores.
+               <lb ed="#P"/>Et premitur ratione animus vincique laborat.</quote>
+            </p>
+            <p xml:id="bHY6yh-d42729-d1e144">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d42729-Rd1e145">Seneca in epistolarum ad lucillum libro ii epistola 
+               <lb ed="#P"/>iii</ref> <quote xml:id="bHY6yh-d42729-Qd1e148">nemo est etiam ex prudentibus 
+               <lb ed="#P"/>qui relinqui sibi debeat</quote>
+            </p>
+            <p xml:id="bHY6yh-d42729-d1e154">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d42729-Rd1e157">Gregorius in pastorali capitulo iiii</ref> <quote xml:id="bHY6yh-d42729-Qd1e158">plerumque 
+               <lb ed="#P"/>qui aduersitatis magisterio sub disci<lb ed="#P" break="no"/>plina 
+               comprimitur si ad regiminis 
+               <lb ed="#P"/>culmen eruperit in elationem usu 
+               <lb ed="#P"/>glorie permutatur.</quote>
+            </p>
+            <p xml:id="bHY6yh-d42729-d1e170">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d42729-Rd1e175">Isidorus in sinonima soliloquiorum libro 
+               <cb ed="#P" n="b"/>
+               <lb ed="#P"/>ii capitulo</ref> <quote xml:id="bHY6yh-d42729-Qd1e174">Sepe occasio peccandi vo<lb ed="#P" break="no"/>luntatem 
+               facit.</quote>
+            </p>
+            <p xml:id="bHY6yh-d42729-d1e180">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d42729-Rd1e186">Cassiodorus epistolarum libro ii epistola xiii</ref> 
+               <lb ed="#P"/><quote xml:id="bHY6yh-d42729-Qd1e184">Melius semper legum pondere pressa 
+               <lb ed="#P"/>curatur audacia / et dum metus tali<lb ed="#P" break="no"/>bus 
+               imponitur peccandi licentia non 
+               <lb ed="#P"/>praebetur</quote>
+            </p>
+            <p xml:id="bHY6yh-d42729-d1e194">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d42729-Rd1e200">Ibidem libro iiii epistola xxxv</ref> <quote xml:id="bHY6yh-d42729-Qd1e196">obruet 
+               <lb ed="#P"/>quippe innocentia si laxaretur audacia</quote>
+            </p>
+            <p xml:id="bHY6yh-d42729-d1e202">
+               <lb ed="#P"/><ref xml:id="bHY6yh-d42729-Rd1e212">Prouerbium vulgare</ref> <quote xml:id="bHY6yh-d42729-Qd1e206">li out non 
+               <lb ed="#P"/>est gatta sorco balla / Quoniam gatta non
+               <lb ed="#P"/>est incasa sorco per vasera va.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
