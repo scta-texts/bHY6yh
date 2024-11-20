@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Rubrica 3</title>
+           <author ref="#per-c7y65a">Geremia da Montagnone</author>
+           <respStmt>
+              <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           <respStmt>
+              <name>Erin Kurian</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+        </titleStmt>
+        <editionStmt>
+           <edition n="0.0.0-dev">
+              <title>Rubrica 3</title>
+              <date when="2024-11-15">November 15, 2024</date>
+           </edition>
+        </editionStmt>
+        <publicationStmt>
+           <authority>SCTA</authority>
+           <availability status="free">
+              <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+              </p>
+           </availability>
+        </publicationStmt>
+        <sourceDesc>
+           <listWit>
+              <witness xml:id="P" n="cod-bqe7y7">Pal.lat.402</witness>  
+           </listWit>
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+        <editorialDecl>
+           <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+      guidelines for a diplomatic edition.</p>
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc status="draft">
+        <listChange>
+           <change when="2024-11-15" status="draft" n="0.0.0">
+              <p>Created file for the first time.</p>
+           </change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+     <front>
+        <div xml:id="starts-on">
+           <pb ed="#P" n="136-r"/>
+           <cb ed="#P" n="a"/>
+        </div>
+     </front>
+    <body>
+      <div xml:id="bHY6yh-d65161"><!-- p3l6-r3 -->
+        <head xml:id="bHY6yh-d65161-Hd1e108">Rubrica 3</head>
+        <head xml:id="bHY6yh-d65161-Hd1e111" type="question-title">De necessariis cogitationi oratoris</head>
+        <p xml:id="bHY6yh-d65161-d1e114">
+          <lb ed="#P"/>De necessariis cogitationibus ora<lb ed="#P" break="no"/>toris
+          capitulum iii
+        </p>
+        <p xml:id="bHY6yh-d65161-d1e121">
+          <lb ed="#P"/><ref xml:id="bHY6yh-d65161-Rd1e118">Aristotelis rethoricorum libro primo capitulo xii</ref>
+          <lb ed="#P"/><quote xml:id="bHY6yh-d65161-Qd1e127">Oportebit unius cuiusque mores maxime
+          <lb ed="#P"/>persuasiuum necesse ad vnamquamque esse.</quote> 
+        </p>
+        <p xml:id="bHY6yh-d65161-d1e137">
+          <lb ed="#P"/><ref xml:id="bHY6yh-d65161-Rd1e136">Tullius rethoricorum artis noue libro 
+          <lb ed="#P"/>primo capitulo primo</ref> <quote xml:id="bHY6yh-d65161-Qd1e141">ars rethoricem sine assiduitate 
+          <lb ed="#P"/>dicendi non iuuat multum.</quote>
+        </p>
+        <p xml:id="bHY6yh-d65161-d1e148"> 
+          <lb ed="#P"/><ref xml:id="bHY6yh-d65161-Rd1e147">Idem de oratore libro ii</ref> <quote xml:id="bHY6yh-d65161-Qd1e150">nemo potest de 
+          <cb ed="#P" n="b"/>
+          <lb ed="#P"/>ea re quam non nouit non turpissime 
+          <lb ed="#P"/>dicere Si mihi quamuis eruditum hominem 
+          <lb ed="#P"/>adduxeris quamuis / et acutum in cogitando 
+          <lb ed="#P"/>quamuis in pronunciando expeditum si erit 
+          <lb ed="#P"/>in consuetudine ciuitatis in exemplis in insti<lb ed="#P" break="no"/>tutis 
+          in moribus ac voluntatibus ciui<lb ed="#P" break="no"/>um 
+          suorum hospes non multum ei loci pro<lb ed="#P" break="no"/>derunt 
+          illi ex quibus argumenta promuntur. Sed 
+          <lb ed="#P"/>hec adiuuantur in oratore lenitas vocis pu<lb ed="#P" break="no"/>doris 
+          vultus significatio verborum comitas
+          <lb ed="#P"/>siquid persequatur acrius ut inuitus et co<lb ed="#P" break="no"/>actus 
+          facere videatur / Ad consilium de Re 
+          <lb ed="#P"/>publica dandum est caput noscere mores
+          <lb ed="#P"/>ciuitatis / quia crebro mutantur Quid est
+          <lb ed="#P"/>turpius quam legittimarum / et ciuilium controuer<lb ed="#P" break="no"/>siarum 
+          patrocinia suscipere cum sis legum 
+          <lb ed="#P"/>et iuris ciuilis ignarus.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
