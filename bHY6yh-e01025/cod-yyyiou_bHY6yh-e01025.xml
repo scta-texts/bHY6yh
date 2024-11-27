@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 21</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 21</title>
+               <date when="2024-11-26">November 26, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="144-r"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e01025"><!-- p5l2-r21 -->
+            <head xml:id="bHY6yh-e01025-Hd1e108">Rubrica 21</head>
+            <head xml:id="bHY6yh-e01025-Hd1e111" type="question-title">De aduersis occultandis hostibus</head>
+            <p xml:id="bHY6yh-e01025-d1e114">
+              De sepeliendis corpora mororum<!--line jumps down--> ne terror inuadat <sic>exerccitus</sic>
+            </p>
+            <p xml:id="bHY6yh-e01025-d1e121">
+              <lb ed="#C"/><ref xml:id="bHY6yh-e01025-Rd1e118">FRon<lb ed="#C" break="no"/>tinus 
+              libro 2 titulo 7</ref> <quote xml:id="bHY6yh-e01025-Qd1e127">Quintus sertorius 
+              <lb ed="#C"/>cum acie decertaret barbarum qui 
+              <lb ed="#C"/>ei numptiauerat herculegium perisse pu<lb ed="#C" break="no"/>gione 
+              timecit ne in aliorum notitiam 
+              <lb ed="#C"/>proferret et ob hoc animi suorum infirma<lb ed="#C" break="no"/>rentur</quote> 
+            </p>
+            <p xml:id="bHY6yh-e01025-d1e141"> 
+              <ref xml:id="bHY6yh-e01025-Rd1e144"> </ref> <quote xml:id="bHY6yh-e01025-Qd1e143">Elabietes atheniensis cum abide<lb ed="#C" break="no"/>nis 
+              prelio urgeretur subitoque magno
+              <lb ed="#C"/>cursu tristem animaduertisset aduentare 
+              <lb ed="#C"/>tabernaculum prohibuit palam dicere quid 
+              <lb ed="#C"/>afferret deinde secreto suscitas a fa<lb ed="#C" break="no"/>nauento 
+              regio prefecto classem suam 
+              <lb ed="#C"/>oppugnari celatis hostibus et militibus 
+              <lb ed="#C"/>prelium finit ac protinus ad eripiendam 
+              <lb ed="#C"/>classem ductu exercitu opem tulit suis</quote>
+            </p>
+            <p xml:id="bHY6yh-e01025-d1e163"> 
+              <ref xml:id="bHY6yh-e01025-Rd1e170"> </ref> <quote xml:id="bHY6yh-e01025-Qd1e165">tu<lb ed="#C" break="no"/>lit 
+              Labienus post barsalicam pug<lb ed="#C" break="no"/>nam 
+              cum uictis partibus durachium 
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/><sic>refuisset</sic> miscuit uera falsis et enim celato 
+              <lb ed="#C"/>exitu pugne equatam partium fortu<lb ed="#C" break="no"/>nam 
+              graui uulnere cesaris finxit et hac 
+              <lb ed="#C"/>simulatione reliquis pompeia uariam par<lb ed="#C" break="no"/>tium 
+              fiduciam fecit</quote>
+            </p>
+            <p xml:id="bHY6yh-e01025-d1e182">
+              ¶ <ref xml:id="bHY6yh-e01025-Rd1e196">Idem X titulo</ref> <quote xml:id="bHY6yh-e01025-Qd1e186">To<lb ed="#C" break="no"/>dius 
+              in hispania cum acerimo prelio con<lb ed="#C" break="no"/>fusisset 
+              quod mox dirimat magno opere 
+              <lb ed="#C"/>utrimque ceso cum plurimum suorum corpari 
+              <lb ed="#C"/>interempta nocte seppelienda curauit his<lb ed="#C" break="no"/>pani 
+              postero die ad simile officium progressi 
+              <lb ed="#C"/>quia plures ex ipsorum numero quam ex ro<lb ed="#C" break="no"/>manis 
+              cesis repierant uictos se esse 
+              <lb ed="#C"/>secundum eam denumerationem argumenti 
+              <lb ed="#C"/>ad conditiones <sic>Inperatores</sic> descenderunt</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
