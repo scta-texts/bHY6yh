@@ -1,301 +1,294 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Rubrica 9</title>
-            <author ref="#per-c7y65a">Geremia da Montagnone</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-        <respStmt>
-          <name ref="grantschreiber">Grant Schreiber</name>
-          <resp>Transcription Editor</resp>
-          <resp>TEI Encoder</resp>
-        </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Rubrica 9</title>
-               <date when="2023-08-15">August 15, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-              <witness xml:id="B" n="cod-bxxqqq">Paris, Bibliothèque Nationale de France, Nouv. acq. lat. 2469</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-08-15" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#B" n="63-r"/>
-            <cb ed="#B" n="b"/>
-         </div>
-      </front>
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Rubrica 9</title>
+           <author ref="#per-c7y65a">Geremia da Montagnone</author>
+           <respStmt>
+              <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           <respStmt>
+              <name ref="erinkurian">Erin Kurian</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           </titleStmt>
+           <editionStmt>
+              <edition n="0.0.0-dev">
+                 <title>Rubrica 9</title>
+                 <date when="2024-11-27">November 27, 2024</date>
+              </edition>
+           </editionStmt>
+           <publicationStmt>
+              <authority>SCTA</authority>
+              <availability status="free">
+                 <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                 </p>
+              </availability>
+           </publicationStmt>
+           <sourceDesc>
+           <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+           </listWit>
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+        <editorialDecl>
+           <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+      guidelines for a diplomatic edition.</p>
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc status="draft">
+        <listChange>
+           <change when="2024-11-27" status="draft" n="0.0.0">
+              <p>Created file for the first time.</p>
+           </change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+     <front>
+        <div xml:id="starts-on">
+           <pb ed="#Ka" n="81-v"/>
+           <cb ed="#Ka" n="b"/>
+        </div>
+     </front>
       <body>
          <div xml:id="bHY6yh-d38489"><!-- p2l5-r9 -->
             <head xml:id="bHY6yh-d38489-Hd1e108">Rubrica 9</head>
             <head xml:id="bHY6yh-d38489-Hd1e111" type="question-title">De gratia et gratitudine et ingratitudine</head>
             <p xml:id="bHY6yh-d38489-d1e114">
-              De gratia gra<lb ed="#B" break="no"/>titudine
-              et ingratitudine Rubrica 9
+              <lb ed="#Ka"/>de gratia gratitudine et ingratitudine 
+              <lb ed="#Ka"/>Rubrica 9
             </p>
             <p xml:id="bHY6yh-d38489-d1e121">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e117">PSalmista 36 psalmus</ref> <quote xml:id="bHY6yh-d38489-Qd1e125">Mutuabitur 
-              <lb ed="#B"/>peccatori et non soluet</quote>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d38489-Rd1e117">PSalmista 36 psalmus</ref> <quote xml:id="bHY6yh-d38489-Qd1e125">mutuabitur 
+              <lb ed="#Ka"/>peccatori et non soluet</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e133">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e131">SAlomon in prouerbiis capitulo 17</ref><!--line jumps up--> <quote xml:id="bHY6yh-d38489-Qd1e137">Qui<!--line jumps down--> reddit 
-              <lb ed="#B"/>mala pro bonis non recedet 
-              <lb ed="#B"/>malum de domo eius</quote>
+              <ref xml:id="bHY6yh-d38489-Rd1e131">Salo<lb ed="#Ka" break="no"/>mon 
+              in prouerbiis capitulo 17</ref> <quote xml:id="bHY6yh-d38489-Qd1e137">Qui reddit 
+              <lb ed="#Ka"/>malum pro bonis non recedet malu 
+              <lb ed="#Ka"/>de domo eius</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e146">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e145">ARistotiles rethoricorum<!--line jumps up--> libro 2 capitulo 6</ref><!--line jumps down--> <quote xml:id="bHY6yh-d38489-Qd1e150">factiua a<lb ed="#B" break="no"/>micitie 
-              est gratia et non requisitum 
-              <pb ed="#B" n="63-v"/>
-              <cb ed="#B" n="a"/>
-              <lb ed="#B"/>facere et cum fecerint non manifesta<lb ed="#B" break="no"/>re 
-              sic enim ipsi gratia videtur non propter 
-              <lb ed="#B"/>alterum</quote>
+              <ref xml:id="bHY6yh-d38489-Rd1e145">Aristotiles rethoricorum
+              <lb ed="#Ka"/>libro 2 capitulo 6</ref> <quote xml:id="bHY6yh-d38489-Qd1e150">factiua amicitie est gratia 
+              <lb ed="#Ka"/>et non requisitum facere et cum fecerit 
+              <lb ed="#Ka"/>non manifestare sic enim ipsi gratia 
+              <lb ed="#Ka"/>videtur non propter alterum</quote> ///
             </p>
             <p xml:id="bHY6yh-d38489-d1e160">
-               ¶ <ref xml:id="bHY6yh-d38489-Rd1e159">Idem ethicorum libro 5 capitulo 4</ref> <quote xml:id="bHY6yh-d38489-Qd1e162">Re<lb ed="#B" break="no"/>tributio 
-              est proprium gratiae refamulia<lb ed="#B" break="no"/>ri 
-              enim oportet ei qui gratiam fecit</quote>
+              <ref xml:id="bHY6yh-d38489-Rd1e159">Idem eth<lb ed="#Ka" break="no"/>ycorum 
+              libro 5 capitulo 8</ref> // <quote xml:id="bHY6yh-d38489-Qd1e162">retributio est proprium 
+              <lb ed="#Ka"/>gratiae refamuliari enim oportet ei qui 
+              <lb ed="#Ka"/>gratiam fecit</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e174">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e178">CRonica de nugis philosophorum<!--line jumps up--> capitulo 28<!--line jumps down--> scilicet de a<lb ed="#B" break="no"/>ristotile</ref> 
-              <quote xml:id="bHY6yh-d38489-Qd1e178">Aristotiles quesitus 
-              <lb ed="#B"/>quid citius senciat inquid gratia</quote>
+              <pb ed="#Ka" n="82-r"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d38489-Rd1e178">Cronica de nugis philosophorum capitulo 28 scilicet 
+              <lb ed="#Ka"/>de aristotile</ref> <quote xml:id="bHY6yh-d38489-Qd1e178">Aristotiles quesitus 
+              <lb ed="#Ka"/>quid citius senciat inquid gratia</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e186">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e193">IEsus filius syrach in ecclesiastico capitulo 4</ref> <quote xml:id="bHY6yh-d38489-Qd1e190">Non fit por<lb ed="#B" break="no"/>recta 
-              manus tua ad accipien<lb ed="#B" break="no"/>dum 
-              et ad dandum collecta</quote>
+              <lb ed="#Ka"/> <ref xml:id="bHY6yh-d38489-Rd1e193">IEsus filius syrach in ecclesiastico capitulo 4</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d38489-Qd1e190">non porrecta manus tua ad acci<lb ed="#Ka" break="no"/>piendum 
+              et ad dandum collecta</quote> //
             </p>
             <p xml:id="bHY6yh-d38489-d1e198">
-               ¶ <ref xml:id="bHY6yh-d38489-Rd1e205">29 
-              <lb ed="#B"/>capitulo</ref> <quote xml:id="bHY6yh-d38489-Qd1e200">Multi quasi inuentionem extima<lb ed="#B" break="no"/>uerunt 
-              fenus et prestiterunt moles<lb ed="#B" break="no"/>tiam
-              hiis qui se adiuuauerunt 
-              <lb ed="#B"/>donec accipiant osculantur manus 
-              <lb ed="#B"/>dantis et in promissionibus humiliant
-              <lb ed="#B"/>uocem suam et in tempore redditionis 
-              <lb ed="#B"/>postulabit tempus et loquetur 
-              <lb ed="#B"/>verba tedii et murmurationem 
-              <lb ed="#B"/>et tempus causabitur</quote>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d38489-Rd1e205">29 capitulo</ref> <quote xml:id="bHY6yh-d38489-Qd1e200">Multi quasi uencionem 
+              <lb ed="#Ka"/>estimauerunt fenus et prestiterunt 
+              <lb ed="#Ka"/>molestiam hiis se ad iuuauerunt 
+              <lb ed="#Ka"/>donet accipiant osculantur manus 
+              <lb ed="#Ka"/>dantis et non promissionibus humili<lb ed="#Ka" break="no"/>ant
+              uocem suam et in tempore redditionis 
+              <lb ed="#Ka"/>postulabit tempus et loquetur verba te<lb ed="#Ka" break="no"/>dii 
+              et murmurationem et tempus cas<lb ed="#Ka" break="no"/>sabitur</quote> //
             </p>
             <p xml:id="bHY6yh-d38489-d1e217">
-               ¶ <ref xml:id="bHY6yh-d38489-Rd1e228">29 capitulo</ref> <quote xml:id="bHY6yh-d38489-Qd1e219">gratiam 
-              <lb ed="#B"/>fideiussoris ne obliuiscaris dedit 
-              <lb ed="#B"/>enim pro te animam suam</quote>
+              <ref xml:id="bHY6yh-d38489-Rd1e228">29 capitulo</ref> <quote xml:id="bHY6yh-d38489-Qd1e219">gratiam fideiussoris 
+              <lb ed="#Ka"/>ne obliuiscaris dedit enim pro te animam 
+              <lb ed="#Ka"/>suam</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e228">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e243">TErentius in an<!--line jumps up-->dria capitulo 3</ref> <quote xml:id="bHY6yh-d38489-Qd1e232">Si<!--line jumps down--> illum obiurges 
-              <lb ed="#B"/>uite qui auxilium tulit Quid 
-              <lb ed="#B"/>facias illi qui dederit dampnum<!--line jumps down--> aut malum</quote>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d38489-Rd1e243">Terentius in andria capitulo 3</ref> // <quote xml:id="bHY6yh-d38489-Qd1e232">Si illum 
+              <lb ed="#Ka"/>obiurges uite qui auxilium tulit 
+              <lb ed="#Ka"/>// Quid facias illi qui dederit damp<lb ed="#Ka" break="no"/>num
+              aut malum</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e240">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e257">Tvlius rethoricorum artis 
-              <lb ed="#B"/>uereris libro I capitulo 12</ref>  ¶ <quote xml:id="bHY6yh-d38489-Qd1e244">Hiis qui ne<lb ed="#B" break="no"/>cessario 
-              profuerunt haberi gratiam non 
-              <lb ed="#B"/>oportet</quote>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d38489-Rd1e257">Tulius rethoricorum artis uereris libro 1 capitulo 12</ref>  
+              <lb ed="#Ka"/>// <quote xml:id="bHY6yh-d38489-Qd1e244">hiis qui necessario profuerunt 
+              <lb ed="#Ka"/>habere gratiam non oportet</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e252">
-               ¶ <ref xml:id="bHY6yh-d38489-Rd1e269">libro 2 capitulo 9</ref> <quote xml:id="bHY6yh-d38489-Qd1e254">Gratia est virtus
-              <lb ed="#B"/>in qua amicitiarum et officiorum 
-              <lb ed="#B"/>alterius memoria et remune<lb ed="#B" break="no"/>randi 
+              <ref xml:id="bHY6yh-d38489-Rd1e269">libro 2 capitulo 9</ref> // <quote xml:id="bHY6yh-d38489-Qd1e254">Gra<lb ed="#Ka" break="no"/>tia 
+              est virtus in qua amiciciarum et offi<lb ed="#Ka" break="no"/>ciorum 
+              alterius memoria et remune<lb ed="#Ka" break="no"/>randi 
               uoluntas continetur</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e262">
-               ¶ <ref xml:id="bHY6yh-d38489-Rd1e281">Idem philippicorum libro 3</ref> <quote xml:id="bHY6yh-d38489-Qd1e264">Cui gratia re<lb ed="#B" break="no"/>ferri 
-              tanta non potest quanta 
-              <lb ed="#B"/>debetur habens datum tanta 
-              <lb ed="#B"/>est quantam maximam animi nostri cape<lb ed="#B" break="no"/>re 
-              possunt</quote>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d38489-Rd1e281">Idem philippicorum libro 3</ref> // <quote xml:id="bHY6yh-d38489-Qd1e264">Qui gratia 
+              <lb ed="#Ka"/>referri tanta non potest quanta debetur 
+              <lb ed="#Ka"/>habens datum tanta est quanta
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>maximam animi nostri capere possunt</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e274">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e298">Ovidius<!--line jumps up--> sine titulo seu amorum libro I<!--line jumps down--> capitulo 10</ref> <quote xml:id="bHY6yh-d38489-Qd1e278">Gratia pro rebus 
-              <lb ed="#B"/>merito debetur inemptis
-              <lb ed="#B"/> ¶ Omnia conductor soluit mercede 
-              <cb ed="#B" n="b"/>
-              <lb ed="#B"/>soluta  ¶ Non manet officio debitor<!--line jumps down--> ille suo</quote>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d38489-Rd1e298">Ouidius sine titulo seu amore libro 1 capitulo 10</ref> 
+              <lb ed="#Ka"/>// <quote xml:id="bHY6yh-d38489-Qd1e278">Gratia pro rebus merito pro rebus debetur 
+              <lb ed="#Ka"/>inemptis omnia conductor soluit mer<lb ed="#Ka" break="no"/>cede 
+              soluta // non manet officio debi<lb ed="#Ka" break="no"/>tor
+              ille suo</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e288">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e313">SEneca epistolarum ad 
-              <lb ed="#B"/>lucillum libro 13 epistola 6</ref> <quote xml:id="bHY6yh-d38489-Qd1e292">Ingratus 
-              <lb ed="#B"/>est qui beneficium reddit sine 
-              <lb ed="#B"/>vsura  ¶ Ingratus est qui se be<lb ed="#B" break="no"/>neficium 
-              recepisse negat quod 
-              <lb ed="#B"/>accepit  ¶ Ingratus est qui dis<lb ed="#B" break="no"/>simulat 
-               ¶ Ingratus est qui non 
-              <lb ed="#B"/>reddit  ¶ Ingratissimus omnium qui 
-              <lb ed="#B"/>oblitus est</quote>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d38489-Rd1e313">Seneca epistolarum ad lucillum libro 13 epistola 6</ref> 
+              <lb ed="#Ka"/>// <quote xml:id="bHY6yh-d38489-Qd1e292">Ingratus est qui <del>dissimulat</del> beneficium 
+              <lb ed="#Ka"/><del>accepisse se negat</del> reddit sine usura  
+              <lb ed="#Ka"/>// Ingratus est qui se beneficium accepisse 
+              <lb ed="#Ka"/>se negat // Ingratus est qui dissimulat 
+              <lb ed="#Ka"/>Ingratus est qui non reddit // Ingratissimus 
+              <lb ed="#Ka"/>omnium qui oblitus est</quote> //
             </p>
             <p xml:id="bHY6yh-d38489-d1e307">
-               ¶ <ref xml:id="bHY6yh-d38489-Rd1e331">Idem de moribus</ref> 
-              <lb ed="#B"/><quote xml:id="bHY6yh-d38489-Qd1e309">Memoria beneficiorum fragilis 
-              <lb ed="#B"/>est iniuriarum tenax</quote>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d38489-Rd1e331">Idem de mori<lb ed="#Ka" break="no"/>bus</ref> 
+              <quote xml:id="bHY6yh-d38489-Qd1e309">memoria beneficiorum fragilis 
+              <lb ed="#Ka"/>est iniuriarum tenax</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e317">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e346">MArcialis cocus<!--line jumps up--> epigrama<!--line jumps down-->ton libro 5</ref> <quote xml:id="bHY6yh-d38489-Qd1e321">Non 
-              <lb ed="#B"/>reddit sterilis semina iac<!--line jumps down-->ta seges</quote>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d38489-Rd1e346">Marcialis cocus epigramaton libro 5</ref> 
+              <lb ed="#Ka"/>// <quote xml:id="bHY6yh-d38489-Qd1e321">non reddit sterilis semina iacta se<lb ed="#Ka" break="no"/>ges</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e327">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e357">UAlerius maximus libro 5 
-              <lb ed="#B"/>titulo de gratis</ref>  ¶ <quote xml:id="bHY6yh-d38489-Qd1e331">Gaii marii non 
-              <lb ed="#B"/>solum precipuus sed etiam praepotens gra<lb ed="#B" break="no"/>te 
-              mentis fuit impetus duas 
-              <lb ed="#B"/>enim camentium <sic>chortes</sic> mira virtute 
-              <lb ed="#B"/>vim cybrorum sustinentes in ipsa acie 
-              <lb ed="#B"/>aduersus conditionem federis ciui<lb ed="#B" break="no"/>tate 
-              donauit. Quod quidem factum et uere 
-              <lb ed="#B"/>et egregie excusauit dicendo 
-              <lb ed="#B"/>inter armorum strepitu verba si 
-              <lb ed="#B"/>iuris ciuilis exaudire non potu<lb ed="#B" break="no"/>isse 
-              et sane id tempus tunc 
-              <lb ed="#B"/>erat quo magis defendere quam audi<lb ed="#B" break="no"/>re 
-              leges oportebat  ¶ Mitridates 
-              <lb ed="#B"/>Rex magnifice gratus apparuit 
-              <lb ed="#B"/>qui pro leonico acerimo salutis 
-              <lb ed="#B"/>sue defensore harhodii nauali 
-              <lb ed="#B"/>pugna excepto omnes hostium
-              <lb ed="#B"/>captiuos permutauit satis esse 
-              <lb ed="#B"/>existimans ab insissimis cir<lb ed="#B" break="no"/>cumueniri 
-              quam bene merito gratiam 
-              <lb ed="#B"/>non referre</quote> 
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d38489-Rd1e357">Ualerius maximus libro 5 titulo de gratis</ref> 
+              <lb ed="#Ka"/>// <quote xml:id="bHY6yh-d38489-Qd1e331">Gaii marii non solum precipuus 
+              <lb ed="#Ka"/>sed etiam praepotens grate mentis fuit 
+              <lb ed="#Ka"/>impetus tuas enim camentium chortes 
+              <lb ed="#Ka"/>mira virtute vim cybrorum sustinentes 
+              <lb ed="#Ka"/>in ipsa acie aduersus conditionem 
+              <lb ed="#Ka"/>federis ciuitate donauit Quod quod 
+              <lb ed="#Ka"/>factum est uere et egregie excusauit 
+              <lb ed="#Ka"/>dicendo inter armorum strepitu verba 
+              <lb ed="#Ka"/>se iuris ciuilis exaudire non po<lb ed="#Ka" break="no"/>tuisse 
+              et sane id tempus tunc erat 
+              <lb ed="#Ka"/>quo magis defendere quam audire 
+              <pb ed="#Ka" n="82-v"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>leges oportebat Mitridates rex m<lb ed="#Ka" break="no"/>agnifice 
+              gratus apparuit qui pro le<lb ed="#Ka" break="no"/>onico 
+              acerimo salutis sue defen<lb ed="#Ka" break="no"/>sore 
+              harhodii nauali pugna ex<lb ed="#Ka" break="no"/>cepto 
+              omnes hostium captiuos permuta<lb ed="#Ka" break="no"/>uit 
+              satis esse existimans ab in<lb ed="#Ka" break="no"/>nissimis 
+              circumueniri quam bene 
+              <lb ed="#Ka"/>merito gratiam non referre</quote> //
             </p>
             <p xml:id="bHY6yh-d38489-d1e341">
-               ¶ <ref xml:id="bHY6yh-d38489-Rd1e404">titulo</ref> <quote xml:id="bHY6yh-d38489-Qd1e343">de ingratis dan<lb ed="#B" break="no"/>di 
-              et accipiendi beneficii con<lb ed="#B" break="no"/>mercium 
-              sine quo vita hominum 
-              <lb ed="#B"/>est mors tollit quisque beneme<lb ed="#B" break="no"/>rito
-              parem referre gratiam negli<lb ed="#B" break="no"/>git 
-               ¶ ligurgo neque uite summe 
-              <lb ed="#B"/>sinceritas neque constantissimus erga 
-              <pb ed="#B" n="64-r"/>
-              <cb ed="#B" n="a"/>
-              <lb ed="#B"/>patriam amor neque leges salutari<lb ed="#B" break="no"/>tur 
-              excogitate auxilio esse po<lb ed="#B" break="no"/>tuerunt 
-              quo minus infestos <hi rend="underline">ciu<lb ed="#B" break="no"/>es</hi> 
-              ciues experiretur Sepe enim 
-              <lb ed="#B"/>lapidibus petitus publico fu<lb ed="#B" break="no"/>rore 
-              priuatus etiam oculo ad ul<lb ed="#B" break="no"/>timum 
-              ipsa patria lacedemonum 
-              <lb ed="#B"/>pulsus est  ¶ Quid alie faci<lb ed="#B" break="no"/>ent 
-              urbes vbi etiam illa que <sic>co<lb ed="#B" break="no"/>stantie</sic> 
-              et moderacionis et graui<lb ed="#B" break="no"/>tatis 
-              eximiam sibi laudem ven<lb ed="#B" break="no"/>dicauit 
-              tam ingratus aduersus 
-              <lb ed="#B"/>tam benemeritum extitit</quote>
+              <ref xml:id="bHY6yh-d38489-Rd1e404">titulo</ref> <quote xml:id="bHY6yh-d38489-Qd1e343">de in<lb ed="#Ka" break="no"/>gratis 
+              dandi et accipiendi beneficii 
+              <lb ed="#Ka"/>conmercium sine quo vita hominum 
+              <lb ed="#Ka"/>est mors tollit quisque bene merito
+              <lb ed="#Ka"/>parem referre gratiam negligit //
+              <lb ed="#Ka"/>ligurgonet uite summe sinceritatis 
+              <lb ed="#Ka"/>neque constantissimus erga patriam amor 
+              <lb ed="#Ka"/>neque leges salutaritur excogitate 
+              <lb ed="#Ka"/>auxilio esse potuerunt quo minus 
+              <lb ed="#Ka"/>infestos ciues experireta Sepe 
+              <lb ed="#Ka"/>enim lapidibus petitus publico furo<lb ed="#Ka" break="no"/>re 
+              priuatus etiam oculo ad ultimum 
+              <lb ed="#Ka"/>ipsa patria lacedemonum pulsus est
+              <lb ed="#Ka"/>Quid alie facient urbes ubi etiam 
+              <lb ed="#Ka"/>illa que constancie et moderacionis 
+              <lb ed="#Ka"/>et grauitatis eximiam sibi laudem 
+              <lb ed="#Ka"/>vendicauit tam ingratus aduersus 
+              <lb ed="#Ka"/>tam benemeritum extitit</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e402">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e442">AMbrosius de officiis libro<!--line jumps up--> I capitulo 30</ref><!--line jumps down--> <quote xml:id="bHY6yh-d38489-Qd1e406">Non 
-              <lb ed="#B"/>dare cuiquam uix licet non 
-              <lb ed="#B"/>reddere uero non licet  ¶ Confer<lb ed="#B" break="no"/>re 
-              gratiam bonum est</quote>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d38489-Rd1e442">Ambrosius de officiis libro 1 capitulo 30</ref> // 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d38489-Qd1e406">Non dare cuiquam uix licet non reddere 
+              <lb ed="#Ka"/>uero non licet // Conferre gratiam bonum est</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e416">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e458">CAto capitulo I</ref> <quote xml:id="bHY6yh-d38489-Qd1e420">beneficii<!--line jumps up--> accepti me<!--line jumps down-->mor esto</quote>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d38489-Rd1e458">Cato capitulo 1</ref> // <quote xml:id="bHY6yh-d38489-Qd1e420">beneficii accepti memor 
+              <lb ed="#Ka"/>esto</quote> /
             </p>
             <p xml:id="bHY6yh-d38489-d1e424">
-              <lb ed="#B"/>/ <ref xml:id="bHY6yh-d38489-Rd1e469">capitulo 2</ref> <quote xml:id="bHY6yh-d38489-Qd1e428">officium alterius multis 
-              <lb ed="#B"/>narrare memento  ¶ Atque aliis 
-              <lb ed="#B"/>cum tu benefeceris ipse fileto
-              <lb ed="#B"/> ¶ Exiguum munus cum dat tibi 
-              <lb ed="#B"/>pauper amicus  ¶ Accipito placi<lb ed="#B" break="no"/>de 
-              et plene laudare memento</quote>
+              <ref xml:id="bHY6yh-d38489-Rd1e469">capitulo 2</ref> <quote xml:id="bHY6yh-d38489-Qd1e428">officium alterius multis 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>narrare memento  
+              <lb ed="#Ka"/>Atque aliis cum tu benefeceris ipse fileto
+              <lb ed="#Ka"/>// Exiguum munus cum dat tibi pauper 
+              <lb ed="#Ka"/>amicus // accipito placide et plene 
+              <lb ed="#Ka"/>laudare memento</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e439">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e489">UErsificator fabularum esopi 8 fabula</ref>
-              <lb ed="#B"/><quote xml:id="bHY6yh-d38489-Qd1e443">Nil prodest prodesse malis mens 
-              <lb ed="#B"/>praua molorum  ¶ In memor ac<lb ed="#B" break="no"/>cepti 
-              non timet esse boni</quote>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d38489-Rd1e489">Uersificator fabularum esopi 8 fabula</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d38489-Qd1e443">nil prodest prodesse malis mens 
+              <lb ed="#Ka"/>praua molorum // In memor accepti 
+              <lb ed="#Ka"/>non timet esse boni</quote> //
             </p>
             <p xml:id="bHY6yh-d38489-d1e451">
-               ¶ <ref xml:id="bHY6yh-d38489-Rd1e502">fabula 
-              <lb ed="#B"/>10</ref> <quote xml:id="bHY6yh-d38489-Qd1e453">Reddere gaudet homo nequam pro 
-              <lb ed="#B"/>melle uenenum  ¶ Pro fructum pe<lb ed="#B" break="no"/>nam 
-              pro pietate dolum</quote>
+              <ref xml:id="bHY6yh-d38489-Rd1e502">fabula 10</ref> // <quote xml:id="bHY6yh-d38489-Qd1e453">Reddere 
+              <lb ed="#Ka"/>gaudet homo nequam pro melle uenenum 
+              <lb ed="#Ka"/>// Pro fructum ponam pro pietate 
+              <lb ed="#Ka"/>dolum</quote> //
             </p>
             <p xml:id="bHY6yh-d38489-d1e463"> 
-               ¶ <ref xml:id="bHY6yh-d38489-Rd1e514">fabula 43</ref>
-              <lb ed="#B"/><quote xml:id="bHY6yh-d38489-Qd1e465">Non debet meritum turpis delere 
-              <lb ed="#B"/>uetustas  ¶ Accepti memores 
-              <lb ed="#B"/>nos decet esse boni</quote>
+              <ref xml:id="bHY6yh-d38489-Rd1e514">fabula 43</ref> // <quote xml:id="bHY6yh-d38489-Qd1e465">non debet meritum 
+              <lb ed="#Ka"/>turpis delere uetustas // accepti 
+              <lb ed="#Ka"/>memores nos decet esse boni</quote> //
             </p>
             <p xml:id="bHY6yh-d38489-d1e467">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e527">ANdreas ad gual<!--line jumps up-->terium de<!--line jumps down--> amore libro 
-              <lb ed="#B"/>I</ref> <quote xml:id="bHY6yh-d38489-Qd1e471">Maioribi censetur meritis 
-              <lb ed="#B"/>dignus qui bona sponte pere<lb ed="#B" break="no"/>git 
-              quam qui ea coactus exhercuit
-              <lb ed="#B"/> ¶ Coacta nemini sunt grata ob<lb ed="#B" break="no"/>sequia 
-              et nullis digna premiis 
-              <lb ed="#B"/>iudicantur etcetera etcetera etc</quote>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d38489-Rd1e527">Andreas ad gualterium de amore 
+              <lb ed="#Ka"/>libro 1</ref> // <quote xml:id="bHY6yh-d38489-Qd1e471">Maioribus censetur meritis 
+              <lb ed="#Ka"/>dignus qui bono sponte peregit 
+              <lb ed="#Ka"/>quam qui ea coactus exhercuit // Coac<lb ed="#Ka" break="no"/>ta 
+              nemini sunt grata obsequio et 
+              <lb ed="#Ka"/>nullis digna premiis iudicantur</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e488">
-              <cb ed="#B" n="b"/>
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e548">IAcobus beneuentanus capitulo 23</ref> <quote xml:id="bHY6yh-d38489-Qd1e492">ac<lb ed="#B" break="no"/>cepti 
-              semper muneris esto me<lb ed="#B" break="no"/>mor
-               ¶ A quocumque tibi praesertim pau<lb ed="#B" break="no"/>pere 
-              factum  ¶ Compensare stude 
-              <lb ed="#B"/>merito seruitium  ¶ frigiscit dantis 
-              <lb ed="#B"/>animus cum viderit ipse  ¶ Cui dede<lb ed="#B" break="no"/>rit 
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d38489-Rd1e548">IAcobus beneuentanus capitulo 23</ref> <quote xml:id="bHY6yh-d38489-Qd1e492">accepti 
+              <lb ed="#Ka"/>semper mores est a quocumque tibi prae<lb ed="#Ka" break="no"/>sertim 
+              paupere factum // Compensare 
+              <lb ed="#Ka"/>stude merito seruitium // frigiscit dantis 
+              <lb ed="#Ka"/>animus cum viderit ipse // Cui de<lb ed="#Ka" break="no"/>derit 
               ingratum muneris esse sibi</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e506">
-              <lb ed="#B"/> ¶ <ref xml:id="bHY6yh-d38489-Rd1e566">capitulo 25</ref> <quote xml:id="bHY6yh-d38489-Qd1e508">Noli serpentem dico tibi 
-              <lb ed="#B"/>fili nutrire  ¶ Mordebit quoniam te 
-              <lb ed="#B"/>prius ipse malus</quote>
+              <lb ed="#Ka"/> // <ref xml:id="bHY6yh-d38489-Rd1e566">capitulo 25</ref> <quote xml:id="bHY6yh-d38489-Qd1e508">noli serpentem dico tibi 
+              <lb ed="#Ka"/>fili nutrire Mordebit quoniam 
+              <lb ed="#Ka"/>te prius ipse malus</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e516">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e579">MAtheus vindo<!--line jumps up-->cinensis de historia<!--line jumps down--> tobie capitulo 31</ref> 
-              <lb ed="#B"/><quote xml:id="bHY6yh-d38489-Qd1e520">Non tibi quod dabitur sed cur 
-              <lb ed="#B"/>intellige quia sola uoluntatis 
-              <lb ed="#B"/>forma inonerat opus</quote>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d38489-Rd1e579">Matheus vindocinensis de historia
+              <pb ed="#Ka" n="83-r"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>tobie capitulo 31</ref> // <quote xml:id="bHY6yh-d38489-Qd1e520">Non quot tibi dabitur sed 
+              <lb ed="#Ka"/>cur intellige quod sola uoluntatis 
+              <lb ed="#Ka"/>forma inonerat opus</quote>
             </p>
             <p xml:id="bHY6yh-d38489-d1e529">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e594">Avctor libri de moribus<!--line jumps up--> medicorum<!--line jumps down--> capitulo 12</ref> <quote xml:id="bHY6yh-d38489-Qd1e533">In<lb ed="#B" break="no"/>gratos 
-              homines inflata super<lb ed="#B" break="no"/>bia 
-              reddit</quote>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d38489-Rd1e594">Auctor liber de moribus medicorum
+              <lb ed="#Ka"/>capitulo 12</ref> // <quote xml:id="bHY6yh-d38489-Qd1e533">Ingratos homines inflata super<lb ed="#Ka" break="no"/>bia 
+              reddit</quote> //
             </p>
             <p xml:id="bHY6yh-d38489-d1e541">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e607">BElinus in<!--line jumps up--> speculo vite parte<!--line jumps down--> I exem 2</ref> <quote xml:id="bHY6yh-d38489-Qd1e545">Seruitium nullus 
-              <lb ed="#B"/>perdit quod reddere multi /
-              <lb ed="#B"/> ¶ desistunt reddit vnicus illud homo</quote>
+              <ref xml:id="bHY6yh-d38489-Rd1e607">Belinus in speculo vite 
+              <lb ed="#Ka"/>parte 1 exem 2</ref> // <quote xml:id="bHY6yh-d38489-Qd1e545">Seruitium nullus perdit 
+              <lb ed="#Ka"/>quot reddere multi desistunt reddit v<lb ed="#Ka" break="no"/>nicus 
+              illud homo</quote> //
             </p>
             <p xml:id="bHY6yh-d38489-d1e553">
-              <lb ed="#B"/><ref xml:id="bHY6yh-d38489-Rd1e620">PRouerbium uulgare</ref> <quote xml:id="bHY6yh-d38489-Qd1e557">Al 
-              <lb ed="#B"/>caual dona non guardar 
-              <lb ed="#B"/>en dente  ¶ chi laua lacauo al<lb ed="#B" break="no"/>asino 
-              perde el sauone  ¶ chi serue 
-              <lb ed="#B"/>ario segnore ne grao ne gue<lb ed="#B" break="no"/>dadone
-               ¶ chi dispica el laro 
-              <lb ed="#B"/>apicha si</quote>
+              <ref xml:id="bHY6yh-d38489-Rd1e620">Prouerbium uul<lb ed="#Ka" break="no"/>gare</ref> 
+              // <quote xml:id="bHY6yh-d38489-Qd1e557">alca val dona non guardar
+              <lb ed="#Ka"/>en dente // chi laua locauo alasino 
+              <lb ed="#Ka"/>perde elsa none / che serue ario segno
+              <lb ed="#Ka"/>re ne grao ne guedar dona // Chi 
+              <lb ed="#Ka"/>dispica el laro a picha si</quote>
             </p>
          </div>
       </body>
