@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 2</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="erinkurian">Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition n="0.0.0-dev">
+                  <title>Rubrica 2</title>
+                  <date when="2024-12-15">December 15, 2024</date>
+               </edition>
+            </editionStmt>
+            <publicationStmt>
+               <authority>SCTA</authority>
+               <availability status="free">
+                  <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                  </p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-12-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+          <div xml:id="starts-on">
+             <pb ed="#Ka" n="100-r"/>
+             <cb ed="#Ka" n="b"/>
+          </div>
+       </front>
+      <body>
+         <div xml:id="bHY6yh-d46317"><!-- p3l1-r2 -->
+            <head xml:id="bHY6yh-d46317-Hd1e108">Rubrica 2</head>
+            <head xml:id="bHY6yh-d46317-Hd1e111" type="question-title">De experientia</head>
+            <p xml:id="bHY6yh-d46317-d1e114">
+              OMITTED <!--missing title - space left for it-->
+            </p>
+            <p xml:id="bHY6yh-d46317-d1e119">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d46317-Rd1e115">ARistotiles ethicorum libro 1 capitulo 1</ref> <quote xml:id="bHY6yh-d46317-Qd1e127">Iuue<lb ed="#Ka" break="no"/>nis 
+               inexpertus est eorum qui 
+               <lb ed="#Ka"/>secundum vitam sunt actuum</quote>
+            </p>
+            <p xml:id="bHY6yh-d46317-d1e133">
+               <ref xml:id="bHY6yh-d46317-Rd1e130">libro 6 capitulo 5</ref> <quote xml:id="bHY6yh-d46317-Qd1e135">Iuu<lb ed="#Ka" break="no"/>enis 
+               expertus non est multitudo enim temporis 
+               <lb ed="#Ka"/>facit experientiam</quote>
+            </p>
+            <p xml:id="bHY6yh-d46317-d1e144">
+               <ref xml:id="bHY6yh-d46317-Rd1e143">libro 10 et finale capitulo 8 
+               <lb ed="#Ka"/>et finale</ref> <quote xml:id="bHY6yh-d46317-Qd1e146">desiderantibus de politia scire 
+               <lb ed="#Ka"/>opus esse videtur experientia / Experti 
+               <lb ed="#Ka"/>circa singula iudicant recte opera 
+               <lb ed="#Ka"/>et per que et qualiter perficiuntur intelligunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d46317-d1e158">
+               <lb ed="#Ka"/>/ <ref xml:id="bHY6yh-d46317-Rd1e158">Idem methaforum capitulo 1</ref> <quote xml:id="bHY6yh-d46317-Qd1e160">hominibus 
+               <lb ed="#Ka"/>scientia et ars per experientiam euenit 
+               <lb ed="#Ka"/>Experientia causam ut ait polus ex<lb ed="#Ka" break="no"/>pertos 
+               magis proficere videmus sine 
+               <lb ed="#Ka"/>experientia rationem habentibus 
+               <lb ed="#Ka"/>causa autem est quia experientia singu<lb ed="#Ka" break="no"/>larium 
+               est cognitio ars vero vniuer<lb ed="#Ka" break="no"/>salium</quote>
+            </p>
+            <p xml:id="bHY6yh-d46317-d1e177">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d46317-Rd1e179">Iesus filius syrach in ecclesiastico capitulo 34</ref> 
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d46317-Qd1e181">Qui non est expertus pauca recogno<lb ed="#Ka" break="no"/>scit</quote>
+            </p>
+            <p xml:id="bHY6yh-d46317-d1e187">
+               // <ref xml:id="bHY6yh-d46317-Rd1e191">Uirgilius eneidos libro 11 ante
+               <lb ed="#Ka"/>medium satis</ref> / <quote xml:id="bHY6yh-d46317-Qd1e191">Experto credite</quote>
+            </p>
+            <p xml:id="bHY6yh-d46317-d1e203">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d46317-Rd1e202">Paulus apostolus epistola 1 ad thesalonicenses 
+               <pb ed="#Ka" n="100-v"/>
+               <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/>capitulo 5 et finale</ref> <quote xml:id="bHY6yh-d46317-Qd1e207">Omnia probate quod bonum 
+               <lb ed="#Ka"/>est tenete</quote>
+            </p>
+            <p xml:id="bHY6yh-d46317-d1e214">
+               <ref xml:id="bHY6yh-d46317-Rd1e215">Cassiodorus epistolarum 
+               <lb ed="#Ka"/>libro 1 epistola 23</ref> <quote xml:id="bHY6yh-d46317-Qd1e218">bellitorem fuerit stirpis est 
+               <lb ed="#Ka"/>gaudium comprobari / latet sub ocio lau<lb ed="#Ka" break="no"/>dabilis 
+               fortitudo et dum se probandi non
+               <lb ed="#Ka"/>habet spacium occulta est // lux tota me<lb ed="#Ka" break="no"/>ritorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d46317-d1e237">
+               <ref xml:id="bHY6yh-d46317-Rd1e239">libro 4 epistola 44</ref> <quote xml:id="bHY6yh-d46317-Qd1e239">Multo mayor o<lb ed="#Ka" break="no"/>pinio 
+               est purgata quam si desinentibus 
+               <lb ed="#Ka"/>querelis non fuerit impetita</quote>
+            </p>
+            <p xml:id="bHY6yh-d46317-d1e247">
+               <ref xml:id="bHY6yh-d46317-Rd1e251">libro 11 capitulo 2</ref> <quote xml:id="bHY6yh-d46317-Qd1e249">ve<lb ed="#Ka" break="no"/>rus 
+               testis est qui laudat expertas</quote>
+            </p>
+            <p xml:id="bHY6yh-d46317-d1e255">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d46317-Rd1e261">41 epistola et finale</ref> <quote xml:id="bHY6yh-d46317-Qd1e257">pectora <sic>pectora</sic> ipsa uitare 
+               <lb ed="#Ka"/>verut qui si lesisse eis noscunt vbi in foue<lb ed="#Ka" break="no"/>am 
+               corruerunt / Tenaces laqueos 
+               <lb ed="#Ka"/>quis capta declinat herentem 
+               <lb ed="#Ka"/>iustum alis suspecta non insidet</quote>
+            </p>
+            <p xml:id="bHY6yh-d46317-d1e269">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d46317-Rd1e279">ISidorus soliloquiorum libro 2 capitulo 41</ref> <quote xml:id="bHY6yh-d46317-Qd1e273">Ex<lb ed="#Ka" break="no"/>perientia 
+               plus scitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d46317-d1e279">
+               // <ref xml:id="bHY6yh-d46317-Rd1e293">Uersificator 
+               <lb ed="#Ka"/>fabularum esopi 50 fabularum</ref> <quote xml:id="bHY6yh-d46317-Qd1e283">preteriti 
+               <lb ed="#Ka"/>ratio scire futura facit vitat auis 
+               <lb ed="#Ka"/>taxum quam gustu sepe probauit</quote>
+            </p>
+            <p xml:id="bHY6yh-d46317-d1e292">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d46317-Rd1e307">Prouerbium uulgare</ref> <quote xml:id="bHY6yh-d46317-Qd1e296">Scotao sopla 
+               <lb ed="#Ka"/>insorao</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
