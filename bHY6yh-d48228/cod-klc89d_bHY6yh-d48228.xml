@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="erinkurian">Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition n="0.0.0-dev">
+                  <title>Rubrica 1</title>
+                  <date when="2024-12-22">December 22, 2024</date>
+               </edition>
+            </editionStmt>
+            <publicationStmt>
+               <authority>SCTA</authority>
+               <availability status="free">
+                  <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                  </p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-12-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+          <div xml:id="starts-on">
+             <pb ed="#Ka" n="104-r"/>
+             <cb ed="#Ka" n="a"/>
+          </div>
+       </front>
+      <body>
+         <div xml:id="bHY6yh-d48228"><!-- p3l2-r1 -->
+            <head xml:id="bHY6yh-d48228-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d48228-Hd1e111" type="question-title">De prudentia et sapientia</head>
+            <p xml:id="bHY6yh-d48228-d1e114">
+              <lb ed="#Ka"/>Secundus liber tertie par<lb ed="#Ka" break="no"/>tis
+              deprudencia et per<lb ed="#Ka" break="no"/>tinentibus
+              ad eaden 
+              <lb ed="#Ka"/>sub hiis titulis Sequen<lb ed="#Ka" break="no"/>tibus 
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e127">
+              de prudentia et sapientia 
+              <lb ed="#Ka"/>rubrica prima
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e134">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e131">Iob historia capitulo 12</ref> <quote xml:id="bHY6yh-d48228-Qd1e138">In antiquis 
+              <lb ed="#Ka"/>est sapientia et in multo tempore 
+              <lb ed="#Ka"/>prudencia</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e149">
+              <ref xml:id="bHY6yh-d48228-Rd1e144">28 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e151">Timor domini ipse 
+              <lb ed="#Ka"/>est sapientia et recedere amalo in<lb ed="#Ka" break="no"/>telligentia</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e159">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e158">Psalmista 31 psalmus</ref> <quote xml:id="bHY6yh-d48228-Qd1e163">Nolite fieri sicut 
+              <lb ed="#Ka"/>equus et mulus quibus non est intellec<lb ed="#Ka" break="no"/>tus</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e169">
+              <ref xml:id="bHY6yh-d48228-Rd1e170">21 pslamus</ref> <quote xml:id="bHY6yh-d48228-Qd1e173">Initium sapientie est timor 
+              
+              <lb ed="#Ka"/>domini</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e177">
+              // <ref xml:id="bHY6yh-d48228-Rd1e180">Salomon in prouerbiis capitulo 
+              <lb ed="#Ka"/>1</ref> <quote xml:id="bHY6yh-d48228-Qd1e181">Audi sapiens sapientior eris et 
+              <lb ed="#Ka"/>intelligens gubernacula possidebis</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e189"> 
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e192">2 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e191">Inclina cor tuum ad cognoscendum
+              <lb ed="#Ka"/>prudentiam / dominis dat sapientiam Si 
+              <lb ed="#Ka"/>intrauerit sapientia cor tuum et scientie 
+              <lb ed="#Ka"/>anime tue placuerit consilium custo<lb ed="#Ka" break="no"/>diet 
+              te et prudentia seruabit te ut 
+              <lb ed="#Ka"/>eruaris de via mala et ab homine 
+              <lb ed="#Ka"/>qui peruersa loquitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e205">
+              <ref xml:id="bHY6yh-d48228-Rd1e210">capitulo 3</ref> <quote xml:id="bHY6yh-d48228-Qd1e207">Beatus homo
+              <lb ed="#Ka"/>qui inuenit sapientiam et cui affluit 
+              <lb ed="#Ka"/>prudentia Melior est acquisitio sa<lb ed="#Ka" break="no"/>pientie 
+              negotiatione argenti et auri primi 
+              <lb ed="#Ka"/>et purissimi fructus eius praeciosior 
+              <lb ed="#Ka"/>est cunctis opibus et omnia que desider<lb ed="#Ka" break="no"/>antur 
+              huic non valent comparari // 
+              <lb ed="#Ka"/>longitudo dierum in dextera sapientie et 
+              <lb ed="#Ka"/>senistre eius diuitie et gloria / vie 
+              <lb ed="#Ka"/>tamen pulchre et omnes semite 
+              <lb ed="#Ka"/>illius pacifice Gloriam sapientes 
+              <lb ed="#Ka"/>possidebunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e231">
+              <ref xml:id="bHY6yh-d48228-Rd1e240">4 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e233">dilige sapientiam 
+              <lb ed="#Ka"/>et seruabit te Glorificaberis a sapientia 
+              <lb ed="#Ka"/>cum eam fueris amplexatus dabit 
+              <lb ed="#Ka"/>capit tuo augmentum gratiarum et coro<lb ed="#Ka" break="no"/>na 
+              inclita proteget te</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e245">
+              <ref xml:id="bHY6yh-d48228-Rd1e256">7 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e247">dic sapi<lb ed="#Ka" break="no"/>entia
+              soror mea et prudentiam uo<lb ed="#Ka" break="no"/>ca 
+              amicam tuam</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e253">
+              / <ref xml:id="bHY6yh-d48228-Rd1e268">8 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e257">melior est 
+              <lb ed="#Ka"/>sapientia cunctis opibus preciosimis 
+              <lb ed="#Ka"/>et omne desiderabile ei non potest 
+              <pb ed="#Ka" n="104-v"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>comparari // fingitur sapientia dicere perme re<lb ed="#Ka" break="no"/>ges 
+              regnant et legum conditores iuste 
+              <lb ed="#Ka"/>decernunt per me principes imperant 
+              <lb ed="#Ka"/>et prudentes decernunt iustitiam Ego 
+              <lb ed="#Ka"/>diligentes me diligo et qui mane vigil<lb ed="#Ka" break="no"/>ant 
+              ad me inuenient me mecum sunt 
+              <lb ed="#Ka"/>diuitie et gloria Opes superne et ius<lb ed="#Ka" break="no"/>titia 
+              et cetera Beatus homo qui audit me 
+              <lb ed="#Ka"/>et uigilat ad fores meas cottidie et 
+              <lb ed="#Ka"/>obseruat pestes hostii mei Qui me 
+              <lb ed="#Ka"/>in uenerit in ueniet uitam et acci<lb ed="#Ka" break="no"/>piet
+              salutem a domino Qui autem in 
+              <lb ed="#Ka"/>me peccauerit ledet animam suam Omnes 
+              <lb ed="#Ka"/>qui me oderunt diligunt mortem</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e297">
+              <ref xml:id="bHY6yh-d48228-Rd1e312">9 capitulo</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e299">da sapientie occasionem et addetur ei sa<lb ed="#Ka" break="no"/>pientia 
+              principium sapientie timor domini 
+              <lb ed="#Ka"/>Per me multiplicabuntur dies tui et ad<lb ed="#Ka" break="no"/>dentur 
+              tibi anni vite Si sapiens 
+              <lb ed="#Ka"/>fueris tibi met ipsi eris si autem illusor 
+              <lb ed="#Ka"/>solus portabis malum</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e313">
+              / <ref xml:id="bHY6yh-d48228-Rd1e330">12 capitulo</ref>  <quote xml:id="bHY6yh-d48228-Qd1e315">ligua sap<lb ed="#Ka" break="no"/>ientum 
+              sanitas est</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e321">
+              <ref xml:id="bHY6yh-d48228-Rd1e340">14 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e323">labia sapientum 
+              <lb ed="#Ka"/>custodiunt eos // Sapiens timet 
+              <lb ed="#Ka"/>et declinat amalo Stultus transilit 
+              <lb ed="#Ka"/>et confidit lingua sapientium ornat 
+              <lb ed="#Ka"/>scientiam Cor sapientus querit doc<lb ed="#Ka" break="no"/>trinam</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e336">
+              / <ref xml:id="bHY6yh-d48228-Rd1e357">16 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e338">posside sapientiam que
+              <lb ed="#Ka"/>auro melior est et acquire pru<lb ed="#Ka" break="no"/>denciam 
+              quia preciosior est argento // 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>Qui sapiens corde est appellabitur 
+              <lb ed="#Ka"/>prudens et que dulcis eloquia ma<lb ed="#Ka" break="no"/>iora 
+              percipiet Cor sapientis erudiet 
+              <lb ed="#Ka"/>os et labiis illius addet gratiam</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e352">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e377">17 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e356">in facile sapientis lucet pru<lb ed="#Ka" break="no"/>dencia</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e360">
+              <ref xml:id="bHY6yh-d48228-Rd1e387">18 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e364">auris sapientium querit 
+              <lb ed="#Ka"/>doctrinam</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e368">
+              / <ref xml:id="bHY6yh-d48228-Rd1e397">22 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e372">Inclina aurem tuam 
+              <lb ed="#Ka"/>et audi verba sapientium vir sapientum 
+              <lb ed="#Ka"/>siue sapiens et fortis est et vir doctus 
+              <lb ed="#Ka"/>robustus et validus</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e380">
+              <ref xml:id="bHY6yh-d48228-Rd1e409">Idem in ecclesiasti<lb ed="#Ka" break="no"/>co 
+              capitulo 1</ref> <quote xml:id="bHY6yh-d48228-Qd1e382">In multa sapientia est indigna<lb ed="#Ka" break="no"/>cio</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e388">
+              <ref xml:id="bHY6yh-d48228-Rd1e422">7 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e392">vtilior sapientia sic protegit habet 
+              <lb ed="#Ka"/>eruditio et sapientia quod vitam trib<lb ed="#Ka" break="no"/>uit 
+              possessori suo Noli esse plus sapiens 
+              <lb ed="#Ka"/>quam necesse est</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e405">
+              <ref xml:id="bHY6yh-d48228-Rd1e441">8 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e409">Sapientia hominis 
+              <lb ed="#Ka"/>lucet in uultu eius</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e413">
+              / <ref xml:id="bHY6yh-d48228-Rd1e451">9 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e417">melior 
+              <lb ed="#Ka"/>est sapientia quam arma bellica</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e421">
+              <ref xml:id="bHY6yh-d48228-Rd1e461">10 capitulo</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e425">Cor sapientis in dextera eius et cor stul<lb ed="#Ka" break="no"/>ti 
+              in sinistra eius // verba oris sa<lb ed="#Ka" break="no"/>pientis gracia</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e433">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e475">Aristotiles magnorum moralium libro 1 
+              <lb ed="#Ka"/>capitulo 7</ref> <quote xml:id="bHY6yh-d48228-Qd1e437">prudentia est contra operabilia in 
+              <lb ed="#Ka"/>quibus electio et fuga / Circa opera<lb ed="#Ka" break="no"/>cionem 
+              et operabilia prudentia // 
+              <lb ed="#Ka"/>prudentia est habitus electiuus 
+              <lb ed="#Ka"/>et operatiuus eorum qua in nobis sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e451">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e494">73 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e453">Sapientia est ex intellectum et 
+              <lb ed="#Ka"/>scientia composita quare erit circa 
+              <lb ed="#Ka"/>que et intellectus et scientia</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e465">
+              <ref xml:id="bHY6yh-d48228-Rd1e512">74 capitulo</ref> 
+              <pb ed="#Ka" n="105-r"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e469">Circa conferentia est prudentia // sap<lb ed="#Ka" break="no"/>ientia 
+              aut non alterum ergo est sapientia 
+              <lb ed="#Ka"/>et prudentia</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e478">
+              / <ref xml:id="bHY6yh-d48228-Rd1e525">75 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e480">Sapientia quid 
+              <lb ed="#Ka"/>est circa perpetuum prudentia autem circa 
+              <lb ed="#Ka"/>conferens hominum</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e488">
+              / <ref xml:id="bHY6yh-d48228-Rd1e539">77</ref> <quote xml:id="bHY6yh-d48228-Qd1e490">Prudentis et pru<lb ed="#Ka" break="no"/>dentie 
+              est optiam appetere et horum 
+              <lb ed="#Ka"/>electuum esse et operatiuum</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e498">
+              // <ref xml:id="bHY6yh-d48228-Rd1e551">81 capitulo et penultimo</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e500">prudentia sicud architector quidam 
+              <lb ed="#Ka"/>virtutum est</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e508">
+              <ref xml:id="bHY6yh-d48228-Rd1e564">libro 2 capitulo 7</ref> <quote xml:id="bHY6yh-d48228-Qd1e510">neque absque pru<lb ed="#Ka" break="no"/>dentia 
+              alie virtutes fiunt neque 
+              <lb ed="#Ka"/>prudentia perfecta absque aliis virtu<lb ed="#Ka" break="no"/>tibus 
+              sed cooperantur quodammodo ad se in 
+              <lb ed="#Ka"/>uicem consequentes prudentiam // 
+              <lb ed="#Ka"/>Sapientia absconsa et thesaurus in 
+              <lb ed="#Ka"/>uisus que utilitas in vtrisque</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e524">
+              <ref xml:id="bHY6yh-d48228-Rd1e584">21 capitulo</ref> //
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e528">Verba prudentium statera pondera<lb ed="#Ka" break="no"/>buntur</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e534">
+              <ref xml:id="bHY6yh-d48228-Rd1e594">25 capitulo</ref>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e543">
+              <quote xml:id="bHY6yh-d48228-Qd1e545">Importune noli extolli 
+              <lb ed="#Ka"/>in sapientia tua</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e551">
+              <ref xml:id="bHY6yh-d48228-Rd1e615">37 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e553">Vir sapiens im<lb ed="#Ka" break="no"/>plebitur 
+              benedictionibus et videntes 
+              <lb ed="#Ka"/>illum laudabunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e561">
+              / <ref xml:id="bHY6yh-d48228-Rd1e627">39 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e563">sapientiam omnium 
+              <lb ed="#Ka"/>antiquorum exquiret sapiens</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e569">
+              <ref xml:id="bHY6yh-d48228-Rd1e637">40 capitulo</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e571">vinum et musica letificant cor et super 
+              <lb ed="#Ka"/>utraque dilectio sapientie</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e579">
+              <ref xml:id="bHY6yh-d48228-Rd1e649">Idem ethycorum 
+              <lb ed="#Ka"/>libro 6 capitulo 3</ref> <quote xml:id="bHY6yh-d48228-Qd1e581">necesse est prudentiam esse 
+              <lb ed="#Ka"/>habitum cum ratione verum circa humana 
+              <lb ed="#Ka"/>operatiuum</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e589">
+              <ref xml:id="bHY6yh-d48228-Rd1e661">capitulo 5</ref> <quote xml:id="bHY6yh-d48228-Qd1e591">Sapientia est intellectus et 
+              <lb ed="#Ka"/>scientia honorabilissimorum natura // pru<lb ed="#Ka" break="no"/>dentia 
+              est circa humana et dequibus 
+              <lb ed="#Ka"/>est consiliari // Prudentis maxime hoc opus 
+              <lb ed="#Ka"/>dicimus esse bene consiliari Non est pru<cb ed="#Ka" n="b"/><lb ed="#Ka"/>dentia 
+              vniuersalium solum sed oportet et sin<lb ed="#Ka" break="no"/>gula 
+              cognoscere Actiua enim actio autem 
+              <lb ed="#Ka"/>circa singularia continens non videntur 
+              <lb ed="#Ka"/>fieri sapientes tan autem quoniam et sin<lb ed="#Ka" break="no"/>gularium 
+              est prudentia que fiunt cogni<lb ed="#Ka" break="no"/>ta 
+              experientia</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e617">
+              <ref xml:id="bHY6yh-d48228-Rd1e691">8 capitulo et penultimo</ref>  <quote xml:id="bHY6yh-d48228-Qd1e619">peruertit 
+              <lb ed="#Ka"/>malitia et mentiri facit circa practica 
+              <lb ed="#Ka"/>principia quia manifestum quoniam inpo<lb ed="#Ka" break="no"/>ssibile 
+              est prudentem esse non bonum en<lb ed="#Ka" break="no"/>tem</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e629">
+              // <ref xml:id="bHY6yh-d48228-Rd1e705">Idem rethoricorum libro 1 capitulo 13</ref> <quote xml:id="bHY6yh-d48228-Qd1e631">Pruden<lb ed="#Ka" break="no"/>cia 
+              est virtus intellectus secundum quam 
+              <lb ed="#Ka"/>bene consiliari possunt de bonis et 
+              <lb ed="#Ka"/>optimis dictis ad felicitatem</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e641">
+              <ref xml:id="bHY6yh-d48228-Rd1e719">2 capitulo</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e643">Sapientia est multorum et mirabilium 
+              <lb ed="#Ka"/>scientia</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e649">
+              // <ref xml:id="bHY6yh-d48228-Rd1e729">Idem politicorum libro 7 capitulo 6</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e651">Aptum natum est potentiam quidem 
+              <lb ed="#Ka"/>in minoribus prudentiam in seni<lb ed="#Ka" break="no"/>oribus 
+              esse</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e659">
+              <ref xml:id="bHY6yh-d48228-Rd1e741">Idem <unclear>methate</unclear> libro 2 
+              <lb ed="#Ka"/>capitulo 1</ref> // <quote xml:id="bHY6yh-d48228-Qd1e661">Sapientia circa principina scientia 
+              <lb ed="#Ka"/>est</quote>
+            </p>
+            <p xml:id="bHY6yh-d4228-d1e669">
+              <ref xml:id="bHY6yh-d48228-Rd1e758">Idem priorum analeticorum libro 2 capitulo 70</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e671">Sapientes boni sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e678">
+              <ref xml:id="bHY6yh-d48228-Rd1e772">Idem elementorum 
+              <lb ed="#Ka"/>libro 1</ref> <quote xml:id="bHY6yh-d48228-Qd1e680">Quibusdam est magis opere 
+              <lb ed="#Ka"/>precium videri essa sapientes quam 
+              <lb ed="#Ka"/>esse et non videri / Sophistica est app<lb ed="#Ka" break="no"/>arens 
+              sapientia non autem existens</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e691">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e786">Idem de anima libro 2</ref> <quote xml:id="bHY6yh-d48228-Qd1e693">homo est prudentissimum 
+              <lb ed="#Ka"/>animalium </quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e697">
+              <ref xml:id="bHY6yh-d48228-Rd1e796">Idem probleumatum parte 30</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e699">Parius capitis prudentiores sunt 
+              <lb ed="#Ka"/>eis qui sunt magni capitis</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e703">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e811">Iesus filius syrach in ecclesiastico capitulo 1</ref> 
+              <pb ed="#Ka" n="105-v"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e707">Omnis sapientia adomino deo est deus prebet 
+              <lb ed="#Ka"/>sapientiam diligentibus se Concupis<lb ed="#Ka" break="no"/>cens 
+              sapientiam conserua iustitiam et deus 
+              <lb ed="#Ka"/>praebebit illam tibi</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e717">
+              <ref xml:id="bHY6yh-d48228-Rd1e825">5 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e719">honor et gloria 
+              <lb ed="#Ka"/>in sermone sensati</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e725">
+              <ref xml:id="bHY6yh-d48228-Rd1e835">6 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e727">Inuestigia sapi<lb ed="#Ka" break="no"/>entiam 
+              et manifestabitur tibi</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e733">
+              <ref xml:id="bHY6yh-d48228-Rd1e846">10 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e735">prin<lb ed="#Ka" break="no"/>cipatus 
+              sensati stabilis erit</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e741">
+              // <quote xml:id="bHY6yh-d48228-Qd1e743">Seruo 
+              <lb ed="#Ka"/>sensato liberi seruient</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e750">
+              <ref xml:id="bHY6yh-d48228-Rd1e866">15 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e752">A deo pro<lb ed="#Ka" break="no"/>fecta 
+              est sapientia</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e754">
+              <ref xml:id="bHY6yh-d48228-Rd1e878">19 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e756">Non est sapientia 
+              <lb ed="#Ka"/>nequitie disciplina et non est cogitatus 
+              <lb ed="#Ka"/>peccatorum prudentia</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e760">
+              // <ref xml:id="bHY6yh-d48228-Rd1e888">20 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e762">Sapiens in 
+              <lb ed="#Ka"/>verbis prodicit seipsum amabilem factus
+              <lb ed="#Ka"/>Sapiens in verbis producit seipsum 
+              <lb ed="#Ka"/>homo prudens placebit in agentibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e772">
+              <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d48228-Rd1e905">Phylon uel filemon libro sapientie capitulo 
+              <lb ed="#Ka"/>1</ref> <quote xml:id="bHY6yh-d48228-Qd1e776">In maliuolam animam non in<lb ed="#Ka" break="no"/>trabit 
+              sapientia nec habitabit in cor<lb ed="#Ka" break="no"/>pore 
+              subdito peccatis</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e784">
+              <ref xml:id="bHY6yh-d48228-Rd1e918">capitulo 3</ref> <quote xml:id="bHY6yh-d48228-Qd1e786">Sapientiam 
+              <lb ed="#Ka"/>et disciplinam qui abiicit infelix est
+              <lb ed="#Ka"/>et vatua est spes illorum et labores 
+              <lb ed="#Ka"/>sine fructu</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e794">
+              <ref xml:id="bHY6yh-d48228-Rd1e931">capitulo 5</ref> <quote xml:id="bHY6yh-d48228-Qd1e798">Melior est sapientia 
+              <lb ed="#Ka"/>quam vires et vir prudens magis 
+              <lb ed="#Ka"/>quam fortis</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e804"> 
+              <ref xml:id="bHY6yh-d48228-Rd1e941">6 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e806">Sapientia faci<lb ed="#Ka" break="no"/>le 
+              videtur ab hiis qui diligunt 
+              <lb ed="#Ka"/>eam et inuenitur ab hiis qui querunt 
+              <lb ed="#Ka"/>illam // Concupiscentia sapientie de<lb ed="#Ka" break="no"/>ducet 
+              ad regnum perpetuum Multitudo 
+              <lb ed="#Ka"/>sapientium sanitas est orbis terra<lb ed="#Ka" break="no"/>rum 
+              Rex sapiens populi stabilimen<lb ed="#Ka" break="no"/>tum 
+              est</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e821">
+              <ref xml:id="bHY6yh-d48228-Rd1e959">7 capitulo</ref> <quote xml:id="bHY6yh-d48228-Qd1e823">Sapientia est speci<cb ed="#Ka" n="b"/><lb ed="#Ka"/>osior 
+              sole et super omnem dispositionem 
+              <lb ed="#Ka"/>stellarum luti comparata prior inuenitur 
+              <lb ed="#Ka"/>Sapientia uincit malitiam</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e833">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e975">Tulius de officiis libro 2 capitulo 1</ref> <quote xml:id="bHY6yh-d48228-Qd1e837">Sapientia 
+              <lb ed="#Ka"/>est rerum diuinarum et humanarum causarum 
+              <lb ed="#Ka"/>que quibus hec res continentur scientia</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e845">
+              <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d48228-Rd1e987">Idem tusculanarum quodnum libro 1</ref> <quote xml:id="bHY6yh-d48228-Qd1e847">nichil 
+              <lb ed="#Ka"/>est hominis prudentia dulcius quam et 
+              <lb ed="#Ka"/>cetera aufferat affert certe sectus</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e855">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e1003">libro 3</ref> // <quote xml:id="bHY6yh-d48228-Qd1e859">Sapientia sanitas est animi</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e863">
+              <ref xml:id="bHY6yh-d48228-Rd1e1011">libro 5 et fine</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e865">Sapientia semper contenta est quid adest</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e871">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e1024">Idem rethorica artis ueteris libro 2 
+              <lb ed="#Ka"/>capitulo 9</ref> <quote xml:id="bHY6yh-d48228-Qd1e875">prudentia est rerum bonarum mala<lb ed="#Ka" break="no"/>rumque 
+              vtrumque scientia /</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e888">
+              <ref xml:id="bHY6yh-d48228-Rd1e1041">libro 2 capitulo 2</ref> <quote xml:id="bHY6yh-d48228-Qd1e890">pruden<lb ed="#Ka" break="no"/>cia 
+              caliditas que ratione quadam potest 
+              <lb ed="#Ka"/>delectum habere bonorum et malorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e898">
+              // <ref xml:id="bHY6yh-d48228-Rd1e1053">Idem 
+              <lb ed="#Ka"/>de legibus libro 1</ref> <quote xml:id="bHY6yh-d48228-Qd1e900">Ratio cum adoleuis atque 
+              <lb ed="#Ka"/>perfecta est nominatur rite sapientia</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e902">
+              <ref xml:id="bHY6yh-d48228-Rd1e1065">Idem 
+              <lb ed="#Ka"/>de diuinatione libro 5</ref> <quote xml:id="bHY6yh-d48228-Qd1e904">Sapientem esse po<lb ed="#Ka" break="no"/>tentem 
+              Sepius enim mulam peperisse 
+              <lb ed="#Ka"/>arbitror quam sapientem fuisse</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e912">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e1080">Iacobus apostolus epistola 1ca capitulo 3</ref> <quote xml:id="bHY6yh-d48228-Qd1e916">Que
+              <lb ed="#Ka"/>de sursum est sapientia primum quidem 
+              <lb ed="#Ka"/>pudica est deinde pacifica modesta 
+              <lb ed="#Ka"/>suadibilis bonis consentiens plena 
+              <lb ed="#Ka"/>misericordia et fructibus bonis iudicans 
+              <lb ed="#Ka"/>sine similitudine</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e928">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e1098">Paulus apostolus ad romanos capitulo 8</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e932">Prudentia carnis mors est pruden<lb ed="#Ka" break="no"/>cia 
+              autem spiritus vita et pax</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e940">
+              / <ref xml:id="bHY6yh-d48228-Rd1e1110">12 capitulo</ref> // 
+              <pb ed="#Ka" n="106-r"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e942">Nos plus sapere quam oportet sapere</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1116">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e1120">Seneca in epistolis ad lucillum libro 3 epistola 3</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e1122">Repraesentat operas sapientia</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e950">
+              <ref xml:id="bHY6yh-d48228-Rd1e1130">libro 15 epistola 1</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e952">Sapientia perfectum bonum est mentis 
+              <lb ed="#Ka"/>humane</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e959">
+              <ref xml:id="bHY6yh-d48228-Rd1e1140">libro 19 epistola 11 et finale</ref> // <quote xml:id="bHY6yh-d48228-Qd1e961">Sapientia est 
+              <lb ed="#Ka"/>mens perfecta et ad summum optimumque 
+              <lb ed="#Ka"/>producta</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e969">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e1156">Uegetius de re militari libro 1 capitulo 2</ref> <quote xml:id="bHY6yh-d48228-Qd1e973">pru<lb ed="#Ka" break="no"/>dencia 
+              et modestia seruat in castris 
+              <lb ed="#Ka"/>et non parum prodest in dimicatione con<lb ed="#Ka" break="no"/>siliis</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e981">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e1170">Auctor liber de fortuna honeste vite 
+              <lb ed="#Ka"/>capitulo 2</ref> <quote xml:id="bHY6yh-d48228-Qd1e985">prudens falli non potest non fal<lb ed="#Ka" break="no"/>lere 
+              uult</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e991">
+              // <ref xml:id="bHY6yh-d48228-Rd1e1182">Ambrosius de officiis 
+              <lb ed="#Ka"/>libro 1 capitulo 23</ref> <quote xml:id="bHY6yh-d48228-Qd1e995">Prudentie ueri inuesti<lb ed="#Ka" break="no"/>gatione 
+              versatur et scientie plenioris infun<lb ed="#Ka" break="no"/>dit 
+              cupiditatem</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1003">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e1196">Cecilius firmianus de beata vita libro 1</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e1007">Primus sapientie gradus est falsa intel<lb ed="#Ka" break="no"/>ligere 
+              Secundus vera cognoscere</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1015">
+              <ref xml:id="bHY6yh-d48228-Rd1e1208">libro 2</ref> <quote xml:id="bHY6yh-d48228-Qd1e1017">vir<lb ed="#Ka" break="no"/>tus 
+              cum scientia coniuncta sapientia est 
+              <lb ed="#Ka"/>Sapientia nisi in aliquo actu fuerit 
+              <lb ed="#Ka"/>ut quo vim sui exerceat inanis et 
+              <lb ed="#Ka"/>falsa est Nunquam potest esse iustus qui stul<lb ed="#Ka" break="no"/>tus
+              est neque sapiens qui fuerit 
+              <lb ed="#Ka"/>In Iustus Caliditas et astutia in mul<lb ed="#Ka" break="no"/>tis 
+              animalibus sunt vel cum insideantur 
+              <lb ed="#Ka"/>aliis et dolo capiunt et deuorant cum 
+              <lb ed="#Ka"/>insidias aliorum varie genere deludunt 
+              <lb ed="#Ka"/>Sapientia uero in hominem solum 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>cadit</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1039">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e1233">libro 6</ref> <quote xml:id="bHY6yh-d48228-Qd1e1041">nemo potest iure dici homo nisi 
+              <lb ed="#Ka"/>quia sapiens est</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1047">
+              // <ref xml:id="bHY6yh-d48228-Rd1e1246">Augustius in epigrama<lb ed="#Ka" break="no"/>tibus 
+              prosperi 174 epigrama</ref> <quote xml:id="bHY6yh-d48228-Qd1e1051">in magna 
+              <lb ed="#Ka"/>egestate sunt diuites sapientie thesau<lb ed="#Ka" break="no"/>ros 
+              non habentes</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1059">
+              OMITTED
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1077">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e1282">Cato capitulo 2</ref> <quote xml:id="bHY6yh-d48228-Qd1e1081">Sermo datus cunctis animi 
+              <lb ed="#Ka"/>sapientia paucis</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1087">
+              <quote xml:id="bHY6yh-d48228-Qd1e1089">Inscipiens esto dum tempus 
+              <lb ed="#Ka"/>postulat aut res Stultitiam simulare loco 
+              <lb ed="#Ka"/>prudentia summa est</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1097">
+              // <ref xml:id="bHY6yh-d48228-Rd1e1306">Boetius in aris<lb ed="#Ka" break="no"/>metrica 
+              capitulo 2</ref> <quote xml:id="bHY6yh-d48228-Qd1e1101">Sapientia est earum que uere 
+              <lb ed="#Ka"/>sunt cognitio et integra apprehensio</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1110">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e1320">Cassiodorus epistolarum libro 6 epistola 10</ref> <quote xml:id="bHY6yh-d48228-Qd1e1114">Sapientia 
+              <lb ed="#Ka"/>est que honores meretur Sola est 
+              <lb ed="#Ka"/>prudentia que omnibus rebus perponitur 
+              <lb ed="#Ka"/>quod in homine felicitis in uenitur // Mag<lb ed="#Ka" break="no"/>na 
+              est infinita que prudentia qua nemo 
+              <lb ed="#Ka"/>sic assequitur ut eam non necessario et per
+              <lb ed="#Ka"/>alios quere videatur Senes ipsi sa<lb ed="#Ka" break="no"/>pientiam 
+              consiliis discunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1126"> 
+              <ref xml:id="bHY6yh-d48228-Rd1e1337">libro 10 epistola 4</ref> <quote xml:id="bHY6yh-d48228-Qd1e1128">Sa<lb ed="#Ka" break="no"/>pientiam 
+              ille querit in altero penes quem 
+              <lb ed="#Ka"/>est scientie magnitudo</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1136"> 
+              <ref xml:id="bHY6yh-d48228-Rd1e1349">libro 12 et fine epistola 3</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e1138">vbicumque probatur esse necessaria pru<lb ed="#Ka" break="no"/>dentia 
+              quoniam rebus omnibus videtur 
+              <lb ed="#Ka"/>adhibere accommoda</quote> 
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1146">
+              // <ref xml:id="bHY6yh-d48228-Rd1e1361">Idem de anima 
+              <lb ed="#Ka"/>capitulo 7</ref> <quote xml:id="bHY6yh-d48228-Qd1e1148">Circa confusa et incerta pruden<lb ed="#Ka" break="no"/>tia 
+              vtiliter adhibetur</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1156">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e1376">YSidorus in synonima soliloquiorum
+              <lb ed="#Ka"/>libro 2 capitulo 42</ref> <quote xml:id="bHY6yh-d48228-Qd1e1160">dilige sapientiam et monstrabit 
+              <lb ed="#Ka"/>tibi</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1166">
+              <ref xml:id="bHY6yh-d48228-Rd1e1389">Hugo de sancto uictore in 
+              <lb ed="#Ka"/>dydscalo libro 1 capitulo 1</ref> <quote xml:id="bHY6yh-d48228-Qd1e1170">Omnium expetendorum 
+              <pb ed="#Ka" n="106-v"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>prima est sapientia in qua perfectionis for<lb ed="#Ka" break="no"/>ma 
+              consistit Summum in vita solamen 
+              <lb ed="#Ka"/>est studium sapientie quam qui inue<lb ed="#Ka" break="no"/>nit 
+              felix est et qui possidet beatus</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1183">
+              <ref xml:id="bHY6yh-d48228-Rd1e1406">libro 2 
+              <lb ed="#Ka"/>capitulo 13</ref> <quote xml:id="bHY6yh-d48228-Qd1e1185">omnes pene virtutes corporis 
+              <lb ed="#Ka"/>mutantur in senibus et crescente so<lb ed="#Ka" break="no"/>la 
+              sapientia decrescunt cetera</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1195">
+              <ref xml:id="bHY6yh-d48228-Rd1e1422">Idem 
+              <lb ed="#Ka"/>in compendio philosophie in prohemio</ref> <quote xml:id="bHY6yh-d48228-Qd1e1197">vni<lb ed="#Ka" break="no"/>uersorum 
+              expetendorum / sapientia est 
+              <lb ed="#Ka"/>per quam acquiritur perfectorum omnium bonorum 
+              <lb ed="#Ka"/>forma Sumum solamen animorum exer<lb ed="#Ka" break="no"/>citatio 
+              sapiente est</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1207">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e1439">Gaufredus de yronia curie papalis</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e1211">multa vident paucis pectora magna 
+              <lb ed="#Ka"/>uotis</quote>
+            </p>
+            <p xml:id="bHY6yh-d48228-d1e1217">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d48228-Rd1e1451">Prouerbium metricum extra or libro vagis</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d48228-Qd1e1221">Non deponte cadit qui cum sapientia vadit</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
