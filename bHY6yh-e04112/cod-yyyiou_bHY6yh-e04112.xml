@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 38</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 38</title>
+               <date when="2024-12-03">December 3, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-12-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="149-r"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e04112"><!-- p5l2-r38 -->
+            <head xml:id="bHY6yh-e04112-Hd1e108">Rubrica 38</head>
+            <head xml:id="bHY6yh-e04112-Hd1e111" type="question-title">De cautelis educendi exercitum de locis periculosis</head>
+            <p xml:id="bHY6yh-e04112-d1e114">
+              De insidiis dis<!--line jumps down-->ponendis contra hostes
+            </p>
+            <p xml:id="bHY6yh-e04112-d1e121">
+              <lb ed="#C"/><ref xml:id="bHY6yh-e04112-Rd1e118">FRontinus libro I titulo I</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-e04112-Qd1e127">Mitridates <sic>cireum</sic> 
+              <lb ed="#C"/>ualente pompeio fugam in proximo die 
+              <lb ed="#C"/>molliens huius consilii obscurandi causa latius 
+              <lb ed="#C"/>et usque ad applicatos hosti ualles po<lb ed="#C" break="no"/>pulatus 
+              est Colloquia quoque cum pluri<lb ed="#C" break="no"/>bus 
+              aduertende suspitionis causa in poste<lb ed="#C" break="no"/>rum 
+              constituit Ignes autem frequentiores 
+              <lb ed="#C"/>per tota castra fieri iussit Secunda deinde 
+              <lb ed="#C"/>uigilia <sic>preter</sic> ipsa castra hostium agmen 
+              <lb ed="#C"/>eduxit</quote>
+            </p>
+            <p xml:id="bHY6yh-e04112-d1e150"> 
+              ¶ <ref xml:id="bHY6yh-e04112-Rd1e147">Idem libro 2 titulo 13</ref> <quote xml:id="bHY6yh-e04112-Qd1e152"><del>Tyrio</del><sic>Ty<lb ed="#C" break="no"/>fon</sic> 
+              tyrie rex uictus per totum fugiens 
+              <lb ed="#C"/>pecuniam sparsit Ideoque cum <del>in</del> sectantes 
+              <lb ed="#C"/>anthiocchi equites maritos effugit</quote>
+            </p>
+            <p xml:id="bHY6yh-e04112-d1e163">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-e04112-Rd1e164">Vegetius libro 3 titulo 23</ref> <quote xml:id="bHY6yh-e04112-Qd1e167">Tui nesciant te ideo 
+              <lb ed="#C"/>recedere quia declines inire conflictum 
+              <lb ed="#C"/>sed credant arte aliqua se ideo reuocari ut 
+              <lb ed="#C"/>ad oportuniorem locum metantur 
+              <lb ed="#C"/>hostes ut facilius superetur aut certe 
+              <lb ed="#C"/>insequentibus et aduersariis secretiores collo<lb ed="#C" break="no"/>centur 
+              insidie nam ad fugam parati sunt 
+              <lb ed="#C"/>qui ducem suum sentiunt desperare</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
