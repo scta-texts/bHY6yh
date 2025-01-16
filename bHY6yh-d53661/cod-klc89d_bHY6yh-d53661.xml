@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 14</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="erinkurian">Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition n="0.0.0-dev">
+                  <title>Rubrica 14</title>
+                  <date when="2024-12-31">December 30, 2024</date>
+               </edition>
+            </editionStmt>
+            <publicationStmt>
+               <authority>SCTA</authority>
+               <availability status="free">
+                  <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                  </p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-12-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+          <div xml:id="starts-on">
+            <pb ed="#Ka" n="115-v"/>
+            <cb ed="#Ka" n="b"/>
+          </div>
+       </front>
+    <body>
+      <div xml:id="bHY6yh-d53661"><!-- p3l2-r14 -->
+        <head xml:id="bHY6yh-d53661-Hd1e108">Rubrica 14</head>
+        <head xml:id="bHY6yh-d53661-Hd1e111" type="question-title">De certitudine et incertitudine</head>
+        <p xml:id="bHY6yh-d53661-d1e114">
+          <lb ed="#Ka"/>de certitudine et incerti<lb ed="#Ka" break="no"/>tudine 
+          Rubrica 14
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e121">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d53661-Rd1e118">SAlomon in ecclesiastico capitulo 9</ref> 
+          <lb ed="#Ka"/><quote xml:id="bHY6yh-d53661-Qd1e127">omnia in futuro seruantur 
+          <lb ed="#Ka"/>incerta</quote> 
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e135">  
+          // <ref xml:id="bHY6yh-d53661-Rd1e132">Salustius in iugurtino</ref>
+          <lb ed="#Ka"/><quote xml:id="bHY6yh-d53661-Qd1e137">non debent certa pro incertis mu<pb ed="#Ka" n="116-r"/><cb ed="#Ka" n="a"/><lb ed="#Ka"/>tari</quote>
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e144">
+          <ref xml:id="bHY6yh-d53661-Rd1e145">Paladius capitulo 7</ref> <quote xml:id="bHY6yh-d53661-Qd1e148">Rex sine culp<lb ed="#Ka" break="no"/>a 
+          // melior osus est quam cum sepe 
+          <lb ed="#Ka"/>corrigendi ferus euentus</quote>
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e154">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d53661-Rd1e157">Maximanus</ref> <quote xml:id="bHY6yh-d53661-Qd1e158">Non ne placet melius certis 
+          <lb ed="#Ka"/>confidere rebus // Euentus varios 
+          <lb ed="#Ka"/>res noua semper habet</quote> 
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e166">
+          // <ref xml:id="bHY6yh-d53661-Rd1e171">Cato capitulo 2</ref> <quote xml:id="bHY6yh-d53661-Qd1e170">Rem 
+          <lb ed="#Ka"/>tibi promissam certam promittere noli 
+          <lb ed="#Ka"/>Ignotum tibi noli proponere notis Cog<lb ed="#Ka" break="no"/>nita 
+          iudicio constat incognita ca<lb ed="#Ka" break="no"/>su</quote>
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e180">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d53661-Rd1e187">Boetius de consolatione libro capitulo 11</ref> <quote xml:id="bHY6yh-d53661-Qd1e184">Quod 
+          <lb ed="#Ka"/>praecipiti in acertum deserit ordinem 
+          <lb ed="#Ka"/>letos non habet exitus</quote>
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e192">
+          <ref xml:id="bHY6yh-d53661-Rd1e201">Uersifica<lb ed="#Ka" break="no"/>tor 
+          esopi fabula 5</ref> <quote xml:id="bHY6yh-d53661-Qd1e196">Non igitur debent 
+          <lb ed="#Ka"/>pro uanis certa relinqui</quote>
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e202">
+          <ref xml:id="bHY6yh-d53661-Rd1e213">Baldo 9 fabu<lb ed="#Ka" break="no"/>larum</ref> 
+          <quote xml:id="bHY6yh-d53661-Qd1e206">Nec que sunt extra faciant nos li<lb ed="#Ka" break="no"/>quere 
+          nostra</quote>
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e213">
+          OMITTED
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e223">
+          OMITTED
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e235">
+          OMITTED
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e245">
+          OMITTED
+        </p>
+        <p xml:id="bHY6yh-d53661-d1e255">
+          OMITTED
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
