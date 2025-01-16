@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="erinkurian">Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition n="0.0.0-dev">
+                  <title>Rubrica 5</title>
+                  <date when="2024-12-15">December 15, 2024</date>
+               </edition>
+            </editionStmt>
+            <publicationStmt>
+               <authority>SCTA</authority>
+               <availability status="free">
+                  <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                  </p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-12-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+          <div xml:id="starts-on">
+             <pb ed="#Ka" n="101-r"/>
+             <cb ed="#Ka" n="b"/>
+          </div>
+       </front>
+      <body>
+         <div xml:id="bHY6yh-d46832"><!-- p3l1-r5 -->
+            <head xml:id="bHY6yh-d46832-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-d46832-Hd1e111" type="question-title">De meditatione</head>
+            <p xml:id="bHY6yh-d46832-d1e114">
+               <lb ed="#Ka"/>de meditatione Rubri<lb ed="#Ka" break="no"/>ca 
+               <del>secunda</del> 5.
+            </p>
+            <p xml:id="bHY6yh-d46832-d1e121">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d46832-Rd1e117">SAlomon in ecclesiastico capitulo 12 
+               <lb ed="#Ka"/>et finale</ref> <quote xml:id="bHY6yh-d46832-Qd1e127">frequens meditatio et 
+               <lb ed="#Ka"/>afflictio</quote> 
+            </p>
+            <p xml:id="bHY6yh-d46832-d1e133">
+               <ref xml:id="bHY6yh-d46832-Rd1e132">Aristotiles de memoria et re<lb ed="#Ka" break="no"/>ministetitia</ref> 
+               <quote xml:id="bHY6yh-d46832-Qd1e137">meditatione memoriam 
+               <lb ed="#Ka"/>saluant in reminiscendo / hoc aut nil 
+               <lb ed="#Ka"/>est in alterum quam speculari multotiens 
+               <lb ed="#Ka"/>sicud per se</quote>
+            </p>
+            <p xml:id="bHY6yh-d46832-d1e148">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d46832-Rd1e148">IEsus filius syrach in ecclesiastico capitulo 30</ref>
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d46832-Qd1e152">Ante spiritus senectam adducit cogitatus</quote>
+            </p>
+            <p xml:id="bHY6yh-d46832-d1e158">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d46832-Rd1e160">Matheus in ewangelio libro 6</ref> <quote xml:id="bHY6yh-d46832-Qd1e162">vbi est 
+               <lb ed="#Ka"/>thesaurus tuus ibi et cor tuum</quote>
+            </p>
+            <p xml:id="bHY6yh-d46832-d1e168">
+               <ref xml:id="bHY6yh-d46832-Rd1e172">Sen<lb ed="#Ka" break="no"/>eca
+               de ira libro 2</ref> <quote xml:id="bHY6yh-d46832-Qd1e172">nichil est difficile et 
+               <lb ed="#Ka"/>arduum quod non humana mens vincat 
+               <lb ed="#Ka"/>et in familiaritatem perducat assid<lb ed="#Ka" break="no"/>ua 
+               cogitatio</quote>
+            </p>
+            <p xml:id="bHY6yh-d46832-d1e180">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d46832-Rd1e186">Uegenus de re militari libro 1 titulo 10</ref> 
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d46832-Qd1e184">nichil est quod non assidua cogitatio 
+               <lb ed="#Ka"/>facillimum reddat</quote>
+            </p>
+            <p xml:id="bHY6yh-d46832-d1e192">
+               <ref xml:id="bHY6yh-d46832-Rd1e198">libro 2 titulo 23 et penultimo</ref> <quote xml:id="bHY6yh-d46832-Qd1e194">Anti<lb ed="#Ka" break="no"/>qua 
+               est prudensque sententia oriues in 
+               <lb ed="#Ka"/>meditata consistere</quote>
+            </p>
+            <p xml:id="bHY6yh-d46832-d1e202">
+               <ref xml:id="bHY6yh-d46832-Rd1e214">Prouerbium uulgare</ref>
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d46832-Qd1e206">chi a pro col perdu spese fia geroze alcia</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
