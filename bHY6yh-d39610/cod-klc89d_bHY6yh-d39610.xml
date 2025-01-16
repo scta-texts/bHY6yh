@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Rubrica 1</title>
+           <author ref="#per-c7y65a">Geremia da Montagnone</author>
+           <respStmt>
+              <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           <respStmt>
+              <name ref="erinkurian">Erin Kurian</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           </titleStmt>
+           <editionStmt>
+              <edition n="0.0.0-dev">
+                 <title>Rubrica 11</title>
+                 <date when="2024-12-06">December 06, 2024</date>
+              </edition>
+           </editionStmt>
+           <publicationStmt>
+              <authority>SCTA</authority>
+              <availability status="free">
+                 <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                 </p>
+              </availability>
+           </publicationStmt>
+           <sourceDesc>
+           <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+           </listWit>
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+        <editorialDecl>
+           <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+      guidelines for a diplomatic edition.</p>
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc status="draft">
+        <listChange>
+           <change when="2024-12-06" status="draft" n="0.0.0">
+              <p>Created file for the first time.</p>
+           </change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+     <front>
+        <div xml:id="starts-on">
+           <pb ed="#Ka" n="84-r"/>
+           <cb ed="#Ka" n="b"/>
+        </div>
+     </front>
+      <body>
+         <div xml:id="bHY6yh-d39610"><!-- p2l6-r1 -->
+            <head xml:id="bHY6yh-d39610-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d39610-Hd1e111" type="question-title">De politia seu ciuilitate</head>
+            <p xml:id="bHY6yh-d39610-d1e114">
+              <lb ed="#Ka"/>Sextus et ultimus liber secunde 
+              <lb ed="#Ka"/>partis tractat de politiis et mori<lb ed="#Ka" break="no"/>bus 
+              sub hiis titulis sequentibus 
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e125">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e122">de policia seu ciuilitate:
+              <lb ed="#Ka"/>Rubrica prima</ref>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e132">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e132">SAlomon in prouerbiis capitulo 11</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d39610-Qd1e136">In benedictione iustorum ex<lb ed="#Ka" break="no"/>altabitur 
+              ciuitas in ore inpiorum 
+              <lb ed="#Ka"/>subuertetur</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e145">
+              <ref xml:id="bHY6yh-d39610-Rd1e148">14 capitulo</ref> <quote xml:id="bHY6yh-d39610-Qd1e149">Iustitia eleuat 
+              <lb ed="#Ka"/>gentem miseros facit populos p<lb ed="#Ka" break="no"/>eccatum</quote> //
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e155">
+              <ref xml:id="bHY6yh-d39610-Rd1e158">29 capitulo</ref> // <quote xml:id="bHY6yh-d39610-Qd1e157">homines pestilenttes 
+              <lb ed="#Ka"/>dissipant ciuitatem sapientes uero 
+              <lb ed="#Ka"/>auertunt furorem</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e165">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e172">Socrates in exortationibus // capitulo 2</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d39610-Qd1e169">ex communibus curis discede non ditior 
+              <lb ed="#Ka"/>sed gloriosior nam potius pluribus 
+              <lb ed="#Ka"/>opibus preconium quod amultitudine</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e179">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e188">Cronica de nugis philosophorum capitulo 3 scilicet 
+              <lb ed="#Ka"/>de solone</ref> // <quote xml:id="bHY6yh-d39610-Qd1e183">Solon qui fuit vnus de 
+              <lb ed="#Ka"/>septum sapientibus ait a uiris 
+              <lb ed="#Ka"/>ingentibus perit ciuitas</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e191">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e201">Aristotiles politicorum libro 1 capitulo 1</ref> <quote xml:id="bHY6yh-d39610-Qd1e195">omnem 
+              <lb ed="#Ka"/>ciuitatem videmus comitatem quon<lb ed="#Ka" break="no"/>dam 
+              existentem et omnem comitatem 
+              <lb ed="#Ka"/>alicuius gratia bono institutam homo 
+              <lb ed="#Ka"/>natura animal ciuile est et qui in<lb ed="#Ka" break="no"/>ciuilis 
+              propter naturam et non propter 
+              <lb ed="#Ka"/>fortuuam aut prauus est aut me<lb ed="#Ka" break="no"/>lior 
+              quam homo</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e209">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e219">libro 2 capitulo 1</ref> // <quote xml:id="bHY6yh-d39610-Qd1e211">Ciuilitas 
+              <lb ed="#Ka"/>communicatio quedam est multitudo quod 
+              <lb ed="#Ka"/>secundum naturam est ciuitas // non 
+              <lb ed="#Ka"/>sit ciuitas ex silibus amicitiam pu<lb ed="#Ka" break="no"/>tamus 
+              maximum bonorum esse ciuitatibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e224">
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e236">5 capitulo</ref> <quote xml:id="bHY6yh-d39610-Qd1e226">omnis ciuitas indiget artificibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e230">
+              <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d39610-Rd1e246">8 capitulo</ref> <quote xml:id="bHY6yh-d39610-Qd1e234">maxime virtutis honoratur ac
+              <lb ed="#Ka"/>policia non est possibile firmitur secundum 
+              <lb ed="#Ka"/>virtutem principari // Policia est 
+              <lb ed="#Ka"/>ordo quidam habitantium ciuitatem 
+              <lb ed="#Ka"/>// Ciuis non est prohabitare alicubi // 
+              <lb ed="#Ka"/>Ciuitas ciuium quedam est multitu<lb ed="#Ka" break="no"/>do
+              ciuis simpliciter nullorum aliorum 
+              <lb ed="#Ka"/>determinatur magis quam per participare 
+              <lb ed="#Ka"/>iudicio in principatu consiliacius
+              <lb ed="#Ka"/>uel iudicatiuo huius ciuitatis ciuita<lb ed="#Ka" break="no"/>tem 
+              esse // Ciuium dicimus esse talem 
+              <lb ed="#Ka"/>multitudinem ad ancharchiam vite</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e257">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e273">capitulo 2</ref> // <quote xml:id="bHY6yh-d39610-Qd1e259">Ciuium quamuis dissimilium 
+              <lb ed="#Ka"/>existentium opus est solus communica<lb ed="#Ka" break="no"/>tis 
+              // communicatio est policia // Ex 
+              <lb ed="#Ka"/>dissimilibus est ciuitas</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e267">
+              <ref xml:id="bHY6yh-d39610-Rd1e287">libro 4 capitulo 1</ref> <quote xml:id="bHY6yh-d39610-Qd1e271">pol<lb ed="#Ka" break="no"/>licia 
+              est ciuitatibus ordo qui contra 
+              <lb ed="#Ka"/>principatus quodo distribantur et quid 
+              <lb ed="#Ka"/>dominans policie et quid quod referens 
+              <lb ed="#Ka"/>est communionis singulis</quote> //
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e285">
+              <ref xml:id="bHY6yh-d39610-Rd1e307">capitulo 2</ref> <quote xml:id="bHY6yh-d39610-Qd1e289">politia 
+              <lb ed="#Ka"/>principatuum ordo est</quote> //
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e293">
+              <ref xml:id="bHY6yh-d39610-Rd1e315">capitulo 4</ref> <quote xml:id="bHY6yh-d39610-Qd1e295">vbi non 
+              <lb ed="#Ka"/>principantur leges non est politia</quote> //
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e302">
+              <ref xml:id="bHY6yh-d39610-Rd1e327">7 
+              <lb ed="#Ka"/>capitulo</ref> <quote xml:id="bHY6yh-d39610-Qd1e306">est politia 
+              <lb ed="#Ka"/>ut simpliciter est dicere 
+              <lb ed="#Ka"/>mixtio elicharchie et democratie</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e312">
+              <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d39610-Rd1e337">9 capitulo</ref> <quote xml:id="bHY6yh-d39610-Qd1e314">policia vita quedam est ciuita<lb ed="#Ka" break="no"/>tis 
+              In omnibus ciuitatibus sunt tres 
+              <lb ed="#Ka"/>partes ciuium hii quidem opulenti 
+              <lb ed="#Ka"/>valde hii autem egeni valde hii autem
+              <lb ed="#Ka"/>tertii qui medii honorum // Qui 
+              <pb ed="#Ka" n="85-r"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>sunt in excessibus fortuitorum pot<lb ed="#Ka" break="no"/>encie 
+              et diuitiarum et amicorum et ali<lb ed="#Ka" break="no"/>orum 
+              talium subici nem uolunt neque
+              <lb ed="#Ka"/>sciunt et hoc statim a primordio exi<lb ed="#Ka" break="no"/>stit 
+              pueris existentibus propter delici<lb ed="#Ka" break="no"/>as 
+              enim neque doctoribus subici ipsis 
+              <lb ed="#Ka"/>consuetum qui aut secundum excessum 
+              <lb ed="#Ka"/>in digentia horum humiles valde et 
+              <lb ed="#Ka"/>hii quidem principari nesciant sed 
+              <lb ed="#Ka"/>subiici seruili principatu ¶ uult ciui<lb ed="#Ka" break="no"/>tas 
+              ex equalibus esse et similibus quam 
+              <lb ed="#Ka"/>maxime autem hoc existit maxime 
+              <lb ed="#Ka"/>mediis Saluantur in ciuitatibus  
+              <lb ed="#Ka"/>maxime medii ciuium neque enim 
+              <lb ed="#Ka"/>ipsi aliena desiderant sicut pauperes 
+              <lb ed="#Ka"/>neque substantarum horum alteri quem<lb ed="#Ka" break="no"/>admodum 
+              pauperes ea que diuitum 
+              <lb ed="#Ka"/>concupiscunt et propterea neque 
+              <lb ed="#Ka"/>insidias patiuntur neque fraudes mo<lb ed="#Ka" break="no"/>liuntur 
+              sine periculo tegunt // Communis 
+              <lb ed="#Ka"/>politica optima est per medios et ta<lb ed="#Ka" break="no"/>les 
+              contingit bene pollititare ciui<lb ed="#Ka" break="no"/>tates 
+              in quibus utique multum quod 
+              <lb ed="#Ka"/>medium / ¶ Eufortinium maximum 
+              <lb ed="#Ka"/>est politicantes substantiam habere mediam 
+              <lb ed="#Ka"/>et sufficientem ¶ vbi multum quod intra 
+              <lb ed="#Ka"/>medium minime fiunt conturbationes et 
+              <lb ed="#Ka"/>dissensiones policiarum propter eandem 
+              <lb ed="#Ka"/>causam quia multum quod medium 
+              <lb ed="#Ka"/>In paruis autem facile diuidere omnes 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>in duo ut nichil reliquatur 
+              <lb ed="#Ka"/>medium et omnes fere egeni sunt 
+              <lb ed="#Ka"/>et opulenti</quote> //
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e383">
+              <ref xml:id="bHY6yh-d39610-Rd1e410">libro 5 capitulo 6</ref> // <quote xml:id="bHY6yh-d39610-Qd1e385">Commune 
+              <lb ed="#Ka"/>est in democracia et in oligarch<lb ed="#Ka" break="no"/>ia 
+              et in omni policia neque crescere 
+              <lb ed="#Ka"/>valde ¶ nullum praeter commensurationem 
+              <lb ed="#Ka"/>sed magis tempare paruas et 
+              <lb ed="#Ka"/>multi temporis dare honorem quam 
+              <lb ed="#Ka"/>breuiter magnas corrumpuntur 
+              <lb ed="#Ka"/>enim et non omnes uiri fere bon<lb ed="#Ka" break="no"/>am 
+              fortunam ¶ legibus sic or<lb ed="#Ka" break="no"/>dinandum 
+              est ut nullus fiat multum 
+              <lb ed="#Ka"/>excedens potentia neque amicorum 
+              <lb ed="#Ka"/>neque pecuniarum difficile forte aut 
+              <lb ed="#Ka"/>inpossibile bene legibus regi eam 
+              <lb ed="#Ka"/>ciuitatem que multorum hominum est cal<lb ed="#Ka" break="no"/>de</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e410">
+              <ref xml:id="bHY6yh-d39610-Rd1e442">¶ Idem yconomicorum libro 1</ref>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e424">
+              <quote xml:id="bHY6yh-d39610-Qd1e426">ciuitas 
+              <lb ed="#Ka"/>domorum multitudo est non quecumque 
+              <lb ed="#Ka"/>sed ad vitam per se sufficiens</quote> //
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e434">
+              <ref xml:id="bHY6yh-d39610-Rd1e471">20 
+              <lb ed="#Ka"/>capitulo</ref> <quote xml:id="bHY6yh-d39610-Qd1e436">omnis politica communitas constat ex 
+              <lb ed="#Ka"/>principantibus et subiectis</quote> //
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e443">
+              <ref xml:id="bHY6yh-d39610-Rd1e482">5 capitulo</ref> <quote xml:id="bHY6yh-d39610-Qd1e445">p<lb ed="#Ka" break="no"/>lurime 
+              ciuitates secum bellantes quo<lb ed="#Ka" break="no"/>dem 
+              saluantur postquam autem obtinuerunt 
+              <lb ed="#Ka"/>principatum pereunt rubiginem enim 
+              <lb ed="#Ka"/>contrahunt sicut ferrum pacem ducen<lb ed="#Ka" break="no"/>tes</quote> //
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e457">
+              <ref xml:id="bHY6yh-d39610-Rd1e497">Idem rethoricorum libro 1 capitulo 12</ref> // <quote xml:id="bHY6yh-d39610-Qd1e459">sunt 
+              <lb ed="#Ka"/>autem ciuilitates quatuor democra<lb ed="#Ka" break="no"/>thia 
+              oligarchia aristocratia mo<lb ed="#Ka" break="no"/>narchia 
+              // Est autem moccathia ci<lb ed="#Ka" break="no"/>uititas 
+              in qua forte distribunt
+              <lb ed="#Ka"/>principatus // oligarchia autem in qua 
+              <lb ed="#Ka"/>qui in honoribus aristocratia 
+              <lb ed="#Ka"/>autem per secundum eruditionem eruditi<lb ed="#Ka" break="no"/>nem
+              autem dico eam que a lege po<lb ed="#Ka" break="no"/>sita 
+              qui enim immauserunt in logi<lb ed="#Ka" break="no"/>ptis 
+              in aristocrachia necesse autem 
+              <lb ed="#Ka"/>hos uideri optimos ¶ Monarchia 
+              <lb ed="#Ka"/>autem est secundum nomen in qua 
+              <lb ed="#Ka"/>vnus omnium dominus est ¶ harum autem que 
+              <lb ed="#Ka"/>quidem secundum ordinem quendam 
+              <lb ed="#Ka"/>regimen que autem indetermiata tyran<lb ed="#Ka" break="no"/>nis</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e489">
+              <ref xml:id="bHY6yh-d39610-Rd1e531">Idem ethicorum libro 10 et finale capitulo 8</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d39610-Qd1e491">desiderantibus de politia scire opus 
+              <lb ed="#Ka"/>esse videtur experientia</quote> //
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e499">
+              <ref xml:id="bHY6yh-d39610-Rd1e542">Idem mag<lb ed="#Ka" break="no"/>norum 
+              moralium libro 1 capitulo 1</ref> <quote xml:id="bHY6yh-d39610-Qd1e501">Oportet 
+              <lb ed="#Ka"/>siquis debet in politicis practicus 
+              <lb ed="#Ka"/>esse secundum mores esse studiosum 
+              <lb ed="#Ka"/>¶ poltica est optima potentia</quote> //
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e511">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e560">61 capitulo</ref> <quote xml:id="bHY6yh-d39610-Qd1e513">politicum est quot lege est</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e519">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e572">IEsus filius syrach in ecclesiastico capitulo 10</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d39610-Qd1e523">ciuitates inhabitabuntur per sensum pru<lb ed="#Ka" break="no"/>dentium</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e530">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e585">Salustius in catilinario</ref> <quote xml:id="bHY6yh-d39610-Qd1e534">labore ac 
+              <lb ed="#Ka"/>iustitia res publica crescit // Sem<lb ed="#Ka" break="no"/>per 
+              in ciuitate quibus opes mille 
+              <lb ed="#Ka"/>sunt bonis in uident malos extol<lb ed="#Ka" break="no"/>lunt 
+              uetera odere noua exoptant 
+              <lb ed="#Ka"/>odio suarum rerum mutari omnia student</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e546">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e603">Tulius philippicorum libro 1</ref> <quote xml:id="bHY6yh-d39610-Qd1e550">bene de re 
+              <lb ed="#Ka"/>publica mereri laudari colligi di<lb ed="#Ka" break="no"/>ligi 
+              gloriosum metui uero et ob 
+              <lb ed="#Ka"/>id odio esse inuidiosum detestabile
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>imbecillum caducum</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e560">
+              <ref xml:id="bHY6yh-d39610-Rd1e617">libro 2</ref> <quote xml:id="bHY6yh-d39610-Qd1e562">caritate et be<lb ed="#Ka" break="no"/>niuolentia 
+              ciuium septrum oportet 
+              <lb ed="#Ka"/>esse non armis</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e570">
+              ¶ <ref xml:id="bHY6yh-d39610-Rd1e629">libro 7</ref> <quote xml:id="bHY6yh-d39610-Qd1e572">in corpore si quid 
+              <lb ed="#Ka"/>hui condi est quod reliquo corpori noceat 
+              <lb ed="#Ka"/>uri secarique patimur ut membrorum aliquod 
+              <lb ed="#Ka"/>potius quam totum corpus intereat 
+              <lb ed="#Ka"/>sic in rei publice corpore ut totum sal<lb ed="#Ka" break="no"/>uum 
+              sit quidquid est pestiferum ampu<lb ed="#Ka" break="no"/>tetur</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e586">
+              <ref xml:id="bHY6yh-d39610-Rd1e647">libro 12 penultimo</ref> <quote xml:id="bHY6yh-d39610-Qd1e588">omnibus bonis expe<lb ed="#Ka" break="no"/>dit 
+              saluam esse: sciliem publicam sed 
+              <lb ed="#Ka"/>in hiis qui fortunati sunt magis appa<lb ed="#Ka" break="no"/>ret</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e602">
+              ¶ <ref xml:id="bHY6yh-d39610-Rd1e665">Idem inuectiuarum in catilinam 
+              <lb ed="#Ka"/>libro 1</ref> <quote xml:id="bHY6yh-d39610-Qd1e604">fuit condam in re publica 
+              <lb ed="#Ka"/>virtus ut viri fortes acrioribus su<lb ed="#Ka" break="no"/>pliciis 
+              ciuem perniciosum quam acerbis<lb ed="#Ka" break="no"/>simum 
+              hostem coercerent</quote> //
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e617">
+              ¶ <ref xml:id="bHY6yh-d39610-Rd1e683">Idem in
+              <lb ed="#Ka"/>uectiua in salustium</ref> <quote xml:id="bHY6yh-d39610-Qd1e619">plerumque res
+              <lb ed="#Ka"/>publica priuatis crescit inimicitiis 
+              <lb ed="#Ka"/>vbi nemo ciuis qualis sic potest
+              <lb ed="#Ka"/>latere</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e627">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e696">Seneca in epistolis ad lucillum libro 
+              <lb ed="#Ka"/>14 titulo 1</ref> <quote xml:id="bHY6yh-d39610-Qd1e631">nemo eorum qui in repub<lb ed="#Ka" break="no"/>lica 
+              uersantur quos uincat sed aqui<lb ed="#Ka" break="no"/>bus 
+              uincatur aspicit in illis non 
+              <lb ed="#Ka"/>tam iocundum est multos post se 
+              <lb ed="#Ka"/>videre quaniam graue est aliquem ante 
+              <lb ed="#Ka"/>se habere</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e643">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e714">Ualerius maximus libro 2 titulo de insti<lb ed="#Ka" break="no"/>tutis
+              antiquis</ref> // <quote xml:id="bHY6yh-d39610-Qd1e647">Romani adeo ma<lb ed="#Ka" break="no"/>gna 
+              caritate patrie tenebantur ut ar<lb ed="#Ka" break="no"/>chana 
+              consilia patrum conscriptoris 
+              <lb ed="#Ka"/>multis seculis nemo senator enunc<pb ed="#Ka" n="86-r"/><cb ed="#Ka" n="a"/><lb ed="#Ka"/>ciauit</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e657">
+              ¶ <ref xml:id="bHY6yh-d39610-Rd1e729">libro 4 titulo de moderatione</ref> <quote xml:id="bHY6yh-d39610-Qd1e661">Stasi<lb ed="#Ka" break="no"/>pus 
+              tricates ortantibus amicis 
+              <lb ed="#Ka"/>ut grauem in administratione rei publi<lb ed="#Ka" break="no"/>ce 
+              et emulum sibi vehementem ad<lb ed="#Ka" break="no"/>uersarium 
+              sed aliquam probum et orna<lb ed="#Ka" break="no"/>tum 
+              uirum qualibet ratione uel tolleret 
+              <lb ed="#Ka"/>uel submoueret negauit se facturum 
+              <lb ed="#Ka"/>neque intutelam patrie bonus ciuis 
+              <lb ed="#Ka"/>locum optineret malus et improbus 
+              <lb ed="#Ka"/>se occuparet se que uehementi aduer<lb ed="#Ka" break="no"/>sarie
+              urgeri quam patriam aduaca<lb ed="#Ka" break="no"/>to 
+              egregio carere praeoptauit</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e682">
+              ¶ <ref xml:id="bHY6yh-d39610-Rd1e759">titulo de 
+              <lb ed="#Ka"/>hiis qui ex inimicis uicti sunt amicicia</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d39610-Qd1e686">emilius lepidus bis consul et pon<lb ed="#Ka" break="no"/>tifex 
+              maximus splendoreque horum 
+              <lb ed="#Ka"/>par uitem grauitatem diuitias inimi<lb ed="#Ka" break="no"/>citias 
+              cum fuluio flaco eiusdem am<lb ed="#Ka" break="no"/>plitudinis 
+              uiro gessit quas simul 
+              <lb ed="#Ka"/>ut censores renunciati sunt in campo 
+              <lb ed="#Ka"/>deposuit estimans non oportere 
+              <lb ed="#Ka"/>eos priuatis inimicitiis discidere qui 
+              <lb ed="#Ka"/>publice summa iuncti esset potestate / Sex<lb ed="#Ka" break="no"/>tus 
+              liuius linator et si neronis o<lb ed="#Ka" break="no"/>dio 
+              ardens in exilium profectus fuerat 
+              <lb ed="#Ka"/>testimonio eius praecipue afflictus 
+              <lb ed="#Ka"/>cum postquam eum inde reuocatum ciues 
+              <lb ed="#Ka"/>colegam illi in consultum dederunt 
+              <lb ed="#Ka"/>et ingenii sui quod erat acerrimum et 
+              <lb ed="#Ka"/>in iurie quam grauissimam acceperat 
+              <lb ed="#Ka"/>obliuisci sibi imperauit ne si disidente 
+              <lb ed="#Ka"/>animo consortionem imperii vsurpare 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>uoluisset pertinacem se exhibendo 
+              <lb ed="#Ka"/>inimicum malum consulatum agere 
+              <lb ed="#Ka"/>que quidem mentis ad tranquillio<lb ed="#Ka" break="no"/>rem 
+              habitum inclinatio in asperso ac difficili
+              <lb ed="#Ka"/>tempore articulorum plurimum sa<lb ed="#Ka" break="no"/>luti 
+              urbique ytalie attulit quia 
+              <lb ed="#Ka"/>perari virtutis impetu conuisi terribi<lb ed="#Ka" break="no"/>les 
+              punitas vires contuderunt pi<lb ed="#Ka" break="no"/>tatus 
+              mitilineus cuius aut meritis 
+              <lb ed="#Ka"/>tantum ciues debuerunt aut moribus 
+              <lb ed="#Ka"/>crediderunt ut eius suffragiis tyran<lb ed="#Ka" break="no"/>nidem 
+              defenderunt tam diu illud 
+              <lb ed="#Ka"/>desigaco cum atheniensibus geren<lb ed="#Ka" break="no"/>dum 
+              fuit ¶ postquam autem pax uicto<lb ed="#Ka" break="no"/>ria 
+              parata est continuo reclamanti<lb ed="#Ka" break="no"/>bus 
+              mitileis deposuit nec 
+              <lb ed="#Ka"/>dominus ciuium ultra que rei publice ne<lb ed="#Ka" break="no"/>cessitas 
+              exegerat permaneret atque 
+              <lb ed="#Ka"/>cum recuperati agri dimidia pars con<lb ed="#Ka" break="no"/>sensu 
+              omnium offeteretur auertit animum 
+              <lb ed="#Ka"/>ab eo munere deforme iudicans 
+              <lb ed="#Ka"/>virtutis gloriam magnitudine prede 
+              <lb ed="#Ka"/>minuere</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e763">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e847">Cato capitulo 1</ref> <quote xml:id="bHY6yh-d39610-Qd1e767">pugna pro patria</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e772">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e858">Cassiodorus epistolarum libro 1 epistola 20</ref> <quote xml:id="bHY6yh-d39610-Qd1e776">v<lb ed="#Ka" break="no"/>nicuique 
+              patria sua carior est</quote> //
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e782">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e868">38 epistola</ref> <quote xml:id="bHY6yh-d39610-Qd1e784">Interdum expedit patriam 
+              <lb ed="#Ka"/>negligere ut sapientiam quis possit ac<lb ed="#Ka" break="no"/>quirere</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e792">
+              <ref xml:id="bHY6yh-d39610-Rd1e880">libro 2 epistola 29</ref> // <quote xml:id="bHY6yh-d39610-Qd1e794">Res publica si<lb ed="#Ka" break="no"/>quidem 
+              iure semper equitatis augetur</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e800">
+              <pb ed="#Ka" n="85-v"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e890">libro 3 epistola 6</ref> ¶ <quote xml:id="bHY6yh-d39610-Qd1e802">letam reddit faciem pu<lb ed="#Ka" break="no"/>blicam 
+              honorata frequentia</quote> //
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e810">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e903">10 epistola</ref> ¶ <quote xml:id="bHY6yh-d39610-Qd1e812">nobilissimi ciuis est patrie 
+              <lb ed="#Ka"/>sue augmenta cogitare</quote> //
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e818">
+              <ref xml:id="bHY6yh-d39610-Rd1e913">19 epistola</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d39610-Qd1e820">fructuosus esse debet publicus 
+              <lb ed="#Ka"/>labor</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e827">
+              ¶ <ref xml:id="bHY6yh-d39610-Rd1e924">libro 4 epistola 30</ref> ¶ <quote xml:id="bHY6yh-d39610-Qd1e829">decet quidem cunc<lb ed="#Ka" break="no"/>to 
+              patrie sue augmenta cogitare 
+              <lb ed="#Ka"/>sed eos maxime quos res pub<lb ed="#Ka" break="no"/>lica 
+              summis honoribus obligauit</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e849">
+              <lb ed="#Ka"/>// <ref xml:id="bHY6yh-d39610-Rd1e950">libro 7 epistola 2</ref> // <quote xml:id="bHY6yh-d39610-Qd1e851">dum tempus potestatis pro<lb ed="#Ka" break="no"/>lixum 
+              querit approbria non ui<lb ed="#Ka" break="no"/>tantur</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e839">
+              ¶ <ref xml:id="bHY6yh-d39610-Rd1e939">libro 5 epistola 31</ref> <quote xml:id="bHY6yh-d39610-Qd1e841">utilitatem pub<lb ed="#Ka" break="no"/>licam 
+              diuturnam non conuenit lu<lb ed="#Ka" break="no"/>dificatione 
+              differri</quote> //
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e859">
+              <ref xml:id="bHY6yh-d39610-Rd1e962">libro 6 epistola 11</ref> <quote xml:id="bHY6yh-d39610-Qd1e861">Constat 
+              <lb ed="#Ka"/>felicem esse rem publicam que 
+              <lb ed="#Ka"/>multis cuiuibus resplendet orna<lb ed="#Ka" break="no"/>ta</quote> //
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e869">
+              <ref xml:id="bHY6yh-d39610-Rd1e974">libro 8 capitulo 30</ref> // <quote xml:id="bHY6yh-d39610-Qd1e871">Ciuis animum non habet 
+              <lb ed="#Ka"/>qui vrbis sue gratia non tenetur</quote> //
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e877">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e984">libro 10 capitulo 7</ref> // <quote xml:id="bHY6yh-d39610-Qd1e879">Quorum gratiam inpe<lb ed="#Ka" break="no"/>trare 
+              possunt qui suis ciuilibus dis<lb ed="#Ka" break="no"/>plicere 
+              meruerunt</quote> //
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e887"> 
+              <ref xml:id="bHY6yh-d39610-Rd1e996">libro 10 epistola 6</ref> // <quote xml:id="bHY6yh-d39610-Qd1e889">Ne<lb ed="#Ka" break="no"/>cessarium 
+              probatur esse rei publice 
+              <lb ed="#Ka"/>personas dignitatibus esse aptas</quote>
+            </p>
+            <p xml:id="bHY6yh-d39610-d1e892">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d39610-Rd1e1008">libro 12 et finale epistola 1</ref> <quote xml:id="bHY6yh-d39610-Qd1e894">ad utilitates pub<lb ed="#Ka" break="no"/>licas 
+              esto solicitus iniuncta mo<lb ed="#Ka" break="no"/>rali 
+              compulsione procura.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
