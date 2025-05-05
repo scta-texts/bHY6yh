@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="erinkurian">Erin Kurian</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition n="0.0.0-dev">
+                  <title>Rubrica 4</title>
+                  <date when="2025-05-05">May 5, 2025</date>
+               </edition>
+            </editionStmt>
+            <publicationStmt>
+               <authority>SCTA</authority>
+               <availability status="free">
+                  <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                  </p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+            <listWit>
+               <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-05-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+          <div xml:id="starts-on">
+            <pb ed="#Ka" n="127-v"/>
+            <cb ed="#Ka" n="b"/>
+          </div>
+       </front>
+      <body>
+         <div xml:id="bHY6yh-d59050"><!-- p3l4-r4 -->
+            <head xml:id="bHY6yh-d59050-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-d59050-Hd1e111" type="question-title">De promotione ingeniositatis et artificiositatis</head>
+            <p xml:id="bHY6yh-d59050-d1e114">
+              <lb ed="#Ka" n="52"/>de Promotione ingeniositatis
+              <lb ed="#Ka"/>et artificiositatis Rubrica 4
+            </p>
+            <p xml:id="bHY6yh-d59050-d1e121">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d59050-Rd1e122">Salustius in Katilinaio</ref>
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d59050-Qd1e127">vbi intenderis ingenium 
+               <lb ed="#Ka"/>valet</quote> 
+            </p>
+            <p xml:id="bHY6yh-d59050-d1e133">
+               // <ref xml:id="bHY6yh-d59050-Rd1e136">Ouidius de arte aman<lb ed="#Ka"/>di 
+               libro 2</ref> <quote xml:id="bHY6yh-d59050-Qd1e137">Ingenium sepe male m<lb ed="#Ka"/>ouent</quote>
+            </p>
+            <p xml:id="bHY6yh-d59050-d1e144"> 
+               <ref xml:id="bHY6yh-d59050-Rd1e147">Idem de methamorphosis libro 6</ref> // 
+               <pb ed="#Ka" n="128-r"/>
+               <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d59050-Qd1e146">Grande doloris Ingenium est mi<lb ed="#Ka"/>serisque 
+               venit solertia rebus</quote>
+            </p>
+            <p xml:id="bHY6yh-d59050-d1e154">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d59050-Rd1e162">Avctor liber qui dicitur pamphilus 
+               <lb ed="#Ka"/>capitulo 30</ref> <quote xml:id="bHY6yh-d59050-Qd1e158">Concipit ingentes animos in<lb ed="#Ka"/>anis 
+               egestas Et facit hoc hominem 
+               <lb ed="#Ka"/>sepius artificem</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
