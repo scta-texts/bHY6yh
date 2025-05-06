@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 3</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 3</title>
+               <date when="2024-10-20">October 20, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="136-v"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d97963"><!-- p5l2-r3 -->
+            <head xml:id="bHY6yh-d97963-Hd1e108">Rubrica 3</head>
+            <head xml:id="bHY6yh-d97963-Hd1e111" type="question-title">De belli pressura periculo et euentu</head>
+            <p xml:id="bHY6yh-d97963-d1e114">
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e320">
+              <ref xml:id="bHY6yh-d97963-Rd1e354"></ref> <quote xml:id="bHY6yh-d97963-Qd1e324">sapientis ac boni 
+              <lb ed="#C"/>uiri non est uelle certari ac se periculo com<lb ed="#C" break="no"/>mittere 
+              quoniam uincere non est in nostra potestate 
+              <lb ed="#C"/>et est anceps certamen sed est sapientis et op<lb ed="#C" break="no"/>timi 
+              non aduersarium uelle tollere quod 
+              <lb ed="#C"/>fieri fine scelere ac periculo <del>esse</del> non potest.</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e341">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-d97963-Rd1e376">Cato capitulo 3</ref> <quote xml:id="bHY6yh-d97963-Qd1e345">Victorem a uicto etc.</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e351">
+              ¶ <ref xml:id="bHY6yh-d97963-Rd1e388">Cassiodorus 
+              <lb ed="#C"/>epistolarum libro V epistola 73</ref> <quote xml:id="bHY6yh-d97963-Qd1e355">Actus detesta<lb ed="#C" break="no"/>bilis 
+              est certamen Infelix cum feris uelle 
+              <lb ed="#C"/>contendere quis fortiores se non dubitat 
+              inuenire</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e365">
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e374">
+              ¶ <ref xml:id="bHY6yh-d97963-Rd1e415">Baldo XI fabula</ref> <quote xml:id="bHY6yh-d97963-Qd1e378">Est in lucran<lb ed="#C" break="no"/>do 
+              fatum ueriabile quando et gladius non 
+              <lb ed="#C"/>hinc aliquoniam seuit et illinc</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e386">
+              ¶ <ref xml:id="bHY6yh-d97963-Rd1e429">Gualterius de cas<lb ed="#C" break="no"/>tillione 
+              libro 2</ref> <quote xml:id="bHY6yh-d97963-Qd1e390">Non mediocris enim fidei est ex<lb ed="#C" break="no"/>ponere 
+              <pb ed="#C" n="137-r"/>
+              <cb ed="#C" n="a"/>
+              <lb ed="#C"/>bellis vno uelle semel fortune cunc<lb ed="#C" break="no"/>ta 
+              sub ictu.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
