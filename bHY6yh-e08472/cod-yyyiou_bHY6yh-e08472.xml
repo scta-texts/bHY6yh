@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 9</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 9</title>
+               <date when="2025-05-12">May 12, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-05-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="155-v"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e08472"><!-- p5l3-r9 -->
+            <head xml:id="bHY6yh-e08472-Hd1e108">Rubrica 9</head>
+            <head xml:id="bHY6yh-e08472-Hd1e111" type="question-title">De miserabilibus personis</head>
+            <p xml:id="bHY6yh-e08472-d1e114">
+              De di<!--line jumps down-->uina consolone<!--line jumps down--> miserabilib<!--line jumps down-->um personorum
+            </p>
+            <p xml:id="bHY6yh-e08472-d1e119">
+              <lb ed="#C" n="25"/><ref xml:id="bHY6yh-e08472-Rd1e116">PSalmista psalmus 9</ref> <quote xml:id="bHY6yh-e08472-Qd1e118">patientia 
+              <lb ed="#C"/>pauperum non peribit. 
+              <lb ed="#C"/>in finem</quote>
+            </p>
+            <p xml:id="bHY6yh-e08472-d1e128"> 
+              ¶ <ref xml:id="bHY6yh-e08472-Rd1e128">Idem 36 psalmo</ref> 
+              <lb ed="#C"/>¶ <quote xml:id="bHY6yh-e08472-Qd1e130">Cum ceciderit iustus non collidetur 
+              <lb ed="#C"/>quia dominus supponit manum suam.</quote>
+            </p>
+            <p xml:id="bHY6yh-e08472-d1e139"> 
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-e08472-Rd1e141">Idem psalmo capitulo</ref> <quote xml:id="bHY6yh-e08472-Qd1e141">satiet miseriam et iudicium omnibus 
+              <lb ed="#C"/>iniuriam patientibus</quote>
+            </p>
+            <p xml:id="bHY6yh-e08472-d1e149"> 
+              ¶ <ref xml:id="bHY6yh-e08472-Rd1e153">Idem 146 psalmus</ref> 
+              <lb ed="#C"/><quote xml:id="bHY6yh-e08472-Qd1e151">qui semiant in lacrimis in exultatione me<lb ed="#C" break="no"/>tet</quote>
+            </p>
+            <p xml:id="bHY6yh-e08472-d1e163">
+              ¶ <ref xml:id="bHY6yh-e08472-Rd1e169">Idem 60 psalmo</ref> <quote xml:id="bHY6yh-e08472-Qd1e165">Faciet dominus iudi<lb ed="#C" break="no"/>cium 
+              inopis et uindictam pauperum</quote>
+            </p>
+            <p xml:id="bHY6yh-e08472-d1e171"> 
+              <ref xml:id="bHY6yh-e08472-Rd1e179"></ref> <quote xml:id="bHY6yh-e08472-Qd1e173">dominus 
+              <lb ed="#C"/>soluit compeditos etc.</quote>
+            </p>
+            <p xml:id="bHY6yh-e08472-d1e185">
+              <ref xml:id="bHY6yh-e08472-Rd1e197">Salomon in prouerbiis capitulo 22</ref> 
+              <lb ed="#C"/><quote xml:id="bHY6yh-e08472-Qd1e189">Non facies uiolentiam pauperi quia pau<lb ed="#C" break="no"/>per 
+              est neque conteres egenum in porta 
+              <cb ed="#C" n="b"/>
+              <lb ed="#C"/>quia dominus iudicabit causam eius</quote>
+            </p>
+            <p xml:id="bHY6yh-e08472-d1e197">
+              <lb ed="#C"/><ref xml:id="bHY6yh-e08472-Rd1e211">Ouidius de ponto libro 3 epistola VI</ref><quote xml:id="bHY6yh-e08472-Qd1e201"></quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
