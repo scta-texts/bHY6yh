@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Rubrica 15</title>
+           <author ref="#per-c7y65a">Geremia da Montagnone</author>
+           <respStmt>
+              <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           <respStmt>
+              <name ref="erinkurian">Erin Kurian</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           </titleStmt>
+           <editionStmt>
+              <edition n="0.0.0-dev">
+                 <title>Rubrica 15</title>
+                 <date when="2025-05-12">May 12, 2025</date>
+              </edition>
+           </editionStmt>
+           <publicationStmt>
+              <authority>SCTA</authority>
+              <availability status="free">
+                 <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                 </p>
+              </availability>
+           </publicationStmt>
+           <sourceDesc>
+           <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+           </listWit>
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+        <editorialDecl>
+           <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+      guidelines for a diplomatic edition.</p>
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc status="draft">
+        <listChange>
+           <change when="2025-05-12" status="draft" n="0.0.0">
+              <p>Created file for the first time.</p>
+           </change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+     <front>
+         <div xml:id="starts-on">
+           <pb ed="#Ka" n="139-r"/>
+           <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+     <body>
+         <div xml:id="bHY6yh-d64085"><!-- p3l5-r15 -->
+            <head xml:id="bHY6yh-d64085-Hd1e108">Rubrica 15</head>
+            <head xml:id="bHY6yh-d64085-Hd1e111" type="question-title">De minis</head>
+            <p xml:id="bHY6yh-d64085-d1e114">
+               <lb ed="#Ka" n="34"/>De Minis rubrica 14 <!--previous rubric omitted in full. this rubric labelled 14-->
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e121">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d64085-Rd1e119">SAlomon in prouerbiis capitulo 12</ref> <quote xml:id="bHY6yh-d64085-Qd1e127">fat<lb ed="#Ka"/>uus
+               Iudicat iram suam 
+               <lb ed="#Ka"/>Qui autem dissimulat iniuriam 
+               <lb ed="#Ka"/>callidus est</quote> 
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e135">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d64085-Rd1e136">Cronica de nugis philosophorum capitulo 4 scilicet 
+               <lb ed="#Ka"/>de chilone</ref> <quote xml:id="bHY6yh-d64085-Qd1e139">Chilon lacedemoniis qui 
+               <lb ed="#Ka"/>fuit vnus de septem sapiententibus 
+               <lb ed="#Ka"/>iubebat non esse iuuandum cuique 
+               <lb ed="#Ka"/>muliebre vamque</quote>
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e150">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d64085-Rd1e154">Oratius in poetria</ref> <quote xml:id="bHY6yh-d64085-Qd1e154">nec semper feriet 
+               <lb ed="#Ka"/>quicumque minabitur arcus</quote>
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e160">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d64085-Rd1e166">Seneca tragediarum in medea capitulo 3</ref> <quote xml:id="bHY6yh-d64085-Qd1e164">cogere 
+               <lb ed="#Ka"/>7 Ira que regitur nocet</quote>
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e170"> 
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d64085-Rd1e176">Idem in prouerbiis</ref> <quote xml:id="bHY6yh-d64085-Qd1e172">loquax inimicus 
+               <lb ed="#Ka"/>minus quam taciturnus offendit</quote>
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e178">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d64085-Rd1e188">Cassiodorus epistolarum libro 4 epistola 49</ref> <quote xml:id="bHY6yh-d64085-Qd1e182">pler<lb ed="#Ka"/>umque 
+               denunciata comminatio plus 
+               <lb ed="#Ka"/>efficit quam pena componat</quote>
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e190">
+               <ref xml:id="bHY6yh-d64085-Rd1e202">Gregorius 
+               <lb ed="#Ka"/>in pastorali capitulo 39</ref> <quote xml:id="bHY6yh-d64085-Qd1e194">Plerumque ni<lb ed="#Ka"/>mis 
+               taciti cum non nulla in iusta 
+               <lb ed="#Ka"/>patiuntur eo in macrorem dolorem pro<lb ed="#Ka"/>deunt 
+               quo ea que sustinent non 
+               <lb ed="#Ka"/>loquuntur</quote>
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e204">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d64085-Rd1e218">Uersificator fabularum 26 fabula</ref> <quote xml:id="bHY6yh-d64085-Qd1e208"></quote>
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e215">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d64085-Rd1e231">Baldo 9 fabularum</ref> <quote xml:id="bHY6yh-d64085-Qd1e219">vis metuenda 
+               <pb ed="#Ka" n="139-v"/>
+               <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/>parum nox est vbi multa minaris</quote>
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e225">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d64085-Rd1e243">henricus samariensis libro 2</ref> <quote xml:id="bHY6yh-d64085-Qd1e229">dicta ius
+               <lb ed="#Ka"/>fuit facta inquis sis percus in minus  
+               <lb ed="#Ka"/>partus in ob probriis largus ad esse 
+               <lb ed="#Ka"/>decus</quote>
+            </p>
+            <p xml:id="bHY6yh-d64085-d1e237">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d64085-Rd1e257">Prouerbium uulgare</ref> <quote xml:id="bHY6yh-d64085-Qd1e241">manoze non e lan<lb ed="#Ka"/>ze</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
