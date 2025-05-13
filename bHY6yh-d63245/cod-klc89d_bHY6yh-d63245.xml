@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Rubrica 10</title>
+           <author ref="#per-c7y65a">Geremia da Montagnone</author>
+           <respStmt>
+              <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           <respStmt>
+              <name ref="erinkurian">Erin Kurian</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           </titleStmt>
+           <editionStmt>
+              <edition n="0.0.0-dev">
+                 <title>Rubrica 10</title>
+                 <date when="2025-05-12">May 12, 2025</date>
+              </edition>
+           </editionStmt>
+           <publicationStmt>
+              <authority>SCTA</authority>
+              <availability status="free">
+                 <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                 </p>
+              </availability>
+           </publicationStmt>
+           <sourceDesc>
+           <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+           </listWit>
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+        <editorialDecl>
+           <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+      guidelines for a diplomatic edition.</p>
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc status="draft">
+        <listChange>
+           <change when="2025-05-12" status="draft" n="0.0.0">
+              <p>Created file for the first time.</p>
+           </change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+     <front>
+         <div xml:id="starts-on">
+           <pb ed="#Ka" n="137-r"/>
+           <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+     <body>
+      <div xml:id="bHY6yh-d63245"><!-- p3l5-r10 -->
+        <head xml:id="bHY6yh-d63245-Hd1e108">Rubrica 10</head>
+        <head xml:id="bHY6yh-d63245-Hd1e111" type="question-title">Cum quibus non sit loquendum</head>
+        <p xml:id="bHY6yh-d63245-d1e114">
+          <lb ed="#Ka" n="2"/>Cum quibus est loquendum 
+          <lb ed="#Ka"/>Rubrica decima
+        </p>
+        <p xml:id="bHY6yh-d63245-d1e123">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d63245-Rd1e124">CRonica de nugis philosophorum capitulo 8 scilicet 
+          <lb ed="#Ka"/>de ponandro</ref> <quote xml:id="bHY6yh-d63245-Qd1e136">periander corin<lb ed="#Ka" break="no"/>thius 
+          vnus de septem sapientibus 
+          <lb ed="#Ka"/>ait verborum infandorum enunciationem 
+          <lb ed="#Ka"/>non facias</quote>
+        </p>
+        <p xml:id="bHY6yh-d63245-d1e146">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d63245-Rd1e145">Socrates in exortationibus capitulo 2</ref> 
+          <lb ed="#Ka"/><quote xml:id="bHY6yh-d63245-Qd1e150">Que nephas est agere eadem ne<lb ed="#Ka" break="no"/>que 
+          fari bonum existimus</quote>
+        </p>
+        <p xml:id="bHY6yh-d63245-d1e159">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d63245-Rd1e160">Aristotelis politicorum libro 7 capitulo 12 et finale</ref> 
+          <lb ed="#Ka"/><quote xml:id="bHY6yh-d63245-Qd1e163">Ex dicere de facili quodcumque turpium 
+          <lb ed="#Ka"/>fit et ipsum facere prope</quote>
+        </p>
+        <p xml:id="bHY6yh-d63245-d1e171">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d63245-Rd1e174">Paulus apostolus epistola 1 ad corinth<lb ed="#Ka" break="no"/>eos 
+          capitulo 15 et penultima</ref> <quote xml:id="bHY6yh-d63245-Qd1e175">Corrumpunt 
+          <lb ed="#Ka"/>bonos mores fabulationes pes<lb ed="#Ka" break="no"/>sime 
+          vel colloquia mala</quote>
+        </p>
+        <p xml:id="bHY6yh-d63245-d1e185">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d63245-Rd1e189">Seneca epistolarum ad lucillum libro 19 epistola 8</ref> 
+          <lb ed="#Ka"/><quote xml:id="bHY6yh-d63245-Qd1e194">vbicumque videris orationem corruptam 
+          <lb ed="#Ka"/>placere ibi quoque mores a recto 
+          <lb ed="#Ka"/>destituisse non erit dubium</quote>
+        </p>
+        <p xml:id="bHY6yh-d63245-d1e192"> 
+          <ref xml:id="bHY6yh-d63245-Rd1e204">Idem 
+          <lb ed="#Ka"/>de moribus</ref> <quote xml:id="bHY6yh-d63245-Qd1e199">Turpia ne dixeris p<lb ed="#Ka" break="no"/>aulatim 
+          enim pudor rerum per 
+          <lb ed="#Ka"/>verba dediscitur</quote>
+        </p>
+        <p xml:id="bHY6yh-d63245-d1e202">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d63245-Rd1e218">Maximianus</ref> <quote xml:id="bHY6yh-d63245-Qd1e206">contractata diu crim<lb ed="#Ka" break="no"/>ina
+          crimen habent</quote>
+        </p>
+        <p xml:id="bHY6yh-d63245-d1e212">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d63245-Rd1e230">Auctor libri de forma honeste vite 
+          <lb ed="#Ka"/>capitulo 3</ref> <quote xml:id="bHY6yh-d63245-Qd1e216">A verbis turpibus abstineto 
+          <lb ed="#Ka"/>quia sinam eorum inprudentiam 
+          <lb ed="#Ka"/>nutrit</quote>
+        </p>
+        <p xml:id="bHY6yh-d63245-d1e224">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d63245-Rd1e245">YSidorus soliloquiorum libro 2 capitulo 31</ref> <quote xml:id="bHY6yh-d63245-Qd1e228">fa<cb ed="#Ka" n="b"/><lb ed="#Ka"/>cile 
+          agitur quod libenter auditur</quote>
+        </p>
+        <p xml:id="bHY6yh-d63245-d1e235">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d63245-Rd1e257">Auctor liber qui dicitur facetus 
+          <lb ed="#Ka"/>capitulo 2</ref> <quote xml:id="bHY6yh-d63245-Qd1e239">Maxima rusticitas turpia 
+          <lb ed="#Ka"/>verba loqui</quote>
+        </p>
+        <p xml:id="bHY6yh-d63245-d1e245">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d63245-Rd1e269">Montenarius in lima cleri capitulo 16</ref> //
+          <lb ed="#Ka"/><quote xml:id="bHY6yh-d63245-Qd1e271">Turpia sinceros corrumpunt fama 
+          <lb ed="#Ka"/>mores</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
