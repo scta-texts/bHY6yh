@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Rubrica 6</title>
+           <author ref="#per-c7y65a">Geremia da Montagnone</author>
+           <respStmt>
+              <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           <respStmt>
+              <name ref="erinkurian">Erin Kurian</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           </titleStmt>
+           <editionStmt>
+              <edition n="0.0.0-dev">
+                 <title>Rubrica 6</title>
+                 <date when="2025-05-12">May 12, 2025</date>
+              </edition>
+           </editionStmt>
+           <publicationStmt>
+              <authority>SCTA</authority>
+              <availability status="free">
+                 <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                 </p>
+              </availability>
+           </publicationStmt>
+           <sourceDesc>
+           <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+           </listWit>
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+        <editorialDecl>
+           <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+      guidelines for a diplomatic edition.</p>
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc status="draft">
+        <listChange>
+           <change when="2025-05-12" status="draft" n="0.0.0">
+              <p>Created file for the first time.</p>
+           </change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+     <front>
+         <div xml:id="starts-on">
+           <pb ed="#Ka" n="135-v"/>
+           <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+     <body>
+         <div xml:id="bHY6yh-d62447"><!-- p3l5-r6 -->
+            <head xml:id="bHY6yh-d62447-Hd1e108">Rubrica 6</head>
+            <head xml:id="bHY6yh-d62447-Hd1e111" type="question-title">De premediatione: et temeritate locutionis</head>
+            <p xml:id="bHY6yh-d62447-d1e114">
+              <lb ed="#Ka" n="21"/>de premeditatione et temeri<lb ed="#Ka" break="no"/>tate 
+              locutionis Rubrica 6
+            </p>
+            <p xml:id="bHY6yh-d62447-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d62447-Rd1e118">SAlomon in ecclesiaste capitulo 10</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d62447-Qd1e127">In cogitatione tua regi ne de
+              <lb ed="#Ka"/>trahis et in secreto cubiculi tui ve<lb ed="#Ka" break="no"/>niale 
+              dixeris diuiti quia et aues 
+              <lb ed="#Ka"/>portabunt vocem tuam</quote> 
+            </p>
+            <p xml:id="bHY6yh-d62447-d1e137">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d62447-Rd1e137">Ihesus filius syrach in ecclesiastico capitulo 
+              <lb ed="#Ka"/>8</ref> <quote xml:id="bHY6yh-d62447-Qd1e141">Coram extraneo ne facias con<lb ed="#Ka" break="no"/>silium 
+              nescis enim quid pariet</quote>
+            </p>
+            <p xml:id="bHY6yh-d62447-d1e150">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d62447-Rd1e152">Oratius in epistolis 19 epistola</ref> <quote xml:id="bHY6yh-d62447-Qd1e154">Quid 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>de quoque viro et cui dicas sepe vi<lb ed="#Ka" break="no"/>deto
+              percunctatorem fugito nam 
+              <lb ed="#Ka"/>carulus idem nec retilet patule 
+              <lb ed="#Ka"/>commissa fideliter aures Et semel e<lb ed="#Ka" break="no"/>missum 
+              uolat in reuocabile verbum</quote>
+            </p>
+            <p xml:id="bHY6yh-d62447-d1e168">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d62447-Rd1e172">Prouerbium metricum extraordinare libro 
+              <lb ed="#Ka"/>vagere</ref> <quote xml:id="bHY6yh-d62447-Qd1e172">Prospice te circum si vis 
+              <lb ed="#Ka"/>proferre sinistrum</quote>
+            </p>
+            <p xml:id="bHY6yh-d62447-d1e184">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d62447-Rd1e191">Prouerbium uulgare</ref> <quote xml:id="bHY6yh-d62447-Qd1e188">chi na aprono 
+              <lb ed="#Ka"/>uia non digo folia dere cesa sta chi 
+              <lb ed="#Ka"/>o reche ha El fante dise al zogo 
+              <lb ed="#Ka"/>quol al de apo del foco</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
