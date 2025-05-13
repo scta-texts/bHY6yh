@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Rubrica 11</title>
+           <author ref="#per-c7y65a">Geremia da Montagnone</author>
+           <respStmt>
+              <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           <respStmt>
+              <name ref="erinkurian">Erin Kurian</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           </titleStmt>
+           <editionStmt>
+              <edition n="0.0.0-dev">
+                 <title>Rubrica 11</title>
+                 <date when="2025-05-12">May 12, 2025</date>
+              </edition>
+           </editionStmt>
+           <publicationStmt>
+              <authority>SCTA</authority>
+              <availability status="free">
+                 <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                 </p>
+              </availability>
+           </publicationStmt>
+           <sourceDesc>
+           <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+           </listWit>
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+        <editorialDecl>
+           <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+      guidelines for a diplomatic edition.</p>
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc status="draft">
+        <listChange>
+           <change when="2025-05-12" status="draft" n="0.0.0">
+              <p>Created file for the first time.</p>
+           </change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+     <front>
+         <div xml:id="starts-on">
+           <pb ed="#Ka" n="137-v"/>
+           <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+     <body>
+         <div xml:id="bHY6yh-d63395"><!-- p3l5-r11 -->
+            <head xml:id="bHY6yh-d63395-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-d63395-Hd1e111" type="question-title">De vaniloquio et multiloquio</head>
+            <p xml:id="bHY6yh-d63395-d1e114">
+               <lb ed="#Ka" n="40"/>de vaniloquio et multi loquio 
+               <lb ed="#Ka"/>Rubrica 11
+            </p>
+            <p xml:id="bHY6yh-d63395-d1e121">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d63395-Rd1e118">SAlomon in prouerbiis capitulo 1<lb ed="#Ka"/>5</ref> 
+               <quote xml:id="bHY6yh-d63395-Qd1e127">responsio mollis exting<lb ed="#Ka"/>uit
+               iram Sermo durus suscitat 
+               <lb ed="#Ka"/>furorem lingua placabilis li<lb ed="#Ka"/>gnum 
+               vite</quote> 
+            </p>
+            <p xml:id="bHY6yh-d63395-d1e137"> 
+               <ref xml:id="bHY6yh-d63395-Rd1e135">6 capitulo</ref> // <quote xml:id="bHY6yh-d63395-Qd1e139">Qui sapiens cor<lb ed="#Ka"/>de 
+               est appellabitur prudens et qui 
+               <lb ed="#Ka"/>dulcis eloquio maiora percipiet</quote>
+            </p>
+            <p xml:id="bHY6yh-d63395-d1e148"> 
+               <ref xml:id="bHY6yh-d63395-Rd1e148">17 
+               <lb ed="#Ka"/>capitulo</ref> <quote xml:id="bHY6yh-d63395-Qd1e150">Cum obsecrationibus loquitur 
+               <lb ed="#Ka"/>pauper et diues effabitur rigide</quote>
+            </p>
+            <p xml:id="bHY6yh-d63395-d1e158">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d63395-Rd1e162">Socrates in exortationibus capitulo 
+               <lb ed="#Ka"/>2</ref> <quote xml:id="bHY6yh-d63395-Qd1e162">Esto quidem modo suauis verbo uero 
+               <lb ed="#Ka"/><sic>vero</sic> facetus Est autem suauitas quidem 
+               <lb ed="#Ka"/>salutare occurrem tes facetie uero 
+               <lb ed="#Ka"/>alloqui eos lepidibus verbis</quote>
+            </p>
+            <p xml:id="bHY6yh-d63395-d1e176">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d63395-Rd1e182">Ihesus filius syrach in ecclesiastico 
+               <lb ed="#Ka"/>capitulo 5</ref> <quote xml:id="bHY6yh-d63395-Qd1e180">prosequatur te verbum pacis et iusti<lb ed="#Ka"/>tie</quote>
+            </p>
+            <p xml:id="bHY6yh-d63395-d1e186"> 
+               <ref xml:id="bHY6yh-d63395-Rd1e192">6 capitulo</ref> <quote xml:id="bHY6yh-d63395-Qd1e188">verbum dulce multiplicat 
+               <lb ed="#Ka"/>amicos et mitigat inimicos 
+               <lb ed="#Ka"/>lingua gratiosa in bono homine 
+               <lb ed="#Ka"/>abundat</quote>
+            </p>
+            <p xml:id="bHY6yh-d63395-d1e198">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d63395-Rd1e208">Ouidius de arte amandi libro 2</ref> 
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d63395-Qd1e202">asperitas odium steuaque bella mo<!--line pops down-->uet</quote>
+            </p>
+            <p xml:id="bHY6yh-d63395-d1e208">
+               <pb ed="#Ka" n="138-r"/>
+               <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d63395-Rd1e220">Paulus apostolus epistola ad romanos 
+               <lb ed="#Ka"/>capitulo 12</ref> <quote xml:id="bHY6yh-d63395-Qd1e212">benedicite et nolite maledicere</quote>
+            </p>
+            <p xml:id="bHY6yh-d63395-d1e219">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d63395-Rd1e234">Cato capitulo 1</ref> <quote xml:id="bHY6yh-d63395-Qd1e223">Saluta libenter Blandus 
+               <lb ed="#Ka"/>esto</quote>
+            </p>
+            <p xml:id="bHY6yh-d63395-d1e229">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d63395-Rd1e246">Uersificator fabularum esopi fabula 38 
+               <lb ed="#Ka"/>et finale</ref> <quote xml:id="bHY6yh-d63395-Qd1e233">dulci produlci proturpi turpia re<lb ed="#Ka"/>ddi 
+               verba solent odium lingua fi<lb ed="#Ka"/>demque 
+               parit</quote>
+            </p>
+            <p xml:id="bHY6yh-d63395-d1e241">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d63395-Rd1e260">Bernardus libro de probatione viciorum 
+               <lb ed="#Ka"/>capitulo 3</ref> <quote xml:id="bHY6yh-d63395-Qd1e245">Gratus vir lingua cuique 
+               <lb ed="#Ka"/>placere solet</quote>
+            </p>
+            <p xml:id="bHY6yh-d63395-d1e251">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d63395-Rd1e273">heinricus samariensis libro 2</ref> <quote xml:id="bHY6yh-d63395-Qd1e255">Stilet 
+               <lb ed="#Ka"/>in ore fauus sed mente resultet 
+               <lb ed="#Ka"/>oliua et non sit totus sensus in ore 
+               <lb ed="#Ka"/>tuus factaque si desint non desint 
+               <lb ed="#Ka"/>verba benigna Nam multos car<lb ed="#Ka"/>os 
+               mellea lingua parit</quote>
+            </p>
+            <p xml:id="bHY6yh-d63395-d1e267">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d63395-Rd1e291">Gaufridus in poetria capitulo 18</ref> <quote xml:id="bHY6yh-d63395-Qd1e271"><sic>axrs</sic> 
+               <lb ed="#Ka"/>et vita coherent in manibus lingue</quote>
+            </p>
+            <p xml:id="bHY6yh-d63395-d1e277">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d63395-Rd1e303">Ricardus iudex uenusinus 
+               <lb ed="#Ka"/>libro de pertractatione nuptiarum capitulo 9</ref> // 
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d63395-Qd1e281">Pacem sermo bonus gingnit et 
+               <lb ed="#Ka"/>gaudia mestis Cordibus infun<lb ed="#Ka"/>dit 
+               tristitiamque ledat Ignis aqua 
+               <lb ed="#Ka"/>verbisque bonis extinguitur 
+               <lb ed="#Ka"/>ira Sermo bonus quandoque magis 
+               <lb ed="#Ka"/>quam facta per oratn nil sermone 
+               <lb ed="#Ka"/>bono gratius esse solet</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
