@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Rubrica 3</title>
+           <author ref="#per-c7y65a">Geremia da Montagnone</author>
+           <respStmt>
+              <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           <respStmt>
+              <name ref="erinkurian">Erin Kurian</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           </titleStmt>
+           <editionStmt>
+              <edition n="0.0.0-dev">
+                 <title>Rubrica 3</title>
+                 <date when="2025-05-15">May 15, 2025</date>
+              </edition>
+           </editionStmt>
+           <publicationStmt>
+              <authority>SCTA</authority>
+              <availability status="free">
+                 <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                 </p>
+              </availability>
+           </publicationStmt>
+           <sourceDesc>
+           <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+           </listWit>
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+        <editorialDecl>
+           <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+      guidelines for a diplomatic edition.</p>
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc status="draft">
+        <listChange>
+           <change when="2025-05-15" status="draft" n="0.0.0">
+              <p>Created file for the first time.</p>
+           </change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+     <front>
+         <div xml:id="starts-on">
+           <pb ed="#Ka" n="142-r"/>
+           <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+     <body>
+      <div xml:id="bHY6yh-d65161"><!-- p3l6-r3 -->
+        <head xml:id="bHY6yh-d65161-Hd1e108">Rubrica 3</head>
+        <head xml:id="bHY6yh-d65161-Hd1e111" type="question-title">De necessariis cogitationi oratoris</head>
+        <p xml:id="bHY6yh-d65161-d1e114">
+          <lb ed="#Ka" n="7"/>De Necessariis cogitationi<lb ed="#Ka" break="no"/>bus 
+          oratoris Rubrica 3
+        </p>
+        <p xml:id="bHY6yh-d65161-d1e121">
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d65161-Rd1e118">ARistotiles rethoricorum 1 capitulo 12</ref> <quote xml:id="bHY6yh-d65161-Qd1e127">Op<lb ed="#Ka" break="no"/>ortebit 
+          mores vniuscuiusque 
+          <lb ed="#Ka"/>maxime persuasiuum necesse ad 
+          <lb ed="#Ka"/>vnamquamque esse</quote> 
+        </p>
+        <p xml:id="bHY6yh-d65161-d1e137">
+          // <ref xml:id="bHY6yh-d65161-Rd1e136">Tullius rethoricorum 
+          <lb ed="#Ka"/>artis noue libro 1 capitulo 1</ref> <quote xml:id="bHY6yh-d65161-Qd1e141">Ars sine assi<lb ed="#Ka" break="no"/>duitate 
+          dicendi non Iuuat multum</quote>
+        </p>
+        <p xml:id="bHY6yh-d65161-d1e148"> 
+          <lb ed="#Ka"/><ref xml:id="bHY6yh-d65161-Rd1e147">Idem de Oratore libro 2</ref> // <quote xml:id="bHY6yh-d65161-Qd1e150">nemo potest 
+          <lb ed="#Ka"/>de ea quam non nouit turpissime di<lb ed="#Ka" break="no"/>cere 
+          // Si michi quemuis eruditum 
+          <lb ed="#Ka"/>hominem ad noxoris quamuis 
+          <lb ed="#Ka"/>et acutum in cogitando quamuis 
+          <lb ed="#Ka"/>in pronunciando expeditum si erit 
+          <lb ed="#Ka"/>Idem in consuetudine ciuitatis 
+          <lb ed="#Ka"/>in exemplis in institutis et moribus 
+          <lb ed="#Ka"/>ac uoluntatibus ciuiorum suorum hos<lb ed="#Ka" break="no"/>pes 
+          non multum ei loci proderunt 
+          <lb ed="#Ka"/>illi ex quibus argumenta promuntur 
+          <lb ed="#Ka"/>hec adiuuant in oratore leuitas 
+          <lb ed="#Ka"/>uocis pudoris uultus signifi<lb ed="#Ka" break="no"/>catio 
+          verborum comitas si quid 
+          <lb ed="#Ka"/>persequatur acrius ut inuitus et 
+          <lb ed="#Ka"/>oactus facere videatur Ad consi<lb ed="#Ka" break="no"/>lium 
+          de re publica dandum capud 
+          <cb ed="#Ka" n="b"/>
+          <lb ed="#Ka"/>est noscere mores ad dicendum 
+          <lb ed="#Ka"/>uero probabilitur noscere mores ci<lb ed="#Ka" break="no"/>uitatis 
+          quia crebo imitantur // Quid 
+          <lb ed="#Ka"/>est turpius quam legittimarum 
+          <lb ed="#Ka"/>et ciuilium controuersiarum patrocini<lb ed="#Ka" break="no"/>a 
+          suscipere cum sis legum et ci<lb ed="#Ka" break="no"/>uilis 
+          inuris ignarus</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
