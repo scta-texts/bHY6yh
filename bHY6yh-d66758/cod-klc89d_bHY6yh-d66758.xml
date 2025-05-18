@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Rubrica 12</title>
+           <author ref="#per-c7y65a">Geremia da Montagnone</author>
+           <respStmt>
+              <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           <respStmt>
+              <name ref="erinkurian">Erin Kurian</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           </titleStmt>
+           <editionStmt>
+              <edition n="0.0.0-dev">
+                 <title>Rubrica 12</title>
+                 <date when="2025-05-18">May 18, 2025</date>
+              </edition>
+           </editionStmt>
+           <publicationStmt>
+              <authority>SCTA</authority>
+              <availability status="free">
+                 <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                 </p>
+              </availability>
+           </publicationStmt>
+           <sourceDesc>
+           <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+           </listWit>
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+        <editorialDecl>
+           <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+      guidelines for a diplomatic edition.</p>
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc status="draft">
+        <listChange>
+           <change when="2025-05-18" status="draft" n="0.0.0">
+              <p>Created file for the first time.</p>
+           </change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+     <front>
+         <div xml:id="starts-on">
+           <pb ed="#Ka" n="146-v"/>
+           <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+     <body>
+         <div xml:id="bHY6yh-d66758"><!-- p3l6-r12 -->
+            <head xml:id="bHY6yh-d66758-Hd1e108">Rubrica 12</head>
+            <head xml:id="bHY6yh-d66758-Hd1e111" type="question-title">De electis benedictionibus</head>
+            <p xml:id="bHY6yh-d66758-d1e114">
+               <lb ed="#Ka" n="14"/>de Electis benedictioni<lb ed="#Ka" break="no"/>bus
+               Rubrica 12
+            </p>
+            <p xml:id="bHY6yh-d66758-d1e121">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d66758-Rd1e118">IN genesi capitulo 27</ref> <quote xml:id="bHY6yh-d66758-Qd1e125">Ysaac bene<lb ed="#Ka" break="no"/>dixit 
+               filio suo Iacob qui 
+               <lb ed="#Ka"/>postea cognominatus est israhel h<lb ed="#Ka" break="no"/>iis 
+               verbis det tibi deus de rore 
+               <lb ed="#Ka"/>celi et de pinguedine terre habun<lb ed="#Ka" break="no"/>dantiam 
+               furmenti vini et olei ser<lb ed="#Ka" break="no"/>uiant 
+               tibi populi et cetera Qui male<lb ed="#Ka" break="no"/>dixerit 
+               tibi sit ille male dictus 
+               <lb ed="#Ka"/>Et qui benedixerit tibi benedictio<lb ed="#Ka" break="no"/>nibus 
+               repleatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d66758-d1e150"> 
+               <ref xml:id="bHY6yh-d66758-Rd1e147">epistola 8 capitulo</ref> <quote xml:id="bHY6yh-d66758-Qd1e152">secunda 
+               <lb ed="#Ka"/>benedictio ysaac ad iacob filium 
+               <lb ed="#Ka"/>suum // deus omnipotens benedicat 
+               <lb ed="#Ka"/>tibi et crescere te faciat atque multip<lb ed="#Ka" break="no"/>licet 
+               ut sis in turbas populorum et det 
+               <cb ed="#Ka" n="b"/>
+               <lb ed="#Ka"/>tibi benedictiones abraham et se<lb ed="#Ka" break="no"/>mini 
+               tuo post te</quote>
+            </p>
+            <p xml:id="bHY6yh-d66758-d1e167">
+               // <ref xml:id="bHY6yh-d66758-Rd1e168">Ouidius de phil<lb ed="#Ka" break="no"/>omena</ref>
+               <quote xml:id="bHY6yh-d66758-Qd1e171">Tu valeas felix seu m<lb ed="#Ka" break="no"/>ulto 
+               tempore senix Te foueat tellus 
+               <lb ed="#Ka"/>veluti pupillo intellus</quote>
+            </p>
+            <p xml:id="bHY6yh-d66758-d1e179">
+               // <ref xml:id="bHY6yh-d66758-Rd1e182">Paulus 
+               <lb ed="#Ka"/>apostolus epistola 3 ad corinthios capitulo 13 
+               <lb ed="#Ka"/>et finali</ref> <quote xml:id="bHY6yh-d66758-Qd1e183">Gratia domini nostri ihesu christi et caritas 
+               <lb ed="#Ka"/>dei et communicatio spiritus sancti sit sper
+               <lb ed="#Ka"/>cum omnibus vobis</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
