@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Rubrica 15</title>
+           <author ref="#per-c7y65a">Geremia da Montagnone</author>
+           <respStmt>
+              <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           <respStmt>
+              <name ref="erinkurian">Erin Kurian</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           </titleStmt>
+           <editionStmt>
+              <edition n="0.0.0-dev">
+                 <title>Rubrica 15</title>
+                 <date when="2025-05-18">May 18, 2025</date>
+              </edition>
+           </editionStmt>
+           <publicationStmt>
+              <authority>SCTA</authority>
+              <availability status="free">
+                 <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                 </p>
+              </availability>
+           </publicationStmt>
+           <sourceDesc>
+           <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+           </listWit>
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+        <editorialDecl>
+           <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+      guidelines for a diplomatic edition.</p>
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc status="draft">
+        <listChange>
+           <change when="2025-05-18" status="draft" n="0.0.0">
+              <p>Created file for the first time.</p>
+           </change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+     <front>
+         <div xml:id="starts-on">
+           <pb ed="#Ka" n="147-r"/>
+           <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+     <body>
+         <div xml:id="bHY6yh-d67017"><!-- p3l6-r15 -->
+            <head xml:id="bHY6yh-d67017-Hd1e108">Rubrica 15</head>
+            <head xml:id="bHY6yh-d67017-Hd1e111" type="question-title">De electis minis</head>
+            <p xml:id="bHY6yh-d67017-d1e114">
+               <lb ed="#Ka" n="33"/>de Electis Minis Rub<lb ed="#Ka" break="no"/>rica
+               <del>16</del> 15
+            </p>
+            <p xml:id="bHY6yh-d67017-d1e119">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d67017-Rd1e116">REgum libro 4 capitulo 21</ref> <quote xml:id="bHY6yh-d67017-Qd1e123">Ait domines Ie<lb ed="#Ka" break="no"/>rusalem 
+               sicud deleri solent 
+               <lb ed="#Ka"/>tabula delens uertam et durcam 
+               <lb ed="#Ka"/>crebius stilum super faciem eius</quote>
+            </p>
+            <p xml:id="bHY6yh-d67017-d1e135">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d67017-Rd1e134">Ouidius sine titulo seu amorum libro 3 
+               <lb ed="#Ka"/>et finale capitulo 11</ref> <quote xml:id="bHY6yh-d67017-Qd1e139">Quere alium pro me qui 
+               <lb ed="#Ka"/>uelit ista pati</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
