@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Rubrica 16</title>
+           <author ref="#per-c7y65a">Geremia da Montagnone</author>
+           <respStmt>
+              <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           <respStmt>
+              <name ref="erinkurian">Erin Kurian</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           </titleStmt>
+           <editionStmt>
+              <edition n="0.0.0-dev">
+                 <title>Rubrica 16</title>
+                 <date when="2025-05-18">May 18, 2025</date>
+              </edition>
+           </editionStmt>
+           <publicationStmt>
+              <authority>SCTA</authority>
+              <availability status="free">
+                 <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                 </p>
+              </availability>
+           </publicationStmt>
+           <sourceDesc>
+           <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+           </listWit>
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+        <editorialDecl>
+           <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+      guidelines for a diplomatic edition.</p>
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc status="draft">
+        <listChange>
+           <change when="2025-05-18" status="draft" n="0.0.0">
+              <p>Created file for the first time.</p>
+           </change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+     <front>
+         <div xml:id="starts-on">
+           <pb ed="#Ka" n="147-r"/>
+           <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+     <body>
+         <div xml:id="bHY6yh-d67059"><!-- p3l6-r16 -->
+            <head xml:id="bHY6yh-d67059-Hd1e108">Rubrica 16</head>
+            <head xml:id="bHY6yh-d67059-Hd1e111" type="question-title">De electis rogaminibus et petitionibus miserabilium personarum</head>
+            <p xml:id="bHY6yh-d67059-d1e114">
+               <lb ed="#Ka" n="42"/>de Electis rogaminibus et peti<lb ed="#Ka" break="no"/>tionibus 
+               miserabilium personarum 
+               <lb ed="#Ka"/>rubrica 16 
+            </p>
+            <p xml:id="bHY6yh-d67059-d1e123">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d67059-Rd1e120">OVidius epistolarum 42</ref> <quote xml:id="bHY6yh-d67059-Qd1e127">addi<lb ed="#Ka" break="no"/>mus 
+               hiis praecibus lacrimas 
+               <lb ed="#Ka"/>quoque verba precantis perlegas et la<lb ed="#Ka" break="no"/>crimas 
+               finge videre meas</quote>
+            </p>
+            <p xml:id="bHY6yh-d67059-d1e139"> 
+               <ref xml:id="bHY6yh-d67059-Rd1e136">Idem 
+               <lb ed="#Ka"/>sine titulo seu amorum libro 2 capitulo 15</ref> 
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d67059-Qd1e141">Si qua mei tamen est in te pia cura 
+               <lb ed="#Ka"/>relicti incipe policitis addere 
+               <lb ed="#Ka"/>facta tuis</quote>
+            </p>
+            <p xml:id="bHY6yh-d67059-d1e150">
+               <ref xml:id="bHY6yh-d67059-Rd1e152">Idem de ponto libro 2 
+               <lb ed="#Ka"/>epistola 2</ref> <quote xml:id="bHY6yh-d67059-Qd1e154">da praecor accessum lacrimis 
+               <lb ed="#Ka"/>mitissime nostris Nec rigidam 
+               <lb ed="#Ka"/>timidis uocibus ob esse fore</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
