@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 3</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+                <name ref="erinkurian">Erin Kurian</name>
+                <resp>Transcription Editor</resp>
+                <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 3</title>
+               <date when="2025-05-21">May 21, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-05-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="153-r"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d69411"><!-- p4l1-r3 -->
+            <head xml:id="bHY6yh-d69411-Hd1e108">Rubrica 3</head>
+            <head xml:id="bHY6yh-d69411-Hd1e111" type="question-title">De modo exigentie cuiusque proportionalitatis seu conformitatis</head>
+            <p xml:id="bHY6yh-d69411-d1e114">
+               <lb ed="#Ka" n="31"/>de Modo Exigendi cuiuscumque 
+               <lb ed="#Ka"/>proportionalitatis seu conformi<lb ed="#Ka" break="no"/>tatis 
+               Rubrica Tertia et cetera
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e123">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d69411-Rd1e120">ORatius in poetria</ref> <quote>Summi<lb ed="#Ka" break="no"/>te 
+               materiam uestris qui 
+               <lb ed="#Ka"/>scribitur equum // viribus et versa<lb ed="#Ka" break="no"/>te 
+               diu quid ferre recusent / Quid 
+               <lb ed="#Ka"/>valeant humani</quote>
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e136">
+               <ref xml:id="bHY6yh-d69411-Rd1e134">Idem in epistolis 
+               <lb ed="#Ka"/>libro 1 epistola 7</ref> <quote xml:id="bHY6yh-d69411-Qd1e140">paruum parua decent</quote> 
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e145">
+               // <ref xml:id="bHY6yh-d69411-Rd1e148">Ouid<lb ed="#Ka" break="no"/>ius 
+               de remedio moris libro 2 et finale</ref> 
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d69411-Qd1e149">infirmis culpa pusilla nocet // 
+               <lb ed="#Ka"/>Nutritur vento restringitur ig<lb ed="#Ka" break="no"/>nis 
+               leuis alit flammas grauior aura 
+               <lb ed="#Ka"/>necat</quote>
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e159">
+               // <ref xml:id="bHY6yh-d69411-Rd1e164">Paulus apostolus epistola 2 ad co<lb ed="#Ka" break="no"/>rintheos 
+               capitulo 9</ref> <quote xml:id="bHY6yh-d69411-Qd1e163">Qui parce seminat par<lb ed="#Ka" break="no"/>ce 
+               et metet</quote>
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e169">
+               // <ref xml:id="bHY6yh-d69411-Rd1e177">Seneca epistolarum 
+               <lb ed="#Ka"/>ad lucillum libro 19 epistola 3</ref> <quote xml:id="bHY6yh-d69411-Qd1e173">Aptari corpus 
+               <lb ed="#Ka"/>uiribus debet nec occupari quam 
+               <lb ed="#Ka"/>cui sufficere possumus</quote>
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e181"> 
+               <ref xml:id="bHY6yh-d69411-Rd1e190">Idem de tr<lb ed="#Ka" break="no"/>ansquillitate 
+               animi</ref> <quote xml:id="bHY6yh-d69411-Qd1e183">necesse est ut 
+               <lb ed="#Ka"/>opprimant honera que ferente 
+               <lb ed="#Ka"/>maiora sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e195">
+               <ref xml:id="bHY6yh-d69411-Rd1e209">Cato capitulo 4</ref> // <quote xml:id="bHY6yh-d69411-Qd1e199">Quod 
+               <lb ed="#Ka"/>potes id tempta operis ne pon<lb ed="#Ka" break="no"/>dere 
+               pressus Succumbat labor 
+               <lb ed="#Ka"/>et frustra tempta relinquas</quote> //
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e207">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d69411-Rd1e223">Cassiodorus epistolarum libro 8 epistola 
+               <lb ed="#Ka"/>2</ref> <quote xml:id="bHY6yh-d69411-Qd1e211">Contrariis rebus plerumque me<lb ed="#Ka" break="no"/>dicina 
+               paratur</quote>
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e220">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d69411-Rd1e238">Baldo 29 fabula</ref> // <quote xml:id="bHY6yh-d69411-Qd1e224">Non vltra uires 
+               <pb ed="#Ka" n="153-v"/>
+               <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/>discant presumere viles</quote>
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e230">
+               <ref xml:id="bHY6yh-d69411-Rd1e250">Gualterius 
+               <lb ed="#Ka"/>de castellione libro 10 et finale</ref> <quote xml:id="bHY6yh-d69411-Qd1e234">Sic se confo<lb ed="#Ka" break="no"/>rmet 
+               me qui deliquit leuius le<lb ed="#Ka" break="no"/>uioribus 
+               ille Subiaceat penis et 
+               <lb ed="#Ka"/>qui grauiore reatu Excessit grauius 
+               <lb ed="#Ka"/>grauiorem sentiat ignem</quote>
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e246">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d69411-Rd1e268">Gaufredus in poetria capitulo 21</ref> <quote xml:id="bHY6yh-d69411-Qd1e250">Gressus 
+               <lb ed="#Ka"/>precurrant oculi preconsule mente 
+               <lb ed="#Ka"/>et uires metire tu es si fortis 
+               <lb ed="#Ka"/>es aude Grandia si fragilis hu<lb ed="#Ka" break="no"/>meris 
+               in pone minora Si med<lb ed="#Ka" break="no"/>iocris 
+               ama mediocria sumere noli 
+               <lb ed="#Ka"/>Que quando sumus praesumas in omnibus 
+               <lb ed="#Ka"/>vna est virtus seruare modum me<lb ed="#Ka" break="no"/>mor 
+               imprime menti</quote>
+            </p>
+            <p xml:id="bHY6yh-d69411-d1e267">
+               <ref xml:id="bHY6yh-d69411-Rd1e291">Prouerbium 
+               <lb ed="#Ka"/>uulgare</ref> <quote xml:id="bHY6yh-d69411-Qd1e271">a carne di louo falsa di 
+               <lb ed="#Ka"/>cane acochal malcon toton boton 
+               <lb ed="#Ka"/>Chi alaro non in uolare laro con<lb ed="#Ka" break="no"/>uem 
+               essere</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
