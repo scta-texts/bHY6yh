@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 7</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+                <name ref="erinkurian">Erin Kurian</name>
+                <resp>Transcription Editor</resp>
+                <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 7</title>
+               <date when="2025-05-25">May 25, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-05-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="163-r"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front> 
+      <body>
+         <div xml:id="bHY6yh-d73926"><!-- p4l2-r7 -->
+            <head xml:id="bHY6yh-d73926-Hd1e108">Rubrica 7</head>
+            <head xml:id="bHY6yh-d73926-Hd1e111" type="question-title">De conseruatione diuitiarum</head>
+            <p xml:id="bHY6yh-d73926-d1e114">
+               <lb ed="#Ka" n="41"/>de conseruatione diuitiarum 
+               <lb ed="#Ka"/>Rubrica 5
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e121"> 
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d73926-Rd1e118">SAlomon in ecclesastoco capitulo 3</ref> 
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d73926-Qd1e127">Tempus custodiendi et 
+               <lb ed="#Ka"/>tempus abiciendi</quote> 
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e133">
+               // <ref xml:id="bHY6yh-d73926-Rd1e133">Tulius re<lb ed="#Ka" break="no"/>thoricorum 
+               artis noue libro 11 capitulo 12</ref> <quote xml:id="bHY6yh-d73926-Qd1e137">di<lb ed="#Ka" break="no"/>ligentia 
+               est accurata custodi<lb ed="#Ka" break="no"/>a 
+               suorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e144">
+               // <ref xml:id="bHY6yh-d73926-Rd1e147">Ouidius de arte 
+               <lb ed="#Ka"/>amandi libro 2</ref> <quote xml:id="bHY6yh-d73926-Qd1e148">nec minor est virtus 
+               <lb ed="#Ka"/>querere parte tueri Casus in est illi 
+               <lb ed="#Ka"/>hic artus opus erit</quote>
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e156">
+               <ref xml:id="bHY6yh-d73926-Rd1e161">Cato capitulo 1</ref> <quote xml:id="bHY6yh-d73926-Qd1e160">C<lb ed="#Ka" break="no"/>ustodi 
+               rem tuam</quote>
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e164">
+               // <ref xml:id="bHY6yh-d73926-Rd1e171">Cassiodorus 
+               <lb ed="#Ka"/>epistolarum libro 1 epistola 24</ref> <quote xml:id="bHY6yh-d73926-Qd1e168">Maior est in con<lb ed="#Ka" break="no"/>seruandis 
+               rebus quam in ueni<lb ed="#Ka" break="no"/>endis 
+               adhibenda cautela est 
+               <lb ed="#Ka"/>quia de initiis predicatio debetur 
+               <pb ed="#Ka" n="163-v"/>
+               <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/>in uentio de custoditis laudata 
+               <lb ed="#Ka"/>perfectio</quote>
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e180">
+               <ref xml:id="bHY6yh-d73926-Rd1e187">43 capitulo</ref> <quote xml:id="bHY6yh-d73926-Qd1e182">Que studiosius 
+               <lb ed="#Ka"/>diligimus</quote>
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e188">
+               <ref xml:id="bHY6yh-d73926-Rd1e199">libro 11 capitulo 1</ref> <quote xml:id="bHY6yh-d73926-Qd1e192">Cito expend<lb ed="#Ka" break="no"/>untur 
+               horrea que assidua non 
+               <lb ed="#Ka"/>fuerunt adiectione fulcita the<lb ed="#Ka" break="no"/>saurus 
+               ipse quam facile profunditur 
+               <lb ed="#Ka"/>si illis iterum peccuniis compleatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e202">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d73926-Rd1e215">Auctor liber qui dicitur facetus 
+               <lb ed="#Ka"/>capitulo 7</ref> <quote xml:id="bHY6yh-d73926-Qd1e206">Res leuis est querere sed re<lb ed="#Ka" break="no"/>tinere 
+               labor</quote>
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e213">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d73926-Rd1e228">Bertrandus in yconomica 
+               <lb ed="#Ka"/>capitulo 17</ref> <quote xml:id="bHY6yh-d73926-Qd1e217">Melius est grauem pati 
+               <lb ed="#Ka"/>famem quam patrimonii ven<lb ed="#Ka" break="no"/>ditionem</quote>
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e225">
+               <ref xml:id="bHY6yh-d73926-Rd1e243">26 capitulo</ref> // <quote xml:id="bHY6yh-d73926-Qd1e227">Si nobiles sunt 
+               <lb ed="#Ka"/>fratres melius est sepe eorum 
+               <lb ed="#Ka"/>permundum dispersio quam heredit<lb ed="#Ka" break="no"/>atis 
+               diuisio Nam sepe est eorum 
+               <lb ed="#Ka"/>grauis dissolutio huiusmodi hered<lb ed="#Ka" break="no"/>itatis 
+               diuisio</quote>
+            </p>
+            <p xml:id="bHY6yh-d73926-d1e237">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d73926-Rd1e259">IAcobus beneuentanus capitulo 52</ref> 
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d73926-Qd1e241">Rem bene custodi quod habes disper<lb ed="#Ka" break="no"/>gere 
+               noli Ne dispergaris et ue<lb ed="#Ka" break="no"/>lut 
+               exuleas Laus est magna 
+               <lb ed="#Ka"/>viro quasi conseruat et auget Obprobri<lb ed="#Ka" break="no"/>um 
+               contra si male tractet ea</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
