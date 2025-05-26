@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Rubrica 17</title>
+           <author ref="#per-c7y65a">Geremia da Montagnone</author>
+           <respStmt>
+              <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           <respStmt>
+              <name ref="erinkurian">Erin Kurian</name>
+              <resp>Transcription Editor</resp>
+              <resp>TEI Encoder</resp>
+           </respStmt>
+           </titleStmt>
+           <editionStmt>
+              <edition n="0.0.0-dev">
+                 <title>Rubrica 17</title>
+                 <date when="2025-05-18">May 18, 2025</date>
+              </edition>
+           </editionStmt>
+           <publicationStmt>
+              <authority>SCTA</authority>
+              <availability status="free">
+                 <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+                 </p>
+              </availability>
+           </publicationStmt>
+           <sourceDesc>
+           <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+           </listWit>
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+        <editorialDecl>
+           <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+      guidelines for a diplomatic edition.</p>
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc status="draft">
+        <listChange>
+           <change when="2025-05-18" status="draft" n="0.0.0">
+              <p>Created file for the first time.</p>
+           </change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+     <front>
+         <div xml:id="starts-on">
+           <pb ed="#Ka" n="147-r"/>
+           <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+     <body>
+         <div xml:id="bHY6yh-d67117"><!-- p3l6-r17 -->
+            <head xml:id="bHY6yh-d67117-Hd1e108">Rubrica 17</head>
+            <head xml:id="bHY6yh-d67117-Hd1e111" type="question-title">De electis locutionibus significantibus miserabilitatem</head>
+            <p xml:id="bHY6yh-d67117-d1e114">
+               <lb ed="#Ka" n="56"/>de electis locutionibus significan<lb ed="#Ka" break="no"/>tibus 
+               miserabilitatem Rubrica 17 
+            </p>
+            <p xml:id="bHY6yh-d67117-d1e123">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d67117-Rd1e124">OVidius epistolarum epistola 2</ref> <quote xml:id="bHY6yh-d67117-Qd1e131">Si pa<pb ed="#Ka" n="147-v"/><cb ed="#Ka" n="a"/><lb ed="#Ka" break="no"/>tior 
+               telis uulnera facta meis</quote>
+            </p>
+            <p xml:id="bHY6yh-d67117-d1e139"> 
+               <ref xml:id="bHY6yh-d67117-Rd1e137">epistola 6</ref> 
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d67117-Qd1e150">Non expectato uulnus ab hoste 
+               tulit</quote>
+            </p>
+            <p xml:id="bHY6yh-d67117-d1e154">
+               <ref xml:id="bHY6yh-d67117-Rd1e150">17</ref> <quote xml:id="bHY6yh-d67117-Qd1e158">Mittit abideus quam valet 
+               <lb ed="#Ka"/>ferre salutem</quote>
+            </p>
+            <p xml:id="bHY6yh-d67117-d1e164"> 
+               <ref xml:id="bHY6yh-d67117-Rd1e160">Idem de ponto libro 1 epistola 
+               <lb ed="#Ka"/>10 et finale</ref> <quote xml:id="bHY6yh-d67117-Qd1e166">Naso suo profugus mittit tibi 
+               <lb ed="#Ka"/>flacce salutem</quote>
+            </p>
+            <p xml:id="bHY6yh-d67117-d1e170">
+               <ref xml:id="bHY6yh-d67117-Rd1e174">Idem de tristibus libro 
+               <lb ed="#Ka"/>13 epistola 13</ref> <quote xml:id="bHY6yh-d67117-Qd1e178">Quotque tibi mittit non habet 
+               <lb ed="#Ka"/>ipse vale</quote>
+            </p>
+            <p xml:id="bHY6yh-d67117-d1e178">
+               <ref xml:id="bHY6yh-d67117-Rd1e185">libro 5 epistola 15</ref> <quote xml:id="bHY6yh-d67117-Qd1e182">ac cuius egemus 
+               <lb ed="#Ka"/>mittit tibi naso salutem Mittem 
+               <lb ed="#Ka"/>si quisquam quo caret ipse potest</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
