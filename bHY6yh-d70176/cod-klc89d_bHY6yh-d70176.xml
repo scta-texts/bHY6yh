@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 6</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+                <name ref="erinkurian">Erin Kurian</name>
+                <resp>Transcription Editor</resp>
+                <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 6</title>
+               <date when="2025-05-21">May 21, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-05-21" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="154-v"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front> 
+      <body>
+         <div xml:id="bHY6yh-d70176"><!-- p4l1-r6 -->
+            <head xml:id="bHY6yh-d70176-Hd1e108">Rubrica 6</head>
+            <head xml:id="bHY6yh-d70176-Hd1e111" type="question-title">De multitudinis acceptabilitate et reprobatione paucitatis</head>
+            <p xml:id="bHY6yh-d70176-d1e114">
+               <lb ed="#Ka" n="57"/>de multitudinis acceptabilita<lb ed="#Ka" break="no"/>te 
+               et reprobatione paucitatis Ru<lb ed="#Ka" break="no"/>brica
+               6
+            </p>
+            <p xml:id="bHY6yh-d70176-d1e121">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d70176-Rd1e118">SAlomon in prouerbiis capitulo 14</ref> 
+               <pb ed="#Ka" n="155-r"/>
+               <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d70176-Qd1e127">In multitudine populi dignitas re<lb ed="#Ka" break="no"/>gis 
+               et in paucitate plebis igno<lb ed="#Ka" break="no"/>rantia 
+               principis</quote> 
+            </p>
+            <p xml:id="bHY6yh-d70176-d1e135">
+              // <ref xml:id="bHY6yh-d70176-Rd1e135">ARistotiles po<lb ed="#Ka" break="no"/>liticorum 
+              libro 4 capitulo 9</ref> <quote xml:id="bHY6yh-d70176-Qd1e139">vbi multum quod inter<lb ed="#Ka" break="no"/>medium 
+              minime fiunt conturbationes 
+              <lb ed="#Ka"/>et dissessiones politiarum et m<lb ed="#Ka" break="no"/>agne 
+              ciuitates sunt magis fine 
+              <lb ed="#Ka"/>seditionibus propter eandem causam 
+              <lb ed="#Ka"/>quia multum quod medium In paruis 
+              <lb ed="#Ka"/>autem facile diuidere omnes in duo 
+              <lb ed="#Ka"/>ut nichil relinquatur medium et omnes vere 
+              <lb ed="#Ka"/>egeni vel opulenti sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d70176-d1e159">
+               // <ref xml:id="bHY6yh-d70176-Rd1e159">Idem topi<lb ed="#Ka" break="no"/>corum 
+               libro 3</ref> <quote xml:id="bHY6yh-d70176-Qd1e161">Magis eligenda est super<lb ed="#Ka" break="no"/>habundantie 
+               amicitie quam pecu<lb ed="#Ka" break="no"/>niarum</quote>
+            </p>
+            <p xml:id="bHY6yh-d70176-d1e169">
+               // <ref xml:id="bHY6yh-d70176-Rd1e174">Ouidius de arte aman<lb ed="#Ka" break="no"/>di 
+               libro 1 ante finale</ref> <quote xml:id="bHY6yh-d70176-Qd1e173">Qui sapis innum<lb ed="#Ka" break="no"/>eris 
+               moribus aptus eris</quote>
+            </p>
+            <p xml:id="bHY6yh-d70176-d1e183">
+               <ref xml:id="bHY6yh-d70176-Rd1e188">libro 2</ref> 
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d70176-Qd1e185">Sed que non prosunt singula multa Iu<lb ed="#Ka" break="no"/>uant</quote>
+            </p>
+            <p xml:id="bHY6yh-d70176-d1e191">
+              <ref xml:id="bHY6yh-d70176-Rd1e200">Cassiodorus epistolarum libro 6 epistola 11</ref> 
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d70176-Qd1e195">Constat felicem esse rem publi<lb ed="#Ka" break="no"/>cam 
+               que multis ciuibus resp<lb ed="#Ka" break="no"/>lendet 
+               ornata</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
