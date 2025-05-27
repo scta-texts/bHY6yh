@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 2</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 2</title>
+               <date when="2025-05-23">May 23, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-05-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#C" n="157-r"/>
+           <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e09685"><!-- p5l4-r2 -->
+            <head xml:id="bHY6yh-e09685-Hd1e108">Rubrica 2</head>
+            <head xml:id="bHY6yh-e09685-Hd1e111" type="question-title">De vite breuitate et quantitate</head>
+            <p xml:id="bHY6yh-e09685-d1e114">
+              De bre<!--line jumps down-->uitate uite ho<!--line jumps down-->minis
+            </p>
+            <p xml:id="bHY6yh-e09685-d1e119">
+              <lb ed="#C" n="7"/><ref xml:id="bHY6yh-e09685-Rd1e120">IOb historia 
+              <lb ed="#C"/>capitulo VIII</ref> <quote xml:id="bHY6yh-e09685-Qd1e122">Sciendis umbre 
+              <lb ed="#C"/>sunt et dies nostri super terram</quote>
+            </p>
+            <p xml:id="bHY6yh-e09685-d1e128"> 
+              ¶ <ref xml:id="bHY6yh-e09685-Rd1e132">Idem capitulo 
+              <lb ed="#C"/>XII</ref> <quote xml:id="bHY6yh-e09685-Qd1e130">Homo est breui uiuens tempore</quote>
+            </p>
+            <p xml:id="bHY6yh-e09685-d1e137"> 
+              <!--<ref xml:id="bHY6yh-e09685-Rd1e143"></ref> <quote xml:id="bHY6yh-e09685-Qd1e139"></quote>omitted-->
+            </p>
+            <p xml:id="bHY6yh-e09685-d1e145">
+              ¶ <ref xml:id="bHY6yh-e09685-Rd1e155">In genesi 
+              <lb ed="#C"/>capitulo 6</ref> <quote xml:id="bHY6yh-e09685-Qd1e149">Dixit deus erunt dies hominis centumuiginti XX 
+              <lb ed="#C"/>anorum</quote>
+            </p>
+            <p xml:id="bHY6yh-e09685-d1e155">
+              ¶ <ref xml:id="bHY6yh-e09685-Rd1e167">Palipemenon VIII capitulo 28 et penultimo</ref> 
+              <lb ed="#C"/><quote xml:id="bHY6yh-e09685-Qd1e159">Dies nostri etc.</quote>
+            </p>
+            <p xml:id="bHY6yh-e09685-d1e165">
+              ¶ <ref xml:id="bHY6yh-e09685-Rd1e179">Psalmista psalmo 89</ref> <quote xml:id="bHY6yh-e09685-Qd1e169">Anni nostri 
+              <lb ed="#C"/>sicud aranea etc. etc.</quote>
+            </p>
+            <p xml:id="bHY6yh-e09685-d1e181"> 
+              ¶ <ref xml:id="bHY6yh-e09685-Rd1e195">Idem C 75</ref> <quote xml:id="bHY6yh-e09685-Qd1e183">di<lb ed="#C" break="no"/>es 
+              hominis sicud umbra pretereunt</quote>
+            </p>
+            <p xml:id="bHY6yh-e09685-d1e189">
+              ¶ <ref xml:id="bHY6yh-e09685-Rd1e207">Yesus 
+              <lb ed="#C"/>filius sirach in ecclesiastico capitulo 18</ref> <quote xml:id="bHY6yh-e09685-Qd1e193">Numerus hominum dierum etc.</quote>
+            </p>
+            <p xml:id="bHY6yh-e09685-d1e202">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-e09685-Rd1e222">Tullius in oratione pro marco marcello</ref> <quote xml:id="bHY6yh-e09685-Qd1e206">quid 
+              <lb ed="#C"/>est hoc ipsum diu in quo est aliquid extremum 
+              <lb ed="#C"/>quod cum uenerit omnis uoluptas preterita 
+              <lb ed="#C"/>pro nichilo est quia nulla postea est futu<lb ed="#C" break="no"/>ra</quote>
+            </p>
+            <p>
+              ¶ <ref>Seneca epistolarum libro I epistola 3</ref> <quote>Nemo pont
+              <lb ed="#C"/>secura uita contingere qui de producendum
+              <lb ed="#C"/>mia precogitat</quote>
+            </p>
+            <p xml:id="bHY6yh-e09685-d1e218">
+              ¶ <ref xml:id="bHY6yh-e09685-Rd1e240">Idem libro 6 epistola 7 et 
+              <lb ed="#C"/>finali</ref> <quote xml:id="bHY6yh-e09685-Qd1e222">Punctum est quod uiuimus et adhuc 
+              <lb ed="#C"/>puncto minus.</quote>
+            </p>
+            <p>
+              <ref>Idem libro 19 epistola 8</ref> <quote>mil<lb ed="#C" break="no"/>eque 
+              tibi profiunt ad tempantiam omnium re<lb ed="#C" break="no"/>rum 
+              quam frequens cogitatio eui huius 
+              <lb ed="#C"/>incerti quicquid facies respice ad mor<lb ed="#C" break="no"/>tem 
+              ne senes inclinatos que iam <del>cap</del> vrgere</quote>
+            </p>
+            <p xml:id="bHY6yh-e09685-d1e230"> 
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-e09685-Rd1e252">Ibidem</ref> <quote xml:id="bHY6yh-e09685-Qd1e232">omnia humana breuia et cadu<lb ed="#C" break="no"/>ca 
+              sunt et infiniti temporis nullam partem occu<lb ed="#C" break="no"/>pantia</quote>
+            </p>
+            <p xml:id="bHY6yh-e09685-d1e240">
+              <ref xml:id="bHY6yh-e09685-Rd1e267">Lucanus libro 4</ref> <quote xml:id="bHY6yh-e09685-Qd1e244">Consulite extremis 
+              <lb ed="#C"/>agusto in tempore</quote>
+            </p>
+            <p xml:id="bHY6yh-e09685-d1e250">
+              ¶ <ref xml:id="bHY6yh-e09685-Rd1e279">Cato capitulo V et finali</ref> <quote xml:id="bHY6yh-e09685-Qd1e254">Tempora 
+              <lb ed="#C"/>longa etc.</quote>
+            </p>
+            <p xml:id="bHY6yh-e09685-d1e269">
+              ¶ <ref xml:id="bHY6yh-e09685-Rd1e293">Bernardus libro de contemptu mundi</ref> <quote xml:id="bHY6yh-e09685-Qd1e273">uita 
+              <lb ed="#C"/>breuis uelud umbra leuis sic annich<lb ed="#C" break="no"/>illatur 
+              Sic uadit subitoque cadit dum<lb ed="#C" break="no"/>stare 
+              putatur</quote>
+            </p>
+            <p xml:id="bHY6yh-e09685-d1e281">
+              ¶ <ref xml:id="bHY6yh-e09685-Rd1e308">Idem in libro de improbatio<lb ed="#C" break="no"/>ne 
+              <pb ed="#C" n="157-v"/>
+              <cb ed="#C" n="a"/>
+              <lb ed="#C"/><sic>uiciorum</sic> capitulo 9 et finali</ref> <quote xml:id="bHY6yh-e09685-Qd1e285">umbra uelut etc.</quote>
+            </p>
+            <p>
+              ¶ <ref>Ieronius in prolo</ref> <quote><unclear>pua</unclear> biblie ad fu<lb ed="#C" break="no"/>turem 
+              facile conceperint omnia qui se cogit<lb ed="#C" break="no"/>at
+              moriturum.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
