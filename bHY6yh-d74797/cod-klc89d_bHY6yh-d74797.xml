@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 12</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+                <name ref="erinkurian">Erin Kurian</name>
+                <resp>Transcription Editor</resp>
+                <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 12</title>
+               <date when="2025-05-26">May 26, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-05-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="165-r"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front> 
+      <body>
+         <div xml:id="bHY6yh-d74797"><!-- p4l2-r12 -->
+            <head xml:id="bHY6yh-d74797-Hd1e108">Rubrica 12</head>
+            <head xml:id="bHY6yh-d74797-Hd1e111" type="question-title">De exemplis acceptate paupertatis illustrium virorum</head>
+            <p xml:id="bHY6yh-d74797-d1e114">
+               <lb ed="#Ka" n="53"/>De Exemplis acceptate p<lb ed="#Ka" break="no"/>aupertatis 
+               Illustrium viror<lb ed="#Ka" break="no"/>um 
+               Rubrica duodeciam
+            </p>
+            <p xml:id="bHY6yh-d74797-d1e121">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d74797-Rd1e118">FRontinus libro 4 titulo 3</ref> <quote xml:id="bHY6yh-d74797-Qd1e127">Atilius 
+               <pb ed="#Ka" n="165-v"/>
+               <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/>regulus cum summis rebus profui<lb ed="#Ka" break="no"/>sset 
+               adeo pauper fuit ut se coniugem 
+               <lb ed="#Ka"/>liberos tolleratum agello qui // 
+               <lb ed="#Ka"/>colebatur per vnum uilicum Gneus 
+               <lb ed="#Ka"/>Stipio post res prospere gestas 
+               <lb ed="#Ka"/>in yspanio in summa paupertate 
+               <lb ed="#Ka"/>decessit ne ea quidem relicta pe<lb ed="#Ka" break="no"/>cunia 
+               que sufficeret in dotem sen<lb ed="#Ka" break="no"/>uorum 
+               quas ob in opiam pu<lb ed="#Ka" break="no"/>blice 
+               dotauit senatus curius cum 
+               <lb ed="#Ka"/>uictis ab eo sabinis ex senatus 
+               <lb ed="#Ka"/>consulto ampliaretur modus agri 
+               <lb ed="#Ka"/>gregorium partis contentus fuit 
+               <lb ed="#Ka"/>malum crimen dicens cui non esset 
+               <lb ed="#Ka"/>id quod ceteris satis lauimus qui tor
+               <lb ed="#Ka"/>mento capto non ytaliam solum 
+               <lb ed="#Ka"/>sed et prouinceam stabulis stat<lb ed="#Ka" break="no"/>uisque 
+               ordinauit adeo nichil ex<lb ed="#Ka" break="no"/>tantis 
+               manubiis in suum conuertit 
+               <lb ed="#Ka"/>ut filiam eius in opem senatus 
+               <lb ed="#Ka"/>ex publico dotauerit</quote> 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
