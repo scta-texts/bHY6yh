@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 20</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+                <name ref="erinkurian">Erin Kurian</name>
+                <resp>Transcription Editor</resp>
+                <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 20</title>
+               <date when="2025-05-25">May 25, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-05-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="149-r"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front> 
+      <body>
+         <div xml:id="bHY6yh-d67778"><!-- p3l6-r20 -->
+            <head xml:id="bHY6yh-d67778-Hd1e108">Rubrica 20</head>
+            <head xml:id="bHY6yh-d67778-Hd1e111" type="question-title">De facetis dictis exclusiuis verecundie imminentis</head>
+            <p xml:id="bHY6yh-d67778-d1e114">
+               <lb ed="#Ka" n="42"/>de facetis dictis exclusiuis uere<lb ed="#Ka" break="no"/>cundie 
+               imminentis Rubrica 20
+            </p>
+            <p xml:id="bHY6yh-d67778-d1e121">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d67778-Rd1e118">UAlerius maximus libro 3 titulo 
+               <lb ed="#Ka"/>desiducia sui</ref> // <quote xml:id="bHY6yh-d67778-Qd1e127">Spartanus 
+               <lb ed="#Ka"/>quidam increpitus a quodam
+               <lb ed="#Ka"/>quod in aciem claudus descenderet p<lb ed="#Ka" break="no"/>ugnare 
+               non sibi fugere propositum 
+               <lb ed="#Ka"/>esse respondit</quote>
+            </p>
+            <p xml:id="bHY6yh-d67778-d1e139"> 
+               <ref xml:id="bHY6yh-d67778-Rd1e137">libro 6 titulo // Grauiter 
+               <lb ed="#Ka"/>dicta aut facta</ref> // <quote xml:id="bHY6yh-d67778-Qd1e141">Spartanus 
+               <lb ed="#Ka"/>quidam nobilitate et sanctitate 
+               <lb ed="#Ka"/>prestans in petitione magistra<lb ed="#Ka" break="no"/>tus 
+               uictus maxime sibi letitie 
+               <lb ed="#Ka"/>predicauit et aliquos patria sua 
+               <lb ed="#Ka"/>se meliores haberet quo sermo<lb ed="#Ka" break="no"/>ne 
+               repulsam honori adequauit</quote>
+            </p>
+            <p xml:id="bHY6yh-d67778-d1e156">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d67778-Rd1e158">Iohannes Solobriensis anglicus 
+               <pb ed="#Ka" n="149-v"/>
+               <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/>in policratone libro 4</ref> <quote xml:id="bHY6yh-d67778-Qd1e160">Octauianus aug<lb ed="#Ka" break="no"/>ustus 
+               cum manus a corporis bre<lb ed="#Ka" break="no"/>uitatem 
+               conuiciatus cuiusdam imp<lb ed="#Ka" break="no"/>etu 
+               diceretur sibi calciamentis gr<lb ed="#Ka" break="no"/>acia
+               distolis vtendum esse respondit</quote>
+            </p>
+            <p xml:id="bHY6yh-d67778-d1e172">
+               <ref xml:id="bHY6yh-d67778-Rd1e177">libro 
+               <lb ed="#Ka"/>7</ref> <quote xml:id="bHY6yh-d67778-Qd1e176">Cicero consul cum in palatio dom<lb ed="#Ka" break="no"/>um 
+               eruere uellet et pecuniam in 
+               <lb ed="#Ka"/>presens non haberet assilla qui tunc reus 
+               <lb ed="#Ka"/>erat mutuo excertium intocies 
+               <lb ed="#Ka"/>accepit ea res priusquam eme<lb ed="#Ka" break="no"/>retur 
+               prodita est et in uulgus ex<lb ed="#Ka" break="no"/>iuit 
+               obiectum est ei quod pecuniam 
+               <lb ed="#Ka"/>domus emendecam aveo accepis<lb ed="#Ka" break="no"/>set 
+               tunc Cicero inopinata pro<lb ed="#Ka" break="no"/>bratione 
+               permoto accepisset se 
+               <lb ed="#Ka"/>negauit dicens se demum non 
+               <lb ed="#Ka"/>esse empturum atque ideo falsum 
+               <lb ed="#Ka"/>esse inquit quod obicitis ut verum 
+               <lb ed="#Ka"/>sit me pecuniam accepisse si do<lb ed="#Ka" break="no"/>mum 
+               emero sed cum postea emis<lb ed="#Ka" break="no"/>set 
+               et hoc mendatium ei in sena<lb ed="#Ka" break="no"/>tu 
+               ab amicis obiceretur risit satis 
+               <lb ed="#Ka"/>atque irridendo imprudentes in<lb ed="#Ka" break="no"/>quit 
+               homines estis cum ignoratis 
+               <lb ed="#Ka"/>prudentis et tanti patris fami<lb ed="#Ka" break="no"/>lias 
+               esse quod emere uelit in epturum 
+               <lb ed="#Ka"/>sese negare propter competitores emptio<lb ed="#Ka" break="no"/>nis 
+               sic itaque quod inficiari non poter<lb ed="#Ka" break="no"/>at 
+               vrbano faceto que dilluit dicto 
+               <lb ed="#Ka"/>familiare quidem habebat aut 
+               <cb ed="#Ka" n="b"/>
+               <lb ed="#Ka"/>quotiens obiectum turpe abne<lb ed="#Ka" break="no"/>gare 
+               non posset responsione retu<lb ed="#Ka" break="no"/>lari 
+               illud eluderet</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
