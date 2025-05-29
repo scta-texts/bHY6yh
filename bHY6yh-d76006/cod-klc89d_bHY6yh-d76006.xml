@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 15</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+                <name ref="erinkurian">Erin Kurian</name>
+                <resp>Transcription Editor</resp>
+                <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 15</title>
+               <date when="2025-05-29">May 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-05-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="168-v"/>
+            <cb ed="#Ka" n="a"/>
+         </div>
+      </front> 
+      <body>
+         <div xml:id="bHY6yh-d76006"><!-- p4l2-r15 -->
+            <head xml:id="bHY6yh-d76006-Hd1e108">Rubrica 15</head>
+            <head xml:id="bHY6yh-d76006-Hd1e111" type="question-title">De fruitione pecunie</head>
+            <p xml:id="bHY6yh-d76006-d1e114">
+               <lb ed="#Ka" n="4"/>de fruitione Pecunie 
+               <lb ed="#Ka"/>Rubrica 15
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d76006-Rd1e113">SAlomon in ecclesiastico capitulo 5</ref> // 
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d76006-Qd1e122">Omnis homini dedit decus 
+               <lb ed="#Ka"/>diuitias atque substantias potestatem<lb ed="#Ka" break="no"/>que 
+               tribuit ut commedat exeis<lb ed="#Ka" break="no"/>bibit
+               et fruatur parte et letetur de 
+               <lb ed="#Ka"/>labore suo hoc est donum dei</quote> //
+            </p>
+            <p xml:id="bHY6yh-d76006-d1e134">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d76006-Rd1e134">Aristotiles rethoricorum libro 1 capitulo 7</ref> <quote xml:id="bHY6yh-d76006-Qd1e138">di<lb ed="#Ka" break="no"/>uitem 
+               esse magis est quam possidere</quote>
+            </p>
+            <p xml:id="bHY6yh-d76006-d1e144">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d76006-Rd1e146">Seneca de beata vita</ref> <quote xml:id="bHY6yh-d76006-Qd1e148">diuitie a<lb ed="#Ka" break="no"/>pud 
+               sapientem virum in seruitute 
+               <lb ed="#Ka"/>sunt apud stultum et imperio</quote>
+            </p>
+            <p xml:id="bHY6yh-d76006-d1e155">
+               // <ref xml:id="bHY6yh-d76006-Rd1e159">Auc<lb ed="#Ka" break="no"/>tor 
+               liber de forma honeste vi<lb ed="#Ka" break="no"/>te 
+               <lb ed="#Ka"/>capitulo 2</ref> <quote xml:id="bHY6yh-d76006-Qd1e159">Non que apud te habes 
+               <lb ed="#Ka"/>atque aliena seruabis sed pro te tan<lb ed="#Ka" break="no"/>quam 
+               tua /dispones et vtaris</quote> //
+            </p>
+            <p xml:id="bHY6yh-d76006-d1e167">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d76006-Rd1e173">Cato capitulo 3</ref> <quote xml:id="bHY6yh-d76006-Qd1e171">fac sumptum propere cum 
+               <lb ed="#Ka"/>res desiderat ipse</quote>
+            </p>
+            <p xml:id="bHY6yh-d76006-d1e177"> 
+               <ref xml:id="bHY6yh-d76006-Rd1e183">capitulo 5 et finale</ref> <quote xml:id="bHY6yh-d76006-Qd1e179">vtere 
+               <lb ed="#Ka"/>quesitis opibus fuge nomen aua<lb ed="#Ka" break="no"/>ri
+               Quid tibi diuitie proficut si p<lb ed="#Ka" break="no"/>auper 
+               habundas</quote>
+            </p>
+            <p xml:id="bHY6yh-d76006-d1e187">
+               // <ref xml:id="bHY6yh-d76006-Rd1e197">Uersificator fa<lb ed="#Ka" break="no"/>bularum 
+               esopi fabula 12</ref> <quote xml:id="bHY6yh-d76006-Qd1e191">Tristior in m<lb ed="#Ka" break="no"/>ensa 
+               pauperat vsus opes</quote>
+            </p>
+            <p xml:id="bHY6yh-d76006-d1e197">
+               <ref xml:id="bHY6yh-d76006-Rd1e209">Fabula 
+               <lb ed="#Ka"/>27</ref> <quote xml:id="bHY6yh-d76006-Qd1e201">Pauperius nichil est quam 
+               <lb ed="#Ka"/>miser vsus opes</quote> //
+            </p>
+            <p xml:id="bHY6yh-d76006-d1e213">
+               <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d76006-Rd1e227">Auctor liber qui dicitur facetus capitulo 2</ref> <quote xml:id="bHY6yh-d76006-Qd1e217">Sit 
+               <lb ed="#Ka"/>bene vestitus cui non sit parua suppel<lb ed="#Ka" break="no"/>lex
+               Et culte uiuat potibus atque cibis</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
