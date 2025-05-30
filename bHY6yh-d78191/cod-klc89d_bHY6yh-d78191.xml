@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+                <name ref="erinkurian">Erin Kurian</name>
+                <resp>Transcription Editor</resp>
+                <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4</title>
+               <date when="2025-05-29">May 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-05-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="173-r"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front> 
+      <body>
+         <div xml:id="bHY6yh-d78191"><!-- p4l3-r4 -->
+            <head xml:id="bHY6yh-d78191-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-d78191-Hd1e111" type="question-title">De arrogantia: insolentia: iactantia et vanagloria</head>
+            <p xml:id="bHY6yh-d78191-d1e114">
+              <lb ed="#Ka" n="55"/>de arrogantia insolentia Iac<lb ed="#Ka" break="no"/>tantia 
+              et uana gloria Rubrica 4
+            </p>
+            <p xml:id="bHY6yh-d78191-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d78191-Rd1e118">SAlomon in prouerbiis capitulo 16</ref> 
+              <pb ed="#Ka" n="173-v"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d78191-Qd1e127">ab hominatio domini est omnis arro<lb ed="#Ka" break="no"/>gans</quote> 
+            </p>
+            <p xml:id="bHY6yh-d78191-d1e135"> 
+              <ref xml:id="bHY6yh-d78191-Rd1e133">28 capitulo</ref> <quote xml:id="bHY6yh-d78191-Qd1e137">Qui se iactat et dila<lb ed="#Ka" break="no"/>tat
+              iurgia concitat</quote>
+            </p>
+            <p xml:id="bHY6yh-d78191-d1e144"> 
+              <ref xml:id="bHY6yh-d78191-Rd1e144">Idem in ecclesia<lb ed="#Ka" break="no"/>stice 
+              capitulo 7</ref> <quote xml:id="bHY6yh-d78191-Qd1e146">Melior est patiens ar<lb ed="#Ka" break="no"/>rogante</quote>
+            </p>
+            <p xml:id="bHY6yh-d78191-d1e152">
+              // <ref xml:id="bHY6yh-d78191-Rd1e156">Aristoteles magnorum 
+              <lb ed="#Ka"/>moralium libro 1 capitulo 52</ref> <quote xml:id="bHY6yh-d78191-Qd1e156">Iactantior est 
+              <lb ed="#Ka"/>plus eis que sunt sibi fingens
+              <lb ed="#Ka"/>esse aut scire que non sciuit</quote>
+            </p>
+            <p xml:id="bHY6yh-d78191-d1e164">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d78191-Rd1e170">Oratius in poetria</ref> <quote xml:id="bHY6yh-d78191-Qd1e168">parturieut m<lb ed="#Ka" break="no"/>ontes 
+              nascetur ridiculus unus</quote>
+            </p>
+            <p xml:id="bHY6yh-d78191-d1e174">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d78191-Rd1e182">Tulius rethoricorum artis veteris libro 
+              <lb ed="#Ka"/>1 capitulo 12</ref> <quote xml:id="bHY6yh-d78191-Qd1e178">Ex arrogantia odium solet 
+              <lb ed="#Ka"/>venire ex insolentia arroganti<lb ed="#Ka" break="no"/>a</quote>
+            </p>
+            <p xml:id="bHY6yh-d78191-d1e186">
+              <ref xml:id="bHY6yh-d78191-Rd1e196">Quintilianus declamationum 8 declama</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d78191-Qd1e190">In solentia in meritam quoque 
+              <lb ed="#Ka"/>potentiam carpit</quote>
+            </p>
+            <p xml:id="bHY6yh-d78191-d1e202"> 
+              <ref xml:id="bHY6yh-d78191-Rd1e213">17 et finale declama</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d78191-Qd1e204">pars voluptatis videtur esse Iactantia</quote>
+            </p>
+            <p xml:id="bHY6yh-d78191-d1e211">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d78191-Rd1e226">Seneca epistolarum ad lucillum libro 12 
+              <lb ed="#Ka"/>epistola 2 et finale</ref> <quote xml:id="bHY6yh-d78191-Qd1e215">diuitie insolentiam dant 
+              <lb ed="#Ka"/>nichil est alliud in solentia quam 
+              <lb ed="#Ka"/>spes false magnitudinis</quote>
+            </p>
+            <p xml:id="bHY6yh-d78191-d1e223">
+              <ref xml:id="bHY6yh-d78191-Rd1e241">Idem 
+              <lb ed="#Ka"/>de remediis fortuitorum capitulo 12 et finale</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d78191-Qd1e227">facilius reges et animum nulla 
+              <lb ed="#Ka"/>uanitate rerum tumentium</quote>
+            </p>
+            <p xml:id="bHY6yh-d78191-d1e235">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d78191-Rd1e256">Auctor liber de forma honeste 
+              <lb ed="#Ka"/>vite capitulo 2</ref> <quote xml:id="bHY6yh-d78191-Qd1e239">Non eris arrogans
+              <lb ed="#Ka"/>Que nosti sine arrogantia pos<lb ed="#Ka" break="no"/>tolanti 
+              in parties</quote>
+            </p>
+            <p xml:id="bHY6yh-d78191-d1e247">
+              <ref xml:id="bHY6yh-d78191-Rd1e273">Boetius 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>in topicis libro 3</ref> <quote xml:id="bHY6yh-d78191-Qd1e251">Ex arrogantia fit 
+              <lb ed="#Ka"/>quisque odiosus</quote>
+            </p>
+            <p xml:id="bHY6yh-d78191-d1e257">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d78191-Rd1e285">ISydorus soliloquiorum libro 2 capitulo 13</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d78191-Qd1e261">Caue maius glorie studium non 
+              <lb ed="#Ka"/>te arroges non te Iactes non 
+              <lb ed="#Ka"/>te in solenter extollas</quote>
+            </p>
+            <p xml:id="bHY6yh-d78191-d1e269"> 
+              <ref xml:id="bHY6yh-d78191-Rd1e297">28 capitulo</ref> <quote xml:id="bHY6yh-d78191-Qd1e271">Ma<lb ed="#Ka" break="no"/>gnus 
+              nunquam videri studeas</quote>
+            </p>
+            <p xml:id="bHY6yh-d78191-d1e278"> 
+              <ref xml:id="bHY6yh-d78191-Rd1e308">44 capitulo</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d78191-Qd1e280">Superiori equalem te non exihi<lb ed="#Ka" break="no"/>beas</quote>
+            </p>
+            <p xml:id="bHY6yh-d78191-d1e286">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d78191-Rd1e320">Bernhardus de improbatione viti<lb ed="#Ka" break="no"/>orum 
+              capitulo 2</ref> <quote xml:id="bHY6yh-d78191-Qd1e290">vana superborum uacu<lb ed="#Ka" break="no"/>at 
+              Iactantia mentem</quote>
+            </p>
+            <p xml:id="bHY6yh-d78191-d1e296">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d78191-Rd1e333">Gaufredus in poetria capitulo 21</ref> <quote xml:id="bHY6yh-d78191-Qd1e300">Cum 
+              <lb ed="#Ka"/>fueris maior aliis te finge mi<lb ed="#Ka" break="no"/>norem 
+              et de te mentire tibi nec sit
+              <lb ed="#Ka"/>in abissum deitias alios ut te 
+              <lb ed="#Ka"/>semper in hethera tollas vincat 
+              <lb ed="#Ka"/>opus verbus minuit iactantia 
+              <lb ed="#Ka"/>famam</quote>
+            </p>
+            <p xml:id="bHY6yh-d78191-d1e312">
+              <ref xml:id="bHY6yh-d78191-Rd1e351">capitulo 24</ref> <quote xml:id="bHY6yh-d78191-Qd1e316">vtere consilio 
+              <lb ed="#Ka"/>licet omnia noueris vnus //
+              <lb ed="#Ka"/>Maior in hoc aliis in verbis sis tum 
+              <lb ed="#Ka"/>vnus // Ex aliis nec sis elati sed 
+              <lb ed="#Ka"/>socialis Eloquii vetere clamat 
+              <lb ed="#Ka"/>doctrina loquaris vt plures sa<lb ed="#Ka" break="no"/>pias 
+              ut pauci</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
