@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 16</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+                <name ref="erinkurian">Erin Kurian</name>
+                <resp>Transcription Editor</resp>
+                <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 16</title>
+               <date when="2025-06-01">June 1, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-06-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="182-v"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front> 
+      <body>
+         <div xml:id="bHY6yh-d82102"><!-- p4l3-r16 -->
+            <head xml:id="bHY6yh-d82102-Hd1e108">Rubrica 16</head>
+            <head xml:id="bHY6yh-d82102-Hd1e111" type="question-title">De reuerentia et honorificatione</head>
+            <p xml:id="bHY6yh-d82102-d1e114">
+              <lb ed="#Ka" n="47"/>de Reuerentia et honori<lb ed="#Ka" break="no"/>ficatione 
+              Rubrica 16 
+            </p>
+            <p xml:id="bHY6yh-d82102-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d82102-Rd1e118">IN leuitico capitulo 19</ref> <quote xml:id="bHY6yh-d82102-Qd1e125">Coram 
+              <lb ed="#Ka"/>cano capite consurge 
+              <lb ed="#Ka"/>et honora personam senis</quote>
+            </p>
+            <p xml:id="bHY6yh-d82102-d1e135">
+              // <ref xml:id="bHY6yh-d82102-Rd1e134">Cronica 
+              <lb ed="#Ka"/>de nugis philosophorum capitulo 4 scilicet de chilone</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d82102-Qd1e139">Chilo lacedemonius qui fuit vnus 
+              <lb ed="#Ka"/>de septem sapientibus videbat senum 
+              <lb ed="#Ka"/>honorari</quote>
+            </p>
+            <p xml:id="bHY6yh-d82102-d1e148">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d82102-Rd1e150">Aristotiles rethoricorum libro 1 capitulo 5</ref> 
+              <pb ed="#Ka" n="183-r"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d82102-Qd1e152">Irreuerenda est paruipensio et 
+              <lb ed="#Ka"/>despectus quos enim multum despicimus 
+              <lb ed="#Ka"/>non reueremur</quote>
+            </p>
+            <p xml:id="bHY6yh-d82102-d1e160"> 
+              <ref xml:id="bHY6yh-d82102-Rd1e162">libro 2 captiulo 17</ref> <quote xml:id="bHY6yh-d82102-Qd1e162">Reuerentio<lb ed="#Ka" break="no"/>res 
+              facit dignitas reuerentia 
+              <lb ed="#Ka"/>est mollis et decens grauitas</quote>
+            </p>
+            <p xml:id="bHY6yh-d82102-d1e170"> 
+              <ref xml:id="bHY6yh-d82102-Rd1e175">libro 
+              <lb ed="#Ka"/>3 et finali capitulo 16</ref> <quote xml:id="bHY6yh-d82102-Qd1e172">oportet bonos hon<lb ed="#Ka" break="no"/>orari</quote>
+            </p>
+            <p xml:id="bHY6yh-d82102-d1e178"> 
+              <ref xml:id="bHY6yh-d82102-Rd1e186">Idem politicorum libro 1 capitulo 7</ref> <quote xml:id="bHY6yh-d82102-Qd1e180">Ra<lb ed="#Ka" break="no"/>tionabiliter 
+              preparantur honori nobi<lb ed="#Ka" break="no"/>les 
+              et diuites</quote>
+            </p>
+            <p xml:id="bHY6yh-d82102-d1e188">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d82102-Rd1e204">Ihesus filius syrach in ecclesiastico 
+              <lb ed="#Ka"/>capitulo 11</ref> <quote xml:id="bHY6yh-d82102-Qd1e192">In medio seruorum ne adicias 
+              <lb ed="#Ka"/>loqui</quote>
+            </p>
+            <p xml:id="bHY6yh-d82102-d1e198"> 
+              <ref xml:id="bHY6yh-d82102-Rd1e214">32 capitulo</ref> <quote xml:id="bHY6yh-d82102-Qd1e200">loquere maiorum 
+              <lb ed="#Ka"/>natu decet enim te adolescens loque<lb ed="#Ka" break="no"/>re 
+              in tua causa vix ibi sunt sen<lb ed="#Ka" break="no"/>es 
+              non multum loquarum</quote>
+            </p>
+            <p xml:id="bHY6yh-d82102-d1e211"> 
+              // <ref xml:id="bHY6yh-d82102-Rd1e230">37 capitulo</ref> <quote xml:id="bHY6yh-d82102-Qd1e213">ho<lb ed="#Ka" break="no"/>nora 
+              medicum propter necessitatem
+              <lb ed="#Ka"/>fecit enim eum dominis</quote>
+            </p>
+            <p xml:id="bHY6yh-d82102-d1e219">
+              // <ref xml:id="bHY6yh-d82102-Rd1e242">Tulius 
+              <lb ed="#Ka"/>rethoricorum artis veteris libro 2</ref> <quote xml:id="bHY6yh-d82102-Qd1e223">ob<lb ed="#Ka" break="no"/>seruantia 
+              est per quam homines 
+              <lb ed="#Ka"/>aliqua dignitate antecedentes cul<lb ed="#Ka" break="no"/>tu 
+              quodam et honore dingni<lb ed="#Ka" break="no"/>tatum 
+              dignantur</quote>
+            </p>
+            <p xml:id="bHY6yh-d82102-d1e233">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d82102-Rd1e258">Petrus apostolus in epistola</ref> <quote xml:id="bHY6yh-d82102-Qd1e237">omnes 
+              honorare regem glorificate</quote>
+            </p>
+            <p xml:id="bHY6yh-d82102-d1e243">
+              <ref xml:id="bHY6yh-d82102-Rd1e270">Pa<lb ed="#Ka" break="no"/>ulus 
+              apostolus in epistola 1 ad thymoth<lb ed="#Ka" break="no"/>eum 
+              epistola 5</ref> <quote xml:id="bHY6yh-d82102-Qd1e247">Seniorem ne increpa<lb ed="#Ka" break="no"/>ueris 
+              sed obsecrant patrem</quote>
+            </p>
+            <p xml:id="bHY6yh-d82102-d1e255">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d82102-Rd1e285">Lex digestorum titulo de obsequiis a liberis 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>et libertis libro antepenultimo</ref> <quote xml:id="bHY6yh-d82102-Qd1e259">liberto et fi<lb ed="#Ka" break="no"/>lio 
+              semper honesta et sancta persona 
+              <lb ed="#Ka"/>patris et patroni uidere debet</quote>
+            </p>
+            <p xml:id="bHY6yh-d82102-d1e269"> 
+              <ref xml:id="bHY6yh-d82102-Rd1e300">titulo de 
+              <lb ed="#Ka"/>iure in munitatis libro semper in prin<lb ed="#Ka" break="no"/>cipio</ref> 
+              <quote xml:id="bHY6yh-d82102-Qd1e271">Iabolenus Iuris consultus 
+              <lb ed="#Ka"/>tuus romanus ait Semper in ci<lb ed="#Ka" break="no"/>uitate 
+              nostra senatus venerabilis 
+              <lb ed="#Ka"/>fuit namque maiores nostri pene 
+              <lb ed="#Ka"/>eundem senibus honorem quem 
+              <lb ed="#Ka"/>magistratibus tribuebant</quote>
+            </p>
+            <p xml:id="bHY6yh-d82102-d1e293">
+              <ref xml:id="bHY6yh-d82102-Rd1e329">Uale<lb ed="#Ka" break="no"/>rius 
+              maximus libro 2 titulo de institu<lb ed="#Ka" break="no"/>tis 
+              antiquis</ref> <quote xml:id="bHY6yh-d82102-Qd1e297">Senatui iuuentus 
+              <lb ed="#Ka"/>ita tumulatum et circumspectum hono<lb ed="#Ka" break="no"/>rem 
+              reddebat tamquam maiores 
+              <lb ed="#Ka"/>natu adolescentium communes patres
+              <lb ed="#Ka"/>essent Quo circa Iuuenes ea die 
+              <lb ed="#Ka"/>qua consilium celebrabat senatus 
+              <lb ed="#Ka"/>conueniebant ut aliquem ex patribus 
+              <lb ed="#Ka"/>conscriptis aut propinquum aut patrium 
+              <lb ed="#Ka"/>micum adimam ducerent affixi<lb ed="#Ka" break="no"/>que 
+              valuis expectabant donec 
+              <lb ed="#Ka"/>reducendi etiam officio funge<lb ed="#Ka" break="no"/>rentur 
+              qua quidem voluntaria 
+              <lb ed="#Ka"/>statione et corpora et animos 
+              <lb ed="#Ka"/>ad publica officia impigre susti<lb ed="#Ka" break="no"/>nenda
+              roborabant breuique pro<lb ed="#Ka" break="no"/>cessu 
+              morarum in luce virtutum suarum 
+              <lb ed="#Ka"/>verecunda laboris meditatione 
+              <pb ed="#Ka" n="183-v"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>Ipsi doctores erant</quote>
+            </p>
+            <p xml:id="bHY6yh-d82102-d1e331">
+              <ref xml:id="bHY6yh-d82102-Rd1e370">Boetius de con<lb ed="#Ka" break="no"/>solatione 
+              libro 3 capitulo 7</ref> <quote xml:id="bHY6yh-d82102-Qd1e335">Non possumus ad
+              <lb ed="#Ka"/>honores reuerentia dignos iu<lb ed="#Ka" break="no"/>dicare 
+              quos ipsos honoribus iudicamus 
+              <lb ed="#Ka"/>indignos</quote>
+            </p>
+            <p xml:id="bHY6yh-d82102-d1e345">
+              <ref xml:id="bHY6yh-d82102-Rd1e386">Isydorus in synonima 
+              <lb ed="#Ka"/>soliloquiorum libro 2</ref> <quote xml:id="bHY6yh-d82102-Qd1e349">Superiori equalem 
+              <lb ed="#Ka"/>te non exibeas</quote>
+            </p>
+            <p xml:id="bHY6yh-d82102-d1e355">
+              <ref xml:id="bHY6yh-d82102-Rd1e399">Auctor liber qui 
+              <lb ed="#Ka"/>dicitur facetus capitulo 4</ref> <quote xml:id="bHY6yh-d82102-Qd1e359">Inter maiores ca<lb ed="#Ka" break="no"/>ueas 
+              ne multa loqueris</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
