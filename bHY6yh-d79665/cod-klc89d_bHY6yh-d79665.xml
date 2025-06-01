@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+                <name ref="erinkurian">Erin Kurian</name>
+                <resp>Transcription Editor</resp>
+                <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10</title>
+               <date when="2025-05-31">May 31, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-05-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="176-v"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front> 
+      <body>
+         <div xml:id="bHY6yh-d79665"><!-- p4l3-r10 -->
+            <head xml:id="bHY6yh-d79665-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-d79665-Hd1e111" type="question-title">De famulis et domesticis</head>
+            <p xml:id="bHY6yh-d79665-d1e114">
+               <lb ed="#Ka" n="54"/>de Famulis et domesti<lb ed="#Ka" break="no"/>cis 
+               Rubrica decima et cetera
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e119">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d79665-Rd1e116">SAlomon in prouerbiis 
+               <lb ed="#Ka"/>capitulo finali 15</ref> <quote xml:id="bHY6yh-d79665-Qd1e125">Conturbat do<lb ed="#Ka" break="no"/>mum 
+               suam qui sectatur auarici<lb ed="#Ka" break="no"/>am</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e131">
+               <ref xml:id="bHY6yh-d79665-Rd1e131">Socrates in exortationibus 
+               <lb ed="#Ka"/>capitulo 2</ref> <quote xml:id="bHY6yh-d79665-Qd1e135">Esto adherentibus tractabilis 
+               <pb ed="#Ka" n="177-r"/>
+               <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/>Non sublimis nam despicientium 
+               <lb ed="#Ka"/>timorem uix equidem tollerabunt 
+               <lb ed="#Ka"/>serui modum uero tractabilium cuncti 
+               <lb ed="#Ka"/>ferunt alacriter</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e148">
+               ¶ <ref xml:id="bHY6yh-d79665-Rd1e151">Ihesus filius sy<lb ed="#Ka" break="no"/>rach 
+               in ecclesiastico capitulo 4</ref> <quote xml:id="bHY6yh-d79665-Qd1e152">noli esse sicut 
+               <lb ed="#Ka"/>leo in domo tua euortens dom<lb ed="#Ka" break="no"/>esticos 
+               tuos et opprimens subduos 
+               <lb ed="#Ka"/>tibi</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e160">
+               ¶ <ref xml:id="bHY6yh-d79665-Rd1e165">Seneca epistolarum ad lucillum 
+               <lb ed="#Ka"/>libro 18 epistola 5</ref> <quote xml:id="bHY6yh-d79665-Qd1e164">Timeri tam domu quam 
+               <lb ed="#Ka"/>foris molestum est tam aseruis 
+               <lb ed="#Ka"/>quam a liberis</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e172"> 
+               ¶ <ref xml:id="bHY6yh-d79665-Rd1e178">Idem de breuitate fi<lb ed="#Ka" break="no"/>de</ref> 
+               <quote xml:id="bHY6yh-d79665-Qd1e174">eorum miseria est conditio qui 
+               <lb ed="#Ka"/>nec suis quidem laborant occu<lb ed="#Ka" break="no"/>pationibus 
+               ad alienum dormiunt 
+               <lb ed="#Ka"/>comedunt appetitum</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e186">
+               ¶ <ref xml:id="bHY6yh-d79665-Rd1e197">Boetius de con<lb ed="#Ka" break="no"/>solatione 
+               libro 3 capitulo 9</ref> <quote xml:id="bHY6yh-d79665-Qd1e190">Que pestis est 
+               <lb ed="#Ka"/>efficacior ad nocendum quam famili<lb ed="#Ka" break="no"/>aris 
+               inimicus</quote>
+            </p>
+            <p xml:id="bHY6yh-d79665-d1e198">
+              ¶ <ref xml:id="bHY6yh-d79665-Rd1e211">Bertrandus
+              <lb ed="#Ka"/>in yconomica capitulo 15</ref> <quote xml:id="bHY6yh-d79665-Qd1e202">famulum alti cor<lb ed="#Ka" break="no"/>dis 
+              repelle ut futurum inimicum 
+              <lb ed="#Ka"/>famulum tuis omnibus blandi<lb ed="#Ka" break="no"/>entem 
+              repelle famulum de facili se 
+              <lb ed="#Ka"/>verecundante diliget filium</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
