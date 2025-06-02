@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 3</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+                <name ref="erinkurian">Erin Kurian</name>
+                <resp>Transcription Editor</resp>
+                <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 3</title>
+               <date when="2025-06-01">June 1, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-06-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="185-v"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front> 
+      <body>
+         <div xml:id="bHY6yh-d83245"><!-- p4l4-r3 -->
+            <head xml:id="bHY6yh-d83245-Hd1e108">Rubrica 3</head>
+            <head xml:id="bHY6yh-d83245-Hd1e111" type="question-title">De delectatione variationis vsus rerum et tedio continuationis</head>
+            <p xml:id="bHY6yh-d83245-d1e114">
+               <lb ed="#Ka" n="31"/>de musicali delectatione 
+               <lb ed="#Ka"/>Rubrica 3
+            </p>
+            <p xml:id="bHY6yh-d83245-d1e119">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d83245-Rd1e116">ARistotiles politicorum libro 8 
+               <lb ed="#Ka"/>capitulo 2</ref> <quote xml:id="bHY6yh-d83245-Qd1e127">ait ut musicos esse 
+               <lb ed="#Ka"/>omnibus hominibus delectabilissimum 
+               <lb ed="#Ka"/>cantare habet musica delectationem 
+               <lb ed="#Ka"/>naturalem propter quod omnibus etatibus 
+               <lb ed="#Ka"/>et omnibus moribus vsus ipsius 
+               <lb ed="#Ka"/>est amicus</quote> 
+            </p>
+            <p xml:id="bHY6yh-d83245-d1e139">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d83245-Rd1e142">Ihesus filius syrach in ecclestastico 
+               <lb ed="#Ka"/>capitulo 40</ref> <quote xml:id="bHY6yh-d83245-Qd1e143">vinum et musica letificant 
+               <lb ed="#Ka"/>cor</quote>
+            </p>
+            <p xml:id="bHY6yh-d83245-d1e150"> 
+               <ref xml:id="bHY6yh-d83245-Rd1e153">Tube et psalterium suauem faci<lb ed="#Ka" break="no"/>unt 
+               melodiam</ref> <quote xml:id="bHY6yh-d83245-Qd1e152">super utroque lingua 
+               <lb ed="#Ka"/>suauis</quote>
+            </p>
+            <p xml:id="bHY6yh-d83245-d1e160">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d83245-Rd1e168">Tulius de Oratore libro 3 et finali</ref> <quote xml:id="bHY6yh-d83245-Qd1e164">due sunt 
+               <lb ed="#Ka"/>res que permulcent aures sonus 
+               <lb ed="#Ka"/>et numerus omnium longitu<lb ed="#Ka" break="no"/>dinum 
+               et breuitatum in sonus sunt  
+               <lb ed="#Ka"/>grauiumque notum iudicium ipsa natura 
+               <lb ed="#Ka"/>in auribus nostris collocauit versus 
+               <lb ed="#Ka"/>ratione non est cognitus sed natura atque 
+               <lb ed="#Ka"/>sensu quam dimensuratio docuit 
+               <lb ed="#Ka"/>quid accederit ita notatio nature 
+               <lb ed="#Ka"/>et animo aduerso peperit artem</quote>
+            </p>
+            <p xml:id="bHY6yh-d83245-d1e185">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d83245-Rd1e195">Macrobius de sompno scipionis</ref> <quote xml:id="bHY6yh-d83245-Qd1e189">omnis 
+               <lb ed="#Ka"/>anima musicis somnis capitur // Musica 
+               <pb ed="#Ka" n="186-r"/>
+               <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/>capitur omne quod viuit</quote>
+            </p>
+            <p xml:id="bHY6yh-d83245-d1e203"> 
+               <ref xml:id="bHY6yh-d83245-Rd1e213">Idem saturnali<lb ed="#Ka" break="no"/>orum 
+               libro 3 in prohemio orator verba 
+               <lb ed="#Ka"/>prius libera sub numeriis prius ire 
+               <lb ed="#Ka"/>coegit</ref>
+            </p>
+            <p xml:id="bHY6yh-d83245-d1e213">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d83245-Rd1e225">Boetius de musica libro 1 capitulo 1</ref> <quote xml:id="bHY6yh-d83245-Qd1e217">Nullo 
+               <lb ed="#Ka"/>animo est etasque acantilene dulcis dele<lb ed="#Ka" break="no"/>ctatione 
+               se iuncta sit ut sese corporis 
+               <lb ed="#Ka"/>affectus habent ita etiam pulsus 
+               <lb ed="#Ka"/>cordis motibus incitantur Cum 
+               <lb ed="#Ka"/>cantico quodam dulcior fit causa 
+               <lb ed="#Ka"/>deflendi et qui suauiter canere non 
+               <lb ed="#Ka"/>potest sibi cum aliquid canit secundum 
+               <lb ed="#Ka"/>quod quondam nisi tam dulcedinem 
+               <lb ed="#Ka"/>ex animo proferentes que quomodo 
+               <lb ed="#Ka"/>proferant delectantur Magnificum 
+               <lb ed="#Ka"/>est in bello pugnantium animos 
+               <lb ed="#Ka"/>tubarum carmen attendi non est 
+               <lb ed="#Ka"/>dubium quin conturbate mentis iracun<lb ed="#Ka" break="no"/>diam 
+               vel nimiam cupiditatem 
+               <lb ed="#Ka"/>modestior modus possit abstringere 
+               <lb ed="#Ka"/>Cum aliquis cantilenam lib<lb ed="#Ka" break="no"/>entius 
+               auribus atque animo capit 
+               <lb ed="#Ka"/>ad id etiam non sponte conuertitur 
+               <lb ed="#Ka"/>ut modum quoque aliquem similem 
+               <lb ed="#Ka"/>audite cantilene corpus efficiat</quote>
+            </p>
+            <p xml:id="bHY6yh-d83245-d1e257"> 
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d83245-Rd1e272">vltimo capitulo</ref> <quote xml:id="bHY6yh-d83245-Qd1e259">Genus poetarum non potius 
+               <lb ed="#Ka"/>speculatione ac ratione quam naturali quod
+               <lb ed="#Ka"/>instinctu fertur ad carmen</quote>
+            </p>
+            <p xml:id="bHY6yh-d83245-d1e268">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d83245-Rd1e287">Cassiodorus epistolarum libro 2 epistola 20</ref> 
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d83245-Qd1e272">Musica tristitiam uox iam iocun<lb ed="#Ka" break="no"/>dat 
+               ti midos furores attenuat 
+               <lb ed="#Ka"/>cruenta seuitiam efficit blandam 
+               <lb ed="#Ka"/>excitat ignauiam saporan<lb ed="#Ka" break="no"/>tem 
+               langore vigilantibus red<lb ed="#Ka" break="no"/>dat 
+               salubrinam quietem vicia<lb ed="#Ka" break="no"/>tam 
+               turpi amore ad honestum 
+               <lb ed="#Ka"/>studium reuocat castitatem sanat 
+               <lb ed="#Ka"/>mentis tedium bonis cogitationi<lb ed="#Ka" break="no"/>bus 
+               semper aduersum pernitiosa 
+               <lb ed="#Ka"/>odia conuertit ad auxiliatricem
+               <lb ed="#Ka"/>gratiam et quid beatum genus cur<lb ed="#Ka" break="no"/>ationis 
+               est per dulcissimas vol<lb ed="#Ka" break="no"/>uptates 
+               expellit cum passiones 
+               <lb ed="#Ka"/>nichil efficacius in uentum 
+               <lb ed="#Ka"/>ad promouendum animos quam con<lb ed="#Ka" break="no"/>caue 
+               cythare blanda resultatio 
+               <lb ed="#Ka"/>hinc etiam appella existimamus 
+               <lb ed="#Ka"/>cordam quod facile corda moueat</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
