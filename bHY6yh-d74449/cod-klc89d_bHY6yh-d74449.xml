@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+                <name ref="erinkurian">Erin Kurian</name>
+                <resp>Transcription Editor</resp>
+                <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10</title>
+               <date when="2025-05-25">May 25, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-05-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="164-v"/>
+            <cb ed="#Ka" n="a"/>
+         </div>
+      </front> 
+      <body>
+         <div xml:id="bHY6yh-d74449"><!-- p4l2-r10 -->
+            <head xml:id="bHY6yh-d74449-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-d74449-Hd1e111" type="question-title">De ludis fortuite amissionis bonorum</head>
+            <p xml:id="bHY6yh-d74449-d1e114">
+              <lb ed="#Ka" n="6"/>De ludis fortuite amissionis 
+              <lb ed="#Ka"/>bonorum Rubrica 10
+            </p>
+            <p xml:id="bHY6yh-d74449-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d74449-Rd1e120">Ouidius de arte amandi libro 3</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d74449-Qd1e129">Sed minimus labor est sapientibus
+              <lb ed="#Ka"/>vti // Manus opes mores con<lb ed="#Ka" break="no"/>posuisse 
+              suos // Tunc summus 
+              <lb ed="#Ka"/>intanto studioque operimur in ipso 
+              <lb ed="#Ka"/>Undique proluxus pectora nostra 
+              <lb ed="#Ka"/>patent Ira subit de forma // 
+              <lb ed="#Ka"/>malum lucrique cupide // Iur<lb ed="#Ka" break="no"/>gie 
+              et rixe solicitusque dolor // 
+              <lb ed="#Ka"/>Crimina dicuntur resonat cla<lb ed="#Ka" break="no"/>moribus 
+              ether Inuocat irat<lb ed="#Ka" break="no"/>os 
+              quod sibi quisque deos Nulla 
+              <lb ed="#Ka"/>fides tabulisque non peruota pe<lb ed="#Ka" break="no"/>tuntur 
+              Et lacrimis vidi sepe 
+              <lb ed="#Ka"/>madere genas</quote> 
+            </p>
+            <p xml:id="bHY6yh-d74449-d1e159">
+              // <ref xml:id="bHY6yh-d74449-Rd1e161">Cato capitulo 1</ref> <quote xml:id="bHY6yh-d74449-Qd1e163">fuge 
+              <lb ed="#Ka"/>aleas</quote>
+            </p>
+            <p xml:id="bHY6yh-d74449-d1e168">
+              // <ref xml:id="bHY6yh-d74449-Rd1e172">Iacobus beneuentanus 
+              <lb ed="#Ka"/>capitulo 7</ref> <quote xml:id="bHY6yh-d74449-Qd1e172">Qui sequitur bachum ta<lb ed="#Ka" break="no"/>xillos 
+              et meretrices Infamis 
+              <lb ed="#Ka"/>semper semper egenus erit</quote>
+            </p>
+            <p xml:id="bHY6yh-d74449-d1e180">
+              <ref xml:id="bHY6yh-d74449-Rd1e186">capitulo 51</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d74449-Qd1e184">Sit taxillorum ludum vitare 
+              <lb ed="#Ka"/>memento nullam Iacture 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>ferre quod inde queas // ludum quemque 
+              <lb ed="#Ka"/>fuge per quem tu perdere possis</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
