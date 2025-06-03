@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 1</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+                <name ref="erinkurian">Erin Kurian</name>
+                <resp>Transcription Editor</resp>
+                <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 1</title>
+               <date when="2025-05-29">May 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-05-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="170-r"/>
+            <cb ed="#Ka" n="a"/>
+         </div>
+      </front> 
+      <body>
+         <div xml:id="bHY6yh-d76676"><!-- p4l3-r1 -->
+            <head xml:id="bHY6yh-d76676-Hd1e108">Rubrica 1</head>
+            <head xml:id="bHY6yh-d76676-Hd1e111" type="question-title">De potentioribus et impotentioribus maioribus et minoribus</head>
+            <p xml:id="bHY6yh-d76676-d1e114">
+              <lb ed="#Ka" n="19"/>TErtius liber quarte 
+              <lb ed="#Ka"/>partis tractat de poten<lb ed="#Ka" break="no"/>tia 
+              et honoribus 
+              <lb ed="#Ka"/>et contrariis pertinen<lb ed="#Ka" break="no"/>tibus 
+              ad hec sub hiis tytulis sequenti<lb ed="#Ka" break="no"/>bus
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e125">
+              de potentoribus et impotentioribus Rubrica 1
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e132">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d76676-Rd1e129">S Salomon in prouerbiis capitulo 19</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d76676-Qd1e138">Multi colunt personam poten<lb ed="#Ka" break="no"/>tis</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e145">
+              <ref xml:id="bHY6yh-d76676-Rd1e145">Aristotiles politicorum libro 6 capitulo 2</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d76676-Qd1e149">Semper querunt quod iustum et quod equale 
+              <lb ed="#Ka"/>est et qui minores sunt preheminen<cb ed="#Ka" n="b"/><lb ed="#Ka"/>tes 
+              aut nichil currant</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e157">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d76676-Rd1e162">Ihesus filius syrach in ecclesiastico capitulo 
+              <lb ed="#Ka"/>4</ref> <quote xml:id="bHY6yh-d76676-Qd1e161">Noli resistere contra faciem po<lb ed="#Ka" break="no"/>tentis 
+              nec teneris contra ictum flu<lb ed="#Ka" break="no"/>uii</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e169"> 
+              <ref xml:id="bHY6yh-d76676-Rd1e174">8 capitulo</ref> <quote xml:id="bHY6yh-d76676-Qd1e171">Non litiges cum homine 
+              <lb ed="#Ka"/>potente ne forte incidas in manus 
+              <lb ed="#Ka"/>illuus // Noli fenerari homini for<lb ed="#Ka" break="no"/>tiori 
+              te quod si feneraueris quasi per<lb ed="#Ka" break="no"/>ditum 
+              habe</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e181">
+              <ref xml:id="bHY6yh-d76676-Rd1e190">13 capitulo</ref> <quote xml:id="bHY6yh-d76676-Qd1e185">aduocatus a po<lb ed="#Ka" break="no"/>tentiore 
+              discede als deside ex hoc 
+              <lb ed="#Ka"/>enim magis te aduocabit</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e191">
+              <ref xml:id="bHY6yh-d76676-Rd1e202">Terentius 
+              <lb ed="#Ka"/>in ethyra</ref> <quote xml:id="bHY6yh-d76676-Qd1e195">omnibus nobis ut res 
+              <lb ed="#Ka"/>dant sese ita magni aut humil<lb ed="#Ka" break="no"/>es 
+              sumus</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e203"> 
+              <ref xml:id="bHY6yh-d76676-Rd1e214">Idem in phormione 
+              <lb ed="#Ka"/>capitulo 3</ref> <quote xml:id="bHY6yh-d76676-Qd1e205">Quam inique conparatus 
+              <lb ed="#Ka"/>est qui nimis habent semper 
+              <lb ed="#Ka"/>ad addat dicioribus</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e531">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d76676-Rd1e600">Tulius de essentia mundi</ref> <quote xml:id="bHY6yh-d76676-Qd1e535">Non esset 
+              <lb ed="#Ka"/>rectum minori parere maiorem</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e226">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d76676-Rd1e243">Ouidius sine titulo seu amorum libro 2 
+              <lb ed="#Ka"/>capitulo 16</ref> <quote xml:id="bHY6yh-d76676-Qd1e230">Aptari magnis inferiora 
+              <lb ed="#Ka"/>licet</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e236">
+              // <ref xml:id="bHY6yh-d76676-Rd1e255">Seneca tragediarum in mede<lb ed="#Ka" break="no"/>a 
+              capitulo 6</ref> <quote xml:id="bHY6yh-d76676-Qd1e240">Nemo potentes agredi 
+              <lb ed="#Ka"/>tutus potest</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e246">
+              <ref xml:id="bHY6yh-d76676-Rd1e267">Idem epistolarum ad lucillum 
+              <lb ed="#Ka"/>libro 2 capitulo 5</ref> <quote xml:id="bHY6yh-d76676-Qd1e250">Sapiens nunquam potentum 
+              <lb ed="#Ka"/>Iram prouocabit ymo et declina<lb ed="#Ka" break="no"/>bit 
+              non aliter quam in nauigando 
+              <lb ed="#Ka"/>procellam</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e260">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d76676-Rd1e284">Iuuenalis libro 3 satis 2</ref> <quote xml:id="bHY6yh-d76676-Qd1e264">Omne animi 
+              <lb ed="#Ka"/>vicium tanto conspicimus in se 
+              <pb ed="#Ka" n="170-v"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>crimen habet quanto maior qui peccat 
+              <lb ed="#Ka"/>habetur</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e272">
+              // <ref xml:id="bHY6yh-d76676-Rd1e298">lex diges titulo de alienatione iuditis fa<lb ed="#Ka" break="no"/>cis 
+              libro 3 in principio</ref> <quote xml:id="bHY6yh-d76676-Qd1e276">potentioribus pares 
+              <lb ed="#Ka"/>esse non possumus</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e289">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d76676-Rd1e318">Marcialis cocus libro vndique suscep<lb ed="#Ka" break="no"/>to 
+              capitulo 2</ref> <quote xml:id="bHY6yh-d76676-Qd1e293">Quem leo non tetigit dum 
+              <lb ed="#Ka"/>mordet aranea ledit extoto non tantum 
+              <lb ed="#Ka"/>grandia parue taue</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e301">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d76676-Rd1e332">Macrobius saturnaliorum libro 2 capitulo 18 
+              <lb ed="#Ka"/>Exauctoritate liberii</ref> <quote xml:id="bHY6yh-d76676-Qd1e305">potestas non 
+              <lb ed="#Ka"/>solum si in uitet sed et si supplice 
+              <lb ed="#Ka"/>cogit</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e313">
+              <ref xml:id="bHY6yh-d76676-Rd1e347">Cato capitulo 1 Maiori cede</ref> <quote xml:id="bHY6yh-d76676-Qd1e317">Mi<lb ed="#Ka" break="no"/>norem 
+              ne contempseris nil arb<lb ed="#Ka" break="no"/>itris 
+              virium feceris miserum noli ir<lb ed="#Ka" break="no"/>ridere</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e325"> 
+              <ref xml:id="bHY6yh-d76676-Rd1e359">capitulo 2</ref> <quote xml:id="bHY6yh-d76676-Qd1e327">vincere cum possis in<lb ed="#Ka" break="no"/>terdum 
+              cede sodali Obsequio quo<lb ed="#Ka" break="no"/>niam 
+              dulces retinentur amici
+              <lb ed="#Ka"/>Quem superare potes interdum vince 
+              <lb ed="#Ka"/>ferendo</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e337">
+              <ref xml:id="bHY6yh-d76676-Rd1e375">capitulo 3</ref> <quote xml:id="bHY6yh-d76676-Qd1e341">Corporis exigui ui<lb ed="#Ka" break="no"/>res 
+              contempnere noli // Consilio 
+              <lb ed="#Ka"/>pellet cui vim natura nega<lb ed="#Ka" break="no"/>uit</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e349">
+              <ref xml:id="bHY6yh-d76676-Rd1e390">capitulo 5 et finale</ref> <quote xml:id="bHY6yh-d76676-Qd1e353">dimissos animo 
+              <lb ed="#Ka"/>et tacitos vitare memento Quod flu<lb ed="#Ka" break="no"/>men 
+              est placidum forsam latet al<lb ed="#Ka" break="no"/>tior 
+              unda Cede locum lesus for<lb ed="#Ka" break="no"/>tune 
+              cede potenti // ledere qui po<lb ed="#Ka" break="no"/>tuit 
+              aliquoniam prodesse valebit</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e366">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d76676-Rd1e409">Boetius de consolatione libro 3 capitulo 10</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d76676-Qd1e370">Qui se nolut esse potentem animos 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>domet ille feroces nec uicta libid<lb ed="#Ka" break="no"/>ine 
+              colla fedis submittat habenis</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e382"> 
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d76676-Rd1e425">Capitulo 15</ref> <quote xml:id="bHY6yh-d76676-Qd1e384">Potentiam desideras subiecto<lb ed="#Ka" break="no"/>rum 
+              insydiis obnoxius periculis 
+              <lb ed="#Ka"/>subiacobis</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e392">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d76676-Rd1e439">Cassiodorus epistolarum libro 1 epistola 21</ref> <quote xml:id="bHY6yh-d76676-Qd1e396">Si dominis 
+              <lb ed="#Ka"/>vincat oppressionis in uidia est Equitas 
+              <lb ed="#Ka"/>uero creditur si supplicem superare con<lb ed="#Ka" break="no"/>tingat</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e406"> 
+              <ref xml:id="bHY6yh-d76676-Rd1e453">44 capitulo et penultimo</ref> <quote xml:id="bHY6yh-d76676-Qd1e408">Plerumque res par<lb ed="#Ka" break="no"/>ue
+              plus preualent prestare quam m<lb ed="#Ka" break="no"/>agne 
+              possunt obtinere diuitie</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e416">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d76676-Rd1e467">Isydorus in synonima soliloquiorum</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d76676-Qd1e420">Superiori equalente non exibeas</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e426">
+              <ref xml:id="bHY6yh-d76676-Rd1e480">Ver<lb ed="#Ka" break="no"/>sificator 
+              fabularum esopi fabula 13</ref> <quote xml:id="bHY6yh-d76676-Qd1e430">Noui 
+              <lb ed="#Ka"/>sit qui studeat cum maior obesse mi<lb ed="#Ka" break="no"/>nori
+              eum bene maiori possit obesse 
+              <lb ed="#Ka"/>minor</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e439">
+              <ref xml:id="bHY6yh-d76676-Rd1e495">fabula 18</ref> <quote xml:id="bHY6yh-d76676-Qd1e443">Summum vincere parua pu<lb ed="#Ka" break="no"/>tet 
+              Si vincat minimum summus sic vin<lb ed="#Ka" break="no"/>cere 
+              vici est Tu qui summa potes 
+              <lb ed="#Ka"/>ne despice parua potentem Nam 
+              <lb ed="#Ka"/>prodesse potest si quis ob esse nequid</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e453">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d76676-Rd1e511">fabula 41</ref> <quote xml:id="bHY6yh-d76676-Qd1e457">Cum maiore minor conferri 
+              <lb ed="#Ka"/>desinat et se consulat et uires tem<lb ed="#Ka" break="no"/>peret 
+              ille suas</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e469">
+              <ref xml:id="bHY6yh-d76676-Rd1e529">fabula 52</ref> <quote xml:id="bHY6yh-d76676-Qd1e473">Maiori ti<lb ed="#Ka" break="no"/>meas 
+              obuius ire minor</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e479">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d76676-Rd1e541">Iohannes solobriensis</ref> <quote xml:id="bHY6yh-d76676-Qd1e483">dyonides 
+              <lb ed="#Ka"/>pirata ab allexandro rege apprehen<lb ed="#Ka" break="no"/>sus 
+              interrogatusque quod ei videretur 
+              <lb ed="#Ka"/>quod mare haberet infestum libera 
+              <pb ed="#Ka" n="171-r"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>contumacia Quid tibi inquid ut 
+              <lb ed="#Ka"/>tu orbem terrarum sed quia ego uno 
+              <lb ed="#Ka"/>nauigio facio latro uocor quia tu 
+              <lb ed="#Ka"/>magne classe diceris imperator 
+              <lb ed="#Ka"/>si solus captus sit alexander latro 
+              <lb ed="#Ka"/>erit si ad nutum dixnidi famulentur 
+              <lb ed="#Ka"/>populi erit dixindes imperator</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e506">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d76676-Rd1e571">Auctor libro qui Incipit astrolabii</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d76676-Qd1e510">Ira potentis erit quasi fulguris ictus 
+              <lb ed="#Ka"/>habenda sicut hic est illa cauenda 
+              <lb ed="#Ka"/>tibi</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e518">
+              <ref xml:id="bHY6yh-d76676-Rd1e585">Prouerbium metricum extraordinare libro va<lb ed="#Ka" break="no"/>gere</ref> 
+              <quote xml:id="bHY6yh-d76676-Qd1e522">Est orare ducum species uiolen<lb ed="#Ka" break="no"/>ta 
+              iubendi et quasi nudato supp<lb ed="#Ka" break="no"/>licat 
+              ense potest potens</quote>
+            </p>
+            <p xml:id="bHY6yh-d76676-d1e214">
+              // <ref xml:id="bHY6yh-d76676-Rd1e229">Salustius 
+              <lb ed="#Ka"/>in iurgurtino</ref> <quote xml:id="bHY6yh-d76676-Qd1e218">In omni certamine qui 
+              <lb ed="#Ka"/>opulentior est et si accipit In Iuriam 
+              <lb ed="#Ka"/>tamen qui plus potest facere videtur</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
