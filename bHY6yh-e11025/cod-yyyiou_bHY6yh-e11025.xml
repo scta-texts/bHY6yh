@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 8</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 8</title>
+               <date when="2025-06-09">June 9, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-06-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="158-r"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e11025"><!-- p5l4-r8 -->
+            <head xml:id="bHY6yh-e11025-Hd1e108">Rubrica 8</head>
+            <head xml:id="bHY6yh-e11025-Hd1e111" type="question-title">De turpi et mala vita spernenda et mortis acceptabilitate</head>
+            <p xml:id="bHY6yh-e11025-d1e114">
+              ¶ De turpi et mala uita sper<!--line jumps down-->nenda capitulo
+            </p>
+            <p xml:id="bHY6yh-e11025-d1e123">
+              <lb ed="#C" n="2"/><ref xml:id="bHY6yh-e11025-Rd1e122">PSalmista psalmo 33</ref> <quote xml:id="bHY6yh-e11025-Qd1e131">Mors
+              <lb ed="#C"/>peccatorum pessima.</quote> 
+            </p>
+            <p xml:id="bHY6yh-e11025-d1e137">
+              ¶ <ref xml:id="bHY6yh-e11025-Rd1e136">Yesus filius <unclear>mror</unclear> 
+              <lb ed="#C"/>in ecclesiastico capitulo 30</ref> <quote xml:id="bHY6yh-e11025-Qd1e141">Melius est mors quam vita am<lb ed="#C" break="no"/>ara</quote>
+            </p>
+            <p xml:id="bHY6yh-e11025-d1e148"> 
+              ¶ <ref xml:id="bHY6yh-e11025-Rd1e148">Idem 40 capitulo</ref> <quote xml:id="bHY6yh-e11025-Qd1e150"></quote>
+            </p>
+            <p xml:id="bHY6yh-e11025-d1e156"> 
+              <ref xml:id="bHY6yh-e11025-Rd1e159"></ref> <quote xml:id="bHY6yh-e11025-Qd1e158">O mors bonum est iu<lb ed="#C" break="no"/>dicium 
+              tuum homini indigenti et qui minoratur uiri<lb ed="#C" break="no"/>bus 
+              defectu etate</quote>
+            </p>
+            <p xml:id="bHY6yh-e11025-d1e166">
+              ¶ <ref xml:id="bHY6yh-e11025-Rd1e173">Tullius philippicorum libro 
+              <lb ed="#C"/>3</ref> <quote xml:id="bHY6yh-e11025-Qd1e170">Ad decus et libertatem etc.</quote>
+            </p>
+            <p xml:id="bHY6yh-e11025-d1e178">
+              ¶ <ref xml:id="bHY6yh-e11025-Rd1e187">Quintilianus 
+              <lb ed="#C"/>3 declamatione</ref> <quote xml:id="bHY6yh-e11025-Qd1e182">Inter luctus et desperationes etc.</quote>
+            </p>
+            <p xml:id="bHY6yh-e11025-d1e188">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-e11025-Rd1e199">Seneca tragediarum in hercule <sic>oetheo</sic> capitulo 2</ref> <quote xml:id="bHY6yh-e11025-Qd1e192">Mortis habet 
+              <lb ed="#C"/>uices <!--large gap in the line--> Lente cum trahitur 
+              <lb ed="#C"/>uita gemitibus</quote>
+            </p>
+            <p xml:id="bHY6yh-e11025-d1e200"> 
+              ¶ <ref xml:id="bHY6yh-e11025-Rd1e211">Idem epistolarum ad lucillum libro 9 
+              <lb ed="#C"/>epistola I</ref> <quote xml:id="bHY6yh-e11025-Qd1e202">non uiuere bonum sed bene uiuere</quote>
+            </p>
+            <p xml:id="bHY6yh-e11025-d1e209">
+              ¶ <ref xml:id="bHY6yh-e11025-Rd1e224">Boetius 
+              <lb ed="#C"/>de consolatione libro I <unclear>metro</unclear> I</ref> <quote xml:id="bHY6yh-e11025-Qd1e213">Mors hominum felix 
+              <lb ed="#C"/>etc.</quote>
+            </p>
+            <p xml:id="bHY6yh-e11025-d1e221">
+              ¶ <ref xml:id="bHY6yh-e11025-Rd1e238">Ysidorus soliloquiorum libro I capitulo I</ref> <quote xml:id="bHY6yh-e11025-Qd1e225">Mors calam<lb ed="#C" break="no"/>itatis 
+              premium prebet omnem calamitatem 
+              <lb ed="#C"/>mors adimit melius est bene mori quam ui<lb ed="#C" break="no"/>uere 
+              male melius est non esse quam infeliciter 
+              <lb ed="#C"/>esse</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
