@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5</title>
+               <date when="2025-06-14">June 14, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-06-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="159-r"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e10451"><!-- p5l4-r5 -->
+            <head xml:id="bHY6yh-e10451-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-e10451-Hd1e111" type="question-title">De meditatione mortis et vite</head>
+            <p xml:id="bHY6yh-e10451-d1e114">
+              De meditatione mortis
+            </p>
+            <p xml:id="bHY6yh-e10451-d1e121">
+              <lb ed="#C" n="8"/><ref xml:id="bHY6yh-e10451-Rd1e124">Ihesus filius sirach in ecclesiastico capitulo 12</ref> <quote xml:id="bHY6yh-e10451-Qd1e134">In omnibus operibus
+              <lb ed="#C"/>tuis memorare nouissima tua 
+              <lb ed="#C"/>et ineternum non peccabis</quote>
+            </p>
+            <p xml:id="bHY6yh-e10451-d1e142"> 
+              ¶ <ref xml:id="bHY6yh-e10451-Rd1e140">Idem 4 capitulo</ref> 
+              <lb ed="#C"/>¶ <quote xml:id="bHY6yh-e10451-Qd1e144">Memor esto qui mors non tardat.</quote>
+            </p>
+            <p xml:id="bHY6yh-e10451-d1e151"> 
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-e10451-Rd1e151">Idem 18 capitulo</ref> <quote xml:id="bHY6yh-e10451-Qd1e153">Memento nouissimorum et 
+              <lb ed="#C"/>desine inimicari.</quote>
+            </p>
+            <p xml:id="bHY6yh-e10451-d1e161"> 
+              ¶ <ref xml:id="bHY6yh0451-Rd1e163">Idem 43 capitulo</ref> <quote xml:id="bHY6yh-e10451-Qd1e163">O in 
+              <lb ed="#C"/>mors quam amara est homini in isto memoria. 
+              <lb ed="#C"/>tua et pacem habenti in substa sua</quote>
+            </p>
+            <p xml:id="bHY6yh-e10451-d1e175">
+              <!--omitted ¶ <ref xml:id="bHY6yh-e10451-Rd1e181">Tullius de senectute:</ref> <quote xml:id="bHY6yh-e10451-Qd1e179">Nemo est tam senex qui
+              se annum non putet posse viuere.</quote>-->
+            </p>
+            <p xml:id="bHY6yh-e10451-d1e185">
+              ¶ <ref xml:id="bHY6yh-e10451-Rd1e193">Persius sati<lb ed="#C" break="no"/>ra 
+              V</ref> <quote xml:id="bHY6yh-e10451-Qd1e189">uiue memor leti fugit hora.</quote>
+            </p>
+            <p xml:id="bHY6yh-e10451-d1e195">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-e10451-Rd1e205">Quintilianus in declamationum</ref> <quote xml:id="bHY6yh-e10451-Qd1e199">In turpissima agi<lb ed="#C" break="no"/>tatione 
+              perpetuitatis descripti per exigu<lb ed="#C" break="no"/>a 
+              festinantes eui momenta praemorimur</quote>
+            </p>
+            <!--omitted <p xml:id="bHY6yh-e10451-d1e207">
+              ¶ <ref xml:id="bHY6yh-e10451-Rd1e219">Seneca epistolarum ad lucillum. libro i. capitulo 3.</ref> <quote xml:id="bHY6yh-e10451-Qd1e211">Nulli potes
+              secura vita contingere qui producenda nimis 
+               cogitat.</quote>
+            </p>
+            <p xml:id="bHY6yh-e10451-d1e220"> 
+              / <ref xml:id="bHY6yh-e10451-Rd1e232">libro 19. epistola 8.</ref> <quote xml:id="bHY6yh-e10451-Qd1e222">Nihil eque tibi profuerit ad
+              temperantiam omnium rerum quam frequens cogitatio 
+               breuis eui: et huius incerti: quicquid facies respice
+              ad mortem.</quote>
+            </p>
+            <p xml:id="bHY6yh-e10451-d1e232"> 
+              / <ref xml:id="bHY6yh-e10451-Rd1e246">Idem de consolatione ad marciam</ref>
+              <quote xml:id="bHY6yh-e10451-Qd1e234">In hoc omnes errore versamur vt non putemus
+              ad mortem nisi senes inclinatosque iam vergere.</quote>
+            </p>
+            <p xml:id="bHY6yh-e10451-d1e242">
+              ¶ <ref xml:id="bHY6yh-e10451-Rd1e260">Hieronymus in prologo principii biblie
+              ad finali.</ref> <quote xml:id="bHY6yh-e10451-Qd1e246">Facile contemnit omnia qui se semper
+              cogitat moriturum.</quote>
+            </p>-->
+         </div>
+      </body>
+   </text>
+</TEI>
