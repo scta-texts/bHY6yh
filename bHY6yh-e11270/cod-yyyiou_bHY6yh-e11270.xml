@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10</title>
+               <date when="2025-06-14">June 14, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-yyyiou">Vatican, Biblioteca Apostolica Vaticana, Ross. 429 (IX.119)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-06-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="159-r"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e11270"><!-- p5l4-r10 -->
+            <head xml:id="bHY6yh-e11270-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-e11270-Hd1e111" type="question-title">De laudabiliter morientibus et laudabili fama mortuorum</head>
+            <p xml:id="bHY6yh-e11270-d1e114">
+              De laudabiliter mori<!--line jumps down-->entibus et laudabili fama
+            </p>
+            <p xml:id="bHY6yh-e11270-d1e121">
+              <lb ed="#C" n="20"/><ref xml:id="bHY6yh-e11270-Rd1e118">IOb 3 capitulo</ref> 
+              <lb ed="#C"/><quote xml:id="bHY6yh-e11270-Qd1e125">Hoc pro cer<lb ed="#C" break="no"/>to 
+              <sic>hebat</sic> omnis homo qui colit deum quoniam 
+              <lb ed="#C"/>uita eius si in probatione fuerit coronabitur</quote> 
+            </p>
+            <p xml:id="bHY6yh-e11270-d1e135">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-e11270-Rd1e134">Socrates in exhortationibus capitulo 2 et finali</ref> <quote xml:id="bHY6yh-e11270-Qd1e139">Mori quidem 
+              <lb ed="#C"/>in omnes promulgauit fortuna bene autem 
+              <lb ed="#C"/>mori proprie natura attribuitur uirtuosis.</quote>
+            </p>
+            <p xml:id="bHY6yh-e11270-d1e150">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-e11270-Rd1e151">Virgilius Eneide libro X circa medium</ref> <quote xml:id="bHY6yh-e11270-Qd1e154">Stat sua 
+              <lb ed="#C"/>cuique dies breue et irreparabile tempus
+              <lb ed="#C"/>¶ Omnibus est uite sed famam extendere factis hoc 
+              <lb ed="#C"/>uirtutis opus</quote>
+            </p>
+            <p xml:id="bHY6yh-e11270-d1e164">
+              ¶ <ref xml:id="bHY6yh-e11270-Rd1e167">Tullius philippicorum libro 2 et finali</ref> 
+              <lb ed="#C"/>¶ <quote xml:id="bHY6yh-e11270-Qd1e168">Breuis a natura nobis uita data est ac memo<lb ed="#C" break="no"/>ria 
+              bene reddite uite sempiterna</quote>
+            </p>
+            <p xml:id="bHY6yh-e11270-d1e176"> 
+              ¶ <ref xml:id="bHY6yh-e11270-Rd1e179">Idem 
+              <lb ed="#C"/>in oratione pro marco marcello</ref> <quote xml:id="bHY6yh-e11270-Qd1e178">Nec hec tua ui<lb ed="#C" break="no"/>ta 
+              dicenda est que corpore et spiritu conti<lb ed="#C" break="no"/>netur 
+              Illa inquam est uita tua quae uigebit 
+              <lb ed="#C"/>memoria seculorum omnium quam posteritas 
+              <lb ed="#C"/>alet quam ipsa eternitas semper tuebitur 
+              <cb ed="#C" n="a"/>
+              <lb ed="#C"/>huic tu inseruias huic tu obstendes oportet</quote>
+            </p>
+            <p xml:id="bHY6yh-e11270-d1e192">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-e11270-Rd1e200">Salomon libro sapiente capitulo 6</ref> <quote xml:id="bHY6yh-e11270-Qd1e196">Iusti in perpetuum ui<lb ed="#C" break="no"/>uent</quote>
+            </p>
+            <p xml:id="bHY6yh-e11270-d1e202">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-e11270-Rd1e212">Matheus in ewangelio capitulo V</ref> <quote xml:id="bHY6yh-e11270-Qd1e206">beati mundo 
+              <lb ed="#C"/>corde etc.</quote>
+            </p>
+            <p xml:id="bHY6yh-e11270-d1e216">
+              ¶ <ref xml:id="bHY6yh-e11270-Rd1e228">Marcus in ewangelio capitulo X</ref> <quote xml:id="bHY6yh-e11270-Qd1e220">Paruulo<lb ed="#C" break="no"/>rum 
+              est regnum dei</quote>
+            </p>
+            <p xml:id="bHY6yh-e11270-d1e227">
+              ¶ <ref xml:id="bHY6yh-e11270-Rd1e241">Iohannes in apocalypsi</ref> 
+              <lb ed="#C"/><quote xml:id="bHY6yh-e11270-Qd1e231">beati mortui qui in domino moriuntur</quote>
+            </p>
+            <p xml:id="bHY6yh-e11270-d1e237">
+              ¶ <ref xml:id="bHY6yh-e11270-Rd1e253">Lex 
+              <lb ed="#C"/>institutione de excusationibus tutorum § III</ref> <quote xml:id="bHY6yh-e11270-Qd1e241">qui pro Re publica 
+              <lb ed="#C"/>ceciderunt in perpetuum per gloriam uiuere 
+              <lb ed="#C"/>intelliguntur</quote>
+            </p>
+            <p xml:id="bHY6yh-e11270-d1e253">
+              ¶ <ref xml:id="bHY6yh-e11270-Rd1e271">Marcialis cocus libro 2 capitulo</ref>
+              <lb ed="#C"/><quote xml:id="bHY6yh-e11270-Qd1e257">Tarde uel subito uita decedere nil est si 
+              <lb ed="#C"/>bene decedas pindare non nichil est.</quote>
+            </p>
+            <p xml:id="bHY6yh-e11270-d1e265">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-e11270-Rd1e285">Augustinus in epigrammatibus prosperi epigramma L</ref> <quote xml:id="bHY6yh-e11270-Qd1e269">Mala mors 
+              <lb ed="#C"/>putanda non est quam bona uita pre<lb ed="#C" break="no"/>cesserat</quote>
+            </p>
+            <p xml:id="bHY6yh-e11270-d1e277">
+              ¶ <ref xml:id="bHY6yh-e11270-Rd1e300">Cato capitulo V</ref> <quote xml:id="bHY6yh-e11270-Qd1e281">Felices obeunt 
+              <lb ed="#C"/>etc.</quote>
+            </p>
+            <p xml:id="bHY6yh-e11270-d1e287">
+              ¶ <ref xml:id="bHY6yh-e11270-Rd1e312">Bernardus de improbatione <sic>uiciorum</sic> capitulo 9 et finali</ref> <quote xml:id="bHY6yh-e11270-Qd1e291">Id so<lb ed="#C" break="no"/>lum 
+              te met post mortem <sic>faca</sic> beabunt 
+              <lb ed="#C"/>Quicquid uel iuste quod recte feceris ipse</quote>
+            </p>
+            <p xml:id="bHY6yh-e11270-d1e302">
+              <lb ed="#C"/>¶ <ref xml:id="bHY6yh-e11270-Rd1e330">Matheus uindocinensis de historia tobie capitulo 66</ref> 
+              <lb ed="#C"/>¶ <quote xml:id="bHY6yh-e11270-Qd1e306">Iustus obit nec obit sed ab hospite 
+              <lb ed="#C"/>migrans Carne petit patriam deliti<lb ed="#C" break="no"/>asque 
+              patris</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
