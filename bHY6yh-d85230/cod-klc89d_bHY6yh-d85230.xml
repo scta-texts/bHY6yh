@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 12</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 12</title>
+               <date when="2021-05-18">July 1, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="190-r"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d85230"><!-- p4l4-r12 -->
+            <head xml:id="bHY6yh-d85230-Hd1e108">Rubrica 12</head>
+            <head xml:id="bHY6yh-d85230-Hd1e111" type="question-title">De voluptate seu libidine</head>
+            <p xml:id="bHY6yh-d85230-d1e114">
+              <lb ed="#Ka" n="29"/>De voluntate seu libidine 
+              <lb ed="#Ka"/>Rubrica 12
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e119">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d85230-Rd1e116">CRonica de nugis philosophorum 
+              <lb ed="#Ka"/>capitulo 7 scilicet de chleobolone</ref> 
+              <pb ed="#Ka" n="190-v"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d85230-Qd1e127">Cleobolus vnus de septem sapi<lb ed="#Ka" break="no"/>ententibus 
+              dicebat dominandum esse 
+              <lb ed="#Ka"/>voluptati</quote> 
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e135"> 
+              <ref xml:id="bHY6yh-d85230-Rd1e133">8 capitulo scilicet de periandro</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d85230-Qd1e137">Periander corinthius vnus de sep<lb ed="#Ka" break="no"/>tem 
+              sapientibus dicebat volup<lb ed="#Ka" break="no"/>tates 
+              corruptibiles</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e146">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d85230-Rd1e148">Oratius in epistolis 2 epistola</ref> <quote xml:id="bHY6yh-d85230-Qd1e150">Sperne vo<lb ed="#Ka" break="no"/>luptates 
+              nocet cepta dolore uo<lb ed="#Ka" break="no"/>luptas</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e156">
+              // <ref xml:id="bHY6yh-d85230-Rd1e160">Tulius de fine bonorum 
+              <lb ed="#Ka"/>et malorum libro 1</ref> <quote xml:id="bHY6yh-d85230-Qd1e160">Eos et accusa<lb ed="#Ka" break="no"/>mus 
+              et iusto odio dignos dixi<lb ed="#Ka" break="no"/>mus 
+              qui blanditiis presentium vo<lb ed="#Ka" break="no"/>luptatum 
+              deleniti atque corrupi quos 
+              <lb ed="#Ka"/>dolores et quas molestias exemp<lb ed="#Ka" break="no"/>turi 
+              sunt cupiditati non prouident</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e174"> 
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d85230-Rd1e178">libro 3</ref> <quote xml:id="bHY6yh-d85230-Qd1e176">voluptatem hanc esse sen<lb ed="#Ka" break="no"/>tiunt 
+              omnes quas semper accipies m<lb ed="#Ka" break="no"/>ouetur
+              et procunditate quadam per<lb ed="#Ka" break="no"/>funditur 
+              Stoici diffiniunt volup<lb ed="#Ka" break="no"/>tatem 
+              esse sublationem animi sine 
+              <lb ed="#Ka"/>ratione opinantis se magno bono 
+              <lb ed="#Ka"/>frui cui in voluptate summum bonum 
+              <lb ed="#Ka"/>est huic omnia sensu non ratione 
+              <lb ed="#Ka"/>sunt iudicanda maximas virtutes 
+              <lb ed="#Ka"/>Iacere omnes necesse est uoluptate do<lb ed="#Ka" break="no"/>minante</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e197"> 
+              <ref xml:id="bHY6yh-d85230-Rd1e203">Idem de senectute</ref> <quote xml:id="bHY6yh-d85230-Qd1e199">libi<lb ed="#Ka" break="no"/>dinosa 
+              et intemporans adoles<lb ed="#Ka" break="no"/>centia 
+              affectum corpus trahit se<lb ed="#Ka" break="no"/>nectuti 
+              Impedit voluptas con<lb ed="#Ka" break="no"/>silium 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>rationi inimica est et mentis 
+              <lb ed="#Ka"/>ut ita dicam prestringit oculos 
+              <lb ed="#Ka"/>nec habet nullum cum virtute commercium 
+              <lb ed="#Ka"/>diuitias plato escam malorum 
+              <lb ed="#Ka"/>appellat voluptatem quod ea vide<lb ed="#Ka" break="no"/>licet 
+              homines capiantur ut pisces</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e224">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d85230-Rd1e234">Idem de Oratore libro 1</ref> <quote xml:id="bHY6yh-d85230-Qd1e228">in summa vber<lb ed="#Ka" break="no"/>tate 
+              inest luxuria</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e241">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d85230-Rd1e246">Ouidius de arte amandi libro 1</ref> <quote xml:id="bHY6yh-d85230-Qd1e245">Cu<lb ed="#Ka" break="no"/>re 
+              est sui cuique voluptas</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e251">
+              <ref xml:id="bHY6yh-d85230-Rd1e259">Idem 
+              <lb ed="#Ka"/>methamorfoses libro 7</ref> <quote xml:id="bHY6yh-d85230-Qd1e255">Nulla est 
+              <lb ed="#Ka"/>sincera uoluptas solicitumque illiquid 
+              <lb ed="#Ka"/>letis</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e263">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d85230-Rd1e273">Quintilianus declamationum 2 declamatur</ref> <quote xml:id="bHY6yh-d85230-Qd1e267">Nos 
+              <lb ed="#Ka"/>in bello quoque vicia pacis sequuntur 
+              <lb ed="#Ka"/>et delicati sumus etiam miseri</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e275">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d85230-Rd1e288">Seneca epistolarum ad lucillum libro 4 capitulo 
+              <lb ed="#Ka"/>3</ref> <quote xml:id="bHY6yh-d85230-Qd1e279">Voluptates in tormenta verti<lb ed="#Ka" break="no"/>mur 
+              epule cruditatem affer<lb ed="#Ka" break="no"/>unt 
+              ebrietates neruorum torporem 
+              <lb ed="#Ka"/>tremoremque libidinis pedum ma<lb ed="#Ka" break="no"/>nuum 
+              articulorum omnium deprauationes</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e286">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d85230-Rd1e306">libro 2 epistola 3</ref> <quote xml:id="bHY6yh-d85230-Qd1e290">Effeminat animos 
+              <lb ed="#Ka"/>amonitas nimia</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e296"> 
+              / <ref xml:id="bHY6yh-d85230-Rd1e316">5 epistola</ref> <quote xml:id="bHY6yh-d85230-Qd1e298">debilitatem 
+              <lb ed="#Ka"/>nobilis indicere delitie</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e304"> 
+              <ref xml:id="bHY6yh-d85230-Rd1e326">libro 7 epistola 2</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d85230-Qd1e306">Omnibus crimino suo voluptati</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e313"> 
+              <ref xml:id="bHY6yh-d85230-Rd1e337"></ref> <quote xml:id="bHY6yh-d85230-Qd1e315">ind<lb ed="#Ka" break="no"/>ulgere 
+              initium omnium malorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e321"> 
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d85230-Rd1e347">Idem de beata uita</ref> <quote xml:id="bHY6yh-d85230-Qd1e323">uoluptas cum 
+              <lb ed="#Ka"/>maxima delectat extinguitur 
+              <lb ed="#Ka"/>non multum loci habet voluptas non 
+              <pb ed="#Ka" n="191-r"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>est merces nec causa virtutis sed ac<lb ed="#Ka" break="no"/>cesio</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e335">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d85230-Rd1e366">Ualerius maximus libro 2 titulo 1</ref> <quote xml:id="bHY6yh-d85230-Qd1e339">O<lb ed="#Ka" break="no"/>mnium 
+              animalium naturalis dul<lb ed="#Ka" break="no"/>cedo 
+              vite multa et facere et 
+              <lb ed="#Ka"/>pati turpiter cogit</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e347"> 
+              <ref xml:id="bHY6yh-d85230-Rd1e378">libro 9 titulo de lux<lb ed="#Ka" break="no"/>uria 
+              et libidine</ref> <quote xml:id="bHY6yh-d85230-Qd1e349">Campana lu<lb ed="#Ka" break="no"/>xuria 
+              per quam vtilis romane 
+              <lb ed="#Ka"/>ciuitatis fuit in victum enim ar<lb ed="#Ka" break="no"/>mis 
+              hannibalem illecebris suis 
+              <lb ed="#Ka"/>complexa uincendum roma<lb ed="#Ka" break="no"/>no 
+              militi tradidit illa vigilam tis<lb ed="#Ka" break="no"/>simum 
+              ducem illa exercitum a<lb ed="#Ka" break="no"/>cerrimum 
+              dapibus largis ha<lb ed="#Ka" break="no"/>bundanti 
+              vino unguentorum 
+              <lb ed="#Ka"/>flagrantia veneris vsu laxaui<lb ed="#Ka" break="no"/>ore 
+              ad sompnum et delitias <sic>eu<lb ed="#Ka" break="no"/>ocaut</sic> et tum demum fracta et 
+              <lb ed="#Ka"/>corcusa punica feritas est cum 
+              <lb ed="#Ka"/>cum seplasia ei albana castra 
+              <lb ed="#Ka"/>esse ceperunt Quid go hiis vi<lb ed="#Ka" break="no"/>ciis 
+              fedius quid <sic>fedius quid</sic> ect 
+              <lb ed="#Ka"/>dampnosius quibus virtus atte<lb ed="#Ka" break="no"/>ritur 
+              victorie relanguescunt sopi<lb ed="#Ka" break="no"/>ta 
+              gloria in infima vires ex<lb ed="#Ka" break="no"/>pugnantur 
+              a deo ut nescias ab<lb ed="#Ka" break="no"/>hostibusue 
+              ne an abillo capi per<lb ed="#Ka" break="no"/>nitiosius 
+              habendum sit Serxes 
+              <lb ed="#Ka"/>opum regiarum ostentatione exi<lb ed="#Ka" break="no"/>mia 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>eo usque luxuria gaudens 
+              <lb ed="#Ka"/>ut <unclear>edcor</unclear> premium ei propone<lb ed="#Ka" break="no"/>ret
+              qui notum voluptatis genus 
+              <lb ed="#Ka"/>reperisset dum delitiis nimiis 
+              <lb ed="#Ka"/>captus esset amplissimi impe<lb ed="#Ka" break="no"/>ri 
+              ruina euasit populus egiptie 
+              <lb ed="#Ka"/>gentis ductu achiali regis sui 
+              <lb ed="#Ka"/>aduersus aulum gabinium in omni<lb ed="#Ka" break="no"/>bus 
+              vrbis egressus cum castro u<lb ed="#Ka" break="no"/>allo 
+              atque fossa cingere iuberetur 
+              <lb ed="#Ka"/>vniuersus subclamauit et ad id 
+              <lb ed="#Ka"/>opus publica pecunia faciendum 
+              <lb ed="#Ka"/>locaretur quapropter delitiis causus
+              <lb ed="#Ka"/>enerues animi spiritu exercitus roma<lb ed="#Ka" break="no"/>ni 
+              sustinere non potuerunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e418">
+              <ref xml:id="bHY6yh-d85230-Rd1e453">Ca<lb ed="#Ka" break="no"/>to 
+              capitulo 2</ref> <quote xml:id="bHY6yh-d85230-Qd1e422">Pauca voluptati debentur 
+              <lb ed="#Ka"/>plura saluti</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e428">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d85230-Rd1e465">Boetius de consolatione libro 3 capitulo 20</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d85230-Qd1e432">Fallax ligat improbis catenis 
+              <lb ed="#Ka"/>terrena habitans libido mentes</quote>
+            </p>
+            <p xml:id="bHY6yh-d85230-d1e441">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d85230-Rd1e480">Andreas capellanus ipse inno<lb ed="#Ka" break="no"/>centii 
+              4 libro de disuasione vxoris</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d85230-Qd1e445">vir in moliciem abiens deiuratur</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
