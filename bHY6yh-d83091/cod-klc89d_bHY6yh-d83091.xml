@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 2</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+                <name ref="erinkurian">Erin Kurian</name>
+                <resp>Transcription Editor</resp>
+                <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 2</title>
+               <date when="2025-06-01">June 1, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-06-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="185-r"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front> 
+      <body>
+         <div xml:id="bHY6yh-d83091"><!-- p4l4-r2 -->
+            <head xml:id="bHY6yh-d83091-Hd1e108">Rubrica 2</head>
+            <head xml:id="bHY6yh-d83091-Hd1e111" type="question-title">De musicali delectatione</head>
+            <p xml:id="bHY6yh-d83091-d1e114">
+               <lb ed="#Ka" n="51"/>delectatione variationis v<lb ed="#Ka" break="no"/>sus 
+               rerum et tedio continuationis 
+               <lb ed="#Ka"/>Rubrica
+            </p>
+            <p xml:id="bHY6yh-d83091-d1e121">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d83091-Rd1e118">ISocrates in exhortationibus capitulo 
+               <lb ed="#Ka"/>2</ref> <quote xml:id="bHY6yh-d83091-Qd1e129">Societas omnium mala</quote> 
+            </p>
+            <p xml:id="bHY6yh-d83091-d1e133">
+               // <ref xml:id="bHY6yh-d83091-Rd1e133">Aristoti<lb ed="#Ka" break="no"/>les 
+               rethoricorum libro 7 capitulo 15 et finali</ref> 
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d83091-Qd1e137">Transmutatio omnium dulcissimum 
+               <lb ed="#Ka"/>secundum poetam propter malitiam 
+               <lb ed="#Ka"/>quandam quemadmodum enim 
+               <pb ed="#Ka" n="185-v"/>
+               <cb ed="#Ka" n="a"/>
+               <lb ed="#Ka"/>facile transmutabilis malis et nat<lb ed="#Ka" break="no"/>ura 
+               que indiget transmutatione</quote>
+            </p>
+            <p xml:id="bHY6yh-d83091-d1e152"> 
+               <ref xml:id="bHY6yh-d83091-Rd1e153">Idem 
+               <lb ed="#Ka"/>rethoricorum libro 1 capitulo 20</ref> <quote xml:id="bHY6yh-d83091-Qd1e154">dismutare 
+               <lb ed="#Ka"/>delectabile est quod enim semper idem 
+               <lb ed="#Ka"/>excessum facit constituti habitus
+               <lb ed="#Ka"/>vnde dictum est transmutatio omnium 
+               <lb ed="#Ka"/>dulce propter hoc enim et que ad tempus 
+               <lb ed="#Ka"/>delectabilia sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d83091-d1e185">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d83091-Rd1e192">Iuuenalis libro 4 fama 2</ref> <quote xml:id="bHY6yh-d83091-Qd1e189">volupt<lb ed="#Ka" break="no"/>ates 
+               commendat rarior vsus</quote> //
+            </p>
+            <p xml:id="bHY6yh-d83091-d1e173">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d83091-Rd1e178">Plinius de naturali historia libro 12 capitulo 
+               <lb ed="#Ka"/>19</ref> <quote xml:id="bHY6yh-d83091-Qd1e177">nulla est voluptas que non assid<lb ed="#Ka" break="no"/>uitate 
+               sui fastidium pariat</quote> //
+            </p>
+            <p xml:id="bHY6yh-d83091-d1e195">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d83091-Rd1e204">Cassiodorus epistolarum libro 3 epistola 21</ref> <quote xml:id="bHY6yh-d83091-Qd1e199">huma<lb ed="#Ka" break="no"/>ne 
+               consuetudinis est mos ut vari<lb ed="#Ka" break="no"/>ata 
+               plus capiant et quamuis in v<lb ed="#Ka" break="no"/>su 
+               habeantur eximia fastidium 
+               <lb ed="#Ka"/>prestent esse quod faciant</quote>
+            </p>
+            <p xml:id="bHY6yh-d83091-d1e209"> 
+               <ref xml:id="bHY6yh-d83091-Rd1e218">libro 7 epistola 36</ref> 
+               <lb ed="#Ka"/><quote xml:id="bHY6yh-d83091-Qd1e211">In continuatione rerum magnum 
+               <lb ed="#Ka"/>mentis constat esse fastidium dul<lb ed="#Ka" break="no"/>cedo 
+               mellis si assidue sumatur ho<lb ed="#Ka" break="no"/>rescit 
+               Setena ipsa quamuis ma<lb ed="#Ka" break="no"/>gnopere 
+               desiderentur iugiter adopta 
+               <lb ed="#Ka"/>sordescunt non in merito quia cum 
+               <lb ed="#Ka"/>sit homo commutabilis nature sue 
+               <lb ed="#Ka"/>desiderat qualitates</quote>
+            </p>
+            <p xml:id="bHY6yh-d83091-d1e230"> 
+               <ref xml:id="bHY6yh-d83091-Rd1e241">libro 9 epistola 22</ref> <quote xml:id="bHY6yh-d83091-Qd1e232">Copia 
+               <lb ed="#Ka"/>plerumque solet habere fastidium</quote>
+            </p>
+            <p xml:id="bHY6yh-d83091-d1e239">
+               <ref xml:id="bHY6yh-d83091-Rd1e254">Matheus vindocinensis in poetria</ref> <quote xml:id="bHY6yh-d83091-Qd1e243"></quote>
+            </p>
+            <p xml:id="bHY6yh-d83091-d1e249">
+               <lb ed="#Ka"/><ref xml:id="bHY6yh-d83091-Rd1e267">capitulo 49</ref> // <quote xml:id="bHY6yh-d83091-Qd1e253">Plus melis habet variata 
+               voluptas</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
