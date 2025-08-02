@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 5</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 5</title>
+               <date when="2025-08-02">August 2, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="203-v"/>
+            <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d90588"><!-- p4l6-r5 -->
+            <head xml:id="bHY6yh-d90588-Hd1e108">Rubrica 5</head>
+            <head xml:id="bHY6yh-d90588-Hd1e111" type="question-title">De officio et cura pertinentibus ad vxores et maritos</head>
+            <p xml:id="bHY6yh-d90588-d1e114">
+              <lb ed="#Ka" n="24"/>De officio et cura pertinenti ad u<lb ed="#Ka" break="no"/>xores 
+              et maritos Rubrica 5 
+            </p>
+            <p xml:id="bHY6yh-d90588-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d90588-Rd1e118">SAlomon in prouerbiis capitulo 22</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d90588-Qd1e127">Mulier diligens corona 
+              <lb ed="#Ka"/>est viro suo</quote>
+            </p>
+            <p xml:id="bHY6yh-d90588-d1e133"> 
+              // <ref xml:id="bHY6yh-d90588-Rd1e131">14 capitulo</ref> <quote xml:id="bHY6yh-d90588-Qd1e135">Sapiens mulier 
+              <lb ed="#Ka"/>edificauit domum suam insapiens 
+              <lb ed="#Ka"/>exstructam quoque destruet manibus</quote>
+            </p>
+            <p xml:id="bHY6yh-d90588-d1e152">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d90588-Rd1e149">Plato in memorie circa principium</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d90588-Qd1e156">decet mulierem domum bene dispen<lb ed="#Ka" break="no"/>sare 
+              salua facientem que intrinsecus 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>et obsequentem viro</quote>
+            </p>
+            <p xml:id="bHY6yh-d90588-d1e164">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d90588-Rd1e163">Aristotiles yconomicorum libro 3 et finali</ref> <quote xml:id="bHY6yh-d90588-Qd1e168">bonam 
+              <lb ed="#Ka"/>mulierem hiis que intus sunt decet domina<lb ed="#Ka" break="no"/>ri 
+              omnibus curantem singulorum auri 
+              <lb ed="#Ka"/>multitudo non tanti est ad uirtutem 
+              <lb ed="#Ka"/>mulieris quanti moderantia in omni 
+              <lb ed="#Ka"/>opere et desiderium honeste et bene 
+              <lb ed="#Ka"/>ordinate vite difficile est scire que 
+              <lb ed="#Ka"/>intus fuit audiet quidem mulier 
+              <lb ed="#Ka"/>virum in omnibus et <sic>siccum</sic> deliberet et 
+              <lb ed="#Ka"/>obediat etiam in eo quod ille preceperit 
+              <lb ed="#Ka"/>non sic viro turpe est eorum quem intus 
+              <lb ed="#Ka"/>sunt aliquid agere sicut mulieri inquirere 
+              <lb ed="#Ka"/>ea que foris sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d90588-d1e193">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d90588-Rd1e197">Petrus apostolus</ref> <quote xml:id="bHY6yh-d90588-Qd1e197"></quote>
+            </p>
+            <p xml:id="bHY6yh-d90588-d1e203">
+              <ref xml:id="bHY6yh-d90588-Rd1e209">epistola I ad corinthios 
+              <lb ed="#Ka"/>capitulo 7</ref> ¶ <quote xml:id="bHY6yh-d90588-Qd1e207">vxori vir debitum reddat si<lb ed="#Ka" break="no"/>militer 
+              autem et vxor viro</quote>
+            </p>
+            <p xml:id="bHY6yh-d90588-d1e215"> 
+              <ref xml:id="bHY6yh-d90588-Rd1e221">Idem epistola 
+              <lb ed="#Ka"/>ad colocenses capitulo 3 et penultimo</ref> <quote xml:id="bHY6yh-d90588-Qd1e217">Mulieres 
+              <lb ed="#Ka"/>subdite estote viris sicud oportet in domino</quote>
+            </p>
+            <p xml:id="bHY6yh-d90588-d1e224">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d90588-Rd1e233">Seneca de remediis fortuitorum capitulo 21 
+              et finali</ref> <quote xml:id="bHY6yh-d90588-Qd1e228">Cum maritum te cogitauerum
+              <lb ed="#Ka"/>et virum cogi</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
