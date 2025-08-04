@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 6</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 6</title>
+               <date when="2025-07-17">July 17, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="199-v"/>
+            <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d88830"><!-- p4l5-r6 -->
+            <head xml:id="bHY6yh-d88830-Hd1e108">Rubrica 6</head>
+            <head xml:id="bHY6yh-d88830-Hd1e111" type="question-title">De concupiscentia veneree voluptatis</head>
+            <p xml:id="bHY6yh-d88830-d1e114"> 
+              <lb ed="#Ka" n="19"/>De concupiscentia venere et vo<lb ed="#Ka" break="no"/>luptatis 
+              Rubrica 6
+            </p>
+            <p xml:id="bHY6yh-d88830-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d88830-Rd1e118">OVidius sine titulo seu amorum 
+              <lb ed="#Ka"/>libro 2 capitulo 18 et finali</ref> <quote xml:id="bHY6yh-d88830-Qd1e129">Quod licet 
+              <lb ed="#Ka"/>ingratum est quod non licet acrius</quote> 
+            </p>
+            <p xml:id="bHY6yh-d88830-d1e135">
+              <ref xml:id="bHY6yh-d88830-Rd1e139">libro 3 
+              <lb ed="#Ka"/>et finali capitulo 4</ref> ¶ <quote xml:id="bHY6yh-d88830-Qd1e143">Nitimum in uetitam cupius 
+              <lb ed="#Ka"/>semperque negata Iuuat in concessa 
+              <lb ed="#Ka"/>uoluptas</quote>
+            </p>
+            <p xml:id="bHY6yh-d88830-d1e152">
+              <ref xml:id="bHY6yh-d88830-Rd1e155">Idem de arte amandi 
+              <lb ed="#Ka"/>libro I</ref> <quote xml:id="bHY6yh-d88830-Qd1e156">vtque uero futura venus sic grata 
+              <lb ed="#Ka"/>puelle</quote>
+            </p>
+            <p xml:id="bHY6yh-d88830-d1e162">
+              <ref xml:id="bHY6yh-d88830-Rd1e167"></ref> <quote xml:id="bHY6yh-d88830-Qd1e166">Que venit ex tuto minus 
+              <lb ed="#Ka"/>est accepta voluptas</quote>
+            </p>
+            <p xml:id="bHY6yh-d88830-d1e172">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d88830-Rd1e179">Quintilianus declamationum 13 declamatione</ref> <quote xml:id="bHY6yh-d88830-Qd1e176">Non fouet 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>non nutrit ardorem concupiscendi 
+              <lb ed="#Ka"/>vbi frui licet</quote>
+            </p>
+            <p xml:id="bHY6yh-d88830-d1e184">
+              <ref xml:id="bHY6yh-d88830-Rd1e193">Auctor liber qui dicitur 
+              <lb ed="#Ka"/>facetus capitulo 5</ref> <quote xml:id="bHY6yh-d88830-Qd1e188">Si te fortunus dulcior 
+              <lb ed="#Ka"/>omnis amor</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
