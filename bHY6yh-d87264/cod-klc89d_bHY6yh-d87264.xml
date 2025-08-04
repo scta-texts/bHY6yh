@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 2</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 2</title>
+               <date when="2025-07-09">July 9, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="195-r"/>
+            <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d87264"><!-- p4l5-r2 -->
+            <head xml:id="bHY6yh-d87264-Hd1e108">Rubrica 2</head>
+            <head xml:id="bHY6yh-d87264-Hd1e111" type="question-title">De eligibilibus personis coamandis amore venereo</head>
+            <p xml:id="bHY6yh-d87264-d1e114">
+              <lb ed="#Ka" n="27"/>De eligibilibus personis a<lb ed="#Ka" break="no"/>mande 
+              amore Rubrica 2
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e249">
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d87025-Rd1e276">OVidius epistolarum epistola 4</ref> <quote xml:id="bHY6yh-d87025-Qd1e253">Sic 
+              <lb ed="#Ka"/>nunquam que te spernere 
+              <lb ed="#Ka"/>possit ames</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e259">
+              <ref xml:id="bHY6yh-d87025-Rd1e288">Idem 
+              <lb ed="#Ka"/>sine titulo seu amorum libro 2 capitulo 4</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d87025-Qd1e263">felix quicquod amat defendere feli<lb ed="#Ka" break="no"/>citer 
+              audet</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e269">
+              <ref xml:id="bHY6yh-d87025-Rd1e300">libro 2 capitulo 9</ref> <quote xml:id="bHY6yh-d87025-Qd1e273">Que bello est 
+              <lb ed="#Ka"/>humilis veneri quoque conuenit etas 
+              <lb ed="#Ka"/>Turpe senex miles turpe senilis 
+              <lb ed="#Ka"/>amor</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e281">
+              <ref xml:id="bHY6yh-d87025-Rd1e314">libro 3 et finale epistola 4</ref> <quote xml:id="bHY6yh-d87025-Qd1e285">Pauci quod 
+              sunt alter amant</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e291">
+              <ref xml:id="bHY6yh-d87025-Rd1e327">Idem de arte 
+              <lb ed="#Ka"/>amandi</ref> <quote xml:id="bHY6yh-d87025-Qd1e295">inprincipio Quid amare 
+              <lb ed="#Ka"/>velis reperire labora dum licet 
+              <lb ed="#Ka"/>et hocum passiua potes ire salutis
+              <lb ed="#Ka"/>Elige cui dicas tu nichil sola 
+              <lb ed="#Ka"/>places Querenda est occulis 
+              <lb ed="#Ka"/>apta puellos tuis nocte latent 
+              <lb ed="#Ka"/>mente vitio congnoscitur omni hora<lb ed="#Ka" break="no"/>que 
+              formosam quamlibet illa facit 
+              <lb ed="#Ka"/>// Consule de gemis deticta miri<lb ed="#Ka" break="no"/>ce 
+              lana Consule de facile cor<lb ed="#Ka" break="no"/>poribusque 
+              diem O quantum est vni 
+              <lb ed="#Ka"/>posse placere viro</quote>
+            </p>
+            <p xml:id="bHY6yh-d87025-d1e319">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d87025-Rd1e356">Auctor liber qui dicitur facetus capitulo 
+              <lb ed="#Ka"/>5</ref> <quote xml:id="bHY6yh-d87025-Qd1e323">dulcis amor uidue mollit que 
+              <lb ed="#Ka"/>corda superba Que melius ceteris 
+              <lb ed="#Ka"/>et sapienter amat prouidus imprim<lb ed="#Ka" break="no"/>is 
+              oculis sibi querit amanda Eli<lb ed="#Ka" break="no"/>g<del>e</del>at 
+              emultis <sic>emultis</sic> que placet vna 
+              <pb ed="#Ka" n="195-v"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>sibi diligat equalem uel paulo se me<lb ed="#Ka" break="no"/>liorem 
+              Nam cito sepe ruit qui 
+              <lb ed="#Ka"/>super astra uolat diligat hunc mulier 
+              <lb ed="#Ka"/>qui caute venit amare</quote>
+            </p>
+            <!--end of rubric in manuscript-->
+         </div>
+      </body>
+   </text>
+</TEI>
