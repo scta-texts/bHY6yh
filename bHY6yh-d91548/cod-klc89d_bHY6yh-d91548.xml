@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 11</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 11</title>
+               <date when="2025-08-09">August 9, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-08-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="205-v"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d91548"><!-- p4l6-r11 -->
+            <head xml:id="bHY6yh-d91548-Hd1e108">Rubrica 11</head>
+            <head xml:id="bHY6yh-d91548-Hd1e111" type="question-title">De conseruatione aut separatione matrimonii</head>
+            <p xml:id="bHY6yh-d91548-d1e114"> 
+              <lb ed="#Ka" n="40"/>De conseruatione aut separatione ma<lb ed="#Ka" break="no"/>trimonii 
+              Rubrica <sic>2</sic>
+            </p>
+            <p xml:id="bHY6yh-d91548-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d91548-Rd1e118">MAtheus in ewangelio 
+              <lb ed="#Ka"/>capitulo 19</ref> <quote xml:id="bHY6yh-d91548-Qd1e127">Quos deus coniunxit 
+              <lb ed="#Ka"/>homo separat</quote>
+            </p>
+            <p xml:id="bHY6yh-d91548-d1e133">
+              / <ref xml:id="bHY6yh-d91548-Rd1e133">Idem dicit marcus 
+              <lb ed="#Ka"/>10 capitulo</ref> <quote xml:id="bHY6yh-d91548-Qd1e137">Moyses ad duritiem cordis 
+              <lb ed="#Ka"/>vestri permisit vobis dimittere vxores 
+              <lb ed="#Ka"/>vestras Quicumque dimiserit vxorem 
+              <lb ed="#Ka"/>suam contempta causa fornicatio<lb ed="#Ka" break="no"/>nis 
+              et aliam duxerit mechabitur
+              <lb ed="#Ka"/>et dimissam duxerit mechabitur</quote>
+            </p>
+            <p xml:id="bHY6yh-d91548-d1e152"> 
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d91548-Rd1e152">Idem dicit lucas capitulo 16</ref>
+            </p>
+            <p xml:id="bHY6yh-d91548-d1e158">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d91548-Rd1e161">MArcus in ewangelio capitulo 16</ref> <quote xml:id="bHY6yh-d91548-Qd1e162">Quicum<lb ed="#Ka" break="no"/>que 
+              dimiserit vxorem suam et aliam 
+              <lb ed="#Ka"/>duxerit adulterium committit super 
+              <lb ed="#Ka"/>eam et si vxor dimiserit virum 
+              <lb ed="#Ka"/>suum et alii nupserit mechatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d91548-d1e176">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d91548-Rd1e181">Paulus apostolus epistola I ad corinthios 
+              <lb ed="#Ka"/>capitulo 7</ref> <quote xml:id="bHY6yh-d91548-Qd1e180">hiis qui matrimonio iuncti sunt 
+              <lb ed="#Ka"/>precipio non ego sed dominus vxorem a 
+              <lb ed="#Ka"/>viro non discedere quod si discesserit 
+              <lb ed="#Ka"/>manere innuptam aut viro 
+              <lb ed="#Ka"/>suo reconciliari et vir vxorem 
+              <lb ed="#Ka"/>non dimittat aligatus est vxori 
+              <lb ed="#Ka"/>noli querere solutionem
+            </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
