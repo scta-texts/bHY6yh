@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 2</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 2</title>
+               <date when="2025-08-16">August 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-08-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="207-v"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d92511"><!-- p5l1-r2 -->
+            <head xml:id="bHY6yh-d92511-Hd1e108">Rubrica 2</head>
+            <head xml:id="bHY6yh-d92511-Hd1e111" type="question-title">De patientia et impatientia</head>
+            <p xml:id="bHY6yh-d92511-d1e114">
+              <lb ed="#Ka" n="51"/>De patientia et inpatientia Rubrica 
+              <lb ed="#Ka"/>2
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e119">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e116">SAlomon in prouerbiis 
+              <lb ed="#Ka"/>capitulo 14</ref> <quote xml:id="bHY6yh-d92511-Qd1e125">Impatiens operabitur 
+              <lb ed="#Ka"/>stultitiam qui patiens est multa 
+              <lb ed="#Ka"/>gubernatur prudentia. qui autem impa<lb ed="#Ka"/>tiens 
+              est ex altat stultitiam suam</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e137"> 
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e135">16 capitulo</ref> <quote xml:id="bHY6yh-d92511-Qd1e139">Melior est patiens viro forti 
+              <lb ed="#Ka"/>et qui dominatur animo suo expug<lb ed="#Ka"/>natore 
+              vrbium</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e148"> 
+              <ref xml:id="bHY6yh-d92511-Rd1e148">19 capitulo</ref> <quote xml:id="bHY6yh-d92511-Qd1e150">Qui inpati<lb ed="#Ka"/>ens 
+              sustinebit dampnum</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e156"> 
+              <ref xml:id="bHY6yh-d92511-Rd1e158">25 capitulo</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d92511-Qd1e158">Patientia lenietur princeps</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e164"> 
+              <ref xml:id="bHY6yh-d92511-Rd1e168">Idem in 
+              <lb ed="#Ka"/>ecclesiastico capitulo 7</ref> <quote xml:id="bHY6yh-d92511-Qd1e166">Melior patiens ar<lb ed="#Ka"/>rogante</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e172">
+              / <ref xml:id="bHY6yh-d92511-Rd1e180">Cronica de nugis 
+              <pb ed="#Ka" n="208-r"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>philosophorum capitulo 2 scilicet de thalete</ref> <quote xml:id="bHY6yh-d92511-Qd1e176">Thales 
+              <lb ed="#Ka"/>milesius qui primus sapiens nomina<lb ed="#Ka"/>tus 
+              est secundum et quem septem sapien<lb ed="#Ka"/>tes 
+              vocati sunt interrogatus qualiter quis 
+              <lb ed="#Ka"/>infortunium facile ferret ait se 
+              <lb ed="#Ka"/>immutas peiora pati uideat</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e190"> 
+              <ref xml:id="bHY6yh-d92511-Rd1e199">6 
+              <lb ed="#Ka"/>capitulo scilicet de biante</ref> <quote xml:id="bHY6yh-d92511-Qd1e192">bias primensis dictus 
+              <lb ed="#Ka"/>vnus de septem sapientibus dicebat 
+              <lb ed="#Ka"/>infortunatum esse non patientem in<lb ed="#Ka"/>fortunia</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e200">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e213">Aristotiles politicorum libro 8 et finali</ref> <quote xml:id="bHY6yh-d92511-Qd1e204">Iu<lb ed="#Ka"/>uenes 
+              propter etatem indelectabile 
+              <lb ed="#Ka"/>nichil sufferunt volentes</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e213">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e228">Virgilius eneydos libro 5 prope finem</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d92511-Qd1e217">Supanda omnis fortuna ferendo est</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e223">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e240">Tulius rethoricorum artis veteris libro 
+              <lb ed="#Ka"/>2 capitulo 9</ref> <quote xml:id="bHY6yh-d92511-Qd1e227">Patientia est honestas aut 
+              <lb ed="#Ka"/>utilitas tam rerum arduarum 
+              <lb ed="#Ka"/>ac difficilium voluntaria ac diuina 
+              <lb ed="#Ka"/>perpesio</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e237">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e256">Ouidius epistolarum 5 epistola</ref> <quote xml:id="bHY6yh-d92511-Qd1e241">Leniter ex meri<lb ed="#Ka"/>to 
+              quid quid patiare ferendum est Que 
+              <lb ed="#Ka"/>venit <sic>indingne</sic> pena dolenda 
+              <lb ed="#Ka"/>venit</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e249">
+              <ref xml:id="bHY6yh-d92511-Rd1e270">Idem sine titulo se amorum libro I 
+              <lb ed="#Ka"/>capitulo I</ref> <quote xml:id="bHY6yh-d92511-Qd1e253">leue scit quod plene fertur onus</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e259">
+              <ref xml:id="bHY6yh-d92511-Rd1e282">libro 
+              <lb ed="#Ka"/>2 capitulo 3</ref> <quote xml:id="bHY6yh-d92511-Qd1e263">heu quam cupies ponere ferre 
+              <lb ed="#Ka"/>graue est</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e269">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e294">Quintilianus declamationum 10 declamatione</ref> <quote xml:id="bHY6yh-d92511-Qd1e273">le<lb ed="#Ka"/>uat 
+              omnis cruciatus omnem dolorem 
+              <lb ed="#Ka"/>preparata mente composuisse patientia nulla 
+              <lb ed="#Ka"/>pena est nisi inuito non habemus 
+              <lb ed="#Ka"/>ullum nisi ab impatientia dolorem</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e286"> 
+              <ref xml:id="bHY6yh-d92511-Rd1e312">11 
+              <lb ed="#Ka"/>declamatione</ref> <quote xml:id="bHY6yh-d92511-Qd1e288">leuior est dolor qui disponit</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e294">
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e324">Paulus apostolus epistola ad romanos capitulo 6</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d92511-Qd1e298">tabulanto potientiam operatur 
+              <lb ed="#Ka"/>patientia autem probonorum</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e310">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e343">Seneca tragediarum in trohadis capitulo 4</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d92511-Qd1e314">Quo plura possis patienter feras</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e320">
+              <ref xml:id="bHY6yh-d92511-Rd1e355">In 
+              <lb ed="#Ka"/>medea capitulo 4</ref> <quote xml:id="bHY6yh-d92511-Qd1e324">Equum aut iniquum 
+              <lb ed="#Ka"/>regis imperium feras</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e330">
+              <ref xml:id="bHY6yh-d92511-Rd1e367">Idem epistolarum 
+              <lb ed="#Ka"/>ad lucillum libro 2 epistola 6</ref> <quote xml:id="bHY6yh-d92511-Qd1e334">Multam addit 
+              <lb ed="#Ka"/>si virtus latescitat</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e340">
+              <ref xml:id="bHY6yh-d92511-Rd1e379">Idem de prouidentia</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d92511-Qd1e344">marcet sine aduersario virtus tunc 
+              <lb ed="#Ka"/>apperet quanta sit quamcumque polleat cum 
+              <lb ed="#Ka"/>quid possit patientia ostendit</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e353"> 
+              <ref xml:id="bHY6yh-d92511-Rd1e392">Idem 
+              <lb ed="#Ka"/>de consolatione ad paulinum</ref> / <quote xml:id="bHY6yh-d92511-Qd1e355">non ferre 
+              <lb ed="#Ka"/>mala sua non est viri</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e363"> 
+              <ref xml:id="bHY6yh-d92511-Rd1e405">Idem in 
+              <lb ed="#Ka"/>prouerbiis et macrobius saturnali<lb ed="#Ka"/>orum 
+              libro 2 capitulo 18 <unclear>Exauercte</unclear> publii</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d92511-Qd1e365">feras non culpas quod mutari non 
+              <lb ed="#Ka"/>potest furor fit lesa seperius patientia</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e375">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e422">Lucanus libro 9</ref> <quote xml:id="bHY6yh-d92511-Qd1e379">Gaudeat patientia duris</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e383">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e432">Cecilius firmanus de beatam uita libro 
+              <lb ed="#Ka"/>3</ref> <quote xml:id="bHY6yh-d92511-Qd1e387">patientia est malorum que aut 
+              <lb ed="#Ka"/>inferuntur ut accidunt cum equanimita<lb ed="#Ka"/>te 
+              prolatio</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e395">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e446">Prudentius de piscomachia capitulo 4</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d92511-Qd1e399">omnibus vna comes virtutibus asso<lb ed="#Ka"/>ciatur 
+              auxiliumque suum fortis patien<lb ed="#Ka"/>tia 
+              miscet nulla anceps lucta<lb ed="#Ka"/>men 
+              ruit virtute sue ista virtus 
+              <lb ed="#Ka"/>nam vidua est quam non patientia 
+              <lb ed="#Ka"/>firmat</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e411">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e464">Cato capitulo 2</ref> <quote xml:id="bHY6yh-d92511-Qd1e415">Maxima etenim morum 
+              <lb ed="#Ka"/>semper est patientia virtus</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e422"> 
+              <ref xml:id="bHY6yh-d92511-Rd1e475">capitulo 4</ref> 
+              <pb ed="#Ka" n="208-v"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d92511-Qd1e424">Quod merito pateris patienter ferre 
+              <lb ed="#Ka"/>memento Cumque reus tibi sis ipsum 
+              <lb ed="#Ka"/>te iudice dampna</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e432">
+              <ref xml:id="bHY6yh-d92511-Rd1e489">capitulo 5</ref> <quote xml:id="bHY6yh-d92511-Qd1e436">Cede locum 
+              <lb ed="#Ka"/>lesus fortune cede potenti ledere 
+              <lb ed="#Ka"/>qui potuit aliquando prodesse ualebit</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e444">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e503">Boetius de consolatione libro 4 capitulo I</ref> <quote xml:id="bHY6yh-d92511-Qd1e448">E<lb ed="#Ka"/>quo 
+              animo ut tolleres opportet quid<lb ed="#Ka"/>quid 
+              matra fortuna aream ge<lb ed="#Ka"/>ritur 
+              in patientia fortem exacer<lb ed="#Ka"/>bablis 
+              quam mutare non possis</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e458"> 
+              <ref xml:id="bHY6yh-d92511-Rd1e517">7 capitulo</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d92511-Qd1e460">Quis ille tam felix qui cum de<lb ed="#Ka"/>derit 
+              patientie manus statum su<lb ed="#Ka"/>um 
+              mutare non oportet</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e468">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e531">Cassiodorus epistolarum libro 10 epistola 11</ref> // 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d92511-Qd1e472">Sustinendo potius quam uindicando 
+              <lb ed="#Ka"/>laudaberis</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e478">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e543">Gregorius in pastorali capitulo <sic>capitulo</sic> 34</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d92511-Qd1e482">tanto quisque minus ostenditur doc<lb ed="#Ka"/>tus 
+              quanto minus vincitur patieris</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e491"> 
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e556">52 capitulo</ref> <quote xml:id="bHY6yh-d92511-Qd1e493">Quisque non tam que ab altero 
+              <lb ed="#Ka"/>tollerat quamque ab ipso tollerantur 
+              <lb ed="#Ka"/>attendat Si enim sua que portantur 
+              <lb ed="#Ka"/>considerat ea que ab altero sustinet 
+              <lb ed="#Ka"/>leuius portat</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e507">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e580">Ysidorus in synomia soliloquiorum 
+              <lb ed="#Ka"/>capitulo 4</ref> <quote xml:id="bHY6yh-d92511-Qd1e515">Omnia aduersa equo animo 
+              <lb ed="#Ka"/>porta dum tibi aliena pericula me<lb ed="#Ka"/>moras 
+              mitius tua portas a<lb ed="#Ka"/>liorum 
+              enim exempla dolorem 
+              <lb ed="#Ka"/>reuelant alienis malis facilius 
+              <lb ed="#Ka"/>consolatur homo ab vno ferendum 
+              <lb ed="#Ka"/>est quod multis accidit tollerabile 
+              <lb ed="#Ka"/>Qui aduersa patientur tollerat 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>deum sibi acius placat</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e534"> 
+              <ref xml:id="bHY6yh-d92511-Rd1e603">10 capitulo</ref> <quote xml:id="bHY6yh-d92511-Qd1e536">Pa<lb ed="#Ka"/>tienter 
+              leuiora portabis si grauio<lb ed="#Ka"/>ra 
+              fueris recordatus</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e542">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e618"><sic>Berntrandus</sic> de improbatione vi<lb ed="#Ka"/>tiorum 
+              capitulo 4</ref> <quote xml:id="bHY6yh-d92511-Qd1e546">nobilis exsuperat 
+              <lb ed="#Ka"/>duras patientia ligwas nullius 
+              <lb ed="#Ka"/>aduersi patiens furari mouetur 
+              <lb ed="#Ka"/>Expectauerunt maliturum semina 
+              <lb ed="#Ka"/>fructum Et sua vir patiens uota 
+              <lb ed="#Ka"/>videbit ouans</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e556">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e636">Matheus vindocinensis in poetria 
+              <lb ed="#Ka"/>parte I capitulo 6</ref> <quote xml:id="bHY6yh-d92511-Qd1e560">patientia conseruatina est vir<lb ed="#Ka"/>tutis</quote>
+            </p>
+            <p xml:id="bHY6yh-d92511-d1e570">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d92511-Rd1e648">Richardus iudex venusinus libro de 
+              <lb ed="#Ka"/>pertractatione nuptiarum capitulo 40</ref> <quote xml:id="bHY6yh-d92511-Qd1e574">Qua pa<lb ed="#Ka"/>timur 
+              iuste non ita pena riget</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
