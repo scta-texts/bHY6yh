@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 2</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 2</title>
+               <date when="2025-08-30">August 30, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-08-30" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="218-v"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d97854"><!-- p5l2-r2 -->
+            <head xml:id="bHY6yh-d97854-Hd1e108">Rubrica 2</head>
+            <head xml:id="bHY6yh-d97854-Hd1e111" type="question-title">De iustis causis assumendi bellum</head>
+            <p xml:id="bHY6yh-d97854-d1e114">
+              <lb ed="#Ka" n="49"/>De Iustis causis assumendi bellum 
+              <lb ed="#Ka"/>Rubrica <sic>13</sic> 
+            </p>
+            <p xml:id="bHY6yh-d97854-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97854-Rd1e118">aRistoteles ethicorum libro 10 et finali capitulo 7 et finali</ref> <quote xml:id="bHY6yh-d97854-Qd1e129">bella<lb ed="#Ka" break="no"/>mus 
+              ut pacem</quote> 
+            </p>
+            <p xml:id="bHY6yh-d97854-d1e133">
+              / <quote xml:id="bHY6yh-d97854-Qd1e137"><ref xml:id="bHY6yh-d97854-Rd1e135">Tulius philippi<lb ed="#Ka" break="no"/>corum 
+              libro 7</ref> Que causa iustior est 
+              <lb ed="#Ka"/>belli gerendi quam seruitutis depulsio</quote>
+            </p>
+            <p xml:id="bHY6yh-d97854-d1e146"> 
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97854-Rd1e146">libro 9</ref> <quote xml:id="bHY6yh-d97854-Qd1e148">pro libertate vite periculo decertan<lb ed="#Ka" break="no"/>dum 
+              est</quote>
+            </p>
+            <p xml:id="bHY6yh-d97854-d1e154"> 
+              <ref xml:id="bHY6yh-d97854-Rd1e156">Idem de officiis libro I capitulo 35</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d97854-Qd1e156">bellum ideo suscipiatur ut nichil aliud 
+              <lb ed="#Ka"/>nisi pax quesita videatur</quote>
+            </p>
+            <p xml:id="bHY6yh-d97854-d1e164">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97854-Rd1e171">Paulus apostolus epistola 2 ad thymotheum 
+              <lb ed="#Ka"/>capitulo 2</ref> <quote xml:id="bHY6yh-d97854-Qd1e168">Qui certat in agone non coronatur 
+              <lb ed="#Ka"/>nisi letigime certat</quote> 
+            </p>
+            <p xml:id="bHY6yh-d97854-d1e176">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97854-Rd1e187">Lucanus libro 7</ref> <quote xml:id="bHY6yh-d97854-Qd1e180">nulla manus belli 
+              <pb ed="#Ka" n="219-r"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>mutata iudice pura est</quote>
+            </p>
+            <p xml:id="bHY6yh-d97854-d1e186">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97854-Rd1e199">Cassiodorus epistolarum libro 3 epistola I</ref> <quote xml:id="bHY6yh-d97854-Qd1e190">Tunc solum 
+              <lb ed="#Ka"/>vtile est ad arma concurrere cum locum 
+              <lb ed="#Ka"/>apud aduersarium iustitia non potest in<lb ed="#Ka" break="no"/>venire</quote>
+            </p>
+            <p xml:id="bHY6yh-d97854-d1e204">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97854-Rd1e219">Auctor liber qui dicitur facetus capitulo 10 et finali</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d97854-Qd1e208">Quemque decet patriam defendere tempore 
+              <lb ed="#Ka"/>belli</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
