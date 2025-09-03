@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 17</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 17</title>
+               <date when="2025-07-05">July 5, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="193-v"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d86633"><!-- p4l4-r17 -->
+            <head xml:id="bHY6yh-d86633-Hd1e108">Rubrica 17</head> 
+            <!-- this doesn't seem to be in Chris's list -->
+            <head xml:id="bHY6yh-d86633-Hd1e113" type="question-title">De conuiuiis.</head>
+            <p xml:id="bHY6yh-d86633-d1e116">
+              <lb ed="#Ka" n="55"/> De conuiuiis Rubrica 17
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d86633-Rd1e118">Ihesus filius syrach in 
+              <lb ed="#Ka"/>ecclesiastico capitulo 30</ref> <quote xml:id="bHY6yh-d86633-Qd1e127">Splendidum
+              <lb ed="#Ka"/>cor bonum in epulis epule 
+              <lb ed="#Ka"/>diligententes fiunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e140">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d86633-Rd1e136">Seneca epistolarum ad lucillum libro 3 
+              <pb ed="#Ka" n="194-r"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>epistola 5</ref> ¶ <quote xml:id="bHY6yh-d86633-Qd1e146">Non circumspiciendum est cum 
+              <lb ed="#Ka"/>quibus edas et bibas quam quid 
+              <lb ed="#Ka"/>edas et bibas</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e152">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d86633-Rd1e150">Valerius maximus libro 2 titulo de insti<lb ed="#Ka" break="no"/>tutis 
+              antiquis</ref> <quote xml:id="bHY6yh-d86633-Qd1e156">Conuiuium solempne 
+              <lb ed="#Ka"/>maiores instituerunt Illud que ca<lb ed="#Ka" break="no"/>ristiam 
+              appellauerunt cui preter cog<lb ed="#Ka" break="no"/>natos 
+              et affines nemo interpo<lb ed="#Ka" break="no"/>nebatur 
+              ut siqua inter necessarias personas 
+              <lb ed="#Ka"/>querela esset orta apud sacra mense 
+              <lb ed="#Ka"/>et inter hylaritatem animorum 
+              <lb ed="#Ka"/>a fautibus discordi tollerentur</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e175">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d86633-Rd1e176">Macrobius saturnaliorum libro 3 in prohe<lb ed="#Ka" break="no"/>mio</ref> 
+              <quote xml:id="bHY6yh-d86633-Qd1e179">Solet cibus cum sumitur tacitos 
+              <lb ed="#Ka"/>efficere potus loquaces</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e187">
+              // <ref xml:id="bHY6yh-d86633-Rd1e191">CAto capitulo 1 //</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d86633-Qd1e191">Raro conuiuare pauca in conuiu<lb ed="#Ka" break="no"/>io 
+              loquere</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e197"> 
+              <ref xml:id="bHY6yh-d86633-Rd1e201">capitulo 2</ref> <quote xml:id="bHY6yh-d86633-Qd1e199">dapsilis interdum 
+              <lb ed="#Ka"/>sis notis et caris amicis</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e205">
+              <ref xml:id="bHY6yh-d86633-Rd1e213">capitulo 4</ref> <quote xml:id="bHY6yh-d86633-Qd1e209">Inter 
+              <lb ed="#Ka"/>conuiuas fac sis sermone modestus
+              <lb ed="#Ka"/>// Ne dicare loquax dum vis vr<lb ed="#Ka" break="no"/>banus 
+              haberi</quote>
+            </p>
+            <p xml:id="bHY6yh-d86633-d1e218">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d86633-Rd1e228">Versificator fabularum esopi 12 fabula</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d86633-Qd1e222">Intenui mensa satis est voluntas 
+              <lb ed="#Ka"/>in mensa nobilitat viles frons 
+              <lb ed="#Ka"/>generosa dapes Emendat conditque 
+              <lb ed="#Ka"/>cibos clementia uultas Conuiuam 
+              <lb ed="#Ka"/>faciat plus dape frontis honor 
+              <lb ed="#Ka"/>Tristitior in mensas pauperas 
+              <lb ed="#Ka"/>usus opes</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
