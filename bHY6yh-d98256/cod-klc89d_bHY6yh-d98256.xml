@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4</title>
+               <date when="2025-10-04">October 4, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-10-04" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="219-v"/>
+            <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d98256"><!-- p5l2-r4 -->
+            <head xml:id="bHY6yh-d98256-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-d98256-Hd1e111" type="question-title">De eis que prius et potius agenda sunt quam prelium</head>
+            <p xml:id="bHY6yh-d98256-d1e114">
+              <lb ed="#Ka" n="17"/>de eis que prius et potius agenda 
+              <lb ed="#Ka"/>sunt quam bellum Rubrica 4
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d98256-Rd1e118">TErentius in enucho 
+              <lb ed="#Ka"/>capitulo 18</ref> <quote xml:id="bHY6yh-d98256-Qd1e127">Omnia prius consilio 
+              <lb ed="#Ka"/>experiri quam armis 
+              <lb ed="#Ka"/>sapientem decet</quote> 
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e135">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d98256-Rd1e135">Valerius maximus libro 7 titulo</ref> <quote xml:id="bHY6yh-d98256-Qd1e139">sapienter 
+              <lb ed="#Ka"/>dicta aut facta Scipio affricanus 
+              <lb ed="#Ka"/>negat aliter cum hoste confligere debere 
+              <lb ed="#Ka"/>quam aut si occasio obuenisset 
+              <lb ed="#Ka"/>aut necessitas incidisset</quote>
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e150">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d98256-Rd1e152">Vegetius de re militari libro 3 titulo 9</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d98256-Qd1e154">Omnia ante cogitanda ante tem<lb ed="#Ka" break="no"/>poranda 
+              ante facienda sunt quam ad ul<lb ed="#Ka" break="no"/>timum 
+              veniatur adruptum boni 
+              <lb ed="#Ka"/>emim duces non aperto prelio in quo 
+              <lb ed="#Ka"/>est commune periculum sed ex ccculto semper 
+              <lb ed="#Ka"/>attemptant ut integris suis 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>quantum possunt hostes interant 
+              <lb ed="#Ka"/>certe uel certeant</quote>
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e171"> 
+              <ref xml:id="bHY6yh-d98256-Rd1e175">26 titulo et finali</ref> <quote xml:id="bHY6yh-d98256-Qd1e173">Inop<lb ed="#Ka" break="no"/>ia 
+              aut superuenientibus aut terrore 
+              <lb ed="#Ka"/>melius est hostem domare quam 
+              <lb ed="#Ka"/>prelio inquo amplius solet fortuna 
+              <lb ed="#Ka"/>potestatis habere quam virtus boni 
+              <lb ed="#Ka"/>duces publico certamine nunquam nisi 
+              <lb ed="#Ka"/>ex occasione aut nimia necessita<lb ed="#Ka" break="no"/>te 
+              confligunt magna dispositio est 
+              <lb ed="#Ka"/>hostem fame magis necare quam 
+              <lb ed="#Ka"/>ferro</quote>
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e198">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d98256-Rd1e207">Cassiodorus epistolarum libro 3 epsitola I</ref> <quote xml:id="bHY6yh-d98256-Qd1e202">Tunc 
+              <lb ed="#Ka"/>solum vtile est ad arma occurrere cum 
+              <lb ed="#Ka"/>locum apud aduersarium iustitia non 
+              <lb ed="#Ka"/>potest invenire</quote>
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e212">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d98256-Rd1e223">BAldo 14 fabula</ref> <quote xml:id="bHY6yh-d98256-Qd1e216">Cautius est astu quam 
+              <lb ed="#Ka"/>te defendere fastu</quote>
+            </p>
+            <p xml:id="bHY6yh-d98256-d1e222">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d98256-Rd1e235">Richardus iudex venusinus libelli de 
+              <lb ed="#Ka"/>pertractione nuptiarum capitulo 42</ref> <quote xml:id="bHY6yh-d98256-Qd1e226">Euentus 
+              <lb ed="#Ka"/>pungne dubius victoria belli</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
