@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 7</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 7</title>
+               <date when="2025-10-10">October 10, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-10-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="220-v"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d98722"><!-- p5l2-r7 -->
+            <head xml:id="bHY6yh-d98722-Hd1e108">Rubrica 7</head>
+            <head xml:id="bHY6yh-d98722-Hd1e111" type="question-title">De peritia atque imperitia bellice operationis</head>
+            <p xml:id="bHY6yh-d98722-d1e114">
+              <lb ed="#Ka" n="50"/>de peritia atque imperitia bellice 
+              <lb ed="#Ka"/>operationis Rubrica 7
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d98722-Rd1e118">QVintilianus declamationum et 
+              <lb ed="#Ka"/>declamatione</ref> <quote xml:id="bHY6yh-d98722-Qd1e129">principes nos facit 
+              <lb ed="#Ka"/>serenitas institutorum ordo mi<lb ed="#Ka" break="no"/>litie 
+              amor quidem laboris et cot<lb ed="#Ka" break="no"/>idiana 
+              exercitatione assidua belli 
+              <lb ed="#Ka"/>meditatio atem plura pene moribus 
+              <lb ed="#Ka"/>quam viribus vincimus</quote> 
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e141">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d98722-Rd1e141">Statius Thebaydos libro 8</ref> <quote xml:id="bHY6yh-d98722-Qd1e145">Sepe 
+              <lb ed="#Ka"/>ignari perimunt caduntque</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e152">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d98722-Rd1e154">Frontinus libro 4 titulo 2</ref> <quote xml:id="bHY6yh-d98722-Qd1e156">domicius cor<lb ed="#Ka" break="no"/>bulo 
+              duabus legionibus ac paucissimis 
+              <lb ed="#Ka"/>auxiliis disciplina correctis par<lb ed="#Ka" break="no"/>thos 
+              substrauit alexandro ma<lb ed="#Ka" break="no"/>zedo 
+              quadraginta milibus hominum 
+              <pb ed="#Ka" n="221-r"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>iam indea philippo patre discipline 
+              <lb ed="#Ka"/>asuefactis orbem terrarum aggressus 
+              <lb ed="#Ka"/><sic>agressus</sic> in numeras hostium copi<lb ed="#Ka" break="no"/>as 
+              superauit</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e177">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d98722-Rd1e181">Vegetius dere militari in prohemio</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d98722-Qd1e181">In omni prelio tam multitudo et virtus 
+              <lb ed="#Ka"/>quam ars et exercitium solent prestare 
+              <lb ed="#Ka"/>victoriam</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e189"> 
+              <ref xml:id="bHY6yh-d98722-Rd1e193">5 titulo</ref> <quote xml:id="bHY6yh-d98722-Qd1e191">Scientiam rei bellice 
+              <lb ed="#Ka"/>dimicandi nutrit audaciam nemo 
+              <lb ed="#Ka"/>facere metuit qui se bene didicisse concidit 
+              <lb ed="#Ka"/>In certamine bellorum exercitata paucit<lb ed="#Ka" break="no"/>as 
+              semper potior est ad uictoriam 
+              <lb ed="#Ka"/>rudis et indocta multitudo posita 
+              <lb ed="#Ka"/>est ad sedem</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e208"> 
+              <ref xml:id="bHY6yh-d98722-Rd1e213">4 titulo</ref> <quote xml:id="bHY6yh-d98722-Qd1e210">Melius est ut 
+              <lb ed="#Ka"/>exercitatus in venis causetur etatem 
+              <lb ed="#Ka"/>numdum venisse pugnandi quam 
+              <lb ed="#Ka"/>doleat preterisse</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e218"> 
+              <ref xml:id="bHY6yh-d98722-Rd1e225">13 titulo</ref> <quote xml:id="bHY6yh-d98722-Qd1e220">nichil neque 
+              <lb ed="#Ka"/>firmius neque felicius neque lauda<lb ed="#Ka" break="no"/>bilius 
+              in re publica in qua habund<lb ed="#Ka" break="no"/>ant 
+              milites eruditi In aliis rebus 
+              <lb ed="#Ka"/>sicut ait 
+              <lb ed="#Ka"/>Cato Siquid erratum est potest corrigi 
+              <lb ed="#Ka"/>postmodum preliorum vero delecta da<lb ed="#Ka" break="no"/>tionem 
+              non recipiunt cum pena statim 
+              <lb ed="#Ka"/>sequatur errorem Ram aui confe<lb ed="#Ka" break="no"/>stim 
+              pereunt etiam in fugam versi 
+              <lb ed="#Ka"/>victoribus vltra pares esse non au<lb ed="#Ka" break="no"/>dent</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e243"> 
+              <ref xml:id="bHY6yh-d98722-Rd1e252">28 capitulo titulo et finali</ref> <quote xml:id="bHY6yh-d98722-Qd1e245">vtilius constat eru<lb ed="#Ka" break="no"/>diere 
+              armis suos quam alienis 
+              <lb ed="#Ka"/>mercede conducere</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e254"> 
+              <ref xml:id="bHY6yh-d98722-Rd1e265">titulo 22</ref> <quote xml:id="bHY6yh-d98722-Qd1e256">Si doctrina 
+              <lb ed="#Ka"/>cesset amor nil paganus distat am<lb ed="#Ka" break="no"/>ilite</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e262"> 
+              <ref xml:id="bHY6yh-d98722-Rd1e275">libro 3 in prohemio</ref> <quote xml:id="bHY6yh-d98722-Qd1e264">Qui victori<lb ed="#Ka" break="no"/>am 
+              cupit milites imbuat diligen<lb ed="#Ka" break="no"/>ter 
+              Qui secundos optat euentus di<lb ed="#Ka" break="no"/>micet 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>arte non casu</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e274"> 
+              <ref xml:id="bHY6yh-d98722-Rd1e290"></ref> <quote xml:id="bHY6yh-d98722-Qd1e276">et nemo 
+              <lb ed="#Ka"/>cogitat de tumultu qui fidutiam 
+              <lb ed="#Ka"/>de arte uel viribus gerit</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e284"> 
+              <ref xml:id="bHY6yh-d98722-Rd1e302">6 titulo</ref> <quote xml:id="bHY6yh-d98722-Qd1e286">Interdum 
+              <lb ed="#Ka"/>perita rusticitas plura promittit et 
+              <lb ed="#Ka"/>credit se scire que nescit</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e292">
+              <ref xml:id="bHY6yh-d98722-Rd1e314">26 titulo et finali</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d98722-Qd1e296">Paucos viros fortes natura procreat 
+              <lb ed="#Ka"/>bona institutione plures reddit ind<lb ed="#Ka" break="no"/>ustria</quote>
+            </p>
+            <p xml:id="bHY6yh-d98722-d1e302">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d98722-Rd1e326">Cassiodorus epistolarum libro I epistola 39</ref> <quote xml:id="bHY6yh-d98722-Qd1e306">discat 
+              <lb ed="#Ka"/>miles in ocio quod perficere possit in prelio</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
