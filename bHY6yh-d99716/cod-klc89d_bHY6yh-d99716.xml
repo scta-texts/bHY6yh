@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 14</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 14</title>
+               <date when="2025-10-13">October 13, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-10-13" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="223-r"/>
+            <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d99716"><!-- p5l2-r14 -->
+            <head xml:id="bHY6yh-d99716-Hd1e108">Rubrica 14</head>
+            <head xml:id="bHY6yh-d99716-Hd1e111" type="question-title">De experienda dubia fide suorum</head>
+            <p xml:id="bHY6yh-d99716-d1e114">
+              <lb ed="#Ka" n="12"/>de experigentia dubia fide su<lb ed="#Ka" break="no"/>orum 
+              Rubrica 14
+            </p>
+            <p xml:id="bHY6yh-d99716-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d99716-Rd1e118">FRontinus libro 4 titulo I</ref> ¶ <quote xml:id="bHY6yh-d99716-Qd1e122">The<lb ed="#Ka" break="no"/>genes 
+              Atheniensis 
+              <lb ed="#Ka"/>cum exercitum megaram 
+              <lb ed="#Ka"/>duceret petentibus ordines respondit 
+              <lb ed="#Ka"/>ibi se daturum de Inde clam equi<lb ed="#Ka" break="no"/>tes 
+              premissit eosque hostium specie 
+              <lb ed="#Ka"/>inperatum in socios retorquere iussit 
+              <lb ed="#Ka"/>quo festo cum tamquam ad hostium occursum 
+              <lb ed="#Ka"/>proparentur permisit ita ordinari aci<lb ed="#Ka" break="no"/>em 
+              ut quo quis voluisset consisteret 
+              <lb ed="#Ka"/>et in omni hertissimus quisque retro 
+              <lb ed="#Ka"/>se dedisset strennui autem in fronte 
+              <lb ed="#Ka"/>prosiluisset ut quemcumque in venerat 
+              <lb ed="#Ka"/>stantem ita ad ordines milites 
+              <lb ed="#Ka"/>prouexit</quote>
+            </p>
+            <p xml:id="bHY6yh-d99716-d1e152"> 
+              <ref xml:id="bHY6yh-d99716-Rd1e151">titulo 7</ref> <quote xml:id="bHY6yh-d99716-Qd1e154">picrates dux Athe<lb ed="#Ka" break="no"/>nensium 
+              classem suam hostili 
+              <lb ed="#Ka"/>habitu instruxit ut ad eos quos sus<lb ed="#Ka" break="no"/>pectos 
+              habitabat in uectus cum 
+              <lb ed="#Ka"/>effuso studio exciperetur deprehensa 
+              <lb ed="#Ka"/>eorum prouidia opidum diripuit</quote>
+            </p>
+            <p xml:id="bHY6yh-d99716-d1e167">
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d99716-Rd1e170">Vegetius de re militari libro 3 titulo 26 
+              <lb ed="#Ka"/>et finali</ref> <quote xml:id="bHY6yh-d99716-Qd1e171">numquam miles in acie producendus 
+              <lb ed="#Ka"/>est cuius amnea experimenta non 
+              <lb ed="#Ka"/>ceperis</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
