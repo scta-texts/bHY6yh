@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 17</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 17</title>
+               <date when="2025-10-15">October 15, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+          <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-10-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="223-v"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e00014"><!-- p5l2-r17 -->
+            <head xml:id="bHY6yh-e00014-Hd1e108">Rubrica 17</head>
+            <head xml:id="bHY6yh-e00014-Hd1e111" type="question-title">De modo quantitatis exercitus habendo</head>
+            <p xml:id="bHY6yh-e00014-d1e114">
+              <lb ed="#Ka" n="59"/>de Modo quantitatis exercitus 
+              <lb ed="#Ka"/>habendo Rubrica 17
+            </p>
+            <p xml:id="bHY6yh-e00014-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e00014-Rd1e118">FRontinus libro 2 titulo I</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-e00014-Qd1e127">luculus aduersus 
+              <lb ed="#Ka"/>metridatem et trigonem 
+              <lb ed="#Ka"/>in armenia maiore apud tygra<lb ed="#Ka" break="no"/>nam 
+              certam cum tempere non amplius 
+              quindecim milia armatorum haberet 
+              <pb ed="#Ka" n="224-r"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>hostis innumerabilem multitu<lb ed="#Ka" break="no"/>dinem 
+              eo que ipso inhabilem vsus 
+              <lb ed="#Ka"/>hoc eius incomodo mundum ordin<lb ed="#Ka" break="no"/>atam 
+              hostium aciem in vasit atque 
+              <lb ed="#Ka"/>ita protinus discipauit ut ipsi quidem 
+              <lb ed="#Ka"/>reges abiectis insignibus fu<lb ed="#Ka" break="no"/>gerent</quote>
+            </p>
+            <p xml:id="bHY6yh-e00014-d1e150">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e00014-Rd1e151">Vegetius dere militari libro I titulo 8</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-e00014-Qd1e154"><sic>Inomni</sic> conflictu non tam prodest 
+              <lb ed="#Ka"/>multitudo quam virtus</quote>
+            </p>
+            <p xml:id="bHY6yh-e00014-d1e161">
+              <ref xml:id="bHY6yh-e00014-Rd1e164">libro 3 titulo I</ref> <quote xml:id="bHY6yh-e00014-Qd1e165">exer<lb ed="#Ka" break="no"/>citus 
+              dicitur tam legionum quam au<lb ed="#Ka" break="no"/>xiliatorum 
+              nec non etiam equi<lb ed="#Ka" break="no"/>tum 
+              ad gerendum bellum multitudo 
+              <lb ed="#Ka"/>collecta huius di mous a magistris queritur 
+              <lb ed="#Ka"/>armorum Nam cum in exorsis et 
+              <lb ed="#Ka"/>darii et mitridatis ceterorumque regum 
+              <lb ed="#Ka"/>qui innumerabiles armauerant 
+              <lb ed="#Ka"/>populos exemplaria releguntur 
+              <lb ed="#Ka"/>euidenter apparet nimium copisos 
+              <lb ed="#Ka"/>exercitus magis proprie multitudinem 
+              <lb ed="#Ka"/>quam hostium virtute depressos Nam 
+              <lb ed="#Ka"/>pluribus casibus subiacet pro mole 
+              <lb ed="#Ka"/>sua semper est tardior in longiore 
+              <lb ed="#Ka"/>autem termino agmine et a paucis super<lb ed="#Ka" break="no"/>uentum 
+              <sic>super uentum</sic> assolet pati 
+              <lb ed="#Ka"/>in locis autem asperis uel flumibus 
+              <lb ed="#Ka"/>transseundis propter impedimentorum 
+              <lb ed="#Ka"/>moras sepe decipitur veteres qui 
+              <lb ed="#Ka"/>remedia difficultatum experimentis 
+              <lb ed="#Ka"/>didicerant non tam numerosos 
+              <lb ed="#Ka"/>quam eruditos armis exercitus habere 
+              <lb ed="#Ka"/>voluerunt ita que ineuioribus bellis 
+              <lb ed="#Ka"/>vnam legionem in istis auxiliis 
+              <lb ed="#Ka"/>7 10000 peditum et 2000 equitum 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>crediderunt posse sufficere quam ma<lb ed="#Ka" break="no"/>num 
+              pretores uelud <sic>miores</sic> duces 
+              <lb ed="#Ka"/>ad expeditionem seducerentur 
+              <lb ed="#Ka"/>ducebant quid si <sic>mangne</sic> copie hosti<lb ed="#Ka" break="no"/>um 
+              consularis potans cum 2000 pe<lb ed="#Ka" break="no"/>ditum 
+              et 4000 equitum tanquam comes 
+              <lb ed="#Ka"/>maior mittebatur Quod si infini<lb ed="#Ka" break="no"/>ta 
+              multitudo ex gentibus ferocissi<lb ed="#Ka" break="no"/>mis 
+              rebellasset tunc nimia neccessitate 
+              <lb ed="#Ka"/>cogente duo duces et duo mitte<lb ed="#Ka" break="no"/>bantur 
+              exercitus consules ambo denique 
+              <lb ed="#Ka"/>cum diuersis regionibus contra diuersos hostes 
+              <lb ed="#Ka"/>a populo romano annis prope omnibus 
+              <lb ed="#Ka"/>pugnaretur ideo sufficiebat militum 
+              <lb ed="#Ka"/>copie quia melius uidebatur non tam 
+              <lb ed="#Ka"/>grandes exercitus habere quam plures</quote>
+            </p>
+            <p xml:id="bHY6yh-e00014-d1e247"> 
+              / <ref xml:id="bHY6yh-e00014-Rd1e250">26 
+              <lb ed="#Ka"/>titulo et finali</ref> <quote xml:id="bHY6yh-e00014-Qd1e249">amplius uiuat virtus quam 
+              <lb ed="#Ka"/>multitudo</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
