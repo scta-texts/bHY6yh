@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 3</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 3</title>
+               <date when="2025-10-04">October 4, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+          <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-10-04" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="219-r"/>
+            <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-d97963"><!-- p5l2-r3 -->
+            <head xml:id="bHY6yh-d97963-Hd1e108">Rubrica 3</head>
+            <head xml:id="bHY6yh-d97963-Hd1e111" type="question-title">De belli pressura periculo et euentu</head>
+            <p xml:id="bHY6yh-d97963-d1e114">
+              <lb ed="#Ka" n="9"/>De belli pressura periculo et euentu 
+              <lb ed="#Ka"/>Rubrica 3
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97963-Rd1e118">REgum libro 2 capitulo 2</ref> <quote xml:id="bHY6yh-d97963-Qd1e125">dauid 
+              <lb ed="#Ka"/>audito nuncio ioab ducis 
+              <lb ed="#Ka"/>sui belli qui retulerat aliquam partem 
+              <lb ed="#Ka"/>sue gentis cecidisse in prelio dixit ad 
+              <lb ed="#Ka"/>nuncium hec dicit ioab nonte frangat 
+              <lb ed="#Ka"/>ista res uarius est enim euentus 
+              <lb ed="#Ka"/>prelii et nunc hunc nunc illum consumit 
+              <lb ed="#Ka"/>gladius</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e142">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97963-Rd1e141">Paralipomenon libro 2 capitulo 25</ref> <quote xml:id="bHY6yh-d97963-Qd1e146">dei qui<lb ed="#Ka" break="no"/>ppe 
+              est adiuuare et in fugam vertere</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e153">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97963-Rd1e154">Salustius in iugurtino</ref> <quote xml:id="bHY6yh-d97963-Qd1e157">Omne bel<lb ed="#Ka" break="no"/>lum 
+              sumitur facile ceterum egermine 
+              <lb ed="#Ka"/>desinit non in eiusdem potestate initium 
+              <lb ed="#Ka"/>eius et finis</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e165">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97963-Rd1e168">Virgilius eneydos libro 11 ante me<lb ed="#Ka" break="no"/>dium</ref> 
+              <quote xml:id="bHY6yh-d97963-Qd1e169">nulla salus bello</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e175"> 
+              <ref xml:id="bHY6yh-d97963-Rd1e178">libro 12 et finali 
+              <lb ed="#Ka"/>circa principium</ref> <quote xml:id="bHY6yh-d97963-Qd1e177">Respice res belli varias</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e183">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97963-Rd1e190">Tulius philippicorum libro 9</ref> <quote xml:id="bHY6yh-d97963-Qd1e187">Concede 
+              <lb ed="#Ka"/>incertus exitus belli matremque communem</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e193"> 
+              <ref xml:id="bHY6yh-d97963-Rd1e200">libro 
+              <lb ed="#Ka"/>12</ref> <quote xml:id="bHY6yh-d97963-Qd1e195">Incertus exitus belli est</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e201"> 
+              <ref xml:id="bHY6yh-d97963-Rd1e210">libro 13 et finali</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d97963-Qd1e203">mars ipse ex acie fortissimum quem<lb ed="#Ka" break="no"/>que 
+              pignorari solet</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e210">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97963-Rd1e223">Ouidius sine titulo seu amorum libro I capitulo 9</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d97963-Qd1e214">Mors dubius nec certa venus victique 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>resurgunt Quosque neges nunquam 
+              <lb ed="#Ka"/>posse iacere cadunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e222">
+              <ref xml:id="bHY6yh-d97963-Rd1e237">Idem metham<lb ed="#Ka" break="no"/>orfoses 
+              libro 13</ref> <quote xml:id="bHY6yh-d97963-Qd1e226"><unclear>dicimus</unclear> est igitur fictis 
+              <lb ed="#Ka"/>contendere verbis quam pugnare ma<lb ed="#Ka" break="no"/>nu</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e234">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97963-Rd1e254">Seneca tragediarum in thebaido capitulo 5 et finali</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d97963-Qd1e238">fortuna belli in loco est</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e244">
+              <ref xml:id="bHY6yh-d97963-Rd1e266">lucanus 
+              <lb ed="#Ka"/>libro 7</ref> <quote xml:id="bHY6yh-d97963-Qd1e248">fuge prelia dira</quote> 
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e252">
+              // <ref xml:id="bHY6yh-d97963-Rd1e278">Frontinus 
+              <lb ed="#Ka"/>libro 4 titulo 2</ref> <quote xml:id="bHY6yh-d97963-Qd1e256">Quis bello aduersus per<lb ed="#Ka" break="no"/>sonas 
+              quartodecim milibus ar<lb ed="#Ka" break="no"/>matorum 
+              in mensas difficultates 
+              <lb ed="#Ka"/>superauit Epaminadas dux the<lb ed="#Ka" break="no"/>banorum 
+              quatuor milibis hominum 
+              <lb ed="#Ka"/>exquibus quadringenti tantum equi<lb ed="#Ka" break="no"/>tes 
+              erant lazadomorum exercitum 
+              <lb ed="#Ka"/>et quatuor milium peditum equitum 
+              <lb ed="#Ka"/>mille sex tentorum uicit a IX mili<lb ed="#Ka" break="no"/>bus 
+              grecorum qui numerus in auxilium 
+              <lb ed="#Ka"/>ciri aduersus taxerem fuit centum 
+              <lb ed="#Ka"/>milia barbarum prelio superati sunt</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e281">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97963-Rd1e309">Vegetius dere militari libro 3 titulo 9</ref> <quote xml:id="bHY6yh-d97963-Qd1e285">In 
+              <lb ed="#Ka"/>apto preliacione est periculum</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e296"> 
+              <ref xml:id="bHY6yh-d97963-Rd1e324">16 titulo</ref> <quote xml:id="bHY6yh-d97963-Qd1e298">Nescio 
+              <lb ed="#Ka"/>qua occulta ratione ymo pene diuina 
+              <lb ed="#Ka"/>alii contra alios dimicant et qui for<lb ed="#Ka" break="no"/>tiores 
+              vincerant ab inferioribus 
+              <lb ed="#Ka"/>sepe vincuntur</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e308"> 
+              <ref xml:id="bHY6yh-d97963-Rd1e338">26 titulo et finale</ref> <quote xml:id="bHY6yh-d97963-Qd1e310">In prelio so<lb ed="#Ka" break="no"/>let 
+              fortuna potantis habere quam virtus</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e320">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97963-Rd1e354">Cecilius firmianus de beata uita capitulo 4</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d97963-Qd1e324">Sapientis ac boni viri non est velle 
+              <lb ed="#Ka"/>certare ac se periculo committere quoniam 
+              <lb ed="#Ka"/>vincere non est in nostra potestate et 
+              <lb ed="#Ka"/>est anceps omne certamenet sed est 
+              <lb ed="#Ka"/>sapientis ac optimi viri non ad<lb ed="#Ka" break="no"/>uersarium 
+              vello tollere quod fieri fine 
+              <pb ed="#Ka" n="219-v"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>scelere ac periculo non potest</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e341">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97963-Rd1e376">Cato capitulo 3</ref> <quote xml:id="bHY6yh-d97963-Qd1e345">victorem a uicto superare 
+              <lb ed="#Ka"/>sepe uidemus</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e351">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97963-Rd1e388">Cassiodorus epistolarum libro 5 epistola 42</ref> <quote xml:id="bHY6yh-d97963-Qd1e355">actus 
+              <lb ed="#Ka"/>detestabilis certamen infelix cum 
+              <lb ed="#Ka"/>fueris uelle contendere quas fortiores 
+              <lb ed="#Ka"/>se non dubitat inuinire</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e365">
+              <ref xml:id="bHY6yh-d97963-Rd1e402">libro 9 epistola 25</ref> <quote xml:id="bHY6yh-d97963-Qd1e367">hos<lb ed="#Ka" break="no"/>tem 
+              congredi vanus semper euentus 
+              <lb ed="#Ka"/>est</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e374">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97963-Rd1e415">Baldo 15 fabula</ref> <quote xml:id="bHY6yh-d97963-Qd1e378">Est in lucrando fac<lb ed="#Ka" break="no"/>tum 
+              variabile quando et gladius nunc 
+              <lb ed="#Ka"/>hinc aliquoniam sceuit illine</quote>
+            </p>
+            <p xml:id="bHY6yh-d97963-d1e386">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-d97963-Rd1e429">Gualterius de castellione libro 2</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-d97963-Qd1e390">non in mediocris enim furor est 
+              <lb ed="#Ka"/>exponere bellis vno nolle semel 
+              <lb ed="#Ka"/>fortune cuncta subiectu</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
