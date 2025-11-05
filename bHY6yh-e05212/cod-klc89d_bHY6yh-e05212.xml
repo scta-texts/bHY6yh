@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 2</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 2</title>
+               <date when="2025-11-04">November 4, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-11-04" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="238-v"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e05212"><!-- p5l3-r2 -->
+            <head xml:id="bHY6yh-e05212-Hd1e108">Rubrica 2</head>
+            <head xml:id="bHY6yh-e05212-Hd1e111" type="question-title">De fortuitis aut fatalibus accidentibus aduersitatis vel prosperitatis</head>
+            <p xml:id="bHY6yh-e05212-d1e114">
+              <lb ed="#Ka" n="59"/>de fortuitis ac fatalibus acciden<lb ed="#Ka" break="no"/>tibus
+              aduersitatis uel prosperitatis Rubrica 2
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e05212-Rd1e118">ARistotiles rethoris 
+              <lb ed="#Ka"/>libro 2 capitulo 24</ref> <quote xml:id="bHY6yh-e05212-Qd1e127">hominibus 
+              <lb ed="#Ka"/>multa cadunt non veri<lb ed="#Ka" break="no"/>similia 
+              fit enim praeter</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e135"> 
+              // <ref xml:id="bHY6yh-e05212-Rd1e133">Idem ethycorum 
+              <pb ed="#Ka" n="239-r"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>libro I capitulo I</ref> <quote xml:id="bHY6yh-e05212-Qd1e137">Multis contingunt detrim<lb ed="#Ka" break="no"/>enta 
+              ex bonis iam enim quidam 
+              <lb ed="#Ka"/>perierunt propter diuitias fortitu<lb ed="#Ka" break="no"/>dinem</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e148"> 
+              // <ref xml:id="bHY6yh-e05212-Rd1e151">Idem magnorum morali<lb ed="#Ka" break="no"/>um 
+              libro I capitulo I</ref> <quote xml:id="bHY6yh-e05212-Qd1e150">a fortuna et diui<lb ed="#Ka" break="no"/>tie 
+              et principatus et vniuersaliter 
+              <lb ed="#Ka"/>quecumque potentie conueniunt</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e158">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e05212-Rd1e163">Virgilius eneydos libro 10 circa medium</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-e05212-Qd1e167">nescia mens hominum fati fortis<lb ed="#Ka" break="no"/>que 
+              future</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e168">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e05212-Rd1e174">Tulius rethoricorum artis noue libro 
+              <lb ed="#Ka"/>5 capitulo 10</ref> // <quote xml:id="bHY6yh-e05212-Qd1e172">Omnia subiecta sunt sub 
+              <lb ed="#Ka"/>fortitudine dominatione // Errant qui 
+              <lb ed="#Ka"/>in prosperis rebus ciuitas fortune 
+              <lb ed="#Ka"/>se putant fugisse ei non multum 
+              <lb ed="#Ka"/>potest obesse fortuna qui sibi firmius 
+              <lb ed="#Ka"/>in virtute quam in casu praesidium col<lb ed="#Ka" break="no"/>locauit</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e186"> 
+              // <ref xml:id="bHY6yh-e05212-Rd1e192">Idem de amicitia</ref> <quote xml:id="bHY6yh-e05212-Qd1e188">non 
+              <lb ed="#Ka"/>solum ipsa est ceca fortuna sed etiam 
+              <lb ed="#Ka"/>plerumque efficit ceto quos comple<lb ed="#Ka" break="no"/>xa 
+              est</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e200">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e05212-Rd1e210">Seneca epistolarum ad lucillum libro 
+              <lb ed="#Ka"/>13 epistola 7 et penultimo</ref> <quote xml:id="bHY6yh-e05212-Qd1e204">Sapiens vin<lb ed="#Ka" break="no"/>cit 
+              virtute fortunam</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e210"> 
+              // <ref xml:id="bHY6yh-e05212-Rd1e220">libro 14 epistola 2</ref> <quote xml:id="bHY6yh-e05212-Qd1e212">nul<lb ed="#Ka" break="no"/>lus 
+              contra fortunam in <sic>expungnab<lb ed="#Ka" break="no"/>ilis</sic> 
+              murus est</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e219"> 
+              / <ref xml:id="bHY6yh-e05212-Rd1e231">libro 17 epistola 3</ref> <quote xml:id="bHY6yh-e05212-Qd1e221">Err<lb ed="#Ka" break="no"/>ant 
+              qui aut boni aliquid nobis 
+              <lb ed="#Ka"/>aut mali iudicant tribuere for<lb ed="#Ka" break="no"/>tunam 
+              // Materiam dat bonorum 
+              <lb ed="#Ka"/>et inicia rerum apud nos in malum 
+              <lb ed="#Ka"/>bonam ne exituram valenti<lb ed="#Ka" break="no"/>or 
+              enim omni fortuna animus 
+              <lb ed="#Ka"/>est et in veram que pertem res suas 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>ducit beateque ac misere uite sibi causa 
+              <lb ed="#Ka"/>est</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e238">
+              <ref xml:id="bHY6yh-e05212-Rd1e254">Idem tragediarum in ypolito capitulo 10</ref>
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-e05212-Qd1e242">res humanes ordine nullo for<lb ed="#Ka" break="no"/>tuna 
+              regit spargit que manu 
+              <lb ed="#Ka"/>munera ceca peiora fouens</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e252"> 
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e05212-Rd1e268">In medea capitulo 3</ref> <quote xml:id="bHY6yh-e05212-Qd1e254">fortuna opes auffer<lb ed="#Ka" break="no"/>re 
+              non animum potest</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e260">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e05212-Rd1e280">Lex F titulo de minoribus libro verum</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-e05212-Qd1e264">quo facto contingit cui ius patri<lb ed="#Ka" break="no"/>familis 
+              quamuis diligentissimo 
+              <lb ed="#Ka"/>potest contingere</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e272"> 
+              / <ref xml:id="bHY6yh-e05212-Rd1e292">titulo administra rerum 
+              <lb ed="#Ka"/>ad ciuitatem pertinente libro 2 § si eo</ref> <quote xml:id="bHY6yh-e05212-Qd1e274">fortuitos 
+              <lb ed="#Ka"/>casus nullum hominum consilium 
+              <lb ed="#Ka"/>prouidere potest</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e284">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e05212-Rd1e309">Lex codicis titulo de suppratis XXX annorum 
+              <lb ed="#Ka"/>libro finali</ref> // <quote xml:id="bHY6yh-e05212-Qd1e288">Sortes humane multe sunt 
+              <lb ed="#Ka"/>que nec dici ne enummerari possunt</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e297">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e05212-Rd1e325">Valerius maximus libro 7 titulo I</ref> <quote xml:id="bHY6yh-e05212-Qd1e301">pa<lb ed="#Ka" break="no"/>tet 
+              fortunam aduersas res cupid<lb ed="#Ka" break="no"/>o 
+              animo infligere secundas par<lb ed="#Ka" break="no"/>tho 
+              tribuere</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e309">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e05212-Rd1e339">Fulgentius mitologiarum in pro<lb ed="#Ka" break="no"/>hemio</ref> 
+              <quote xml:id="bHY6yh-e05212-Qd1e313">felicitatis nouerca fortu<lb ed="#Ka" break="no"/>na 
+              est que amarum quodam humanis 
+              <lb ed="#Ka"/>interseris semper negociis</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e321">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e05212-Rd1e353">Cato capitulo 3</ref> <quote xml:id="bHY6yh-e05212-Qd1e325">Indulget fortuna m<lb ed="#Ka" break="no"/>alis 
+              ut ledere possit</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e331"> 
+              // <ref xml:id="bHY6yh-e05212-Rd1e363">capitulo 5 et finali</ref> <quote xml:id="bHY6yh-e05212-Qd1e333">Cum 
+              <lb ed="#Ka"/>sis incautus nec rem ratione gu<lb ed="#Ka" break="no"/>bernes 
+              // Noli fortunam que non 
+              <lb ed="#Ka"/>est dicere cecam</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e341">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e05212-Rd1e377">Boetius de consolatione libro 2 capitulo 3</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-e05212-Qd1e345">fortuna fingitur loqui hec verba hec 
+              <lb ed="#Ka"/>nostra uis est hunc continuum est
+              <pb ed="#Ka" n="239-v"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>ludum ludimus rotam uolubuli or<lb ed="#Ka" break="no"/>bo 
+              versamus nunc insima summus 
+              <lb ed="#Ka"/>nunc summa infimis mutare gaudemus 
+              <lb ed="#Ka"/>ascendo si placet sed ea lege ut cum 
+              <lb ed="#Ka"/>ludicri mei ratio poposcit descendere 
+              <lb ed="#Ka"/>in Iuriam non putes Quid tra<lb ed="#Ka" break="no"/>gediarum 
+              clamor aliud deflet nisi 
+              <lb ed="#Ka"/>fortunam indiscreto ictu felicia re<lb ed="#Ka" break="no"/>gena 
+              videnturentem</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e366"> 
+              / <ref xml:id="bHY6yh-e05212-Rd1e402">capitulo 5</ref> <quote xml:id="bHY6yh-e05212-Qd1e368">Rara est 
+              <lb ed="#Ka"/>fortuitis rebus manendi fides</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e375">
+              <lb ed="#Ka"/>// <ref xml:id="bHY6yh-e05212-Rd1e415">Cassiodorus epistolarum libro 4 epistola 47</ref> 
+              <lb ed="#Ka"/>// <quote xml:id="bHY6yh-e05212-Qd1e379">homines cum ludere cupiunt bene<lb ed="#Ka" break="no"/>ficia 
+              frequenter impartiunt</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e391">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e05212-Rd1e433">Versificator fabularum esopi 42 fabula</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-e05212-Qd1e395">Cum leserit miseros fortuna me<lb ed="#Ka" break="no"/>detur 
+              eisdem</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e401">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e05212-Rd1e445">Auctor libri qui dicitur pamphilus 
+              <lb ed="#Ka"/>capitulo 13</ref> <quote xml:id="bHY6yh-e05212-Qd1e405">Obstitit interdum factis for<lb ed="#Ka" break="no"/>tuna 
+              virorum propositumque suo non 
+              <lb ed="#Ka"/>sinit esse loco sic nocuit multis multos 
+              <lb ed="#Ka"/>cum illa beat viuit in hoc mundo 
+              <lb ed="#Ka"/>taliter omnis homo</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e417">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e05212-Rd1e463">Gualterius de castellione libro 2</ref> //
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-e05212-Qd1e421">Casus ruit in prouisus in omnes</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e427">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e05212-Rd1e475">Bertrandus in yconomica capitulo I</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-e05212-Qd1e431">licet omnium rerum mundanarum status et 
+              <lb ed="#Ka"/>exitus negociorum sub forma lab<lb ed="#Ka" break="no"/>orent 
+              non tamen hoc timore est vi<lb ed="#Ka" break="no"/>uendi 
+              regula obmittenda</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e441"> 
+              // <ref xml:id="bHY6yh-e05212-Rd1e489">34 
+              <lb ed="#Ka"/>capitulo</ref> <quote xml:id="bHY6yh-e05212-Qd1e443">Seruans doctrinam raro accusa<lb ed="#Ka" break="no"/>bit 
+              fortunam // Raro diligentiam cum 
+              <lb ed="#Ka"/>in fortunio sociabis Sed rarius 
+              <lb ed="#Ka"/>a pigritia in fortunium separabis</quote>
+            </p>
+            <p xml:id="bHY6yh-e05212-d1e454">
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e05212-Rd1e506">Prouerbium uulgare</ref> // <quote xml:id="bHY6yh-e05212-Qd1e458">achi dio 
+              <lb ed="#Ka"/>uol bene dormando geuene 
+              <lb ed="#Ka"/>achi dio uol male pegore lida 
+              <lb ed="#Ka"/>de dente achi dio vol male el 
+              <lb ed="#Ka"/>ge tol el samo.</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
