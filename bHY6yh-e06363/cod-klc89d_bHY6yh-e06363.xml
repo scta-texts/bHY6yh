@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 4</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 4</title>
+               <date when="2025-11-06">October 6, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-11-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="241-v"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e06363"><!-- p5l3-r4 -->
+            <head xml:id="bHY6yh-e06363-Hd1e108">Rubrica 4</head>
+            <head xml:id="bHY6yh-e06363-Hd1e111" type="question-title">De naturali mutabilitate status cuiusque</head>
+            <p xml:id="bHY6yh-e06363-d1e114">
+              <lb ed="#Ka" n="31"/>De naturabili mutabilitate status 
+              <lb ed="#Ka"/>cuiuscumque Rubrica 4
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e121">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e06363-Rd1e118">SAlomon in prouerbiis 
+              <lb ed="#Ka"/>capitulo 24</ref> <quote xml:id="bHY6yh-e06363-Qd1e127">Septies cadet 
+              <lb ed="#Ka"/>iustus et resurget</quote> 
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e133">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e06363-Rd1e133">Aristotiles methaurorum libro I</ref> <quote xml:id="bHY6yh-e06363-Qd1e137">Omnia 
+              <lb ed="#Ka"/>permutantur tempore</quote>
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e144">
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e154">
+              <lb ed="#Ka"/><ref>Ouidius methamorfosis libro 15 et finali</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-e06363-Qd1e158">Nec spes sua cuique manet rerum<lb ed="#Ka" break="no"/>que 
+              nouatrix ex aliis alias reparat 
+              <lb ed="#Ka"/>natura figuras nil equidem con<lb ed="#Ka" break="no"/>stare 
+              diu sub ymagine ead cre<lb ed="#Ka" break="no"/>diderum</quote>
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e170">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e06363-Rd1e174">Quintilianus declamationum 8 declamatione</ref> // <quote xml:id="bHY6yh-e06363-Qd1e174">Sepe 
+              <lb ed="#Ka"/>in ymum summa decidunt</quote>
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e180">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e06363-Rd1e186">Seneca de consolatione ad marciam</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-e06363-Qd1e184">omnia humana breuia et caduca 
+              <lb ed="#Ka"/>sunt Quidquid ad summum uenit 
+              <lb ed="#Ka"/>^ad exitum prope est vbi incremento locus 
+              <lb ed="#Ka"/>est vicinus occasione est</quote>
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e194">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e06363-Rd1e202">Lucanus libro primo</ref> / <quote xml:id="bHY6yh-e06363-Qd1e198">Summusque negatum 
+              <lb ed="#Ka"/>stare diu in se magna ruunt</quote>
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e204">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e06363-Rd1e214">Lex codice titulo de ueteri iure enuclus 
+              <lb ed="#Ka"/>libro 5 § sed quia diuine</ref> <quote xml:id="bHY6yh-e06363-Qd1e208">humani Iuris 
+              <lb ed="#Ka"/>conditio semper infinitum decurrit 
+              <lb ed="#Ka"/>et nichil est inea quod stare perpetuo 
+              <lb ed="#Ka"/>possit multas et enim formas edere 
+              <lb ed="#Ka"/>natura nouas deproperat</quote>
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e221">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e06363-Rd1e234">Lex artis titulo de non alienandis etc § ut autem</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-e06363-Qd1e225">Quid erit stabile inter homines 
+              <lb ed="#Ka"/>et ita in mobile ut nullam patiatur 
+              <pb ed="#Ka" n="242-r"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>in mutationem cum omnis vester 
+              <lb ed="#Ka"/>status sub perpetuo motu consistat</quote>
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e235"> 
+              <lb ed="#Ka"/>// <ref xml:id="bHY6yh-e06363-Rd1e248">titulo ut omnes obediant iudicibus 
+              <lb ed="#Ka"/>etc. § hanc dicentes</ref> <quote xml:id="bHY6yh-e06363-Qd1e237">nichil pe<lb ed="#Ka" break="no"/>ne 
+              in semetipso manet sed currit 
+              <lb ed="#Ka"/>natura semper multas euoluens quas 
+              <lb ed="#Ka"/>neque prouidere facile est neque 
+              <lb ed="#Ka"/>predicere</quote>
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e249">
+              <ref xml:id="bHY6yh-e06363-Rd1e267">claudianus libro I</ref> <quote xml:id="bHY6yh-e06363-Qd1e253">Mobile m<lb ed="#Ka" break="no"/>utatur 
+              semper cum prima pe uulgus</quote>
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e259">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e06363-Rd1e279">Prosper sub ultimo capitulo</ref> <quote xml:id="bHY6yh-e06363-Qd1e263">non idem status 
+              <lb ed="#Ka"/>est agris non urbibus illis omnia<lb ed="#Ka" break="no"/>que 
+              in sine precipitarunt</quote>
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e271">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e06363-Rd1e293">Boetius de consolatione libro 2 capitulo 5</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-e06363-Qd1e275">ullam ne humanis rebus constan<lb ed="#Ka" break="no"/>tiam 
+              in esse reus cum ipsum ho<lb ed="#Ka" break="no"/>minem 
+              uelox hora dissoluit</quote>
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e289"> 
+              // <ref xml:id="bHY6yh-e06363-Rd1e311">6 capitulo</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-e06363-Qd1e291">Constat eterna positumque lege est 
+              <lb ed="#Ka"/>ut constet genitum nichil</quote>
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e300">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e06363-Rd1e327">Cassiodorus epistolarum libro 3 epistola 49</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-e06363-Qd1e304">humane res mutabilitate quati<lb ed="#Ka" break="no"/>untur</quote>
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e310">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e06363-Rd1e339">Versificator fabularum esopi fabula 
+              <lb ed="#Ka"/>44</ref> <quote xml:id="bHY6yh-e06363-Qd1e314">Stare diu nec uis <unclear>habere</unclear> nec honor 
+              <lb ed="#Ka"/>nec forma nec etas // Sufficit in 
+              <lb ed="#Ka"/>mundo plus cum ista placent</quote>
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e322">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e06363-Rd1e353">Gualterius de castellione libro 9 et 
+              <lb ed="#Ka"/>penultimo</ref> <quote xml:id="bHY6yh-e06363-Qd1e326">Res ita se prebent ut 
+              <lb ed="#Ka"/>nulli phas sit in vno semper 
+              <lb ed="#Ka"/>stare gradu</quote>
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e334">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e06363-Rd1e367">Richardus iudex venusinus libro de 
+              <lb ed="#Ka"/>pertractione nuptis epistola 35</ref> <quote xml:id="bHY6yh-e06363-Qd1e338">transit hon<lb ed="#Ka" break="no"/>or 
+              pereunt preciosa iuuenta senescit 
+              <lb ed="#Ka"/>deficiunt vires gloria queque perit</quote>
+            </p>
+            <p xml:id="bHY6yh-e06363-d1e346">
+              <lb ed="#Ka"/>// <ref xml:id="bHY6yh-e06363-Rd1e382">capitulo 45</ref> // <quote xml:id="bHY6yh-e06363-Qd1e350">Elatis raro gloria longa 
+              <cb ed="#Ka" n="b"/>
+              <lb ed="#Ka"/>datur ardua namque cadunt 
+              <lb ed="#Ka"/>et tume facta crepant</quote>
+            </p>
+            <p>
+              <lb ed="#Ka"/><ref>Prouerbia uulgaria</ref> <quote>El mal dura 
+              <lb ed="#Ka"/>ma el non regna</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
