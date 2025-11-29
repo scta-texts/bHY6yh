@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10</title>
+               <date when="2025-11-28">November 28, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+          <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>        
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="251-v"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e11270"><!-- p5l4-r10 -->
+            <head xml:id="bHY6yh-e11270-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-e11270-Hd1e111" type="question-title">De laudabiliter morientibus et laudabili fama mortuorum</head>
+          <p xml:id="bHY6yh-e11270-d1e114">
+            <lb ed="#Ka" n="60"/>De laudabiliter morientibus et lau<lb ed="#Ka" break="no"/>dabili 
+            fama mortuorum Rubrica 10 
+          </p>
+          <p xml:id="bHY6yh-e11270-d1e121">
+            <lb ed="#Ka"/><ref xml:id="bHY6yh-e11270-Rd1e118">THobie capitulo 3</ref> <quote xml:id="bHY6yh-e11270-Qd1e125">hoc pro cer<lb ed="#Ka" break="no"/>to 
+            habet // omnis homo 
+            <lb ed="#Ka"/>qui colit deum quoniam 
+            <lb ed="#Ka"/>uita eius si in probatione fuerit 
+            <lb ed="#Ka"/>coronabitur</quote> 
+          </p>
+          <p xml:id="bHY6yh-e11270-d1e135">
+            <lb ed="#Ka"/><ref xml:id="bHY6yh-e11270-Rd1e134">Socrates in exortationibus 
+            <pb ed="#Ka" n="252-r"/>
+            <cb ed="#Ka" n="a"/>
+            <lb ed="#Ka"/>capitulo 2 in finali</ref> <quote xml:id="bHY6yh-e11270-Qd1e139">mori quidem in omnes pro<lb ed="#Ka" break="no"/>mulgauit 
+            fortuna bene autem m<lb ed="#Ka" break="no"/>ori 
+            propria natura virtuosis attribuit</quote>
+          </p>
+          <p xml:id="bHY6yh-e11270-d1e150">
+            <lb ed="#Ka"/><ref xml:id="bHY6yh-e11270-Rd1e151">Virgilius eneydos libro 10 curca me<lb ed="#Ka" break="no"/>dium</ref> 
+            <quote xml:id="bHY6yh-e11270-Qd1e154">Stat sua cuique dies breue 
+            <lb ed="#Ka"/>et irreparabile tempus omnibus 
+            <lb ed="#Ka"/>est uite sed famam extendere factis
+            <lb ed="#Ka"/>hoc uirtutis opus</quote>
+          </p>
+          <p xml:id="bHY6yh-e11270-d1e164">
+            // <ref xml:id="bHY6yh-e11270-Rd1e167">Tulius phili<lb ed="#Ka" break="no"/>ppicorum 
+            libro 13 et finali</ref> <quote xml:id="bHY6yh-e11270-Qd1e168">breuis a natura 
+            <lb ed="#Ka"/>nobis uita est at memoria bene 
+            <lb ed="#Ka"/>reddite uite sempiterna</quote>
+          </p>
+          <p xml:id="bHY6yh-e11270-d1e176"> 
+            // <ref xml:id="bHY6yh-e11270-Rd1e179">Idem de 
+            <lb ed="#Ka"/>oratione pro marco marcello</ref> // <quote xml:id="bHY6yh-e11270-Qd1e178">nec 
+            <lb ed="#Ka"/>hec tua uita dicenda est que corpore 
+            <lb ed="#Ka"/>sed spiritum continetur // Illa in quam uita est 
+            <lb ed="#Ka"/>tua que uibebit memoria seculorum 
+            <lb ed="#Ka"/>omnium quam posteritas alet quam 
+            <lb ed="#Ka"/>ipsa eternitas semper tuebitur huic tu 
+            <lb ed="#Ka"/>in seruias hinc te obstentes oportet</quote>
+          </p>
+          <p xml:id="bHY6yh-e11270-d1e192">
+            <lb ed="#Ka"/><ref xml:id="bHY6yh-e11270-Rd1e200">Libro sapientia capitulo 5</ref> <quote xml:id="bHY6yh-e11270-Qd1e196">Iusti in perpe<lb ed="#Ka" break="no"/>tuum 
+            viuent et apud deum est 
+            <lb ed="#Ka"/>merces eorum</quote>
+          </p>
+          <p xml:id="bHY6yh-e11270-d1e202">
+            <lb ed="#Ka"/><ref xml:id="bHY6yh-e11270-Rd1e212">Matheus in ewangelio capitulo </ref> <quote xml:id="bHY6yh-e11270-Qd1e206">beati mundo 
+            <lb ed="#Ka"/>corde quoniam ipsum deum videbunt beati 
+            <lb ed="#Ka"/>qui persecutionem patiuntur propter 
+            <lb ed="#Ka"/>iustitiam quoniam ipsorum est regnum ce<lb ed="#Ka" break="no"/>lorum</quote>
+          </p>
+          <p xml:id="bHY6yh-e11270-d1e216">
+            <lb ed="#Ka"/><ref xml:id="bHY6yh-e11270-Rd1e228">Marcus in ewangelio capitulo 10</ref> <quote xml:id="bHY6yh-e11270-Qd1e220">paruu<lb ed="#Ka" break="no"/>lorum
+            est regnum dei</quote>
+          </p>
+          <p xml:id="bHY6yh-e11270-d1e227">
+            <lb ed="#Ka"/><ref xml:id="bHY6yh-e11270-Rd1e241">Iohannes in appocalipso capitulo 14</ref> <quote xml:id="bHY6yh-e11270-Qd1e231">beabit 
+            <lb ed="#Ka"/>mortui qui In domino moriuntur</quote>
+          </p>
+          <p xml:id="bHY6yh-e11270-d1e237">
+            <lb ed="#Ka"/><ref xml:id="bHY6yh-e11270-Rd1e253">Lex instituta titulo de excusationibus tutorum § iii</ref> 
+            <lb ed="#Ka"/><quote xml:id="bHY6yh-e11270-Qd1e241">Qui pro re publica ceciderunt In 
+            <lb ed="#Ka"/>perpetuum per gloriam viuere intel<lb ed="#Ka" break="no"/>liguntur</quote>
+          </p>
+          <p xml:id="bHY6yh-e11270-d1e253">
+            <lb ed="#Ka"/><ref xml:id="bHY6yh-e11270-Rd1e271">Marcialis cocus libro vndique susc<lb ed="#Ka" break="no"/>epto 
+            <cb ed="#Ka" n="b"/>
+            <lb ed="#Ka"/>capitulo 2</ref> // <quote xml:id="bHY6yh-e11270-Qd1e257">Tarde et subito uita 
+            <lb ed="#Ka"/>decore nil est // Si bene decedas 
+            <lb ed="#Ka"/>pindare non nichil est</quote>
+          </p>
+          <p xml:id="bHY6yh-e11270-d1e265">
+            <lb ed="#Ka"/><ref xml:id="bHY6yh-e11270-Rd1e285">Augustinus in epigrammatibus prosperi 50 
+            <lb ed="#Ka"/>epigramma</ref> <quote xml:id="bHY6yh-e11270-Qd1e269">mala mors putanda non 
+            <lb ed="#Ka"/>est quam bona uita precessit</quote>
+          </p>
+          <p xml:id="bHY6yh-e11270-d1e277">
+            <lb ed="#Ka"/> //<ref xml:id="bHY6yh-e11270-Rd1e300">Cato 
+            <lb ed="#Ka"/>capitulo 5</ref> // <quote xml:id="bHY6yh-e11270-Qd1e281">felices obeunt quorum sine 
+            <lb ed="#Ka"/>crimine uita est</quote>
+          </p>
+          <p xml:id="bHY6yh-e11270-d1e287">
+            <lb ed="#Ka"/><ref xml:id="bHY6yh-e11270-Rd1e312">Bernhardus libro de improbatione 
+            <lb ed="#Ka"/>uiciorum capitulo 9 et finali</ref> // <quote xml:id="bHY6yh-e11270-Qd1e291">Id solum terret 
+            <lb ed="#Ka"/>post mortem factam beabit <unclear>: is</unclear> 
+            <lb ed="#Ka"/>Quod bene quod iuste quod que recte feceris 
+            <lb ed="#Ka"/>ipse</quote>
+          </p>
+          <p xml:id="bHY6yh-e11270-d1e302">
+            // <ref xml:id="bHY6yh-e11270-Rd1e330">Matheus vindocinensis 
+            <lb ed="#Ka"/>de hystoria thobie capitulo <del>3</del> 66 et ante<lb ed="#Ka" break="no"/>penultimo</ref> 
+            <quote xml:id="bHY6yh-e11270-Qd1e306">Iustus obit nec obit sed abit 
+            <lb ed="#Ka"/>ab hospite migrans // Carne petit 
+            <lb ed="#Ka"/>patriam delitias que patris <unclear>: is</unclear></quote>
+          </p>
+         </div>
+      </body>
+   </text>
+</TEI>
