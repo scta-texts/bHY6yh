@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 10</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 10</title>
+               <date when="2025-11-09">November 9, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-11-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="246-r"/>
+            <cb ed="#Ka" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e08576"><!-- p5l3-r10 -->
+            <head xml:id="bHY6yh-e08576-Hd1e108">Rubrica 10</head>
+            <head xml:id="bHY6yh-e08576-Hd1e111" type="question-title">De misericordia et immisericordia</head>
+          <p xml:id="bHY6yh-e08576-d1e114">
+            <lb ed="#Ka" n="29"/>de misericordia et In miseri<lb ed="#Ka" break="no"/>cordia 
+            Rubrica 10
+          </p>
+          <p xml:id="bHY6yh-e08576-d1e119">
+            <cb ed="#Ka" n="b"/>
+            <lb ed="#Ka"/><ref xml:id="bHY6yh-e08576-Rd1e116">IN exodo capitulo 22</ref> <quote xml:id="bHY6yh-e08576-Qd1e123">ad venam non 
+            <lb ed="#Ka"/>contri stabis neque affliges eum 
+            <lb ed="#Ka"/>vidue et pupillo non nocebis 
+            <lb ed="#Ka"/>Si leseris eos vociferabuntur ad me 
+            <lb ed="#Ka"/>et ego audiam clamorem eorum 
+            <lb ed="#Ka"/>et indignabitur furor meus percutiam<lb ed="#Ka" break="no"/>que 
+            uos gladio et erunt vxores uestre 
+            <lb ed="#Ka"/>vidue et filii vestri pupilli</quote> 
+          </p>
+          <p xml:id="bHY6yh-e08576-d1e142"> 
+            // <ref xml:id="bHY6yh-e08576-Rd1e139">capitulo 22</ref> <quote xml:id="bHY6yh-e08576-Qd1e144">P<lb ed="#Ka" break="no"/>auperis 
+            misereberis in negocio non 
+            <lb ed="#Ka"/>declinabis In Iudicio pauperis
+            <lb ed="#Ka"/>peregrino molestus non eris</quote>
+          </p>
+          <p xml:id="bHY6yh-e08576-d1e153">
+            <ref xml:id="bHY6yh-e08576-Rd1e154">In le<lb ed="#Ka" break="no"/>uitico</ref> 
+            <quote xml:id="bHY6yh-e08576-Qd1e157">opus mercenarii apud te 
+            <lb ed="#Ka"/>usque mane non male dices surdo 
+            <lb ed="#Ka"/>nec coram ceco pones offendiculum 
+            <lb ed="#Ka"/>si habitauerit aduena in terra vestra 
+            <lb ed="#Ka"/>et moratus fuerit inter uos quasi 
+            <lb ed="#Ka"/>idigena</quote>
+          </p>
+          <p xml:id="bHY6yh-e08576-d1e171"> 
+            // <ref xml:id="bHY6yh-e08576-Rd1e172">24 capitulo</ref> <quote xml:id="bHY6yh-e08576-Qd1e173">Equum iudicium 
+            <lb ed="#Ka"/>sit inter vos siue peregrinis siue ciuius 
+            <lb ed="#Ka"/>peccauerit</quote>
+          </p>
+          <p xml:id="bHY6yh-e08576-d1e179">
+            <lb ed="#Ka"/><ref xml:id="bHY6yh-e08576-Rd1e184">Moyses in deuteronomio capitulo 27</ref> <quote xml:id="bHY6yh-e08576-Qd1e183">Male<lb ed="#Ka" break="no"/>dictus
+            qui facit errare tecum in i<lb ed="#Ka" break="no"/>tinere 
+            // Maledictus qui peruertit iudi<lb ed="#Ka" break="no"/>cium 
+            aduene et pupilli et uidue</quote>
+          </p>
+          <p xml:id="bHY6yh-e08576-d1e191">
+            <lb ed="#Ka"/><ref xml:id="bHY6yh-e08576-Rd1e198"><sic>Thobie</sic> historia capitulo 4</ref> <quote xml:id="bHY6yh-e08576-Qd1e195">Noli auertere 
+            <lb ed="#Ka"/>faciem suam ab ullo paupere ita 
+            <lb ed="#Ka"/>enim fiet ut nec a te auertetur 
+            <lb ed="#Ka"/>facies domini quicumque tibi aliquid 
+            <lb ed="#Ka"/>operatus fuerit statim ei merce<lb ed="#Ka" break="no"/>dem 
+            restitue et merces merce<lb ed="#Ka" break="no"/>narii 
+            apud te omnino non remaneat</quote>
+          </p>
+          <p xml:id="bHY6yh-e08576-d1e207">
+            <lb ed="#Ka"/><ref xml:id="bHY6yh-e08576-Rd1e216">Psalmista 9 // psalmus</ref> <quote xml:id="bHY6yh-e08576-Qd1e211">patientia pa<lb ed="#Ka" break="no"/>uperum 
+            non peribit in finem</quote>
+          </p>
+          <p xml:id="bHY6yh-e08576-d1e217"> 
+            <ref xml:id="bHY6yh-e08576-Rd1e226">40 psalmus</ref> 
+            <pb ed="#Ka" n="246-v"/>
+            <cb ed="#Ka" n="a"/>
+            <lb ed="#Ka"/><quote xml:id="bHY6yh-e08576-Qd1e219">Beatus qui Intelligit super egenum 
+            <lb ed="#Ka"/>et pauperem indie mala libera<lb ed="#Ka" break="no"/>bit 
+            eum dominus</quote>
+          </p>
+          <p xml:id="bHY6yh-e08576-d1e226">
+            // <ref xml:id="bHY6yh-e08576-Rd1e239">16 psalmus</ref> <quote xml:id="bHY6yh-e08576-Qd1e230">faciet dominus 
+            <lb ed="#Ka"/>iudicium in opis et vindicam paup<lb ed="#Ka" break="no"/>erum</quote>
+          </p>
+          <p xml:id="bHY6yh-e08576-d1e236"> 
+            // <ref xml:id="bHY6yh-e08576-Rd1e249">166 psalmus</ref> // <quote xml:id="bHY6yh-e08576-Qd1e238">dominus custodit adue<lb ed="#Ka" break="no"/>nas 
+            pupilum et uiduam suscipiet</quote>
+          </p>
+          <p xml:id="bHY6yh-e08576-d1e244">
+            <lb ed="#Ka"/><ref xml:id="bHY6yh-e08576-Rd1e261">Salomon in prouerbiis capitulo 14</ref> // <quote xml:id="bHY6yh-e08576-Qd1e248">Etiam 
+            <lb ed="#Ka"/>proximo suo pauper beatus erit 
+            <lb ed="#Ka"/>qui miseretur pauperi beatus erit //</quote>
+          </p>
+          <p xml:id="bHY6yh-e08576-d1e260"> 
+            <lb ed="#Ka"/><ref xml:id="bHY6yh-e08576-Rd1e277">17 capitulo</ref> / <quote xml:id="bHY6yh-e08576-Qd1e262">qui despicit pauperem exprobat 
+            <lb ed="#Ka"/>scutori suo // Qui In ruina letatur 
+            <lb ed="#Ka"/>alterius non erit inpunitus</quote>
+          </p>
+          <p xml:id="bHY6yh-e08576-d1e270"> 
+            // <ref xml:id="bHY6yh-e08576-Rd1e289">18 capitulo</ref> <quote xml:id="bHY6yh-e08576-Qd1e272">Cum 
+            <lb ed="#Ka"/>obsecrationibus loquitur pauper</quote>
+          </p>
+          <p xml:id="bHY6yh-e08576-d1e278"> 
+            // <ref xml:id="bHY6yh-e08576-Rd1e299">19 capitulo</ref> 
+            <lb ed="#Ka"/><quote xml:id="bHY6yh-e08576-Qd1e280">frens hominis pauperis oderunt 
+            <lb ed="#Ka"/>eum insuper et amici procul recesse<lb ed="#Ka" break="no"/>runt 
+            abeo veneratur domino qui miseretur 
+            <lb ed="#Ka"/>pauperis et uicissitudinem suam 
+            <lb ed="#Ka"/>reddet ei</quote>
+          </p>
+          <p xml:id="bHY6yh-e08576-d1e291"> 
+            / <ref xml:id="bHY6yh-e08576-Rd1e314">21 capitulo</ref> <quote xml:id="bHY6yh-e08576-Qd1e293">Qui obtulerat au<lb ed="#Ka" break="no"/>rem 
+            suam ad clamorem paup<lb ed="#Ka" break="no"/>erem 
+            et ipse clamabit et non 
+            <lb ed="#Ka"/>exaudietur</quote>
+          </p>
+          <p xml:id="bHY6yh-e08576-d1e299">
+            // <ref xml:id="bHY6yh-e08576-Rd1e326">22 capitulo</ref> <quote xml:id="bHY6yh-e08576-Qd1e303">Non facies 
+            <lb ed="#Ka"/>uiolentiam pauperi quia pau<lb ed="#Ka" break="no"/>per 
+            quia dominus iudicabit causam 
+            <lb ed="#Ka"/>eius</quote>
+          </p>
+          <p xml:id="bHY6yh-e08576-d1e311">
+            <lb ed="#Ka"/><ref xml:id="bHY6yh-e08576-Rd1e340">Ihesus filius syrach in ecclesiastico 
+            <lb ed="#Ka"/>capitulo 4</ref> // <quote xml:id="bHY6yh-e08576-Qd1e315">Oculos tuos ne transferat 
+            <lb ed="#Ka"/>a paupere Non exasperes paup<lb ed="#Ka" break="no"/>erem 
+            in opia sua // Cor inopis 
+            <lb ed="#Ka"/>ne afflixeris et non protrahas datum 
+            <lb ed="#Ka"/>angustianti rogationem contri<lb ed="#Ka" break="no"/>bulanti 
+            ne abicias et ne auertas 
+            <lb ed="#Ka"/>faciem tuam ab egenis in Iu<lb ed="#Ka" break="no"/>dicando 
+            esto pupillis misericors 
+            <cb ed="#Ka" n="b"/>
+            <lb ed="#Ka"/>ut pater et pro uiro mater illorum</quote>
+          </p>
+          <p xml:id="bHY6yh-e08576-d1e332"> 
+            / <ref xml:id="bHY6yh-e08576-Rd1e361">12 
+            <lb ed="#Ka"/>capitulo</ref> <quote xml:id="bHY6yh-e08576-Qd1e334">Pascua diuitum sunt pauperes 
+            <lb ed="#Ka"/>humilis cum ceciderit expelletur 
+            <lb ed="#Ka"/>et a notis humilis deceptus est 
+            in super et arguitur locutus est sensa<lb ed="#Ka" break="no"/>te 
+            et non est ei datus locus</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
