@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubrica 25</title>
+            <author ref="#per-c7y65a">Geremia da Montagnone</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+        <respStmt>
+          <name ref="grantschreiber">Grant Schreiber</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Rubrica 25</title>
+               <date when="2025-10-19">October 19, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="Ka" n="cod-klc89d">Klosterneuberg, Stiftsbibliothek, CCl. 381</witness>      
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-10-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ka" n="228-r"/>
+            <cb ed="#Ka" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bHY6yh-e01499"><!-- p5l2-r25 -->
+            <head xml:id="bHY6yh-e01499-Hd1e108">Rubrica 25</head>
+            <head xml:id="bHY6yh-e01499-Hd1e111" type="question-title">De suis infidelibus seu criminosis caute emittendis vel puniendis</head>
+            <p xml:id="bHY6yh-e01499-d1e114">
+              <lb ed="#Ka" n="41"/>de suis Infidelibus seu criminosis 
+              <lb ed="#Ka"/>caute euitandis uel puniendis 
+              <lb ed="#Ka"/>Rubrica 25
+            </p>
+            <p xml:id="bHY6yh-e01499-d1e123">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e01499-Rd1e120">UAlerius maximus 
+              <lb ed="#Ka"/>libro 2 titulo de disciplina 
+              <lb ed="#Ka"/>militari</ref> <quote xml:id="bHY6yh-e01499-Qd1e127">aspero et ab<lb ed="#Ka" break="no"/>sciso 
+              castigationis generis milita<lb ed="#Ka" break="no"/>ris 
+              disciplina indiget quia uires 
+              <lb ed="#Ka"/>armis constant que vbi a recto ten<lb ed="#Ka" break="no"/>ore 
+              desiderint oppressura sunt nisi 
+              <lb ed="#Ka"/>opprimantur</quote>
+            </p>
+            <p xml:id="bHY6yh-e01499-d1e141">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e01499-Rd1e143">Frontinus libro 2 titulo 16</ref> <quote xml:id="bHY6yh-e01499-Qd1e145">dyotonos 
+              <lb ed="#Ka"/>cum presidio amphibolim tueretur 
+              <lb ed="#Ka"/>et duo milia tracharum suspecta 
+              <lb ed="#Ka"/>haberet que videbantur urbem 
+              <lb ed="#Ka"/>direptatur mentitus est paucas 
+              <lb ed="#Ka"/>hostium naues proximo litori 
+              <lb ed="#Ka"/>applicuisse easque diripi posse qua 
+              <lb ed="#Ka"/>specie simulata trachas emisit ac 
+              <lb ed="#Ka"/>deinde clausis portis non recepit</quote>
+            </p>
+            <p xml:id="bHY6yh-e01499-d1e165">
+              <lb ed="#Ka"/><ref xml:id="bHY6yh-e01499-Rd1e169">Vegetius dere militari libro 2 titulo 4</ref> 
+              <lb ed="#Ka"/><quote xml:id="bHY6yh-e01499-Qd1e169">dux debet esse attentus ut in omni<lb ed="#Ka" break="no"/>bus 
+              siue auxiliis uel uexila<lb ed="#Ka" break="no"/>tionibus 
+              tribunis <del>vita</del> vicariis 
+              <lb ed="#Ka"/>principii que si qui turbulenti 
+              <pb ed="#Ka" n="228-v"/>
+              <cb ed="#Ka" n="a"/>
+              <lb ed="#Ka"/>uel seditiosi fuerint milites non 
+              <lb ed="#Ka"/>prouidia sugerentium sed procerum 
+              <lb ed="#Ka"/>agendum aliquid quod ipsius prope uideatur 
+              <lb ed="#Ka"/>optabile aut ad castra vrbesque 
+              <lb ed="#Ka"/>minuendas deputet atque seruandas 
+              <lb ed="#Ka"/>tanta subtilitate ut eum abici<lb ed="#Ka" break="no"/>untur 
+              uideantur electi nunquam enim 
+              <lb ed="#Ka"/>ad contumaciam pari consensu mul<lb ed="#Ka" break="no"/>titudo 
+              prorumpit sed incitatur a paucis 
+              <lb ed="#Ka"/>qui viciorum scelerumque impunita<lb ed="#Ka" break="no"/>te 
+              sperant peccare cum plurimis 
+              <lb ed="#Ka"/>quod si fieri medicinam necessitas extre<lb ed="#Ka" break="no"/>ma 
+              persuasserit rectius est more 
+              <lb ed="#Ka"/>maioris in auctores criminum 
+              <lb ed="#Ka"/>vindicari ut ad omnes metus 
+              <lb ed="#Ka"/>ad paucos pena perueniat</quote>
+            </p>
+            <p xml:id="bHY6yh-e01499-d1e207"> 
+              <ref xml:id="bHY6yh-e01499-Rd1e211"><!--no ref--></ref> <quote xml:id="bHY6yh-e01499-Qd1e209">lau<lb ed="#Ka" break="no"/>dabiliores 
+              duces sunt quorum exercitum 
+              <lb ed="#Ka"/>ad modestiam labor et vsus insti<lb ed="#Ka" break="no"/>tuit 
+              quam illi quorum milites ad 
+              <lb ed="#Ka"/>obedientiam formido suppliciorum 
+              <lb ed="#Ka"/>compellit</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
